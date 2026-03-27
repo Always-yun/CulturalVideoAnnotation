@@ -6,6 +6,7 @@
 import os
 import sys
 import argparse
+import time
 from typing import List, Optional
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -162,16 +163,27 @@ def process_single_video(video_path: str, config: Config,
         
         print(f"--- 开始标注: {os.path.basename(video_path)} ---")
         
+        # 开始计时
+        start_time = time.time()
+        
         annotation_text = inference_engine.annotate_video(video_path)
+        
+        # 结束计时并计算处理时间
+        end_time = time.time()
+        processing_time_seconds = end_time - start_time
+        # 格式化处理时间为分:秒格式
+        processing_time = f"{int(processing_time_seconds // 60)}分{int(processing_time_seconds % 60)}秒"
         
         if verbose:
             print(f"--- 标注完成 ---")
+            print(f"处理时间: {processing_time}")
         
         video_metadata = inference_engine.video_processor.get_video_metadata(video_path)
         result = result_processor.create_result(
             video_path=video_path,
             annotation_text=annotation_text,
-            metadata=video_metadata.to_dict()
+            metadata=video_metadata.to_dict(),
+            processing_time=processing_time
         )
         
         result_processor.print_result(result, format_type)

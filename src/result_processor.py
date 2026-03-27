@@ -18,6 +18,7 @@ class AnnotationResult:
     video_name: str
     annotation_text: str
     timestamp: str
+    processing_time: Optional[str] = None
     metadata: Optional[Dict[str, Any]] = None
     
     def to_dict(self) -> Dict[str, Any]:
@@ -47,7 +48,8 @@ class ResultProcessor:
         os.makedirs(self.output_dir, exist_ok=True)
     
     def create_result(self, video_path: str, annotation_text: str,
-                     metadata: Optional[Dict[str, Any]] = None) -> AnnotationResult:
+                     metadata: Optional[Dict[str, Any]] = None, 
+                     processing_time: Optional[str] = None) -> AnnotationResult:
         """
         创建标注结果对象
         
@@ -55,6 +57,7 @@ class ResultProcessor:
             video_path: 视频文件路径
             annotation_text: 标注文本
             metadata: 视频元数据
+            processing_time: 处理时间
         
         Returns:
             AnnotationResult对象
@@ -64,6 +67,7 @@ class ResultProcessor:
             video_name=os.path.basename(video_path),
             annotation_text=annotation_text,
             timestamp=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            processing_time=processing_time,
             metadata=metadata
         )
     
@@ -104,8 +108,10 @@ class ResultProcessor:
             f"视频文件: {result.video_name}",
             f"视频路径: {result.video_path}",
             f"标注时间: {result.timestamp}",
-            ""
         ]
+        if result.processing_time:
+            header.append(f"处理时间: {result.processing_time}")
+        header.append("")
         emcast_content = self._extract_emcast_content(result.annotation_text)
         return "\n".join(header) + emcast_content
     
@@ -121,8 +127,10 @@ class ResultProcessor:
             f"视频文件: {result.video_name}",
             f"视频路径: {result.video_path}",
             f"标注时间: {result.timestamp}",
-            separator,
         ]
+        if result.processing_time:
+            output.append(f"处理时间: {result.processing_time}")
+        output.append(separator)
         
         if result.metadata:
             output.append("【视频元数据】")
