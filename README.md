@@ -16,6 +16,7 @@
 - 视频元数据提取：基于 ffmpeg 自动提取视频技术参数
 - 批量处理：支持单个视频和批量视频标注
 - 多格式输出：支持 TXT 和 JSON 格式输出
+- **多GPU并行处理**：智能检测GPU状态，自动分配任务到空闲GPU，支持多GPU并行处理
 
 ## 项目结构
 
@@ -32,7 +33,9 @@ CulturalVideoAnnotation/
 │   ├── video_processor.py  # 视频处理
 │   ├── inference_engine.py # 推理引擎
 │   ├── result_processor.py # 结果处理
+│   ├── gpu_manager.py      # GPU管理（新增）
 │   └── run_cultural_annotation.py # 主程序
+├── run_multi_gpu.py         # 多GPU并行处理脚本（新增）
 └── README.md              # 项目说明
 ```
 
@@ -113,7 +116,8 @@ python src/run_cultural_annotation.py --video data/1.mp4
 # 基本用法
 python src/run_cultural_annotation.py --video /path/to/video.mp4
 # 例如
-python src/run_cultural_annotation.py --video data/1.mp4
+python src/run_cultural_annotation.py --video data/720p胡同.mp4
+
 
 # 指定输出文件格式
 python src/run_cultural_annotation.py --video /path/to/video.mp4 --output-format txt
@@ -153,7 +157,51 @@ python src/run_cultural_annotation.py \
   --verbose
 ```
 
+### 多GPU并行处理（推荐）
+
+使用 `run_multi_gpu.py` 脚本可以智能检测GPU状态并自动分配任务到空闲GPU，实现多GPU并行处理。
+
+```bash
+# 检查GPU状态（不执行任务）
+python run_multi_gpu.py --check-gpu-only
+
+# 处理单个视频（自动选择最佳GPU）
+python run_multi_gpu.py --video /path/to/video.mp4
+
+# 处理多个视频（自动分配到多个GPU）
+python run_multi_gpu.py --video video1.mp4 video2.mp4 video3.mp4
+
+# 处理整个目录的视频（自动分配到多个GPU并行处理）
+python run_multi_gpu.py --video-dir /path/to/video/directory
+
+# 指定使用的GPU列表（默认检测GPU 0-4）
+python run_multi_gpu.py --video-dir /path/to/video/directory --gpu-ids 0 1 2 3 4
+
+# 每个GPU处理的视频数量
+python run_multi_gpu.py --video-dir /path/to/video/directory --videos-per-gpu 2
+
+# 完整参数示例
+python run_multi_gpu.py \
+  --video-dir /path/to/video/directory \
+  --gpu-ids 0 1 2 3 4 \
+  --videos-per-gpu 1 \
+  --output-format both \
+  --format-type standard \
+  --fps 0.5 \
+  --verbose
+```
+
+#### GPU智能分配策略
+
+系统会自动：
+1. 检测所有GPU的内存使用率、GPU利用率和进程数
+2. 计算每个GPU的可用性评分（综合考虑内存、利用率和进程数）
+3. 选择评分最高的GPU分配任务
+4. 支持在多个GPU上并行处理，最大化利用资源
+
 ## 命令行参数
+
+### 单GPU模式（run_cultural_annotation.py）
 
 | 参数 | 简写 | 说明 | 默认值 |
 |------|------|------|--------|
@@ -167,6 +215,22 @@ python src/run_cultural_annotation.py \
 | `--gpu` | - | 指定GPU设备ID | 5 |
 | `--no-ffmpeg` | - | 禁用ffmpeg元数据获取 | False |
 | `--verbose` | `-V` | 显示详细信息 | False |
+
+### 多GPU模式（run_multi_gpu.py）
+
+| 参数 | 简写 | 说明 | 默认值 |
+|------|------|------|--------|
+| `--video` | `-v` | 指定视频文件路径（可多个） | - |
+| `--video-dir` | `-d` | 指定视频目录 | - |
+| `--gpu-ids` | - | 指定要使用的GPU ID列表 | 0 1 2 3 4 |
+| `--videos-per-gpu` | - | 每个GPU处理的视频数量 | 1 |
+| `--output-dir` | `-o` | 指定输出目录 | ./outputs |
+| `--output-format` | - | 输出文件格式：txt/json/both | both |
+| `--format-type` | `-t` | 标注内容格式：clean/standard/detailed | standard |
+| `--fps` | `-f` | 视频采样帧率 | 0.5 |
+| `--max-frames` | - | 最大帧数限制 | None |
+| `--verbose` | `-V` | 显示详细信息 | False |
+| `--check-gpu-only` | - | 仅检查GPU状态，不执行任务 | False |
 
 ### 格式类型说明
 
@@ -419,6 +483,26 @@ python src/run_cultural_annotation.py --video video.mp4 --no-ffmpeg
 - **video_processor.py**: 视频处理和元数据提取
 - **inference_engine.py**: 推理引擎，处理标注逻辑
 - **result_processor.py**: 结果处理和格式化输出
+- **gpu_manager.py**: GPU状态检测和智能任务分配
+
+### 多GPU处理流程
+
+```
+1. GPU状态检测
+   └── 检测所有GPU的内存、利用率、进程数
+   
+2. GPU可用性评分
+   └── 综合计算每个GPU的可用性评分
+   
+3. 智能任务分配
+   └── 将视频分配到评分最高的GPU
+   
+4. 并行执行
+   └── 在多个GPU上并行处理视频
+   
+5. 结果汇总
+   └── 收集所有任务结果并生成报告
+```
 
 ### 核心流程
 
@@ -454,6 +538,14 @@ python src/run_cultural_annotation.py --video video.mp4 --no-ffmpeg
 如有问题或建议，请联系项目维护者。
 
 ## 更新日志
+
+### v1.1.0 (2026-05-08)
+- 新增多GPU并行处理功能
+- 添加 `gpu_manager.py` 模块，支持GPU状态检测和智能任务分配
+- 添加 `run_multi_gpu.py` 脚本，支持多GPU并行视频标注
+- 修复输出目录路径问题（确保输出到项目目录下的 outputs 文件夹）
+- 优化GPU可用性评分算法（综合考虑内存、利用率和进程数）
+- 更新 README 文档，添加多GPU使用说明
 
 ### v1.0.0 (2026-03-05)
 - 初始版本发布

@@ -64,9 +64,12 @@ class InferenceEngine:
         # 获取视频元数据
         video_metadata = self.video_processor.get_video_metadata(video_path)
         
-        # 生成提示词
+        # 生成提示词（传递视频路径用于动态场景检测）
         if prompt is None:
-            prompt = self.prompt_manager.get_emcast_prompt(video_metadata.to_dict())
+            prompt = self.prompt_manager.get_emcast_prompt(
+                video_metadata.to_dict(), 
+                video_path=video_path
+            )
         
         # 准备视频输入
         video_fps = fps if fps is not None else self.config.video.fps

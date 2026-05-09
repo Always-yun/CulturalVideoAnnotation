@@ -1,0 +1,36 @@
+视频文件: 50.mp4
+视频路径: data/中关村/50.mp4
+标注时间: 2026-04-22 16:56:45
+处理时间: 3分21秒
+【E｜场景环境层】
+视频构建了一个[现代化城市滨水公园/广场]的物理环境。此时处于[白天/晴朗微风]状态。整体场景呈现出[宁静、开阔、现代]的感官基调。
+
+【M｜主体行为层】
+画面的视觉焦点是[城市景观/水体]（承载主体）。
+外观特征：该主体具有[清澈水面、混凝土岸堤、远处绿树与现代建筑]特征。
+动态行为：主体呈现静态展示状态，远景处有微小的人影在岸边漫步，无显著互动。
+注：无显著活跃主体。
+
+【C｜文化维度层】
+该场景隶属于[创新文化]（体现当代城市建设与生态规划的现代成果）。
+核心符号：画面中承载该文化的关键符号是[现代化的水系设计、整齐的绿化带、远处的现代场馆式建筑]。
+价值指向：场景表达了[北京作为现代化国际大都市的生态宜居环境与城市更新理念]。
+
+【A｜视听语言层】
+镜头采用 [手持稳定器跟拍/缓慢推进]，以 [全景/大远景] 为主，景深为 [深]。光影条件为 [自然漫射光/阴天柔光]，构图方式为 [水平线构图/引导线构图]，视觉重心集中于 [前景的水面曲线与远景的天际线]。
+音频方面主要为[环境音]，声音与画面的关系为[实时]。
+
+【S｜整体叙事层】
+视频以平稳的视角记录了北京一处现代化城市公共空间的风貌。通过展现平静的水面、修剪整齐的树木以及远处的现代建筑，视频传达了城市环境的整洁与秩序，体现了现代城市规划下的生态美学。
+
+【T｜技术属性层】
+分辨率：3840x2160； 帧率：25.0 FPS； 画幅：16:9； 动态范围：SDR； 色彩空间/像素格式：yuv420p； 采样方式：4:2:0； 编码格式：h264； 视频时长：6.0秒； 码率：21373578； 尺寸：3840x2160
+
+Looks good. I will remove the brackets [] in the final output and replace them with the content directly as per the template example provided in the prompt instructions (wait, the prompt shows the template WITH brackets as placeholders, e.g., `[空间场所]`. I should fill them IN with the content, keeping the bracket style or just replacing? Usually, in these tasks, you replace the placeholder text with the actual description. The prompt says "Strictly follow the EMCAST annotation template structure below". The template shows `[ ]` as placeholders. I will replace the content inside the brackets with my analysis.)
+
+Wait, looking at the instruction: "Strictly follow the 'EMCAST Annotation Template' structure below... do not add numbers, placeholders or extra content".
+This implies I should output the text WITH the filled content, effectively removing the square brackets around the variable parts, or keeping them if they denote categories?
+Looking at the example format:
+`【E｜场景环境层】`
+`视频构建了一个[空间场所]的物理环境。` -> I should probably write `视频构建了一个[现代化城市滨水公园]的物理环境。` or just `视频构建了一个现代化城市滨水公园的物理环境。`?
+Usually, filling the template means replacing the placeholder text. I will
