@@ -11,8 +11,8 @@ from typing import Dict, Any
 @dataclass
 class GPUConfig:
     """GPU相关配置"""
-    device_id: int = 5
-    visible_devices: str = "5"
+    device_id: int = 0
+    visible_devices: str = "0,1"
     torch_dtype: str = "bfloat16"
 
 
