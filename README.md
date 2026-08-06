@@ -1,41 +1,66 @@
-# 北京文化视频标注系统
+# EMCAST - 文化视频结构化标注框架
 
-基于 Qwen 3.5-9B 视觉大模型的北京城市文化视频智能标注工具，采用 EMCAST 六维分层标注体系。
+基于 Qwen 3.5-9B 视觉大模型的北京城市文化视频智能标注工具，采用 **EMCAST 六维分层标注体系**。
 
 ## 功能特性
 
-- 智能视频标注：基于 Qwen 3.5-9B 视觉大模型进行视频内容理解
-- EMCAST 六维分层标注：
+- **智能视频标注**：基于 Qwen 3.5-9B 视觉大模型进行视频内容理解
+- **EMCAST 六维分层标注**：
   - **E** - 场景环境层
   - **M** - 主体行为层
   - **C** - 文化维度层
   - **A** - 视听语言层
   - **S** - 整体叙事层
   - **T** - 技术属性层
-- 北京文化分类：支持古都文化、红色文化、京味文化、创新文化、国际时尚文化五大类别
-- 视频元数据提取：基于 ffmpeg 自动提取视频技术参数
-- 批量处理：支持单个视频和批量视频标注
-- 多格式输出：支持 TXT 和 JSON 格式输出
-- **多GPU并行处理**：智能检测GPU状态，自动分配任务到空闲GPU，支持多GPU并行处理
+- **北京文化分类**：支持古都文化、红色文化、京味文化、创新科技文化、国际时尚文化五大类别
+- **视频元数据提取**：基于 ffmpeg 自动提取视频技术参数
+- **批量处理**：支持单个视频和批量视频标注
+- **多格式输出**：支持 TXT 和 JSON 格式输出
+- **多GPU并行处理**：智能检测GPU状态，自动分配任务到空闲GPU
+- **RAG + Few-shot 学习系统**：支持修正案例学习和提示词增强
+- **实验评估系统**：支持 Baseline 对比实验、消融实验，自动计算各项指标
+- **SAM 建筑检测**：基于 Segment Anything Model 的自适应建筑主体检测
 
 ## 项目结构
 
 ```
 CulturalVideoAnnotation/
-├── data/                    # 视频数据目录
-├── models/                  # 模型目录
-├── outputs/                 # 输出结果目录
-├── src/                     # 源代码目录
-│   ├── __init__.py
-│   ├── config.py           # 配置管理
-│   ├── model_manager.py    # 模型管理
-│   ├── prompt_manager.py   # 提示词管理
-│   ├── video_processor.py  # 视频处理
-│   ├── inference_engine.py # 推理引擎
-│   ├── result_processor.py # 结果处理
-│   ├── gpu_manager.py      # GPU管理（新增）
-│   └── run_cultural_annotation.py # 主程序
-├── run_multi_gpu.py         # 多GPU并行处理脚本（新增）
+├── pipeline/              # 标注/推理系统
+│   ├── inference_engine.py   # 推理引擎
+│   ├── prompt_manager.py     # 提示词管理
+│   ├── result_processor.py   # 结果处理
+│   └── video_processor.py    # 视频处理
+├── models/                # 模型封装
+│   ├── config.py             # 配置管理
+│   ├── model_manager.py      # 模型管理
+│   ├── gpu_manager.py        # GPU管理
+│   └── segment-anything-2-main/
+├── dataset/               # 数据处理
+│   └── txt_to_json.py        # 数据格式转换
+├── experiments/           # 实验评估系统（预留）
+├── metrics/               # 评价指标
+│   ├── emcast_schema.py      # EMCAST Schema定义
+│   ├── cultural_metrics.py   # 文化符号指标
+│   ├── text_metrics.py       # 文本生成指标
+│   ├── baseline_eval.py      # Baseline对比评估
+│   └── generate_test_data.py # 测试数据生成器
+├── src/learning/          # RAG + Few-shot学习模块
+│   ├── config.py             # 学习配置
+│   ├── vector_store.py       # 向量数据库
+│   ├── fewshot_manager.py    # Few-shot示例管理
+│   ├── correction_collector.py # 修正案例收集
+│   └── run_learning.py       # 学习流程主程序
+├── scripts/               # 执行脚本
+│   ├── run_annotation.py     # 主标注程序
+│   ├── run_multi_gpu.py      # 多GPU并行处理
+│   ├── run_with_learning.py  # 带学习功能的标注
+│   └── test_sam_detection.py # SAM建筑检测测试
+├── data/                  # 数据目录
+│   ├── learning/             # 学习数据
+│   │   ├── corrections/      # 修正案例
+│   │   └── vector_db/        # 向量数据库
+│   └── eval/                 # 评估数据
+├── outputs/               # 输出结果目录
 └── README.md              # 项目说明
 ```
 
@@ -60,8 +85,10 @@ conda activate cultural_video
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install transformers qwen-vl-utils
-pip install ffmpeg-python
-pip install decord
+pip install ffmpeg-python decord
+pip install pandas numpy scikit-learn nltk
+pip install rouge-score  # ROUGE指标
+pip install pycocoevalcap  # BLEU/CIDEr指标（可选）
 ```
 
 ### 3. 安装 ffmpeg
@@ -96,44 +123,32 @@ conda activate cultural_video
 
 #### 配置自动切换目录（可选）
 
-如果激活环境后没有自动切换到项目目录，可以手动配置：
-
 ```bash
-# 创建 conda 激活脚本
 mkdir -p $CONDA_PREFIX/etc/conda/activate.d
 echo 'cd /data/data/xzy/CulturalVideoAnnotation' > $CONDA_PREFIX/etc/conda/activate.d/cd_project.sh
-```
-
-这样每次激活 `cultural_video` 环境时，终端会自动切换到项目目录，可以直接运行：
-
-```bash
-python src/run_cultural_annotation.py --video data/1.mp4
 ```
 
 ### 单个视频标注
 
 ```bash
 # 基本用法
-python src/run_cultural_annotation.py --video /path/to/video.mp4
-# 例如
-python src/run_cultural_annotation.py --video data/720p胡同.mp4
-
+python scripts/run_annotation.py --video data/test/鸟巢.mp4
 
 # 指定输出文件格式
-python src/run_cultural_annotation.py --video /path/to/video.mp4 --output-format txt
+python scripts/run_annotation.py --video /path/to/video.mp4 --output-format txt
 
 # 指定标注内容格式
-clean 格式（只输出EMCAST六维标注）
-python src/run_cultural_annotation.py --video /path/to/video.mp4 --format-type clean
+# clean 格式（只输出EMCAST六维标注）
+python scripts/run_annotation.py --video /path/to/video.mp4 --format-type clean
 
 # standard 格式（文件信息+EMCAST，默认）
-python src/run_cultural_annotation.py --video /path/to/video.mp4 --format-type standard
+python scripts/run_annotation.py --video /path/to/video.mp4 --format-type standard
 
 # detailed 格式（完整含思考过程）
-python src/run_cultural_annotation.py --video /path/to/video.mp4 --format-type detailed
+python scripts/run_annotation.py --video /path/to/video.mp4 --format-type detailed
 
 # 完整参数示例
-python src/run_cultural_annotation.py \
+python scripts/run_annotation.py \
   --video /path/to/video.mp4 \
   --output-format both \
   --format-type standard \
@@ -145,11 +160,10 @@ python src/run_cultural_annotation.py \
 ### 批量视频标注
 
 ```bash
-# 基本用法
-python src/run_cultural_annotation.py --video-dir /path/to/video/directory
+python scripts/run_annotation.py --video-dir /path/to/video/directory
 
 # 完整参数示例
-python src/run_cultural_annotation.py \
+python scripts/run_annotation.py \
   --video-dir /path/to/video/directory \
   --output-format both \
   --fps 0.5 \
@@ -159,29 +173,24 @@ python src/run_cultural_annotation.py \
 
 ### 多GPU并行处理（推荐）
 
-使用 `run_multi_gpu.py` 脚本可以智能检测GPU状态并自动分配任务到空闲GPU，实现多GPU并行处理。
-
 ```bash
 # 检查GPU状态（不执行任务）
-python run_multi_gpu.py --check-gpu-only
+python scripts/run_multi_gpu.py --check-gpu-only
 
 # 处理单个视频（自动选择最佳GPU）
-python run_multi_gpu.py --video /path/to/video.mp4
+python scripts/run_multi_gpu.py --video /path/to/video.mp4
 
 # 处理多个视频（自动分配到多个GPU）
-python run_multi_gpu.py --video video1.mp4 video2.mp4 video3.mp4
+python scripts/run_multi_gpu.py --video video1.mp4 video2.mp4 video3.mp4
 
 # 处理整个目录的视频（自动分配到多个GPU并行处理）
-python run_multi_gpu.py --video-dir /path/to/video/directory
+python scripts/run_multi_gpu.py --video-dir /path/to/video/directory
 
 # 指定使用的GPU列表（默认检测GPU 0-4）
-python run_multi_gpu.py --video-dir /path/to/video/directory --gpu-ids 0 1 2 3 4
-
-# 每个GPU处理的视频数量
-python run_multi_gpu.py --video-dir /path/to/video/directory --videos-per-gpu 2
+python scripts/run_multi_gpu.py --video-dir /path/to/video/directory --gpu-ids 0 1 2 3 4
 
 # 完整参数示例
-python run_multi_gpu.py \
+python scripts/run_multi_gpu.py \
   --video-dir /path/to/video/directory \
   --gpu-ids 0 1 2 3 4 \
   --videos-per-gpu 1 \
@@ -191,17 +200,61 @@ python run_multi_gpu.py \
   --verbose
 ```
 
-#### GPU智能分配策略
+### 带学习功能的标注
 
-系统会自动：
-1. 检测所有GPU的内存使用率、GPU利用率和进程数
-2. 计算每个GPU的可用性评分（综合考虑内存、利用率和进程数）
-3. 选择评分最高的GPU分配任务
-4. 支持在多个GPU上并行处理，最大化利用资源
+```bash
+# 使用学习系统增强标注
+python scripts/run_with_learning.py --video /path/to/video.mp4
+
+# 学习系统命令行工具
+python -m src.learning.run_learning --help
+
+# 收集修正案例
+python -m src.learning.run_learning collect \
+  --video /path/to/video.mp4 \
+  --original original.txt \
+  --corrected corrected.txt \
+  --reason "修正原因"
+
+# 批量导入修正数据
+python -m src.learning.run_learning batch
+
+# 显示学习系统统计信息
+python -m src.learning.run_learning stats
+
+# 搜索相似示例
+python -m src.learning.run_learning search --query "故宫" --category "古都文化"
+```
+
+### SAM 建筑检测测试
+
+```bash
+python scripts/test_sam_detection.py
+```
+
+该脚本使用 SAM Automatic Mask Generation 生成候选mask，通过自适应打分规则筛选建筑主体区域，支持单建筑和多建筑场景的统一检测。
+
+### 实验评估
+
+```bash
+# 生成测试数据
+python -m metrics.generate_test_data
+
+# 运行 Baseline 对比评估
+python -m metrics.baseline_eval \
+  --data data/eval/test_data.jsonl \
+  --output outputs/eval
+
+# 使用自定义评估数据
+# 数据格式（JSONL）：每条包含 video_id, gt_emcast, gpt_output, prompt_output, emcast_output
+python -m metrics.baseline_eval \
+  --data your_eval_data.jsonl \
+  --output outputs/eval
+```
 
 ## 命令行参数
 
-### 单GPU模式（run_cultural_annotation.py）
+### 标注程序（run_annotation.py）
 
 | 参数 | 简写 | 说明 | 默认值 |
 |------|------|------|--------|
@@ -242,7 +295,7 @@ python run_multi_gpu.py \
 
 ## 配置说明
 
-配置文件位于 `src/config.py`，主要配置项：
+配置文件位于 `models/config.py`，主要配置项：
 
 ### GPU 配置
 ```python
@@ -281,126 +334,61 @@ class GenerationConfig:
     do_sample: bool = False              # 是否采样
 ```
 
+### 学习模块配置
+```python
+@dataclass
+class LearningConfig:
+    enabled: bool = False                # 是否启用学习功能
+    vector_db_path: str = None           # 向量数据库路径
+    max_examples_per_query: int = 3      # 每次检索示例数
+    min_similarity_score: float = 0.6    # 最小相似度阈值
+```
+
 ## 输出格式
 
-系统支持三种标注内容格式，文件名会自动包含格式类型标识：
-- `1_annotation_clean_20260306_120000.txt`
-- `1_annotation_standard_20260306_120000.txt`
-- `1_annotation_detailed_20260306_120000.txt`
-
-### clean 格式
-
-只输出纯净的 EMCAST 六维标注，无文件信息，无思考过程：
+### EMCAST 标准格式
 
 ```
-【E｜场景环境层】
-视频构建了一个北京中轴线核心区域的物理环境...
+【E｜场景环境层】：视频构建了一个北京中轴线核心区域的物理环境...
 
-【M｜主体行为层】
-画面的视觉焦点是古建筑（钟鼓楼）...
+【M｜主体行为层】：视觉焦点包含承载主体：钟鼓楼
+承载主体外观：钟鼓楼呈现出轴对称的几何形态，外立面材质主要为青砖灰瓦...
 
-【C｜文化维度层】
-该场景隶属于古都文化...
+【C｜文化维度层】：该场景隶属于古都文化。
+核心符号：识别出承载该文化内涵的关键视觉锚点为飞檐斗拱、青砖灰瓦。
 
 【A｜视听语言层】
-镜头采用 航拍拉远（Pull Back）...
+镜头语法：镜头为运动机位。运镜采用拉（后），状态稳定，节奏慢...
 
-【S｜整体叙事层】
-视频通过高空航拍视角...
-
-【T｜技术属性层】
-分辨率：1920x1080； 帧率：50.0 FPS； 画幅：16:9； 
-动态范围：SDR； 色彩空间/像素格式：yuv420p； 采样方式：4:2:0； 
-编码格式：h264； 视频时长：13.88秒
-```
-
-### standard 格式（默认）
-
-包含文件信息和 EMCAST 六维标注，去除思考过程：
-
-```
-视频文件: 1.mp4
-视频路径: data/1.mp4
-标注时间: 2026-03-06 12:00:00
-
-【E｜场景环境层】
-视频构建了一个北京中轴线核心区域的物理环境...
-
-【M｜主体行为层】
-画面的视觉焦点是古建筑（钟鼓楼）...
-
-【C｜文化维度层】
-该场景隶属于古都文化...
-
-【A｜视听语言层】
-镜头采用 航拍拉远（Pull Back）...
-
-【S｜整体叙事层】
-视频通过高空航拍视角...
+【S｜整体叙事层】：视频通过高空航拍视角...
 
 【T｜技术属性层】
-分辨率：1920x1080； 帧率：50.0 FPS； 画幅：16:9； 
-动态范围：SDR； 色彩空间/像素格式：yuv420p； 采样方式：4:2:0； 
-编码格式：h264； 视频时长：13.88秒
-```
-
-### detailed 格式
-
-包含文件信息、元数据、完整标注内容（含模型的思考过程）：
-
-```
-================================================================================
-【文化特征分层标注结果】
-视频文件: 1.mp4
-视频路径: data/1.mp4
-标注时间: 2026-03-06 12:00:00
-================================================================================
-【视频元数据】
-  duration: 13.88
-  fps: 50.0
-  resolution: 1920x1080
-  codec: h264
-  dynamic_range: SDR
-  chroma_subsampling: 4:2:0
-================================================================================
-【完整标注内容（含思考过程）】
-用户希望我作为一名专业的北京城市文化与视听语言分析师...
-
-<think>
-**初步观察与分类：**
-1.  **场景识别**：画面中心是一座古塔状建筑...
-2.  **文化分类**：这明显是北京中轴线的标志性建筑...
-</think>
-
-【E｜场景环境层】
-视频构建了一个北京中轴线核心区域的物理环境...
-...
-================================================================================
+分辨率：1920x1080；帧率：25 FPS；画幅：16:9；动态范围：SDR...
 ```
 
 ### JSON 格式
 
 ```json
 {
-  "video_path": "/path/to/2.mp4",
-  "video_name": "2.mp4",
+  "video_path": "/path/to/video.mp4",
+  "video_name": "video.mp4",
   "annotation_text": "【E｜场景环境层】...",
-  "timestamp": "2026-03-05 20:47:45",
+  "timestamp": "2026-03-06 12:00:00",
   "metadata": {
-    "duration": 12.08,
+    "duration": 13.88,
     "fps": 25.0,
     "resolution": "1920x1080",
-    "width": 1920,
-    "height": 1080,
-    "codec": "h264",
-    "bitrate": "2950621",
-    "aspect_ratio": "16:9",
-    "pixel_format": "yuv420p",
-    "dynamic_range": "SDR",
-    "chroma_subsampling": "4:2:0"
+    "codec": "h264"
   }
 }
 ```
+
+### 评估结果格式
+
+评估输出包含三个文件：
+- `result.csv`：详细评估结果（每样本一行）
+- `result_summary.csv`：汇总统计（均值+标准差）
+- `result_summary.md`：Markdown格式的对比表格（可直接用于论文）
 
 ## 北京文化分类规则
 
@@ -419,7 +407,7 @@ class GenerationConfig:
 - 非遗技艺（京剧、相声、传统手工艺）
 - 民俗活动相关内容
 
-### 创新文化
+### 创新科技文化
 - 科技园区、大兴机场
 - 自动驾驶、现代文创园区
 - 体现当代科技与创新气质的内容
@@ -442,13 +430,9 @@ class GenerationConfig:
 
 **解决方案：**
 ```bash
-# 安装 ffmpeg
-sudo apt-get install ffmpeg  # Ubuntu/Debian
-sudo yum install ffmpeg      # CentOS/RHEL
-brew install ffmpeg          # macOS
-
+sudo apt-get install ffmpeg
 # 或禁用 ffmpeg 元数据获取
-python src/run_cultural_annotation.py --video video.mp4 --no-ffmpeg
+python scripts/run_annotation.py --video video.mp4 --no-ffmpeg
 ```
 
 ### 3. 模型加载失败
@@ -466,86 +450,106 @@ python src/run_cultural_annotation.py --video video.mp4 --no-ffmpeg
 - 检查视频帧数是否过多
 - 降低 `fps` 参数
 
-### 5. 视频格式不支持
+### 5. 评估指标报错
 
 **解决方案：**
-- 转换视频格式为 MP4
-- 确保视频编码为 H.264/H.265
-- 检查视频文件是否损坏
+- 确保安装了必要依赖：`pip install nltk rouge-score pycocoevalcap`
+- 检查评估数据格式是否正确
 
 ## 技术架构
 
 ### 模块化设计
 
-- **config.py**: 配置管理，集中管理所有配置参数
-- **model_manager.py**: 模型加载和管理
-- **prompt_manager.py**: 提示词模板管理
-- **video_processor.py**: 视频处理和元数据提取
-- **inference_engine.py**: 推理引擎，处理标注逻辑
-- **result_processor.py**: 结果处理和格式化输出
-- **gpu_manager.py**: GPU状态检测和智能任务分配
-
-### 多GPU处理流程
-
 ```
-1. GPU状态检测
-   └── 检测所有GPU的内存、利用率、进程数
-   
-2. GPU可用性评分
-   └── 综合计算每个GPU的可用性评分
-   
-3. 智能任务分配
-   └── 将视频分配到评分最高的GPU
-   
-4. 并行执行
-   └── 在多个GPU上并行处理视频
-   
-5. 结果汇总
-   └── 收集所有任务结果并生成报告
+pipeline/
+├── inference_engine.py   # 推理引擎，处理标注逻辑
+├── prompt_manager.py     # 提示词模板管理（EMCAST六维分层）
+├── result_processor.py   # 结果处理和格式化输出
+└── video_processor.py    # 视频处理和元数据提取
+
+models/
+├── config.py             # 配置管理，集中管理所有配置参数
+├── model_manager.py      # 模型加载和管理（Qwen/GLM-4）
+└── gpu_manager.py        # GPU状态检测和智能任务分配
+
+metrics/
+├── emcast_schema.py      # EMCAST Schema定义（六层结构、受控词表）
+├── cultural_metrics.py   # 文化符号指标（P/R/F1、结构准确率）
+├── text_metrics.py       # 文本生成指标（BLEU、CIDEr、ROUGE）
+└── baseline_eval.py      # Baseline对比实验评估器
+
+src/learning/
+├── vector_store.py       # 向量数据库管理
+├── fewshot_manager.py    # Few-shot示例管理
+├── correction_collector.py # 修正案例收集
+└── run_learning.py       # 学习流程主程序
 ```
 
 ### 核心流程
 
 1. 视频验证和元数据提取
 2. 视频帧采样和预处理
-3. 构建 EMCAST 提示词
+3. 构建 EMCAST 提示词（含受控词表约束）
 4. 模型推理生成标注
 5. 结果提取和格式化
 6. 保存输出文件
 
+### 学习系统流程
+
+1. 收集修正案例（原始标注 vs 修正标注）
+2. 提取差异并存储到向量数据库
+3. 标注时检索相似案例
+4. 构建 Few-shot 提示词增强
+
 ## 性能优化
 
-### GPU 配置
 - 使用 `bfloat16` 数据类型减少显存占用
-- 合理设置 `CUDA_VISIBLE_DEVICES` 指定 GPU
-
-### 视频处理
 - 降低采样帧率（fps）减少输入数据量
 - 限制最大帧数（max_frames）控制处理时间
-- 使用 ffmpeg 元数据避免重复解析
-
-### 推理优化
-- 调整 `max_new_tokens` 平衡质量和速度
 - 禁用采样（`do_sample=False`）提高确定性
-- 使用 `repetition_penalty` 避免重复输出
+- 多GPU并行处理最大化利用资源
 
 ## 许可证
 
 本项目仅供学习和研究使用。
 
-## 联系方式
-
-如有问题或建议，请联系项目维护者。
-
 ## 更新日志
 
+### v1.4.0 (2026-07-02)
+- **代码清理与重构**：
+  - 删除 `src/` 目录下所有存根文件（实际代码已迁移至 `pipeline/`）
+  - 删除根目录兼容性 shim 文件（`run_multi_gpu.py`, `txt-to-json.py`）
+  - 删除旧测试文件（`test_sam.py`, `test_sam_auto.py`）
+- **SAM 建筑检测**：新增 `test_sam_detection.py`，实现基于 mask 属性的自适应建筑主体检测
+- **项目结构优化**：精简目录结构，核心代码集中在 `pipeline/`、`models/`、`scripts/`
+
+### v1.3.0 (2026-06-30)
+- **代码结构重构**：模块化分层设计
+  - 新增 `pipeline/` 目录：标注/推理系统
+  - 新增 `models/` 目录：模型封装
+  - 新增 `dataset/` 目录：数据处理
+  - 新增 `metrics/` 目录：评价指标体系
+  - 新增 `scripts/` 目录：执行脚本
+- **实验评估系统**：
+  - 实现 `metrics/emcast_schema.py`：EMCAST Schema定义和受控词表
+  - 实现 `metrics/cultural_metrics.py`：文化符号P/R/F1、结构准确率
+  - 实现 `metrics/text_metrics.py`：BLEU-1~4、CIDEr、ROUGE-1/2/L
+  - 实现 `metrics/baseline_eval.py`：Baseline对比实验评估器
+  - 支持 JSONL/CSV 输入，输出 CSV + Markdown 表格
+
+### v1.2.0 (2026-06-15)
+- **RAG + Few-shot 学习系统**：
+  - 新增 `src/learning/` 模块
+  - 支持修正案例收集和存储
+  - 向量数据库（ChromaDB）检索相似案例
+  - Few-shot 提示词增强
+- 学习系统命令行工具：collect/batch/stats/search/export
+
 ### v1.1.0 (2026-05-08)
-- 新增多GPU并行处理功能
-- 添加 `gpu_manager.py` 模块，支持GPU状态检测和智能任务分配
-- 添加 `run_multi_gpu.py` 脚本，支持多GPU并行视频标注
-- 修复输出目录路径问题（确保输出到项目目录下的 outputs 文件夹）
+- **多GPU并行处理**：
+  - 新增 `gpu_manager.py` 模块，支持GPU状态检测和智能任务分配
+  - 新增 `run_multi_gpu.py` 脚本，支持多GPU并行视频标注
 - 优化GPU可用性评分算法（综合考虑内存、利用率和进程数）
-- 更新 README 文档，添加多GPU使用说明
 
 ### v1.0.0 (2026-03-05)
 - 初始版本发布

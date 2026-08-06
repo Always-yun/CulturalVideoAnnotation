@@ -1,0 +1,45 @@
+{
+  "experiment_id": "exp_20260710_v1",
+  "description": "实验配置模板",
+  "date": "2026-07-10",
+  "author": "researcher",
+  
+  "dataset": {
+    "name": "cultural_custom",
+    "path": "data/cultural_custom/",
+    "split": "train",
+    "num_samples": 100
+  },
+  
+  "model": {
+    "type": "llm_sam",
+    "llm_model": "glm-4.6v",
+    "sam_model": "sam_vit_b",
+    "device": "cuda"
+  },
+  
+  "parameters": {
+    "sam_mask_threshold": 0.5,
+    "flow_method": "farneback",
+    "temporal_window": 5,
+    "fusion_alpha": 0.7
+  },
+  
+  "ablation": {
+    "enabled": false,
+    "features": ["edge_density", "color_variance", "motion_consistency"]
+  },
+  
+  "output": {
+    "base_dir": "outputs/",
+    "experiment_dir": "exp_20260710_v1",
+    "save_masks": true,
+    "save_visualizations": true,
+    "save_metrics": true
+  },
+  
+  "evaluation": {
+    "metrics": ["mIoU", "F1", "precision", "recall"],
+    "benchmark": "DAVIS2017"
+  }
+}

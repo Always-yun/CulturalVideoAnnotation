@@ -1,0 +1,24 @@
+{
+  "experiment_id": "exp_20260723_180630",
+  "timestamp": "2026-07-23T18:07:03.784166",
+  "results": [
+    {
+      "image": "钟鼓楼.png",
+      "description": "钟鼓楼",
+      "num_objects": 1,
+      "output_path": "/data/data/xzy/CulturalVideoAnnotation/outputs/sam/exp_20260723_180630/钟鼓楼_detection.png"
+    },
+    {
+      "image": "zgc.png",
+      "description": "中关村",
+      "num_objects": 2,
+      "output_path": "/data/data/xzy/CulturalVideoAnnotation/outputs/sam/exp_20260723_180630/中关村_detection.png"
+    },
+    {
+      "image": "水倒影.png",
+      "description": "水倒影",
+      "num_objects": 1,
+      "output_path": "/data/data/xzy/CulturalVideoAnnotation/outputs/sam/exp_20260723_180630/水倒影_detection.png"
+    }
+  ]
+}
