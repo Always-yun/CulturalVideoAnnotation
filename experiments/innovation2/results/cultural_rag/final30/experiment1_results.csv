@@ -1,0 +1,6 @@
+﻿method,mode,n_samples,n_known,recall@1,recall@5,mrr,symbol_accuracy,dimension_accuracy,hallucination_rate,unknown_false_accept_rate,unknown_rejection_rate
+Free,free,31,27,0.0,0.0,0.0,0.8519,0.8148,0.2258,1.0,0.0
+Text,text,31,27,0.5185,0.7778,0.6481,0.7778,0.9259,0.0968,0.75,0.25
+Image,image,31,27,0.1852,0.2963,0.2204,0.7407,0.8519,0.129,0.75,0.25
+Multimodal,multimodal,31,27,0.5926,0.7778,0.679,0.7037,0.9259,0.0645,0.75,0.25
+Multimodal Controlled,multimodal_controlled,31,27,0.5926,0.7778,0.679,0.7037,0.9259,0.0,0.25,0.75

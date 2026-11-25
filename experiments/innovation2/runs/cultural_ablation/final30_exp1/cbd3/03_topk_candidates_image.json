@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN2_TECH_007",
+    "canonical_name": "中关村广场",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6256103515625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6256,
+    "text_score": 0.0,
+    "fusion_score": 0.6256
+  },
+  {
+    "symbol_id": "BJ_FASHION_005",
+    "canonical_name": "望京",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.62548828125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6255,
+    "text_score": 0.0,
+    "fusion_score": 0.6255
+  },
+  {
+    "symbol_id": "CN2_TECH_015",
+    "canonical_name": "东升科技园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.62432861328125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6243,
+    "text_score": 0.0,
+    "fusion_score": 0.6243
+  },
+  {
+    "symbol_id": "CN2_MODERN_002",
+    "canonical_name": "鼓浪屿：历史国际社区",
+    "cultural_dimension": "现代城市与国际文化;古城与历史文化",
+    "dimension_code": "MODERN;ANCIENT",
+    "score": 0.62109375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6211,
+    "text_score": 0.0,
+    "fusion_score": 0.6211
+  },
+  {
+    "symbol_id": "CN2_TECH_004",
+    "canonical_name": "中关村软件园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.62030029296875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6203,
+    "text_score": 0.0,
+    "fusion_score": 0.6203
+  }
+]

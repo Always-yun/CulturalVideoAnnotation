@@ -1,0 +1,133 @@
+[
+  {
+    "symbol_id": "BJ_INNOV_001",
+    "canonical_name": "中关村",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.9007568359375,
+    "reason": "证据排序v1；名称=中关村；文字=；弱特征=自主创新",
+    "image_score": 0.8015,
+    "text_score": 1.0,
+    "fusion_score": 0.9008,
+    "ranking_score": 0.800757,
+    "retrieval_evidence": {
+      "name_hits": [
+        "中关村"
+      ],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [
+        "自主创新"
+      ],
+      "text_evidence_strength": 0.8,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": true,
+      "in_image_pool": false
+    }
+  },
+  {
+    "symbol_id": "CN2_TECH_005",
+    "canonical_name": "中关村国家自主创新示范区展示中心",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.3333333333333333,
+    "reason": "证据排序v1；名称=展示中心；文字=；弱特征=",
+    "image_score": 0.0,
+    "text_score": 0.6667,
+    "fusion_score": 0.3333,
+    "ranking_score": 0.4,
+    "retrieval_evidence": {
+      "name_hits": [
+        "展示中心"
+      ],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0.8,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": true,
+      "in_image_pool": false
+    }
+  },
+  {
+    "symbol_id": "BJ_INNOV_005",
+    "canonical_name": "水立方",
+    "cultural_dimension": "科技与创新文化;现代城市与国际文化",
+    "dimension_code": "TECH;MODERN",
+    "score": 0.4239501953125,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.8479,
+    "text_score": 0.0,
+    "fusion_score": 0.424,
+    "ranking_score": 0.42395,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "CN_RED_003",
+    "canonical_name": "延安革命纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.4190673828125,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.8381,
+    "text_score": 0.0,
+    "fusion_score": 0.4191,
+    "ranking_score": 0.419067,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "CN_MODERN_001",
+    "canonical_name": "杭州西湖文化景观",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.41748046875,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.835,
+    "text_score": 0.0,
+    "fusion_score": 0.4175,
+    "ranking_score": 0.41748,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  }
+]

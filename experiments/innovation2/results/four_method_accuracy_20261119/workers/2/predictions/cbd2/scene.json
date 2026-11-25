@@ -1,0 +1,23 @@
+{
+  "scene_description_raw": "{\"scene\":\"黄昏时分城市天际线，高楼林立，车流光轨，树木植被，建筑灯光渐亮\",\"subject\":\"城市建筑群及车流\",\"visible_features\":[\"现代化高楼大厦，玻璃幕墙建筑，独特尖顶高楼，高架桥，车流光轨，树木植被，低矮建筑\"],\"background\":[\"天空，城市建筑群，高架桥，树木，停车场\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "scene_description": "黄昏时分城市天际线，高楼林立，车流光轨，树木植被，建筑灯光渐亮\n城市建筑群及车流\n现代化高楼大厦，玻璃幕墙建筑，独特尖顶高楼，高架桥，车流光轨，树木植被，低矮建筑",
+  "structured_scene": {
+    "scene": "黄昏时分城市天际线，高楼林立，车流光轨，树木植被，建筑灯光渐亮",
+    "subject": "城市建筑群及车流",
+    "visible_features": [
+      "现代化高楼大厦，玻璃幕墙建筑，独特尖顶高楼，高架桥，车流光轨，树木植被，低矮建筑"
+    ],
+    "background": [
+      "天空，城市建筑群，高架桥，树木，停车场"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

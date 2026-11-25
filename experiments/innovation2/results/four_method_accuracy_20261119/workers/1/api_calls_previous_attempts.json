@@ -1,0 +1,25 @@
+[
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:27:20.129960+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=38070, prompt_tokens_details=PromptTokensDetails(cached_tokens=38069), completion_tokens=71, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=38141)",
+    "seconds": 31.641315460205078
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:27:52.770989+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=40115, prompt_tokens_details=PromptTokensDetails(cached_tokens=38415), completion_tokens=476, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=40591)",
+    "seconds": 69.50275707244873
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:29:03.008183+08:00",
+    "seconds": 36.58770513534546,
+    "status": "interrupted"
+  }
+]

@@ -1,0 +1,31 @@
+﻿video_id,reference,image_names,multimodal_names,image_main_correct,multimodal_main_correct,image_strict_correct,multimodal_strict_correct,main_result_changed
+cbd,"[""CBD""]","[""中央商务区""]","[""中央商务区""]",True,True,True,True,False
+cbd1,"[""CBD""]","[""cbd""]","[""cbd""]",True,True,True,True,False
+cbd2,"[""CBD""]","[""cbd""]","[""cbd""]",True,True,True,True,False
+cbd3,"[""CBD""]","[""cbd""]","[""cbd""]",True,True,True,True,False
+中关村1号,"[""中关村壹号""]","[""中关村壹号""]","[""中关村壹号""]",True,True,True,True,False
+中关村国际创新中心,"[""中关村国际创新中心""]","[""中关村国际创新中心""]","[""中关村国际创新中心""]",True,True,True,True,False
+中关村展示中心,"[""中关村国家自主创新示范区展示中心""]","[""展示中心"", ""国际旗帜阵列""]","[""中关村国家自主创新示范区展示中心""]",True,True,False,True,False
+京剧青衣,"[""京剧""]","[""京剧""]","[""京剧""]",True,True,True,True,False
+人民大会堂,"[""人民大会堂""]","[""中国国家博物馆""]","[""中国国家博物馆""]",False,False,False,False,False
+人民大会堂1,"[""人民大会堂""]","[""中国国家博物馆""]","[""中国国家博物馆""]",False,False,False,False,False
+人民英雄纪念碑,"[""人民英雄纪念碑""]","[""人民英雄纪念碑""]","[""人民英雄纪念碑""]",True,True,True,True,False
+人民英雄纪念碑1,"[""人民英雄纪念碑""]","[""人民英雄纪念碑""]","[""人民英雄纪念碑""]",True,True,True,True,False
+兔爷,"[""兔儿爷""]","[""兔爷"", ""红色对联""]","[""兔儿爷""]",True,True,False,True,False
+北大,"[""北京大学""]","[""雷峰塔""]","[""宝轮寺塔""]",False,False,False,False,False
+北大1,"[""北京大学""]","[""石狮子"", ""传统中式建筑""]","[""石狮子"", ""传统中式建筑"", ""汉字匾额""]",False,False,False,False,False
+国博,"[""中国国家博物馆""]","[""中国国家博物馆""]","[""中国国家博物馆""]",True,True,True,True,False
+天安门,"[""天安门广场""]","[""天安门城楼""]","[""天安门城楼""]",False,False,False,False,False
+天安门1,"[""天安门广场""]","[""天安门广场""]","[""天安门广场""]",True,True,True,True,False
+太和殿,"[""太和殿""]","[""太和殿""]","[""太和殿""]",True,True,True,True,False
+庙会,"[""北京庙会""]","[""春节庙会""]","[""北京庙会""]",True,True,True,True,False
+故宫,"[""故宫""]","[""太和殿""]","[""故宫"", ""太和殿""]",False,True,False,False,True
+故宫全景,"[""故宫""]","[""故宫博物院""]","[""故宫""]",True,True,True,True,False
+未来科学城,"[""未来科学城""]","[""未来科学城""]","[""未来科学城""]",True,True,True,True,False
+清华,"[""清华大学""]","[""清华大学""]","[""清华大学""]",True,True,True,True,False
+糖葫芦,"[""冰糖葫芦""]","[""冰糖葫芦儿""]","[""冰糖葫芦儿""]",False,False,False,False,False
+胡同,"[""胡同""]","[""胡同""]","[""胡同""]",True,True,True,True,False
+胡同1,"[""胡同""]","[""胡同""]","[""胡同""]",True,True,True,True,False
+角楼,"[""角楼""]","[""角楼""]","[""角楼""]",True,True,True,True,False
+角楼1,"[""角楼""]","[""角楼""]","[""角楼""]",True,True,True,True,False
+鸟巢,"[""鸟巢""]","[""鸟巢""]","[""鸟巢""]",True,True,True,True,False

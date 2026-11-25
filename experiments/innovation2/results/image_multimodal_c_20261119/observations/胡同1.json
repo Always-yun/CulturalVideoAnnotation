@@ -1,0 +1,39 @@
+{
+  "scene_description_raw": "{\"scene\":\"一条狭窄的街道，两侧是低矮的建筑物，天气晴朗，阳光照射在街道上。\",\"subject\":\"一辆银色轿车和一辆红色SUV停在街道右侧，一辆摩托车从远处驶来。\",\"visible_features\":[\"银色轿车尾部有蓝色车牌，车牌号为京Q·8W601；红色SUV停在银色轿车后方；摩托车上有两个人。\"],\"background\":[\"左侧是浅色墙壁和灰色砖墙的建筑物，右侧是砖墙建筑，远处有树木和更高的建筑物。\"],\"readable_text\":[{\"text\":\"办公大厅\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.388,0.266,0.416,0.331]}],\"uncertain_entities\":[]}",
+  "scene_description": "一条狭窄的街道，两侧是低矮的建筑物，天气晴朗，阳光照射在街道上。\n一辆银色轿车和一辆红色SUV停在街道右侧，一辆摩托车从远处驶来。\n银色轿车尾部有蓝色车牌，车牌号为京Q·8W601；红色SUV停在银色轿车后方；摩托车上有两个人。\n可读文字：办公大厅",
+  "structured_scene": {
+    "scene": "一条狭窄的街道，两侧是低矮的建筑物，天气晴朗，阳光照射在街道上。",
+    "subject": "一辆银色轿车和一辆红色SUV停在街道右侧，一辆摩托车从远处驶来。",
+    "visible_features": [
+      "银色轿车尾部有蓝色车牌，车牌号为京Q·8W601；红色SUV停在银色轿车后方；摩托车上有两个人。"
+    ],
+    "background": [
+      "左侧是浅色墙壁和灰色砖墙的建筑物，右侧是砖墙建筑，远处有树木和更高的建筑物。"
+    ],
+    "readable_text": [
+      {
+        "text": "办公大厅",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.388,
+          0.266,
+          0.416,
+          0.331
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

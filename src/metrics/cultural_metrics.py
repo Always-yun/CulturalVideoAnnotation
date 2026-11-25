@@ -10,7 +10,8 @@ from typing import List, Set, Dict, Tuple
 import re
 from .emcast_schema import (
     CULTURAL_CATEGORIES, CULTURAL_SYMBOLS, VISUAL_SYMBOLS,
-    EMCAST_LAYERS, EMCAST_LAYER_KEYS, parse_emcast_format
+    EMCAST_LAYERS, EMCAST_LAYER_KEYS, parse_emcast_format,
+    LEGACY_CULTURAL_DIMENSION_MAP,
 )
 
 
@@ -62,13 +63,19 @@ def extract_cultural_category(text: str) -> str:
     """
     if not text:
         return ""
-    
+
     text_lower = text.lower()
-    
+
+    # 优先匹配新五维
     for category in CULTURAL_CATEGORIES:
         if category.lower() in text_lower:
             return category
-    
+
+    # 兼容历史标注数据：旧五维名归一化到新五维
+    for legacy_name, new_name in LEGACY_CULTURAL_DIMENSION_MAP.items():
+        if legacy_name.lower() in text_lower:
+            return new_name
+
     return ""
 
 

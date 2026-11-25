@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN2_ANCIENT_001",
+    "canonical_name": "武当山古建筑群",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.61944580078125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6194,
+    "text_score": 0.0,
+    "fusion_score": 0.6194
+  },
+  {
+    "symbol_id": "BJ_GUDU_008",
+    "canonical_name": "景山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.61846923828125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6185,
+    "text_score": 0.0,
+    "fusion_score": 0.6185
+  },
+  {
+    "symbol_id": "BJ_GUDU_006",
+    "canonical_name": "北京中轴线",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.618408203125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6184,
+    "text_score": 0.0,
+    "fusion_score": 0.6184
+  },
+  {
+    "symbol_id": "BJ_FASHION_002",
+    "canonical_name": "798艺术区",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.6177978515625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6178,
+    "text_score": 0.0,
+    "fusion_score": 0.6178
+  },
+  {
+    "symbol_id": "CN2_MODERN_002",
+    "canonical_name": "鼓浪屿：历史国际社区",
+    "cultural_dimension": "现代城市与国际文化;古城与历史文化",
+    "dimension_code": "MODERN;ANCIENT",
+    "score": 0.61676025390625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6168,
+    "text_score": 0.0,
+    "fusion_score": 0.6168
+  }
+]

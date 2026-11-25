@@ -1,0 +1,10 @@
+{
+  "media_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/data/videos/中关村1号.mp4",
+  "media_sha256": "3adfb5c620ac64e0d4ca4f3982f555786db619075ce284e65698768e0895ec55",
+  "media_kind": "video_url",
+  "prompt": "请仅输出EMCAST的C文化维度层，保留完整中文自然语言说明，不输出其余五层。\n根据视频实际可见证据识别文化符号。文化类别可多选：古城与历史文化、红色文化、民族与民俗文化、科技与创新文化、现代城市与国际文化；证据不足可写无法确认。\n候选知识只是待核实材料，不证明画面已出现该实体。允许命名候选之外的实体，允许无候选或无法确认，不强迫选择。不要给数值置信度。\n核心符号行请用规范名称列出实际确认的实体，多个用顿号分隔；没有可靠身份则写unknown_symbol。其他说明放在价值指向中，不把身份猜测写成已识别事实。\n输出格式沿用现有C层：\n【C｜文化维度层】：该场景隶属于……（多类可并列，无法确认则说明）。\n核心符号：……\n价值指向：描述可见视觉依据、文化内涵与不确定之处。\n\n以下为检索到的待核实文化知识（不是已经出现的事实；可不选）：\n[{\"symbol_id\": \"BJ_FASHION_003\", \"canonical_name\": \"CBD\", \"aliases\": \"中央商务区|北京CBD\", \"cultural_dimension\": \"现代城市与国际文化\", \"dimension_code\": \"MODERN\", \"visual_features\": \"国贸三期/银泰中心/中信大厦（\\\"中国尊\\\"528米）|央视总部\\\"大裤衩\\\"|玻璃幕墙超高层集群\", \"cultural_description\": \"北京国际化程度最高的商务中心，聚集跨国公司总部与国际机构，城市天际线代表\", \"typical_scene\": \"天际线俯瞰|国贸桥车流|中国尊仰视|夜景灯火\"}, {\"symbol_id\": \"BJ_INNOV_008\", \"canonical_name\": \"未来科学城\", \"aliases\": \"北京未来科学城\", \"cultural_dimension\": \"科技与创新文化\", \"dimension_code\": \"TECH\", \"visual_features\": \"现代办公楼宇群|桥梓湾生态公园|未来中心|沙河高教园区|温榆河绿带\", \"cultural_description\": \"2014年设立，北京国际科创中心\\\"三城一区\\\"之一，聚焦能源、生命科学、智能制造等前沿\", \"typical_scene\": \"园区俯瞰|温榆河绿带|办公楼宇\"}, {\"symbol_id\": \"CN2_TECH_008\", \"canonical_name\": \"中关村壹号\", \"aliases\": \"中关村1号\", \"cultural_dimension\": \"科技与创新文化\", \"dimension_code\": \"TECH\", \"visual_features\": \"双塔式玻璃幕墙|园区中庭|夜景灯光|企业总部标识\", \"cultural_description\": \"位于海淀区的中关村壹号科技商务综合体，聚集科技企业总部。\", \"typical_scene\": \"\"}]",
+  "model": "glm-4v",
+  "temperature": 0.1,
+  "max_tokens": 2048,
+  "base64_omitted": true
+}

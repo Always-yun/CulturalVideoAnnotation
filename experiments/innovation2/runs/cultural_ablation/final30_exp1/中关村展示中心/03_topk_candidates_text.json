@@ -1,0 +1,24 @@
+[
+  {
+    "symbol_id": "CN2_ANCIENT_017",
+    "canonical_name": "长城",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 9.0,
+    "reason": "关键词/别名命中：长城",
+    "image_score": 0.0,
+    "text_score": 9.0,
+    "fusion_score": 9.0
+  },
+  {
+    "symbol_id": "CN2_TECH_005",
+    "canonical_name": "中关村国家自主创新示范区展示中心",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 6.0,
+    "reason": "关键词/别名命中：展示中心",
+    "image_score": 0.0,
+    "text_score": 6.0,
+    "fusion_score": 6.0
+  }
+]

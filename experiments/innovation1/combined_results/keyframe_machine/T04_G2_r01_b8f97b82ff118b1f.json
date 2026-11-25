@@ -1,0 +1,78 @@
+{
+  "request": {
+    "video_id": "T04_G2_r01",
+    "task_id": "T04",
+    "group": "G2",
+    "source": {
+      "video_file": "data/video/南湖红船.mp4",
+      "video_sha256": "b2cb09956a3e2c21930e516d48d225208d03888d0dcd1b767f9af886561b19d8",
+      "frames": [
+        {
+          "fraction": 0.5,
+          "duration_sec": 2.819,
+          "requested_sec": 1.4095,
+          "actual_sec": 1.4,
+          "absolute_pts_sec": 1.4,
+          "frame_index": 42,
+          "frame_file": "experiments/innovation1/four_group_v2/keyframes/T04/source/50.jpg",
+          "sha256": "c7d294375942f1ab464983f3d66434e52f0e7a0562f3cc6520601d105f7b7209",
+          "attempts": [
+            {
+              "index": 42,
+              "pts_sec": 1.4,
+              "black": false
+            }
+          ]
+        }
+      ],
+      "T": {
+        "fps": 29.819009618631878,
+        "decoded_frames": 84,
+        "duration_sec": 2.819,
+        "duration_scope_warning": "outside_3_to_5_seconds_review_scope"
+      },
+      "exception_rule": "nearest PTS; black >98% gray<8; previous then next within 0.1s; failure blocks; no aesthetic selection"
+    },
+    "generated": {
+      "video_file": "experiments/innovation1/videos/four_group_v2/T04-G2.mp4",
+      "video_sha256": "ccae79811706df540a9c34d3260e1baef5d7b001b017e43f1a1cea032390e09f",
+      "frames": [
+        {
+          "fraction": 0.5,
+          "duration_sec": 5.166667,
+          "requested_sec": 2.5833335,
+          "actual_sec": 2.583333,
+          "absolute_pts_sec": 2.583333,
+          "frame_index": 62,
+          "frame_file": "experiments/innovation1/four_group_v2/keyframes/T04/T04_G2_r01/50.jpg",
+          "sha256": "a94d09c2e89c495f4d464c497b0c73dbcab32b8a6f29f3483ff1c6ebbfd69f6e",
+          "attempts": [
+            {
+              "index": 62,
+              "pts_sec": 2.583333,
+              "black": false
+            }
+          ]
+        }
+      ],
+      "T": {
+        "fps": 24.0,
+        "decoded_frames": 124,
+        "duration_sec": 5.166667,
+        "duration_scope_warning": "outside_3_to_5_seconds_review_scope"
+      },
+      "exception_rule": "nearest PTS; black >98% gray<8; previous then next within 0.1s; failure blocks; no aesthetic selection",
+      "formal_eligibility": false,
+      "eligibility_note": "关键帧可先提取；正式评价仍需冻结描述及核验生成配置"
+    },
+    "prompt": "第一张为原视频50%关键帧，第二张为生成视频50%关键帧。独立评价关键帧一致性：比较主要主体轮廓与相对尺度、关键部件及空间关系、场景布局、拍摄视角与构图。不要求像素一致，不因纯画风、光照色差扣分，不根据图片判断镜头运动。Match=上述主要关系基本一致；Partial=部分一致但有明显结构、布局或视角偏差；Mismatch=主要主体或空间组织明显不同；Uncertain=证据不足。禁止以是否知道地标名称替代图像比较。只输出严格JSON：{\"verdict\":\"Match/Partial/Mismatch/Uncertain\",\"evidence\":\"明确指出两张图相同与不同之处\"}。"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "parse_ok": true,
+  "raw_response": "{\"verdict\":\"Mismatch\",\"evidence\":\"主要主体轮廓与相对尺度：第一张船为单层木质结构，第二张为双层带金色屋顶的船，主体形态和层数差异显著；关键部件及空间关系：第一张船有船头木杆、船舱布帘，第二张船有阳台栏杆、红色灯笼，部件完全不同；场景布局：第一张船靠近石砌岸边，第二张船靠近带栏杆的码头，岸边设施不同；拍摄视角与构图：第一张为近景侧拍，第二张为远景正拍，视角和构图差异明显\"}",
+  "parsed": {
+    "verdict": "Mismatch",
+    "evidence": "主要主体轮廓与相对尺度：第一张船为单层木质结构，第二张为双层带金色屋顶的船，主体形态和层数差异显著；关键部件及空间关系：第一张船有船头木杆、船舱布帘，第二张船有阳台栏杆、红色灯笼，部件完全不同；场景布局：第一张船靠近石砌岸边，第二张船靠近带栏杆的码头，岸边设施不同；拍摄视角与构图：第一张为近景侧拍，第二张为远景正拍，视角和构图差异明显"
+  }
+}

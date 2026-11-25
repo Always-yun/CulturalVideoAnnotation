@@ -1,0 +1,62 @@
+{
+  "request": {
+    "id": "T07_T07_G2_r01_video",
+    "task_id": "T07",
+    "video_id": "T07_G2_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T07-G2.mp4",
+    "video_sha256": "79ca20508c164754583de71dd33c4b3a2093be4aee0a59305204e19413f1ab71",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [
+      "T07-F3",
+      "T07-F4"
+    ],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：**主体（Main Object）：** 一枚大型现代运载火箭位于航天发射基地中央，火箭竖直矗立，周围分布有不同功能的发射设施，主体保持静止。\n\n**背景（Background）：** 火箭位于开阔的室外航天发射场，周围有工业建筑、道路和发射保障设施，晴朗白天的自然光照亮场地。\n\n**风格（Style）：** 写实工业摄影风格，画面具有现代科技设施的严谨感，建筑与设备结构清晰，色彩自然。\n\n**镜头（Camera）：** 固定机位，中远景平视略微仰拍，完整展示大型火箭及周围设施，没有明显的镜头运动。。时序事实及判据：[{\"fact_id\": \"T07-F3\", \"question\": \"视频中是否出现火箭底部点火并伴随明显火焰或烟雾的过程？\", \"yes_rule\": \"连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程\", \"no_rule\": \"火箭底部始终无火焰烟雾，或所见烟雾与火箭点火无明确关系\", \"uncertain_rule\": \"底部被遮挡、片段缺失、解码异常或无法确认点火过程\"}, {\"fact_id\": \"T07-F4\", \"question\": \"视频中是否呈现火箭从发射工位向上升空的连续变化？\", \"yes_rule\": \"连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架\", \"no_rule\": \"火箭始终静止在工位，或运动方向不是向上升空\", \"uncertain_rule\": \"镜头运动、遮挡、片段过短或解码异常导致无法判断相对位移\"}]",
+    "request_sha256": "2edbec81bf301f684af3de2c72e01a11cdb3563579504d401a605826bb158b53"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"conditions\": {\"subject\": {\"verdict\": \"Yes\", \"evidence\": \"视频中主体为大型现代运载火箭，竖直矗立于航天发射基地中央，周围有发射设施，主体在初始阶段保持静止\", \"timestamps\": \"0.00-1.00秒\"}, \"scene\": {\"verdict\": \"Yes\", \"evidence\": \"火箭位于开阔室外航天发射场，有工业建筑、道路和发射保障设施，晴朗白天自然光照亮场地\", \"timestamps\": \"0.00-1.00秒\"}, \"time_weather\": {\"verdict\": \"Yes\", \"evidence\": \"画面呈现晴朗白天的自然光照条件，光线均匀明亮\", \"timestamps\": \"0.00-1.00秒\"}, \"camera_motion\": {\"verdict\": \"Yes\", \"evidence\": \"镜头为固定机位，中远景平视略微仰拍，无明显的镜头运动，完整展示火箭及周围设施\", \"timestamps\": \"0.00-1.00秒\"}}, \"temporal_facts\": {\"T07-F3\": {\"verdict\": \"Yes\", \"evidence\": \"连续视频中可见火箭底部从无点火状态到出现明显喷射火焰、烟柱及大量烟雾的点火过程\", \"timestamps\": \"1.00-5.00秒\"}, \"T07-F4\": {\"verdict\": \"Yes\", \"evidence\": \"连续视频中火箭相对发射工位发生持续向上的位移，逐步离开平台并升空\", \"timestamps\": \"4.00-6.00秒\"}}}",
+  "parse_ok": true,
+  "parsed": {
+    "conditions": {
+      "subject": {
+        "verdict": "Yes",
+        "evidence": "视频中主体为大型现代运载火箭，竖直矗立于航天发射基地中央，周围有发射设施，主体在初始阶段保持静止",
+        "timestamps": "0.00-1.00秒"
+      },
+      "scene": {
+        "verdict": "Yes",
+        "evidence": "火箭位于开阔室外航天发射场，有工业建筑、道路和发射保障设施，晴朗白天自然光照亮场地",
+        "timestamps": "0.00-1.00秒"
+      },
+      "time_weather": {
+        "verdict": "Yes",
+        "evidence": "画面呈现晴朗白天的自然光照条件，光线均匀明亮",
+        "timestamps": "0.00-1.00秒"
+      },
+      "camera_motion": {
+        "verdict": "Yes",
+        "evidence": "镜头为固定机位，中远景平视略微仰拍，无明显的镜头运动，完整展示火箭及周围设施",
+        "timestamps": "0.00-1.00秒"
+      }
+    },
+    "temporal_facts": {
+      "T07-F3": {
+        "verdict": "Yes",
+        "evidence": "连续视频中可见火箭底部从无点火状态到出现明显喷射火焰、烟柱及大量烟雾的点火过程",
+        "timestamps": "1.00-5.00秒"
+      },
+      "T07-F4": {
+        "verdict": "Yes",
+        "evidence": "连续视频中火箭相对发射工位发生持续向上的位移，逐步离开平台并升空",
+        "timestamps": "4.00-6.00秒"
+      }
+    }
+  }
+}

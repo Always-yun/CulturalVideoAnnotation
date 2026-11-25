@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_JINGWEI_001",
+    "canonical_name": "胡同",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.798431396484375,
+    "reason": "关键词/别名命中：胡同、老北京",
+    "image_score": 0.5969,
+    "text_score": 1.0,
+    "fusion_score": 0.7984
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_010",
+    "canonical_name": "大栅栏",
+    "cultural_dimension": "民族与民俗文化;现代城市与国际文化",
+    "dimension_code": "FOLK;MODERN",
+    "score": 0.46882120768229163,
+    "reason": "关键词/别名命中：胡同",
+    "image_score": 0.6043,
+    "text_score": 0.3333,
+    "fusion_score": 0.4688
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_003",
+    "canonical_name": "京剧",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.46637980143229163,
+    "reason": "关键词/别名命中：京胡",
+    "image_score": 0.5994,
+    "text_score": 0.3333,
+    "fusion_score": 0.4664
+  },
+  {
+    "symbol_id": "BJ_GUDU_009",
+    "canonical_name": "什刹海",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.46476236979166663,
+    "reason": "关键词/别名命中：胡同",
+    "image_score": 0.5962,
+    "text_score": 0.3333,
+    "fusion_score": 0.4648
+  },
+  {
+    "symbol_id": "CN_ANCIENT_001",
+    "canonical_name": "秦始皇帝陵兵马俑",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.30694580078125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6139,
+    "text_score": 0.0,
+    "fusion_score": 0.3069
+  }
+]

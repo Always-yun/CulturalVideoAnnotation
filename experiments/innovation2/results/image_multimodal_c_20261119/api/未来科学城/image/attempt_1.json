@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:58:21.121415+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于科技与创新文化、现代城市与国际文化。\n核心符号：未来科学城\n价值指向：可见现代办公楼宇群、桥梓湾生态公园、温榆河绿带等视觉特征，与“未来科学城”的典型场景（园区俯瞰、温榆河绿带、办公楼宇）高度吻合，符合其作为北京国际科创中心“三城一区”之一、聚焦前沿科技的文化内涵。</think>",
+  "response_model": "glm-4v",
+  "response_id": "20261119165821b615e8b9c02e4c2e",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=46494, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=100, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=46594)",
+  "seconds": 62.154133796691895
+}

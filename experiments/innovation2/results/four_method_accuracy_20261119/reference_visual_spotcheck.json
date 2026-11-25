@@ -1,0 +1,27 @@
+{
+  "reviewer": "assistant visual spot check; not a human verification or enablement",
+  "scope": "3 examples only; no claims about all149 images",
+  "examples": [
+    {
+      "symbol_id": "BJ_FASHION_003",
+      "entity": "CBD",
+      "image": "data/knowledge_base/reference_images_v2/BJ_FASHION_003/01_cb1b094ee1f6.jpg",
+      "observed": "蓝色中央商务区文字封面与线条装饰；非城市建筑实景",
+      "retrieval_issue": "不能为视频城市天际线提供真实外观参照"
+    },
+    {
+      "symbol_id": "BJ_INNOV_006",
+      "entity": "北京大学",
+      "image": "data/knowledge_base/reference_images_v2/BJ_INNOV_006/01_4546bcd7ebd9.jpg",
+      "observed": "北京大学圆形校徽；非校园建筑或校门照片",
+      "retrieval_issue": "仅适用于画面出现校徽时的局部视觉匹配；不能代表本批校门/校园外观"
+    },
+    {
+      "symbol_id": "BJ_GUDU_001",
+      "entity": "故宫",
+      "image": "data/knowledge_base/reference_images_v2/BJ_GUDU_001/01_b34d3d8edcc7.jpg",
+      "observed": "包含城门、角楼、建筑群、影壁、石狮的多景拼图",
+      "retrieval_issue": "多实体与局部拼图混合，实体范围及池化方式需审核"
+    }
+  ]
+}

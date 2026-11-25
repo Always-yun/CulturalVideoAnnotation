@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN2_TECH_008",
+    "canonical_name": "中关村壹号",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.8074951171875,
+    "reason": "关键词/别名命中：中关村1号",
+    "image_score": 0.615,
+    "text_score": 1.0,
+    "fusion_score": 0.8075
+  },
+  {
+    "symbol_id": "BJ_INNOV_001",
+    "canonical_name": "中关村",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.80401611328125,
+    "reason": "关键词/别名命中：中关村",
+    "image_score": 0.608,
+    "text_score": 1.0,
+    "fusion_score": 0.804
+  },
+  {
+    "symbol_id": "BJ_RED_002",
+    "canonical_name": "天安门广场",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.551025390625,
+    "reason": "关键词/别名命中：广场",
+    "image_score": 0.6021,
+    "text_score": 0.5,
+    "fusion_score": 0.551
+  },
+  {
+    "symbol_id": "CN2_MODERN_002",
+    "canonical_name": "鼓浪屿：历史国际社区",
+    "cultural_dimension": "现代城市与国际文化;古城与历史文化",
+    "dimension_code": "MODERN;ANCIENT",
+    "score": 0.3153076171875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6306,
+    "text_score": 0.0,
+    "fusion_score": 0.3153
+  },
+  {
+    "symbol_id": "BJ_INNOV_006",
+    "canonical_name": "北京大学",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.3140869140625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6282,
+    "text_score": 0.0,
+    "fusion_score": 0.3141
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "media_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/data/videos/北大1.mp4",
+  "media_sha256": "fc9fa337706d3af80540a5fd50e126c1b6c86bb07e8d9cc0aabbfdcc3b5df9b5",
+  "media_kind": "video_url",
+  "prompt": "请仅输出EMCAST的C文化维度层，保留完整中文自然语言说明，不输出其余五层。\n根据视频实际可见证据识别文化符号。文化类别可多选：古城与历史文化、红色文化、民族与民俗文化、科技与创新文化、现代城市与国际文化；证据不足可写无法确认。\n候选知识只是待核实材料，不证明画面已出现该实体。允许命名候选之外的实体，允许无候选或无法确认，不强迫选择。不要给数值置信度。\n核心符号行请用规范名称列出实际确认的实体，多个用顿号分隔；没有可靠身份则写unknown_symbol。其他说明放在价值指向中，不把身份猜测写成已识别事实。\n输出格式沿用现有C层：\n【C｜文化维度层】：该场景隶属于……（多类可并列，无法确认则说明）。\n核心符号：……\n价值指向：描述可见视觉依据、文化内涵与不确定之处。\n\n以下为检索到的待核实文化知识（不是已经出现的事实；可不选）：\n[{\"symbol_id\": \"BJ_INNOV_006\", \"canonical_name\": \"北京大学\", \"aliases\": \"北大|京师大学堂\", \"cultural_dimension\": \"科技与创新文化\", \"dimension_code\": \"TECH\", \"visual_features\": \"未名湖|博雅塔|西门古牌楼式校门|燕园建筑群|图书馆|圆明园湖砖\", \"cultural_description\": \"1898年京师大学堂，中国近代第一所国立综合性大学，新文化运动中心与中国共产党重要发源地\", \"typical_scene\": \"未名湖畔|博雅塔剪影|西门牌楼|樱花季\"}, {\"symbol_id\": \"BJ_RED_004\", \"canonical_name\": \"卢沟桥\", \"aliases\": \"卢沟桥|芦沟桥\", \"cultural_dimension\": \"红色文化\", \"dimension_code\": \"RED\", \"visual_features\": \"11孔联拱石桥|长266.5米|栏板281间望柱501根|柱头石狮形态各异\", \"cultural_description\": \"金代建桥，\\\"燕京八景\\\"之一卢沟晓月，1937年七七事变抗战爆发地，1961年首批全国重点文保\", \"typical_scene\": \"石狮特写|桥面长焦|月色\\\"卢沟晓月\\\"\"}, {\"symbol_id\": \"BJ_JINGWEI_001\", \"canonical_name\": \"胡同\", \"aliases\": \"巷|小街\", \"cultural_dimension\": \"民族与民俗文化\", \"dimension_code\": \"FOLK\", \"visual_features\": \"灰砖墙|青瓦坡顶|窄巷尺度|两侧四合院|门楼门墩|台阶石\", \"cultural_description\": \"元代形成，北京特有街巷形态，胡同名称承载市井文化、地理与历史信息\", \"typical_scene\": \"胡同步行|自行车穿行|树荫斜光|冬日积雪\"}]",
+  "model": "glm-4v",
+  "temperature": 0.1,
+  "max_tokens": 2048,
+  "base64_omitted": true
+}

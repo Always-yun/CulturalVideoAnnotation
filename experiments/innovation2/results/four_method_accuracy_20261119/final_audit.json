@@ -1,0 +1,57 @@
+{
+  "frozen_hashes_match": true,
+  "video_hashes_match": true,
+  "keyframe_hashes_match": true,
+  "record_count": 120,
+  "unique_video_mode_pairs": 120,
+  "n_videos": 30,
+  "completed_model_annotations": 58,
+  "four_method_comparison_complete": false,
+  "regression_tests": "47 passed; regression_tests.log",
+  "improved_free_to_text": [
+    "中关村展示中心",
+    "人民大会堂",
+    "人民英雄纪念碑",
+    "人民英雄纪念碑1",
+    "北大1",
+    "国博",
+    "故宫全景",
+    "角楼",
+    "角楼1",
+    "鸟巢"
+  ],
+  "regressed_free_to_text": [],
+  "text_empty_candidates": [
+    "cbd3",
+    "京剧青衣",
+    "人民大会堂",
+    "天安门",
+    "庙会",
+    "未来科学城",
+    "糖葫芦",
+    "胡同",
+    "胡同1"
+  ],
+  "paired_identical_prompts": [
+    "cbd3",
+    "京剧青衣",
+    "人民大会堂",
+    "天安门",
+    "庙会",
+    "未来科学城",
+    "糖葫芦",
+    "胡同",
+    "胡同1"
+  ],
+  "identical_prompt_prediction_changes": [
+    "人民大会堂",
+    "天安门",
+    "庙会",
+    "未来科学城"
+  ],
+  "execution_scheduler_hash_matches": true,
+  "reference_image_hashes_match": true,
+  "evaluation_finalizer_sha256": "bf98866ee4449c855e36e59b88f6065ed652e2f7c70996eb06268b435ee73bb9",
+  "method_tasks_observed": 60,
+  "finalized_at": "2026-11-19T13:05:00.210431+08:00"
+}

@@ -1,0 +1,1690 @@
+{
+  "meta": {
+    "name": "实验二_文化视觉特征自动评价_第一批评价输入_v2",
+    "created": "2026-11-02",
+    "stage": "评价输入（未评分，仅建立映射与事实标准）",
+    "source_taskset": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/taskset_candidates_v1.json",
+    "video_dir": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1",
+    "targets": [
+      "T02",
+      "T03",
+      "T05",
+      "T08",
+      "T09"
+    ],
+    "total_videos": 20,
+    "total_features": 20,
+    "total_eval_records": 80,
+    "note": "事实与判定标准全部来自既定任务清单 taskset_candidates_v1.json，未因生成结果做任何修改；同一任务G1-G4使用完全相同的4项事实与判定标准",
+    "version": "v2",
+    "revision_note": "修正T09-F3中国尊轮廓方向、强化T03-F4拱形柱廊要求、标记T08-F4待核实；",
+    "group_mapping_status": "unverified",
+    "unknown_params_policy": "模型/种子/参数一律记为unknown，不推测",
+    "current_version": "v3"
+  },
+  "videos": [
+    {
+      "video_id": "T02_G1",
+      "task_id": "T02",
+      "group_id": "G1",
+      "file_name": "T2-1.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-1.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T02_G2",
+      "task_id": "T02",
+      "group_id": "G2",
+      "file_name": "T2-2.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-2.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T02_G3",
+      "task_id": "T02",
+      "group_id": "G3",
+      "file_name": "T2-3.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-3.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T02_G4",
+      "task_id": "T02",
+      "group_id": "G4",
+      "file_name": "T2-4.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-4.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T03_G1",
+      "task_id": "T03",
+      "group_id": "G1",
+      "file_name": "T3-1.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T3-1.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T03_G2",
+      "task_id": "T03",
+      "group_id": "G2",
+      "file_name": "T3-2.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T3-2.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T03_G3",
+      "task_id": "T03",
+      "group_id": "G3",
+      "file_name": "T3-3.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T3-3.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T03_G4",
+      "task_id": "T03",
+      "group_id": "G4",
+      "file_name": "T3-4.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T3-4.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T05_G1",
+      "task_id": "T05",
+      "group_id": "G1",
+      "file_name": "T5-1.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T5-1.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T05_G2",
+      "task_id": "T05",
+      "group_id": "G2",
+      "file_name": "T5-2.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T5-2.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T05_G3",
+      "task_id": "T05",
+      "group_id": "G3",
+      "file_name": "T5-3.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T5-3.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T05_G4",
+      "task_id": "T05",
+      "group_id": "G4",
+      "file_name": "T5-4.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T5-4.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T08_G1",
+      "task_id": "T08",
+      "group_id": "G1",
+      "file_name": "T8-1.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T8-1.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T08_G2",
+      "task_id": "T08",
+      "group_id": "G2",
+      "file_name": "T8-2.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T8-2.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T08_G3",
+      "task_id": "T08",
+      "group_id": "G3",
+      "file_name": "T8-3.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T8-3.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T08_G4",
+      "task_id": "T08",
+      "group_id": "G4",
+      "file_name": "T8-4.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T8-4.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T09_G1",
+      "task_id": "T09",
+      "group_id": "G1",
+      "file_name": "T9-1.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T9-1.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T09_G2",
+      "task_id": "T09",
+      "group_id": "G2",
+      "file_name": "T9-2.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T9-2.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T09_G3",
+      "task_id": "T09",
+      "group_id": "G3",
+      "file_name": "T9-3.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T9-3.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    },
+    {
+      "video_id": "T09_G4",
+      "task_id": "T09",
+      "group_id": "G4",
+      "file_name": "T9-4.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T9-4.mp4",
+      "file_exists": true,
+      "generation_params": {
+        "resolution": "864x480",
+        "fps": 24,
+        "duration_sec": 5.167,
+        "model": "unknown",
+        "seed": "unknown",
+        "other_params": "unknown"
+      },
+      "param_consistency_note": "分辨率/帧率/时长与同批19条完全一致；模型名称、随机种子、其他生成参数未随视频提供元数据，无法核验一致性",
+      "group_mapping_status": "unverified"
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "T02-F1",
+      "task_id": "T02",
+      "feature_description": "主体屋顶为多重屋顶组合（非单一屋顶）",
+      "yes_criteria": "主体屋顶由多个屋顶单元叠合组合（如中央多层檐攒尖亭与四周重檐歇山顶叠合），轮廓呈明显分层、复合的屋顶群",
+      "no_criteria": "屋顶为单一形制（单檐或单一庑殿/歇山顶），无叠合分层结构",
+      "uncertain_criteria": "屋顶轮廓被遮挡或视角不足以判断屋顶单元的叠合关系",
+      "ambiguity_note": "仅凭“多檐”不判Yes，须可见不同屋顶单元在体量上叠合；单体量方形/圆形楼阁判No。不要求分辨“九梁十八柱七十二条脊”",
+      "source": {
+        "symbol_id": "BJ_GUDU_001",
+        "kb_field": "visual_features / 权威结构描述（故宫博物院官网、官媒）",
+        "source_name": "故宫博物院官网及官媒对故宫角楼的介绍",
+        "source_url": "https://www.dpm.org.cn/Home.html",
+        "confidence": "high",
+        "evidence_note": "角楼为多重屋顶组合（1个三重檐四角攒尖亭+4个重檐歇山+2个单檐歇山叠加，“九梁十八柱七十二条脊”，实际76条）；共28个翼角（下、中层各12，顶层4）；建于紫禁城城墙转角之上，城墙下部为灰砖砌筑；屋顶覆黄琉璃瓦，立柱与门窗为朱红色。",
+        "kb_value": "1个三重檐四角攒尖亭+4个重檐歇山屋顶+2个单檐歇山屋顶叠加组合"
+      }
+    },
+    {
+      "feature_id": "T02-F2",
+      "task_id": "T02",
+      "feature_description": "檐口多翼角出挑、层层起翘",
+      "yes_criteria": "檐口四向可见多个向外起翘的翼角，檐口层层出挑形成复杂轮廓",
+      "no_criteria": "檐口平直无起翘翼角，或仅单层四角起翘",
+      "uncertain_criteria": "檐口细节模糊或被遮挡，无法辨认翼角是否存在、是否起翘",
+      "ambiguity_note": "不要求数出28个翼角；四向可见成组起翘翼角即判Yes。仅一处起翘不判Yes",
+      "source": {
+        "symbol_id": "BJ_GUDU_001",
+        "kb_field": "visual_features / 权威结构描述（故宫博物院官网、官媒）",
+        "source_name": "故宫博物院官网及官媒对故宫角楼的介绍",
+        "source_url": "https://www.dpm.org.cn/Home.html",
+        "confidence": "high",
+        "evidence_note": "角楼为多重屋顶组合（1个三重檐四角攒尖亭+4个重檐歇山+2个单檐歇山叠加，“九梁十八柱七十二条脊”，实际76条）；共28个翼角（下、中层各12，顶层4）；建于紫禁城城墙转角之上，城墙下部为灰砖砌筑；屋顶覆黄琉璃瓦，立柱与门窗为朱红色。",
+        "kb_value": "共28个翼角（下层12、中层12、顶层4）"
+      }
+    },
+    {
+      "feature_id": "T02-F3",
+      "task_id": "T02",
+      "feature_description": "角楼坐落于灰砖城墙转角之上",
+      "yes_criteria": "角楼位于灰色砖砌城墙的转角处，画面可同时看到角楼与其下方灰砖城墙的转折关系",
+      "no_criteria": "角楼不位于城墙转角（如立于平地、孤立建筑），或城墙不是灰砖砌筑（如红墙、石墙）",
+      "uncertain_criteria": "城墙部分被遮挡或构图不完整，无法确认角楼是否处于城墙转角",
+      "ambiguity_note": "须同时满足“城墙转角位置”与“城墙为灰砖”两点；仅见角楼而不见城墙转折判Uncertain",
+      "source": {
+        "symbol_id": "BJ_GUDU_001",
+        "kb_field": "visual_features / 权威结构描述（故宫博物院官网、官媒）",
+        "source_name": "故宫博物院官网及官媒对故宫角楼的介绍",
+        "source_url": "https://www.dpm.org.cn/Home.html",
+        "confidence": "high",
+        "evidence_note": "角楼为多重屋顶组合（1个三重檐四角攒尖亭+4个重檐歇山+2个单檐歇山叠加，“九梁十八柱七十二条脊”，实际76条）；共28个翼角（下、中层各12，顶层4）；建于紫禁城城墙转角之上，城墙下部为灰砖砌筑；屋顶覆黄琉璃瓦，立柱与门窗为朱红色。",
+        "kb_value": "角楼位于紫禁城城墙转角处，城墙下部为灰砖砌筑"
+      }
+    },
+    {
+      "feature_id": "T02-F4",
+      "task_id": "T02",
+      "feature_description": "黄瓦朱柱配色（黄琉璃瓦+朱红立柱/门窗）",
+      "yes_criteria": "屋顶覆黄色琉璃瓦，且同时可见朱红色立柱或门窗构件（黄瓦与朱红构件同现）",
+      "no_criteria": "屋顶非黄色琉璃瓦，或无朱红立柱/门窗（如灰瓦、青瓦、白墙灰柱）",
+      "uncertain_criteria": "屋顶颜色或柱色不可辨（过曝、背光或遮挡）",
+      "ambiguity_note": "仅凭黄琉璃瓦不判Yes（多处古建均用黄瓦），须黄瓦+朱红构件组合；仅凭红色亦不判Yes",
+      "source": {
+        "symbol_id": "BJ_GUDU_001",
+        "kb_field": "visual_features / 权威结构描述（故宫博物院官网、官媒）",
+        "source_name": "故宫博物院官网及官媒对故宫角楼的介绍",
+        "source_url": "https://www.dpm.org.cn/Home.html",
+        "confidence": "high",
+        "evidence_note": "角楼为多重屋顶组合（1个三重檐四角攒尖亭+4个重檐歇山+2个单檐歇山叠加，“九梁十八柱七十二条脊”，实际76条）；共28个翼角（下、中层各12，顶层4）；建于紫禁城城墙转角之上，城墙下部为灰砖砌筑；屋顶覆黄琉璃瓦，立柱与门窗为朱红色。",
+        "kb_value": "屋顶覆黄琉璃瓦，立柱和门窗为朱红色"
+      }
+    },
+    {
+      "feature_id": "T03-F1",
+      "task_id": "T03",
+      "feature_description": "建筑为二层砖木楼房",
+      "yes_criteria": "明确两层且可见砖墙与木质构件（柱、门窗、廊栏）",
+      "no_criteria": "仅一层或三层以上，或为现代混凝土建筑",
+      "uncertain_criteria": "层数被遮挡",
+      "ambiguity_note": "",
+      "source": {
+        "symbol_id": "CN_RED_001",
+        "kb_field": "visual_features",
+        "kb_value": "二层砖木楼房",
+        "source_name": "天津市纪委监委红色资源页面",
+        "source_url": "https://www.tjjw.gov.cn/points/2021/06/23/detail_2021062344598.html",
+        "confidence": "high"
+      }
+    },
+    {
+      "feature_id": "T03-F2",
+      "task_id": "T03",
+      "feature_description": "灰砖与白墙相间",
+      "yes_criteria": "灰色砖材与白色墙面同时可见",
+      "no_criteria": "通体红墙、全灰或全白",
+      "uncertain_criteria": "墙面颜色不可辨",
+      "ambiguity_note": "",
+      "source": {
+        "symbol_id": "CN_RED_001",
+        "kb_field": "visual_features",
+        "kb_value": "灰砖白墙",
+        "source_name": "天津市纪委监委红色资源页面",
+        "source_url": "https://www.tjjw.gov.cn/points/2021/06/23/detail_2021062344598.html",
+        "confidence": "high"
+      }
+    },
+    {
+      "feature_id": "T03-F3",
+      "task_id": "T03",
+      "feature_description": "青瓦坡屋顶",
+      "yes_criteria": "深灰/青灰色瓦片的坡屋顶",
+      "no_criteria": "平顶或金属/茅草屋顶",
+      "uncertain_criteria": "屋顶不可见",
+      "ambiguity_note": "",
+      "source": {
+        "symbol_id": "CN_RED_001",
+        "kb_field": "visual_features",
+        "kb_value": "青瓦丹柱",
+        "source_name": "天津市纪委监委红色资源页面",
+        "source_url": "https://www.tjjw.gov.cn/points/2021/06/23/detail_2021062344598.html",
+        "confidence": "high"
+      }
+    },
+    {
+      "feature_id": "T03-F4",
+      "task_id": "T03",
+      "feature_description": "檐下有连续拱形柱廊（丹柱/外廊）",
+      "yes_criteria": "正立面清楚可见连续的拱形开口（券洞）及其对应的廊柱（柱廊），须二者同时出现",
+      "no_criteria": "无外廊",
+      "uncertain_criteria": "廊柱数量过少无法确认",
+      "ambiguity_note": "不能仅凭普通柱廊(无拱)就判Yes；必须有拱形开口+对应廊柱的组合",
+      "source": {
+        "symbol_id": "CN_RED_001",
+        "kb_field": "visual_features",
+        "kb_value": "青瓦丹柱",
+        "source_name": "天津市纪委监委红色资源页面",
+        "source_url": "https://www.tjjw.gov.cn/points/2021/06/23/detail_2021062344598.html",
+        "confidence": "high"
+      }
+    },
+    {
+      "feature_id": "T05-F1",
+      "task_id": "T05",
+      "feature_description": "画面中出现多座圆形土楼（土楼群）",
+      "yes_criteria": "同画面可见两座及以上圆形夯土楼",
+      "no_criteria": "仅一座或无圆形土楼",
+      "uncertain_criteria": "数量不可辨",
+      "ambiguity_note": "",
+      "source": {
+        "symbol_id": "CN2_FOLK_003",
+        "kb_field": "visual_features",
+        "kb_value": "群体聚落",
+        "source_name": "国家文物局·世界文化遗产名录",
+        "source_url": "http://www.ncha.gov.cn/art/2024/8/8/art_2791_190642.html",
+        "confidence": "high"
+      }
+    },
+    {
+      "feature_id": "T05-F2",
+      "task_id": "T05",
+      "feature_description": "土楼平面为闭合圆环形",
+      "yes_criteria": "至少主体土楼外轮廓为完整圆环",
+      "no_criteria": "均为方形或矩形",
+      "uncertain_criteria": "俯视角度不足无法判断",
+      "ambiguity_note": "",
+      "source": {
+        "symbol_id": "CN2_FOLK_003",
+        "kb_field": "visual_features",
+        "kb_value": "圆形或方形夯土大楼",
+        "source_name": "国家文物局·世界文化遗产名录",
+        "source_url": "http://www.ncha.gov.cn/art/2024/8/8/art_2791_190642.html",
+        "confidence": "high"
+      }
+    },
+    {
+      "feature_id": "T05-F3",
+      "task_id": "T05",
+      "feature_description": "黑色瓦片大屋顶且出檐深远",
+      "yes_criteria": "圆环屋顶为深色瓦、出檐明显",
+      "no_criteria": "平顶或浅红色瓦",
+      "uncertain_criteria": "屋顶细节不可辨",
+      "ambiguity_note": "",
+      "source": {
+        "symbol_id": "CN2_FOLK_003",
+        "kb_field": "visual_features",
+        "kb_value": "黑瓦巨大出檐",
+        "source_name": "国家文物局·世界文化遗产名录",
+        "source_url": "http://www.ncha.gov.cn/art/2024/8/8/art_2791_190642.html",
+        "confidence": "high"
+      }
+    },
+    {
+      "feature_id": "T05-F4",
+      "task_id": "T05",
+      "feature_description": "土楼处于山地村落环境",
+      "yes_criteria": "背景为山丘/林地/村落",
+      "no_criteria": "处于城市街区",
+      "uncertain_criteria": "背景不可见",
+      "ambiguity_note": "现代圆形建筑（体育馆、剧院等）不算土楼，须同时满足夯土墙+黑瓦屋顶",
+      "source": {
+        "symbol_id": "CN2_FOLK_003",
+        "kb_field": "cultural_description",
+        "kb_value": "山地乡村环境",
+        "source_name": "国家文物局·世界文化遗产名录",
+        "source_url": "http://www.ncha.gov.cn/art/2024/8/8/art_2791_190642.html",
+        "confidence": "high"
+      }
+    },
+    {
+      "feature_id": "T08-F1",
+      "task_id": "T08",
+      "feature_description": "画面含现代滑雪大跳台设施",
+      "yes_criteria": "可见流线型/坡道式现代大跳台结构",
+      "no_criteria": "无大跳台",
+      "uncertain_criteria": "设施被遮挡不完整",
+      "ambiguity_note": "判定以\"现代坡道式设施\"为准，普通现代建筑判No",
+      "source": {
+        "symbol_id": "BJ_FASHION_006",
+        "kb_field": "cultural_description",
+        "kb_value": "首钢滑雪大跳台场地",
+        "source_name": "首都之窗",
+        "source_url": "https://www.beijing.gov.cn/",
+        "confidence": "high"
+      }
+    },
+    {
+      "feature_id": "T08-F2",
+      "task_id": "T08",
+      "feature_description": "现代设施与工业遗存同画面并置",
+      "yes_criteria": "新设施与旧工业构筑物同框出现",
+      "no_criteria": "只有其一",
+      "uncertain_criteria": "其一被裁切",
+      "ambiguity_note": "",
+      "source": {
+        "symbol_id": "BJ_FASHION_006",
+        "kb_field": "visual_features",
+        "kb_value": "冬奥广场现代建筑嵌入",
+        "source_name": "首都之窗",
+        "source_url": "https://www.beijing.gov.cn/",
+        "confidence": "high"
+      }
+    },
+    {
+      "feature_id": "T08-F3",
+      "task_id": "T08",
+      "feature_description": "背景有巨型钢架构/高炉工业遗存",
+      "yes_criteria": "背景可见钢架或高炉",
+      "no_criteria": "背景为纯自然环境",
+      "uncertain_criteria": "背景虚化不可辨",
+      "ambiguity_note": "",
+      "source": {
+        "symbol_id": "BJ_FASHION_006",
+        "kb_field": "visual_features",
+        "kb_value": "巨型钢架构",
+        "source_name": "首都之窗",
+        "source_url": "https://www.beijing.gov.cn/",
+        "confidence": "high"
+      }
+    },
+    {
+      "feature_id": "T08-F4",
+      "task_id": "T08",
+      "feature_description": "工业遗存为红砖/橙红色炉体",
+      "yes_criteria": "工业遗存呈红/橙红色筒仓形态",
+      "no_criteria": "普通灰色厂房",
+      "uncertain_criteria": "颜色不可辨",
+      "ambiguity_note": "",
+      "source": {
+        "symbol_id": "BJ_FASHION_006",
+        "kb_field": "visual_features",
+        "kb_value": "三高炉红砖筒仓",
+        "source_name": "首都之窗",
+        "source_url": "https://www.beijing.gov.cn/",
+        "confidence": "high"
+      },
+      "verification_status": "待核实",
+      "verification_note": "KB visual_features原文为\"三高炉红砖筒仓\"，将高炉(blast furnace)与筒仓(silo)并列；橙红色炉体可能指高炉本体，也可能指红砖筒仓，二者在工业遗存中常相邻且颜色相近。本项暂保留为\"红砖/橙红色工业炉体\"，不作高炉/筒仓的身份细分，待进一步核对参考图与权威资料。"
+    },
+    {
+      "feature_id": "T09-F1",
+      "task_id": "T09",
+      "feature_description": "画面为超高层建筑群（集群）",
+      "yes_criteria": "多栋摩天楼密集组成楼群",
+      "no_criteria": "仅一两栋高楼或低矮城区",
+      "uncertain_criteria": "楼群被裁切",
+      "ambiguity_note": "仅凭\"有高楼\"不判Yes，须体现超高层集群规模",
+      "source": {
+        "symbol_id": "BJ_FASHION_003",
+        "kb_field": "visual_features",
+        "kb_value": "玻璃幕墙超高层集群",
+        "source_name": "首都之窗",
+        "source_url": "https://www.beijing.gov.cn/",
+        "confidence": "high"
+      }
+    },
+    {
+      "feature_id": "T09-F2",
+      "task_id": "T09",
+      "feature_description": "建筑外观为玻璃幕墙",
+      "yes_criteria": "主要楼宇为反光玻璃表皮",
+      "no_criteria": "砖石/混凝土实墙立面",
+      "uncertain_criteria": "立面材质不可辨",
+      "ambiguity_note": "",
+      "source": {
+        "symbol_id": "BJ_FASHION_003",
+        "kb_field": "visual_features",
+        "kb_value": "玻璃幕墙超高层集群",
+        "source_name": "首都之窗",
+        "source_url": "https://www.beijing.gov.cn/",
+        "confidence": "high"
+      }
+    },
+    {
+      "feature_id": "T09-F3",
+      "task_id": "T09",
+      "feature_description": "中央最高塔楼轮廓中部饱满、顶部收分（中国尊造型）",
+      "yes_criteria": "最高塔楼轮廓上下相对较宽、中部收窄（呈尊形轮廓）",
+      "no_criteria": "最高塔为等宽方柱、尖顶，或上下等宽无收腰",
+      "uncertain_criteria": "塔轮廓被遮挡或画面过远无法判断腰线",
+      "ambiguity_note": "判定关键为\"尊形\"腰线：上下宽、中间收窄；不要求可见楼名或高度",
+      "source": {
+        "symbol_id": "BJ_FASHION_003",
+        "kb_field": "visual_features",
+        "kb_value": "国贸三期/银泰中心/中信大厦（\"中国尊\"528米）",
+        "source_name": "首都之窗",
+        "source_url": "https://www.beijing.gov.cn/",
+        "confidence": "high"
+      }
+    },
+    {
+      "feature_id": "T09-F4",
+      "task_id": "T09",
+      "feature_description": "呈现城市天际线构图（可含灯火）",
+      "yes_criteria": "楼群轮廓线在天空背景下完整展开",
+      "no_criteria": "无天际线视角",
+      "uncertain_criteria": "天空背景缺失",
+      "ambiguity_note": "",
+      "source": {
+        "symbol_id": "BJ_FASHION_003",
+        "kb_field": "typical_scene",
+        "kb_value": "天际线俯瞰",
+        "source_name": "首都之窗",
+        "source_url": "https://www.beijing.gov.cn/",
+        "confidence": "high"
+      }
+    }
+  ],
+  "evaluations": [
+    {
+      "video_id": "T02_G1",
+      "task_id": "T02",
+      "group_id": "G1",
+      "feature_id": "T02-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T02_G1",
+      "task_id": "T02",
+      "group_id": "G1",
+      "feature_id": "T02-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T02_G1",
+      "task_id": "T02",
+      "group_id": "G1",
+      "feature_id": "T02-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T02_G1",
+      "task_id": "T02",
+      "group_id": "G1",
+      "feature_id": "T02-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T02_G2",
+      "task_id": "T02",
+      "group_id": "G2",
+      "feature_id": "T02-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T02_G2",
+      "task_id": "T02",
+      "group_id": "G2",
+      "feature_id": "T02-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T02_G2",
+      "task_id": "T02",
+      "group_id": "G2",
+      "feature_id": "T02-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T02_G2",
+      "task_id": "T02",
+      "group_id": "G2",
+      "feature_id": "T02-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T02_G3",
+      "task_id": "T02",
+      "group_id": "G3",
+      "feature_id": "T02-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T02_G3",
+      "task_id": "T02",
+      "group_id": "G3",
+      "feature_id": "T02-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T02_G3",
+      "task_id": "T02",
+      "group_id": "G3",
+      "feature_id": "T02-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T02_G3",
+      "task_id": "T02",
+      "group_id": "G3",
+      "feature_id": "T02-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T02_G4",
+      "task_id": "T02",
+      "group_id": "G4",
+      "feature_id": "T02-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T02_G4",
+      "task_id": "T02",
+      "group_id": "G4",
+      "feature_id": "T02-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T02_G4",
+      "task_id": "T02",
+      "group_id": "G4",
+      "feature_id": "T02-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T02_G4",
+      "task_id": "T02",
+      "group_id": "G4",
+      "feature_id": "T02-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T03_G1",
+      "task_id": "T03",
+      "group_id": "G1",
+      "feature_id": "T03-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T03_G1",
+      "task_id": "T03",
+      "group_id": "G1",
+      "feature_id": "T03-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T03_G1",
+      "task_id": "T03",
+      "group_id": "G1",
+      "feature_id": "T03-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T03_G1",
+      "task_id": "T03",
+      "group_id": "G1",
+      "feature_id": "T03-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T03_G2",
+      "task_id": "T03",
+      "group_id": "G2",
+      "feature_id": "T03-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T03_G2",
+      "task_id": "T03",
+      "group_id": "G2",
+      "feature_id": "T03-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T03_G2",
+      "task_id": "T03",
+      "group_id": "G2",
+      "feature_id": "T03-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T03_G2",
+      "task_id": "T03",
+      "group_id": "G2",
+      "feature_id": "T03-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T03_G3",
+      "task_id": "T03",
+      "group_id": "G3",
+      "feature_id": "T03-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T03_G3",
+      "task_id": "T03",
+      "group_id": "G3",
+      "feature_id": "T03-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T03_G3",
+      "task_id": "T03",
+      "group_id": "G3",
+      "feature_id": "T03-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T03_G3",
+      "task_id": "T03",
+      "group_id": "G3",
+      "feature_id": "T03-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T03_G4",
+      "task_id": "T03",
+      "group_id": "G4",
+      "feature_id": "T03-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T03_G4",
+      "task_id": "T03",
+      "group_id": "G4",
+      "feature_id": "T03-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T03_G4",
+      "task_id": "T03",
+      "group_id": "G4",
+      "feature_id": "T03-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T03_G4",
+      "task_id": "T03",
+      "group_id": "G4",
+      "feature_id": "T03-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T05_G1",
+      "task_id": "T05",
+      "group_id": "G1",
+      "feature_id": "T05-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T05_G1",
+      "task_id": "T05",
+      "group_id": "G1",
+      "feature_id": "T05-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T05_G1",
+      "task_id": "T05",
+      "group_id": "G1",
+      "feature_id": "T05-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T05_G1",
+      "task_id": "T05",
+      "group_id": "G1",
+      "feature_id": "T05-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T05_G2",
+      "task_id": "T05",
+      "group_id": "G2",
+      "feature_id": "T05-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T05_G2",
+      "task_id": "T05",
+      "group_id": "G2",
+      "feature_id": "T05-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T05_G2",
+      "task_id": "T05",
+      "group_id": "G2",
+      "feature_id": "T05-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T05_G2",
+      "task_id": "T05",
+      "group_id": "G2",
+      "feature_id": "T05-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T05_G3",
+      "task_id": "T05",
+      "group_id": "G3",
+      "feature_id": "T05-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T05_G3",
+      "task_id": "T05",
+      "group_id": "G3",
+      "feature_id": "T05-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T05_G3",
+      "task_id": "T05",
+      "group_id": "G3",
+      "feature_id": "T05-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T05_G3",
+      "task_id": "T05",
+      "group_id": "G3",
+      "feature_id": "T05-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T05_G4",
+      "task_id": "T05",
+      "group_id": "G4",
+      "feature_id": "T05-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T05_G4",
+      "task_id": "T05",
+      "group_id": "G4",
+      "feature_id": "T05-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T05_G4",
+      "task_id": "T05",
+      "group_id": "G4",
+      "feature_id": "T05-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T05_G4",
+      "task_id": "T05",
+      "group_id": "G4",
+      "feature_id": "T05-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T08_G1",
+      "task_id": "T08",
+      "group_id": "G1",
+      "feature_id": "T08-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T08_G1",
+      "task_id": "T08",
+      "group_id": "G1",
+      "feature_id": "T08-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T08_G1",
+      "task_id": "T08",
+      "group_id": "G1",
+      "feature_id": "T08-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T08_G1",
+      "task_id": "T08",
+      "group_id": "G1",
+      "feature_id": "T08-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T08_G2",
+      "task_id": "T08",
+      "group_id": "G2",
+      "feature_id": "T08-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T08_G2",
+      "task_id": "T08",
+      "group_id": "G2",
+      "feature_id": "T08-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T08_G2",
+      "task_id": "T08",
+      "group_id": "G2",
+      "feature_id": "T08-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T08_G2",
+      "task_id": "T08",
+      "group_id": "G2",
+      "feature_id": "T08-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T08_G3",
+      "task_id": "T08",
+      "group_id": "G3",
+      "feature_id": "T08-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T08_G3",
+      "task_id": "T08",
+      "group_id": "G3",
+      "feature_id": "T08-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T08_G3",
+      "task_id": "T08",
+      "group_id": "G3",
+      "feature_id": "T08-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T08_G3",
+      "task_id": "T08",
+      "group_id": "G3",
+      "feature_id": "T08-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T08_G4",
+      "task_id": "T08",
+      "group_id": "G4",
+      "feature_id": "T08-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T08_G4",
+      "task_id": "T08",
+      "group_id": "G4",
+      "feature_id": "T08-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T08_G4",
+      "task_id": "T08",
+      "group_id": "G4",
+      "feature_id": "T08-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T08_G4",
+      "task_id": "T08",
+      "group_id": "G4",
+      "feature_id": "T08-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T09_G1",
+      "task_id": "T09",
+      "group_id": "G1",
+      "feature_id": "T09-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T09_G1",
+      "task_id": "T09",
+      "group_id": "G1",
+      "feature_id": "T09-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T09_G1",
+      "task_id": "T09",
+      "group_id": "G1",
+      "feature_id": "T09-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T09_G1",
+      "task_id": "T09",
+      "group_id": "G1",
+      "feature_id": "T09-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T09_G2",
+      "task_id": "T09",
+      "group_id": "G2",
+      "feature_id": "T09-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T09_G2",
+      "task_id": "T09",
+      "group_id": "G2",
+      "feature_id": "T09-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T09_G2",
+      "task_id": "T09",
+      "group_id": "G2",
+      "feature_id": "T09-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T09_G2",
+      "task_id": "T09",
+      "group_id": "G2",
+      "feature_id": "T09-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T09_G3",
+      "task_id": "T09",
+      "group_id": "G3",
+      "feature_id": "T09-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T09_G3",
+      "task_id": "T09",
+      "group_id": "G3",
+      "feature_id": "T09-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T09_G3",
+      "task_id": "T09",
+      "group_id": "G3",
+      "feature_id": "T09-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T09_G3",
+      "task_id": "T09",
+      "group_id": "G3",
+      "feature_id": "T09-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T09_G4",
+      "task_id": "T09",
+      "group_id": "G4",
+      "feature_id": "T09-F1",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T09_G4",
+      "task_id": "T09",
+      "group_id": "G4",
+      "feature_id": "T09-F2",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T09_G4",
+      "task_id": "T09",
+      "group_id": "G4",
+      "feature_id": "T09-F3",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    },
+    {
+      "video_id": "T09_G4",
+      "task_id": "T09",
+      "group_id": "G4",
+      "feature_id": "T09-F4",
+      "verdict": null,
+      "evidence": null,
+      "confidence": null,
+      "error": null,
+      "note": "待VLM自动评价，本阶段不评分"
+    }
+  ],
+  "consistency_check": {
+    "resolution": "全部20条一致：864x480",
+    "fps": "全部20条一致：24fps",
+    "duration": "全部20条一致：5.167s",
+    "file_size": "不一致（从332KB到2.68MB），属正常现象",
+    "model": "未随视频提供元数据，20条模型是否一致：未确认",
+    "seed": "未随视频提供元数据，随机种子是否一致：未确认",
+    "generation_params": "未随视频提供元数据，无法核验"
+  },
+  "open_questions": [
+    "文件名T{X}-{n}.mp4中 -1/-2/-3/-4 是否严格对应 G1/G2/G3/G4？按通常约定建立映射，建议人工确认",
+    "20条视频所用视频生成模型名称、随机种子、步数等参数无元数据可查，需补记",
+    "视频所在目录内无任何参数记录文件（仅20个mp4）",
+    "T02护城河水面、T08大跳台为非KB文本字段特征，已在taskset中注明来源，事实清单不因此修改"
+  ],
+  "revisions": [
+    {
+      "feature_id": "T03-F4",
+      "field": "yes_criteria",
+      "from_": "正立面有连续外廊与立柱",
+      "to": "正立面清楚可见连续的拱形开口（券洞）及其对应的廊柱（柱廊），须二者同时出现",
+      "reason": "强化拱形开口与廊柱的组合要求，避免普通柱廊误判为Yes"
+    },
+    {
+      "feature_id": "T08-F4",
+      "field": "verification_status",
+      "from_": "未标记",
+      "to": "待核实",
+      "reason": "KB原文高炉与筒仓并列，存在身份混淆风险，不擅自判定"
+    },
+    {
+      "feature_id": "T09-F3",
+      "field": "yes_criteria",
+      "from_": "最高塔轮廓上下收分、中部略宽",
+      "to": "最高塔楼轮廓上下相对较宽、中部收窄（呈尊形轮廓）",
+      "reason": "中国尊(中信大厦)基于\"尊\"器造型，应为上下宽中部收窄，原\"中部饱满顶部收分\"方向写反"
+    },
+    {
+      "version": "v3",
+      "task_id": "T02",
+      "date": "2026-11-04",
+      "reason": "依据故宫角楼权威结构描述修订 T02 四项事实：多重屋顶组合、多翼角、灰砖城墙转角、黄瓦朱柱",
+      "changes": [
+        {
+          "feature_id": "T02-F1",
+          "before": "城墙转角处有多檐角楼",
+          "after": "主体屋顶为多重屋顶组合（非单一屋顶）"
+        },
+        {
+          "feature_id": "T02-F2",
+          "before": "角楼屋顶为黄色琉璃瓦",
+          "after": "檐口多翼角出挑、层层起翘"
+        },
+        {
+          "feature_id": "T02-F3",
+          "before": "宫墙墙体为红色",
+          "after": "角楼坐落于灰砖城墙转角之上"
+        },
+        {
+          "feature_id": "T02-F4",
+          "before": "角楼屋檐为多层（重檐）相叠",
+          "after": "黄瓦朱柱配色（黄琉璃瓦+朱红立柱/门窗）"
+        }
+      ],
+      "dropped": "原“檐下青绿斗拱与白色须弥座台基”未纳入：480p短片不可辨，易全部Uncertain",
+      "impact": "T02 旧四项事实的机器评价（v2标准）与v3不再可比，需按v3重新评价；本版不覆盖旧结果",
+      "preserved": [
+        "eval_batch1_input_v1.json",
+        "eval_batch1_input_v2.json",
+        "batch1_machine_eval_merged_v1.json"
+      ]
+    }
+  ]
+}

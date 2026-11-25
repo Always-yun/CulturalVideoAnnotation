@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN_MODERN_001",
+    "canonical_name": "杭州西湖文化景观",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.941162109375,
+    "reason": "关键词/别名命中：湖面",
+    "image_score": 0.8823,
+    "text_score": 1.0,
+    "fusion_score": 0.9412
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_015",
+    "canonical_name": "颐和园",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4466552734375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8933,
+    "text_score": 0.0,
+    "fusion_score": 0.4467
+  },
+  {
+    "symbol_id": "BJ_GUDU_010",
+    "canonical_name": "角楼",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4453125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8906,
+    "text_score": 0.0,
+    "fusion_score": 0.4453
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_004",
+    "canonical_name": "苏州古典园林",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.443603515625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8872,
+    "text_score": 0.0,
+    "fusion_score": 0.4436
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_023",
+    "canonical_name": "峨眉山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4417724609375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8835,
+    "text_score": 0.0,
+    "fusion_score": 0.4418
+  }
+]

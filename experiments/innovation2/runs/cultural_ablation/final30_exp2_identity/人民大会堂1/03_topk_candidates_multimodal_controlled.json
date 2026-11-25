@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_RED_002",
+    "canonical_name": "天安门广场",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.809234619140625,
+    "reason": "关键词/别名命中：广场",
+    "image_score": 0.6185,
+    "text_score": 1.0,
+    "fusion_score": 0.8092
+  },
+  {
+    "symbol_id": "CN2_TECH_017",
+    "canonical_name": "北京理工大学",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.3204345703125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6409,
+    "text_score": 0.0,
+    "fusion_score": 0.3204
+  },
+  {
+    "symbol_id": "CN_MODERN_002",
+    "canonical_name": "泉州：宋元中国的世界海洋商贸中心",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.31976318359375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6395,
+    "text_score": 0.0,
+    "fusion_score": 0.3198
+  },
+  {
+    "symbol_id": "CN2_TECH_001",
+    "canonical_name": "中国科学院大学",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.3192138671875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6384,
+    "text_score": 0.0,
+    "fusion_score": 0.3192
+  },
+  {
+    "symbol_id": "BJ_INNOV_006",
+    "canonical_name": "北京大学",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.3187255859375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6375,
+    "text_score": 0.0,
+    "fusion_score": 0.3187
+  }
+]

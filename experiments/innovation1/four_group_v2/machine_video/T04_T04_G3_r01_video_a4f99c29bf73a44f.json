@@ -1,0 +1,48 @@
+{
+  "request": {
+    "id": "T04_T04_G3_r01_video",
+    "task_id": "T04",
+    "video_id": "T04_G3_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T04-G3.mp4",
+    "video_sha256": "24288153dd637b844a26694b399569a690d934057a2df5b3955c4499f156d661",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：晴朗的白天，镜头从侧前方缓慢水平移动，展示停泊在浙江嘉兴南湖上的传统南湖红船。船只具有木质、狭长的传统中式船体，上方设有连续的有顶船舱，船舱与前后露出的船体部分形成清楚的分段布局，从该视角能够辨认漂浮在湖面上的完整船形。平静的湖水映出船身轮廓，远处是树木与湖岸景观，自然阳光照亮船体，整体采用写实纪实摄影风格。。时序事实及判据：[]",
+    "request_sha256": "a4f99c29bf73a44fdce7b8fae5c301240047983ae66842a2006a976f1c4bf7eb"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"conditions\": {\"subject\": {\"verdict\": \"Yes\", \"evidence\": \"视频中可见木质、狭长的传统中式船体，上方设有连续有顶船舱，船舱与前后露出船体形成分段布局，能辨认完整船形，符合目标描述中传统南湖红船的特征\", \"timestamps\": \"0.00-5.00\"}, \"scene\": {\"verdict\": \"Yes\", \"evidence\": \"画面呈现停泊在湖面上的船只，湖水平静映出船身，远处有树木与湖岸景观，符合目标描述中湖上停泊场景\", \"timestamps\": \"0.00-5.00\"}, \"time_weather\": {\"verdict\": \"Yes\", \"evidence\": \"自然阳光照亮船体，光线明亮，天空呈现晴朗状态，符合目标描述中晴朗白天的特征\", \"timestamps\": \"0.00-5.00\"}, \"camera_motion\": {\"verdict\": \"Yes\", \"evidence\": \"镜头从侧前方缓慢水平移动，画面中船只与背景的相对位置持续变化，符合目标描述中镜头运动特征\", \"timestamps\": \"0.00-5.00\"}}, \"temporal_facts\": {}}",
+  "parse_ok": true,
+  "parsed": {
+    "conditions": {
+      "subject": {
+        "verdict": "Yes",
+        "evidence": "视频中可见木质、狭长的传统中式船体，上方设有连续有顶船舱，船舱与前后露出船体形成分段布局，能辨认完整船形，符合目标描述中传统南湖红船的特征",
+        "timestamps": "0.00-5.00"
+      },
+      "scene": {
+        "verdict": "Yes",
+        "evidence": "画面呈现停泊在湖面上的船只，湖水平静映出船身，远处有树木与湖岸景观，符合目标描述中湖上停泊场景",
+        "timestamps": "0.00-5.00"
+      },
+      "time_weather": {
+        "verdict": "Yes",
+        "evidence": "自然阳光照亮船体，光线明亮，天空呈现晴朗状态，符合目标描述中晴朗白天的特征",
+        "timestamps": "0.00-5.00"
+      },
+      "camera_motion": {
+        "verdict": "Yes",
+        "evidence": "镜头从侧前方缓慢水平移动，画面中船只与背景的相对位置持续变化，符合目标描述中镜头运动特征",
+        "timestamps": "0.00-5.00"
+      }
+    },
+    "temporal_facts": {}
+  }
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "symbol_id": "BJ_RED_002",
+    "canonical_name": "天安门广场",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.9398193359375,
+    "reason": "关键词/别名命中：天安门广场、天安门、广场、华表",
+    "image_score": 0.8796,
+    "text_score": 1.0,
+    "fusion_score": 0.9398,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_RED_006",
+    "canonical_name": "中国国家博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.5195556640625,
+    "reason": "关键词/别名命中：天安门广场",
+    "image_score": 0.8391,
+    "text_score": 0.2,
+    "fusion_score": 0.5196,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_RED_007",
+    "canonical_name": "香山双清别墅",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.4946533203125,
+    "reason": "关键词/别名命中：毛泽东",
+    "image_score": 0.7893,
+    "text_score": 0.2,
+    "fusion_score": 0.4947,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_007",
+    "canonical_name": "北京庙会",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.4655843098958333,
+    "reason": "关键词/别名命中：红灯笼",
+    "image_score": 0.8645,
+    "text_score": 0.0667,
+    "fusion_score": 0.4656,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_008",
+    "canonical_name": "明清皇家陵寝",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4639892578125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.928,
+    "text_score": 0.0,
+    "fusion_score": 0.464,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  }
+]

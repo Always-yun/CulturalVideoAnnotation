@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:57:15.231884+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：太和殿\n价值指向：画面中可见一座具有重檐庑殿顶、红墙黄瓦、三层汉白玉台基的宏伟宫殿建筑，其建筑形制和布局符合中国古代皇家宫殿的典型特征。从建筑规模、等级和风格判断，这与紫禁城太和殿（金銮殿）的视觉特征高度吻合，太和殿作为紫禁城等级最高的礼制建筑，承载着中国古代皇权文化和礼制文化内涵。画面中未出现天安门广场的标志性元素（如城楼、华表、金水桥等），也无现代科技或创新文化相关符号，因此可确认该场景隶属于古城与历史文化维度，核心符号为太和殿。",
+  "response_model": "glm-4v",
+  "response_id": "202611191657152db38c828c104a26",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=72640, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=171, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=72811)",
+  "seconds": 65.5879316329956
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "symbol_id": "CN_MODERN_001",
+    "canonical_name": "杭州西湖文化景观",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.9411696642637253,
+    "reason": "关键词/别名命中：湖面",
+    "image_score": 0.8823,
+    "text_score": 1.0,
+    "fusion_score": 0.9412,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_015",
+    "canonical_name": "颐和园",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4466848820447922,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8934,
+    "text_score": 0.0,
+    "fusion_score": 0.4467,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_GUDU_010",
+    "canonical_name": "角楼",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.44524919986724854,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8905,
+    "text_score": 0.0,
+    "fusion_score": 0.4452,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_004",
+    "canonical_name": "苏州古典园林",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4436053931713104,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8872,
+    "text_score": 0.0,
+    "fusion_score": 0.4436,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_024",
+    "canonical_name": "乐山大佛",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4417034983634949,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8834,
+    "text_score": 0.0,
+    "fusion_score": 0.4417,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  }
+]

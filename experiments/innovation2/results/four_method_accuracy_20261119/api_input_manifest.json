@@ -1,0 +1,277 @@
+{
+  "purpose": "Identical encoded bytes for all methods of each video",
+  "policy": "Original <=10MiB; otherwise same deterministic H264/AAC representation, max width1280, unchanged timeline",
+  "preprocessor_sha256": "de3b94bf94d71a2fd0fd0b2a6f1c4439548fedae894e10a7164297087905027d",
+  "items": [
+    {
+      "video_id": "cbd",
+      "original_path": "experiments/innovation2/data/videos/cbd.mp4",
+      "original_sha256": "2832a23785199cee0b6f9f4f54437b392ee6b0a876ab223ee8f69e9a8b96265c",
+      "api_path": "experiments/innovation2/data/videos/cbd.mp4",
+      "api_sha256": "2832a23785199cee0b6f9f4f54437b392ee6b0a876ab223ee8f69e9a8b96265c",
+      "api_bytes": 6847297,
+      "compressed": false
+    },
+    {
+      "video_id": "cbd1",
+      "original_path": "experiments/innovation2/data/videos/cbd1.mp4",
+      "original_sha256": "f2f162e6b8fffc9ffd02db64a250d56385a3713b60b8e2f819bcb61f956f4797",
+      "api_path": "experiments/innovation2/data/videos/cbd1.mp4",
+      "api_sha256": "f2f162e6b8fffc9ffd02db64a250d56385a3713b60b8e2f819bcb61f956f4797",
+      "api_bytes": 4528858,
+      "compressed": false
+    },
+    {
+      "video_id": "cbd2",
+      "original_path": "experiments/innovation2/data/videos/cbd2.mp4",
+      "original_sha256": "a892bfed30c69c96eb87d8e16c7bab001f12bb0299bccf5271b5d38d74b141d0",
+      "api_path": "experiments/innovation2/results/four_method_accuracy_20261119/api_inputs/cbd2.mp4",
+      "api_sha256": "2390a82a05e9c002cc613703460d93e00a3e7f08b5144f52bf704d0300d74fba",
+      "api_bytes": 8190332,
+      "compressed": true
+    },
+    {
+      "video_id": "cbd3",
+      "original_path": "experiments/innovation2/data/videos/cbd3.mp4",
+      "original_sha256": "4407d58c377910304123cbd27c39c701234586e95332ce75e4d93247ced9ea52",
+      "api_path": "experiments/innovation2/results/four_method_accuracy_20261119/api_inputs/cbd3.mp4",
+      "api_sha256": "d5236a6586ba01b3d72535dfd3fd5d7484e7f8c530c8606e31fc66596dd2b795",
+      "api_bytes": 8319336,
+      "compressed": true
+    },
+    {
+      "video_id": "中关村1号",
+      "original_path": "experiments/innovation2/data/videos/中关村1号.mp4",
+      "original_sha256": "3adfb5c620ac64e0d4ca4f3982f555786db619075ce284e65698768e0895ec55",
+      "api_path": "experiments/innovation2/results/four_method_accuracy_20261119/api_inputs/中关村1号.mp4",
+      "api_sha256": "a8d1b9dda1c8243a7762a6267d349f0b7285437415d916432bae3753bcd741ca",
+      "api_bytes": 8218501,
+      "compressed": true
+    },
+    {
+      "video_id": "中关村国际创新中心",
+      "original_path": "experiments/innovation2/data/videos/中关村国际创新中心.mp4",
+      "original_sha256": "9d472ca67881dcc5dc0eb3bd3a28e5bf8ba060bac0c0b1903ef570d8f17fcc17",
+      "api_path": "experiments/innovation2/results/four_method_accuracy_20261119/api_inputs/中关村国际创新中心.mp4",
+      "api_sha256": "00860691649bb28e2fc6e8f467850f6d071e0e8cdec9893288c96b7d14d51cc4",
+      "api_bytes": 7990938,
+      "compressed": true
+    },
+    {
+      "video_id": "中关村展示中心",
+      "original_path": "experiments/innovation2/data/videos/中关村展示中心.mp4",
+      "original_sha256": "a8f68d475ec7ab372d3368439826c623144577efa140ceeddfc9012772ab21c4",
+      "api_path": "experiments/innovation2/data/videos/中关村展示中心.mp4",
+      "api_sha256": "a8f68d475ec7ab372d3368439826c623144577efa140ceeddfc9012772ab21c4",
+      "api_bytes": 6898007,
+      "compressed": false
+    },
+    {
+      "video_id": "京剧青衣",
+      "original_path": "experiments/innovation2/data/videos/京剧青衣.mp4",
+      "original_sha256": "fde6a5d8bcba5b0182c57cac6fb4306e39c31a01d52f3a3a4435e0d0925061e2",
+      "api_path": "experiments/innovation2/data/videos/京剧青衣.mp4",
+      "api_sha256": "fde6a5d8bcba5b0182c57cac6fb4306e39c31a01d52f3a3a4435e0d0925061e2",
+      "api_bytes": 4651155,
+      "compressed": false
+    },
+    {
+      "video_id": "人民大会堂",
+      "original_path": "experiments/innovation2/data/videos/人民大会堂.mp4",
+      "original_sha256": "9334d54fdbe47ddb35748eb43cbd02b5df4ab997de39e3eef280e6b7bc6f7a85",
+      "api_path": "experiments/innovation2/results/four_method_accuracy_20261119/api_inputs/人民大会堂.mp4",
+      "api_sha256": "fd1b6e43c0d408d91f7a32fe9655293aa1fa5e731b7e285be7e9c29a078d5623",
+      "api_bytes": 8071377,
+      "compressed": true
+    },
+    {
+      "video_id": "人民大会堂1",
+      "original_path": "experiments/innovation2/data/videos/人民大会堂1.mp4",
+      "original_sha256": "2f46e9cdc5ae4eff3727a8296628cfc8ee0797e17bb581d53569aa8b31d4dd7a",
+      "api_path": "experiments/innovation2/results/four_method_accuracy_20261119/api_inputs/人民大会堂1.mp4",
+      "api_sha256": "94508d4f1432d49a60a2b4fb8717990b39cfaa8be6f47eb28c648de574a46306",
+      "api_bytes": 8111294,
+      "compressed": true
+    },
+    {
+      "video_id": "人民英雄纪念碑",
+      "original_path": "experiments/innovation2/data/videos/人民英雄纪念碑.mp4",
+      "original_sha256": "3e7e4ba38caeec6e6124c1247b4d3fb9efadf4ef1da640e18c3cc734637e7085",
+      "api_path": "experiments/innovation2/results/four_method_accuracy_20261119/api_inputs/人民英雄纪念碑.mp4",
+      "api_sha256": "bd8e1bb6aa0cbda19ebb55c1b4b81a81351eed59043ecc1380039d1624521d47",
+      "api_bytes": 8092589,
+      "compressed": true
+    },
+    {
+      "video_id": "人民英雄纪念碑1",
+      "original_path": "experiments/innovation2/data/videos/人民英雄纪念碑1.mp4",
+      "original_sha256": "209c5917850445f0af6e7af1af1817a1048c4c5aed1a5780ac168b3ef4182460",
+      "api_path": "experiments/innovation2/results/four_method_accuracy_20261119/api_inputs/人民英雄纪念碑1.mp4",
+      "api_sha256": "e7ea7cc72a1d8976f43e44e0e4ee101200a8845220f6b8bc7da762c4ba210cca",
+      "api_bytes": 8058971,
+      "compressed": true
+    },
+    {
+      "video_id": "兔爷",
+      "original_path": "experiments/innovation2/data/videos/兔爷.mp4",
+      "original_sha256": "19850a170c96c097d4e7db43d9df6c3dc73758700e75f30df9fa38b9e6453a75",
+      "api_path": "experiments/innovation2/data/videos/兔爷.mp4",
+      "api_sha256": "19850a170c96c097d4e7db43d9df6c3dc73758700e75f30df9fa38b9e6453a75",
+      "api_bytes": 1655210,
+      "compressed": false
+    },
+    {
+      "video_id": "北大",
+      "original_path": "experiments/innovation2/data/videos/北大.mp4",
+      "original_sha256": "ca74932160479e402a1606dccab802389e1b27e9c645815ed53281e14ec62a77",
+      "api_path": "experiments/innovation2/data/videos/北大.mp4",
+      "api_sha256": "ca74932160479e402a1606dccab802389e1b27e9c645815ed53281e14ec62a77",
+      "api_bytes": 5899764,
+      "compressed": false
+    },
+    {
+      "video_id": "北大1",
+      "original_path": "experiments/innovation2/data/videos/北大1.mp4",
+      "original_sha256": "fc9fa337706d3af80540a5fd50e126c1b6c86bb07e8d9cc0aabbfdcc3b5df9b5",
+      "api_path": "experiments/innovation2/data/videos/北大1.mp4",
+      "api_sha256": "fc9fa337706d3af80540a5fd50e126c1b6c86bb07e8d9cc0aabbfdcc3b5df9b5",
+      "api_bytes": 10264200,
+      "compressed": false
+    },
+    {
+      "video_id": "国博",
+      "original_path": "experiments/innovation2/data/videos/国博.mp4",
+      "original_sha256": "d9c91e307d5ea39379645b8f227a3dd92794a10cbf6f22f79722cd899d70cd3d",
+      "api_path": "experiments/innovation2/results/four_method_accuracy_20261119/api_inputs/国博.mp4",
+      "api_sha256": "16724353b2357e5e3bec591477556b37fdc7371249a1f6d9d9cd855768fb18e5",
+      "api_bytes": 8066253,
+      "compressed": true
+    },
+    {
+      "video_id": "天安门",
+      "original_path": "experiments/innovation2/data/videos/天安门.mp4",
+      "original_sha256": "b5375fc399976041fcc5616da9099335bb1d473b9e20f51c8776f11f02d259a7",
+      "api_path": "experiments/innovation2/data/videos/天安门.mp4",
+      "api_sha256": "b5375fc399976041fcc5616da9099335bb1d473b9e20f51c8776f11f02d259a7",
+      "api_bytes": 7922569,
+      "compressed": false
+    },
+    {
+      "video_id": "天安门1",
+      "original_path": "experiments/innovation2/data/videos/天安门1.mp4",
+      "original_sha256": "a51e5c3b63e24ea79925b5e2143d082eb4b5755c91983d9be572c5405e678143",
+      "api_path": "experiments/innovation2/data/videos/天安门1.mp4",
+      "api_sha256": "a51e5c3b63e24ea79925b5e2143d082eb4b5755c91983d9be572c5405e678143",
+      "api_bytes": 8294544,
+      "compressed": false
+    },
+    {
+      "video_id": "太和殿",
+      "original_path": "experiments/innovation2/data/videos/太和殿.mp4",
+      "original_sha256": "8e0735552e1242a962e751d9a85c2a8ce4506f96c1df221e5d32955969abf045",
+      "api_path": "experiments/innovation2/results/four_method_accuracy_20261119/api_inputs/太和殿.mp4",
+      "api_sha256": "de59f7144b839c5dbfe9f8d6a8afdfcd50d1403a3a544d114831cc26519b4881",
+      "api_bytes": 8139043,
+      "compressed": true
+    },
+    {
+      "video_id": "庙会",
+      "original_path": "experiments/innovation2/data/videos/庙会.mp4",
+      "original_sha256": "677954ea9bc271de0b4f1ef7a488f0263380de2184138a40fee7e0f8de38a280",
+      "api_path": "experiments/innovation2/data/videos/庙会.mp4",
+      "api_sha256": "677954ea9bc271de0b4f1ef7a488f0263380de2184138a40fee7e0f8de38a280",
+      "api_bytes": 4578119,
+      "compressed": false
+    },
+    {
+      "video_id": "故宫",
+      "original_path": "experiments/innovation2/data/videos/故宫.mp4",
+      "original_sha256": "17c7c6824aea1d7855c854a80056954dafa96effe9793fe524581109bcadb689",
+      "api_path": "experiments/innovation2/data/videos/故宫.mp4",
+      "api_sha256": "17c7c6824aea1d7855c854a80056954dafa96effe9793fe524581109bcadb689",
+      "api_bytes": 9246648,
+      "compressed": false
+    },
+    {
+      "video_id": "故宫全景",
+      "original_path": "experiments/innovation2/data/videos/故宫全景.mp4",
+      "original_sha256": "95e08e2f0543b3b803070f6368f3d9818a43388d70c9562fa6312b338ffb2895",
+      "api_path": "experiments/innovation2/data/videos/故宫全景.mp4",
+      "api_sha256": "95e08e2f0543b3b803070f6368f3d9818a43388d70c9562fa6312b338ffb2895",
+      "api_bytes": 6315518,
+      "compressed": false
+    },
+    {
+      "video_id": "未来科学城",
+      "original_path": "experiments/innovation2/data/videos/未来科学城.mp4",
+      "original_sha256": "abb3d1554f656350e4e1c5a1d7d82125c2e7a9e6830d7599bcd1cf4bcb3aa874",
+      "api_path": "experiments/innovation2/results/four_method_accuracy_20261119/api_inputs/未来科学城.mp4",
+      "api_sha256": "b926d8774f58702a2f7d1625f7239ef0f8bfd562bb17446d163c2391bb5a1aed",
+      "api_bytes": 8179629,
+      "compressed": true
+    },
+    {
+      "video_id": "清华",
+      "original_path": "experiments/innovation2/data/videos/清华.mp4",
+      "original_sha256": "0ab0c07258f7dbd263aa93a336d6463eed66e7ee964698dfea8846f06f6873ed",
+      "api_path": "experiments/innovation2/results/four_method_accuracy_20261119/api_inputs/清华.mp4",
+      "api_sha256": "25e523f9a41f94c8a116141e9eab6d6c8b924b4ef5ec10c9b74fd3e08678ed34",
+      "api_bytes": 8250122,
+      "compressed": true
+    },
+    {
+      "video_id": "糖葫芦",
+      "original_path": "experiments/innovation2/data/videos/糖葫芦.mp4",
+      "original_sha256": "73882ce99795d8c7ef1b73c9b6944d40203a08bcf0b209b708f882e60c0b0b6c",
+      "api_path": "experiments/innovation2/data/videos/糖葫芦.mp4",
+      "api_sha256": "73882ce99795d8c7ef1b73c9b6944d40203a08bcf0b209b708f882e60c0b0b6c",
+      "api_bytes": 1206221,
+      "compressed": false
+    },
+    {
+      "video_id": "胡同",
+      "original_path": "experiments/innovation2/data/videos/胡同.mp4",
+      "original_sha256": "59e9fbdd08eb7cad8f2d8c3542343ac666783dfdcdcdb030a9865d9edc0cbd71",
+      "api_path": "experiments/innovation2/data/videos/胡同.mp4",
+      "api_sha256": "59e9fbdd08eb7cad8f2d8c3542343ac666783dfdcdcdb030a9865d9edc0cbd71",
+      "api_bytes": 2613100,
+      "compressed": false
+    },
+    {
+      "video_id": "胡同1",
+      "original_path": "experiments/innovation2/data/videos/胡同1.mp4",
+      "original_sha256": "bcf674283dc51e2a89741abb0b75d86054a90591bdd80c80af46c5767505f400",
+      "api_path": "experiments/innovation2/data/videos/胡同1.mp4",
+      "api_sha256": "bcf674283dc51e2a89741abb0b75d86054a90591bdd80c80af46c5767505f400",
+      "api_bytes": 3118100,
+      "compressed": false
+    },
+    {
+      "video_id": "角楼",
+      "original_path": "experiments/innovation2/data/videos/角楼.mp4",
+      "original_sha256": "8f3b96544198dfedabad506644e547bf9a8737127e00775227fc8a3913df2078",
+      "api_path": "experiments/innovation2/results/four_method_accuracy_20261119/api_inputs/角楼.mp4",
+      "api_sha256": "4f3ab88d636c04284ffcb048f0d80d34b6e368184f32f623fb14da72a1bd078a",
+      "api_bytes": 8107487,
+      "compressed": true
+    },
+    {
+      "video_id": "角楼1",
+      "original_path": "experiments/innovation2/data/videos/角楼1.mp4",
+      "original_sha256": "0dd665bd0064c690636862e0f0fed1cf9ea5c28830f4e116a58e6d9ddb70784f",
+      "api_path": "experiments/innovation2/results/four_method_accuracy_20261119/api_inputs/角楼1.mp4",
+      "api_sha256": "0805a809d77ae3a292089e832335534ced2e61d285e1c65f153ff684ee071958",
+      "api_bytes": 8419805,
+      "compressed": true
+    },
+    {
+      "video_id": "鸟巢",
+      "original_path": "experiments/innovation2/data/videos/鸟巢.mp4",
+      "original_sha256": "a01b06600a1e9c471326d0a460734c87d0da6bf284fd10a0b3c27a646a6813b7",
+      "api_path": "experiments/innovation2/results/four_method_accuracy_20261119/api_inputs/鸟巢.mp4",
+      "api_sha256": "8a50436fd56102f300a5c7b00836a7f8bb8e56ad096df2a1fc0648534dfb51c5",
+      "api_bytes": 8131485,
+      "compressed": true
+    }
+  ]
+}

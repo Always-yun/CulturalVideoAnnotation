@@ -1,0 +1,15 @@
+{
+  "video_id": "人民大会堂",
+  "sample_type": "hard_unknown",
+  "gt_ids": [],
+  "pred_ids": [],
+  "rejected": true,
+  "correct": true,
+  "recall1": false,
+  "recall5": false,
+  "reciprocal_rank": 0,
+  "error_type": "correct",
+  "group": "C2",
+  "api_calls": 1,
+  "seconds": 56.67
+}

@@ -1,0 +1,129 @@
+[
+  {
+    "symbol_id": "BJ_RED_003",
+    "canonical_name": "人民英雄纪念碑",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.43924573063850403,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.8785,
+    "text_score": 0.0,
+    "fusion_score": 0.4392,
+    "ranking_score": 0.439246,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.43737833201885223,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.8748,
+    "text_score": 0.0,
+    "fusion_score": 0.4374,
+    "ranking_score": 0.437378,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "BJ_RED_002",
+    "canonical_name": "天安门广场",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.9270125329494476,
+    "reason": "证据排序v1；名称=；文字=；弱特征=广场",
+    "image_score": 0.854,
+    "text_score": 1.0,
+    "fusion_score": 0.927,
+    "ranking_score": 0.437013,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [
+        "广场"
+      ],
+      "feature_hits": [],
+      "text_evidence_strength": 0.02,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": true,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "CN_RED_002",
+    "canonical_name": "西柏坡纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.43559715151786804,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.8712,
+    "text_score": 0.0,
+    "fusion_score": 0.4356,
+    "ranking_score": 0.435597,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "CN_RED_003",
+    "canonical_name": "延安革命纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.4352412521839142,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.8705,
+    "text_score": 0.0,
+    "fusion_score": 0.4352,
+    "ranking_score": 0.435241,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  }
+]

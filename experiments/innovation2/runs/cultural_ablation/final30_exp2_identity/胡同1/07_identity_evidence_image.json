@@ -1,0 +1,89 @@
+{
+  "decision": {
+    "identity_gate_pass": false,
+    "reason": "No retrieval candidate has strong identity evidence.",
+    "passed_symbol_ids": []
+  },
+  "candidates": [
+    {
+      "symbol_id": "CN_ANCIENT_001",
+      "canonical_name": "秦始皇帝陵兵马俑",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=ANCIENT; type=古代陵墓与陶俑遗址",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "CN2_TECH_014",
+      "canonical_name": "国际创投集聚区",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=TECH; type=科技服务街区",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "CN2_TECH_007",
+      "canonical_name": "中关村广场",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=TECH; type=城市广场",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_002",
+      "canonical_name": "平遥古城",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=ANCIENT; type=明清古城",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "BJ_FASHION_005",
+      "canonical_name": "望京",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=MODERN; type=城市副中心",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    }
+  ]
+}

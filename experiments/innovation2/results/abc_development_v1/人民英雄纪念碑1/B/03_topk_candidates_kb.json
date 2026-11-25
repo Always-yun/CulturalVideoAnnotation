@@ -1,0 +1,67 @@
+[
+  {
+    "symbol_id": "BJ_RED_003",
+    "canonical_name": "人民英雄纪念碑",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.962646484375,
+    "reason": "关键词/别名命中：浮雕",
+    "image_score": 0.9253,
+    "text_score": 1.0,
+    "fusion_score": 0.9626,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_RED_002",
+    "canonical_name": "天安门广场",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.8941650390625,
+    "reason": "关键词/别名命中：广场",
+    "image_score": 0.7883,
+    "text_score": 1.0,
+    "fusion_score": 0.8942,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN_RED_003",
+    "canonical_name": "延安革命纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.435791015625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8716,
+    "text_score": 0.0,
+    "fusion_score": 0.4358,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_029",
+    "canonical_name": "曲阜孔府",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4251708984375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8503,
+    "text_score": 0.0,
+    "fusion_score": 0.4252,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_027",
+    "canonical_name": "曲阜孔庙",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4251708984375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8503,
+    "text_score": 0.0,
+    "fusion_score": 0.4252,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  }
+]

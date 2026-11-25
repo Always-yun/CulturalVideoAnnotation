@@ -1,0 +1,23 @@
+{
+  "video_id": "清华",
+  "gt_symbols": [
+    "清华大学"
+  ],
+  "gt_symbol_ids": [
+    "BJ_INNOV_007"
+  ],
+  "gt_dimension_code": "TECH",
+  "kb_coverage": true,
+  "mode": "free",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为清华大学二校门。",
+  "pred_dimension": "古城与历史文化",
+  "unknown_symbol": false,
+  "symbol_correct": false,
+  "dimension_correct": false,
+  "topk_candidates": [],
+  "recall_at_5": null,
+  "seconds": 148.88,
+  "error_type": "entity_confusion_or_generation",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/traces/清华/free/trace.json"
+}

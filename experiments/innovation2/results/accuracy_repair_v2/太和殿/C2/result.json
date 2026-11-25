@@ -1,0 +1,19 @@
+{
+  "video_id": "太和殿",
+  "sample_type": "known",
+  "gt_ids": [
+    "BJ_GUDU_002"
+  ],
+  "pred_ids": [
+    "BJ_GUDU_002"
+  ],
+  "rejected": false,
+  "correct": true,
+  "recall1": true,
+  "recall5": true,
+  "reciprocal_rank": 1.0,
+  "error_type": "correct",
+  "group": "C2",
+  "api_calls": 1,
+  "seconds": 40.83
+}

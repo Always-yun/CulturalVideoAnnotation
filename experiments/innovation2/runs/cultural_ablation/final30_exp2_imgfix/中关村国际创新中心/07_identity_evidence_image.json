@@ -1,0 +1,89 @@
+{
+  "decision": {
+    "identity_gate_pass": false,
+    "reason": "No retrieval candidate has strong identity evidence.",
+    "passed_symbol_ids": []
+  },
+  "candidates": [
+    {
+      "symbol_id": "BJ_INNOV_009",
+      "canonical_name": "国家会议中心",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=TECH; type=会议展览场馆",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "BJ_INNOV_008",
+      "canonical_name": "未来科学城",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=TECH; type=科技新城",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "BJ_RED_005",
+      "canonical_name": "宛平城",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=RED; type=军事城堡建筑",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_024",
+      "canonical_name": "乐山大佛",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=ANCIENT; type=摩崖石刻造像",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_023",
+      "canonical_name": "峨眉山",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=ANCIENT; type=佛教名山",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    }
+  ]
+}

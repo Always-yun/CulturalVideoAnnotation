@@ -1,0 +1,192 @@
+[
+    {
+        "prompt_en": "T8",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T8-1.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T3",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T3-4.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T5",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T5-3.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T9",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T9-4.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T9",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T9-3.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T2",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T2-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T8",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T8-3.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T5",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T5-4.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T3",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T3-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T2",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T2-3.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T2",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T2-4.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T8",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T8-4.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T9",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T9-1.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T3",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T3-3.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T5",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T5-1.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T9",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T9-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T5",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T5-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T3",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T3-1.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T8",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/tmp/vbench_batch19/T8-2.mp4"
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+{
+  "video_id": "人民英雄纪念碑1",
+  "sample_type": "known",
+  "gt_ids": [
+    "BJ_RED_003"
+  ],
+  "pred_ids": [
+    "BJ_RED_003"
+  ],
+  "rejected": false,
+  "correct": true,
+  "recall1": false,
+  "recall5": true,
+  "reciprocal_rank": 0.5,
+  "error_type": "correct",
+  "group": "A",
+  "api_calls": 2,
+  "seconds": 108.7
+}

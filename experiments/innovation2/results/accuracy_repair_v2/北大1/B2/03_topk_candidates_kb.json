@@ -1,0 +1,67 @@
+[
+  {
+    "symbol_id": "BJ_INNOV_006",
+    "canonical_name": "北京大学",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.8560681492090225,
+    "reason": "关键词/别名命中：北京大学",
+    "image_score": 0.7121,
+    "text_score": 1.0,
+    "fusion_score": 0.8561,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_RED_004",
+    "canonical_name": "卢沟桥",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.6810980886220932,
+    "reason": "关键词/别名命中：石狮",
+    "image_score": 0.8622,
+    "text_score": 0.5,
+    "fusion_score": 0.6811,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_026",
+    "canonical_name": "都江堰",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4693326950073242,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9387,
+    "text_score": 0.0,
+    "fusion_score": 0.4693,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_025",
+    "canonical_name": "青城山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4693326950073242,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9387,
+    "text_score": 0.0,
+    "fusion_score": 0.4693,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_002",
+    "canonical_name": "平遥古城",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.46317604184150696,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9264,
+    "text_score": 0.0,
+    "fusion_score": 0.4632,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  }
+]

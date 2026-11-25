@@ -11,7 +11,6 @@ from typing import List, Optional
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "2,3"
 
 from src.models.config import Config
 from src.pipeline.inference_engine import InferenceEngine
@@ -22,7 +21,7 @@ from src.pipeline.video_processor import VideoProcessor
 def parse_arguments():
     """解析命令行参数"""
     parser = argparse.ArgumentParser(
-        description="北京文化视频标注系统 - EMCAST六维分层标注"
+        description="中华文化视频标注系统 - EMCAST六维分层标注（北京为当前实验案例）"
     )
     
     parser.add_argument(
@@ -100,6 +99,15 @@ def parse_arguments():
         help="显示详细信息"
     )
     
+    parser.add_argument("--culture-mode", choices=["off", "keyword", "multimodal"],
+                        default="multimodal", help="文化增强模式，默认多模态检索；off为原始EMCAST")
+    parser.add_argument("--cultural-top-k", type=int, default=5, help="文化候选数量")
+    parser.add_argument("--kb-path", default=None, help="指定知识库JSON，默认沿用创新点2的v2")
+    parser.add_argument("--identity-verifier", choices=["v2", "off"], default="v2",
+                        help="文化身份核验，默认使用创新点2的v2核验器")
+    parser.add_argument("--scene-mode", choices=["structured", "legacy"], default="structured", help="Pass-1证据格式；legacy用于旧方法对照")
+    parser.add_argument("--no-text-recognition", action="store_true", help="关闭按需关键帧文字复核")
+    parser.add_argument("--retrieval-strategy", choices=["legacy", "evidence_v1"], default="legacy", help="候选排序实验版本，待验证集重新标定前默认legacy")
     return parser.parse_args()
 
 
@@ -280,7 +288,7 @@ def main():
     if args.fps:
         config.video.fps = args.fps
     
-    if args.gpu:
+    if args.gpu is not None:
         config.gpu.device_id = args.gpu
         config.gpu.visible_devices = str(args.gpu)
         config.model.device_map = {"": 0}  # 设置CUDA_VISIBLE_DEVICES后，GPU 5变成GPU 0
@@ -289,11 +297,18 @@ def main():
     if args.no_ffmpeg:
         config.video.use_ffmpeg_metadata = False
     
+    config.video.max_frames = args.max_frames
     inference_engine = InferenceEngine(config)
     result_processor = ResultProcessor(config.paths.output_dir)
     
     try:
         inference_engine.initialize()
+        if args.culture_mode != "off":
+            inference_engine.enable_cultural_pipeline(
+                mode=args.culture_mode, top_k=args.cultural_top_k,
+                kb_path=args.kb_path, identity_verifier=args.identity_verifier,
+                scene_mode=args.scene_mode, text_recognition=not args.no_text_recognition,
+                retrieval_strategy=args.retrieval_strategy)
         
         if args.video:
             success = process_single_video(

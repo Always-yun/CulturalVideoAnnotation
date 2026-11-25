@@ -1,0 +1,23 @@
+{
+  "scene_description_raw": "{\"scene\":\"清晨，湖边，水面平静，远处有城市建筑\",\"subject\":\"一艘停靠在岸边的传统木船\",\"visible_features\":[\"深色船身，船头有木质平台，船舱有遮阳棚，船身有链条固定\"],\"background\":[\"平静的湖面，岸边石砌码头，岸边的树木，远处城市建筑\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "scene_description": "清晨，湖边，水面平静，远处有城市建筑\n一艘停靠在岸边的传统木船\n深色船身，船头有木质平台，船舱有遮阳棚，船身有链条固定",
+  "scene_evidence_version": "structured_v1",
+  "structured_scene": {
+    "scene": "清晨，湖边，水面平静，远处有城市建筑",
+    "subject": "一艘停靠在岸边的传统木船",
+    "visible_features": [
+      "深色船身，船头有木质平台，船舱有遮阳棚，船身有链条固定"
+    ],
+    "background": [
+      "平静的湖面，岸边石砌码头，岸边的树木，远处城市建筑"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "not_needed",
+    "calls": 0,
+    "items": []
+  }
+}

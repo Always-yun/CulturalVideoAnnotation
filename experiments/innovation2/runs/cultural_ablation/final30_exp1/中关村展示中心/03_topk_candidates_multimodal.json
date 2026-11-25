@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN2_ANCIENT_017",
+    "canonical_name": "长城",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.794708251953125,
+    "reason": "关键词/别名命中：长城",
+    "image_score": 0.5894,
+    "text_score": 1.0,
+    "fusion_score": 0.7947
+  },
+  {
+    "symbol_id": "CN2_TECH_005",
+    "canonical_name": "中关村国家自主创新示范区展示中心",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6410725911458333,
+    "reason": "关键词/别名命中：展示中心",
+    "image_score": 0.6155,
+    "text_score": 0.6667,
+    "fusion_score": 0.6411
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_001",
+    "canonical_name": "武当山古建筑群",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.309722900390625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6194,
+    "text_score": 0.0,
+    "fusion_score": 0.3097
+  },
+  {
+    "symbol_id": "BJ_GUDU_008",
+    "canonical_name": "景山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.309234619140625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6185,
+    "text_score": 0.0,
+    "fusion_score": 0.3092
+  },
+  {
+    "symbol_id": "BJ_GUDU_006",
+    "canonical_name": "北京中轴线",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.3092041015625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6184,
+    "text_score": 0.0,
+    "fusion_score": 0.3092
+  }
+]

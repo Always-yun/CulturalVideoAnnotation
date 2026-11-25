@@ -1,0 +1,202 @@
+[
+    {
+        "prompt_en": "T01-G1",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T01-G1.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T01-G2",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T01-G2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T01-G3",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T01-G3.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T01-G4",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T01-G4.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T04-G1",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T04-G1.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T04-G2",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T04-G2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T04-G3",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T04-G3.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T04-G4",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T04-G4.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T06-G1",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T06-G1.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T06-G2",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T06-G2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T06-G3",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T06-G3.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T06-G4",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T06-G4.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T07-G1",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T07-G1.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T07-G2",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T07-G2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T07-G3",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T07-G3.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T07-G4",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T07-G4.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T10-G1",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T10-G1.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T10-G2",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T10-G2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T10-G3",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T10-G3.mp4"
+        ]
+    },
+    {
+        "prompt_en": "T10-G4",
+        "dimension": [
+            "imaging_quality",
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T10-G4.mp4"
+        ]
+    }
+]

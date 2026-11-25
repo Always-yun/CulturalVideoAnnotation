@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_INNOV_006",
+    "canonical_name": "北京大学",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.3157958984375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6316,
+    "text_score": 0.0,
+    "fusion_score": 0.3158
+  },
+  {
+    "symbol_id": "BJ_INNOV_002",
+    "canonical_name": "中关村科学城",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.3128662109375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6257,
+    "text_score": 0.0,
+    "fusion_score": 0.3129
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_010",
+    "canonical_name": "大栅栏",
+    "cultural_dimension": "民族与民俗文化;现代城市与国际文化",
+    "dimension_code": "FOLK;MODERN",
+    "score": 0.31219482421875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6244,
+    "text_score": 0.0,
+    "fusion_score": 0.3122
+  },
+  {
+    "symbol_id": "BJ_FASHION_009",
+    "canonical_name": "北京坊",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.311981201171875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.624,
+    "text_score": 0.0,
+    "fusion_score": 0.312
+  },
+  {
+    "symbol_id": "BJ_INNOV_003",
+    "canonical_name": "奥林匹克公园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.311920166015625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6238,
+    "text_score": 0.0,
+    "fusion_score": 0.3119
+  }
+]

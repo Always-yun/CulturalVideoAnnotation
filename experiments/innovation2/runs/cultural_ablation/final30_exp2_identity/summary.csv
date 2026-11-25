@@ -1,0 +1,5 @@
+﻿mode,n_videos,n_evaluable,n_dimension_evaluable,recall@1,recall@5,mrr,symbol_accuracy,dimension_accuracy,hallucination_rate,unknown_reject_rate,gap_reject_rate,hit_symbol_accuracy,human_edit_rate,avg_seconds
+text,31,27,31,0.5185,0.7778,0.6481,0.5806,0.8387,0.0645,0.3871,,0.5806,,44.7
+image,31,27,31,0.0,0.037,0.0123,0.0,0.8065,0.0,1.0,,0.0,,34.2
+multimodal,31,27,31,0.5926,0.8148,0.6883,0.5806,0.871,0.0323,0.3871,,0.5806,,34.0
+multimodal_controlled,31,27,31,0.5926,0.8148,0.6883,0.5161,0.871,0.0,0.4194,,0.5161,,33.4

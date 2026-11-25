@@ -1,0 +1,122 @@
+{
+  "source_manifest_sha256": "372d1714bb2a1adae5fe21653b3cbc2b743f1fe9729599c5671c75a5228fbe0b",
+  "changed_code": [
+    "src/pipeline/scene_evidence.py",
+    "src/pipeline/hybrid_evidence.py"
+  ],
+  "inherited": [
+    {
+      "video_id": "cbd",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/cbd",
+      "result_sha256": "bb5a4d256c40c0c1f979fd7212aaa727c00d869a98e169b41b4e939633a763e7",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "cbd2",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/cbd2",
+      "result_sha256": "223ba1a2a90ffa73978391576cc766e3ef05a2d32408301c0b18f5596d23f6fc",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "cbd3",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/cbd3",
+      "result_sha256": "0a1a64cb391473e902466ab711cc10e198d48bb5f86e507653c199836e8539cf",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "中关村国际创新中心",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/中关村国际创新中心",
+      "result_sha256": "f6f48a271fa1288af8e798410c15bbd4a361d1bca0f9f3d41bd74a82da69a9e1",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "中关村展示中心",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/中关村展示中心",
+      "result_sha256": "320aa20e2b163cf6ad9321780ae0389ad2b8d4e227123dd91a100218ad03b983",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "京剧青衣",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/京剧青衣",
+      "result_sha256": "74d572acd5648737e878e72aa60b396c75cc370dec83e9e7481ad713e9691b4a",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "人民大会堂",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/人民大会堂",
+      "result_sha256": "e65cae1a59c7193af3b3d84e5d5405d0171f360b5d9ef6da26fdaa55a00c907b",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "人民大会堂1",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/人民大会堂1",
+      "result_sha256": "bebe374f571889cb336070355759cedab552b74cfe64bcfb68a82c7c46421a5e",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "人民英雄纪念碑",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/人民英雄纪念碑",
+      "result_sha256": "a538f14ab6935817f450f99da4a5279e2a8907e07d900b521c8ebb9735ca1b11",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "人民英雄纪念碑1",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/人民英雄纪念碑1",
+      "result_sha256": "5a80685d28ff287d7b37648a8d9e488896b633a4a7a56ff270643cfe36dfda41",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "兔爷",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/兔爷",
+      "result_sha256": "be07fd01038c340b5b55d04fe9a9f2ebcfb25b7ac497ee603d8a382453b86fab",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "北大",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/北大",
+      "result_sha256": "ac5ccf8c3e853a4c4775e6af240c91a3ce5b272e24d02b78e828033763831cf2",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "北大1",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/北大1",
+      "result_sha256": "cc15edc3990e141d048f668678ee03ff8978b8a3a62cace3805b825765cd0e7c",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "国博",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/国博",
+      "result_sha256": "e54cefafa4e03742c388f1f3a500ae4be536786a2680cf9637660a337e8b1b85",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "天安门",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/天安门",
+      "result_sha256": "f3460847ee5b0211c55c6c8c21b9c5dceb41f6add51bb5421a868fc93ffc23eb",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "天安门1",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/天安门1",
+      "result_sha256": "616a9c857731b71b31eb369521c6ab567570760c0363c72a990f27a315355438",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "太和殿",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/太和殿",
+      "result_sha256": "ae90e85ea943b2849c0fd8d33934fd6d2326bcb0ee9241f5339c3cdc8213163f",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    },
+    {
+      "video_id": "庙会",
+      "source": "experiments/innovation2/results/hybrid_accuracy_v3/庙会",
+      "result_sha256": "ea678fe12a2a933eacbfd9d36fc88810ebedae1dacce55eec8ddc7da77b3eaee",
+      "reason": "original scene and verifier JSON both valid; new recovery branches not exercised"
+    }
+  ],
+  "rerun_ids": [
+    "cbd1",
+    "中关村1号"
+  ],
+  "scope": "development continuation; success paths unchanged, syntax-failure cases rerun only"
+}

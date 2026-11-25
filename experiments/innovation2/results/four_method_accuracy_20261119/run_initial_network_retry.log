@@ -1,0 +1,125 @@
+Prepared 30 videos; eligible references=0
+--- 使用 GLM-4 API 模式 ---
+--- GLM-4 API 配置已就绪 ---
+RUN cbd/free
+--- 使用 GLM-4 API 处理视频: cbd.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: cbd.mp4 ---
+--- 视频文件大小: 6.53 MB ---
+--- Base64编码后大小: 8915.75 KB ---
+--- 提示词长度: 3593 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+RUN cbd/text
+--- 使用 GLM-4 API 处理视频: cbd.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: cbd.mp4 ---
+--- 视频文件大小: 6.53 MB ---
+--- Base64编码后大小: 8915.75 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: cbd.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: cbd.mp4 ---
+--- 视频文件大小: 6.53 MB ---
+--- Base64编码后大小: 8915.75 KB ---
+--- 提示词长度: 3909 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+RUN cbd1/free
+--- 使用 GLM-4 API 处理视频: cbd1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: cbd1.mp4 ---
+--- 视频文件大小: 4.32 MB ---
+--- Base64编码后大小: 5896.95 KB ---
+--- 提示词长度: 3592 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+RUN cbd1/text
+--- 使用 GLM-4 API 处理视频: cbd1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: cbd1.mp4 ---
+--- 视频文件大小: 4.32 MB ---
+--- Base64编码后大小: 5896.95 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Traceback (most recent call last):
+  File "/data/data/xzy/CulturalVideoAnnotation/scripts/innovation2/run_four_method_accuracy.py", line 308, in <module>
+    main()
+  File "/data/data/xzy/CulturalVideoAnnotation/scripts/innovation2/run_four_method_accuracy.py", line 304, in main
+    run(out, manifest, kb)
+  File "/data/data/xzy/CulturalVideoAnnotation/scripts/innovation2/run_four_method_accuracy.py", line 251, in run
+    raw = pipeline.engine.annotate_video(vid, prompt=STRUCTURED_SCENE_PROMPT)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/xzy/CulturalVideoAnnotation/src/pipeline/inference_engine.py", line 185, in annotate_video
+    return self._annotate_with_glm_api(video_path, prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/xzy/CulturalVideoAnnotation/src/pipeline/inference_engine.py", line 299, in _annotate_with_glm_api
+    return self._try_annotate_glm_with_fallback(video_path, prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/xzy/CulturalVideoAnnotation/src/pipeline/inference_engine.py", line 315, in _try_annotate_glm_with_fallback
+    return self._call_glm_api_with_video(video_path, prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/xzy/CulturalVideoAnnotation/src/pipeline/inference_engine.py", line 383, in _call_glm_api_with_video
+    result = self.model_manager.call_glm_api(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/xzy/CulturalVideoAnnotation/scripts/innovation2/run_four_method_accuracy.py", line 211, in call
+    response = client.chat.completions.create(model=config.model.glm_model_name,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aws/.local/lib/python3.12/site-packages/zai/api_resource/chat/completions.py", line 149, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/home/aws/.local/lib/python3.12/site-packages/zai/core/_http_client.py", line 848, in post
+    self.request(cast_type, opts, stream=stream, stream_cls=stream_cls),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aws/.local/lib/python3.12/site-packages/zai/core/_http_client.py", line 528, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/home/aws/.local/lib/python3.12/site-packages/zai/core/_http_client.py", line 552, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/lib/python3.12/site-packages/httpx/_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/lib/python3.12/site-packages/httpx/_transports/default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 268, in handle_request
+    raise exc
+  File "/data/anaconda3/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 251, in handle_request
+    response = connection.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/lib/python3.12/site-packages/httpcore/_sync/http_proxy.py", line 344, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 133, in handle_request
+    raise exc
+  File "/data/anaconda3/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 111, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 176, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 212, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 126, in read
+    return self._sock.recv(max_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/lib/python3.12/ssl.py", line 1232, in recv
+    return self.read(buflen)
+           ^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/lib/python3.12/ssl.py", line 1105, in read
+    return self._sslobj.read(len)
+           ^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

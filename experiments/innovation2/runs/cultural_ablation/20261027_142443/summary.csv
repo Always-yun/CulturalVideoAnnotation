@@ -1,0 +1,2 @@
+﻿mode,n_videos,n_evaluable,n_dimension_evaluable,recall@1,recall@5,mrr,symbol_accuracy,dimension_accuracy,hallucination_rate,unknown_reject_rate,gap_reject_rate,hit_symbol_accuracy,human_edit_rate,avg_seconds
+multimodal,1,1,1,1.0,1.0,1.0,1.0,1.0,0.0,0.0,,1.0,,28.6

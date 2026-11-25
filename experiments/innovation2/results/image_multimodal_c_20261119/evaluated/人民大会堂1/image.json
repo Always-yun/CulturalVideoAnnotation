@@ -1,0 +1,65 @@
+{
+  "video_id": "人民大会堂1",
+  "mode": "image",
+  "status": "completed",
+  "outcome": "wrong_identity",
+  "reference_names": [
+    "人民大会堂"
+  ],
+  "reference_ids": [
+    "OUTSIDE_KB:人民大会堂"
+  ],
+  "predicted_names": [
+    "中国国家博物馆"
+  ],
+  "predicted_ids": [
+    "BJ_RED_006"
+  ],
+  "main_correct": false,
+  "strict_correct": false,
+  "reference_extra_entities": [
+    "BJ_RED_006"
+  ],
+  "tp": 0,
+  "fp": 1,
+  "fn": 1,
+  "predicted_categories": [
+    "RED"
+  ],
+  "reference_categories": [
+    "ANCIENT"
+  ],
+  "category_exact": false,
+  "category_tp": 0,
+  "category_fp": 1,
+  "category_fn": 1,
+  "recall_at_k": null,
+  "candidate_ids": [
+    "BJ_RED_006",
+    "BJ_INNOV_007",
+    "BJ_RED_003"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化。\n核心符号：中国国家博物馆\n价值指向：画面中可见一座具有对称柱廊、黄色花岗岩外墙、正面10根方柱的大型建筑，建筑顶部有中华人民共和国国徽，前方是宽阔的广场与道路，这些视觉特征与“中国国家博物馆”的典型外观相符。中国国家博物馆作为承载国家记忆、展示国家历史的重要场所，属于红色文化范畴，是具有显著国家象征意义的建筑。",
+  "c_layer_natural_language": "：该场景隶属于红色文化。\n核心符号：中国国家博物馆\n价值指向：画面中可见一座具有对称柱廊、黄色花岗岩外墙、正面10根方柱的大型建筑，建筑顶部有中华人民共和国国徽，前方是宽阔的广场与道路，这些视觉特征与“中国国家博物馆”的典型外观相符。中国国家博物馆作为承载国家记忆、展示国家历史的重要场所，属于红色文化范畴，是具有显著国家象征意义的建筑。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/人民大会堂1/image.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:50:21.528824+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化。\n核心符号：中国国家博物馆\n价值指向：画面中可见一座具有对称柱廊、黄色花岗岩外墙、正面10根方柱的大型建筑，建筑顶部有中华人民共和国国徽，前方是宽阔的广场与道路，这些视觉特征与“中国国家博物馆”的典型外观相符。中国国家博物馆作为承载国家记忆、展示国家历史的重要场所，属于红色文化范畴，是具有显著国家象征意义的建筑。",
+      "response_model": "glm-4v",
+      "response_id": "20261119165022c609dc1ea27a43ba",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=73742, prompt_tokens_details=PromptTokensDetails(cached_tokens=73741), completion_tokens=101, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73843)",
+      "seconds": 47.3995304107666
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

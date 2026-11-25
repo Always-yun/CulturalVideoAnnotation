@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_RED_003",
+    "canonical_name": "人民英雄纪念碑",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.92529296875,
+    "reason": "关键词/别名命中：人民英雄纪念碑、纪念碑",
+    "image_score": 0.9253,
+    "text_score": 0.75,
+    "fusion_score": 0.9253
+  },
+  {
+    "symbol_id": "CN_RED_003",
+    "canonical_name": "延安革命纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.87158203125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8716,
+    "text_score": 0.0,
+    "fusion_score": 0.8716
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_028",
+    "canonical_name": "曲阜孔林",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.850341796875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8503,
+    "text_score": 0.0,
+    "fusion_score": 0.8503
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_027",
+    "canonical_name": "曲阜孔庙",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.850341796875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8503,
+    "text_score": 0.0,
+    "fusion_score": 0.8503
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_029",
+    "canonical_name": "曲阜孔府",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.850341796875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8503,
+    "text_score": 0.0,
+    "fusion_score": 0.8503
+  }
+]

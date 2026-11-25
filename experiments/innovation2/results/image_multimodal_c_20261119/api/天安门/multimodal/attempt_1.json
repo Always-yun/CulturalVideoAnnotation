@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:55:01.547543+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化、古城与历史文化。\n核心符号：天安门城楼\n价值指向：画面中可见具有重檐歇山顶、黄琉璃瓦等视觉特征的传统建筑，其下方红墙上悬挂“中华人民共和国万岁”“世界人民大团结万岁”标语，并悬挂人物肖像，结合建筑形制与标语内容，可识别为天安门城楼，是红色文化核心符号；同时其作为传统建筑，也属于古城与历史文化范畴。",
+  "response_model": "glm-4v",
+  "response_id": "2026111916550110ee96d10f444f11",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=72821, prompt_tokens_details=PromptTokensDetails(cached_tokens=72820), completion_tokens=108, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=72929)",
+  "seconds": 61.42480421066284
+}

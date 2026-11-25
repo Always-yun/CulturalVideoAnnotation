@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN2_ANCIENT_021",
+    "canonical_name": "泰山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.90869140625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9087,
+    "text_score": 0.0,
+    "fusion_score": 0.9087
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_028",
+    "canonical_name": "曲阜孔林",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.904541015625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9045,
+    "text_score": 0.0,
+    "fusion_score": 0.9045
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_027",
+    "canonical_name": "曲阜孔庙",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.904541015625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9045,
+    "text_score": 0.0,
+    "fusion_score": 0.9045
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_029",
+    "canonical_name": "曲阜孔府",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.904541015625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9045,
+    "text_score": 0.0,
+    "fusion_score": 0.9045
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_011",
+    "canonical_name": "五台山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.90185546875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9019,
+    "text_score": 0.0,
+    "fusion_score": 0.9019
+  }
+]

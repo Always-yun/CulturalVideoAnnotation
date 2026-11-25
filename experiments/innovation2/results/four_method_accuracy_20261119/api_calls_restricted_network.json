@@ -1,0 +1,11 @@
+[
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:22:10.027878+08:00",
+    "status": "failed",
+    "error_type": "APIConnectionError",
+    "error": "Connection error.",
+    "seconds": 0.12273526191711426
+  }
+]

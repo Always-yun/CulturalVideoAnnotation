@@ -1,0 +1,23 @@
+{
+  "video_id": "庙会",
+  "gt_symbols": [
+    "北京庙会"
+  ],
+  "gt_symbol_ids": [
+    "BJ_JINGWEI_007"
+  ],
+  "gt_dimension_code": "FOLK",
+  "kb_coverage": true,
+  "mode": "free",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为红色灯笼、红色横幅。",
+  "pred_dimension": "民族与民俗文化",
+  "unknown_symbol": false,
+  "symbol_correct": false,
+  "dimension_correct": true,
+  "topk_candidates": [],
+  "recall_at_5": null,
+  "seconds": 62.12,
+  "error_type": "entity_confusion_or_generation",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/1/traces/庙会/free/trace.json"
+}

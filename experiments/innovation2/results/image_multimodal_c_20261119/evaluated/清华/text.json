@@ -1,0 +1,43 @@
+{
+  "video_id": "清华",
+  "mode": "text",
+  "status": "parse_failure",
+  "outcome": "parse_failure",
+  "reference_names": [
+    "清华大学"
+  ],
+  "reference_ids": [
+    "BJ_INNOV_007"
+  ],
+  "predicted_names": [],
+  "predicted_ids": [],
+  "main_correct": false,
+  "strict_correct": false,
+  "reference_extra_entities": [],
+  "tp": 0,
+  "fp": 0,
+  "fn": 1,
+  "predicted_categories": [],
+  "reference_categories": [
+    "TECH"
+  ],
+  "category_exact": false,
+  "category_tp": 0,
+  "category_fp": 0,
+  "category_fn": 1,
+  "recall_at_k": false,
+  "candidate_ids": [],
+  "raw_reply": null,
+  "c_layer_natural_language": "",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/four_method_accuracy_20261119/results.json",
+  "attempts": [],
+  "raw_available": false,
+  "full_c_available": false,
+  "original_trace_path": null,
+  "historical_model_config_path": "experiments/innovation2/results/four_method_accuracy_20261119/model_config.json"
+}

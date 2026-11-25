@@ -1,0 +1,23 @@
+{
+  "video_id": "中关村展示中心",
+  "gt_symbols": [
+    "中关村国家自主创新示范区展示中心"
+  ],
+  "gt_symbol_ids": [
+    "CN2_TECH_005"
+  ],
+  "gt_dimension_code": "TECH",
+  "kb_coverage": true,
+  "mode": "free",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为国家会议中心（流线型建筑）。",
+  "pred_dimension": "科技与创新文化",
+  "unknown_symbol": false,
+  "symbol_correct": false,
+  "dimension_correct": true,
+  "topk_candidates": [],
+  "recall_at_5": null,
+  "seconds": 78.62,
+  "error_type": "entity_confusion_or_generation",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/中关村展示中心/free/trace.json"
+}

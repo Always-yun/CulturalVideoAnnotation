@@ -1,0 +1,14 @@
+{
+  "video_id": "兔爷",
+  "gt_symbols": [
+    "兔儿爷"
+  ],
+  "gt_symbol_ids": [
+    "BJ_JINGWEI_004"
+  ],
+  "gt_dimension_code": "FOLK",
+  "kb_coverage": true,
+  "mode": "text",
+  "status": "blocked_runtime",
+  "reason": "基础模型调用受阻：APIConnectionError；详情见api_calls.json"
+}

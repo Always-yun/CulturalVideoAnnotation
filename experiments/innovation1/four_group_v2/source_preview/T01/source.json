@@ -1,0 +1,30 @@
+{
+  "video_file": "data/video/兵马俑.mp4",
+  "video_sha256": "2dc807185e443609bc1bad8541ff9f8127c8c1fdbd5db03b5e0cda17e3932658",
+  "frames": [
+    {
+      "fraction": 0.5,
+      "duration_sec": 9.816,
+      "requested_sec": 4.908,
+      "actual_sec": 4.9,
+      "absolute_pts_sec": 4.9,
+      "frame_index": 147,
+      "frame_file": "experiments/innovation1/four_group_v2/source_preview/T01/source/50.jpg",
+      "sha256": "80d11de85dfc2701565b2d2a451b011aadd8196ba588eb1f45dff0ed301bf2dc",
+      "attempts": [
+        {
+          "index": 147,
+          "pts_sec": 4.9,
+          "black": false
+        }
+      ]
+    }
+  ],
+  "T": {
+    "fps": 29.748961622578957,
+    "decoded_frames": 295,
+    "duration_sec": 9.816,
+    "duration_scope_warning": "outside_3_to_5_seconds_review_scope"
+  },
+  "exception_rule": "nearest PTS; black >98% gray<8; previous then next within 0.1s; failure blocks; no aesthetic selection"
+}

@@ -1,0 +1,65 @@
+{
+  "video_id": "北大",
+  "mode": "image",
+  "status": "completed",
+  "outcome": "wrong_identity",
+  "reference_names": [
+    "北京大学"
+  ],
+  "reference_ids": [
+    "BJ_INNOV_006"
+  ],
+  "predicted_names": [
+    "雷峰塔"
+  ],
+  "predicted_ids": [
+    "UNRESOLVED:雷峰塔"
+  ],
+  "main_correct": false,
+  "strict_correct": false,
+  "reference_extra_entities": [
+    "UNRESOLVED:雷峰塔"
+  ],
+  "tp": 0,
+  "fp": 1,
+  "fn": 1,
+  "predicted_categories": [
+    "ANCIENT"
+  ],
+  "reference_categories": [
+    "TECH"
+  ],
+  "category_exact": false,
+  "category_tp": 0,
+  "category_fp": 1,
+  "category_fn": 1,
+  "recall_at_k": false,
+  "candidate_ids": [
+    "BJ_GUDU_010",
+    "CN_MODERN_001",
+    "BJ_INNOV_007"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：雷峰塔\n价值指向：画面中可见一座具有多层檐角、塔身呈八角形的古塔，其倒影映在湖面上，周围环绕着茂密的树木，整体呈现出典型的中国传统园林景观特征。从建筑形制和景观布局来看，这与杭州西湖文化景观中的雷峰塔高度吻合。雷峰塔是杭州西湖的标志性建筑，承载着丰富的历史文化内涵，是古城与历史文化的典型符号。</think>",
+  "c_layer_natural_language": "：该场景隶属于古城与历史文化。\n核心符号：雷峰塔\n价值指向：画面中可见一座具有多层檐角、塔身呈八角形的古塔，其倒影映在湖面上，周围环绕着茂密的树木，整体呈现出典型的中国传统园林景观特征。从建筑形制和景观布局来看，这与杭州西湖文化景观中的雷峰塔高度吻合。雷峰塔是杭州西湖的标志性建筑，承载着丰富的历史文化内涵，是古城与历史文化的典型符号。</think>",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/北大/image.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:52:13.296250+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：雷峰塔\n价值指向：画面中可见一座具有多层檐角、塔身呈八角形的古塔，其倒影映在湖面上，周围环绕着茂密的树木，整体呈现出典型的中国传统园林景观特征。从建筑形制和景观布局来看，这与杭州西湖文化景观中的雷峰塔高度吻合。雷峰塔是杭州西湖的标志性建筑，承载着丰富的历史文化内涵，是古城与历史文化的典型符号。</think>",
+      "response_model": "glm-4v",
+      "response_id": "2026111916521370d7a164f8534f24",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=65385, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=112, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=65497)",
+      "seconds": 39.07069754600525
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

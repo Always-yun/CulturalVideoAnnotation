@@ -1,0 +1,111 @@
+{
+  "helper_sha256": "a41142bfc46887f34fc36860b4e681e40aa09882460152477f95f9113410571f",
+  "sources": [
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/predictions/cbd3/scene.json",
+      "sha256": "0da80a39ec0b6b0a60dd6d506c7bd35ad737b787de2395acc17feb6e3295d076"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/1/predictions/中关村1号/scene.json",
+      "sha256": "1506469e438c4e6305df573ebfd7791db7d1ca711c90b2d388db8aa6d780444a"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/predictions/中关村国际创新中心/scene.json",
+      "sha256": "28478562f0e5370563b0b3fc562ef38f638acc5150bda877abcee7adf5dd8cc1"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/predictions/中关村展示中心/scene.json",
+      "sha256": "3d174c592d786447df88dc7f32d7049f4a4e3c79bfc59f55a708a8461b5e1b43"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/1/predictions/京剧青衣/scene.json",
+      "sha256": "9bf81636798e3d8bda3a972a0cd2af66063b7550fc4cb54f7780b3daed33548d"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/predictions/人民大会堂/scene.json",
+      "sha256": "802c6b0defd0ebee033100fad4fa2c07e53a2b87f441c675b197467760cf7a19"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/predictions/人民大会堂1/scene.json",
+      "sha256": "e1bdeb16a94a4ad4bb2d178373188f7f6e957e562d13eae70f428282c93ce98c"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/1/predictions/人民英雄纪念碑/scene.json",
+      "sha256": "fa3eadc417e8c75020a6df088ecdd0f41fae9d3b4cab4c01128ca7676dbd8c79"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/predictions/人民英雄纪念碑1/scene.json",
+      "sha256": "8fad07dac3e7986b284a447135bbdfab41dd4a5717ec4a8124d08858f5184de2"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/predictions/兔爷/scene.json",
+      "sha256": "1db053b0eb95c204cd6f70ff2791c87b7d0a62aeefb53c2e4a4ae09d37c55c38"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/1/predictions/北大/scene.json",
+      "sha256": "37b2d79376005ddb5ec793421b85fa59435775db209e76bd0482417219af93f4"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/predictions/北大1/scene.json",
+      "sha256": "9985914b17be34fc18338432294babba36583651eefce592003f1ccc203a2cae"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/predictions/国博/scene.json",
+      "sha256": "8bfacd9b86c0aea4ffaa0396d9ca315134a7b9d64bba58ccc756b45d37e52512"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/1/predictions/天安门/scene.json",
+      "sha256": "0a0592e47c2841ccbd4e57eb8541d78a2acf742b44af166418092f7d45910f3a"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/predictions/天安门1/scene.json",
+      "sha256": "7d7be76edb990808f7f4f00bbcaf43bdc3283ae879f71762d44203039991ec22"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/predictions/太和殿/scene.json",
+      "sha256": "8d31a529bfcb44d49d529c6f4eaa028a38c52d9ccb1b6fd8fae30fc0ff48dc7e"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/1/predictions/庙会/scene.json",
+      "sha256": "751501e9f307b559ca1224599c026d16dd8c86fc07895154f7b1faa35dffb125"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/predictions/故宫/scene.json",
+      "sha256": "ad4b6614e01467b8461361b8bc24f0b3e6a9243799879e9528485fa041884ea1"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/predictions/故宫全景/scene.json",
+      "sha256": "386969f91abdced5270fb411e60f5dea3583beb200a7459700931c2599730b6e"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/1/predictions/未来科学城/scene.json",
+      "sha256": "ce05f68c3520523f324533d1293aadf4e392f53e369242fdacc12c5f70e359af"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/predictions/糖葫芦/scene.json",
+      "sha256": "25c2059825f952e9c579cc5150ce0e7e341da8e621ecf2f6b6e38ac58e2cfd57"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/1/predictions/胡同/scene.json",
+      "sha256": "87fa2e2ca603189826836400622ff26f0284d4fad770bd4b77de317afa34ec1e"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/predictions/胡同1/scene.json",
+      "sha256": "dd54aace0aa179243779595c6553579d919d1be647aeef18b0c7c816a86df565"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/predictions/角楼/scene.json",
+      "sha256": "f0ca4117812a031752f58dfb668da6feec02db2a3dfad17eea41e49c6f69a0fc"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/1/predictions/角楼1/scene.json",
+      "sha256": "7e1a36783ebdf1591be4e23f34bc0a57e17708e8e6ecdeb9ad91cc03a9811934"
+    },
+    {
+      "path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/predictions/鸟巢/scene.json",
+      "sha256": "2677ac502a55123accf6ccd8f801871caf2f6b5bca2eee3170127d9bd2e210c0"
+    }
+  ],
+  "parameters_changed": false,
+  "policy": "Only literal prior structured observations; no label/prediction feedback; uncertain_entities excluded from retrieval"
+}

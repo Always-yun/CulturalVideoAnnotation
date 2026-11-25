@@ -1,0 +1,17 @@
+{
+  "video_id": "国博",
+  "sample_type": "known",
+  "gt_ids": [
+    "BJ_RED_006"
+  ],
+  "pred_ids": [],
+  "rejected": true,
+  "correct": false,
+  "recall1": false,
+  "recall5": false,
+  "reciprocal_rank": 0,
+  "error_type": "false_reject",
+  "group": "C",
+  "api_calls": 1,
+  "seconds": 340.9
+}

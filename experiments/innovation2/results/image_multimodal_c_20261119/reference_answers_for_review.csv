@@ -1,0 +1,31 @@
+﻿video_id,video_path,primary_entity,entity_ids,cultural_categories,basis,human_confirmed
+cbd,experiments/innovation2/data/videos/cbd.mp4,"[""CBD""]","[""BJ_FASHION_003""]",MODERN,ablation_per_video + 文件名,False
+cbd1,experiments/innovation2/data/videos/cbd1.mp4,"[""CBD""]","[""BJ_FASHION_003""]",MODERN,ablation_per_video + 文件名,False
+cbd2,experiments/innovation2/data/videos/cbd2.mp4,"[""CBD""]","[""BJ_FASHION_003""]",MODERN,ablation_per_video + 文件名,False
+cbd3,experiments/innovation2/data/videos/cbd3.mp4,"[""CBD""]","[""BJ_FASHION_003""]",MODERN,文件名,False
+中关村1号,experiments/innovation2/data/videos/中关村1号.mp4,"[""中关村壹号""]","[""CN2_TECH_008""]",TECH,ablation_per_video + 文件名,False
+中关村国际创新中心,experiments/innovation2/data/videos/中关村国际创新中心.mp4,"[""中关村国际创新中心""]","[""CN2_TECH_006""]",TECH,文件名（v2 KB 新增 CN2_TECH_006）,False
+中关村展示中心,experiments/innovation2/data/videos/中关村展示中心.mp4,"[""中关村国家自主创新示范区展示中心""]","[""CN2_TECH_005""]",TECH,文件名（v2 KB 新增 CN2_TECH_005）,False
+京剧青衣,experiments/innovation2/data/videos/京剧青衣.mp4,"[""京剧""]","[""BJ_JINGWEI_003""]",FOLK,ablation_per_video + 文件名,False
+人民大会堂,experiments/innovation2/data/videos/人民大会堂.mp4,"[""人民大会堂""]",[],ANCIENT,文件名（KB 未收录，需确认）,False
+人民大会堂1,experiments/innovation2/data/videos/人民大会堂1.mp4,"[""人民大会堂""]",[],ANCIENT,文件名（KB 未收录，需确认）,False
+人民英雄纪念碑,experiments/innovation2/data/videos/人民英雄纪念碑.mp4,"[""人民英雄纪念碑""]","[""BJ_RED_003""]",RED,ablation_per_video + 文件名,False
+人民英雄纪念碑1,experiments/innovation2/data/videos/人民英雄纪念碑1.mp4,"[""人民英雄纪念碑""]","[""BJ_RED_003""]",RED,ablation_per_video + 文件名,False
+兔爷,experiments/innovation2/data/videos/兔爷.mp4,"[""兔儿爷""]","[""BJ_JINGWEI_004""]",FOLK,ablation_per_video + 文件名,False
+北大,experiments/innovation2/data/videos/北大.mp4,"[""北京大学""]","[""BJ_INNOV_006""]",TECH,ablation_per_video + 文件名,False
+北大1,experiments/innovation2/data/videos/北大1.mp4,"[""北京大学""]","[""BJ_INNOV_006""]",TECH,ablation_per_video + 文件名,False
+国博,experiments/innovation2/data/videos/国博.mp4,"[""中国国家博物馆""]","[""BJ_RED_006""]",RED,文件名（KB 别名 国博 命中 BJ_RED_006）,False
+天安门,experiments/innovation2/data/videos/天安门.mp4,"[""天安门广场""]","[""BJ_RED_002""]",RED,文件名（KB 别名 天安门 命中 BJ_RED_002）,False
+天安门1,experiments/innovation2/data/videos/天安门1.mp4,"[""天安门广场""]","[""BJ_RED_002""]",RED,ablation_per_video + 文件名,False
+太和殿,experiments/innovation2/data/videos/太和殿.mp4,"[""太和殿""]","[""BJ_GUDU_002""]",ANCIENT,ablation_per_video + 文件名,False
+庙会,experiments/innovation2/data/videos/庙会.mp4,"[""北京庙会""]","[""BJ_JINGWEI_007""]",FOLK,ablation_per_video + 文件名,False
+故宫,experiments/innovation2/data/videos/故宫.mp4,"[""故宫""]","[""BJ_GUDU_001""]",ANCIENT,文件名,False
+故宫全景,experiments/innovation2/data/videos/故宫全景.mp4,"[""故宫""]","[""BJ_GUDU_001""]",ANCIENT,ablation_per_video + 文件名,False
+未来科学城,experiments/innovation2/data/videos/未来科学城.mp4,"[""未来科学城""]","[""BJ_INNOV_008""]",TECH,ablation_per_video + 文件名,False
+清华,experiments/innovation2/data/videos/清华.mp4,"[""清华大学""]","[""BJ_INNOV_007""]",TECH,文件名（KB 别名 清华 命中 BJ_INNOV_007）,False
+糖葫芦,experiments/innovation2/data/videos/糖葫芦.mp4,"[""冰糖葫芦""]",[],FOLK,文件名（KB 无小吃类符号 → Easy Unknown）,False
+胡同,experiments/innovation2/data/videos/胡同.mp4,"[""胡同""]","[""BJ_JINGWEI_001""]",FOLK,文件名,False
+胡同1,experiments/innovation2/data/videos/胡同1.mp4,"[""胡同""]","[""BJ_JINGWEI_001""]",FOLK,ablation_per_video + 文件名,False
+角楼,experiments/innovation2/data/videos/角楼.mp4,"[""角楼""]","[""BJ_GUDU_010""]",ANCIENT,文件名,False
+角楼1,experiments/innovation2/data/videos/角楼1.mp4,"[""角楼""]","[""BJ_GUDU_010""]",ANCIENT,ablation_per_video + 文件名,False
+鸟巢,experiments/innovation2/data/videos/鸟巢.mp4,"[""鸟巢""]","[""BJ_INNOV_004""]",TECH,文件名,False

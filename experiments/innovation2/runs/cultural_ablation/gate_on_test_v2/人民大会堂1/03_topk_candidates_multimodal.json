@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_INNOV_006",
+    "canonical_name": "北京大学",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.31866455078125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6373,
+    "text_score": 0.0,
+    "fusion_score": 0.3187
+  },
+  {
+    "symbol_id": "BJ_INNOV_007",
+    "canonical_name": "清华大学",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.318603515625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6372,
+    "text_score": 0.0,
+    "fusion_score": 0.3186
+  },
+  {
+    "symbol_id": "BJ_RED_006",
+    "canonical_name": "中国国家博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.31768798828125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6354,
+    "text_score": 0.0,
+    "fusion_score": 0.3177
+  },
+  {
+    "symbol_id": "BJ_INNOV_008",
+    "canonical_name": "未来科学城",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.3172607421875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6345,
+    "text_score": 0.0,
+    "fusion_score": 0.3173
+  },
+  {
+    "symbol_id": "BJ_INNOV_002",
+    "canonical_name": "中关村科学城",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.317138671875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6343,
+    "text_score": 0.0,
+    "fusion_score": 0.3171
+  }
+]

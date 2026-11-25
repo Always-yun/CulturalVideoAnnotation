@@ -1,0 +1,89 @@
+{
+  "decision": {
+    "identity_gate_pass": false,
+    "reason": "Existing Confidence Gate already rejected the sample.",
+    "passed_symbol_ids": []
+  },
+  "candidates": [
+    {
+      "symbol_id": "CN_MODERN_001",
+      "canonical_name": "杭州西湖文化景观",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=MODERN; type=城市文化景观与世界遗产",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_007",
+      "canonical_name": "登封“天地之中”历史古迹",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=ANCIENT; type=历史建筑群",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "CN2_MODERN_002",
+      "canonical_name": "鼓浪屿：历史国际社区",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=MODERN;ANCIENT; type=历史国际社区",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "BJ_INNOV_006",
+      "canonical_name": "北京大学",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=TECH; type=高等学府",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "CN2_TECH_007",
+      "canonical_name": "中关村广场",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=TECH; type=城市广场",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "request": {
+    "id": "T01_source",
+    "task_id": "T01",
+    "video_id": "source",
+    "question_ids": [
+      "T01-F1",
+      "T01-F2",
+      "T01-F3",
+      "T01-F4"
+    ],
+    "question_sha256": "8b4d8b36c07b3ad5f0a1407f262969e13eaa18760c3ed93c822ef47009fc185b",
+    "reference_sha256": "cd719121d9af90a512142d3805587fa631d11b8b7a291399964313a8119bcb71",
+    "evidence_sha256": "b3b6028d05282848ff85f3c05072038dae24501f724450f0a0d8da94193a5b3e",
+    "source_evidence_sha256": "b3b6028d05282848ff85f3c05072038dae24501f724450f0a0d8da94193a5b3e",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。所给1张图片均为原视频关键帧；每题frames数组必须恰有1项。overall_form固定返回Match。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T01-F1\", \"question\": \"视频中是否出现多排整齐排列的人物陶俑面向镜头？\", \"yes_rule\": \"同一画面可见至少两排人物陶俑有序排列，且主体整体朝向镜头或可见正面/侧正面\", \"no_rule\": \"人物主体清晰，但未形成至少两排有序陶俑军阵，或整体背向镜头\", \"uncertain_rule\": \"人物过小、严重遮挡，无法判断排列层次或朝向\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F2\", \"question\": \"视频中的陶俑是否具有古代军士的服饰或甲胄特征？\", \"yes_rule\": \"至少一个主要陶俑可辨认古代军士服饰、发髻或甲胄特征\", \"no_rule\": \"陶俑主体清晰，但呈现代人物、普通雕像或缺少古代军士造型\", \"uncertain_rule\": \"服饰和甲胄细节过小、模糊或被遮挡\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F3\", \"question\": \"视频中的人物雕塑是否呈现明显的陶土材质质感？\", \"yes_rule\": \"主要人物雕塑呈土褐、灰褐等陶土色泽，并具有哑光、粗粝或烧制陶塑表面感\", \"no_rule\": \"人物清晰但呈真人皮肤、金属、塑料或其他明显非陶土材质\", \"uncertain_rule\": \"光照、清晰度或画面尺寸不足以判断材质\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F4\", \"question\": \"视频中的陶俑是否排列在由土质隔墙分隔的长方形坑道内？\", \"yes_rule\": \"可见陶俑位于长方形考古坑道中，坑道之间由土质隔墙分隔\", \"no_rule\": \"陶俑主体清晰，但位于普通室内地面、广场或没有土质隔墙分隔的空间\", \"uncertain_rule\": \"坑道边界或隔墙被遮挡，无法判断空间布局\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 9.816,
+        "requested_sec": 4.908,
+        "actual_sec": 4.9,
+        "absolute_pts_sec": 4.9,
+        "frame_index": 147,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T01/source/50.jpg",
+        "sha256": "80d11de85dfc2701565b2d2a451b011aadd8196ba588eb1f45dff0ed301bf2dc",
+        "attempts": [
+          {
+            "index": 147,
+            "pts_sec": 4.9,
+            "black": false
+          }
+        ]
+      }
+    ]
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"facts\":{\"T01-F1\":{\"frames\":[\"Yes\"],\"evidence\":\"画面中可见多排人物陶俑整齐排列，主体朝向镜头方向\"},\"T01-F2\":{\"frames\":[\"Yes\"],\"evidence\":\"陶俑具有古代军士的服饰和甲胄特征，如铠甲、发髻等\"},\"T01-F3\":{\"frames\":[\"Yes\"],\"evidence\":\"陶俑呈现土褐、灰褐等陶土色泽，具有哑光、粗粝的陶土材质质感\"},\"T01-F4\":{\"frames\":[\"Yes\"],\"evidence\":\"陶俑排列在由土质隔墙分隔的长方形坑道内\"},\"overall_form\":\"Match\",\"overall_evidence\":\"关键帧中陶俑的排列、服饰、材质及坑道布局均与问题规则匹配\"}",
+  "parse_ok": true,
+  "parsed": {
+    "facts": {
+      "T01-F1": {
+        "answer": "Yes",
+        "frames": [
+          "Yes"
+        ],
+        "evidence": "画面中可见多排人物陶俑整齐排列，主体朝向镜头方向"
+      },
+      "T01-F2": {
+        "answer": "Yes",
+        "frames": [
+          "Yes"
+        ],
+        "evidence": "陶俑具有古代军士的服饰和甲胄特征，如铠甲、发髻等"
+      },
+      "T01-F3": {
+        "answer": "Yes",
+        "frames": [
+          "Yes"
+        ],
+        "evidence": "陶俑呈现土褐、灰褐等陶土色泽，具有哑光、粗粝的陶土材质质感"
+      },
+      "T01-F4": {
+        "answer": "Yes",
+        "frames": [
+          "Yes"
+        ],
+        "evidence": "陶俑排列在由土质隔墙分隔的长方形坑道内"
+      }
+    },
+    "overall_form": "Match",
+    "overall_evidence": "关键帧中陶俑的排列、服饰、材质及坑道布局均与问题规则匹配",
+    "unexpected_fact_ids_ignored": []
+  }
+}

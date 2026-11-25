@@ -1,0 +1,23 @@
+{
+  "scene_description_raw": "{\"scene\":\"室内，光线柔和，背景有木质格栅和绿色植物\",\"subject\":\"身着传统服饰的人，手持并操作一把折扇\",\"visible_features\":[\"白色宽袖长袍，领口和袖口有彩色刺绣，佩戴黄色流苏耳饰，面部有红色妆容，手持一把带有花卉图案的黄色折扇\"],\"background\":[\"深色木质格栅，格栅后有绿色植物\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "scene_description": "室内，光线柔和，背景有木质格栅和绿色植物\n身着传统服饰的人，手持并操作一把折扇\n白色宽袖长袍，领口和袖口有彩色刺绣，佩戴黄色流苏耳饰，面部有红色妆容，手持一把带有花卉图案的黄色折扇",
+  "structured_scene": {
+    "scene": "室内，光线柔和，背景有木质格栅和绿色植物",
+    "subject": "身着传统服饰的人，手持并操作一把折扇",
+    "visible_features": [
+      "白色宽袖长袍，领口和袖口有彩色刺绣，佩戴黄色流苏耳饰，面部有红色妆容，手持一把带有花卉图案的黄色折扇"
+    ],
+    "background": [
+      "深色木质格栅，格栅后有绿色植物"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

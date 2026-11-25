@@ -1,0 +1,41 @@
+[
+  {
+    "symbol_id": "BJ_INNOV_006",
+    "canonical_name": "北京大学",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 6.0,
+    "reason": "关键词/别名命中：北京大学",
+    "image_score": 0.0,
+    "text_score": 6.0,
+    "fusion_score": 6.0,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_RED_004",
+    "canonical_name": "卢沟桥",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 3.0,
+    "reason": "关键词/别名命中：石狮",
+    "image_score": 0.0,
+    "text_score": 3.0,
+    "fusion_score": 3.0,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_007",
+    "canonical_name": "北京庙会",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 1.0,
+    "reason": "关键词/别名命中：红灯笼",
+    "image_score": 0.0,
+    "text_score": 1.0,
+    "fusion_score": 1.0,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  }
+]

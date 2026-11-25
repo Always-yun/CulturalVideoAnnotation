@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_INNOV_001",
+    "canonical_name": "中关村",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6634521484375,
+    "reason": "关键词/别名命中：中关村",
+    "image_score": 0.8269,
+    "text_score": 0.5,
+    "fusion_score": 0.6635
+  },
+  {
+    "symbol_id": "CN2_TECH_006",
+    "canonical_name": "中关村国际创新中心",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.5,
+    "reason": "关键词/别名命中：中关村国际创新中心、国际创新中心",
+    "image_score": 0.0,
+    "text_score": 1.0,
+    "fusion_score": 0.5
+  },
+  {
+    "symbol_id": "BJ_INNOV_009",
+    "canonical_name": "国家会议中心",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.445556640625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8911,
+    "text_score": 0.0,
+    "fusion_score": 0.4456
+  },
+  {
+    "symbol_id": "BJ_INNOV_008",
+    "canonical_name": "未来科学城",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.4281005859375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8562,
+    "text_score": 0.0,
+    "fusion_score": 0.4281
+  },
+  {
+    "symbol_id": "BJ_RED_005",
+    "canonical_name": "宛平城",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.427978515625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.856,
+    "text_score": 0.0,
+    "fusion_score": 0.428
+  }
+]

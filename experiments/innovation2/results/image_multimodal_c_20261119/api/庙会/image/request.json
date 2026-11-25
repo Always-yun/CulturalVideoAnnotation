@@ -1,0 +1,10 @@
+{
+  "media_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/data/videos/庙会.mp4",
+  "media_sha256": "677954ea9bc271de0b4f1ef7a488f0263380de2184138a40fee7e0f8de38a280",
+  "media_kind": "video_url",
+  "prompt": "请仅输出EMCAST的C文化维度层，保留完整中文自然语言说明，不输出其余五层。\n根据视频实际可见证据识别文化符号。文化类别可多选：古城与历史文化、红色文化、民族与民俗文化、科技与创新文化、现代城市与国际文化；证据不足可写无法确认。\n候选知识只是待核实材料，不证明画面已出现该实体。允许命名候选之外的实体，允许无候选或无法确认，不强迫选择。不要给数值置信度。\n核心符号行请用规范名称列出实际确认的实体，多个用顿号分隔；没有可靠身份则写unknown_symbol。其他说明放在价值指向中，不把身份猜测写成已识别事实。\n输出格式沿用现有C层：\n【C｜文化维度层】：该场景隶属于……（多类可并列，无法确认则说明）。\n核心符号：……\n价值指向：描述可见视觉依据、文化内涵与不确定之处。\n\n以下为检索到的待核实文化知识（不是已经出现的事实；可不选）：\n[{\"symbol_id\": \"BJ_RED_002\", \"canonical_name\": \"天安门广场\", \"aliases\": \"天安门\", \"cultural_dimension\": \"红色文化\", \"dimension_code\": \"RED\", \"visual_features\": \"广场东西宽500米南北长880米|城楼重檐歇山顶黄琉璃瓦|汉白玉金水桥五座|华表两对|旗杆居中\", \"cultural_description\": \"1949年10月1日开国大典举行地，国家政治活动核心空间，象征新中国\", \"typical_scene\": \"升旗仪式|广场全景|城楼仰视|国庆阅兵\"}, {\"symbol_id\": \"BJ_RED_003\", \"canonical_name\": \"人民英雄纪念碑\", \"aliases\": \"纪念碑\", \"cultural_dimension\": \"红色文化\", \"dimension_code\": \"RED\", \"visual_features\": \"碑高37.94米|碑心花岗岩|正面\\\"人民英雄永垂不朽\\\"鎏金大字|须弥座台基两层|下层四周八块汉白玉浮雕\", \"cultural_description\": \"1958年落成，纪念1840年以来为国牺牲的人民英雄，象征革命精神与国家记忆\", \"typical_scene\": \"广场仰视|浮雕特写|夜灯剪影\"}, {\"symbol_id\": \"BJ_JINGWEI_007\", \"canonical_name\": \"北京庙会\", \"aliases\": \"庙会|春节庙会\", \"cultural_dimension\": \"民族与民俗文化\", \"dimension_code\": \"FOLK\", \"visual_features\": \"红墙黄瓦为背景|摊位林立|舞龙舞狮|抖空竹|风车糖葫芦|剪纸对联\", \"cultural_description\": \"明清以来春节民俗活动集合，兼具祭祀、商贸、娱乐功能，2008年厂甸庙会列入国家级非遗\", \"typical_scene\": \"人群熙攘|摊位特写|表演活动|红灯笼\"}]",
+  "model": "glm-4v",
+  "temperature": 0.1,
+  "max_tokens": 2048,
+  "base64_omitted": true
+}

@@ -1,0 +1,29 @@
+{
+  "scene_description_raw": "{\"scene\":\"晴朗天气下的城市建筑群，仰视视角拍摄\",\"subject\":\"一座高耸的玻璃幕墙摩天大楼\",\"visible_features\":[\"玻璃幕墙、流线型顶部、垂直线条装饰\"],\"background\":[\"多栋不同风格的现代高层建筑、蓝天\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "scene_description": "晴朗天气下的城市建筑群，仰视视角拍摄\n一座高耸的玻璃幕墙摩天大楼\n玻璃幕墙、流线型顶部、垂直线条装饰\n【背景辅助证据；不能单独证明主体身份】\n多栋不同风格的现代高层建筑、蓝天",
+  "scene_evidence_version": "hybrid_v3",
+  "structured_scene": {
+    "scene": "晴朗天气下的城市建筑群，仰视视角拍摄",
+    "subject": "一座高耸的玻璃幕墙摩天大楼",
+    "visible_features": [
+      "玻璃幕墙、流线型顶部、垂直线条装饰"
+    ],
+    "background": [
+      "多栋不同风格的现代高层建筑、蓝天"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "not_needed",
+    "calls": 0,
+    "items": []
+  },
+  "retrieval_scene_text": "1.【场景描述】：晴朗白天，北京CBD现代都市景观，画面主体为高耸的摩天大楼群。\n2.【文化视觉元素】：中国尊（北京中信大厦）、北京CBD（中央商务区）。\n晴朗天气下的城市建筑群，仰视视角拍摄\n一座高耸的玻璃幕墙摩天大楼\n玻璃幕墙、流线型顶部、垂直线条装饰\n【背景辅助证据；不能单独证明主体身份】\n多栋不同风格的现代高层建筑、蓝天",
+  "hypothesis_provenance": {
+    "source": "cached_legacy_pass1",
+    "text": "1.【场景描述】：晴朗白天，北京CBD现代都市景观，画面主体为高耸的摩天大楼群。\n2.【文化视觉元素】：中国尊（北京中信大厦）、北京CBD（中央商务区）。",
+    "use": "retrieval_only_not_identity_evidence"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "frozen_inputs_checked": 135,
+  "changed_inputs": [],
+  "inherited_success_count": 18,
+  "rerun_ids": [
+    "cbd1",
+    "中关村1号"
+  ],
+  "logged_logical_api_calls_all_attempts": 52,
+  "logged_failed_logical_api_calls": 12,
+  "successful_prediction_path_calls": 37,
+  "cost_note": "Logical SDK calls only, not internal HTTP retries, tokens or currency; interrupted in-flight requests may be absent. Cached A/B extraction costs excluded.",
+  "remaining_errors": [
+    {
+      "video_id": "京剧青衣",
+      "stage": "retrieval_miss",
+      "candidate_names": [],
+      "pre_verification_correct": true,
+      "final_symbol": "unknown_symbol"
+    },
+    {
+      "video_id": "北大",
+      "stage": "retrieval_miss",
+      "candidate_names": [
+        "杭州西湖文化景观"
+      ],
+      "pre_verification_correct": false,
+      "final_symbol": "unknown_symbol"
+    }
+  ],
+  "reference_images_used": 0
+}

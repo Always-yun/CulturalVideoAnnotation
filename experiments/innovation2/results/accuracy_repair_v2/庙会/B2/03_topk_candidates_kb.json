@@ -1,0 +1,67 @@
+[
+  {
+    "symbol_id": "BJ_JINGWEI_007",
+    "canonical_name": "北京庙会",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.9220271408557892,
+    "reason": "关键词/别名命中：地坛",
+    "image_score": 0.8441,
+    "text_score": 1.0,
+    "fusion_score": 0.922,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_002",
+    "canonical_name": "平遥古城",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4372415989637375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8745,
+    "text_score": 0.0,
+    "fusion_score": 0.4372,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.42947758734226227,
+    "reason": "图像相似度匹配",
+    "image_score": 0.859,
+    "text_score": 0.0,
+    "fusion_score": 0.4295,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_021",
+    "canonical_name": "泰山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.42800530791282654,
+    "reason": "图像相似度匹配",
+    "image_score": 0.856,
+    "text_score": 0.0,
+    "fusion_score": 0.428,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_015",
+    "canonical_name": "颐和园",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4253847002983093,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8508,
+    "text_score": 0.0,
+    "fusion_score": 0.4254,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  }
+]

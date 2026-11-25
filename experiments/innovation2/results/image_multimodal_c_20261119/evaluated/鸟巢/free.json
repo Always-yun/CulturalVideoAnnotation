@@ -1,0 +1,53 @@
+{
+  "video_id": "鸟巢",
+  "mode": "free",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "鸟巢"
+  ],
+  "reference_ids": [
+    "BJ_INNOV_004"
+  ],
+  "predicted_names": [
+    "国家体育场",
+    "国家游泳中心"
+  ],
+  "predicted_ids": [
+    "BJ_INNOV_004",
+    "BJ_INNOV_005"
+  ],
+  "main_correct": true,
+  "strict_correct": false,
+  "reference_extra_entities": [
+    "BJ_INNOV_005"
+  ],
+  "tp": 1,
+  "fp": 1,
+  "fn": 0,
+  "predicted_categories": [
+    "TECH"
+  ],
+  "reference_categories": [
+    "TECH"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": null,
+  "candidate_ids": [],
+  "raw_reply": "【EMCAST 视频标注结果】\n\n【E｜场景环境层】：视频构建了一个奥林匹克公园的物理环境。此时处于晴朗白天状态。整体场景呈现出开阔明亮的感官基调。\n\n【M｜主体行为层】：视觉焦点包含承载主体：国家体育场（鸟巢）、国家游泳中心（水立方）\n    承载主体外观：国家体育场（鸟巢）呈现出独特的钢结构网格曲面形态，外立面材质主要为金属钢架；国家游泳中心（水立方）呈现出蓝色气泡状矩形矩阵形态，外立面材质主要为ETFE膜结构。\n\n【C｜文化维度层】：该场景隶属于科技与创新文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为国家体育场（鸟巢）、国家游泳中心（水立方）。\n价值指向：作为2008年北京奥运会的标志性建筑，鸟巢与水立方不仅代表了现代建筑科技与创新的巅峰，也象征着中国对国际体育盛事的承办能力与开放姿态，是现代中国科技实力与文化自信的重要象征。\n\n【A｜视听语言层】\n    镜头语法：镜头为运动机位。运镜采用平移（左），状态稳定，节奏慢，以全景为主，景深深，视觉重心位于画面中央偏右的国家体育场（鸟巢）。\n    播放速度效果：正常速度\n    构图遵循三分法，光影特征呈现为自然漫射光，视觉色彩倾向于高饱和。\n\n【S｜整体叙事层】：视频以鸟巢为核心视觉焦点，通过缓慢的平移镜头，依次展现其独特的钢结构外观、周边的绿化景观以及左侧的水立方，构建了一个从中心到周边的视觉叙事流程，展现了奥林匹克公园的整体风貌与建筑间的空间关系。\n\n【T｜技术属性层】\n分辨率：1920x1080；实际帧率：29.96 FPS；标称帧率：30.0 FPS；画幅：16:9；动态范围：SDR；色彩空间/像素格式：yuv420p；采样方式：4:2:0；编码格式：h264；码率：13141553；视频时长：10.512s。\n",
+  "c_layer_natural_language": "：该场景隶属于科技与创新文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为国家体育场（鸟巢）、国家游泳中心（水立方）。\n价值指向：作为2008年北京奥运会的标志性建筑，鸟巢与水立方不仅代表了现代建筑科技与创新的巅峰，也象征着中国对国际体育盛事的承办能力与开放姿态，是现代中国科技实力与文化自信的重要象征。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/four_method_accuracy_20261119/results.json",
+  "attempts": [],
+  "raw_available": true,
+  "full_c_available": true,
+  "original_trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/traces/鸟巢/free/trace.json",
+  "historical_model_config_path": "experiments/innovation2/results/four_method_accuracy_20261119/model_config.json"
+}

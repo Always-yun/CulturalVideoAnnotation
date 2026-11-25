@@ -1,0 +1,21 @@
+{
+  "video_id": "人民大会堂1",
+  "gt_symbols": [
+    "人民大会堂"
+  ],
+  "gt_symbol_ids": [],
+  "gt_dimension_code": "ANCIENT",
+  "kb_coverage": false,
+  "mode": "free",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为人民大会堂。",
+  "pred_dimension": "红色文化",
+  "unknown_symbol": false,
+  "symbol_correct": true,
+  "dimension_correct": false,
+  "topk_candidates": [],
+  "recall_at_5": null,
+  "seconds": 84.92,
+  "error_type": "",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/人民大会堂1/free/trace.json"
+}

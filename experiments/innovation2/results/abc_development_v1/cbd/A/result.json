@@ -1,0 +1,19 @@
+{
+  "video_id": "cbd",
+  "sample_type": "known",
+  "gt_ids": [
+    "BJ_FASHION_003"
+  ],
+  "pred_ids": [
+    "BJ_FASHION_003"
+  ],
+  "rejected": false,
+  "correct": true,
+  "recall1": true,
+  "recall5": true,
+  "reciprocal_rank": 1.0,
+  "error_type": "correct",
+  "group": "A",
+  "api_calls": 2,
+  "seconds": 112.72
+}

@@ -1,0 +1,39 @@
+{
+  "scene_description_raw": "{\"scene\":\"晴朗天气下的城市广场，有喷泉、现代建筑和行人\",\"subject\":\"喷泉喷水，行人活动\",\"visible_features\":[\"大型喷泉，喷泉池水面反光，白色立体文字\\\"中关村1号\\\"，红色数字\\\"1\\\"，玻璃幕墙建筑，拉卡拉标志，电子屏幕，路灯，绿树\"],\"background\":[\"蓝天白云，多栋现代高层建筑\"],\"readable_text\":[{\"text\":\"中关村1号\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.165,0.66,0.45,0.75]}],\"uncertain_entities\":[]}",
+  "scene_description": "晴朗天气下的城市广场，有喷泉、现代建筑和行人\n喷泉喷水，行人活动\n大型喷泉，喷泉池水面反光，白色立体文字\"中关村1号\"，红色数字\"1\"，玻璃幕墙建筑，拉卡拉标志，电子屏幕，路灯，绿树\n可读文字：中关村1号",
+  "structured_scene": {
+    "scene": "晴朗天气下的城市广场，有喷泉、现代建筑和行人",
+    "subject": "喷泉喷水，行人活动",
+    "visible_features": [
+      "大型喷泉，喷泉池水面反光，白色立体文字\"中关村1号\"，红色数字\"1\"，玻璃幕墙建筑，拉卡拉标志，电子屏幕，路灯，绿树"
+    ],
+    "background": [
+      "蓝天白云，多栋现代高层建筑"
+    ],
+    "readable_text": [
+      {
+        "text": "中关村1号",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.165,
+          0.66,
+          0.45,
+          0.75
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

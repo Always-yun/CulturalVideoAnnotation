@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T17:03:36.843989+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于科技与创新文化、现代城市与国际文化。\n核心符号：鸟巢\n价值指向：画面中可见具有标志性编织式钢结构外观的大型体育场，其视觉特征与“鸟巢”（国家体育场）的典型形象高度吻合，该建筑是2008年北京奥运会主场馆，也是2022年北京冬奥会开闭幕式场地，是建筑科技创新的代表，体现了现代城市与国际文化中的大型体育场馆文化。</think>",
+  "response_model": "glm-4v",
+  "response_id": "20261119170337ecab7b6fd58149f8",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73331, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=96, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73427)",
+  "seconds": 56.42133402824402
+}

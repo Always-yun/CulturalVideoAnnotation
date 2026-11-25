@@ -1,0 +1,17 @@
+...............................................
+----------------------------------------------------------------------
+Ran 47 tests in 0.166s
+
+OK
+    [拒识门控] confident：test
+    [约束执行] 输出符号不在候选闭集内 → 改写 unknown_symbol
+    [拒识门控] insufficient：test
+    [约束执行] 输出符号不在候选闭集内 → 改写 unknown_symbol
+    [拒识门控] confident：test
+    [拒识门控] confident：test
+    [拒识门控] confident：test
+--- 知识库参考 embedding 预计算完成: 0 个符号 (维度=torch.Size([0, 0])) ---
+    [拒识门控] confident：test
+    [拒识门控] confident：test
+    [拒识门控] confident：test
+    [拒识门控] confident：test

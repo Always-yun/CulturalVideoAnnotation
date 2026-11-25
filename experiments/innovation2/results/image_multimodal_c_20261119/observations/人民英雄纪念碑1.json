@@ -1,0 +1,39 @@
+{
+  "scene_description_raw": "{\"scene\":\"室外开阔广场，天空多云转晴，光线明亮\",\"subject\":\"一座高大的石碑矗立在广场中央，前方有台阶和围栏\",\"visible_features\":[\"石碑主体为浅色石材，碑身有金色文字，底部有浮雕装饰，前方有宽阔的台阶和浅色围栏，地面为浅色石板铺成\"],\"background\":[\"广场两侧有建筑，左侧有绿色遮阳伞和岗亭，右侧有带红色圆顶的建筑，远处有树木\"],\"readable_text\":[{\"text\":\"禁止入内\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.485,0.839,0.515,0.895]}],\"uncertain_entities\":[]}",
+  "scene_description": "室外开阔广场，天空多云转晴，光线明亮\n一座高大的石碑矗立在广场中央，前方有台阶和围栏\n石碑主体为浅色石材，碑身有金色文字，底部有浮雕装饰，前方有宽阔的台阶和浅色围栏，地面为浅色石板铺成\n可读文字：禁止入内",
+  "structured_scene": {
+    "scene": "室外开阔广场，天空多云转晴，光线明亮",
+    "subject": "一座高大的石碑矗立在广场中央，前方有台阶和围栏",
+    "visible_features": [
+      "石碑主体为浅色石材，碑身有金色文字，底部有浮雕装饰，前方有宽阔的台阶和浅色围栏，地面为浅色石板铺成"
+    ],
+    "background": [
+      "广场两侧有建筑，左侧有绿色遮阳伞和岗亭，右侧有带红色圆顶的建筑，远处有树木"
+    ],
+    "readable_text": [
+      {
+        "text": "禁止入内",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.485,
+          0.839,
+          0.515,
+          0.895
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

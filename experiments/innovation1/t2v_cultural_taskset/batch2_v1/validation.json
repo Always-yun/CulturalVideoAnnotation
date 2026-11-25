@@ -1,0 +1,9 @@
+{
+  "tasks": 5,
+  "prompts": 20,
+  "facts": 20,
+  "unique_fact_ids": 20,
+  "existing_files_unchanged": true,
+  "preexisting_file_count": 27,
+  "json_roundtrip": true
+}

@@ -1,0 +1,51 @@
+{
+  "video_id": "中关村1号",
+  "mode": "free",
+  "status": "completed",
+  "outcome": "wrong_identity",
+  "reference_names": [
+    "中关村壹号"
+  ],
+  "reference_ids": [
+    "CN2_TECH_008"
+  ],
+  "predicted_names": [
+    "中关村1号建筑群"
+  ],
+  "predicted_ids": [
+    "UNRESOLVED:中关村1号建筑群"
+  ],
+  "main_correct": false,
+  "strict_correct": false,
+  "reference_extra_entities": [
+    "UNRESOLVED:中关村1号建筑群"
+  ],
+  "tp": 0,
+  "fp": 1,
+  "fn": 1,
+  "predicted_categories": [
+    "TECH"
+  ],
+  "reference_categories": [
+    "TECH"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": null,
+  "candidate_ids": [],
+  "raw_reply": "【EMCAST 视频标注结果】\n\n【E｜场景环境层】：视频构建了一个城市商业广场的物理环境。此时处于晴朗白天状态。整体场景呈现出开阔明亮的感官基调。\n\n【M｜主体行为层】：视觉焦点包含承载主体：中关村1号建筑群\n    承载主体外观：左侧主楼呈现出矩形矩阵形态，外立面材质主要为玻璃幕墙与金属铝板；右侧副楼呈现出矩形矩阵形态，外立面材质主要为玻璃幕墙；中间连接体呈现出矩形形态，外立面材质主要为玻璃幕墙；前方商业裙楼呈现出矩形形态，外立面材质主要为玻璃幕墙。\n    文字符号：[\"中关村1号\"]\n\n【C｜文化维度层】：该场景隶属于科技与创新文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为中关村1号建筑群。\n价值指向：中关村作为中国的“硅谷”，是科技创新与高科技产业的核心象征，代表着中国科技发展的前沿与活力。\n\n【A｜视听语言层】\n    镜头语法：镜头为固定机位。状态稳定，节奏慢，以全景为主，景深深，视觉重心位于前景喷泉与“中关村1号”标识。\n    播放速度效果：延时摄影\n    构图遵循三分法，光影特征呈现为自然漫射光，视觉色彩倾向于冷调。\n\n【S｜整体叙事层】：视频以固定机位拍摄，通过延时摄影手法，记录了中关村1号商业广场上喷泉从静止到喷涌再到静止的循环过程。画面中，现代玻璃幕墙建筑群作为背景，与前景的喷泉和“中关村1号”标识共同构成了一幅充满科技感的都市景观。喷泉的动态变化与建筑的静态形成对比，突显了现代商业空间的活力与秩序感。\n\n【T｜技术属性层】\n分辨率：3840x2160；实际帧率：25.0 FPS；标称帧率：25.0 FPS；画幅：16:9；动态范围：SDR；色彩空间/像素格式：yuv420p10le；采样方式：4:2:0；编码格式：hevc；码率：73126362；视频时长：9.986563s。\n",
+  "c_layer_natural_language": "：该场景隶属于科技与创新文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为中关村1号建筑群。\n价值指向：中关村作为中国的“硅谷”，是科技创新与高科技产业的核心象征，代表着中国科技发展的前沿与活力。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/four_method_accuracy_20261119/results.json",
+  "attempts": [],
+  "raw_available": true,
+  "full_c_available": true,
+  "original_trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/1/traces/中关村1号/free/trace.json",
+  "historical_model_config_path": "experiments/innovation2/results/four_method_accuracy_20261119/model_config.json"
+}

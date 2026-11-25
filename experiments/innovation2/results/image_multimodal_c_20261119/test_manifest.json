@@ -1,0 +1,1291 @@
+{
+  "items": [
+    {
+      "video_id": "cbd",
+      "video_path": "experiments/innovation2/data/videos/cbd.mp4",
+      "gt_symbols": [
+        "CBD"
+      ],
+      "gt_symbol_ids": [
+        "BJ_FASHION_003"
+      ],
+      "gt_dimension_code": "MODERN",
+      "video_sha256": "2832a23785199cee0b6f9f4f54437b392ee6b0a876ab223ee8f69e9a8b96265c",
+      "frame_count": 302,
+      "fps": 59.93565475805931,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/cbd/0.jpg",
+          "sha256": "c6152815893332e3798cf1f250d47cb15c9e7abdf1f28d7aaf2cc265028f5950",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/cbd/1.jpg",
+          "sha256": "11af41835c6169bb66ed02e0d91cc28fff9a288e4d7fb0075b1a483fe9413bd7",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.25125
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/cbd/2.jpg",
+          "sha256": "c175dfebd55ab4d0609c301abebabf766396348f8cf74d190b527a61e3ac6874",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.5025
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/cbd/3.jpg",
+          "sha256": "995292fb8cfd2fa05cbf1e482f9d15cf67243d9a4b26a042c1ba9a4ec5b0793e",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 3.75375
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "cbd1",
+      "video_path": "experiments/innovation2/data/videos/cbd1.mp4",
+      "gt_symbols": [
+        "CBD"
+      ],
+      "gt_symbol_ids": [
+        "BJ_FASHION_003"
+      ],
+      "gt_dimension_code": "MODERN",
+      "video_sha256": "f2f162e6b8fffc9ffd02db64a250d56385a3713b60b8e2f819bcb61f956f4797",
+      "frame_count": 301,
+      "fps": 59.82376460541128,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/cbd1/0.jpg",
+          "sha256": "a6536dffebb2620f8ca21cc3faecb91a9ed98a23896bef27739080b2e35c1099",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/cbd1/1.jpg",
+          "sha256": "e4c120ea763d69729a8d6813ba94587439dfeef8e95d9a73eeff183811e3ca1f",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.22875
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/cbd1/2.jpg",
+          "sha256": "256c3f0075f549ea11d6bebe5995d450be9912c663fe9be73264de332bca9c7f",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.4575
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/cbd1/3.jpg",
+          "sha256": "938dac6debe18fa2ef637c743f468aef3b344dba7ec52650c2d5ae5dd1a2f6c8",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 3.6862500000000002
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "cbd2",
+      "video_path": "experiments/innovation2/data/videos/cbd2.mp4",
+      "gt_symbols": [
+        "CBD"
+      ],
+      "gt_symbol_ids": [
+        "BJ_FASHION_003"
+      ],
+      "gt_dimension_code": "MODERN",
+      "video_sha256": "a892bfed30c69c96eb87d8e16c7bab001f12bb0299bccf5271b5d38d74b141d0",
+      "frame_count": 157,
+      "fps": 25.0,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/cbd2/0.jpg",
+          "sha256": "306f6bec8f4286a8425d9ebfe7d4edcfd6eb9242819e066ad5ecd870c555f6a3",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/cbd2/1.jpg",
+          "sha256": "17ab11680590dd6c0b2244d3b7483d7adbcc1aefea492d850af846615c4db3d2",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.56
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/cbd2/2.jpg",
+          "sha256": "b2249620475f7142e9193b492347c2f7a66916c97865fa9f1a8d60b2d3958cbe",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 3.12
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/cbd2/3.jpg",
+          "sha256": "8aa005dae3690dd5cf7fb303190c7638203410a917d008cc2f7eb043dd9519b3",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 4.68
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "cbd3",
+      "video_path": "experiments/innovation2/data/videos/cbd3.mp4",
+      "gt_symbols": [
+        "CBD"
+      ],
+      "gt_symbol_ids": [
+        "BJ_FASHION_003"
+      ],
+      "gt_dimension_code": "MODERN",
+      "video_sha256": "4407d58c377910304123cbd27c39c701234586e95332ce75e4d93247ced9ea52",
+      "frame_count": 263,
+      "fps": 24.90530303030303,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/cbd3/0.jpg",
+          "sha256": "ca467ae2d20600704b29858472628e70cf6ec7cb5def93e8f5d9ec9ac160b371",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/cbd3/1.jpg",
+          "sha256": "f4f715903135091b468bf08f443b6a0958901dc33409cea00ef7ffd92b7b2fe0",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.54
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/cbd3/2.jpg",
+          "sha256": "989fedf10ca5bfa3c65e5ca302ef70c98e2eefafe5aa520b8184d4373f66b76d",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 5.08
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/cbd3/3.jpg",
+          "sha256": "d8950d09f80395cbf592407940e7715df313c2409177265f761f62663f0c5073",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 7.62
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "中关村1号",
+      "video_path": "experiments/innovation2/data/videos/中关村1号.mp4",
+      "gt_symbols": [
+        "中关村壹号"
+      ],
+      "gt_symbol_ids": [
+        "CN2_TECH_008"
+      ],
+      "gt_dimension_code": "TECH",
+      "video_sha256": "3adfb5c620ac64e0d4ca4f3982f555786db619075ce284e65698768e0895ec55",
+      "frame_count": 266,
+      "fps": 25.0,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/中关村1号/0.jpg",
+          "sha256": "cc1d901271889d11bf7e75fd30618e6567ef09280b11f743b2f701e7a106df32",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/中关村1号/1.jpg",
+          "sha256": "84566310dc051d34e1af2cdf5bec6294f9dde4b3363778d68f4f42b5a12df913",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.49664075
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/中关村1号/2.jpg",
+          "sha256": "f1eb6cbacd71847f0c9a0cf83d5d433238ca44840fdaa42125deaf3e24743918",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 4.9932815
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/中关村1号/3.jpg",
+          "sha256": "b13a4b394212020d76094e3817ed0772936cd9d45c99e1f7b38239e9e580cde5",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 7.48992225
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "中关村国际创新中心",
+      "video_path": "experiments/innovation2/data/videos/中关村国际创新中心.mp4",
+      "gt_symbols": [
+        "中关村国际创新中心"
+      ],
+      "gt_symbol_ids": [
+        "CN2_TECH_006"
+      ],
+      "gt_dimension_code": "TECH",
+      "video_sha256": "9d472ca67881dcc5dc0eb3bd3a28e5bf8ba060bac0c0b1903ef570d8f17fcc17",
+      "frame_count": 338,
+      "fps": 25.0,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/中关村国际创新中心/0.jpg",
+          "sha256": "acc3adddbe68f4fe68d580ba2ba4e42fc237cf1b1202426804f737f67b4a8bc7",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/中关村国际创新中心/1.jpg",
+          "sha256": "fd1a506b1cf4b528973cfd1afd7547cb2f781b7e4f762b62d5c8d3044161a15f",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 3.38
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/中关村国际创新中心/2.jpg",
+          "sha256": "41e89054fc8c2723cb461eddcb7aec784346dea275ddf0579b886e3b426c2b59",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 6.76
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/中关村国际创新中心/3.jpg",
+          "sha256": "09b586e5c47fb53ed20951b80c73afcd32b07012fb97894223f66cfae8017c67",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 10.14
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "文件名（v2 KB 新增 CN2_TECH_006）",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "中关村展示中心",
+      "video_path": "experiments/innovation2/data/videos/中关村展示中心.mp4",
+      "gt_symbols": [
+        "中关村国家自主创新示范区展示中心"
+      ],
+      "gt_symbol_ids": [
+        "CN2_TECH_005"
+      ],
+      "gt_dimension_code": "TECH",
+      "video_sha256": "a8f68d475ec7ab372d3368439826c623144577efa140ceeddfc9012772ab21c4",
+      "frame_count": 170,
+      "fps": 25.0,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/中关村展示中心/0.jpg",
+          "sha256": "8eef2c87fe48adee43a27f5b29870822bb52de92b08a02cb7caad065bd979833",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/中关村展示中心/1.jpg",
+          "sha256": "4fa3ed81289bd4375b55431ff9643702e509ffb8ccc255dbda345b72888645b0",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.7
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/中关村展示中心/2.jpg",
+          "sha256": "f682fb847dfeb681f382dbc5f5c0ffd9270946a69860b6fa431a21d93f51fb8d",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 3.4
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/中关村展示中心/3.jpg",
+          "sha256": "d7df0eec67b295f2084269f05cd5a1a36c4cdcfa1e4be620eb1186ee972dd6ae",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 5.1
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "文件名（v2 KB 新增 CN2_TECH_005）",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "京剧青衣",
+      "video_path": "experiments/innovation2/data/videos/京剧青衣.mp4",
+      "gt_symbols": [
+        "京剧"
+      ],
+      "gt_symbol_ids": [
+        "BJ_JINGWEI_003"
+      ],
+      "gt_dimension_code": "FOLK",
+      "video_sha256": "fde6a5d8bcba5b0182c57cac6fb4306e39c31a01d52f3a3a4435e0d0925061e2",
+      "frame_count": 302,
+      "fps": 25.0,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/京剧青衣/0.jpg",
+          "sha256": "ac04739c92ea46b4f43d5137f1631dee8dbed2b5e39cb2ede190c592d857c81d",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/京剧青衣/1.jpg",
+          "sha256": "6e863ce340869e9c249f0b2a4676aabb38fefb2f94197bef5868e48529575328",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 3.02
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/京剧青衣/2.jpg",
+          "sha256": "0da171803373f3135db3255a116807fcd6dae35bfc24138231994bb7c8418639",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 6.04
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/京剧青衣/3.jpg",
+          "sha256": "d9dc30440dc3574ef5d86fe87b5788b7bf70f8ff5bb056ef4eb48ec47243e0e8",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 9.06
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "人民大会堂",
+      "video_path": "experiments/innovation2/data/videos/人民大会堂.mp4",
+      "gt_symbols": [
+        "人民大会堂"
+      ],
+      "gt_symbol_ids": [],
+      "gt_dimension_code": "ANCIENT",
+      "video_sha256": "9334d54fdbe47ddb35748eb43cbd02b5df4ab997de39e3eef280e6b7bc6f7a85",
+      "frame_count": 243,
+      "fps": 30.0,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/人民大会堂/0.jpg",
+          "sha256": "fbc1f19e41a57cfe725ef5bbbcad4cf963958c6ae0efbb0e8de91a1ce4882140",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/人民大会堂/1.jpg",
+          "sha256": "45c82bda69158d62263aea8315b7cd2230f85e0d040b9a8bd31eb3bbf695c1c5",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.026
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/人民大会堂/2.jpg",
+          "sha256": "6d335b8d106a9db918e3ac3221025c10ff2afe2dc3c5e952a034e6db729b72ef",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 4.052
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/人民大会堂/3.jpg",
+          "sha256": "2b3d8aafe0b32ba3c589f3633092c0edc9de083dc1a264f92b9d23993be162c2",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 6.077999999999999
+        }
+      ],
+      "kb_coverage": false,
+      "gt_source": "文件名（KB 未收录，需确认）",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "人民大会堂1",
+      "video_path": "experiments/innovation2/data/videos/人民大会堂1.mp4",
+      "gt_symbols": [
+        "人民大会堂"
+      ],
+      "gt_symbol_ids": [],
+      "gt_dimension_code": "ANCIENT",
+      "video_sha256": "2f46e9cdc5ae4eff3727a8296628cfc8ee0797e17bb581d53569aa8b31d4dd7a",
+      "frame_count": 265,
+      "fps": 30.0,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/人民大会堂1/0.jpg",
+          "sha256": "6d7acd49f505d839cc94cd4a0475b651cf32366867e3478789aa35566aec2bfd",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/人民大会堂1/1.jpg",
+          "sha256": "c2e7bf326fdb74365df630f98435983f19f744e97c4df19907f58877371ec76e",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.04175
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/人民大会堂1/2.jpg",
+          "sha256": "cb038dc3cba387b7b9db6df3dcf6e618224ebcb2b665d729476f086d3e1e0ea3",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 4.0835
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/人民大会堂1/3.jpg",
+          "sha256": "3d83e41a311e99abab17135617b14c8290da0bf3e1b228d0445d73a3d16577c5",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 6.125249999999999
+        }
+      ],
+      "kb_coverage": false,
+      "gt_source": "文件名（KB 未收录，需确认）",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "人民英雄纪念碑",
+      "video_path": "experiments/innovation2/data/videos/人民英雄纪念碑.mp4",
+      "gt_symbols": [
+        "人民英雄纪念碑"
+      ],
+      "gt_symbol_ids": [
+        "BJ_RED_003"
+      ],
+      "gt_dimension_code": "RED",
+      "video_sha256": "3e7e4ba38caeec6e6124c1247b4d3fb9efadf4ef1da640e18c3cc734637e7085",
+      "frame_count": 160,
+      "fps": 25.0,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/人民英雄纪念碑/0.jpg",
+          "sha256": "3fb82320e2e8b1efe8d3f1f23e6fefc8fa98a3495e3bc1add2a0763b51b484ac",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/人民英雄纪念碑/1.jpg",
+          "sha256": "be15120c74dfe734d91bf1dc791f2f14315d4dbab453b35be413a1e8ac0d55f9",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.6
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/人民英雄纪念碑/2.jpg",
+          "sha256": "48433f163ad43975ea06d5a3b9c7eb534b095e43a099b904ce48d663946d86bc",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 3.2
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/人民英雄纪念碑/3.jpg",
+          "sha256": "496c86c1a6088bc77151af98569d0f76fc1ff0d7f17effea5c95c7d4f443734e",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 4.800000000000001
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "人民英雄纪念碑1",
+      "video_path": "experiments/innovation2/data/videos/人民英雄纪念碑1.mp4",
+      "gt_symbols": [
+        "人民英雄纪念碑"
+      ],
+      "gt_symbol_ids": [
+        "BJ_RED_003"
+      ],
+      "gt_dimension_code": "RED",
+      "video_sha256": "209c5917850445f0af6e7af1af1817a1048c4c5aed1a5780ac168b3ef4182460",
+      "frame_count": 168,
+      "fps": 25.0,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/人民英雄纪念碑1/0.jpg",
+          "sha256": "d1cbea8d295176af346adf175f575a45d9e126652c607e68ccadfbdd2adf2001",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/人民英雄纪念碑1/1.jpg",
+          "sha256": "3db0d55bcaaff291004140874b5a07b05e41812230ed5ab7b86ba3aedfc136f2",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.68
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/人民英雄纪念碑1/2.jpg",
+          "sha256": "a70ec0af2a77018ed2ef04cd868eb7e5a0530f253b4d5c363b3d58e0ac959e6f",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 3.36
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/人民英雄纪念碑1/3.jpg",
+          "sha256": "b0a16f36c639407cfdc5df0801e8b6d4eeb87580227626e63360f3e506bad3a7",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 5.04
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "兔爷",
+      "video_path": "experiments/innovation2/data/videos/兔爷.mp4",
+      "gt_symbols": [
+        "兔儿爷"
+      ],
+      "gt_symbol_ids": [
+        "BJ_JINGWEI_004"
+      ],
+      "gt_dimension_code": "FOLK",
+      "video_sha256": "19850a170c96c097d4e7db43d9df6c3dc73758700e75f30df9fa38b9e6453a75",
+      "frame_count": 156,
+      "fps": 29.817582338816614,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/兔爷/0.jpg",
+          "sha256": "e4446184c9151875ae0c4d5261b469960d33b90ca4320d49fcde75870a4c8f10",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/兔爷/1.jpg",
+          "sha256": "c184f99ac5f787172dacb5a2afe6d085ca7bb2245fba6c17cf4e0322acc5b02c",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.72225
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/兔爷/2.jpg",
+          "sha256": "a27af1c9bfffb1cc3552e8f84f94f658da06744e417e669ba9b2c384aeb1f85e",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.4445
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/兔爷/3.jpg",
+          "sha256": "50280aae411ac43891984ea51400fd0d3e66d7f4699e07a07f0e4da0264a15a4",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.16675
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "北大",
+      "video_path": "experiments/innovation2/data/videos/北大.mp4",
+      "gt_symbols": [
+        "北京大学"
+      ],
+      "gt_symbol_ids": [
+        "BJ_INNOV_006"
+      ],
+      "gt_dimension_code": "TECH",
+      "video_sha256": "ca74932160479e402a1606dccab802389e1b27e9c645815ed53281e14ec62a77",
+      "frame_count": 208,
+      "fps": 25.0,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/北大/0.jpg",
+          "sha256": "0b669b89651217de61a383179a1be3fa28592a3dd96aa7a83f728dc552e18c39",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/北大/1.jpg",
+          "sha256": "776f173bd0b81719edd2a969383dd8141a88166136048e0b4c6d32a704bd499b",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.04025
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/北大/2.jpg",
+          "sha256": "4182c1009edb530e61cb1249e960230e7a26beed9e60b3554e4b7f1e6ea35d47",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 4.0805
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/北大/3.jpg",
+          "sha256": "0f0889ab98a74f228717e2f813566a9318e4df12c9daf165180fcc6f58d86415",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 6.120749999999999
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "北大1",
+      "video_path": "experiments/innovation2/data/videos/北大1.mp4",
+      "gt_symbols": [
+        "北京大学"
+      ],
+      "gt_symbol_ids": [
+        "BJ_INNOV_006"
+      ],
+      "gt_dimension_code": "TECH",
+      "video_sha256": "fc9fa337706d3af80540a5fd50e126c1b6c86bb07e8d9cc0aabbfdcc3b5df9b5",
+      "frame_count": 107,
+      "fps": 11.48068669527897,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/北大1/0.jpg",
+          "sha256": "54d48397ef31a676dc2b0f7ca605a8f023bd843299964176087699bd7c31eabf",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/北大1/1.jpg",
+          "sha256": "19f56474f048c1a3a89606788402f31799fa41eedee8289b4f113b7ee0522b47",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.36
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/北大1/2.jpg",
+          "sha256": "a32ddad90e77b9930e6702107e1936ca14d8d377f775bfe5d3d25fe902f1fdbe",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 4.72
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/北大1/3.jpg",
+          "sha256": "7c66bb9acc8ff09f4e4d453b731c5b9634937e5afac03469db8d5e074558503c",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 7.08
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "国博",
+      "video_path": "experiments/innovation2/data/videos/国博.mp4",
+      "gt_symbols": [
+        "中国国家博物馆"
+      ],
+      "gt_symbol_ids": [
+        "BJ_RED_006"
+      ],
+      "gt_dimension_code": "RED",
+      "video_sha256": "d9c91e307d5ea39379645b8f227a3dd92794a10cbf6f22f79722cd899d70cd3d",
+      "frame_count": 211,
+      "fps": 30.0,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/国博/0.jpg",
+          "sha256": "522c0f79ca4ce05f7691694f139322e52db3090c7db96cd5da1a70b347ebb6ce",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/国博/1.jpg",
+          "sha256": "817c76833c6febb1405598bf10f99aed6c5f064962c7fc32b3d7f92403b1cf07",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.75833325
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/国博/2.jpg",
+          "sha256": "5682c7d55eca87026d0625b3b01e075dc0da0567240184b6e6f5a7a531a75401",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 3.5166665
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/国博/3.jpg",
+          "sha256": "d549e918fd70b260074f690b439f7d6eb1adfcfe484647dd67ad143acca423c5",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 5.27499975
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "文件名（KB 别名 国博 命中 BJ_RED_006）",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "天安门",
+      "video_path": "experiments/innovation2/data/videos/天安门.mp4",
+      "gt_symbols": [
+        "天安门广场"
+      ],
+      "gt_symbol_ids": [
+        "BJ_RED_002"
+      ],
+      "gt_dimension_code": "RED",
+      "video_sha256": "b5375fc399976041fcc5616da9099335bb1d473b9e20f51c8776f11f02d259a7",
+      "frame_count": 206,
+      "fps": 29.97002997002997,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/天安门/0.jpg",
+          "sha256": "a2a624b0d4c793425b518840b92a39fa57c80cbf3731426d1d49963a6c2d6eb7",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/天安门/1.jpg",
+          "sha256": "c641067d4f0bb2b2d3672fa557bc8491e128986fcb8ecd3cf024db0280a69ba1",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.7185
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/天安门/2.jpg",
+          "sha256": "e56e779a858609b40f642871e1e27dd0b57b4b690be730562734631e573ceb36",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 3.437
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/天安门/3.jpg",
+          "sha256": "448749cc2d81666281c9385768cb4b6dbf46c7f2236836592e8b6a70830899b2",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 5.1555
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "文件名（KB 别名 天安门 命中 BJ_RED_002）",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "天安门1",
+      "video_path": "experiments/innovation2/data/videos/天安门1.mp4",
+      "gt_symbols": [
+        "天安门广场"
+      ],
+      "gt_symbol_ids": [
+        "BJ_RED_002"
+      ],
+      "gt_dimension_code": "RED",
+      "video_sha256": "a51e5c3b63e24ea79925b5e2143d082eb4b5755c91983d9be572c5405e678143",
+      "frame_count": 172,
+      "fps": 29.97002997002997,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/天安门1/0.jpg",
+          "sha256": "4b703fd4b132a5619f73319c75a609ec83f8035578edbfb8ae9df82936154585",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/天安门1/1.jpg",
+          "sha256": "2ad69331e6e3be94b3aa447130b0d716786d53eb5494a3ea531c36e0031750a1",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.435
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/天安门1/2.jpg",
+          "sha256": "80da05fe8a0560f2bb8ffc2f8b9843cc73b4e73e266557a704a2023f681d2006",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.87
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/天安门1/3.jpg",
+          "sha256": "4a4afab52347bf41207ffc5ac8f43f3573e83ace66bec948890898f114bc7c49",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 4.305
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "太和殿",
+      "video_path": "experiments/innovation2/data/videos/太和殿.mp4",
+      "gt_symbols": [
+        "太和殿"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_002"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "video_sha256": "8e0735552e1242a962e751d9a85c2a8ce4506f96c1df221e5d32955969abf045",
+      "frame_count": 162,
+      "fps": 25.0,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/太和殿/0.jpg",
+          "sha256": "0a3b08655a7845c97bada90d965110b288bf8ea03ff770b47fcd676c114efbbd",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/太和殿/1.jpg",
+          "sha256": "12e51d579a3605815a25c9dcaa7455cf5e76f499b789482a518d9b34e36b58f2",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.62
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/太和殿/2.jpg",
+          "sha256": "9661ed47cb25b906def9bae97faf3318ace9fd76eac3facb0c2a8dae95de56a1",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 3.24
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/太和殿/3.jpg",
+          "sha256": "56b816c82f3027f1bb571ef4434a39ce578ed8995e2069fa455913b10b3878c6",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 4.86
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "庙会",
+      "video_path": "experiments/innovation2/data/videos/庙会.mp4",
+      "gt_symbols": [
+        "北京庙会"
+      ],
+      "gt_symbol_ids": [
+        "BJ_JINGWEI_007"
+      ],
+      "gt_dimension_code": "FOLK",
+      "video_sha256": "677954ea9bc271de0b4f1ef7a488f0263380de2184138a40fee7e0f8de38a280",
+      "frame_count": 348,
+      "fps": 29.734853541961495,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/庙会/0.jpg",
+          "sha256": "d898d6465ff7868dddd509cf1a26d1111afc573b410533e9cc53849facedb397",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/庙会/1.jpg",
+          "sha256": "cb2cbb793d28cebd1f81a1fe09095ea443fa49bf2e08cea99dca6ac2cd51ca9f",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.6635
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/庙会/2.jpg",
+          "sha256": "d416ca5870a95d99c0c6f2c559bdc31ef36c3c76518e3a0470a2d97ab0378612",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 3.327
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/庙会/3.jpg",
+          "sha256": "622045b73d99d0a69331028f941f05ac7e97c592b464c56f0d84f30ef2040c36",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 4.9905
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "故宫",
+      "video_path": "experiments/innovation2/data/videos/故宫.mp4",
+      "gt_symbols": [
+        "故宫"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_001"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "video_sha256": "17c7c6824aea1d7855c854a80056954dafa96effe9793fe524581109bcadb689",
+      "frame_count": 201,
+      "fps": 25.0,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/故宫/0.jpg",
+          "sha256": "774a873b7447d7543820ca588163ea03ad584d118576cbc0ec148752687d93e1",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/故宫/1.jpg",
+          "sha256": "80fbc0b26ba8948bce87bf5435db57ffbf2dc107d845234c814e390cfd8cddfa",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.01
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/故宫/2.jpg",
+          "sha256": "97e950467771575e6ef894b25451b555ab0fb990182aba9425e30a4270fe449e",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 4.02
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/故宫/3.jpg",
+          "sha256": "1c45a2911c4c94485ff149c429f9fdb7b99cfc02d67773bfd1cae811cbf90b7b",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 6.029999999999999
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "故宫全景",
+      "video_path": "experiments/innovation2/data/videos/故宫全景.mp4",
+      "gt_symbols": [
+        "故宫"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_001"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "video_sha256": "95e08e2f0543b3b803070f6368f3d9818a43388d70c9562fa6312b338ffb2895",
+      "frame_count": 150,
+      "fps": 29.97002997002997,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/故宫全景/0.jpg",
+          "sha256": "22a7ac164a149299f3c27209c0f4e9b9ede6c8259eb691e9e709692e8e6bf7cb",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/故宫全景/1.jpg",
+          "sha256": "58d1cd7fabc7acc7de5bbe1217296390db798a387d885da63e51d814fd4bf047",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.25125
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/故宫全景/2.jpg",
+          "sha256": "ca779e4c7b6ef880ab80e05df8642a50d98a9dc740a8403270e1e845fc97c5df",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.5025
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/故宫全景/3.jpg",
+          "sha256": "45981ccffad4d91503835fadc369e5985c17f789758aa68f4f628f1f2eb064d9",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 3.75375
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "未来科学城",
+      "video_path": "experiments/innovation2/data/videos/未来科学城.mp4",
+      "gt_symbols": [
+        "未来科学城"
+      ],
+      "gt_symbol_ids": [
+        "BJ_INNOV_008"
+      ],
+      "gt_dimension_code": "TECH",
+      "video_sha256": "abb3d1554f656350e4e1c5a1d7d82125c2e7a9e6830d7599bcd1cf4bcb3aa874",
+      "frame_count": 300,
+      "fps": 29.900332225913623,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/未来科学城/0.jpg",
+          "sha256": "4c77225c008fd34886fb4c1f6b0afbcf64cbb26aac8545ee12a5c594a0898575",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/未来科学城/1.jpg",
+          "sha256": "3547bcc7bae92d6e06c6b0e677bde889a1bae9d5801eff8aeb92dee4a1c85d7c",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.425
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/未来科学城/2.jpg",
+          "sha256": "43b92544f35f3fe785dfe68516a7c72ffb94d55e15bb425beebc755dbfa11686",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.85
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/未来科学城/3.jpg",
+          "sha256": "08f545eba3564e23964fcf2fd387445e41eeea22f3d7c0edf29b70dc711cb1cc",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 4.275
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "清华",
+      "video_path": "experiments/innovation2/data/videos/清华.mp4",
+      "gt_symbols": [
+        "清华大学"
+      ],
+      "gt_symbol_ids": [
+        "BJ_INNOV_007"
+      ],
+      "gt_dimension_code": "TECH",
+      "video_sha256": "0ab0c07258f7dbd263aa93a336d6463eed66e7ee964698dfea8846f06f6873ed",
+      "frame_count": 250,
+      "fps": 25.0,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/清华/0.jpg",
+          "sha256": "231ffcea507529003988e735a1975f1aecb221c64c4feab550abf0bc2cd2f657",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/清华/1.jpg",
+          "sha256": "32cf744c0803648c37153562ed06981832d68bd107702761137a8e5af6851300",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.5
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/清华/2.jpg",
+          "sha256": "104d26e2c991d2c8e6e29be4f5f923abda5115473acc1b8eb2ac3635d21a60fa",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 5.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/清华/3.jpg",
+          "sha256": "48461148a226e807cb6a052837b628044862db45338cec8a158ca37af27c1150",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 7.5
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "文件名（KB 别名 清华 命中 BJ_INNOV_007）",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "糖葫芦",
+      "video_path": "experiments/innovation2/data/videos/糖葫芦.mp4",
+      "gt_symbols": [
+        "冰糖葫芦"
+      ],
+      "gt_symbol_ids": [],
+      "gt_dimension_code": "FOLK",
+      "video_sha256": "73882ce99795d8c7ef1b73c9b6944d40203a08bcf0b209b708f882e60c0b0b6c",
+      "frame_count": 285,
+      "fps": 29.87989070250506,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/糖葫芦/0.jpg",
+          "sha256": "33ca2b96d3ef11c4e5892c169fe87ce78a58fa09fc323410867f9ba9dbc366a9",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/糖葫芦/1.jpg",
+          "sha256": "5c4f81516d4a2bcf75769ecb92e23d8dadd62f359294062b7f3f99253a7b3225",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.57125
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/糖葫芦/2.jpg",
+          "sha256": "30ec28c6abddc0f9283702818e252ebb2a320544e421074535df7c56a9c7ff36",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 3.1425
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/糖葫芦/3.jpg",
+          "sha256": "b9357389a0310df7f96fe9581ba8a445811baeb6a6f20a0e38609ce571fc77fc",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 4.71375
+        }
+      ],
+      "kb_coverage": false,
+      "gt_source": "文件名（KB 无小吃类符号 → Easy Unknown）",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "胡同",
+      "video_path": "experiments/innovation2/data/videos/胡同.mp4",
+      "gt_symbols": [
+        "胡同"
+      ],
+      "gt_symbol_ids": [
+        "BJ_JINGWEI_001"
+      ],
+      "gt_dimension_code": "FOLK",
+      "video_sha256": "59e9fbdd08eb7cad8f2d8c3542343ac666783dfdcdcdb030a9865d9edc0cbd71",
+      "frame_count": 190,
+      "fps": 24.71725573415941,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/胡同/0.jpg",
+          "sha256": "726972aeede3f9ebb5e5a0828ff8f5f24459ad0e445419643f2989e8a7db7440",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/胡同/1.jpg",
+          "sha256": "4c8318ff7d8b79123257573f614e8a2de57fce480abb617945e5a4899a408898",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.3365
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/胡同/2.jpg",
+          "sha256": "fa4828183665fe58ed2558ebaa6d5ad99903167acaeac2a62edce56e678dac25",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.673
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/胡同/3.jpg",
+          "sha256": "678e5c1159ff603d4eea8450e2136ac7bf991133d5c12a174cf9423193d85723",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 4.0095
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "胡同1",
+      "video_path": "experiments/innovation2/data/videos/胡同1.mp4",
+      "gt_symbols": [
+        "胡同"
+      ],
+      "gt_symbol_ids": [
+        "BJ_JINGWEI_001"
+      ],
+      "gt_dimension_code": "FOLK",
+      "video_sha256": "bcf674283dc51e2a89741abb0b75d86054a90591bdd80c80af46c5767505f400",
+      "frame_count": 245,
+      "fps": 24.913565182021557,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/胡同1/0.jpg",
+          "sha256": "bd4f0e084159e62a9f1d922d8c9a933e0eb95ba68a0fb0c73f7dc717dc2d82ca",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/胡同1/1.jpg",
+          "sha256": "89109eb98ceebcf0fbd751cd1329cebecebb05720fafcf0d73401a0e966c6220",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.73075
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/胡同1/2.jpg",
+          "sha256": "4a902b51f999177904e0fe13c898ea0674d514d795843de4277a877c4f9ca9c2",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 3.4615
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/胡同1/3.jpg",
+          "sha256": "33830a042bdf1a6c74d04d71710dc83849cc8745fad45911f6f228293b32b493",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 5.19225
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "角楼",
+      "video_path": "experiments/innovation2/data/videos/角楼.mp4",
+      "gt_symbols": [
+        "角楼"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_010"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "video_sha256": "8f3b96544198dfedabad506644e547bf9a8737127e00775227fc8a3913df2078",
+      "frame_count": 240,
+      "fps": 30.0,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/角楼/0.jpg",
+          "sha256": "caf7adc042e206dd0a45dbf8a74084022d48a8e0cef41a16c8506633bfd13a06",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/角楼/1.jpg",
+          "sha256": "1e3bce10cef9e7ad71f5cd21764f708408371174b15889180a6d154346e33e69",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.00275
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/角楼/2.jpg",
+          "sha256": "ad1a1391f7159bb4c583b8c15b8e3a5a2d7bad29c8619f631a360657e4ee97d5",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 4.0055
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/角楼/3.jpg",
+          "sha256": "b079bb21cc60a008efe348edfa4873fb6b76a78579a937de22df9906eebf66b9",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 6.008249999999999
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "角楼1",
+      "video_path": "experiments/innovation2/data/videos/角楼1.mp4",
+      "gt_symbols": [
+        "角楼"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_010"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "video_sha256": "0dd665bd0064c690636862e0f0fed1cf9ea5c28830f4e116a58e6d9ddb70784f",
+      "frame_count": 175,
+      "fps": 29.6272051105518,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/角楼1/0.jpg",
+          "sha256": "be7cc945bc8873e4ca2a7c1339ef202e69b4ef1faea64317554a8c697467c176",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/角楼1/1.jpg",
+          "sha256": "3e8a79f6439eac806d7069608d61df459d97d72c7009f2911c687ba90e532672",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 1.45775
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/角楼1/2.jpg",
+          "sha256": "1cc6076e5371597d197b605151bb047e4157ace3bd953edc140a20dcec79eb8b",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.9155
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/角楼1/3.jpg",
+          "sha256": "2281c456e6eb3719176513d3870c2207541d5f62c6c45aedf1188f85b3b588fd",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 4.3732500000000005
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "ablation_per_video + 文件名",
+      "gt_review_status": "frozen"
+    },
+    {
+      "video_id": "鸟巢",
+      "video_path": "experiments/innovation2/data/videos/鸟巢.mp4",
+      "gt_symbols": [
+        "鸟巢"
+      ],
+      "gt_symbol_ids": [
+        "BJ_INNOV_004"
+      ],
+      "gt_dimension_code": "TECH",
+      "video_sha256": "a01b06600a1e9c471326d0a460734c87d0da6bf284fd10a0b3c27a646a6813b7",
+      "frame_count": 315,
+      "fps": 29.963771481653506,
+      "keyframes": [
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/鸟巢/0.jpg",
+          "sha256": "deeb649cbe0edb3dcb7383d688eb83a25e782dcde4e7e53199911a671aab87f4",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 0.0
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/鸟巢/1.jpg",
+          "sha256": "9bdf8124cb3f63dbe6cadc745f969b97f35b3129d8fbb687812b0e8f12e67d9f",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 2.628
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/鸟巢/2.jpg",
+          "sha256": "adb570dc679f15f6f8ff45ab8d998211a39dc96aea5eb384f616c978ff9ea57b",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 5.256
+        },
+        {
+          "path": "experiments/innovation2/results/four_method_accuracy_20261119/keyframes/鸟巢/3.jpg",
+          "sha256": "fba43df3a979fa13c70a67c1f6e0b9e1c70a86c85398ab3f5bec100ac85af650",
+          "decoder": "ffmpeg_presentation_timestamp",
+          "time_seconds": 7.884
+        }
+      ],
+      "kb_coverage": true,
+      "gt_source": "文件名",
+      "gt_review_status": "frozen"
+    }
+  ],
+  "reference_status": "pending independent human confirmation",
+  "source_manifest": "experiments/innovation2/results/four_method_accuracy_20261119/manifest.json",
+  "source_sha256": "75203ec30017ce2b2409488aa51639c3a851ceea0a59fb0d67d9c812f66a5163"
+}

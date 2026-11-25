@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:57:15.435022+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：故宫、太和殿\n价值指向：画面中可见具有典型明清皇家宫殿建筑特征的建筑群，红墙、黄琉璃瓦、重檐庑殿顶、中轴对称布局及汉白玉台基等元素，符合故宫（紫禁城）的建筑风格；画面中央主体建筑为面阔十一间、重檐庑殿顶、黄琉璃瓦、三层汉白玉台基的太和殿，其作为故宫中等级最高的礼制建筑，是明清两代举行重大典礼的场所，这些视觉依据指向古城与历史文化维度。画面未呈现天安门广场的典型特征（如城楼、金水桥、华表等），故不纳入红色文化维度。",
+  "response_model": "glm-4v",
+  "response_id": "2026111916571647356517910d485e",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=72692, prompt_tokens_details=PromptTokensDetails(cached_tokens=65542), completion_tokens=169, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=72861)",
+  "seconds": 65.38459873199463
+}

@@ -1,0 +1,45 @@
+{
+  "status": "completed",
+  "raw_reply": "{\"scene\":\"黄昏时分城市景观，天空呈橙黄色，城市建筑与道路灯光亮起\",\"subject\":\"城市建筑群及道路上的车流\",\"visible_features\":[\"高耸的摩天大楼，蜿蜒的河流，多层立交桥，川流不息的车辆，建筑灯光亮起\"],\"background\":[\"远处的山脉，渐暗的天空\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[\"画面中可见中国尊，可能为北京CBD区域，因建筑特征与布局符合该区域特征\"]}",
+  "parsed": {
+    "scene": "黄昏时分城市景观，天空呈橙黄色，城市建筑与道路灯光亮起",
+    "subject": "城市建筑群及道路上的车流",
+    "visible_features": [
+      "高耸的摩天大楼，蜿蜒的河流，多层立交桥，川流不息的车辆，建筑灯光亮起"
+    ],
+    "background": [
+      "远处的山脉，渐暗的天空"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": [
+      "画面中可见中国尊，可能为北京CBD区域，因建筑特征与布局符合该区域特征"
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:39:02.800556+08:00",
+      "status": "parse_failure",
+      "raw_reply": "{\"scene\":\"黄昏时分城市景观，天空呈橙黄色，城市建筑与道路灯光亮起\",\"subject\":\"城市建筑群及道路上行驶的车辆\",\"visible_features\":[\"高耸的摩天大楼，蜿蜒的河流，多层立交桥，密集的车流，建筑灯光\"]\",\"background\":[\"远处的山脉，渐暗的天空\"]\",\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+      "response_model": "glm-4v",
+      "response_id": "2026111916390374798817a8554c00",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=73752, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=86, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73838)",
+      "error_type": "JSONDecodeError",
+      "error": "Expecting ',' delimiter: line 1 column 120 (char 119)",
+      "seconds": 51.56488823890686
+    },
+    {
+      "attempt": 2,
+      "started_at": "2026-11-19T16:39:56.367233+08:00",
+      "status": "completed",
+      "raw_reply": "{\"scene\":\"黄昏时分城市景观，天空呈橙黄色，城市建筑与道路灯光亮起\",\"subject\":\"城市建筑群及道路上的车流\",\"visible_features\":[\"高耸的摩天大楼，蜿蜒的河流，多层立交桥，川流不息的车辆，建筑灯光亮起\"],\"background\":[\"远处的山脉，渐暗的天空\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[\"画面中可见中国尊，可能为北京CBD区域，因建筑特征与布局符合该区域特征\"]}",
+      "response_model": "glm-4v",
+      "response_id": "20261119163956eda17c766a0047bf",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=73752, prompt_tokens_details=PromptTokensDetails(cached_tokens=73751), completion_tokens=109, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73861)",
+      "seconds": 28.41264057159424
+    }
+  ]
+}

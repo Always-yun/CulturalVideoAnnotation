@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:57:14.788318+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于民族与民俗文化。\n核心符号：北京庙会\n价值指向：画面中可见大量人群聚集，上方悬挂着红色灯笼，背景有红色横幅，人群穿着冬季衣物，整体氛围热闹，符合春节庙会的典型场景特征。这些视觉元素是民族与民俗文化中庙会活动的常见符号，体现了传统节日的热闹氛围和民俗活动。",
+  "response_model": "glm-4v",
+  "response_id": "20261119165714eb71d1b786ca4e32",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=54583, prompt_tokens_details=PromptTokensDetails(cached_tokens=54582), completion_tokens=89, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=54672)",
+  "seconds": 58.890052795410156
+}

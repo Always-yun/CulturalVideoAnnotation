@@ -1,0 +1,25 @@
+{
+  "scope": "assistant inspected one saved frame per selected video; not a complete independent ground-truth review",
+  "examples": [
+    {
+      "video_id": "中关村展示中心",
+      "frame": "keyframes/中关村展示中心/1.jpg",
+      "visible_evidence": "左下建筑可读展示中心及中关村国家自主创新示范区文字，前景为银色曲线低矮建筑",
+      "free_output": "国家会议中心（流线型建筑）",
+      "text_output": "中关村国家自主创新示范区展示中心",
+      "interpretation": "Free外观近邻混淆；Text召回目标后输出符合原参考名称。单帧目视观察可支持错误分析，不替代完整视频人工审核。"
+    },
+    {
+      "video_id": "中关村1号",
+      "frame": "keyframes/中关村1号/1.jpg",
+      "visible_evidence": "前景大型中关村1号装置文字",
+      "interpretation": "中关村1号建筑群与中关村1号是通用后缀差异，不能将前者机械判错。"
+    },
+    {
+      "video_id": "cbd3",
+      "frame": "keyframes/cbd3/1.jpg",
+      "visible_evidence": "城市天际线、密集高层、河道和立交车流；中心高楼为收腰轮廓，右侧可见斜向门状建筑",
+      "interpretation": "GT使用CBD整体，模型列出各栋建筑；需要区分目标粒度失配与额外实体幻觉，不能只用GT整体标签判所有组成建筑视觉错误。"
+    }
+  ]
+}

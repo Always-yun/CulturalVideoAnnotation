@@ -1,0 +1,52 @@
+{
+  "video_id": "清华",
+  "mode": "free",
+  "status": "completed",
+  "outcome": "wrong_identity",
+  "reference_names": [
+    "清华大学"
+  ],
+  "reference_ids": [
+    "BJ_INNOV_007"
+  ],
+  "predicted_names": [
+    "清华大学二校门"
+  ],
+  "predicted_ids": [
+    "UNRESOLVED:清华大学二校门"
+  ],
+  "main_correct": false,
+  "strict_correct": false,
+  "reference_extra_entities": [
+    "UNRESOLVED:清华大学二校门"
+  ],
+  "tp": 0,
+  "fp": 1,
+  "fn": 1,
+  "predicted_categories": [
+    "ANCIENT",
+    "TECH"
+  ],
+  "reference_categories": [
+    "TECH"
+  ],
+  "category_exact": false,
+  "category_tp": 1,
+  "category_fp": 1,
+  "category_fn": 0,
+  "recall_at_k": null,
+  "candidate_ids": [],
+  "raw_reply": "【EMCAST 视频标注结果】\n\n【E｜场景环境层】：视频构建了一个清华大学校园入口的物理环境。此时处于晴朗白天的状态。整体场景呈现出庄重典雅的感官基调。\n\n【M｜主体行为层】：视觉焦点包含承载主体：清华大学二校门\n    承载主体外观：主体呈现出古典拱券式门楼形态，外立面材质主要为白色涂料与灰色砖石。\n    文字符号：[\"清華園\", \"欢迎新同学\"]\n\n【C｜文化维度层】：该场景隶属于古城与历史文化；科技与创新文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为清华大学二校门。\n价值指向：清华大学二校门作为清华大学的标志性建筑，是清华园历史与文化的象征，承载着百年学府的学术传统与精神传承，同时作为顶尖高等学府，也代表着中国科技与创新文化的发展高地。\n\n【A｜视听语言层】\n    镜头语法：镜头为固定机位。状态稳定，节奏慢，以全景为主，景深深，视觉重心位于二校门主体。\n    播放速度效果：正常速度\n    构图遵循中轴线对称，光影特征呈现为自然漫射光，视觉色彩倾向于同类色。\n\n【S｜整体叙事层】：视频以固定机位全景镜头，稳定缓慢地呈现了清华大学二校门这一核心建筑。画面中，二校门作为视觉焦点，其古典拱券式门楼形态与白色涂料、灰色砖石的外立面材质清晰可见，门楣上“清華園”的题字与横跨拱门的“欢迎新同学”红色横幅，共同构建了庄重典雅且充满欢迎氛围的校园入口场景。通过稳定缓慢的镜头语言，视频强化了二校门作为历史与文化象征的视觉印象，传递出百年学府的厚重感与对新生的期许。\n\n【T｜技术属性层】\n分辨率：4096x2160；实际帧率：25.0 FPS；标称帧率：25.0 FPS；画幅：256:135；动态范围：SDR；色彩空间/像素格式：yuv420p；采样方式：4:2:0；编码格式：h264；码率：58105000；视频时长：10.0s。\n",
+  "c_layer_natural_language": "：该场景隶属于古城与历史文化；科技与创新文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为清华大学二校门。\n价值指向：清华大学二校门作为清华大学的标志性建筑，是清华园历史与文化的象征，承载着百年学府的学术传统与精神传承，同时作为顶尖高等学府，也代表着中国科技与创新文化的发展高地。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/four_method_accuracy_20261119/results.json",
+  "attempts": [],
+  "raw_available": true,
+  "full_c_available": true,
+  "original_trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/traces/清华/free/trace.json",
+  "historical_model_config_path": "experiments/innovation2/results/four_method_accuracy_20261119/model_config.json"
+}

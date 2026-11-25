@@ -1,0 +1,250 @@
+[
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:27:20.804294+08:00",
+    "status": "failed",
+    "error_type": "APITimeoutError",
+    "error": "Request timed out.",
+    "seconds": 94.81629967689514
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:28:56.113726+08:00",
+    "seconds": 43.4818799495697,
+    "status": "interrupted"
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:30:28.576443+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=75700, prompt_tokens_details=PromptTokensDetails(cached_tokens=75699), completion_tokens=558, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=76258)",
+    "seconds": 60.153412103652954
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:31:29.245690+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=73860, prompt_tokens_details=PromptTokensDetails(cached_tokens=73859), completion_tokens=99, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73959)",
+    "seconds": 97.56316184997559
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:33:07.665868+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=75979, prompt_tokens_details=PromptTokensDetails(cached_tokens=74205), completion_tokens=491, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=76470)",
+    "seconds": 57.116182804107666
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:34:05.397702+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=75551, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=403, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=75954)",
+    "seconds": 80.14945673942566
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:35:25.890967+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=73712, prompt_tokens_details=PromptTokensDetails(cached_tokens=73406), completion_tokens=122, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73834)",
+    "seconds": 71.57268834114075
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:36:37.994074+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=75869, prompt_tokens_details=PromptTokensDetails(cached_tokens=74057), completion_tokens=439, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=76308)",
+    "seconds": 85.09308910369873
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:38:03.421326+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=75256, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=407, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=75663)",
+    "seconds": 77.8625819683075
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:39:21.486776+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=73416, prompt_tokens_details=PromptTokensDetails(cached_tokens=73110), completion_tokens=68, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73484)",
+    "seconds": 63.40802001953125
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:40:25.214921+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=75256, prompt_tokens_details=PromptTokensDetails(cached_tokens=75255), completion_tokens=387, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=75643)",
+    "seconds": 51.7043251991272
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:41:17.614528+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=74272, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=2048, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=76320)",
+    "seconds": 164.51788425445557
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:44:02.494773+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=72432, prompt_tokens_details=PromptTokensDetails(cached_tokens=72126), completion_tokens=168, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=72600)",
+    "seconds": 48.197866678237915
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:44:51.325417+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=74494, prompt_tokens_details=PromptTokensDetails(cached_tokens=72777), completion_tokens=530, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=75024)",
+    "seconds": 92.5363883972168
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:46:24.623614+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=74673, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=456, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=75129)",
+    "seconds": 106.1850163936615
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:48:11.215278+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=72832, prompt_tokens_details=PromptTokensDetails(cached_tokens=72526), completion_tokens=128, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=72960)",
+    "seconds": 50.51790475845337
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:49:02.407906+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=74827, prompt_tokens_details=PromptTokensDetails(cached_tokens=73177), completion_tokens=393, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=75220)",
+    "seconds": 61.20857286453247
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:50:04.458563+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=74725, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=463, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=75188)",
+    "seconds": 99.03065967559814
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:51:43.850466+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=72885, prompt_tokens_details=PromptTokensDetails(cached_tokens=72579), completion_tokens=178, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73063)",
+    "seconds": 58.24429512023926
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:52:42.729476+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=74879, prompt_tokens_details=PromptTokensDetails(cached_tokens=73230), completion_tokens=432, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=75311)",
+    "seconds": 47.73752498626709
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:53:31.037074+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=74129, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=455, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=74584)",
+    "seconds": 82.23304438591003
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:54:53.578121+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=72288, prompt_tokens_details=PromptTokensDetails(cached_tokens=71982), completion_tokens=82, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=72370)",
+    "seconds": 43.3556170463562
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:55:37.518050+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=74327, prompt_tokens_details=PromptTokensDetails(cached_tokens=72633), completion_tokens=548, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=74875)",
+    "seconds": 40.08349323272705
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:56:18.876815+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=75773, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=496, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=76269)",
+    "seconds": 147.628737449646
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:58:47.374789+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=73932, prompt_tokens_details=PromptTokensDetails(cached_tokens=73626), completion_tokens=262, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=74194)",
+    "seconds": 55.257702350616455
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:59:43.016001+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=51544, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=435, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=51979)",
+    "seconds": 42.77824282646179
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T13:00:26.015325+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=49704, prompt_tokens_details=PromptTokensDetails(cached_tokens=49398), completion_tokens=171, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=49875)",
+    "seconds": 25.514123678207397
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T13:00:51.892643+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=51544, prompt_tokens_details=PromptTokensDetails(cached_tokens=51543), completion_tokens=443, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=51987)",
+    "seconds": 26.95067572593689
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T13:01:19.394191+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=74877, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=454, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=75331)",
+    "seconds": 68.09605765342712
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T13:02:27.790157+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=73038, prompt_tokens_details=PromptTokensDetails(cached_tokens=72732), completion_tokens=99, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73137)",
+    "seconds": 26.452442407608032
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T13:02:54.784069+08:00",
+    "status": "completed",
+    "usage": "CompletionUsage(prompt_tokens=75031, prompt_tokens_details=PromptTokensDetails(cached_tokens=73383), completion_tokens=449, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=75480)",
+    "seconds": 37.54881024360657
+  }
+]

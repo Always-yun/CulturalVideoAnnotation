@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_RED_004",
+    "canonical_name": "卢沟桥",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.800689697265625,
+    "reason": "关键词/别名命中：石狮",
+    "image_score": 0.6014,
+    "text_score": 1.0,
+    "fusion_score": 0.8007
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_007",
+    "canonical_name": "北京庙会",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.47669474283854163,
+    "reason": "关键词/别名命中：红灯笼",
+    "image_score": 0.6201,
+    "text_score": 0.3333,
+    "fusion_score": 0.4767
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_009",
+    "canonical_name": "鸽哨",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.3140869140625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6282,
+    "text_score": 0.0,
+    "fusion_score": 0.3141
+  },
+  {
+    "symbol_id": "BJ_GUDU_003",
+    "canonical_name": "天坛",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.31402587890625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6281,
+    "text_score": 0.0,
+    "fusion_score": 0.314
+  },
+  {
+    "symbol_id": "BJ_RED_009",
+    "canonical_name": "李大钊故居",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.3134765625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.627,
+    "text_score": 0.0,
+    "fusion_score": 0.3135
+  }
+]

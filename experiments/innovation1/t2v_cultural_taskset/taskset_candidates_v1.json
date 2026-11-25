@@ -1,0 +1,708 @@
+{
+  "meta": {
+    "name": "创新点1_中华文化符号文生视频测试任务集_候选v1",
+    "created": "2026-10-31",
+    "stage": "待审核方案（非最终实验标准）",
+    "source_kb": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/chinese_cultural_symbols_v2.json",
+    "culture_scope": "中华文化",
+    "scale": "5对象×2任务×4事实=10任务/40事实",
+    "constraints": "本阶段不生成G1-G4描述/不调用GLM/不下载模型/不生成视频"
+  },
+  "objects": [
+    {
+      "symbol_id": "BJ_GUDU_001",
+      "canonical_name": "故宫",
+      "cultural_dimension": "古城与历史文化",
+      "dimension_code": "ANCIENT",
+      "region": "北京",
+      "culture_scope": "中华文化",
+      "selection_reason": "红墙黄琉璃瓦/重檐庑殿顶/中轴对称/四面城门/角楼四座，特征体系完整且来源为故宫博物院官网（权威）；confidence=high，有参考图（五图拼图已核验）；宫殿建筑静态场景，低成本生成友好。",
+      "confidence": "high",
+      "review_status": "approved",
+      "source": {
+        "source_name": "故宫博物院官网",
+        "source_url": "https://www.dpm.org.cn/Home.html",
+        "source_type": "官方网站"
+      },
+      "reference_images": [
+        "data/knowledge_base/reference_images_v2/BJ_GUDU_001/01_b34d3d8edcc7.jpg"
+      ],
+      "visual_features_verbatim": [
+        "红墙黄琉璃瓦",
+        "重檐庑殿顶",
+        "中轴对称布局",
+        "午门-太和门-太和殿-中和殿-保和殿-乾清宫-坤宁宫轴线",
+        "城垣四面设门（午门/神武门/东华门/西华门）",
+        "角楼四座"
+      ],
+      "tasks": [
+        {
+          "task_id": "T01",
+          "scene_text": "北京故宫午门正面：高大的红色城台上矗立着黄色琉璃瓦重檐城楼，城台下部开有券形门洞，门前是开阔广场，晴天，镜头固定。",
+          "scene_constraints": "无复杂人物动作/无多主体交互/镜头固定或缓慢运动",
+          "facts": [
+            {
+              "fact_id": "T01-F1",
+              "statement": "墙体为红色（红墙）",
+              "kb_field": "visual_features",
+              "kb_value": "红墙黄琉璃瓦",
+              "yes_rule": "城台/宫墙主体为红色",
+              "no_rule": "墙为白、灰、黄等其他颜色",
+              "uncertain_rule": "墙面被严重遮挡",
+              "ambiguity_note": "须红墙与黄瓦组合判断，不能仅凭红墙或仅凭琉璃瓦确认故宫身份"
+            },
+            {
+              "fact_id": "T01-F2",
+              "statement": "屋顶为黄色琉璃瓦",
+              "kb_field": "visual_features",
+              "kb_value": "红墙黄琉璃瓦",
+              "yes_rule": "屋顶覆盖黄色/金黄色琉璃瓦",
+              "no_rule": "灰瓦、青瓦或红瓦",
+              "uncertain_rule": "屋顶不可见",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T01-F3",
+              "statement": "城楼为重檐（两层及以上屋檐）",
+              "kb_field": "visual_features",
+              "kb_value": "重檐庑殿顶",
+              "yes_rule": "城楼可见两层或以上屋檐",
+              "no_rule": "单层屋檐",
+              "uncertain_rule": "屋檐层数不可辨",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T01-F4",
+              "statement": "城台下部开有门洞",
+              "kb_field": "visual_features",
+              "kb_value": "城垣四面设门（午门/神武门/东华门/西华门）",
+              "yes_rule": "红色城台底部可见券形/矩形门洞",
+              "no_rule": "城台无门洞或为实心墙",
+              "uncertain_rule": "门洞被遮挡",
+              "ambiguity_note": ""
+            }
+          ]
+        },
+        {
+          "task_id": "T02",
+          "scene_text": "故宫城墙转角：一座多檐角楼立在红色宫墙转角之上，黄色琉璃瓦层层相叠，楼前有护城河水面映出倒影，黄昏光线，镜头缓慢横移。（护城河水面依据参考图）",
+          "scene_constraints": "无复杂人物动作/无多主体交互/镜头固定或缓慢运动",
+          "facts": [
+            {
+              "fact_id": "T02-F1",
+              "statement": "城墙转角处有多檐角楼",
+              "kb_field": "visual_features",
+              "kb_value": "角楼四座",
+              "yes_rule": "宫墙转角上建有造型复杂的多檐楼阁",
+              "no_rule": "无楼阁或为普通城墙垛口",
+              "uncertain_rule": "角楼被遮挡不完整",
+              "ambiguity_note": "角楼判定以\"转角+多檐楼阁\"为准，普通亭子判No"
+            },
+            {
+              "fact_id": "T02-F2",
+              "statement": "角楼屋顶为黄色琉璃瓦",
+              "kb_field": "visual_features",
+              "kb_value": "红墙黄琉璃瓦",
+              "yes_rule": "屋顶为黄色琉璃瓦",
+              "no_rule": "其他颜色瓦",
+              "uncertain_rule": "屋顶不可辨",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T02-F3",
+              "statement": "宫墙墙体为红色",
+              "kb_field": "visual_features",
+              "kb_value": "红墙黄琉璃瓦",
+              "yes_rule": "转角宫墙为红色",
+              "no_rule": "其他颜色",
+              "uncertain_rule": "墙体被遮挡",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T02-F4",
+              "statement": "角楼屋檐为多层（重檐）相叠",
+              "kb_field": "visual_features",
+              "kb_value": "重檐庑殿顶",
+              "yes_rule": "屋檐明显两层以上相叠",
+              "no_rule": "单层屋檐",
+              "uncertain_rule": "层数不可辨",
+              "ambiguity_note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol_id": "CN_RED_001",
+      "canonical_name": "遵义会议会址",
+      "cultural_dimension": "红色文化",
+      "dimension_code": "RED",
+      "region": "贵州",
+      "culture_scope": "中华文化",
+      "selection_reason": "会址为二层砖木楼房，灰砖白墙/青瓦丹柱/题字门匾特征具体、专属性强，与普通民居可区分；confidence=high有参考图；建筑静态场景生成难度低。",
+      "confidence": "high",
+      "review_status": "reviewed",
+      "source": {
+        "source_name": "天津市纪委监委红色资源页面",
+        "source_url": "https://www.tjjw.gov.cn/points/2021/06/23/detail_2021062344598.html",
+        "source_type": "政府网站"
+      },
+      "reference_images": [
+        "data/knowledge_base/reference_images_v2/CN_RED_001/01_80af1734eefe.jpg"
+      ],
+      "visual_features_verbatim": [
+        "灰砖白墙",
+        "青瓦丹柱",
+        "二层砖木楼房",
+        "题字门匾",
+        "红色纪念展陈"
+      ],
+      "tasks": [
+        {
+          "task_id": "T03",
+          "scene_text": "贵州遵义一处革命旧址：一栋二层砖木结构楼房，灰砖与白墙相间，青瓦坡屋顶，檐下带连续拱形柱廊，门窗漆成暗红色，门前为院坝，阴天，镜头固定平视。",
+          "scene_constraints": "无复杂人物动作/无多主体交互/镜头固定或缓慢运动",
+          "facts": [
+            {
+              "fact_id": "T03-F1",
+              "statement": "建筑为二层砖木楼房",
+              "kb_field": "visual_features",
+              "kb_value": "二层砖木楼房",
+              "yes_rule": "明确两层且可见砖墙与木质构件（柱、门窗、廊栏）",
+              "no_rule": "仅一层或三层以上，或为现代混凝土建筑",
+              "uncertain_rule": "层数被遮挡",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T03-F2",
+              "statement": "灰砖与白墙相间",
+              "kb_field": "visual_features",
+              "kb_value": "灰砖白墙",
+              "yes_rule": "灰色砖材与白色墙面同时可见",
+              "no_rule": "通体红墙、全灰或全白",
+              "uncertain_rule": "墙面颜色不可辨",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T03-F3",
+              "statement": "青瓦坡屋顶",
+              "kb_field": "visual_features",
+              "kb_value": "青瓦丹柱",
+              "yes_rule": "深灰/青灰色瓦片的坡屋顶",
+              "no_rule": "平顶或金属/茅草屋顶",
+              "uncertain_rule": "屋顶不可见",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T03-F4",
+              "statement": "檐下有连续拱形柱廊（丹柱/外廊）",
+              "kb_field": "visual_features",
+              "kb_value": "青瓦丹柱",
+              "yes_rule": "正立面有连续外廊与立柱",
+              "no_rule": "无外廊",
+              "uncertain_rule": "廊柱数量过少无法确认",
+              "ambiguity_note": "门匾题字若出现但文字不可辨认时记Uncertain，不作为否定证据"
+            }
+          ]
+        },
+        {
+          "task_id": "T04",
+          "scene_text": "会址及周边历史街区（侧面视角）：从侧面看会址砖木楼房与周边延续的老建筑，青瓦屋顶层叠，门楣悬挂深色题字门匾，远处有山峦，清晨无人，镜头缓慢横移。",
+          "scene_constraints": "无复杂人物动作/无多主体交互/镜头固定或缓慢运动",
+          "facts": [
+            {
+              "fact_id": "T04-F1",
+              "statement": "街区内为砖木结构老建筑",
+              "kb_field": "visual_features",
+              "kb_value": "二层砖木楼房",
+              "yes_rule": "可见砖墙+木质构件的传统楼房",
+              "no_rule": "全为现代楼房",
+              "uncertain_rule": "建筑仅露出局部",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T04-F2",
+              "statement": "屋顶为青瓦坡顶",
+              "kb_field": "visual_features",
+              "kb_value": "青瓦丹柱",
+              "yes_rule": "深灰瓦坡顶",
+              "no_rule": "平顶或其他材质",
+              "uncertain_rule": "屋顶不可见",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T04-F3",
+              "statement": "门楣有题字门匾",
+              "kb_field": "visual_features",
+              "kb_value": "题字门匾",
+              "yes_rule": "可见悬挂的牌匾（文字可不清）",
+              "no_rule": "完全无牌匾",
+              "uncertain_rule": "牌匾存在但文字无法辨认时按Uncertain记录",
+              "ambiguity_note": "不以文字内容是否正确作为判定依据，只判断门匾存在性"
+            },
+            {
+              "fact_id": "T04-F4",
+              "statement": "画面含红色纪念元素（红色门窗、展陈或标识）",
+              "kb_field": "visual_features",
+              "kb_value": "红色纪念展陈",
+              "yes_rule": "可见暗红门窗、红色标识或展陈元素",
+              "no_rule": "无任何红色文化元素",
+              "uncertain_rule": "元素过小无法确认",
+              "ambiguity_note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol_id": "CN2_FOLK_003",
+      "canonical_name": "福建土楼",
+      "cultural_dimension": "民族与民俗文化;古城与历史文化",
+      "dimension_code": "FOLK;ANCIENT",
+      "region": "福建省",
+      "culture_scope": "中华文化",
+      "selection_reason": "圆形/方形夯土大楼+同心圆木构+黑瓦巨大出檐+土黄色夯土墙，特征组合在全世界范围内高度专属，几乎不会与其他建筑混淆；confidence=high有3张本地参考图；无人物主体，生成友好。",
+      "confidence": "high",
+      "review_status": "approved",
+      "source": {
+        "source_name": "国家文物局·世界文化遗产名录",
+        "source_url": "http://www.ncha.gov.cn/art/2024/8/8/art_2791_190642.html",
+        "source_type": "official_government"
+      },
+      "reference_images": [
+        "data/knowledge_base/reference_images_v2/CN2_FOLK_003/01_7e58a2ac6dbd.jpg",
+        "data/knowledge_base/reference_images_v2/CN2_FOLK_003/02_d5f420931c47.jpg",
+        "data/knowledge_base/reference_images_v2/CN2_FOLK_003/03_13c2edf35351.jpg"
+      ],
+      "visual_features_verbatim": [
+        "圆形或方形夯土大楼",
+        "同心圆木构",
+        "黑瓦巨大出檐",
+        "土黄色夯土墙",
+        "群体聚落"
+      ],
+      "tasks": [
+        {
+          "task_id": "T05",
+          "scene_text": "高空俯视福建土楼群：多座巨大的圆形夯土楼散落在山地村落之间，土黄色外墙、黑色瓦片大屋顶呈一个个完整圆环，周围是山林与梯田，镜头高空缓慢环绕。",
+          "scene_constraints": "无复杂人物动作/无多主体交互/镜头固定或缓慢运动",
+          "facts": [
+            {
+              "fact_id": "T05-F1",
+              "statement": "画面中出现多座圆形土楼（土楼群）",
+              "kb_field": "visual_features",
+              "kb_value": "群体聚落",
+              "yes_rule": "同画面可见两座及以上圆形夯土楼",
+              "no_rule": "仅一座或无圆形土楼",
+              "uncertain_rule": "数量不可辨",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T05-F2",
+              "statement": "土楼平面为闭合圆环形",
+              "kb_field": "visual_features",
+              "kb_value": "圆形或方形夯土大楼",
+              "yes_rule": "至少主体土楼外轮廓为完整圆环",
+              "no_rule": "均为方形或矩形",
+              "uncertain_rule": "俯视角度不足无法判断",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T05-F3",
+              "statement": "黑色瓦片大屋顶且出檐深远",
+              "kb_field": "visual_features",
+              "kb_value": "黑瓦巨大出檐",
+              "yes_rule": "圆环屋顶为深色瓦、出檐明显",
+              "no_rule": "平顶或浅红色瓦",
+              "uncertain_rule": "屋顶细节不可辨",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T05-F4",
+              "statement": "土楼处于山地村落环境",
+              "kb_field": "cultural_description",
+              "kb_value": "山地乡村环境",
+              "yes_rule": "背景为山丘/林地/村落",
+              "no_rule": "处于城市街区",
+              "uncertain_rule": "背景不可见",
+              "ambiguity_note": "现代圆形建筑（体育馆、剧院等）不算土楼，须同时满足夯土墙+黑瓦屋顶"
+            }
+          ]
+        },
+        {
+          "task_id": "T06",
+          "scene_text": "地面平视单座福建土楼：一座高大的圆形夯土楼矗立眼前，土黄色夯土外墙，黑色瓦片大屋顶出檐深远，弧形外立面环绕，背景为山地，镜头固定。",
+          "scene_constraints": "无复杂人物动作/无多主体交互/镜头固定或缓慢运动",
+          "facts": [
+            {
+              "fact_id": "T06-F1",
+              "statement": "外墙为土黄色夯土质地",
+              "kb_field": "visual_features",
+              "kb_value": "土黄色夯土墙",
+              "yes_rule": "黄褐色夯土墙且无大面积粉刷/贴面",
+              "no_rule": "白墙、红砖或玻璃幕墙",
+              "uncertain_rule": "墙面被遮挡",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T06-F2",
+              "statement": "黑色瓦片大屋顶出檐深远",
+              "kb_field": "visual_features",
+              "kb_value": "黑瓦巨大出檐",
+              "yes_rule": "深色瓦顶、屋檐明显挑出墙身",
+              "no_rule": "平顶或瓦色浅红",
+              "uncertain_rule": "屋顶不可辨",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T06-F3",
+              "statement": "外立面呈弧形环绕（圆形土楼体）",
+              "kb_field": "visual_features",
+              "kb_value": "圆形或方形夯土大楼",
+              "yes_rule": "墙体向两侧弧形延伸，可判断为圆形建筑",
+              "no_rule": "直面墙体或普通矩形楼",
+              "uncertain_rule": "视角限制无法判断",
+              "ambiguity_note": "平视不要求看到完整圆环，弧形外立面即可判Yes"
+            },
+            {
+              "fact_id": "T06-F4",
+              "statement": "楼体为多层高大夯土楼",
+              "kb_field": "visual_features",
+              "kb_value": "圆形或方形夯土大楼",
+              "yes_rule": "三层及以上、体量巨大",
+              "no_rule": "单层小屋",
+              "uncertain_rule": "层数被遮挡",
+              "ambiguity_note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol_id": "BJ_FASHION_006",
+      "canonical_name": "首钢园",
+      "cultural_dimension": "科技与创新文化;现代城市与国际文化",
+      "dimension_code": "TECH;MODERN",
+      "region": "北京",
+      "culture_scope": "中华文化",
+      "selection_reason": "三高炉红砖筒仓+巨型钢架构+冷却塔+工业管道剪影+冬奥现代建筑嵌入，工业遗存与现代设施双重特征画面可判；来源为首都之窗（官方），confidence=high，参考图真实有效（高炉+钢架+群明湖倒影已核验）。",
+      "confidence": "high",
+      "review_status": "approved",
+      "source": {
+        "source_name": "首都之窗",
+        "source_url": "https://www.beijing.gov.cn/",
+        "source_type": "官方网站"
+      },
+      "reference_images": [
+        "data/knowledge_base/reference_images_v2/BJ_FASHION_006/01_b4b4392b429f.jpg"
+      ],
+      "visual_features_verbatim": [
+        "三高炉红砖筒仓",
+        "巨型钢架构",
+        "冷却塔",
+        "工业管道剪影",
+        "冬奥广场现代建筑嵌入"
+      ],
+      "tasks": [
+        {
+          "task_id": "T07",
+          "scene_text": "首钢园高炉工业遗存景观：橙红色高炉主体矗立，四周环绕巨型钢架构与工业管道，远处可见冷却塔，前景为群明湖平静水面映出倒影，晴天，镜头缓慢横移。",
+          "scene_constraints": "无复杂人物动作/无多主体交互/镜头固定或缓慢运动",
+          "facts": [
+            {
+              "fact_id": "T07-F1",
+              "statement": "画面主体为高炉（红砖筒仓炉体）",
+              "kb_field": "visual_features",
+              "kb_value": "三高炉红砖筒仓",
+              "yes_rule": "可见红/橙红色筒仓状高炉主体",
+              "no_rule": "无高炉或为普通厂房",
+              "uncertain_rule": "炉体被严重遮挡",
+              "ambiguity_note": "普通烟囱、水塔不算高炉，须为红砖/橙红色筒仓式炉体"
+            },
+            {
+              "fact_id": "T07-F2",
+              "statement": "高炉周边有巨型钢架构",
+              "kb_field": "visual_features",
+              "kb_value": "巨型钢架构",
+              "yes_rule": "可见大型裸露钢架/桁架结构",
+              "no_rule": "无钢架",
+              "uncertain_rule": "钢架过小不可辨",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T07-F3",
+              "statement": "画面含冷却塔或烟囱类工业构筑物",
+              "kb_field": "visual_features",
+              "kb_value": "冷却塔",
+              "yes_rule": "远处可见双曲线冷却塔或高耸烟囱",
+              "no_rule": "无任何工业构筑物",
+              "uncertain_rule": "远景不可辨时记Uncertain",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T07-F4",
+              "statement": "可见工业管道/管道剪影",
+              "kb_field": "visual_features",
+              "kb_value": "工业管道剪影",
+              "yes_rule": "炉体之间有管道连接或管道轮廓",
+              "no_rule": "无管道",
+              "uncertain_rule": "细节过暗不可辨",
+              "ambiguity_note": ""
+            }
+          ]
+        },
+        {
+          "task_id": "T08",
+          "scene_text": "首钢滑雪大跳台与工业遗存同框：现代流线型滑雪大跳台设施旁，矗立着高炉与巨型钢架等工业遗存，新建筑与旧工业设施并置，黄昏，镜头缓慢上摇。",
+          "scene_constraints": "无复杂人物动作/无多主体交互/镜头固定或缓慢运动",
+          "facts": [
+            {
+              "fact_id": "T08-F1",
+              "statement": "画面含现代滑雪大跳台设施",
+              "kb_field": "cultural_description",
+              "kb_value": "首钢滑雪大跳台场地",
+              "yes_rule": "可见流线型/坡道式现代大跳台结构",
+              "no_rule": "无大跳台",
+              "uncertain_rule": "设施被遮挡不完整",
+              "ambiguity_note": "判定以\"现代坡道式设施\"为准，普通现代建筑判No"
+            },
+            {
+              "fact_id": "T08-F2",
+              "statement": "现代设施与工业遗存同画面并置",
+              "kb_field": "visual_features",
+              "kb_value": "冬奥广场现代建筑嵌入",
+              "yes_rule": "新设施与旧工业构筑物同框出现",
+              "no_rule": "只有其一",
+              "uncertain_rule": "其一被裁切",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T08-F3",
+              "statement": "背景有巨型钢架构/高炉工业遗存",
+              "kb_field": "visual_features",
+              "kb_value": "巨型钢架构",
+              "yes_rule": "背景可见钢架或高炉",
+              "no_rule": "背景为纯自然环境",
+              "uncertain_rule": "背景虚化不可辨",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T08-F4",
+              "statement": "工业遗存为红砖/橙红色炉体",
+              "kb_field": "visual_features",
+              "kb_value": "三高炉红砖筒仓",
+              "yes_rule": "工业遗存呈红/橙红色筒仓形态",
+              "no_rule": "普通灰色厂房",
+              "uncertain_rule": "颜色不可辨",
+              "ambiguity_note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol_id": "BJ_FASHION_003",
+      "canonical_name": "CBD",
+      "cultural_dimension": "现代城市与国际文化",
+      "dimension_code": "MODERN",
+      "region": "北京",
+      "culture_scope": "中华文化",
+      "selection_reason": "KB中现代城市维度含\"CBD\"(BJ_FASHION_003)与\"国贸\"(BJ_FASHION_004)两条；CBD条目覆盖国贸三期/银泰/中国尊/央视总部，为完整的\"国贸CBD\"商务区语义且特征更具轮廓辨识度（中国尊、大裤衩），故选CBD条目；来源为首都之窗（官方），confidence=high。注意：参考图为文字示意图，不可作视觉证据（风险已标记）。",
+      "confidence": "high",
+      "review_status": "approved",
+      "source": {
+        "source_name": "首都之窗",
+        "source_url": "https://www.beijing.gov.cn/",
+        "source_type": "官方网站"
+      },
+      "reference_images": [
+        "data/knowledge_base/reference_images_v2/BJ_FASHION_003/01_cb1b094ee1f6.jpg"
+      ],
+      "visual_features_verbatim": [
+        "国贸三期/银泰中心/中信大厦（\"中国尊\"528米）",
+        "央视总部\"大裤衩\"",
+        "玻璃幕墙超高层集群"
+      ],
+      "tasks": [
+        {
+          "task_id": "T09",
+          "scene_text": "黄昏时分的北京CBD城市天际线：中国尊、央视总部大楼与周边玻璃幕墙超高层共同组成楼群，中央最高塔楼轮廓挺拔（中部饱满、顶部收分），暮色中亮起灯火，镜头缓慢平移。",
+          "scene_constraints": "无复杂人物动作/无多主体交互/镜头固定或缓慢运动",
+          "facts": [
+            {
+              "fact_id": "T09-F1",
+              "statement": "画面为超高层建筑群（集群）",
+              "kb_field": "visual_features",
+              "kb_value": "玻璃幕墙超高层集群",
+              "yes_rule": "多栋摩天楼密集组成楼群",
+              "no_rule": "仅一两栋高楼或低矮城区",
+              "uncertain_rule": "楼群被裁切",
+              "ambiguity_note": "仅凭\"有高楼\"不判Yes，须体现超高层集群规模"
+            },
+            {
+              "fact_id": "T09-F2",
+              "statement": "建筑外观为玻璃幕墙",
+              "kb_field": "visual_features",
+              "kb_value": "玻璃幕墙超高层集群",
+              "yes_rule": "主要楼宇为反光玻璃表皮",
+              "no_rule": "砖石/混凝土实墙立面",
+              "uncertain_rule": "立面材质不可辨",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T09-F3",
+              "statement": "中央最高塔楼轮廓中部饱满、顶部收分（中国尊造型）",
+              "kb_field": "visual_features",
+              "kb_value": "国贸三期/银泰中心/中信大厦（\"中国尊\"528米）",
+              "yes_rule": "最高塔轮廓上下收分、中部略宽",
+              "no_rule": "最高塔为等宽方柱或尖顶",
+              "uncertain_rule": "塔轮廓被遮挡",
+              "ambiguity_note": "只判轮廓形态特征，不要求高度数字或楼名可见"
+            },
+            {
+              "fact_id": "T09-F4",
+              "statement": "呈现城市天际线构图（可含灯火）",
+              "kb_field": "typical_scene",
+              "kb_value": "天际线俯瞰",
+              "yes_rule": "楼群轮廓线在天空背景下完整展开",
+              "no_rule": "无天际线视角",
+              "uncertain_rule": "天空背景缺失",
+              "ambiguity_note": ""
+            }
+          ]
+        },
+        {
+          "task_id": "T10",
+          "scene_text": "更近视角的北京CBD建筑群：突出央视总部大楼与中国尊的形态——两座倾斜塔楼顶部由悬空横向体块相连呈门形环状（央视总部），一旁矗立轮廓收分的中国尊，表皮为网格玻璃幕墙，白天，镜头缓慢上摇。",
+          "scene_constraints": "无复杂人物动作/无多主体交互/镜头固定或缓慢运动",
+          "facts": [
+            {
+              "fact_id": "T10-F1",
+              "statement": "大楼为门形/环形悬挑连体结构",
+              "kb_field": "visual_features",
+              "kb_value": "央视总部\"大裤衩\"",
+              "yes_rule": "两斜塔+顶部悬空横向连体，整体呈门形",
+              "no_rule": "普通矩形或圆柱形高楼",
+              "uncertain_rule": "顶部结构被裁切",
+              "ambiguity_note": "判定关键是悬挑连体门形，仅凭\"造型怪\"不判Yes"
+            },
+            {
+              "fact_id": "T10-F2",
+              "statement": "表皮为网格状玻璃幕墙",
+              "kb_field": "visual_features",
+              "kb_value": "玻璃幕墙超高层集群",
+              "yes_rule": "可见菱形/网格划分的玻璃表皮",
+              "no_rule": "均质实墙或无网格",
+              "uncertain_rule": "表皮细节不可辨",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T10-F3",
+              "statement": "两座塔楼呈倾斜造型",
+              "kb_field": "visual_features",
+              "kb_value": "央视总部\"大裤衩\"",
+              "yes_rule": "塔楼明显倾斜非垂直",
+              "no_rule": "塔楼垂直",
+              "uncertain_rule": "倾斜度不可辨",
+              "ambiguity_note": ""
+            },
+            {
+              "fact_id": "T10-F4",
+              "statement": "周围有其他超高层建筑",
+              "kb_field": "visual_features",
+              "kb_value": "玻璃幕墙超高层集群",
+              "yes_rule": "背景含其他摩天楼",
+              "no_rule": "孤立一栋楼",
+              "uncertain_rule": "背景被裁切",
+              "ambiguity_note": ""
+            }
+          ]
+        }
+      ],
+      "reference_images_extra": [
+        {
+          "local_path": "experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_003_CBD_skyline.png",
+          "provenance": "user_supplied",
+          "note": "用户补充的北京CBD天际线实拍：含中国尊(右侧收分高塔)与央视总部大楼(中部门形结构)，已核验有效"
+        }
+      ],
+      "reference_image_status": "KB原参考图为文字示意图(不可用)；已采用用户补充实拍图1张"
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "name": "苏州古典园林",
+      "symbol_ids": "CN2_ANCIENT_004",
+      "reason": "原候选，按导师/用户意见替换为故宫；保留为古城类备选（特征体系完整，江苏地区，可补地区多样性）。"
+    },
+    {
+      "name": "杭州西湖文化景观",
+      "symbol_ids": "CN_MODERN_001",
+      "reason": "原候选，按导师/用户意见替换为北京CBD；保留为现代城市类备选（浙江地区，可补地区多样性）。"
+    },
+    {
+      "name": "国贸（BJ_FASHION_004）",
+      "symbol_ids": "BJ_FASHION_004",
+      "reason": "与CBD条目语义重叠但范围更窄（仅国贸三期单体）；且其KB参考图实为迪拜帆船酒店，属KB数据错误（仅标记，未修改KB）。"
+    },
+    {
+      "name": "中国天眼（FAST）",
+      "symbol_ids": "CN_TECH_001",
+      "reason": "原候选，按导师/用户意见替换为首钢园；保留为科技类备选（贵州地区，特征独一无二，但本地参考图缺失ri=0）。"
+    },
+    {
+      "name": "京剧/粤剧/侗族大歌/京韵大鼓",
+      "symbol_ids": "BJ_JINGWEI_003,CN_FOLK_001,CN_FOLK_003,BJ_JINGWEI_005",
+      "reason": "以人物表演为主体，涉及复杂人脸与动作，小参数T2V生成质量差，文化事实依赖动态表演过程，画面判定不可靠。"
+    },
+    {
+      "name": "藏族唐卡（勉唐画派）",
+      "symbol_ids": "CN_FOLK_002",
+      "reason": "无本地参考图（ri=0），且为平面绘画，视频化场景设计空间极小。"
+    },
+    {
+      "name": "秦始皇帝陵兵马俑/敦煌莫高窟/云冈石窟/大足石刻",
+      "symbol_ids": "CN_ANCIENT_001,CN_ANCIENT_002,CN_ANCIENT_005,CN2_ANCIENT_005",
+      "reason": "判定依赖造像/壁画细节与洞窟光线，小模型生成不可控；兵马俑与莫高窟无本地参考图。"
+    },
+    {
+      "name": "天安门广场/人民英雄纪念碑等北京红色地标",
+      "symbol_ids": "BJ_RED_002,BJ_RED_003",
+      "reason": "集中于北京，不符合地区多样性要求；广场类场景易与其他纪念性建筑混淆。"
+    },
+    {
+      "name": "CN2_TECH系列科技园区（软件园/生命科学园等）",
+      "symbol_ids": "CN2_TECH_003~CN2_TECH_019",
+      "reason": "视觉特征为通用办公楼群，与普通城市建筑特异性不足，Yes/No判定区分度低；且全部集中在北京。"
+    },
+    {
+      "name": "布达拉宫",
+      "symbol_ids": "CN_ANCIENT_003",
+      "reason": "视觉特征仅4组且confidence=medium，山体宫堡易泛化为普通藏式建筑；列为古城类备选。"
+    },
+    {
+      "name": "延安革命纪念馆",
+      "symbol_ids": "CN_RED_003",
+      "reason": "建筑本体特征描述偏弱（\"纪念馆建筑\"不具体），窑洞属环境元素；列为红色类备选（若需5省不重复可替换遵义）。"
+    },
+    {
+      "name": "文昌航天发射场",
+      "symbol_ids": "CN_TECH_002",
+      "reason": "核心场景火箭发射动态复杂、转运场景专业性过强，画面判定不稳定；列为科技类备选。"
+    }
+  ],
+  "quality_check": {
+    "dimension_coverage": "五维全覆盖：古城历史(故宫)/红色(遵义)/民俗(福建土楼)/科技创新(首钢园)/现代城市(北京CBD)",
+    "region_coverage": "北京×3(故宫、首钢园、CBD)、贵州×1(遵义)、福建×1(土楼)：地区集中于北京；备选可换回：苏州园林(苏)、西湖(浙)、FAST(黔)、延安(陕)、文昌(琼)",
+    "fact_grounding": "40项事实全部通过逐字断言校验，均来自KB visual_features/typical_scene/cultural_description原文",
+    "ambiguity_controls": "故宫：红墙+黄瓦须组合，仅凭琉璃瓦不确认身份；首钢园：普通烟囱不算高炉，须红砖筒仓炉体；大跳台须坡道式现代设施；CBD：仅凭\"有高楼\"不判Yes，央视大楼须悬挑连体门形；土楼：夯土墙+黑瓦缺一不可",
+    "reference_images": "故宫1张(五图拼图,可作证据)；首钢园1张(高炉+钢架+群明湖,真实有效)；CBD: KB原图为文字示意图不可用，已由用户补充实拍天际线图1张(含中国尊+央视总部,已核验)；BJ_FASHION_004国贸参考图实为迪拜帆船酒店(KB数据错误,仅标记未修改)。全部5对象现均有可用参考依据",
+    "generation_feasibility": "10场景均无复杂人物动作、无多主体交互、镜头固定或缓慢，适配5s/480p低成本生成",
+    "risks": [
+      "CBD参考图为用户提供，正式写论文时需注明来源与版权",
+      "CBD标志性造型（中国尊轮廓、央视悬挑结构）与首钢大跳台对1.3B级T2V模型生成难度高，可能出现大量No——这本身可作为G1基线低区分度的证据，但需预期",
+      "T04红色元素判定带主观性，已设Uncertain规则",
+      "T02护城河水面元素取自参考图而非KB文本字段，已在场景描述中注明"
+    ]
+  }
+}

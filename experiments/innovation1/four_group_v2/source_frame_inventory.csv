@@ -1,0 +1,6 @@
+﻿source_video,video_sha256,duration_sec,sampling_status,fraction,requested_sec,actual_sec,absolute_pts_sec,frame_file,scope_warning
+data/video/兵马俑.mp4,2dc807185e443609bc1bad8541ff9f8127c8c1fdbd5db03b5e0cda17e3932658,9.816,preview_pending_source_review,0.5,4.908,4.9,4.9,experiments/innovation1/four_group_v2/source_preview/T01/source/50.jpg,outside_3_to_5_seconds_review_scope
+data/video/南湖红船.mp4,b2cb09956a3e2c21930e516d48d225208d03888d0dcd1b767f9af886561b19d8,2.819,preview_pending_source_review,0.5,1.4095,1.4,1.4,experiments/innovation1/four_group_v2/source_preview/T04/source/50.jpg,outside_3_to_5_seconds_review_scope
+data/video/皮影戏.mp4,377fcbe5ddcdf327c696f610de0b747adaa8df97cc129842dd50d68a73f6ae81,13.032,preview_pending_source_review,0.5,6.516,6.5,6.5,experiments/innovation1/four_group_v2/source_preview/T06/source/50.jpg,outside_3_to_5_seconds_review_scope
+data/video/海南文昌发射场.mp4,be3d61382377b14049b502517d1bef316f8cf91009b46edb6bb943a449b5a7c2,8.762,preview_pending_source_review,0.5,4.381,4.371,4.371,experiments/innovation1/four_group_v2/source_preview/T07/source/50.jpg,outside_3_to_5_seconds_review_scope
+data/video/东方明珠.mp4,bf3a6fe6001397439250e596aa9227a5d5f4bd0203d5258e32eb95fd0dfa7f30,5.633,preview_pending_source_review,0.5,2.8165,2.8,2.8,experiments/innovation1/four_group_v2/source_preview/T10/source/50.jpg,outside_3_to_5_seconds_review_scope

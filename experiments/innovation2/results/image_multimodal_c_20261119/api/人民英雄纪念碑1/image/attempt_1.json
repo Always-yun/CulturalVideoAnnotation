@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:51:09.018674+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化。\n核心符号：人民英雄纪念碑\n价值指向：画面中央可见一座高大的纪念碑，碑身刻有金色文字，基座有台阶和汉白玉栏杆，符合人民英雄纪念碑的视觉特征。该纪念碑是纪念近代以来人民英雄的标志性建筑，属于红色文化范畴。背景中可见广场和建筑，进一步印证了其作为重要纪念场所的身份。",
+  "response_model": "glm-4v",
+  "response_id": "20261119165109daf038b1c1fb4765",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=72770, prompt_tokens_details=PromptTokensDetails(cached_tokens=65542), completion_tokens=93, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=72863)",
+  "seconds": 61.528292417526245
+}

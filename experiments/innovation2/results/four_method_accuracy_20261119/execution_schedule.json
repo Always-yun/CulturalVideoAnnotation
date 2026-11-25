@@ -1,0 +1,8 @@
+{
+  "workers": 3,
+  "timeout_seconds": 300,
+  "orchestrator_sha256": "ffadc87632608ad90dc99d63dcb68c3203128aa5214668e10b5d44fe66cdfece",
+  "changes": "independent-video scheduling only",
+  "primary_report": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/four_method_accuracy_20261119/report.md",
+  "worker_reports": "internal partial snapshots"
+}

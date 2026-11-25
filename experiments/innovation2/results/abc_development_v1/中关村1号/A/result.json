@@ -1,0 +1,17 @@
+{
+  "video_id": "中关村1号",
+  "sample_type": "known",
+  "gt_ids": [
+    "CN2_TECH_008"
+  ],
+  "pred_ids": [],
+  "rejected": true,
+  "correct": false,
+  "recall1": false,
+  "recall5": true,
+  "reciprocal_rank": 0.3333333333333333,
+  "error_type": "false_reject",
+  "group": "A",
+  "api_calls": 3,
+  "seconds": 236.36
+}

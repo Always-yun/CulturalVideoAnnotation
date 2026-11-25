@@ -1,0 +1,16 @@
+{
+  "level": "confident",
+  "signals": {
+    "mode": "multimodal",
+    "signal": "fusion",
+    "top1_score": 0.949,
+    "top2_score": 0.5208,
+    "margin_rel": 0.4512,
+    "n_keywords": 1,
+    "scene_negative": false,
+    "score_thr": 0.4,
+    "margin_thr": 0
+  },
+  "reason": "检索分数/分差/视觉证据三信号均达标",
+  "constraint_overridden": false
+}

@@ -1,0 +1,5147 @@
+[
+  {
+    "video_id": "cbd",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_FASHION_003"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_FASHION_003",
+        "canonical_name": "CBD",
+        "text_score": 1.0,
+        "image_score": 0.7931,
+        "fusion_score": 0.8965,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_FASHION_004",
+        "canonical_name": "国贸",
+        "text_score": 0.2,
+        "image_score": 0.8128,
+        "fusion_score": 0.5064,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_005",
+        "canonical_name": "水立方",
+        "text_score": 0.0,
+        "image_score": 0.8907,
+        "fusion_score": 0.4454,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_001",
+        "canonical_name": "中关村",
+        "text_score": 0.0,
+        "image_score": 0.8866,
+        "fusion_score": 0.4433,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_002",
+        "canonical_name": "中关村科学城",
+        "text_score": 0.0,
+        "image_score": 0.8738,
+        "fusion_score": 0.4369,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_FASHION_003",
+        "canonical_name": "CBD",
+        "text_score": 1.0,
+        "image_score": 0.7931,
+        "fusion_score": 0.8965,
+        "ranking_score": 0.79655,
+        "retrieval_evidence": {
+          "name_hits": [
+            "CBD",
+            "北京CBD"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "中国尊",
+            "央视总部"
+          ],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_FASHION_004",
+        "canonical_name": "国贸",
+        "text_score": 0.2,
+        "image_score": 0.8128,
+        "fusion_score": 0.5064,
+        "ranking_score": 0.454926,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "CBD"
+          ],
+          "text_evidence_strength": 0.097052,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_005",
+        "canonical_name": "水立方",
+        "text_score": 0.0,
+        "image_score": 0.8907,
+        "fusion_score": 0.4454,
+        "ranking_score": 0.44535,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_001",
+        "canonical_name": "中关村",
+        "text_score": 0.0,
+        "image_score": 0.8866,
+        "fusion_score": 0.4433,
+        "ranking_score": 0.4433,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_002",
+        "canonical_name": "中关村科学城",
+        "text_score": 0.0,
+        "image_score": 0.8738,
+        "fusion_score": 0.4369,
+        "ranking_score": 0.4369,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": true,
+    "legacy_hit5": true,
+    "legacy_rr": 1.0,
+    "evidence_hit1": true,
+    "evidence_hit5": true,
+    "evidence_rr": 1.0
+  },
+  {
+    "video_id": "cbd1",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_FASHION_003"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_FASHION_003",
+        "canonical_name": "CBD",
+        "text_score": 1.0,
+        "image_score": 0.7724,
+        "fusion_score": 0.8862,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_FASHION_004",
+        "canonical_name": "国贸",
+        "text_score": 0.1667,
+        "image_score": 0.7974,
+        "fusion_score": 0.482,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_001",
+        "canonical_name": "中关村",
+        "text_score": 0.0,
+        "image_score": 0.8479,
+        "fusion_score": 0.4239,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_002",
+        "canonical_name": "中关村科学城",
+        "text_score": 0.0,
+        "image_score": 0.847,
+        "fusion_score": 0.4235,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.8374,
+        "fusion_score": 0.4187,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_FASHION_003",
+        "canonical_name": "CBD",
+        "text_score": 1.0,
+        "image_score": 0.7724,
+        "fusion_score": 0.8862,
+        "ranking_score": 0.7862,
+        "retrieval_evidence": {
+          "name_hits": [
+            "CBD",
+            "中央商务区",
+            "北京CBD"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "中国尊",
+            "商务区"
+          ],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_FASHION_004",
+        "canonical_name": "国贸",
+        "text_score": 0.1667,
+        "image_score": 0.7974,
+        "fusion_score": 0.482,
+        "ranking_score": 0.447226,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "CBD"
+          ],
+          "text_evidence_strength": 0.097052,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_001",
+        "canonical_name": "中关村",
+        "text_score": 0.0,
+        "image_score": 0.8479,
+        "fusion_score": 0.4239,
+        "ranking_score": 0.42395,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_002",
+        "canonical_name": "中关村科学城",
+        "text_score": 0.0,
+        "image_score": 0.847,
+        "fusion_score": 0.4235,
+        "ranking_score": 0.4235,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.8374,
+        "fusion_score": 0.4187,
+        "ranking_score": 0.4187,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": true,
+    "legacy_hit5": true,
+    "legacy_rr": 1.0,
+    "evidence_hit1": true,
+    "evidence_hit5": true,
+    "evidence_rr": 1.0
+  },
+  {
+    "video_id": "cbd2",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_FASHION_003"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_FASHION_003",
+        "canonical_name": "CBD",
+        "text_score": 1.0,
+        "image_score": 0.7876,
+        "fusion_score": 0.8938,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_FASHION_004",
+        "canonical_name": "国贸",
+        "text_score": 0.6667,
+        "image_score": 0.8024,
+        "fusion_score": 0.7345,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_002",
+        "canonical_name": "中关村科学城",
+        "text_score": 0.0,
+        "image_score": 0.8885,
+        "fusion_score": 0.4442,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_001",
+        "canonical_name": "中关村",
+        "text_score": 0.0,
+        "image_score": 0.8862,
+        "fusion_score": 0.4431,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_005",
+        "canonical_name": "水立方",
+        "text_score": 0.0,
+        "image_score": 0.8672,
+        "fusion_score": 0.4336,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_FASHION_004",
+        "canonical_name": "国贸",
+        "text_score": 0.6667,
+        "image_score": 0.8024,
+        "fusion_score": 0.7345,
+        "ranking_score": 0.8012,
+        "retrieval_evidence": {
+          "name_hits": [
+            "国贸"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "CBD",
+            "国贸三期"
+          ],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_FASHION_003",
+        "canonical_name": "CBD",
+        "text_score": 1.0,
+        "image_score": 0.7876,
+        "fusion_score": 0.8938,
+        "ranking_score": 0.7938,
+        "retrieval_evidence": {
+          "name_hits": [
+            "CBD",
+            "中央商务区"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "中国尊",
+            "商务区",
+            "国贸"
+          ],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_002",
+        "canonical_name": "中关村科学城",
+        "text_score": 0.0,
+        "image_score": 0.8885,
+        "fusion_score": 0.4442,
+        "ranking_score": 0.44425,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_001",
+        "canonical_name": "中关村",
+        "text_score": 0.0,
+        "image_score": 0.8862,
+        "fusion_score": 0.4431,
+        "ranking_score": 0.4431,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_005",
+        "canonical_name": "水立方",
+        "text_score": 0.0,
+        "image_score": 0.8672,
+        "fusion_score": 0.4336,
+        "ranking_score": 0.4336,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": true,
+    "legacy_hit5": true,
+    "legacy_rr": 1.0,
+    "evidence_hit1": false,
+    "evidence_hit5": true,
+    "evidence_rr": 0.5
+  },
+  {
+    "video_id": "cbd3",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_FASHION_003"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_FASHION_003",
+        "canonical_name": "CBD",
+        "text_score": 1.0,
+        "image_score": 0.7753,
+        "fusion_score": 0.8877,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_002",
+        "canonical_name": "中关村科学城",
+        "text_score": 0.0,
+        "image_score": 0.8776,
+        "fusion_score": 0.4388,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN_MODERN_001",
+        "canonical_name": "杭州西湖文化景观",
+        "text_score": 0.0,
+        "image_score": 0.8639,
+        "fusion_score": 0.432,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_001",
+        "canonical_name": "中关村",
+        "text_score": 0.0,
+        "image_score": 0.8629,
+        "fusion_score": 0.4315,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_015",
+        "canonical_name": "颐和园",
+        "text_score": 0.0,
+        "image_score": 0.8493,
+        "fusion_score": 0.4247,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_FASHION_003",
+        "canonical_name": "CBD",
+        "text_score": 1.0,
+        "image_score": 0.7753,
+        "fusion_score": 0.8877,
+        "ranking_score": 0.493171,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "中国尊",
+            "天际线"
+          ],
+          "text_evidence_strength": 0.211043,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_002",
+        "canonical_name": "中关村科学城",
+        "text_score": 0.0,
+        "image_score": 0.8776,
+        "fusion_score": 0.4388,
+        "ranking_score": 0.4388,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN_MODERN_001",
+        "canonical_name": "杭州西湖文化景观",
+        "text_score": 0.0,
+        "image_score": 0.8639,
+        "fusion_score": 0.432,
+        "ranking_score": 0.43195,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_001",
+        "canonical_name": "中关村",
+        "text_score": 0.0,
+        "image_score": 0.8629,
+        "fusion_score": 0.4315,
+        "ranking_score": 0.43145,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_015",
+        "canonical_name": "颐和园",
+        "text_score": 0.0,
+        "image_score": 0.8493,
+        "fusion_score": 0.4247,
+        "ranking_score": 0.42465,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": true,
+    "legacy_hit5": true,
+    "legacy_rr": 1.0,
+    "evidence_hit1": true,
+    "evidence_hit5": true,
+    "evidence_rr": 1.0
+  },
+  {
+    "video_id": "中关村1号",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "CN2_TECH_008"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_INNOV_001",
+        "canonical_name": "中关村",
+        "text_score": 1.0,
+        "image_score": 0.899,
+        "fusion_score": 0.9495,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_002",
+        "canonical_name": "天安门广场",
+        "text_score": 0.5,
+        "image_score": 0.7612,
+        "fusion_score": 0.6306,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_TECH_008",
+        "canonical_name": "中关村壹号",
+        "text_score": 1.0,
+        "image_score": 0.0,
+        "fusion_score": 0.5,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_002",
+        "canonical_name": "中关村科学城",
+        "text_score": 0.0,
+        "image_score": 0.9413,
+        "fusion_score": 0.4707,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_003",
+        "canonical_name": "奥林匹克公园",
+        "text_score": 0.0,
+        "image_score": 0.8824,
+        "fusion_score": 0.4412,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_INNOV_001",
+        "canonical_name": "中关村",
+        "text_score": 1.0,
+        "image_score": 0.899,
+        "fusion_score": 0.9495,
+        "ranking_score": 0.8495,
+        "retrieval_evidence": {
+          "name_hits": [
+            "中关村"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_TECH_008",
+        "canonical_name": "中关村壹号",
+        "text_score": 1.0,
+        "image_score": 0.0,
+        "fusion_score": 0.5,
+        "ranking_score": 0.4,
+        "retrieval_evidence": {
+          "name_hits": [
+            "中关村1号"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_002",
+        "canonical_name": "中关村科学城",
+        "text_score": 0.0,
+        "image_score": 0.9413,
+        "fusion_score": 0.4707,
+        "ranking_score": 0.47065,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_003",
+        "canonical_name": "奥林匹克公园",
+        "text_score": 0.0,
+        "image_score": 0.8824,
+        "fusion_score": 0.4412,
+        "ranking_score": 0.4412,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_FASHION_008",
+        "canonical_name": "郎园Station",
+        "text_score": 0.0,
+        "image_score": 0.8761,
+        "fusion_score": 0.438,
+        "ranking_score": 0.43805,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": false,
+    "legacy_hit5": true,
+    "legacy_rr": 0.3333333333333333,
+    "evidence_hit1": false,
+    "evidence_hit5": true,
+    "evidence_rr": 0.5
+  },
+  {
+    "video_id": "中关村国际创新中心",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "CN2_TECH_006"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_INNOV_001",
+        "canonical_name": "中关村",
+        "text_score": 0.5,
+        "image_score": 0.8265,
+        "fusion_score": 0.6633,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_TECH_006",
+        "canonical_name": "中关村国际创新中心",
+        "text_score": 1.0,
+        "image_score": 0.0,
+        "fusion_score": 0.5,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_009",
+        "canonical_name": "国家会议中心",
+        "text_score": 0.0,
+        "image_score": 0.8909,
+        "fusion_score": 0.4455,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_005",
+        "canonical_name": "宛平城",
+        "text_score": 0.0,
+        "image_score": 0.8555,
+        "fusion_score": 0.4278,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_008",
+        "canonical_name": "未来科学城",
+        "text_score": 0.0,
+        "image_score": 0.8556,
+        "fusion_score": 0.4278,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_INNOV_001",
+        "canonical_name": "中关村",
+        "text_score": 0.5,
+        "image_score": 0.8265,
+        "fusion_score": 0.6633,
+        "ranking_score": 0.81325,
+        "retrieval_evidence": {
+          "name_hits": [
+            "中关村"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "CN2_TECH_006",
+        "canonical_name": "中关村国际创新中心",
+        "text_score": 1.0,
+        "image_score": 0.0,
+        "fusion_score": 0.5,
+        "ranking_score": 0.4,
+        "retrieval_evidence": {
+          "name_hits": [
+            "中关村国际创新中心",
+            "国际创新中心"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_009",
+        "canonical_name": "国家会议中心",
+        "text_score": 0.0,
+        "image_score": 0.8909,
+        "fusion_score": 0.4455,
+        "ranking_score": 0.44545,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_008",
+        "canonical_name": "未来科学城",
+        "text_score": 0.0,
+        "image_score": 0.8556,
+        "fusion_score": 0.4278,
+        "ranking_score": 0.4278,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_RED_005",
+        "canonical_name": "宛平城",
+        "text_score": 0.0,
+        "image_score": 0.8555,
+        "fusion_score": 0.4278,
+        "ranking_score": 0.42775,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": false,
+    "legacy_hit5": true,
+    "legacy_rr": 0.5,
+    "evidence_hit1": false,
+    "evidence_hit5": true,
+    "evidence_rr": 0.5
+  },
+  {
+    "video_id": "中关村展示中心",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "CN2_TECH_005"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "CN2_ANCIENT_017",
+        "canonical_name": "长城",
+        "text_score": 1.0,
+        "image_score": 0.7886,
+        "fusion_score": 0.8943,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_005",
+        "canonical_name": "水立方",
+        "text_score": 0.0,
+        "image_score": 0.8478,
+        "fusion_score": 0.4239,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN_RED_003",
+        "canonical_name": "延安革命纪念馆",
+        "text_score": 0.0,
+        "image_score": 0.8382,
+        "fusion_score": 0.4191,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN_MODERN_001",
+        "canonical_name": "杭州西湖文化景观",
+        "text_score": 0.0,
+        "image_score": 0.8347,
+        "fusion_score": 0.4173,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_004",
+        "canonical_name": "鸟巢",
+        "text_score": 0.0,
+        "image_score": 0.8306,
+        "fusion_score": 0.4153,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "CN2_ANCIENT_017",
+        "canonical_name": "长城",
+        "text_score": 1.0,
+        "image_score": 0.7886,
+        "fusion_score": 0.8943,
+        "ranking_score": 0.7943,
+        "retrieval_evidence": {
+          "name_hits": [
+            "长城"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "CN2_TECH_005",
+        "canonical_name": "中关村国家自主创新示范区展示中心",
+        "text_score": 0.6667,
+        "image_score": 0.0,
+        "fusion_score": 0.3333,
+        "ranking_score": 0.4,
+        "retrieval_evidence": {
+          "name_hits": [
+            "展示中心"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_005",
+        "canonical_name": "水立方",
+        "text_score": 0.0,
+        "image_score": 0.8478,
+        "fusion_score": 0.4239,
+        "ranking_score": 0.4239,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN_RED_003",
+        "canonical_name": "延安革命纪念馆",
+        "text_score": 0.0,
+        "image_score": 0.8382,
+        "fusion_score": 0.4191,
+        "ranking_score": 0.4191,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN_MODERN_001",
+        "canonical_name": "杭州西湖文化景观",
+        "text_score": 0.0,
+        "image_score": 0.8347,
+        "fusion_score": 0.4173,
+        "ranking_score": 0.41735,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": false,
+    "legacy_hit5": false,
+    "legacy_rr": 0,
+    "evidence_hit1": false,
+    "evidence_hit5": true,
+    "evidence_rr": 0.5
+  },
+  {
+    "video_id": "京剧青衣",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_JINGWEI_003"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_JINGWEI_003",
+        "canonical_name": "京剧",
+        "text_score": 0.0,
+        "image_score": 0.8862,
+        "fusion_score": 0.4431,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_002",
+        "canonical_name": "平遥古城",
+        "text_score": 0.0,
+        "image_score": 0.8565,
+        "fusion_score": 0.4283,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_005",
+        "canonical_name": "大足石刻",
+        "text_score": 0.0,
+        "image_score": 0.8512,
+        "fusion_score": 0.4256,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN_FOLK_001",
+        "canonical_name": "粤剧",
+        "text_score": 0.0,
+        "image_score": 0.8499,
+        "fusion_score": 0.4249,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_025",
+        "canonical_name": "青城山",
+        "text_score": 0.0,
+        "image_score": 0.8328,
+        "fusion_score": 0.4164,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_JINGWEI_003",
+        "canonical_name": "京剧",
+        "text_score": 0.0,
+        "image_score": 0.8862,
+        "fusion_score": 0.4431,
+        "ranking_score": 0.4431,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_002",
+        "canonical_name": "平遥古城",
+        "text_score": 0.0,
+        "image_score": 0.8565,
+        "fusion_score": 0.4283,
+        "ranking_score": 0.42825,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_005",
+        "canonical_name": "大足石刻",
+        "text_score": 0.0,
+        "image_score": 0.8512,
+        "fusion_score": 0.4256,
+        "ranking_score": 0.4256,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN_FOLK_001",
+        "canonical_name": "粤剧",
+        "text_score": 0.0,
+        "image_score": 0.8499,
+        "fusion_score": 0.4249,
+        "ranking_score": 0.42495,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_025",
+        "canonical_name": "青城山",
+        "text_score": 0.0,
+        "image_score": 0.8328,
+        "fusion_score": 0.4164,
+        "ranking_score": 0.4164,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": true,
+    "legacy_hit5": true,
+    "legacy_rr": 1.0,
+    "evidence_hit1": true,
+    "evidence_hit5": true,
+    "evidence_rr": 1.0
+  },
+  {
+    "video_id": "人民大会堂",
+    "sample_type": "hard_unknown",
+    "gt_symbol_ids": [],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_RED_002",
+        "canonical_name": "天安门广场",
+        "text_score": 1.0,
+        "image_score": 0.8511,
+        "fusion_score": 0.9255,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_001",
+        "canonical_name": "北大红楼",
+        "text_score": 0.0,
+        "image_score": 0.9078,
+        "fusion_score": 0.4539,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_008",
+        "canonical_name": "中国人民革命军事博物馆",
+        "text_score": 0.0,
+        "image_score": 0.8979,
+        "fusion_score": 0.449,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_MODERN_002",
+        "canonical_name": "鼓浪屿：历史国际社区",
+        "text_score": 0.0,
+        "image_score": 0.8748,
+        "fusion_score": 0.4374,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.8738,
+        "fusion_score": 0.4369,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_RED_002",
+        "canonical_name": "天安门广场",
+        "text_score": 1.0,
+        "image_score": 0.8511,
+        "fusion_score": 0.9255,
+        "ranking_score": 0.82555,
+        "retrieval_evidence": {
+          "name_hits": [
+            "天安门"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_RED_001",
+        "canonical_name": "北大红楼",
+        "text_score": 0.0,
+        "image_score": 0.9078,
+        "fusion_score": 0.4539,
+        "ranking_score": 0.4539,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_RED_008",
+        "canonical_name": "中国人民革命军事博物馆",
+        "text_score": 0.0,
+        "image_score": 0.8979,
+        "fusion_score": 0.449,
+        "ranking_score": 0.44895,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_MODERN_002",
+        "canonical_name": "鼓浪屿：历史国际社区",
+        "text_score": 0.0,
+        "image_score": 0.8748,
+        "fusion_score": 0.4374,
+        "ranking_score": 0.4374,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.8738,
+        "fusion_score": 0.4369,
+        "ranking_score": 0.4369,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": false,
+    "legacy_hit5": false,
+    "legacy_rr": 0,
+    "evidence_hit1": false,
+    "evidence_hit5": false,
+    "evidence_rr": 0
+  },
+  {
+    "video_id": "人民大会堂1",
+    "sample_type": "hard_unknown",
+    "gt_symbol_ids": [],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_RED_002",
+        "canonical_name": "天安门广场",
+        "text_score": 1.0,
+        "image_score": 0.8175,
+        "fusion_score": 0.9087,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_001",
+        "canonical_name": "北大红楼",
+        "text_score": 0.0,
+        "image_score": 0.9077,
+        "fusion_score": 0.4538,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN_RED_002",
+        "canonical_name": "西柏坡纪念馆",
+        "text_score": 0.0,
+        "image_score": 0.8614,
+        "fusion_score": 0.4307,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN_RED_003",
+        "canonical_name": "延安革命纪念馆",
+        "text_score": 0.0,
+        "image_score": 0.8586,
+        "fusion_score": 0.4293,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_008",
+        "canonical_name": "中国人民革命军事博物馆",
+        "text_score": 0.0,
+        "image_score": 0.8545,
+        "fusion_score": 0.4273,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_RED_001",
+        "canonical_name": "北大红楼",
+        "text_score": 0.0,
+        "image_score": 0.9077,
+        "fusion_score": 0.4538,
+        "ranking_score": 0.45385,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN_RED_002",
+        "canonical_name": "西柏坡纪念馆",
+        "text_score": 0.0,
+        "image_score": 0.8614,
+        "fusion_score": 0.4307,
+        "ranking_score": 0.4307,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN_RED_003",
+        "canonical_name": "延安革命纪念馆",
+        "text_score": 0.0,
+        "image_score": 0.8586,
+        "fusion_score": 0.4293,
+        "ranking_score": 0.4293,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_RED_008",
+        "canonical_name": "中国人民革命军事博物馆",
+        "text_score": 0.0,
+        "image_score": 0.8545,
+        "fusion_score": 0.4273,
+        "ranking_score": 0.42725,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_009",
+        "canonical_name": "国家会议中心",
+        "text_score": 0.0,
+        "image_score": 0.8535,
+        "fusion_score": 0.4268,
+        "ranking_score": 0.42675,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": false,
+    "legacy_hit5": false,
+    "legacy_rr": 0,
+    "evidence_hit1": false,
+    "evidence_hit5": false,
+    "evidence_rr": 0
+  },
+  {
+    "video_id": "人民英雄纪念碑",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_RED_003"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_RED_002",
+        "canonical_name": "天安门广场",
+        "text_score": 1.0,
+        "image_score": 0.854,
+        "fusion_score": 0.927,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_003",
+        "canonical_name": "人民英雄纪念碑",
+        "text_score": 0.75,
+        "image_score": 0.8785,
+        "fusion_score": 0.8142,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_006",
+        "canonical_name": "中国国家博物馆",
+        "text_score": 0.25,
+        "image_score": 0.8002,
+        "fusion_score": 0.5251,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN_RED_002",
+        "canonical_name": "西柏坡纪念馆",
+        "text_score": 0.1667,
+        "image_score": 0.8712,
+        "fusion_score": 0.5189,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.8748,
+        "fusion_score": 0.4374,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_RED_003",
+        "canonical_name": "人民英雄纪念碑",
+        "text_score": 0.75,
+        "image_score": 0.8785,
+        "fusion_score": 0.8142,
+        "ranking_score": 0.83925,
+        "retrieval_evidence": {
+          "name_hits": [
+            "人民英雄纪念碑",
+            "纪念碑"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_RED_002",
+        "canonical_name": "天安门广场",
+        "text_score": 1.0,
+        "image_score": 0.854,
+        "fusion_score": 0.927,
+        "ranking_score": 0.827,
+        "retrieval_evidence": {
+          "name_hits": [
+            "天安门广场",
+            "天安门"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [
+            "广场"
+          ],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN_RED_002",
+        "canonical_name": "西柏坡纪念馆",
+        "text_score": 0.1667,
+        "image_score": 0.8712,
+        "fusion_score": 0.5189,
+        "ranking_score": 0.484126,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "纪念碑"
+          ],
+          "text_evidence_strength": 0.097052,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_RED_006",
+        "canonical_name": "中国国家博物馆",
+        "text_score": 0.25,
+        "image_score": 0.8002,
+        "fusion_score": 0.5251,
+        "ranking_score": 0.448626,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "天安门广场"
+          ],
+          "text_evidence_strength": 0.097052,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.8748,
+        "fusion_score": 0.4374,
+        "ranking_score": 0.4374,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": false,
+    "legacy_hit5": true,
+    "legacy_rr": 0.5,
+    "evidence_hit1": true,
+    "evidence_hit5": true,
+    "evidence_rr": 1.0
+  },
+  {
+    "video_id": "人民英雄纪念碑1",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_RED_003"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_RED_002",
+        "canonical_name": "天安门广场",
+        "text_score": 1.0,
+        "image_score": 0.7884,
+        "fusion_score": 0.8942,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_003",
+        "canonical_name": "人民英雄纪念碑",
+        "text_score": 0.75,
+        "image_score": 0.9254,
+        "fusion_score": 0.8377,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_006",
+        "canonical_name": "中国国家博物馆",
+        "text_score": 0.25,
+        "image_score": 0.7561,
+        "fusion_score": 0.503,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN_RED_002",
+        "canonical_name": "西柏坡纪念馆",
+        "text_score": 0.1667,
+        "image_score": 0.7581,
+        "fusion_score": 0.4624,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN_RED_003",
+        "canonical_name": "延安革命纪念馆",
+        "text_score": 0.0,
+        "image_score": 0.8718,
+        "fusion_score": 0.4359,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_RED_003",
+        "canonical_name": "人民英雄纪念碑",
+        "text_score": 0.75,
+        "image_score": 0.9254,
+        "fusion_score": 0.8377,
+        "ranking_score": 0.8627,
+        "retrieval_evidence": {
+          "name_hits": [
+            "人民英雄纪念碑",
+            "纪念碑"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_RED_002",
+        "canonical_name": "天安门广场",
+        "text_score": 1.0,
+        "image_score": 0.7884,
+        "fusion_score": 0.8942,
+        "ranking_score": 0.7942,
+        "retrieval_evidence": {
+          "name_hits": [
+            "天安门广场",
+            "天安门"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [
+            "广场"
+          ],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "CN_RED_003",
+        "canonical_name": "延安革命纪念馆",
+        "text_score": 0.0,
+        "image_score": 0.8718,
+        "fusion_score": 0.4359,
+        "ranking_score": 0.4359,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN_RED_002",
+        "canonical_name": "西柏坡纪念馆",
+        "text_score": 0.1667,
+        "image_score": 0.7581,
+        "fusion_score": 0.4624,
+        "ranking_score": 0.427576,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "纪念碑"
+          ],
+          "text_evidence_strength": 0.097052,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_RED_006",
+        "canonical_name": "中国国家博物馆",
+        "text_score": 0.25,
+        "image_score": 0.7561,
+        "fusion_score": 0.503,
+        "ranking_score": 0.426576,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "天安门广场"
+          ],
+          "text_evidence_strength": 0.097052,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      }
+    ],
+    "legacy_hit1": false,
+    "legacy_hit5": true,
+    "legacy_rr": 0.5,
+    "evidence_hit1": true,
+    "evidence_hit5": true,
+    "evidence_rr": 1.0
+  },
+  {
+    "video_id": "兔爷",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_JINGWEI_004"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_JINGWEI_004",
+        "canonical_name": "兔儿爷",
+        "text_score": 1.0,
+        "image_score": 0.8155,
+        "fusion_score": 0.9078,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_JINGWEI_003",
+        "canonical_name": "京剧",
+        "text_score": 0.0,
+        "image_score": 0.8705,
+        "fusion_score": 0.4353,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_002",
+        "canonical_name": "平遥古城",
+        "text_score": 0.0,
+        "image_score": 0.8685,
+        "fusion_score": 0.4343,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_025",
+        "canonical_name": "青城山",
+        "text_score": 0.0,
+        "image_score": 0.8494,
+        "fusion_score": 0.4247,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_026",
+        "canonical_name": "都江堰",
+        "text_score": 0.0,
+        "image_score": 0.8494,
+        "fusion_score": 0.4247,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_JINGWEI_004",
+        "canonical_name": "兔儿爷",
+        "text_score": 1.0,
+        "image_score": 0.8155,
+        "fusion_score": 0.9078,
+        "ranking_score": 0.80775,
+        "retrieval_evidence": {
+          "name_hits": [
+            "兔儿爷",
+            "兔爷"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_JINGWEI_003",
+        "canonical_name": "京剧",
+        "text_score": 0.0,
+        "image_score": 0.8705,
+        "fusion_score": 0.4353,
+        "ranking_score": 0.43525,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_002",
+        "canonical_name": "平遥古城",
+        "text_score": 0.0,
+        "image_score": 0.8685,
+        "fusion_score": 0.4343,
+        "ranking_score": 0.43425,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_025",
+        "canonical_name": "青城山",
+        "text_score": 0.0,
+        "image_score": 0.8494,
+        "fusion_score": 0.4247,
+        "ranking_score": 0.4247,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_026",
+        "canonical_name": "都江堰",
+        "text_score": 0.0,
+        "image_score": 0.8494,
+        "fusion_score": 0.4247,
+        "ranking_score": 0.4247,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": true,
+    "legacy_hit5": true,
+    "legacy_rr": 1.0,
+    "evidence_hit1": true,
+    "evidence_hit5": true,
+    "evidence_rr": 1.0
+  },
+  {
+    "video_id": "北大",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_INNOV_006"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "CN_MODERN_001",
+        "canonical_name": "杭州西湖文化景观",
+        "text_score": 1.0,
+        "image_score": 0.8823,
+        "fusion_score": 0.9411,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_015",
+        "canonical_name": "颐和园",
+        "text_score": 0.0,
+        "image_score": 0.8934,
+        "fusion_score": 0.4467,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_010",
+        "canonical_name": "角楼",
+        "text_score": 0.0,
+        "image_score": 0.8905,
+        "fusion_score": 0.4452,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_004",
+        "canonical_name": "苏州古典园林",
+        "text_score": 0.0,
+        "image_score": 0.8872,
+        "fusion_score": 0.4436,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_023",
+        "canonical_name": "峨眉山",
+        "text_score": 0.0,
+        "image_score": 0.8834,
+        "fusion_score": 0.4417,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "CN_MODERN_001",
+        "canonical_name": "杭州西湖文化景观",
+        "text_score": 1.0,
+        "image_score": 0.8823,
+        "fusion_score": 0.9411,
+        "ranking_score": 0.45115,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [
+            "湖面"
+          ],
+          "feature_hits": [],
+          "text_evidence_strength": 0.02,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_015",
+        "canonical_name": "颐和园",
+        "text_score": 0.0,
+        "image_score": 0.8934,
+        "fusion_score": 0.4467,
+        "ranking_score": 0.4467,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_010",
+        "canonical_name": "角楼",
+        "text_score": 0.0,
+        "image_score": 0.8905,
+        "fusion_score": 0.4452,
+        "ranking_score": 0.44525,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_004",
+        "canonical_name": "苏州古典园林",
+        "text_score": 0.0,
+        "image_score": 0.8872,
+        "fusion_score": 0.4436,
+        "ranking_score": 0.4436,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_023",
+        "canonical_name": "峨眉山",
+        "text_score": 0.0,
+        "image_score": 0.8834,
+        "fusion_score": 0.4417,
+        "ranking_score": 0.4417,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": false,
+    "legacy_hit5": false,
+    "legacy_rr": 0,
+    "evidence_hit1": false,
+    "evidence_hit5": false,
+    "evidence_rr": 0
+  },
+  {
+    "video_id": "北大1",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_INNOV_006"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_RED_004",
+        "canonical_name": "卢沟桥",
+        "text_score": 1.0,
+        "image_score": 0.8622,
+        "fusion_score": 0.9311,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_JINGWEI_007",
+        "canonical_name": "北京庙会",
+        "text_score": 0.3333,
+        "image_score": 0.8633,
+        "fusion_score": 0.5983,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_025",
+        "canonical_name": "青城山",
+        "text_score": 0.0,
+        "image_score": 0.9387,
+        "fusion_score": 0.4693,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_026",
+        "canonical_name": "都江堰",
+        "text_score": 0.0,
+        "image_score": 0.9387,
+        "fusion_score": 0.4693,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_002",
+        "canonical_name": "平遥古城",
+        "text_score": 0.0,
+        "image_score": 0.9264,
+        "fusion_score": 0.4632,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_JINGWEI_007",
+        "canonical_name": "北京庙会",
+        "text_score": 0.3333,
+        "image_score": 0.8633,
+        "fusion_score": 0.5983,
+        "ranking_score": 0.484411,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "红灯笼"
+          ],
+          "text_evidence_strength": 0.105522,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_025",
+        "canonical_name": "青城山",
+        "text_score": 0.0,
+        "image_score": 0.9387,
+        "fusion_score": 0.4693,
+        "ranking_score": 0.46935,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_026",
+        "canonical_name": "都江堰",
+        "text_score": 0.0,
+        "image_score": 0.9387,
+        "fusion_score": 0.4693,
+        "ranking_score": 0.46935,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_002",
+        "canonical_name": "平遥古城",
+        "text_score": 0.0,
+        "image_score": 0.9264,
+        "fusion_score": 0.4632,
+        "ranking_score": 0.4632,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_015",
+        "canonical_name": "颐和园",
+        "text_score": 0.0,
+        "image_score": 0.9252,
+        "fusion_score": 0.4626,
+        "ranking_score": 0.4626,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": false,
+    "legacy_hit5": false,
+    "legacy_rr": 0,
+    "evidence_hit1": false,
+    "evidence_hit5": false,
+    "evidence_rr": 0
+  },
+  {
+    "video_id": "国博",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_RED_006"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_RED_006",
+        "canonical_name": "中国国家博物馆",
+        "text_score": 1.0,
+        "image_score": 0.8352,
+        "fusion_score": 0.9176,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_002",
+        "canonical_name": "天安门广场",
+        "text_score": 0.5,
+        "image_score": 0.8682,
+        "fusion_score": 0.6841,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.8927,
+        "fusion_score": 0.4464,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_008",
+        "canonical_name": "中国人民革命军事博物馆",
+        "text_score": 0.0,
+        "image_score": 0.8876,
+        "fusion_score": 0.4438,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN_RED_002",
+        "canonical_name": "西柏坡纪念馆",
+        "text_score": 0.0,
+        "image_score": 0.8871,
+        "fusion_score": 0.4435,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_RED_006",
+        "canonical_name": "中国国家博物馆",
+        "text_score": 1.0,
+        "image_score": 0.8352,
+        "fusion_score": 0.9176,
+        "ranking_score": 0.8176,
+        "retrieval_evidence": {
+          "name_hits": [
+            "中国国家博物馆"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "国家博物馆"
+          ],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.8927,
+        "fusion_score": 0.4464,
+        "ranking_score": 0.44635,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_RED_002",
+        "canonical_name": "天安门广场",
+        "text_score": 0.5,
+        "image_score": 0.8682,
+        "fusion_score": 0.6841,
+        "ranking_score": 0.4441,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [
+            "广场"
+          ],
+          "feature_hits": [],
+          "text_evidence_strength": 0.02,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_RED_008",
+        "canonical_name": "中国人民革命军事博物馆",
+        "text_score": 0.0,
+        "image_score": 0.8876,
+        "fusion_score": 0.4438,
+        "ranking_score": 0.4438,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN_RED_002",
+        "canonical_name": "西柏坡纪念馆",
+        "text_score": 0.0,
+        "image_score": 0.8871,
+        "fusion_score": 0.4435,
+        "ranking_score": 0.44355,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": true,
+    "legacy_hit5": true,
+    "legacy_rr": 1.0,
+    "evidence_hit1": true,
+    "evidence_hit5": true,
+    "evidence_rr": 1.0
+  },
+  {
+    "video_id": "天安门",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_RED_002"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_RED_002",
+        "canonical_name": "天安门广场",
+        "text_score": 1.0,
+        "image_score": 0.9008,
+        "fusion_score": 0.9504,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_007",
+        "canonical_name": "香山双清别墅",
+        "text_score": 0.5,
+        "image_score": 0.7653,
+        "fusion_score": 0.6326,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.9232,
+        "fusion_score": 0.4616,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN_RED_002",
+        "canonical_name": "西柏坡纪念馆",
+        "text_score": 0.0,
+        "image_score": 0.9031,
+        "fusion_score": 0.4516,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_010",
+        "canonical_name": "角楼",
+        "text_score": 0.0,
+        "image_score": 0.9022,
+        "fusion_score": 0.4511,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_RED_002",
+        "canonical_name": "天安门广场",
+        "text_score": 1.0,
+        "image_score": 0.9008,
+        "fusion_score": 0.9504,
+        "ranking_score": 0.8504,
+        "retrieval_evidence": {
+          "name_hits": [
+            "天安门"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.9232,
+        "fusion_score": 0.4616,
+        "ranking_score": 0.4616,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN_RED_002",
+        "canonical_name": "西柏坡纪念馆",
+        "text_score": 0.0,
+        "image_score": 0.9031,
+        "fusion_score": 0.4516,
+        "ranking_score": 0.45155,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_010",
+        "canonical_name": "角楼",
+        "text_score": 0.0,
+        "image_score": 0.9022,
+        "fusion_score": 0.4511,
+        "ranking_score": 0.4511,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_015",
+        "canonical_name": "颐和园",
+        "text_score": 0.0,
+        "image_score": 0.8999,
+        "fusion_score": 0.45,
+        "ranking_score": 0.44995,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": true,
+    "legacy_hit5": true,
+    "legacy_rr": 1.0,
+    "evidence_hit1": true,
+    "evidence_hit5": true,
+    "evidence_rr": 1.0
+  },
+  {
+    "video_id": "天安门1",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_RED_002"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_RED_002",
+        "canonical_name": "天安门广场",
+        "text_score": 1.0,
+        "image_score": 0.8794,
+        "fusion_score": 0.9397,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_006",
+        "canonical_name": "中国国家博物馆",
+        "text_score": 0.2,
+        "image_score": 0.8388,
+        "fusion_score": 0.5194,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_007",
+        "canonical_name": "香山双清别墅",
+        "text_score": 0.2,
+        "image_score": 0.7888,
+        "fusion_score": 0.4944,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_JINGWEI_007",
+        "canonical_name": "北京庙会",
+        "text_score": 0.0667,
+        "image_score": 0.8645,
+        "fusion_score": 0.4656,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_008",
+        "canonical_name": "明清皇家陵寝",
+        "text_score": 0.0,
+        "image_score": 0.9281,
+        "fusion_score": 0.4641,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_RED_002",
+        "canonical_name": "天安门广场",
+        "text_score": 1.0,
+        "image_score": 0.8794,
+        "fusion_score": 0.9397,
+        "ranking_score": 0.8397,
+        "retrieval_evidence": {
+          "name_hits": [
+            "天安门广场",
+            "天安门"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [
+            "广场"
+          ],
+          "feature_hits": [
+            "华表"
+          ],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_JINGWEI_007",
+        "canonical_name": "北京庙会",
+        "text_score": 0.0667,
+        "image_score": 0.8645,
+        "fusion_score": 0.4656,
+        "ranking_score": 0.485011,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "红灯笼"
+          ],
+          "text_evidence_strength": 0.105522,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_RED_006",
+        "canonical_name": "中国国家博物馆",
+        "text_score": 0.2,
+        "image_score": 0.8388,
+        "fusion_score": 0.5194,
+        "ranking_score": 0.467926,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "天安门广场"
+          ],
+          "text_evidence_strength": 0.097052,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_008",
+        "canonical_name": "明清皇家陵寝",
+        "text_score": 0.0,
+        "image_score": 0.9281,
+        "fusion_score": 0.4641,
+        "ranking_score": 0.46405,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.9259,
+        "fusion_score": 0.4629,
+        "ranking_score": 0.46295,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": true,
+    "legacy_hit5": true,
+    "legacy_rr": 1.0,
+    "evidence_hit1": true,
+    "evidence_hit5": true,
+    "evidence_rr": 1.0
+  },
+  {
+    "video_id": "太和殿",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_GUDU_002"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 1.0,
+        "image_score": 0.8978,
+        "fusion_score": 0.9489,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_004",
+        "canonical_name": "祈年殿",
+        "text_score": 0.1667,
+        "image_score": 0.8746,
+        "fusion_score": 0.5206,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_004",
+        "canonical_name": "鸟巢",
+        "text_score": 0.1667,
+        "image_score": 0.802,
+        "fusion_score": 0.4843,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_002",
+        "canonical_name": "平遥古城",
+        "text_score": 0.0,
+        "image_score": 0.9253,
+        "fusion_score": 0.4627,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_025",
+        "canonical_name": "青城山",
+        "text_score": 0.0,
+        "image_score": 0.9178,
+        "fusion_score": 0.4589,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 1.0,
+        "image_score": 0.8978,
+        "fusion_score": 0.9489,
+        "ranking_score": 0.8489,
+        "retrieval_evidence": {
+          "name_hits": [
+            "太和殿"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_004",
+        "canonical_name": "祈年殿",
+        "text_score": 0.1667,
+        "image_score": 0.8746,
+        "fusion_score": 0.5206,
+        "ranking_score": 0.485826,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "雪景"
+          ],
+          "text_evidence_strength": 0.097052,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_002",
+        "canonical_name": "平遥古城",
+        "text_score": 0.0,
+        "image_score": 0.9253,
+        "fusion_score": 0.4627,
+        "ranking_score": 0.46265,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_025",
+        "canonical_name": "青城山",
+        "text_score": 0.0,
+        "image_score": 0.9178,
+        "fusion_score": 0.4589,
+        "ranking_score": 0.4589,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_026",
+        "canonical_name": "都江堰",
+        "text_score": 0.0,
+        "image_score": 0.9178,
+        "fusion_score": 0.4589,
+        "ranking_score": 0.4589,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": true,
+    "legacy_hit5": true,
+    "legacy_rr": 1.0,
+    "evidence_hit1": true,
+    "evidence_hit5": true,
+    "evidence_rr": 1.0
+  },
+  {
+    "video_id": "庙会",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_JINGWEI_007"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "CN2_ANCIENT_002",
+        "canonical_name": "平遥古城",
+        "text_score": 0.0,
+        "image_score": 0.8745,
+        "fusion_score": 0.4373,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.859,
+        "fusion_score": 0.4295,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_021",
+        "canonical_name": "泰山",
+        "text_score": 0.0,
+        "image_score": 0.856,
+        "fusion_score": 0.428,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_015",
+        "canonical_name": "颐和园",
+        "text_score": 0.0,
+        "image_score": 0.8508,
+        "fusion_score": 0.4254,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_012",
+        "canonical_name": "承德避暑山庄及其周围寺庙",
+        "text_score": 0.0,
+        "image_score": 0.8498,
+        "fusion_score": 0.4249,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "CN2_ANCIENT_002",
+        "canonical_name": "平遥古城",
+        "text_score": 0.0,
+        "image_score": 0.8745,
+        "fusion_score": 0.4373,
+        "ranking_score": 0.43725,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.859,
+        "fusion_score": 0.4295,
+        "ranking_score": 0.4295,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_021",
+        "canonical_name": "泰山",
+        "text_score": 0.0,
+        "image_score": 0.856,
+        "fusion_score": 0.428,
+        "ranking_score": 0.428,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_015",
+        "canonical_name": "颐和园",
+        "text_score": 0.0,
+        "image_score": 0.8508,
+        "fusion_score": 0.4254,
+        "ranking_score": 0.4254,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_012",
+        "canonical_name": "承德避暑山庄及其周围寺庙",
+        "text_score": 0.0,
+        "image_score": 0.8498,
+        "fusion_score": 0.4249,
+        "ranking_score": 0.4249,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": false,
+    "legacy_hit5": false,
+    "legacy_rr": 0,
+    "evidence_hit1": false,
+    "evidence_hit5": false,
+    "evidence_rr": 0
+  },
+  {
+    "video_id": "故宫",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_GUDU_001"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_GUDU_001",
+        "canonical_name": "故宫",
+        "text_score": 1.0,
+        "image_score": 0.8866,
+        "fusion_score": 0.9433,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.6667,
+        "image_score": 0.9417,
+        "fusion_score": 0.8042,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_004",
+        "canonical_name": "卢沟桥",
+        "text_score": 0.3333,
+        "image_score": 0.8777,
+        "fusion_score": 0.6055,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_002",
+        "canonical_name": "平遥古城",
+        "text_score": 0.0,
+        "image_score": 0.9332,
+        "fusion_score": 0.4666,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_008",
+        "canonical_name": "明清皇家陵寝",
+        "text_score": 0.0,
+        "image_score": 0.9314,
+        "fusion_score": 0.4657,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.6667,
+        "image_score": 0.9417,
+        "fusion_score": 0.8042,
+        "ranking_score": 0.87085,
+        "retrieval_evidence": {
+          "name_hits": [
+            "太和殿"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_001",
+        "canonical_name": "故宫",
+        "text_score": 1.0,
+        "image_score": 0.8866,
+        "fusion_score": 0.9433,
+        "ranking_score": 0.8433,
+        "retrieval_evidence": {
+          "name_hits": [
+            "故宫"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "宫殿"
+          ],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_002",
+        "canonical_name": "平遥古城",
+        "text_score": 0.0,
+        "image_score": 0.9332,
+        "fusion_score": 0.4666,
+        "ranking_score": 0.4666,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_008",
+        "canonical_name": "明清皇家陵寝",
+        "text_score": 0.0,
+        "image_score": 0.9314,
+        "fusion_score": 0.4657,
+        "ranking_score": 0.4657,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_015",
+        "canonical_name": "颐和园",
+        "text_score": 0.0,
+        "image_score": 0.9119,
+        "fusion_score": 0.456,
+        "ranking_score": 0.45595,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": true,
+    "legacy_hit5": true,
+    "legacy_rr": 1.0,
+    "evidence_hit1": false,
+    "evidence_hit5": true,
+    "evidence_rr": 0.5
+  },
+  {
+    "video_id": "故宫全景",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_GUDU_001"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_GUDU_001",
+        "canonical_name": "故宫",
+        "text_score": 1.0,
+        "image_score": 0.8688,
+        "fusion_score": 0.9344,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_002",
+        "canonical_name": "平遥古城",
+        "text_score": 0.0,
+        "image_score": 0.8967,
+        "fusion_score": 0.4484,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.8915,
+        "fusion_score": 0.4457,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_021",
+        "canonical_name": "泰山",
+        "text_score": 0.0,
+        "image_score": 0.886,
+        "fusion_score": 0.443,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_008",
+        "canonical_name": "明清皇家陵寝",
+        "text_score": 0.0,
+        "image_score": 0.8818,
+        "fusion_score": 0.4409,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_GUDU_001",
+        "canonical_name": "故宫",
+        "text_score": 1.0,
+        "image_score": 0.8688,
+        "fusion_score": 0.9344,
+        "ranking_score": 0.8344,
+        "retrieval_evidence": {
+          "name_hits": [
+            "故宫",
+            "故宫博物院"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "宫殿"
+          ],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_002",
+        "canonical_name": "平遥古城",
+        "text_score": 0.0,
+        "image_score": 0.8967,
+        "fusion_score": 0.4484,
+        "ranking_score": 0.44835,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.8915,
+        "fusion_score": 0.4457,
+        "ranking_score": 0.44575,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_021",
+        "canonical_name": "泰山",
+        "text_score": 0.0,
+        "image_score": 0.886,
+        "fusion_score": 0.443,
+        "ranking_score": 0.443,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_008",
+        "canonical_name": "明清皇家陵寝",
+        "text_score": 0.0,
+        "image_score": 0.8818,
+        "fusion_score": 0.4409,
+        "ranking_score": 0.4409,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": true,
+    "legacy_hit5": true,
+    "legacy_rr": 1.0,
+    "evidence_hit1": true,
+    "evidence_hit5": true,
+    "evidence_rr": 1.0
+  },
+  {
+    "video_id": "未来科学城",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_INNOV_008"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_INNOV_002",
+        "canonical_name": "中关村科学城",
+        "text_score": 0.0,
+        "image_score": 0.859,
+        "fusion_score": 0.4295,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN_MODERN_001",
+        "canonical_name": "杭州西湖文化景观",
+        "text_score": 0.0,
+        "image_score": 0.8541,
+        "fusion_score": 0.427,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_003",
+        "canonical_name": "奥林匹克公园",
+        "text_score": 0.0,
+        "image_score": 0.8467,
+        "fusion_score": 0.4234,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_005",
+        "canonical_name": "水立方",
+        "text_score": 0.0,
+        "image_score": 0.8418,
+        "fusion_score": 0.4209,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_001",
+        "canonical_name": "中关村",
+        "text_score": 0.0,
+        "image_score": 0.8346,
+        "fusion_score": 0.4173,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_INNOV_002",
+        "canonical_name": "中关村科学城",
+        "text_score": 0.0,
+        "image_score": 0.859,
+        "fusion_score": 0.4295,
+        "ranking_score": 0.4295,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN_MODERN_001",
+        "canonical_name": "杭州西湖文化景观",
+        "text_score": 0.0,
+        "image_score": 0.8541,
+        "fusion_score": 0.427,
+        "ranking_score": 0.42705,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_003",
+        "canonical_name": "奥林匹克公园",
+        "text_score": 0.0,
+        "image_score": 0.8467,
+        "fusion_score": 0.4234,
+        "ranking_score": 0.42335,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_005",
+        "canonical_name": "水立方",
+        "text_score": 0.0,
+        "image_score": 0.8418,
+        "fusion_score": 0.4209,
+        "ranking_score": 0.4209,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_001",
+        "canonical_name": "中关村",
+        "text_score": 0.0,
+        "image_score": 0.8346,
+        "fusion_score": 0.4173,
+        "ranking_score": 0.4173,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": false,
+    "legacy_hit5": false,
+    "legacy_rr": 0,
+    "evidence_hit1": false,
+    "evidence_hit5": false,
+    "evidence_rr": 0
+  },
+  {
+    "video_id": "清华",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_INNOV_007"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_INNOV_007",
+        "canonical_name": "清华大学",
+        "text_score": 1.0,
+        "image_score": 0.8022,
+        "fusion_score": 0.9011,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_021",
+        "canonical_name": "泰山",
+        "text_score": 0.0,
+        "image_score": 0.9087,
+        "fusion_score": 0.4543,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_027",
+        "canonical_name": "曲阜孔庙",
+        "text_score": 0.0,
+        "image_score": 0.9045,
+        "fusion_score": 0.4522,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_028",
+        "canonical_name": "曲阜孔林",
+        "text_score": 0.0,
+        "image_score": 0.9045,
+        "fusion_score": 0.4522,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_029",
+        "canonical_name": "曲阜孔府",
+        "text_score": 0.0,
+        "image_score": 0.9045,
+        "fusion_score": 0.4522,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_INNOV_007",
+        "canonical_name": "清华大学",
+        "text_score": 1.0,
+        "image_score": 0.8022,
+        "fusion_score": 0.9011,
+        "ranking_score": 0.8011,
+        "retrieval_evidence": {
+          "name_hits": [
+            "清华大学",
+            "清华"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "清华园"
+          ],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_021",
+        "canonical_name": "泰山",
+        "text_score": 0.0,
+        "image_score": 0.9087,
+        "fusion_score": 0.4543,
+        "ranking_score": 0.45435,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_027",
+        "canonical_name": "曲阜孔庙",
+        "text_score": 0.0,
+        "image_score": 0.9045,
+        "fusion_score": 0.4522,
+        "ranking_score": 0.45225,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_028",
+        "canonical_name": "曲阜孔林",
+        "text_score": 0.0,
+        "image_score": 0.9045,
+        "fusion_score": 0.4522,
+        "ranking_score": 0.45225,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_029",
+        "canonical_name": "曲阜孔府",
+        "text_score": 0.0,
+        "image_score": 0.9045,
+        "fusion_score": 0.4522,
+        "ranking_score": 0.45225,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": true,
+    "legacy_hit5": true,
+    "legacy_rr": 1.0,
+    "evidence_hit1": true,
+    "evidence_hit5": true,
+    "evidence_rr": 1.0
+  },
+  {
+    "video_id": "糖葫芦",
+    "sample_type": "easy_unknown",
+    "gt_symbol_ids": [],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_JINGWEI_003",
+        "canonical_name": "京剧",
+        "text_score": 0.0,
+        "image_score": 0.8045,
+        "fusion_score": 0.4022,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_005",
+        "canonical_name": "钟鼓楼",
+        "text_score": 0.0,
+        "image_score": 0.798,
+        "fusion_score": 0.399,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_002",
+        "canonical_name": "平遥古城",
+        "text_score": 0.0,
+        "image_score": 0.7965,
+        "fusion_score": 0.3982,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_021",
+        "canonical_name": "泰山",
+        "text_score": 0.0,
+        "image_score": 0.7907,
+        "fusion_score": 0.3953,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_RED_005",
+        "canonical_name": "宛平城",
+        "text_score": 0.0,
+        "image_score": 0.7904,
+        "fusion_score": 0.3952,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_JINGWEI_003",
+        "canonical_name": "京剧",
+        "text_score": 0.0,
+        "image_score": 0.8045,
+        "fusion_score": 0.4022,
+        "ranking_score": 0.40225,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_005",
+        "canonical_name": "钟鼓楼",
+        "text_score": 0.0,
+        "image_score": 0.798,
+        "fusion_score": 0.399,
+        "ranking_score": 0.399,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_002",
+        "canonical_name": "平遥古城",
+        "text_score": 0.0,
+        "image_score": 0.7965,
+        "fusion_score": 0.3982,
+        "ranking_score": 0.39825,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_021",
+        "canonical_name": "泰山",
+        "text_score": 0.0,
+        "image_score": 0.7907,
+        "fusion_score": 0.3953,
+        "ranking_score": 0.39535,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_RED_005",
+        "canonical_name": "宛平城",
+        "text_score": 0.0,
+        "image_score": 0.7904,
+        "fusion_score": 0.3952,
+        "ranking_score": 0.3952,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": false,
+    "legacy_hit5": false,
+    "legacy_rr": 0,
+    "evidence_hit1": false,
+    "evidence_hit5": false,
+    "evidence_rr": 0
+  },
+  {
+    "video_id": "胡同",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_JINGWEI_001"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_FASHION_002",
+        "canonical_name": "798艺术区",
+        "text_score": 0.0,
+        "image_score": 0.8143,
+        "fusion_score": 0.4072,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_MODERN_002",
+        "canonical_name": "鼓浪屿：历史国际社区",
+        "text_score": 0.0,
+        "image_score": 0.8082,
+        "fusion_score": 0.4041,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_023",
+        "canonical_name": "峨眉山",
+        "text_score": 0.0,
+        "image_score": 0.8042,
+        "fusion_score": 0.4021,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_024",
+        "canonical_name": "乐山大佛",
+        "text_score": 0.0,
+        "image_score": 0.8042,
+        "fusion_score": 0.4021,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_FASHION_008",
+        "canonical_name": "郎园Station",
+        "text_score": 0.0,
+        "image_score": 0.7996,
+        "fusion_score": 0.3998,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_FASHION_002",
+        "canonical_name": "798艺术区",
+        "text_score": 0.0,
+        "image_score": 0.8143,
+        "fusion_score": 0.4072,
+        "ranking_score": 0.40715,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_MODERN_002",
+        "canonical_name": "鼓浪屿：历史国际社区",
+        "text_score": 0.0,
+        "image_score": 0.8082,
+        "fusion_score": 0.4041,
+        "ranking_score": 0.4041,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_023",
+        "canonical_name": "峨眉山",
+        "text_score": 0.0,
+        "image_score": 0.8042,
+        "fusion_score": 0.4021,
+        "ranking_score": 0.4021,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_024",
+        "canonical_name": "乐山大佛",
+        "text_score": 0.0,
+        "image_score": 0.8042,
+        "fusion_score": 0.4021,
+        "ranking_score": 0.4021,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_FASHION_008",
+        "canonical_name": "郎园Station",
+        "text_score": 0.0,
+        "image_score": 0.7996,
+        "fusion_score": 0.3998,
+        "ranking_score": 0.3998,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": false,
+    "legacy_hit5": false,
+    "legacy_rr": 0,
+    "evidence_hit1": false,
+    "evidence_hit5": false,
+    "evidence_rr": 0
+  },
+  {
+    "video_id": "胡同1",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_JINGWEI_001"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_JINGWEI_001",
+        "canonical_name": "胡同",
+        "text_score": 1.0,
+        "image_score": 0.7955,
+        "fusion_score": 0.8978,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_JINGWEI_003",
+        "canonical_name": "京剧",
+        "text_score": 0.3333,
+        "image_score": 0.7854,
+        "fusion_score": 0.5594,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_009",
+        "canonical_name": "什刹海",
+        "text_score": 0.3333,
+        "image_score": 0.7371,
+        "fusion_score": 0.5352,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_JINGWEI_010",
+        "canonical_name": "大栅栏",
+        "text_score": 0.3333,
+        "image_score": 0.7067,
+        "fusion_score": 0.52,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_FASHION_008",
+        "canonical_name": "郎园Station",
+        "text_score": 0.0,
+        "image_score": 0.8195,
+        "fusion_score": 0.4098,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_JINGWEI_001",
+        "canonical_name": "胡同",
+        "text_score": 1.0,
+        "image_score": 0.7955,
+        "fusion_score": 0.8978,
+        "ranking_score": 0.79775,
+        "retrieval_evidence": {
+          "name_hits": [
+            "胡同"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "老北京"
+          ],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_JINGWEI_003",
+        "canonical_name": "京剧",
+        "text_score": 0.3333,
+        "image_score": 0.7854,
+        "fusion_score": 0.5594,
+        "ranking_score": 0.445461,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "京胡"
+          ],
+          "text_evidence_strength": 0.105522,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_009",
+        "canonical_name": "什刹海",
+        "text_score": 0.3333,
+        "image_score": 0.7371,
+        "fusion_score": 0.5352,
+        "ranking_score": 0.414071,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "胡同"
+          ],
+          "text_evidence_strength": 0.091043,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_FASHION_008",
+        "canonical_name": "郎园Station",
+        "text_score": 0.0,
+        "image_score": 0.8195,
+        "fusion_score": 0.4098,
+        "ranking_score": 0.40975,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_MODERN_002",
+        "canonical_name": "鼓浪屿：历史国际社区",
+        "text_score": 0.0,
+        "image_score": 0.8065,
+        "fusion_score": 0.4032,
+        "ranking_score": 0.40325,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": true,
+    "legacy_hit5": true,
+    "legacy_rr": 1.0,
+    "evidence_hit1": true,
+    "evidence_hit5": true,
+    "evidence_rr": 1.0
+  },
+  {
+    "video_id": "角楼",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_GUDU_010"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_GUDU_010",
+        "canonical_name": "角楼",
+        "text_score": 1.0,
+        "image_score": 0.9496,
+        "fusion_score": 0.9748,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_001",
+        "canonical_name": "故宫",
+        "text_score": 1.0,
+        "image_score": 0.8861,
+        "fusion_score": 0.943,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.9437,
+        "fusion_score": 0.4718,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_015",
+        "canonical_name": "颐和园",
+        "text_score": 0.0,
+        "image_score": 0.9298,
+        "fusion_score": 0.4649,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_004",
+        "canonical_name": "祈年殿",
+        "text_score": 0.0,
+        "image_score": 0.9178,
+        "fusion_score": 0.4589,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_GUDU_010",
+        "canonical_name": "角楼",
+        "text_score": 1.0,
+        "image_score": 0.9496,
+        "fusion_score": 0.9748,
+        "ranking_score": 0.8748,
+        "retrieval_evidence": {
+          "name_hits": [
+            "角楼"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_001",
+        "canonical_name": "故宫",
+        "text_score": 1.0,
+        "image_score": 0.8861,
+        "fusion_score": 0.943,
+        "ranking_score": 0.84305,
+        "retrieval_evidence": {
+          "name_hits": [
+            "故宫"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.9437,
+        "fusion_score": 0.4718,
+        "ranking_score": 0.47185,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_015",
+        "canonical_name": "颐和园",
+        "text_score": 0.0,
+        "image_score": 0.9298,
+        "fusion_score": 0.4649,
+        "ranking_score": 0.4649,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_004",
+        "canonical_name": "祈年殿",
+        "text_score": 0.0,
+        "image_score": 0.9178,
+        "fusion_score": 0.4589,
+        "ranking_score": 0.4589,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": true,
+    "legacy_hit5": true,
+    "legacy_rr": 1.0,
+    "evidence_hit1": true,
+    "evidence_hit5": true,
+    "evidence_rr": 1.0
+  },
+  {
+    "video_id": "角楼1",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_GUDU_010"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_GUDU_010",
+        "canonical_name": "角楼",
+        "text_score": 1.0,
+        "image_score": 0.9396,
+        "fusion_score": 0.9698,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_001",
+        "canonical_name": "故宫",
+        "text_score": 1.0,
+        "image_score": 0.8815,
+        "fusion_score": 0.9407,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_015",
+        "canonical_name": "颐和园",
+        "text_score": 0.0,
+        "image_score": 0.9173,
+        "fusion_score": 0.4587,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.9134,
+        "fusion_score": 0.4567,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_004",
+        "canonical_name": "苏州古典园林",
+        "text_score": 0.0,
+        "image_score": 0.9101,
+        "fusion_score": 0.4551,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_GUDU_010",
+        "canonical_name": "角楼",
+        "text_score": 1.0,
+        "image_score": 0.9396,
+        "fusion_score": 0.9698,
+        "ranking_score": 0.8698,
+        "retrieval_evidence": {
+          "name_hits": [
+            "角楼"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_001",
+        "canonical_name": "故宫",
+        "text_score": 1.0,
+        "image_score": 0.8815,
+        "fusion_score": 0.9407,
+        "ranking_score": 0.84075,
+        "retrieval_evidence": {
+          "name_hits": [
+            "故宫"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": false
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_015",
+        "canonical_name": "颐和园",
+        "text_score": 0.0,
+        "image_score": 0.9173,
+        "fusion_score": 0.4587,
+        "ranking_score": 0.45865,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_GUDU_002",
+        "canonical_name": "太和殿",
+        "text_score": 0.0,
+        "image_score": 0.9134,
+        "fusion_score": 0.4567,
+        "ranking_score": 0.4567,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "CN2_ANCIENT_004",
+        "canonical_name": "苏州古典园林",
+        "text_score": 0.0,
+        "image_score": 0.9101,
+        "fusion_score": 0.4551,
+        "ranking_score": 0.45505,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": true,
+    "legacy_hit5": true,
+    "legacy_rr": 1.0,
+    "evidence_hit1": true,
+    "evidence_hit5": true,
+    "evidence_rr": 1.0
+  },
+  {
+    "video_id": "鸟巢",
+    "sample_type": "known",
+    "gt_symbol_ids": [
+      "BJ_INNOV_004"
+    ],
+    "legacy_topk": [
+      {
+        "symbol_id": "BJ_INNOV_005",
+        "canonical_name": "水立方",
+        "text_score": 1.0,
+        "image_score": 0.8991,
+        "fusion_score": 0.9496,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_004",
+        "canonical_name": "鸟巢",
+        "text_score": 1.0,
+        "image_score": 0.8868,
+        "fusion_score": 0.9434,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_003",
+        "canonical_name": "奥林匹克公园",
+        "text_score": 1.0,
+        "image_score": 0.8579,
+        "fusion_score": 0.9289,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_009",
+        "canonical_name": "国家会议中心",
+        "text_score": 0.5,
+        "image_score": 0.8155,
+        "fusion_score": 0.6578,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      },
+      {
+        "symbol_id": "BJ_INNOV_002",
+        "canonical_name": "中关村科学城",
+        "text_score": 0.0,
+        "image_score": 0.8397,
+        "fusion_score": 0.4199,
+        "ranking_score": null,
+        "retrieval_evidence": {}
+      }
+    ],
+    "evidence_topk": [
+      {
+        "symbol_id": "BJ_INNOV_005",
+        "canonical_name": "水立方",
+        "text_score": 1.0,
+        "image_score": 0.8991,
+        "fusion_score": 0.9496,
+        "ranking_score": 0.84955,
+        "retrieval_evidence": {
+          "name_hits": [
+            "水立方"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_004",
+        "canonical_name": "鸟巢",
+        "text_score": 1.0,
+        "image_score": 0.8868,
+        "fusion_score": 0.9434,
+        "ranking_score": 0.8434,
+        "retrieval_evidence": {
+          "name_hits": [
+            "鸟巢"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_003",
+        "canonical_name": "奥林匹克公园",
+        "text_score": 1.0,
+        "image_score": 0.8579,
+        "fusion_score": 0.9289,
+        "ranking_score": 0.82895,
+        "retrieval_evidence": {
+          "name_hits": [
+            "奥林匹克公园"
+          ],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0.8,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_009",
+        "canonical_name": "国家会议中心",
+        "text_score": 0.5,
+        "image_score": 0.8155,
+        "fusion_score": 0.6578,
+        "ranking_score": 0.456276,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [
+            "奥林匹克公园"
+          ],
+          "text_evidence_strength": 0.097052,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": true,
+          "in_image_pool": true
+        }
+      },
+      {
+        "symbol_id": "BJ_INNOV_002",
+        "canonical_name": "中关村科学城",
+        "text_score": 0.0,
+        "image_score": 0.8397,
+        "fusion_score": 0.4199,
+        "ranking_score": 0.41985,
+        "retrieval_evidence": {
+          "name_hits": [],
+          "clear_text_exact_hits": [],
+          "generic_hits": [],
+          "feature_hits": [],
+          "text_evidence_strength": 0,
+          "identity_verified": false,
+          "strategy": "evidence_v1",
+          "score_semantics": "ranking_only_not_probability",
+          "gate_score_source": "legacy_fusion_not_recalibrated",
+          "in_text_pool": false,
+          "in_image_pool": true
+        }
+      }
+    ],
+    "legacy_hit1": false,
+    "legacy_hit5": true,
+    "legacy_rr": 0.5,
+    "evidence_hit1": false,
+    "evidence_hit5": true,
+    "evidence_rr": 0.5
+  }
+]

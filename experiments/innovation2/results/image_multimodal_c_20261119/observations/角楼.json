@@ -1,0 +1,23 @@
+{
+  "scene_description_raw": "{\"scene\":\"冬季晴朗天气下，一座传统中式角楼建筑位于结冰的湖面旁，背景是城墙和树木\",\"subject\":\"一座位于湖边的传统中式角楼建筑\",\"visible_features\":[\"多层飞檐屋顶，红色木质结构，灰色瓦片，石砌基座，前方是结冰的湖面\"],\"background\":[\"结冰的湖面，石砌护岸，城墙，光秃的树木，蓝天\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "scene_description": "冬季晴朗天气下，一座传统中式角楼建筑位于结冰的湖面旁，背景是城墙和树木\n一座位于湖边的传统中式角楼建筑\n多层飞檐屋顶，红色木质结构，灰色瓦片，石砌基座，前方是结冰的湖面",
+  "structured_scene": {
+    "scene": "冬季晴朗天气下，一座传统中式角楼建筑位于结冰的湖面旁，背景是城墙和树木",
+    "subject": "一座位于湖边的传统中式角楼建筑",
+    "visible_features": [
+      "多层飞檐屋顶，红色木质结构，灰色瓦片，石砌基座，前方是结冰的湖面"
+    ],
+    "background": [
+      "结冰的湖面，石砌护岸，城墙，光秃的树木，蓝天"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:45:17.833274+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于科技与创新文化、现代城市与国际文化。\n核心符号：中关村国家自主创新示范区展示中心\n价值指向：画面中可见标有“展示中心”字样的建筑，结合其现代化建筑风格、周边展示的各国国旗以及背景中具有创新设计感的流线型建筑，符合中关村国家自主创新示范区展示中心的视觉特征，该建筑是集中展示创新成果的展馆，体现了科技与创新文化；同时，展示中心作为国际交流平台，周边的国旗阵列也指向现代城市与国际文化。",
+  "response_model": "glm-4v",
+  "response_id": "20261119164518b89c52233ad44f17",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73725, prompt_tokens_details=PromptTokensDetails(cached_tokens=65542), completion_tokens=117, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73842)",
+  "seconds": 80.87892580032349
+}

@@ -1,0 +1,65 @@
+{
+  "video_id": "糖葫芦",
+  "mode": "image",
+  "status": "completed",
+  "outcome": "wrong_identity",
+  "reference_names": [
+    "冰糖葫芦"
+  ],
+  "reference_ids": [
+    "OUTSIDE_KB:冰糖葫芦"
+  ],
+  "predicted_names": [
+    "冰糖葫芦儿"
+  ],
+  "predicted_ids": [
+    "UNRESOLVED:冰糖葫芦儿"
+  ],
+  "main_correct": false,
+  "strict_correct": false,
+  "reference_extra_entities": [
+    "UNRESOLVED:冰糖葫芦儿"
+  ],
+  "tp": 0,
+  "fp": 1,
+  "fn": 1,
+  "predicted_categories": [
+    "FOLK"
+  ],
+  "reference_categories": [
+    "FOLK"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": null,
+  "candidate_ids": [
+    "BJ_JINGWEI_001",
+    "BJ_JINGWEI_007",
+    "BJ_GUDU_002"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于民族与民俗文化。\n核心符号：冰糖葫芦儿\n价值指向：画面中可见街头售卖的冰糖葫芦，这是一种中国传统小吃，属于民族与民俗文化范畴。冰糖葫芦通常由山楂等水果串在竹签上，裹上糖稀制成，是具有代表性的民俗食品。画面中的字幕也明确标注了“冰糖葫芦儿”，进一步确认了这一文化符号。背景为城市街道，有车辆和行人，但主要文化符号是冰糖葫芦这一民俗食品。",
+  "c_layer_natural_language": "：该场景隶属于民族与民俗文化。\n核心符号：冰糖葫芦儿\n价值指向：画面中可见街头售卖的冰糖葫芦，这是一种中国传统小吃，属于民族与民俗文化范畴。冰糖葫芦通常由山楂等水果串在竹签上，裹上糖稀制成，是具有代表性的民俗食品。画面中的字幕也明确标注了“冰糖葫芦儿”，进一步确认了这一文化符号。背景为城市街道，有车辆和行人，但主要文化符号是冰糖葫芦这一民俗食品。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/糖葫芦/image.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:59:44.290920+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于民族与民俗文化。\n核心符号：冰糖葫芦儿\n价值指向：画面中可见街头售卖的冰糖葫芦，这是一种中国传统小吃，属于民族与民俗文化范畴。冰糖葫芦通常由山楂等水果串在竹签上，裹上糖稀制成，是具有代表性的民俗食品。画面中的字幕也明确标注了“冰糖葫芦儿”，进一步确认了这一文化符号。背景为城市街道，有车辆和行人，但主要文化符号是冰糖葫芦这一民俗食品。",
+      "response_model": "glm-4v",
+      "response_id": "202611191659449ec2e6e238dc47d0",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=51901, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=113, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=52014)",
+      "seconds": 66.15011668205261
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

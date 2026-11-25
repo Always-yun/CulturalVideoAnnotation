@@ -1,0 +1,29 @@
+{
+  "scene_description_raw": "{\"scene\":\"室外，白天，晴朗天空下的大型建筑正面\",\"subject\":\"建筑正面\",\"visible_features\":[\"浅色石柱，浅色墙面，深色窗框，红色圆形国徽，国徽上有金色五角星和金色图案，顶部有红色旗帜\"],\"background\":[\"蓝天\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "scene_description": "室外，白天，晴朗天空下的大型建筑正面\n建筑正面\n浅色石柱，浅色墙面，深色窗框，红色圆形国徽，国徽上有金色五角星和金色图案，顶部有红色旗帜\n【背景辅助证据；不能单独证明主体身份】\n蓝天",
+  "scene_evidence_version": "hybrid_v3",
+  "structured_scene": {
+    "scene": "室外，白天，晴朗天空下的大型建筑正面",
+    "subject": "建筑正面",
+    "visible_features": [
+      "浅色石柱，浅色墙面，深色窗框，红色圆形国徽，国徽上有金色五角星和金色图案，顶部有红色旗帜"
+    ],
+    "background": [
+      "蓝天"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "not_needed",
+    "calls": 0,
+    "items": []
+  },
+  "retrieval_scene_text": "1.【场景描述】：晴朗白天，展示中国某重要建筑外立面，主体为带有国徽的庄严建筑。\n2.【文化视觉元素】：中华人民共和国国徽、人民大会堂（建筑本身）。\n室外，白天，晴朗天空下的大型建筑正面\n建筑正面\n浅色石柱，浅色墙面，深色窗框，红色圆形国徽，国徽上有金色五角星和金色图案，顶部有红色旗帜\n【背景辅助证据；不能单独证明主体身份】\n蓝天",
+  "hypothesis_provenance": {
+    "source": "cached_legacy_pass1",
+    "text": "1.【场景描述】：晴朗白天，展示中国某重要建筑外立面，主体为带有国徽的庄严建筑。\n2.【文化视觉元素】：中华人民共和国国徽、人民大会堂（建筑本身）。",
+    "use": "retrieval_only_not_identity_evidence"
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "prompt_en": "T2",
+    "dimension": [
+      "imaging_quality",
+      "subject_consistency"
+    ],
+    "video_list": [
+      "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-1.mp4"
+    ]
+  }
+]

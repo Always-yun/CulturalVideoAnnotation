@@ -1,0 +1,7 @@
+{
+  "method": "32x32 grayscale DCT pHash, top-left 8x8 threshold median excluding DC; Hamming <=6 flags for manual inspection, not duplicate proof",
+  "reference_photos": 30,
+  "frames": 120,
+  "flagged": [],
+  "action": "descriptive audit only; no removal or parameter change after freeze"
+}

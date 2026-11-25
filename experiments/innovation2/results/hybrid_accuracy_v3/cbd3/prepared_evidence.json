@@ -1,0 +1,31 @@
+{
+  "scene_description_raw": "{\"scene\":\"黄昏时分城市景观，天空呈橙黄色，城市灯光逐渐亮起\",\"subject\":\"城市建筑群与交通流\",\"visible_features\":[\"高楼大厦、蜿蜒河流、多层立交桥、车流光轨、远山轮廓\"],\"background\":[\"渐变橙黄色天空、连绵山脉\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[\"可能为中国一线城市CBD，因画面中出现独特高塔建筑；具体地标名称无法确认\"]}",
+  "scene_description": "黄昏时分城市景观，天空呈橙黄色，城市灯光逐渐亮起\n城市建筑群与交通流\n高楼大厦、蜿蜒河流、多层立交桥、车流光轨、远山轮廓\n【背景辅助证据；不能单独证明主体身份】\n渐变橙黄色天空、连绵山脉",
+  "scene_evidence_version": "hybrid_v3",
+  "structured_scene": {
+    "scene": "黄昏时分城市景观，天空呈橙黄色，城市灯光逐渐亮起",
+    "subject": "城市建筑群与交通流",
+    "visible_features": [
+      "高楼大厦、蜿蜒河流、多层立交桥、车流光轨、远山轮廓"
+    ],
+    "background": [
+      "渐变橙黄色天空、连绵山脉"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": [
+      "可能为中国一线城市CBD，因画面中出现独特高塔建筑；具体地标名称无法确认"
+    ]
+  },
+  "text_recognition": {
+    "status": "not_needed",
+    "calls": 0,
+    "items": []
+  },
+  "retrieval_scene_text": "1.【场景描述】：黄昏时分，北京城市天际线与交通枢纽的延时摄影，展现从日落到夜晚的都市光影变化。\n2.【文化视觉元素】：中国尊（北京中信大厦）、通惠河、CBD建筑群、城市道路、山脉。\n黄昏时分城市景观，天空呈橙黄色，城市灯光逐渐亮起\n城市建筑群与交通流\n高楼大厦、蜿蜒河流、多层立交桥、车流光轨、远山轮廓\n【背景辅助证据；不能单独证明主体身份】\n渐变橙黄色天空、连绵山脉",
+  "hypothesis_provenance": {
+    "source": "cached_legacy_pass1",
+    "text": "1.【场景描述】：黄昏时分，北京城市天际线与交通枢纽的延时摄影，展现从日落到夜晚的都市光影变化。\n2.【文化视觉元素】：中国尊（北京中信大厦）、通惠河、CBD建筑群、城市道路、山脉。",
+    "use": "retrieval_only_not_identity_evidence"
+  }
+}

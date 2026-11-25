@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:52:51.581296+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：宝轮寺塔\n价值指向：画面中可见一座具有多层檐角结构的古塔，其建筑风格为典型的中国传统佛塔，塔身呈方形，层层收分，具有明显的中国古代建筑特征。塔的倒影映在湖面上，周围环绕着茂密的树木，营造出宁静的园林景观。从建筑形制和周边环境判断，这应是一座历史悠久的古塔，属于古城与历史文化范畴。虽然候选知识中提到杭州西湖的雷峰塔，但画面中的塔形制与雷峰塔有所不同，更接近河南三门峡的宝轮寺塔，因此核心符号确定为宝轮寺塔。画面中未出现红色文化、民族与民俗文化、科技与创新文化、现代城市与国际文化的典型符号。",
+  "response_model": "glm-4v",
+  "response_id": "202611191652511e4b0dd1c26b4fdd",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=65385, prompt_tokens_details=PromptTokensDetails(cached_tokens=64955), completion_tokens=177, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=65562)",
+  "seconds": 41.4836368560791
+}

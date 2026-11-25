@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_GUDU_003",
+    "canonical_name": "天坛",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6326904296875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6327,
+    "text_score": 0.0,
+    "fusion_score": 0.6327
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_028",
+    "canonical_name": "曲阜孔林",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6275634765625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6276,
+    "text_score": 0.0,
+    "fusion_score": 0.6276
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_008",
+    "canonical_name": "明清皇家陵寝",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6268310546875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6268,
+    "text_score": 0.0,
+    "fusion_score": 0.6268
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_027",
+    "canonical_name": "曲阜孔庙",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6258544921875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6259,
+    "text_score": 0.0,
+    "fusion_score": 0.6259
+  },
+  {
+    "symbol_id": "CN_FOLK_001",
+    "canonical_name": "粤剧",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.6256103515625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6256,
+    "text_score": 0.0,
+    "fusion_score": 0.6256
+  }
+]

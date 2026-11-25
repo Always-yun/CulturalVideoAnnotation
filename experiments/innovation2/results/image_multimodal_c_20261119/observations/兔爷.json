@@ -1,0 +1,39 @@
+{
+  "scene_description_raw": "{\"scene\":\"室内，光线明亮，有砖墙和木质架子，架上摆满物品\",\"subject\":\"穿红色中式上衣的男子，双手在操作白色小物件\",\"visible_features\":[\"短发，红色中式上衣，双手持物操作\"],\"background\":[\"左侧木质架子，上面有彩色玩偶、盒子、罐子；中间有砖墙和红色竖幅；右侧有彩色玩偶和红色布料\"],\"readable_text\":[{\"text\":\"兔爷供\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"竖幅\",\"time_ratio\":0.5,\"bbox\":[0.45,0,0.535,0.55]}],\"uncertain_entities\":[]}",
+  "scene_description": "室内，光线明亮，有砖墙和木质架子，架上摆满物品\n穿红色中式上衣的男子，双手在操作白色小物件\n短发，红色中式上衣，双手持物操作\n可读文字：兔爷供",
+  "structured_scene": {
+    "scene": "室内，光线明亮，有砖墙和木质架子，架上摆满物品",
+    "subject": "穿红色中式上衣的男子，双手在操作白色小物件",
+    "visible_features": [
+      "短发，红色中式上衣，双手持物操作"
+    ],
+    "background": [
+      "左侧木质架子，上面有彩色玩偶、盒子、罐子；中间有砖墙和红色竖幅；右侧有彩色玩偶和红色布料"
+    ],
+    "readable_text": [
+      {
+        "text": "兔爷供",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "竖幅",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.45,
+          0,
+          0.535,
+          0.55
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_GUDU_001",
+    "canonical_name": "故宫",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.803497314453125,
+    "reason": "关键词/别名命中：故宫",
+    "image_score": 0.607,
+    "text_score": 1.0,
+    "fusion_score": 0.8035
+  },
+  {
+    "symbol_id": "BJ_GUDU_010",
+    "canonical_name": "角楼",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.8033447265625,
+    "reason": "关键词/别名命中：角楼",
+    "image_score": 0.6067,
+    "text_score": 1.0,
+    "fusion_score": 0.8033
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_007",
+    "canonical_name": "登封“天地之中”历史古迹",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.3145751953125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6292,
+    "text_score": 0.0,
+    "fusion_score": 0.3146
+  },
+  {
+    "symbol_id": "CN_FOLK_002",
+    "canonical_name": "藏族唐卡（勉唐画派）",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.311431884765625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6229,
+    "text_score": 0.0,
+    "fusion_score": 0.3114
+  },
+  {
+    "symbol_id": "CN2_TECH_007",
+    "canonical_name": "中关村广场",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.311248779296875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6225,
+    "text_score": 0.0,
+    "fusion_score": 0.3112
+  }
+]

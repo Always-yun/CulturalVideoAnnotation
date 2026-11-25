@@ -1,0 +1,175 @@
+{
+  "source_file": "experiments/innovation1/four_group_v2/vbench/results_2026-11-24-13:24:54_eval_results.json",
+  "scale": {
+    "VBench_IQ": "MUSIQ 0-100",
+    "VBench_SC": "DINO consistency 0-1"
+  },
+  "details": [
+    {
+      "task_id": "T01",
+      "group": "G1",
+      "video_id": "T01_G1_r01",
+      "VBench_IQ": 75.21365042655698,
+      "VBench_SC": 0.9893136637482217
+    },
+    {
+      "task_id": "T01",
+      "group": "G2",
+      "video_id": "T01_G2_r01",
+      "VBench_IQ": 68.61778471546788,
+      "VBench_SC": 0.9809625645478567
+    },
+    {
+      "task_id": "T01",
+      "group": "G3",
+      "video_id": "T01_G3_r01",
+      "VBench_IQ": 77.80558678411668,
+      "VBench_SC": 0.9759771952299567
+    },
+    {
+      "task_id": "T01",
+      "group": "G4",
+      "video_id": "T01_G4_r01",
+      "VBench_IQ": 79.02752328688099,
+      "VBench_SC": 0.9838313787448697
+    },
+    {
+      "task_id": "T04",
+      "group": "G1",
+      "video_id": "T04_G1_r01",
+      "VBench_IQ": 79.1440946517452,
+      "VBench_SC": 0.9793054800692612
+    },
+    {
+      "task_id": "T04",
+      "group": "G2",
+      "video_id": "T04_G2_r01",
+      "VBench_IQ": 76.21210528958228,
+      "VBench_SC": 0.9731331581507272
+    },
+    {
+      "task_id": "T04",
+      "group": "G3",
+      "video_id": "T04_G3_r01",
+      "VBench_IQ": 76.53233743483021,
+      "VBench_SC": 0.9839020318132106
+    },
+    {
+      "task_id": "T04",
+      "group": "G4",
+      "video_id": "T04_G4_r01",
+      "VBench_IQ": 77.06743689506284,
+      "VBench_SC": 0.9780609859683649
+    },
+    {
+      "task_id": "T06",
+      "group": "G1",
+      "video_id": "T06_G1_r01",
+      "VBench_IQ": 60.94537947254796,
+      "VBench_SC": 0.9726352485699382
+    },
+    {
+      "task_id": "T06",
+      "group": "G2",
+      "video_id": "T06_G2_r01",
+      "VBench_IQ": 59.971506610993416,
+      "VBench_SC": 0.9746101093970663
+    },
+    {
+      "task_id": "T06",
+      "group": "G3",
+      "video_id": "T06_G3_r01",
+      "VBench_IQ": 68.15342955435476,
+      "VBench_SC": 0.9649470169854358
+    },
+    {
+      "task_id": "T06",
+      "group": "G4",
+      "video_id": "T06_G4_r01",
+      "VBench_IQ": 70.50035698183122,
+      "VBench_SC": 0.9918744198190488
+    },
+    {
+      "task_id": "T07",
+      "group": "G1",
+      "video_id": "T07_G1_r01",
+      "VBench_IQ": 75.61558182008805,
+      "VBench_SC": 0.9267533276139236
+    },
+    {
+      "task_id": "T07",
+      "group": "G2",
+      "video_id": "T07_G2_r01",
+      "VBench_IQ": 71.86860355254143,
+      "VBench_SC": 0.8995239618347912
+    },
+    {
+      "task_id": "T07",
+      "group": "G3",
+      "video_id": "T07_G3_r01",
+      "VBench_IQ": 73.77558068306216,
+      "VBench_SC": 0.9452317211686111
+    },
+    {
+      "task_id": "T07",
+      "group": "G4",
+      "video_id": "T07_G4_r01",
+      "VBench_IQ": 74.71830780275407,
+      "VBench_SC": 0.8940655019709735
+    },
+    {
+      "task_id": "T10",
+      "group": "G1",
+      "video_id": "T10_G1_r01",
+      "VBench_IQ": 80.67983547333748,
+      "VBench_SC": 0.9911038626015671
+    },
+    {
+      "task_id": "T10",
+      "group": "G2",
+      "video_id": "T10_G2_r01",
+      "VBench_IQ": 80.2892265935098,
+      "VBench_SC": 0.9888950564512392
+    },
+    {
+      "task_id": "T10",
+      "group": "G3",
+      "video_id": "T10_G3_r01",
+      "VBench_IQ": 78.82703368894515,
+      "VBench_SC": 0.9541357951920207
+    },
+    {
+      "task_id": "T10",
+      "group": "G4",
+      "video_id": "T10_G4_r01",
+      "VBench_IQ": 79.65476017613565,
+      "VBench_SC": 0.962964318389815
+    }
+  ],
+  "groups": {
+    "G1": {
+      "tasks": 5,
+      "VBench_IQ_mean": 74.31970836885513,
+      "VBench_SC_mean": 0.9718223165205824,
+      "repeat_sd": null
+    },
+    "G2": {
+      "tasks": 5,
+      "VBench_IQ_mean": 71.39184535241895,
+      "VBench_SC_mean": 0.9634249700763361,
+      "repeat_sd": null
+    },
+    "G3": {
+      "tasks": 5,
+      "VBench_IQ_mean": 75.01879362906179,
+      "VBench_SC_mean": 0.964838752077847,
+      "repeat_sd": null
+    },
+    "G4": {
+      "tasks": 5,
+      "VBench_IQ_mean": 76.19367702853296,
+      "VBench_SC_mean": 0.9621593209786143,
+      "repeat_sd": null
+    }
+  }
+}

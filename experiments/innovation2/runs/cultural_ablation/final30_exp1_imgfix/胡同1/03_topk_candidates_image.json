@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_FASHION_008",
+    "canonical_name": "郎园Station",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.819580078125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8196,
+    "text_score": 0.0,
+    "fusion_score": 0.8196
+  },
+  {
+    "symbol_id": "CN2_MODERN_002",
+    "canonical_name": "鼓浪屿：历史国际社区",
+    "cultural_dimension": "现代城市与国际文化;古城与历史文化",
+    "dimension_code": "MODERN;ANCIENT",
+    "score": 0.806396484375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8064,
+    "text_score": 0.0,
+    "fusion_score": 0.8064
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_006",
+    "canonical_name": "澳门历史城区",
+    "cultural_dimension": "古城与历史文化;现代城市与国际文化",
+    "dimension_code": "ANCIENT;MODERN",
+    "score": 0.805908203125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8059,
+    "text_score": 0.0,
+    "fusion_score": 0.8059
+  },
+  {
+    "symbol_id": "BJ_FASHION_002",
+    "canonical_name": "798艺术区",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.796875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.7969,
+    "text_score": 0.0,
+    "fusion_score": 0.7969
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_001",
+    "canonical_name": "胡同",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.795654296875,
+    "reason": "关键词/别名命中：胡同、老北京",
+    "image_score": 0.7957,
+    "text_score": 1.0,
+    "fusion_score": 0.7957
+  }
+]

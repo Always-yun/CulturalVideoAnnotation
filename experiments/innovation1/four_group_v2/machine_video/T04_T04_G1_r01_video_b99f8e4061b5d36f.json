@@ -1,0 +1,48 @@
+{
+  "request": {
+    "id": "T04_T04_G1_r01_video",
+    "task_id": "T04",
+    "video_id": "T04_G1_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T04-G1.mp4",
+    "video_sha256": "cc0c1c4d14750fc7b86bbbde00db6cebc90b1a98a6da6049a17abf9d5a120670",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：晴朗的白天，一艘具有历史年代感的传统中国船只停泊在宁静的湖面上，船只外形古朴，与周围水岸景色共同形成安静的江南水乡景观。阳光照亮船身，湖面产生柔和的反射，远处可见树木与岸边建筑。镜头从船只侧前方缓慢水平移动，以中远景展现船只及其周围环境，整体采用写实摄影风格。。时序事实及判据：[]",
+    "request_sha256": "b99f8e4061b5d36f8cfce861ff503339946084d0aa94fbc87e1d6a1eaac91c63"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"conditions\": {\"subject\": {\"verdict\": \"Yes\", \"evidence\": \"视频中可见一艘具有传统中式风格、外形古朴的船只，符合目标描述中“具有历史年代感的传统中国船只”的特征\", \"timestamps\": \"0.00-5.00\"}, \"scene\": {\"verdict\": \"Yes\", \"evidence\": \"船只停泊在宁静的湖面上，周围有水岸、树木与远处建筑，整体呈现江南水乡景观，与目标描述一致\", \"timestamps\": \"0.00-5.00\"}, \"time_weather\": {\"verdict\": \"Yes\", \"evidence\": \"光线明亮柔和，天空呈现淡黄色，符合“晴朗的白天”特征，且环境宁静，与目标描述相符\", \"timestamps\": \"0.00-5.00\"}, \"camera_motion\": {\"verdict\": \"Yes\", \"evidence\": \"镜头从船只侧前方缓慢水平移动，以中远景展现船只及其周围环境，与目标描述中“镜头从船只侧前方缓慢水平移动，以中远景展现”一致\", \"timestamps\": \"0.00-5.00\"}}, \"temporal_facts\": {}}",
+  "parse_ok": true,
+  "parsed": {
+    "conditions": {
+      "subject": {
+        "verdict": "Yes",
+        "evidence": "视频中可见一艘具有传统中式风格、外形古朴的船只，符合目标描述中“具有历史年代感的传统中国船只”的特征",
+        "timestamps": "0.00-5.00"
+      },
+      "scene": {
+        "verdict": "Yes",
+        "evidence": "船只停泊在宁静的湖面上，周围有水岸、树木与远处建筑，整体呈现江南水乡景观，与目标描述一致",
+        "timestamps": "0.00-5.00"
+      },
+      "time_weather": {
+        "verdict": "Yes",
+        "evidence": "光线明亮柔和，天空呈现淡黄色，符合“晴朗的白天”特征，且环境宁静，与目标描述相符",
+        "timestamps": "0.00-5.00"
+      },
+      "camera_motion": {
+        "verdict": "Yes",
+        "evidence": "镜头从船只侧前方缓慢水平移动，以中远景展现船只及其周围环境，与目标描述中“镜头从船只侧前方缓慢水平移动，以中远景展现”一致",
+        "timestamps": "0.00-5.00"
+      }
+    },
+    "temporal_facts": {}
+  }
+}

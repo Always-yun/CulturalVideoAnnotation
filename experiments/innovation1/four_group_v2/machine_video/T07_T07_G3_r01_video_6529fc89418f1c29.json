@@ -1,0 +1,62 @@
+{
+  "request": {
+    "id": "T07_T07_G3_r01_video",
+    "task_id": "T07",
+    "video_id": "T07_G3_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T07-G3.mp4",
+    "video_sha256": "0ac427d868ac685c4b467bbe791a311d78d3d0bbf8741c0eea7513fd890902e6",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [
+      "T07-F3",
+      "T07-F4"
+    ],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：晴朗的白天，镜头以固定中远景展示海南文昌航天发射场内处于发射前静置状态的长征五号系列运载火箭。一枚大型火箭竖直矗立在发射工位中央，其旁边设有高大的钢结构发射塔架，火箭底部连接明显的发射承载平台。火箭由中央芯级和附着在侧面的助推器组成，整体结构清晰。周围场地开阔，白天自然光照亮火箭与发射设施，整体采用写实工业摄影风格。。时序事实及判据：[{\"fact_id\": \"T07-F3\", \"question\": \"视频中是否出现火箭底部点火并伴随明显火焰或烟雾的过程？\", \"yes_rule\": \"连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程\", \"no_rule\": \"火箭底部始终无火焰烟雾，或所见烟雾与火箭点火无明确关系\", \"uncertain_rule\": \"底部被遮挡、片段缺失、解码异常或无法确认点火过程\"}, {\"fact_id\": \"T07-F4\", \"question\": \"视频中是否呈现火箭从发射工位向上升空的连续变化？\", \"yes_rule\": \"连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架\", \"no_rule\": \"火箭始终静止在工位，或运动方向不是向上升空\", \"uncertain_rule\": \"镜头运动、遮挡、片段过短或解码异常导致无法判断相对位移\"}]",
+    "request_sha256": "6529fc89418f1c291536a3c793b041205e0e1cd1a86723afaae5dadfc47b025f"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"conditions\": {\"subject\": {\"verdict\": \"Yes\", \"evidence\": \"视频中可见长征五号系列运载火箭，其结构（中央芯级+侧面助推器）与发射工位布局（中央工位、钢结构塔架、发射承载平台）符合描述\", \"timestamps\": \"0.00-5.00\"}, \"scene\": {\"verdict\": \"Yes\", \"evidence\": \"场景为海南文昌航天发射场，场地开阔，呈现写实工业摄影风格，与描述一致\", \"timestamps\": \"0.00-5.00\"}, \"time_weather\": {\"verdict\": \"Yes\", \"evidence\": \"白天自然光照亮场景，天空晴朗，符合“晴朗的白天”描述\", \"timestamps\": \"0.00-5.00\"}, \"camera_motion\": {\"verdict\": \"No\", \"evidence\": \"镜头未发生明显移动，保持固定中远景视角，无平移、倾斜或缩放变化\", \"timestamps\": \"0.00-5.00\"}}, \"temporal_facts\": {\"T07-F3\": {\"verdict\": \"Yes\", \"evidence\": \"视频中火箭底部从无火焰到出现明显喷射火焰与烟柱，呈现点火过程\", \"timestamps\": \"0.00-5.00\"}, \"T07-F4\": {\"verdict\": \"Yes\", \"evidence\": \"火箭从发射工位持续向上位移，逐步离开平台，呈现升空变化\", \"timestamps\": \"0.00-5.00\"}}}",
+  "parse_ok": true,
+  "parsed": {
+    "conditions": {
+      "subject": {
+        "verdict": "Yes",
+        "evidence": "视频中可见长征五号系列运载火箭，其结构（中央芯级+侧面助推器）与发射工位布局（中央工位、钢结构塔架、发射承载平台）符合描述",
+        "timestamps": "0.00-5.00"
+      },
+      "scene": {
+        "verdict": "Yes",
+        "evidence": "场景为海南文昌航天发射场，场地开阔，呈现写实工业摄影风格，与描述一致",
+        "timestamps": "0.00-5.00"
+      },
+      "time_weather": {
+        "verdict": "Yes",
+        "evidence": "白天自然光照亮场景，天空晴朗，符合“晴朗的白天”描述",
+        "timestamps": "0.00-5.00"
+      },
+      "camera_motion": {
+        "verdict": "No",
+        "evidence": "镜头未发生明显移动，保持固定中远景视角，无平移、倾斜或缩放变化",
+        "timestamps": "0.00-5.00"
+      }
+    },
+    "temporal_facts": {
+      "T07-F3": {
+        "verdict": "Yes",
+        "evidence": "视频中火箭底部从无火焰到出现明显喷射火焰与烟柱，呈现点火过程",
+        "timestamps": "0.00-5.00"
+      },
+      "T07-F4": {
+        "verdict": "Yes",
+        "evidence": "火箭从发射工位持续向上位移，逐步离开平台，呈现升空变化",
+        "timestamps": "0.00-5.00"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "decision": {
+    "identity_gate_pass": true,
+    "reason": "At least one candidate has strong identity evidence.",
+    "passed_symbol_ids": [
+      "BJ_INNOV_007"
+    ]
+  },
+  "candidates": [
+    {
+      "symbol_id": "BJ_INNOV_007",
+      "canonical_name": "清华大学",
+      "identity_name_match": true,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 1,
+      "identity_evidence_level": "strong",
+      "identity_gate_pass": true,
+      "identity_gate_reason": "场景主体描述中命中候选完整名称/别名或KB独特属性",
+      "category_evidence": "dimension=TECH; type=高等学府",
+      "weak_name_mentions": [
+        "清华"
+      ],
+      "unique_attribute_matches": []
+    }
+  ]
+}

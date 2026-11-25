@@ -1,0 +1,5 @@
+﻿mode,expected,attempted,completed,correct,accuracy,completed_accuracy,dimension_correct,failed,blocked,attempt_complete,output_failures,dimension_accuracy
+free,30,30,29,10,0.3333333333333333,0.3448275862068966,23,1,0,True,1,0.7666666666666667
+text,30,30,29,20,0.6666666666666666,0.6896551724137931,25,1,0,True,1,0.8333333333333334
+image,30,0,0,0,,,0,0,30,False,0,
+multimodal,30,0,0,0,,,0,0,30,False,0,

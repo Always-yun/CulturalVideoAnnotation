@@ -1,0 +1,3 @@
+﻿Method,Known Acc,Hard Unknown Reject,False Reject,Hallucination
+Identity Gate v1,0.5926,0.6667,0.3704,0.0323
+Identity Verification v2,0.7037,1.0,0.2593,0.0

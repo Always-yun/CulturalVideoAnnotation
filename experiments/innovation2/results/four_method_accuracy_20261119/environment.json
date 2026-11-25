@@ -1,0 +1,16 @@
+{
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:27:36) [GCC 11.2.0]",
+  "executable": "/data/anaconda3/bin/python",
+  "platform": "Linux-5.15.0-83-generic-x86_64-with-glibc2.31",
+  "packages": {
+    "torch": "2.7.1+cu118",
+    "torchvision": "0.22.1+cu118",
+    "transformers": "4.57.0",
+    "qwen-vl-utils": "0.0.14",
+    "zai-sdk": "0.2.2",
+    "opencv-python": "4.8.1.78",
+    "Pillow": "10.3.0",
+    "openai-clip": "distribution name not found"
+  },
+  "gpu_driver_probe": "nvidia-smi failed to communicate with driver; torch.cuda.is_available=False"
+}

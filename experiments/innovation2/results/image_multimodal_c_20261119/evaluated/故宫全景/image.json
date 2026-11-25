@@ -1,0 +1,63 @@
+{
+  "video_id": "故宫全景",
+  "mode": "image",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "故宫"
+  ],
+  "reference_ids": [
+    "BJ_GUDU_001"
+  ],
+  "predicted_names": [
+    "故宫博物院"
+  ],
+  "predicted_ids": [
+    "BJ_GUDU_001"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "ANCIENT"
+  ],
+  "reference_categories": [
+    "ANCIENT"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": false,
+  "candidate_ids": [
+    "BJ_RED_002",
+    "CN_ANCIENT_003",
+    "BJ_INNOV_006"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：故宫博物院\n价值指向：画面中可见具有典型中国古代皇家建筑风格的建筑群，红墙黄瓦，布局规整，是北京故宫博物院的标志性景观。建筑群规模宏大，体现了中国古代宫殿建筑的规制与美学，是中华历史文化的重要载体。</think>",
+  "c_layer_natural_language": "：该场景隶属于古城与历史文化。\n核心符号：故宫博物院\n价值指向：画面中可见具有典型中国古代皇家建筑风格的建筑群，红墙黄瓦，布局规整，是北京故宫博物院的标志性景观。建筑群规模宏大，体现了中国古代宫殿建筑的规制与美学，是中华历史文化的重要载体。</think>",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/故宫全景/image.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:58:13.836530+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：故宫博物院\n价值指向：画面中可见具有典型中国古代皇家建筑风格的建筑群，红墙黄瓦，布局规整，是北京故宫博物院的标志性景观。建筑群规模宏大，体现了中国古代宫殿建筑的规制与美学，是中华历史文化的重要载体。</think>",
+      "response_model": "glm-4v",
+      "response_id": "2026111916581324dc6381651147a1",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=73276, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=74, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73350)",
+      "seconds": 69.17514657974243
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

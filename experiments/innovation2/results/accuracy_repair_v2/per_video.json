@@ -1,0 +1,688 @@
+[
+  {
+    "video_id": "cbd",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "B2",
+    "api_calls": 1,
+    "seconds": 100.93
+  },
+  {
+    "video_id": "cbd",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "C2",
+    "api_calls": 1,
+    "seconds": 37.09
+  },
+  {
+    "video_id": "cbd1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "B2",
+    "api_calls": 1,
+    "seconds": 100.33
+  },
+  {
+    "video_id": "cbd1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "C2",
+    "api_calls": 1,
+    "seconds": 35.75
+  },
+  {
+    "video_id": "cbd2",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "B2",
+    "api_calls": 2,
+    "seconds": 122.98
+  },
+  {
+    "video_id": "cbd2",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "C2",
+    "api_calls": 2,
+    "seconds": 88.27
+  },
+  {
+    "video_id": "cbd3",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "B2",
+    "api_calls": 1,
+    "seconds": 131.22
+  },
+  {
+    "video_id": "cbd3",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "C2",
+    "api_calls": 1,
+    "seconds": 75.58
+  },
+  {
+    "video_id": "中关村1号",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_008"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "B2",
+    "api_calls": 1,
+    "seconds": 172.34
+  },
+  {
+    "video_id": "中关村1号",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_008"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "C2",
+    "api_calls": 1,
+    "seconds": 166.29
+  },
+  {
+    "video_id": "中关村国际创新中心",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_006"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "B2",
+    "api_calls": 1,
+    "seconds": 112.6
+  },
+  {
+    "video_id": "中关村国际创新中心",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_006"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "C2",
+    "api_calls": 1,
+    "seconds": 87.42
+  },
+  {
+    "video_id": "中关村展示中心",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_005"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "B2",
+    "api_calls": 2,
+    "seconds": 96.2
+  },
+  {
+    "video_id": "中关村展示中心",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_005"
+    ],
+    "pred_ids": [
+      "CN2_TECH_005"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": false,
+    "recall5": true,
+    "reciprocal_rank": 0.5,
+    "error_type": "correct",
+    "group": "C2",
+    "api_calls": 1,
+    "seconds": 52.07
+  },
+  {
+    "video_id": "京剧青衣",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "B2",
+    "api_calls": 1,
+    "seconds": 72.55
+  },
+  {
+    "video_id": "京剧青衣",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "C2",
+    "api_calls": 1,
+    "seconds": 66.03
+  },
+  {
+    "video_id": "人民大会堂",
+    "sample_type": "hard_unknown",
+    "gt_ids": [],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": true,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "correct",
+    "group": "B2",
+    "api_calls": 1,
+    "seconds": 109.0
+  },
+  {
+    "video_id": "人民大会堂",
+    "sample_type": "hard_unknown",
+    "gt_ids": [],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": true,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "correct",
+    "group": "C2",
+    "api_calls": 1,
+    "seconds": 56.67
+  },
+  {
+    "video_id": "人民大会堂1",
+    "sample_type": "hard_unknown",
+    "gt_ids": [],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": true,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "correct",
+    "group": "B2",
+    "api_calls": 1,
+    "seconds": 135.48
+  },
+  {
+    "video_id": "人民大会堂1",
+    "sample_type": "hard_unknown",
+    "gt_ids": [],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": true,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "correct",
+    "group": "C2",
+    "api_calls": 1,
+    "seconds": 93.13
+  },
+  {
+    "video_id": "人民英雄纪念碑",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": true,
+    "reciprocal_rank": 0.5,
+    "error_type": "false_reject",
+    "group": "B2",
+    "api_calls": 2,
+    "seconds": 93.92
+  },
+  {
+    "video_id": "人民英雄纪念碑",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "C2",
+    "api_calls": 2,
+    "seconds": 101.72
+  },
+  {
+    "video_id": "人民英雄纪念碑1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_003"
+    ],
+    "pred_ids": [
+      "BJ_RED_003"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "B2",
+    "api_calls": 1,
+    "seconds": 79.5
+  },
+  {
+    "video_id": "人民英雄纪念碑1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_003"
+    ],
+    "pred_ids": [
+      "BJ_RED_003"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "C2",
+    "api_calls": 1,
+    "seconds": 120.17
+  },
+  {
+    "video_id": "兔爷",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_004"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "B2",
+    "api_calls": 2,
+    "seconds": 119.85
+  },
+  {
+    "video_id": "兔爷",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_004"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "C2",
+    "api_calls": 2,
+    "seconds": 120.7
+  },
+  {
+    "video_id": "北大",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_INNOV_006"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "B2",
+    "api_calls": 1,
+    "seconds": 99.86
+  },
+  {
+    "video_id": "北大",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_INNOV_006"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "C2",
+    "api_calls": 1,
+    "seconds": 110.62
+  },
+  {
+    "video_id": "北大1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_INNOV_006"
+    ],
+    "pred_ids": [
+      "BJ_INNOV_006"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "B2",
+    "api_calls": 1,
+    "seconds": 76.89
+  },
+  {
+    "video_id": "北大1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_INNOV_006"
+    ],
+    "pred_ids": [
+      "BJ_INNOV_006"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "C2",
+    "api_calls": 1,
+    "seconds": 41.25
+  },
+  {
+    "video_id": "国博",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_006"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "B2",
+    "api_calls": 1,
+    "seconds": 111.31
+  },
+  {
+    "video_id": "国博",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_006"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "C2",
+    "api_calls": 1,
+    "seconds": 54.35
+  },
+  {
+    "video_id": "天安门",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_002"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": true,
+    "reciprocal_rank": 0.25,
+    "error_type": "false_reject",
+    "group": "B2",
+    "api_calls": 1,
+    "seconds": 161.41
+  },
+  {
+    "video_id": "天安门",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_002"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": true,
+    "reciprocal_rank": 0.25,
+    "error_type": "false_reject",
+    "group": "C2",
+    "api_calls": 1,
+    "seconds": 55.36
+  },
+  {
+    "video_id": "天安门1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_002"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "B2",
+    "api_calls": 2,
+    "seconds": 161.63
+  },
+  {
+    "video_id": "天安门1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_002"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "C2",
+    "api_calls": 2,
+    "seconds": 122.53
+  },
+  {
+    "video_id": "太和殿",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_GUDU_002"
+    ],
+    "pred_ids": [
+      "BJ_GUDU_002"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "B2",
+    "api_calls": 1,
+    "seconds": 125.28
+  },
+  {
+    "video_id": "太和殿",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_GUDU_002"
+    ],
+    "pred_ids": [
+      "BJ_GUDU_002"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "C2",
+    "api_calls": 1,
+    "seconds": 40.83
+  },
+  {
+    "video_id": "庙会",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_007"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "B2",
+    "api_calls": 2,
+    "seconds": 76.93
+  },
+  {
+    "video_id": "庙会",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_007"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "C2",
+    "api_calls": 2,
+    "seconds": 38.75
+  }
+]

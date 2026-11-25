@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:43:00.505998+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于科技与创新文化、现代城市与国际文化。\n核心符号：中关村壹号\n价值指向：可见“中关村1号”的立体字样，结合背景中现代化玻璃幕墙建筑群、企业总部标识（如“拉卡拉”），符合中关村壹号作为科技商务综合体的视觉特征。建筑风格和功能定位体现了现代城市与国际文化中的商务中心属性，同时作为科技企业聚集地，也指向科技与创新文化。",
+  "response_model": "glm-4v",
+  "response_id": "202611191643017897603b41d94e6b",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=74042, prompt_tokens_details=PromptTokensDetails(cached_tokens=65542), completion_tokens=102, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=74144)",
+  "seconds": 137.1044511795044
+}

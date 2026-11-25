@@ -1,0 +1,67 @@
+[
+  {
+    "symbol_id": "BJ_RED_001",
+    "canonical_name": "北大红楼",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.4538634270429611,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9077,
+    "text_score": 0.0,
+    "fusion_score": 0.4539,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN_RED_002",
+    "canonical_name": "西柏坡纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.43068915605545044,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8614,
+    "text_score": 0.0,
+    "fusion_score": 0.4307,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN_RED_003",
+    "canonical_name": "延安革命纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.4293168634176254,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8586,
+    "text_score": 0.0,
+    "fusion_score": 0.4293,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_RED_008",
+    "canonical_name": "中国人民革命军事博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.4272521436214447,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8545,
+    "text_score": 0.0,
+    "fusion_score": 0.4273,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_INNOV_009",
+    "canonical_name": "国家会议中心",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.42675015330314636,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8535,
+    "text_score": 0.0,
+    "fusion_score": 0.4268,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  }
+]

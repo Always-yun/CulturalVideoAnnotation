@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-12",
+  "video": "data/test/鸟巢.mp4",
+  "backend": "GLM API glm-4v",
+  "baseline_status": "passed",
+  "integrated_status": "passed",
+  "integrated_trace": "outputs/smoke_pipeline_integrated/cultural_traces/20261112_121652_鸟巢/pipeline_trace.json",
+  "integrated_annotation": "outputs/smoke_pipeline_integrated/鸟巢_annotation_standard_20261112_121805.json",
+  "culture_retriever": "MultimodalCulturalRetriever",
+  "kb_path": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/chinese_cultural_symbols_v2.json",
+  "top1": "鸟巢",
+  "gate": "confident",
+  "identity_status": "accept_exact_identity",
+  "identity_extra_llm_calls": 0,
+  "cultural_pipeline_seconds": 73.13,
+  "regression_tests": 6,
+  "saved_text_matches_trace": true,
+  "all_six_layers_present_once": true,
+  "T_metadata_verified": true,
+  "not_tested": [
+    "本地Qwen推理",
+    "真实多GPU并发",
+    "全量批处理"
+  ],
+  "initial_integration_failure": "T层函数名错误，已修正并重新完成真实试跑"
+}

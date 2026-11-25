@@ -1,0 +1,391 @@
+[
+  {
+    "id": "T01_T01_G1_r01_video",
+    "task_id": "T01",
+    "video_id": "T01_G1_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T01-G1.mp4",
+    "video_sha256": "86d1f4b5f91fd33f0e1e51334310096be1f8130dcd6949b7f8db58bf2bdc7fe5",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：白天，一处规模宏大的中国古代考古遗址位于室内展厅之中，大量古代人物雕塑排列在开阔的遗址区域内，展现出具有历史年代感的场景。展厅光线柔和，建筑空间宽敞，人物雕塑保持静止。镜头从较高位置斜向俯视，缓慢水平移动，连续展示古代雕塑群及其周围空间，整体采用写实纪实摄影风格。。时序事实及判据：[]",
+    "request_sha256": "cab20964818d4478923f58fbc70ac6795cd3e17e17310f019db1ef373008b64b"
+  },
+  {
+    "id": "T01_T01_G2_r01_video",
+    "task_id": "T01",
+    "video_id": "T01_G2_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T01-G2.mp4",
+    "video_sha256": "e9f418666fa4525ac14edee8a42c48624e555a429b4e8ecadf3187079af0a276",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：**主体（Main Object）：** 一组规模庞大的古代人物雕塑，雕塑形态具有一定差异，整体排列有序，主体保持静止。\n\n**背景（Background）：** 雕塑群位于大型室内考古遗址展厅内，周围可见遗址地面、展厅空间及远处建筑结构，白天的室内光线均匀柔和。\n\n**风格（Style）：** 写实纪实摄影风格，色彩自然，突出古代遗址的历史年代感与大型雕塑群的规模，画面整体庄重。\n\n**镜头（Camera）：** 镜头从较高位置斜向俯视，采用较广景别缓慢水平移动，展示雕塑群的排列及遗址空间。。时序事实及判据：[]",
+    "request_sha256": "a911300b476a799ff6166701cec431b6c000d3aefc548c0483cd3f41205e51fd"
+  },
+  {
+    "id": "T01_T01_G3_r01_video",
+    "task_id": "T01",
+    "video_id": "T01_G3_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T01-G3.mp4",
+    "video_sha256": "f6a4604bea42fc7fc1f9e62935cf442bb46dfa9d3275ae839a8c55512bdc41e5",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：白天，镜头从较高位置斜向俯视陕西西安秦始皇兵马俑一号坑。遗址中大量古代军士陶俑排列成多排整齐的军阵，人物具有古代军士的服饰、发髻与甲胄造型，雕塑表面呈现土褐色和灰褐色的陶土质感。陶俑分布在由土质隔墙划分的长条形考古坑道内，形成有序的队列布局。室内展厅光线柔和，镜头缓慢水平移动，以写实纪实摄影风格展示军阵与遗址空间。。时序事实及判据：[]",
+    "request_sha256": "b4474ae169f13ef51cd76d1e30af38b4535c6065543889dc76d99445758569f7"
+  },
+  {
+    "id": "T01_T01_G4_r01_video",
+    "task_id": "T01",
+    "video_id": "T01_G4_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T01-G4.mp4",
+    "video_sha256": "fde486f37f8414d8b4e0356844e3cd055690eac1bc1c49cbd06270e290d22035",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：【E｜场景环境层】\n白天，陕西西安一处大型室内考古遗址展厅空间开阔，光线均匀柔和，整体环境安静、庄重。\n\n【M｜主体行为层】\n视觉焦点为秦始皇兵马俑一号坑内的大型人物雕塑群。多个雕塑主体分布于遗址区域内，各主体保持静止，形成具有规模感的空间组织。\n\n【C｜文化符号层】\n文化类别：古城与历史文化。\n核心视觉特征：多排陶俑组成整齐军阵、古代军士服饰与甲胄造型、土褐色及灰褐色陶土表面、由土质隔墙划分的考古坑道布局。\n\n【A｜视听语言层】\n镜头稳定、节奏慢，采用高处斜俯视的大远景，缓慢水平平移。光照柔和，景深较深，整体为写实纪实摄影风格。\n\n【S｜整体叙事层】\n镜头沿遗址区域缓慢移动，连续展示人物雕塑群的排列及其所在空间，呈现古代遗址的规模与秩序。。时序事实及判据：[]",
+    "request_sha256": "783005c79955e8f740ae6fc29aea193f6e03282945430db76b3beee3c4f01f7a"
+  },
+  {
+    "id": "T04_T04_G1_r01_video",
+    "task_id": "T04",
+    "video_id": "T04_G1_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T04-G1.mp4",
+    "video_sha256": "cc0c1c4d14750fc7b86bbbde00db6cebc90b1a98a6da6049a17abf9d5a120670",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：晴朗的白天，一艘具有历史年代感的传统中国船只停泊在宁静的湖面上，船只外形古朴，与周围水岸景色共同形成安静的江南水乡景观。阳光照亮船身，湖面产生柔和的反射，远处可见树木与岸边建筑。镜头从船只侧前方缓慢水平移动，以中远景展现船只及其周围环境，整体采用写实摄影风格。。时序事实及判据：[]",
+    "request_sha256": "b99f8e4061b5d36f8cfce861ff503339946084d0aa94fbc87e1d6a1eaac91c63"
+  },
+  {
+    "id": "T04_T04_G2_r01_video",
+    "task_id": "T04",
+    "video_id": "T04_G2_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T04-G2.mp4",
+    "video_sha256": "ccae79811706df540a9c34d3260e1baef5d7b001b017e43f1a1cea032390e09f",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：**主体（Main Object）：** 一艘具有传统中国船舶风格的中型船只，整体造型古朴，船只停泊在水面上，没有明显航行动作。\n\n**背景（Background）：** 船只位于宽阔而平静的湖面，远处有树木、湖岸及少量传统建筑，晴朗白天的自然光照亮整个场景。\n\n**风格（Style）：** 写实纪实摄影风格，色彩自然，湖面反射柔和，呈现江南湖区安静而具有历史感的视觉氛围。\n\n**镜头（Camera）：** 采用船只侧前方的中远景，镜头缓慢水平移动，连续展示船只整体及其周围水岸环境。。时序事实及判据：[]",
+    "request_sha256": "5f2465f6c6bcefafebfd461876c6cd527d53e74bb5600d470765ba72a0e48e63"
+  },
+  {
+    "id": "T04_T04_G3_r01_video",
+    "task_id": "T04",
+    "video_id": "T04_G3_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T04-G3.mp4",
+    "video_sha256": "24288153dd637b844a26694b399569a690d934057a2df5b3955c4499f156d661",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：晴朗的白天，镜头从侧前方缓慢水平移动，展示停泊在浙江嘉兴南湖上的传统南湖红船。船只具有木质、狭长的传统中式船体，上方设有连续的有顶船舱，船舱与前后露出的船体部分形成清楚的分段布局，从该视角能够辨认漂浮在湖面上的完整船形。平静的湖水映出船身轮廓，远处是树木与湖岸景观，自然阳光照亮船体，整体采用写实纪实摄影风格。。时序事实及判据：[]",
+    "request_sha256": "a4f99c29bf73a44fdce7b8fae5c301240047983ae66842a2006a976f1c4bf7eb"
+  },
+  {
+    "id": "T04_T04_G4_r01_video",
+    "task_id": "T04",
+    "video_id": "T04_G4_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T04-G4.mp4",
+    "video_sha256": "4253abff487032b34b318d3b9aa96f0f1da1a59f18d710053e7ffc190205e4dc",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：【E｜场景环境层】\n晴朗的白天，浙江嘉兴南湖水面平静，湖岸树木与远处建筑构成江南水乡环境，自然光柔和，整体氛围宁静。\n\n【M｜主体行为层】\n视觉焦点为停泊在湖面上的南湖红船，船只位于画面中央，主体保持静止，与湖面及岸边环境形成清楚的空间关系。\n\n【C｜文化符号层】\n文化类别：红色文化。\n核心视觉特征：木质狭长的传统中式船体、连续的有顶船舱、船舱与前后露出船体部分的分段布局、漂浮在湖面上的完整船形。\n\n【A｜视听语言层】\n镜头稳定、节奏慢，采用侧前方中远景，缓慢水平平移，以自然日光和写实纪实摄影风格展示船只，水面形成柔和反射。\n\n【S｜整体叙事层】\n镜头沿水岸方向缓慢移动，连续展现船只的整体外观及湖面环境，形成平稳、连贯的传统水乡景观。。时序事实及判据：[]",
+    "request_sha256": "842727170c348cd81ef1f90fb90cb9a2937ce41a8dbd38bd09463fa14d40a473"
+  },
+  {
+    "id": "T06_source_video",
+    "task_id": "T06",
+    "video_id": "source",
+    "video_file": "data/video/皮影戏.mp4",
+    "video_sha256": "377fcbe5ddcdf327c696f610de0b747adaa8df97cc129842dd50d68a73f6ae81",
+    "condition_names": [],
+    "temporal_question_ids": [
+      "T06-F3"
+    ],
+    "description_basis": "source_reference",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[]。目标描述：原视频参考，不做条件遵循评分。时序事实及判据：[{\"fact_id\": \"T06-F3\", \"question\": \"两个皮影人物是否发生连续的打斗或武打动作？\", \"yes_rule\": \"连续视频中两个皮影人物存在至少两个连续时刻的攻防、挥击、追逐或武打动作变化\", \"no_rule\": \"人物仅静止、摆姿或彼此没有连续武打互动\", \"uncertain_rule\": \"片段过短、动作被遮挡、播放异常或无法区分动作连续性\"}]",
+    "request_sha256": "ee8d9959736947f59d53b664e9dc861bc277b4492308597df7afdd2ab5d5efa4"
+  },
+  {
+    "id": "T06_T06_G1_r01_video",
+    "task_id": "T06",
+    "video_id": "T06_G1_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T06-G1.mp4",
+    "video_sha256": "8d52c7cadb87bf0a614d4d69e56599ecb95f529569d559cf288dfcd2af1a4e25",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [
+      "T06-F3"
+    ],
+    "description_basis": "task_conditions_fallback",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：室内白色幕布皮影舞台，两个皮影人物同台表演，固定机位全景，暖色背光。时序事实及判据：[{\"fact_id\": \"T06-F3\", \"question\": \"两个皮影人物是否发生连续的打斗或武打动作？\", \"yes_rule\": \"连续视频中两个皮影人物存在至少两个连续时刻的攻防、挥击、追逐或武打动作变化\", \"no_rule\": \"人物仅静止、摆姿或彼此没有连续武打互动\", \"uncertain_rule\": \"片段过短、动作被遮挡、播放异常或无法区分动作连续性\"}]",
+    "request_sha256": "31c72b3148c3d4a83933f688ee6d6b4bf1e9f564fb626d2941f4586b8de29076"
+  },
+  {
+    "id": "T06_T06_G2_r01_video",
+    "task_id": "T06",
+    "video_id": "T06_G2_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T06-G2.mp4",
+    "video_sha256": "feef7bceb30d732984dba83fae96dc406f03b86de3285ca8d51894b20369b2e8",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [
+      "T06-F3"
+    ],
+    "description_basis": "task_conditions_fallback",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：室内白色幕布皮影舞台，两个皮影人物同台表演，固定机位全景，暖色背光。时序事实及判据：[{\"fact_id\": \"T06-F3\", \"question\": \"两个皮影人物是否发生连续的打斗或武打动作？\", \"yes_rule\": \"连续视频中两个皮影人物存在至少两个连续时刻的攻防、挥击、追逐或武打动作变化\", \"no_rule\": \"人物仅静止、摆姿或彼此没有连续武打互动\", \"uncertain_rule\": \"片段过短、动作被遮挡、播放异常或无法区分动作连续性\"}]",
+    "request_sha256": "78c044edff4c8c709809ba10a6ca1970f744534dba5d16727da9001d28733af9"
+  },
+  {
+    "id": "T06_T06_G3_r01_video",
+    "task_id": "T06",
+    "video_id": "T06_G3_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T06-G3.mp4",
+    "video_sha256": "751629cc6dd1532e1b4fa8ce5bb106a4c926699126295c42e70d04cf28017296",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [
+      "T06-F3"
+    ],
+    "description_basis": "task_conditions_fallback",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：室内白色幕布皮影舞台，两个皮影人物同台表演，固定机位全景，暖色背光。时序事实及判据：[{\"fact_id\": \"T06-F3\", \"question\": \"两个皮影人物是否发生连续的打斗或武打动作？\", \"yes_rule\": \"连续视频中两个皮影人物存在至少两个连续时刻的攻防、挥击、追逐或武打动作变化\", \"no_rule\": \"人物仅静止、摆姿或彼此没有连续武打互动\", \"uncertain_rule\": \"片段过短、动作被遮挡、播放异常或无法区分动作连续性\"}]",
+    "request_sha256": "4a97170cb6ccfcae1e69b768bd5581310f1edfee002707e053e9fe76c9629f54"
+  },
+  {
+    "id": "T06_T06_G4_r01_video",
+    "task_id": "T06",
+    "video_id": "T06_G4_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T06-G4.mp4",
+    "video_sha256": "db558dac60684c14f655b9b12ed33ea9f97dc64521545230fd47481c5dd12081",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [
+      "T06-F3"
+    ],
+    "description_basis": "task_conditions_fallback",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：室内白色幕布皮影舞台，两个皮影人物同台表演，固定机位全景，暖色背光。时序事实及判据：[{\"fact_id\": \"T06-F3\", \"question\": \"两个皮影人物是否发生连续的打斗或武打动作？\", \"yes_rule\": \"连续视频中两个皮影人物存在至少两个连续时刻的攻防、挥击、追逐或武打动作变化\", \"no_rule\": \"人物仅静止、摆姿或彼此没有连续武打互动\", \"uncertain_rule\": \"片段过短、动作被遮挡、播放异常或无法区分动作连续性\"}]",
+    "request_sha256": "e8b9cdb342186f51a65ef6378596eda593d4c66bda200ad30ce9e5333f864b64"
+  },
+  {
+    "id": "T07_source_video",
+    "task_id": "T07",
+    "video_id": "source",
+    "video_file": "data/video/海南文昌发射场.mp4",
+    "video_sha256": "be3d61382377b14049b502517d1bef316f8cf91009b46edb6bb943a449b5a7c2",
+    "condition_names": [],
+    "temporal_question_ids": [
+      "T07-F3",
+      "T07-F4"
+    ],
+    "description_basis": "source_reference",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[]。目标描述：原视频参考，不做条件遵循评分。时序事实及判据：[{\"fact_id\": \"T07-F3\", \"question\": \"视频中是否出现火箭底部点火并伴随明显火焰或烟雾的过程？\", \"yes_rule\": \"连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程\", \"no_rule\": \"火箭底部始终无火焰烟雾，或所见烟雾与火箭点火无明确关系\", \"uncertain_rule\": \"底部被遮挡、片段缺失、解码异常或无法确认点火过程\"}, {\"fact_id\": \"T07-F4\", \"question\": \"视频中是否呈现火箭从发射工位向上升空的连续变化？\", \"yes_rule\": \"连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架\", \"no_rule\": \"火箭始终静止在工位，或运动方向不是向上升空\", \"uncertain_rule\": \"镜头运动、遮挡、片段过短或解码异常导致无法判断相对位移\"}]",
+    "request_sha256": "d64b0ad25e9b3bc2c58e1e2a9d5e865ec0a9c3d3e299a310683f2e0544646b69"
+  },
+  {
+    "id": "T07_T07_G1_r01_video",
+    "task_id": "T07",
+    "video_id": "T07_G1_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T07-G1.mp4",
+    "video_sha256": "482ac0138cecdc3d926965f970cabd4fdc0b3ddcf9265bce590297f49cd47994",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [
+      "T07-F3",
+      "T07-F4"
+    ],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：晴朗的白天，一处规模宏大的中国现代航天发射基地位于开阔的室外场地中。画面中央矗立着大型运载火箭，周围分布着高大的发射设施与工业建筑，展现出具有科技感的现代航天工程景观。天空明亮，远处环境开阔，镜头采用固定机位和中远景，完整展示火箭与周边发射设施，整体采用写实工业摄影风格。。时序事实及判据：[{\"fact_id\": \"T07-F3\", \"question\": \"视频中是否出现火箭底部点火并伴随明显火焰或烟雾的过程？\", \"yes_rule\": \"连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程\", \"no_rule\": \"火箭底部始终无火焰烟雾，或所见烟雾与火箭点火无明确关系\", \"uncertain_rule\": \"底部被遮挡、片段缺失、解码异常或无法确认点火过程\"}, {\"fact_id\": \"T07-F4\", \"question\": \"视频中是否呈现火箭从发射工位向上升空的连续变化？\", \"yes_rule\": \"连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架\", \"no_rule\": \"火箭始终静止在工位，或运动方向不是向上升空\", \"uncertain_rule\": \"镜头运动、遮挡、片段过短或解码异常导致无法判断相对位移\"}]",
+    "request_sha256": "f5d9a3891c23a9a7aae3b8a0254146b25980a5f62cbfbf71952a4a0dc98432c6"
+  },
+  {
+    "id": "T07_T07_G2_r01_video",
+    "task_id": "T07",
+    "video_id": "T07_G2_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T07-G2.mp4",
+    "video_sha256": "79ca20508c164754583de71dd33c4b3a2093be4aee0a59305204e19413f1ab71",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [
+      "T07-F3",
+      "T07-F4"
+    ],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：**主体（Main Object）：** 一枚大型现代运载火箭位于航天发射基地中央，火箭竖直矗立，周围分布有不同功能的发射设施，主体保持静止。\n\n**背景（Background）：** 火箭位于开阔的室外航天发射场，周围有工业建筑、道路和发射保障设施，晴朗白天的自然光照亮场地。\n\n**风格（Style）：** 写实工业摄影风格，画面具有现代科技设施的严谨感，建筑与设备结构清晰，色彩自然。\n\n**镜头（Camera）：** 固定机位，中远景平视略微仰拍，完整展示大型火箭及周围设施，没有明显的镜头运动。。时序事实及判据：[{\"fact_id\": \"T07-F3\", \"question\": \"视频中是否出现火箭底部点火并伴随明显火焰或烟雾的过程？\", \"yes_rule\": \"连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程\", \"no_rule\": \"火箭底部始终无火焰烟雾，或所见烟雾与火箭点火无明确关系\", \"uncertain_rule\": \"底部被遮挡、片段缺失、解码异常或无法确认点火过程\"}, {\"fact_id\": \"T07-F4\", \"question\": \"视频中是否呈现火箭从发射工位向上升空的连续变化？\", \"yes_rule\": \"连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架\", \"no_rule\": \"火箭始终静止在工位，或运动方向不是向上升空\", \"uncertain_rule\": \"镜头运动、遮挡、片段过短或解码异常导致无法判断相对位移\"}]",
+    "request_sha256": "2edbec81bf301f684af3de2c72e01a11cdb3563579504d401a605826bb158b53"
+  },
+  {
+    "id": "T07_T07_G3_r01_video",
+    "task_id": "T07",
+    "video_id": "T07_G3_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T07-G3.mp4",
+    "video_sha256": "0ac427d868ac685c4b467bbe791a311d78d3d0bbf8741c0eea7513fd890902e6",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [
+      "T07-F3",
+      "T07-F4"
+    ],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：晴朗的白天，镜头以固定中远景展示海南文昌航天发射场内处于发射前静置状态的长征五号系列运载火箭。一枚大型火箭竖直矗立在发射工位中央，其旁边设有高大的钢结构发射塔架，火箭底部连接明显的发射承载平台。火箭由中央芯级和附着在侧面的助推器组成，整体结构清晰。周围场地开阔，白天自然光照亮火箭与发射设施，整体采用写实工业摄影风格。。时序事实及判据：[{\"fact_id\": \"T07-F3\", \"question\": \"视频中是否出现火箭底部点火并伴随明显火焰或烟雾的过程？\", \"yes_rule\": \"连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程\", \"no_rule\": \"火箭底部始终无火焰烟雾，或所见烟雾与火箭点火无明确关系\", \"uncertain_rule\": \"底部被遮挡、片段缺失、解码异常或无法确认点火过程\"}, {\"fact_id\": \"T07-F4\", \"question\": \"视频中是否呈现火箭从发射工位向上升空的连续变化？\", \"yes_rule\": \"连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架\", \"no_rule\": \"火箭始终静止在工位，或运动方向不是向上升空\", \"uncertain_rule\": \"镜头运动、遮挡、片段过短或解码异常导致无法判断相对位移\"}]",
+    "request_sha256": "6529fc89418f1c291536a3c793b041205e0e1cd1a86723afaae5dadfc47b025f"
+  },
+  {
+    "id": "T07_T07_G4_r01_video",
+    "task_id": "T07",
+    "video_id": "T07_G4_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T07-G4.mp4",
+    "video_sha256": "17be7163a72c9b984279ed9dd554118b748c22eaa319f0292112bad747c79dea",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [
+      "T07-F3",
+      "T07-F4"
+    ],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：【E｜场景环境层】\n晴朗的白天，海南文昌航天发射场室外场地开阔，周围分布航天工程设施，明亮的自然光营造出清晰、严谨的工业景观。\n\n【M｜主体行为层】\n视觉焦点为长征五号系列运载火箭与发射工位。火箭处于发射前静置状态，周围设施保持静止，主要航天设施相互独立、空间关系清楚。\n\n【C｜文化符号层】\n文化类别：科技与创新文化。\n核心视觉特征：竖直矗立的大型运载火箭、旁侧高大的钢结构发射塔架、火箭底部的发射承载平台、中央芯级与侧向助推器组成的火箭结构。\n\n【A｜视听语言层】\n固定机位，镜头稳定，以中远景平视略微仰拍呈现发射设施。自然光充足，景深较深，画面采用写实工业摄影风格。\n\n【S｜整体叙事层】\n画面持续展示静置的运载火箭及其周围发射工位，使火箭主体与发射场设施的空间组织在连续画面中保持清晰。。时序事实及判据：[{\"fact_id\": \"T07-F3\", \"question\": \"视频中是否出现火箭底部点火并伴随明显火焰或烟雾的过程？\", \"yes_rule\": \"连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程\", \"no_rule\": \"火箭底部始终无火焰烟雾，或所见烟雾与火箭点火无明确关系\", \"uncertain_rule\": \"底部被遮挡、片段缺失、解码异常或无法确认点火过程\"}, {\"fact_id\": \"T07-F4\", \"question\": \"视频中是否呈现火箭从发射工位向上升空的连续变化？\", \"yes_rule\": \"连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架\", \"no_rule\": \"火箭始终静止在工位，或运动方向不是向上升空\", \"uncertain_rule\": \"镜头运动、遮挡、片段过短或解码异常导致无法判断相对位移\"}]",
+    "request_sha256": "fc6767abc66453a7862c0df6d81d0f63b64e9e657acb062c56129d497decad16"
+  },
+  {
+    "id": "T10_T10_G1_r01_video",
+    "task_id": "T10",
+    "video_id": "T10_G1_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T10-G1.mp4",
+    "video_sha256": "0cb7ae9664d3b5b6fe62df1a0a3fadbd652ad0f869ad106021087392a0b183d9",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：傍晚蓝调时刻，上海一处繁华的现代城市中心出现高大的地标建筑，周围分布着许多现代摩天大楼。城市建筑外立面逐渐亮起灯光，与深蓝色天空形成鲜明对比。镜头从地面采用中远景仰视，缓慢向上摇摄，逐渐展示高耸的城市地标与周围楼群，整体采用写实城市夜景摄影风格。。时序事实及判据：[]",
+    "request_sha256": "19caf2eb02272f98bca2c7e0d6d2737b1e274923c10b46163d49911868b8f98e"
+  },
+  {
+    "id": "T10_T10_G2_r01_video",
+    "task_id": "T10",
+    "video_id": "T10_G2_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T10-G2.mp4",
+    "video_sha256": "bba4b74d1cc20e6d3c4eeee9efc6705776fd16d2a185b647db61776e7e3aeba5",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：**主体（Main Object）：** 一座高耸的现代城市地标塔楼位于画面中央，整体轮廓独特，与周围不同高度的现代建筑形成对比，主体保持静止。\n\n**背景（Background）：** 塔楼位于上海现代城市商务区，周围密集分布玻璃幕墙高楼，傍晚天空呈深蓝色，楼宇灯光逐渐点亮。\n\n**风格（Style）：** 写实城市建筑摄影风格，色彩以冷色夜空和暖色建筑灯光形成对比，突出城市地标的高度与现代都市氛围。\n\n**镜头（Camera）：** 镜头采用地面仰视中远景，缓慢向上摇摄，逐渐呈现塔楼整体及周围建筑群。。时序事实及判据：[]",
+    "request_sha256": "34a8fb993f3f3692eafd346e3a71db0a421c58d32d3d8193c1c1bcc5a908dd0b"
+  },
+  {
+    "id": "T10_T10_G3_r01_video",
+    "task_id": "T10",
+    "video_id": "T10_G3_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T10-G3.mp4",
+    "video_sha256": "d640b2842cd8619ac07e2bba02642d66b721cc4d9c057032ddbe8dfc5651a3c4",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：傍晚蓝调时刻，镜头从地面以中远景缓慢向上摇摄，展示上海陆家嘴的东方明珠广播电视塔。塔体上分布着多个大小不同、处于不同高度的球形结构，各球体沿高耸的竖向塔身组织排列，塔体下部有明显的倾斜支撑柱结构，上部球体之上延伸出细长的天线桅杆。周围是现代玻璃幕墙高楼，建筑灯光逐渐点亮，与深蓝色天空形成对比，整体采用写实城市建筑摄影风格。。时序事实及判据：[]",
+    "request_sha256": "6f5b8b902b510ed3868a10d485e3473cde00d2856470c7563ec114e1735679f6"
+  },
+  {
+    "id": "T10_T10_G4_r01_video",
+    "task_id": "T10",
+    "video_id": "T10_G4_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T10-G4.mp4",
+    "video_sha256": "b9c9f3c5e047f69d65358f8e77559e4c9bfb2cd8df46fea1ae7740267473b761",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：【E｜场景环境层】\n傍晚蓝调时刻，上海陆家嘴现代商务区建筑密集，深蓝色天空与逐渐点亮的楼宇灯光形成鲜明对比，都市氛围繁华。\n\n【M｜主体行为层】\n视觉焦点为东方明珠广播电视塔及周边现代建筑群。电视塔位于画面主要位置，与周围高层建筑形成明显高度差，所有建筑主体保持静止。\n\n【C｜文化符号层】\n文化类别：现代城市与国际文化。\n核心视觉特征：不同高度分布的大小球形结构、球体沿竖向高塔主体排列、塔体下部的倾斜支撑柱、顶部细长的天线桅杆。\n\n【A｜视听语言层】\n镜头稳定、节奏慢，采用地面仰视中远景和缓慢向上摇摄。整体以冷调天空与暖调建筑灯光形成对比，使用写实城市建筑摄影风格。\n\n【S｜整体叙事层】\n镜头从较低位置逐渐向上展开，连续展示城市地标塔楼与周围建筑的高度关系，最终呈现高耸塔体及现代城市天际空间。。时序事实及判据：[]",
+    "request_sha256": "bdd98b1a8e892330b177a0252b5e790074d65525360665a9f9182e857808b0d7"
+  }
+]

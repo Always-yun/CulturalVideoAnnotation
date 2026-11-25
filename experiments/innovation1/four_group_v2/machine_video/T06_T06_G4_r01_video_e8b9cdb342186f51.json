@@ -1,0 +1,56 @@
+{
+  "request": {
+    "id": "T06_T06_G4_r01_video",
+    "task_id": "T06",
+    "video_id": "T06_G4_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T06-G4.mp4",
+    "video_sha256": "db558dac60684c14f655b9b12ed33ea9f97dc64521545230fd47481c5dd12081",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [
+      "T06-F3"
+    ],
+    "description_basis": "task_conditions_fallback",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：室内白色幕布皮影舞台，两个皮影人物同台表演，固定机位全景，暖色背光。时序事实及判据：[{\"fact_id\": \"T06-F3\", \"question\": \"两个皮影人物是否发生连续的打斗或武打动作？\", \"yes_rule\": \"连续视频中两个皮影人物存在至少两个连续时刻的攻防、挥击、追逐或武打动作变化\", \"no_rule\": \"人物仅静止、摆姿或彼此没有连续武打互动\", \"uncertain_rule\": \"片段过短、动作被遮挡、播放异常或无法区分动作连续性\"}]",
+    "request_sha256": "e8b9cdb342186f51a65ef6378596eda593d4c66bda200ad30ce9e5333f864b64"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"conditions\": {\"subject\": {\"verdict\": \"Yes\", \"evidence\": \"画面中可见两个皮影人物在幕布上表演\", \"timestamps\": \"0.00-5.00\"}, \"scene\": {\"verdict\": \"Yes\", \"evidence\": \"场景为室内白色幕布皮影舞台，有传统建筑元素背景\", \"timestamps\": \"0.00-5.00\"}, \"time_weather\": {\"verdict\": \"Yes\", \"evidence\": \"暖色背光营造出特定时间氛围\", \"timestamps\": \"0.00-5.00\"}, \"camera_motion\": {\"verdict\": \"No\", \"evidence\": \"镜头无移动，保持固定机位全景视角\", \"timestamps\": \"0.00-5.00\"}}, \"temporal_facts\": {\"T06-F3\": {\"verdict\": \"Yes\", \"evidence\": \"两个皮影人物存在连续的攻防动作变化，如持武器对峙、挥击等\", \"timestamps\": \"0.00-5.00\"}}}",
+  "parse_ok": true,
+  "parsed": {
+    "conditions": {
+      "subject": {
+        "verdict": "Yes",
+        "evidence": "画面中可见两个皮影人物在幕布上表演",
+        "timestamps": "0.00-5.00"
+      },
+      "scene": {
+        "verdict": "Yes",
+        "evidence": "场景为室内白色幕布皮影舞台，有传统建筑元素背景",
+        "timestamps": "0.00-5.00"
+      },
+      "time_weather": {
+        "verdict": "Yes",
+        "evidence": "暖色背光营造出特定时间氛围",
+        "timestamps": "0.00-5.00"
+      },
+      "camera_motion": {
+        "verdict": "No",
+        "evidence": "镜头无移动，保持固定机位全景视角",
+        "timestamps": "0.00-5.00"
+      }
+    },
+    "temporal_facts": {
+      "T06-F3": {
+        "verdict": "Yes",
+        "evidence": "两个皮影人物存在连续的攻防动作变化，如持武器对峙、挥击等",
+        "timestamps": "0.00-5.00"
+      }
+    }
+  }
+}

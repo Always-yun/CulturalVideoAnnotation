@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_FASHION_003",
+    "canonical_name": "CBD",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.8134765625,
+    "reason": "关键词/别名命中：CBD、北京CBD、中国尊、央视总部",
+    "image_score": 0.627,
+    "text_score": 1.0,
+    "fusion_score": 0.8135
+  },
+  {
+    "symbol_id": "BJ_FASHION_004",
+    "canonical_name": "国贸",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.4115234375,
+    "reason": "关键词/别名命中：CBD",
+    "image_score": 0.623,
+    "text_score": 0.2,
+    "fusion_score": 0.4115
+  },
+  {
+    "symbol_id": "CN2_TECH_015",
+    "canonical_name": "东升科技园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.31951904296875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.639,
+    "text_score": 0.0,
+    "fusion_score": 0.3195
+  },
+  {
+    "symbol_id": "CN2_MODERN_002",
+    "canonical_name": "鼓浪屿：历史国际社区",
+    "cultural_dimension": "现代城市与国际文化;古城与历史文化",
+    "dimension_code": "MODERN;ANCIENT",
+    "score": 0.31829833984375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6366,
+    "text_score": 0.0,
+    "fusion_score": 0.3183
+  },
+  {
+    "symbol_id": "CN_MODERN_002",
+    "canonical_name": "泉州：宋元中国的世界海洋商贸中心",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.31732177734375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6346,
+    "text_score": 0.0,
+    "fusion_score": 0.3173
+  }
+]

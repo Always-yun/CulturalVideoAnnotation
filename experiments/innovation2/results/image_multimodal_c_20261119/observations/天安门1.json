@@ -1,0 +1,53 @@
+{
+  "scene_description_raw": "{\"scene\":\"室外，蓝天白云，光线明亮\",\"subject\":\"一座雕刻有龙纹和云纹的白色华表\",\"visible_features\":[\"白色石柱，柱身雕刻龙纹和云纹，顶部有瑞兽装饰\"],\"background\":[\"红色墙体建筑，建筑上有红色灯笼，墙体上方有红旗，建筑上有毛泽东画像\"],\"readable_text\":[{\"text\":\"中华人民共和国\",\"legibility\":\"clear\"},{\"text\":\"世界人民大团结万岁\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.252,0.889,0.482,0.962]},{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.687,0.938,0.854,0.982]}],\"uncertain_entities\":[]}",
+  "scene_description": "室外，蓝天白云，光线明亮\n一座雕刻有龙纹和云纹的白色华表\n白色石柱，柱身雕刻龙纹和云纹，顶部有瑞兽装饰\n可读文字：中华人民共和国\n可读文字：世界人民大团结万岁",
+  "structured_scene": {
+    "scene": "室外，蓝天白云，光线明亮",
+    "subject": "一座雕刻有龙纹和云纹的白色华表",
+    "visible_features": [
+      "白色石柱，柱身雕刻龙纹和云纹，顶部有瑞兽装饰"
+    ],
+    "background": [
+      "红色墙体建筑，建筑上有红色灯笼，墙体上方有红旗，建筑上有毛泽东画像"
+    ],
+    "readable_text": [
+      {
+        "text": "中华人民共和国",
+        "legibility": "clear"
+      },
+      {
+        "text": "世界人民大团结万岁",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.252,
+          0.889,
+          0.482,
+          0.962
+        ]
+      },
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.687,
+          0.938,
+          0.854,
+          0.982
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

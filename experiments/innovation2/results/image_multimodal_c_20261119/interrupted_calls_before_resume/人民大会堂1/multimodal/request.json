@@ -1,0 +1,10 @@
+{
+  "media_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/data/videos/人民大会堂1.mp4",
+  "media_sha256": "2f46e9cdc5ae4eff3727a8296628cfc8ee0797e17bb581d53569aa8b31d4dd7a",
+  "media_kind": "video_url",
+  "prompt": "请仅输出EMCAST的C文化维度层，保留完整中文自然语言说明，不输出其余五层。\n根据视频实际可见证据识别文化符号。文化类别可多选：古城与历史文化、红色文化、民族与民俗文化、科技与创新文化、现代城市与国际文化；证据不足可写无法确认。\n候选知识只是待核实材料，不证明画面已出现该实体。允许命名候选之外的实体，允许无候选或无法确认，不强迫选择。不要给数值置信度。\n核心符号行请用规范名称列出实际确认的实体，多个用顿号分隔；没有可靠身份则写unknown_symbol。其他说明放在价值指向中，不把身份猜测写成已识别事实。\n输出格式沿用现有C层：\n【C｜文化维度层】：该场景隶属于……（多类可并列，无法确认则说明）。\n核心符号：……\n价值指向：描述可见视觉依据、文化内涵与不确定之处。\n\n以下为检索到的待核实文化知识（不是已经出现的事实；可不选）：\n[{\"symbol_id\": \"BJ_RED_002\", \"canonical_name\": \"天安门广场\", \"aliases\": \"天安门\", \"cultural_dimension\": \"红色文化\", \"dimension_code\": \"RED\", \"visual_features\": \"广场东西宽500米南北长880米|城楼重檐歇山顶黄琉璃瓦|汉白玉金水桥五座|华表两对|旗杆居中\", \"cultural_description\": \"1949年10月1日开国大典举行地，国家政治活动核心空间，象征新中国\", \"typical_scene\": \"升旗仪式|广场全景|城楼仰视|国庆阅兵\"}, {\"symbol_id\": \"BJ_RED_006\", \"canonical_name\": \"中国国家博物馆\", \"aliases\": \"国博|历史博物馆\", \"cultural_dimension\": \"红色文化\", \"dimension_code\": \"RED\", \"visual_features\": \"东西长313米南北宽149米|建筑高度42.5米|立面柱廊对称|黄色花岗岩外墙|正面10根方柱\", \"cultural_description\": \"2003年组建，世界上单体建筑面积最大的博物馆之一，藏有近143万件文物，承载国家记忆\", \"typical_scene\": \"广场立面|柱廊仰视|展厅内\"}, {\"symbol_id\": \"BJ_INNOV_007\", \"canonical_name\": \"清华大学\", \"aliases\": \"清华\", \"cultural_dimension\": \"科技与创新文化\", \"dimension_code\": \"TECH\", \"visual_features\": \"清华园工字厅|大礼堂红砖砌筑|二校门欧式牌坊|近春园荷塘|日晷|清华学堂\", \"cultural_description\": \"1911年留美预备学校发展至今，中国顶尖理工科与综合性大学，\\\"自强不息，厚德载物\\\"\", \"typical_scene\": \"二校门仰视|大礼堂正面|荷塘月色|银杏大道\"}]",
+  "model": "glm-4v",
+  "temperature": 0.1,
+  "max_tokens": 2048,
+  "base64_omitted": true
+}

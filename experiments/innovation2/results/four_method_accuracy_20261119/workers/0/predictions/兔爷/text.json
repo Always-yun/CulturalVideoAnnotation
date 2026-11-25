@@ -1,0 +1,37 @@
+{
+  "video_id": "兔爷",
+  "gt_symbols": [
+    "兔儿爷"
+  ],
+  "gt_symbol_ids": [
+    "BJ_JINGWEI_004"
+  ],
+  "gt_dimension_code": "FOLK",
+  "kb_coverage": true,
+  "mode": "text",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为兔儿爷。",
+  "pred_dimension": "民族与民俗文化",
+  "unknown_symbol": false,
+  "symbol_correct": true,
+  "dimension_correct": true,
+  "topk_candidates": [
+    {
+      "symbol_id": "BJ_JINGWEI_004",
+      "canonical_name": "兔儿爷",
+      "cultural_dimension": "民族与民俗文化",
+      "dimension_code": "FOLK",
+      "score": 3.0,
+      "reason": "关键词/别名命中：兔爷",
+      "image_score": 0.0,
+      "text_score": 3.0,
+      "fusion_score": 3.0,
+      "ranking_score": null,
+      "retrieval_evidence": {}
+    }
+  ],
+  "recall_at_5": true,
+  "seconds": 45.29,
+  "error_type": "",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/兔爷/text/trace.json"
+}

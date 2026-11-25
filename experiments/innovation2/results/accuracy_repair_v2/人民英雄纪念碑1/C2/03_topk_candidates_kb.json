@@ -1,0 +1,129 @@
+[
+  {
+    "symbol_id": "BJ_RED_003",
+    "canonical_name": "人民英雄纪念碑",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.962705448269844,
+    "reason": "证据排序v1；名称=；文字=；弱特征=浮雕",
+    "image_score": 0.9254,
+    "text_score": 1.0,
+    "fusion_score": 0.9627,
+    "ranking_score": 0.515466,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [
+        "浮雕"
+      ],
+      "text_evidence_strength": 0.105522,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": true,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "CN_RED_003",
+    "canonical_name": "延安革命纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.43588322401046753,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.8718,
+    "text_score": 0.0,
+    "fusion_score": 0.4359,
+    "ranking_score": 0.435883,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_027",
+    "canonical_name": "曲阜孔庙",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4252088814973831,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.8504,
+    "text_score": 0.0,
+    "fusion_score": 0.4252,
+    "ranking_score": 0.425209,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_028",
+    "canonical_name": "曲阜孔林",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.42520885169506073,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.8504,
+    "text_score": 0.0,
+    "fusion_score": 0.4252,
+    "ranking_score": 0.425209,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_029",
+    "canonical_name": "曲阜孔府",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.42520885169506073,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.8504,
+    "text_score": 0.0,
+    "fusion_score": 0.4252,
+    "ranking_score": 0.425209,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  }
+]

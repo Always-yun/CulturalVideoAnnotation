@@ -1,0 +1,16 @@
+{
+  "level": "confident",
+  "signals": {
+    "mode": "text",
+    "signal": "text",
+    "top1_score": 12.0,
+    "top2_score": 6.0,
+    "margin_rel": 0.5,
+    "n_keywords": 3,
+    "scene_negative": false,
+    "score_thr": 0.5,
+    "margin_thr": 0
+  },
+  "reason": "检索分数/分差/视觉证据三信号均达标",
+  "constraint_overridden": false
+}

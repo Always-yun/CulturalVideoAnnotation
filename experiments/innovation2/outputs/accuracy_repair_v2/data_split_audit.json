@@ -1,0 +1,270 @@
+{
+  "files": [
+    {
+      "source": "cultural_ablation_gt.jsonl",
+      "video_id": "niaochao",
+      "path": "data/test/鸟巢.mp4",
+      "available": true,
+      "sha256": "f50180e858cc26f261bc27d7d77719296a365a71d85ef6b6eb93ec64539c4ffb"
+    },
+    {
+      "source": "cultural_ablation_gt.jsonl",
+      "video_id": "niaochao_shuilifang",
+      "path": "data/test/光厂_30665289_鸟巢水立方.城市地标建筑.旅游景点_0037.mp4",
+      "available": true,
+      "sha256": "f50180e858cc26f261bc27d7d77719296a365a71d85ef6b6eb93ec64539c4ffb"
+    },
+    {
+      "source": "cultural_ablation_gt.jsonl",
+      "video_id": "niaochao_aerial",
+      "path": "data/test/光厂_41894188_绝版鸟巢航拍_00001.mp4",
+      "available": true,
+      "sha256": "a01b06600a1e9c471326d0a460734c87d0da6bf284fd10a0b3c27a646a6813b7"
+    },
+    {
+      "source": "cultural_ablation_gt.jsonl",
+      "video_id": "selfie_222",
+      "path": "data/test/222.mp4",
+      "available": false,
+      "sha256": null
+    },
+    {
+      "source": "cultural_ablation_gt.jsonl",
+      "video_id": "modern_chinese_475",
+      "path": "data/test/475.mp4",
+      "available": true,
+      "sha256": "327b97e89e6fac7666307f9d1e8530f22da18aba91a01d9922d2697ad73882d5"
+    },
+    {
+      "source": "cultural_ablation_gt.jsonl",
+      "video_id": "royal_garden_073",
+      "path": "data/test/073.mp4",
+      "available": true,
+      "sha256": "62fa1b0a46aa17c977fac12d7e9ad4e9ca727c079a98268e786000427a68f78d"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "cbd",
+      "path": "experiments/innovation2/data/videos/cbd.mp4",
+      "available": true,
+      "sha256": "2832a23785199cee0b6f9f4f54437b392ee6b0a876ab223ee8f69e9a8b96265c"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "cbd1",
+      "path": "experiments/innovation2/data/videos/cbd1.mp4",
+      "available": true,
+      "sha256": "f2f162e6b8fffc9ffd02db64a250d56385a3713b60b8e2f819bcb61f956f4797"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "cbd2",
+      "path": "experiments/innovation2/data/videos/cbd2.mp4",
+      "available": true,
+      "sha256": "a892bfed30c69c96eb87d8e16c7bab001f12bb0299bccf5271b5d38d74b141d0"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "cbd3",
+      "path": "experiments/innovation2/data/videos/cbd3.mp4",
+      "available": true,
+      "sha256": "4407d58c377910304123cbd27c39c701234586e95332ce75e4d93247ced9ea52"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "中关村1号",
+      "path": "experiments/innovation2/data/videos/中关村1号.mp4",
+      "available": true,
+      "sha256": "3adfb5c620ac64e0d4ca4f3982f555786db619075ce284e65698768e0895ec55"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "中关村国际创新中心",
+      "path": "experiments/innovation2/data/videos/中关村国际创新中心.mp4",
+      "available": true,
+      "sha256": "9d472ca67881dcc5dc0eb3bd3a28e5bf8ba060bac0c0b1903ef570d8f17fcc17"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "中关村展示中心",
+      "path": "experiments/innovation2/data/videos/中关村展示中心.mp4",
+      "available": true,
+      "sha256": "a8f68d475ec7ab372d3368439826c623144577efa140ceeddfc9012772ab21c4"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "京剧青衣",
+      "path": "experiments/innovation2/data/videos/京剧青衣.mp4",
+      "available": true,
+      "sha256": "fde6a5d8bcba5b0182c57cac6fb4306e39c31a01d52f3a3a4435e0d0925061e2"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "人民大会堂",
+      "path": "experiments/innovation2/data/videos/人民大会堂.mp4",
+      "available": true,
+      "sha256": "9334d54fdbe47ddb35748eb43cbd02b5df4ab997de39e3eef280e6b7bc6f7a85"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "人民大会堂1",
+      "path": "experiments/innovation2/data/videos/人民大会堂1.mp4",
+      "available": true,
+      "sha256": "2f46e9cdc5ae4eff3727a8296628cfc8ee0797e17bb581d53569aa8b31d4dd7a"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "人民英雄纪念碑",
+      "path": "experiments/innovation2/data/videos/人民英雄纪念碑.mp4",
+      "available": true,
+      "sha256": "3e7e4ba38caeec6e6124c1247b4d3fb9efadf4ef1da640e18c3cc734637e7085"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "人民英雄纪念碑1",
+      "path": "experiments/innovation2/data/videos/人民英雄纪念碑1.mp4",
+      "available": true,
+      "sha256": "209c5917850445f0af6e7af1af1817a1048c4c5aed1a5780ac168b3ef4182460"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "兔爷",
+      "path": "experiments/innovation2/data/videos/兔爷.mp4",
+      "available": true,
+      "sha256": "19850a170c96c097d4e7db43d9df6c3dc73758700e75f30df9fa38b9e6453a75"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "北大",
+      "path": "experiments/innovation2/data/videos/北大.mp4",
+      "available": true,
+      "sha256": "ca74932160479e402a1606dccab802389e1b27e9c645815ed53281e14ec62a77"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "北大1",
+      "path": "experiments/innovation2/data/videos/北大1.mp4",
+      "available": true,
+      "sha256": "fc9fa337706d3af80540a5fd50e126c1b6c86bb07e8d9cc0aabbfdcc3b5df9b5"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "国博",
+      "path": "experiments/innovation2/data/videos/国博.mp4",
+      "available": true,
+      "sha256": "d9c91e307d5ea39379645b8f227a3dd92794a10cbf6f22f79722cd899d70cd3d"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "天安门",
+      "path": "experiments/innovation2/data/videos/天安门.mp4",
+      "available": true,
+      "sha256": "b5375fc399976041fcc5616da9099335bb1d473b9e20f51c8776f11f02d259a7"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "天安门1",
+      "path": "experiments/innovation2/data/videos/天安门1.mp4",
+      "available": true,
+      "sha256": "a51e5c3b63e24ea79925b5e2143d082eb4b5755c91983d9be572c5405e678143"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "太和殿",
+      "path": "experiments/innovation2/data/videos/太和殿.mp4",
+      "available": true,
+      "sha256": "8e0735552e1242a962e751d9a85c2a8ce4506f96c1df221e5d32955969abf045"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "庙会",
+      "path": "experiments/innovation2/data/videos/庙会.mp4",
+      "available": true,
+      "sha256": "677954ea9bc271de0b4f1ef7a488f0263380de2184138a40fee7e0f8de38a280"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "故宫",
+      "path": "experiments/innovation2/data/videos/故宫.mp4",
+      "available": true,
+      "sha256": "17c7c6824aea1d7855c854a80056954dafa96effe9793fe524581109bcadb689"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "故宫全景",
+      "path": "experiments/innovation2/data/videos/故宫全景.mp4",
+      "available": true,
+      "sha256": "95e08e2f0543b3b803070f6368f3d9818a43388d70c9562fa6312b338ffb2895"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "未来科学城",
+      "path": "experiments/innovation2/data/videos/未来科学城.mp4",
+      "available": true,
+      "sha256": "abb3d1554f656350e4e1c5a1d7d82125c2e7a9e6830d7599bcd1cf4bcb3aa874"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "清华",
+      "path": "experiments/innovation2/data/videos/清华.mp4",
+      "available": true,
+      "sha256": "0ab0c07258f7dbd263aa93a336d6463eed66e7ee964698dfea8846f06f6873ed"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "神武门",
+      "path": "experiments/innovation2/data/videos/神武门.mp4",
+      "available": false,
+      "sha256": null
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "糖葫芦",
+      "path": "experiments/innovation2/data/videos/糖葫芦.mp4",
+      "available": true,
+      "sha256": "73882ce99795d8c7ef1b73c9b6944d40203a08bcf0b209b708f882e60c0b0b6c"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "胡同",
+      "path": "experiments/innovation2/data/videos/胡同.mp4",
+      "available": true,
+      "sha256": "59e9fbdd08eb7cad8f2d8c3542343ac666783dfdcdcdb030a9865d9edc0cbd71"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "胡同1",
+      "path": "experiments/innovation2/data/videos/胡同1.mp4",
+      "available": true,
+      "sha256": "bcf674283dc51e2a89741abb0b75d86054a90591bdd80c80af46c5767505f400"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "角楼",
+      "path": "experiments/innovation2/data/videos/角楼.mp4",
+      "available": true,
+      "sha256": "8f3b96544198dfedabad506644e547bf9a8737127e00775227fc8a3913df2078"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "角楼1",
+      "path": "experiments/innovation2/data/videos/角楼1.mp4",
+      "available": true,
+      "sha256": "0dd665bd0064c690636862e0f0fed1cf9ea5c28830f4e116a58e6d9ddb70784f"
+    },
+    {
+      "source": "cultural_ablation_gt_final31.jsonl",
+      "video_id": "鸟巢",
+      "path": "experiments/innovation2/data/videos/鸟巢.mp4",
+      "available": true,
+      "sha256": "a01b06600a1e9c471326d0a460734c87d0da6bf284fd10a0b3c27a646a6813b7"
+    }
+  ],
+  "cross_file_exact_duplicates": [
+    [
+      "niaochao_aerial",
+      "鸟巢"
+    ]
+  ],
+  "note": "Hash inequality does not exclude cropped or source-level near duplicates. Old GT symbol IDs and KB coverage need review against v2."
+}

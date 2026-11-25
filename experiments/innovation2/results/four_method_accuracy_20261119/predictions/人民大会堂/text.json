@@ -1,0 +1,12 @@
+{
+  "video_id": "人民大会堂",
+  "gt_symbols": [
+    "人民大会堂"
+  ],
+  "gt_symbol_ids": [],
+  "gt_dimension_code": "ANCIENT",
+  "kb_coverage": false,
+  "mode": "text",
+  "status": "blocked_runtime",
+  "reason": "基础模型调用受阻：APIConnectionError；详情见api_calls.json"
+}

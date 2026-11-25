@@ -1,0 +1,67 @@
+{
+  "scene_description_raw": "{\"scene\":\"户外，白天，人群密集，树木环绕，红色灯笼悬挂\",\"subject\":\"大量人群聚集，部分人携带背包，部分人佩戴口罩\",\"visible_features\":[\"红色灯笼，红色横幅，红色摊位，冬季衣物，树木\"],\"background\":[\"树木，红色摊位，红色横幅\"],\"readable_text\":[{\"text\":\"红都\",\"legibility\":\"clear\"},{\"text\":\"龙年吉祥年吉祥\",\"legibility\":\"clear\"},{\"text\":\"壹叁壹叁壹叁壹叁壹叁\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"横幅\",\"time_ratio\":0.0,\"bbox\":[0.747,0.083,0.915,0.262]},{\"kind\":\"横幅\",\"time_ratio\":0.0,\"bbox\":[0.847,0.083,0.999,0.226]},{\"kind\":\"横幅\",\"time_ratio\":0.5,\"bbox\":[0.313,0.19,0.678,0.262]}],\"uncertain_entities\":[]}",
+  "scene_description": "户外，白天，人群密集，树木环绕，红色灯笼悬挂\n大量人群聚集，部分人携带背包，部分人佩戴口罩\n红色灯笼，红色横幅，红色摊位，冬季衣物，树木\n可读文字：红都\n可读文字：龙年吉祥年吉祥\n可读文字：壹叁壹叁壹叁壹叁壹叁",
+  "structured_scene": {
+    "scene": "户外，白天，人群密集，树木环绕，红色灯笼悬挂",
+    "subject": "大量人群聚集，部分人携带背包，部分人佩戴口罩",
+    "visible_features": [
+      "红色灯笼，红色横幅，红色摊位，冬季衣物，树木"
+    ],
+    "background": [
+      "树木，红色摊位，红色横幅"
+    ],
+    "readable_text": [
+      {
+        "text": "红都",
+        "legibility": "clear"
+      },
+      {
+        "text": "龙年吉祥年吉祥",
+        "legibility": "clear"
+      },
+      {
+        "text": "壹叁壹叁壹叁壹叁壹叁",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "横幅",
+        "time_ratio": 0.0,
+        "bbox": [
+          0.747,
+          0.083,
+          0.915,
+          0.262
+        ]
+      },
+      {
+        "kind": "横幅",
+        "time_ratio": 0.0,
+        "bbox": [
+          0.847,
+          0.083,
+          0.999,
+          0.226
+        ]
+      },
+      {
+        "kind": "横幅",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.313,
+          0.19,
+          0.678,
+          0.262
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

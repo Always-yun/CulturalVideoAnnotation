@@ -1,0 +1,310 @@
+{
+  "meta": {
+    "version": "v3",
+    "task_id": "T02",
+    "model": "glm-4v",
+    "temperature": 0.0,
+    "input_method": "video(base64) 直传 GLM-4V，帧采样由API内部控制（不可控部分如实标记）",
+    "blind": true,
+    "group_mapping_status": "unverified",
+    "criteria_source": "eval_batch1_input_v3.json",
+    "note": "T02 按 v3 修订事实重评；旧 v2 结果保留于 batch1_machine_eval_merged_v1.json，不覆盖"
+  },
+  "features": [
+    {
+      "feature_id": "T02-F1",
+      "task_id": "T02",
+      "feature_description": "主体屋顶为多重屋顶组合（非单一屋顶）",
+      "yes_criteria": "主体屋顶由多个屋顶单元叠合组合（如中央多层檐攒尖亭与四周重檐歇山顶叠合），轮廓呈明显分层、复合的屋顶群",
+      "no_criteria": "屋顶为单一形制（单檐或单一庑殿/歇山顶），无叠合分层结构",
+      "uncertain_criteria": "屋顶轮廓被遮挡或视角不足以判断屋顶单元的叠合关系",
+      "ambiguity_note": "仅凭“多檐”不判Yes，须可见不同屋顶单元在体量上叠合；单体量方形/圆形楼阁判No。不要求分辨“九梁十八柱七十二条脊”",
+      "source": {
+        "symbol_id": "BJ_GUDU_001",
+        "kb_field": "visual_features / 权威结构描述（故宫博物院官网、官媒）",
+        "source_name": "故宫博物院官网及官媒对故宫角楼的介绍",
+        "source_url": "https://www.dpm.org.cn/Home.html",
+        "confidence": "high",
+        "evidence_note": "角楼为多重屋顶组合（1个三重檐四角攒尖亭+4个重檐歇山+2个单檐歇山叠加，“九梁十八柱七十二条脊”，实际76条）；共28个翼角（下、中层各12，顶层4）；建于紫禁城城墙转角之上，城墙下部为灰砖砌筑；屋顶覆黄琉璃瓦，立柱与门窗为朱红色。",
+        "kb_value": "1个三重檐四角攒尖亭+4个重檐歇山屋顶+2个单檐歇山屋顶叠加组合"
+      }
+    },
+    {
+      "feature_id": "T02-F2",
+      "task_id": "T02",
+      "feature_description": "檐口多翼角出挑、层层起翘",
+      "yes_criteria": "檐口四向可见多个向外起翘的翼角，檐口层层出挑形成复杂轮廓",
+      "no_criteria": "檐口平直无起翘翼角，或仅单层四角起翘",
+      "uncertain_criteria": "檐口细节模糊或被遮挡，无法辨认翼角是否存在、是否起翘",
+      "ambiguity_note": "不要求数出28个翼角；四向可见成组起翘翼角即判Yes。仅一处起翘不判Yes",
+      "source": {
+        "symbol_id": "BJ_GUDU_001",
+        "kb_field": "visual_features / 权威结构描述（故宫博物院官网、官媒）",
+        "source_name": "故宫博物院官网及官媒对故宫角楼的介绍",
+        "source_url": "https://www.dpm.org.cn/Home.html",
+        "confidence": "high",
+        "evidence_note": "角楼为多重屋顶组合（1个三重檐四角攒尖亭+4个重檐歇山+2个单檐歇山叠加，“九梁十八柱七十二条脊”，实际76条）；共28个翼角（下、中层各12，顶层4）；建于紫禁城城墙转角之上，城墙下部为灰砖砌筑；屋顶覆黄琉璃瓦，立柱与门窗为朱红色。",
+        "kb_value": "共28个翼角（下层12、中层12、顶层4）"
+      }
+    },
+    {
+      "feature_id": "T02-F3",
+      "task_id": "T02",
+      "feature_description": "角楼坐落于灰砖城墙转角之上",
+      "yes_criteria": "角楼位于灰色砖砌城墙的转角处，画面可同时看到角楼与其下方灰砖城墙的转折关系",
+      "no_criteria": "角楼不位于城墙转角（如立于平地、孤立建筑），或城墙不是灰砖砌筑（如红墙、石墙）",
+      "uncertain_criteria": "城墙部分被遮挡或构图不完整，无法确认角楼是否处于城墙转角",
+      "ambiguity_note": "须同时满足“城墙转角位置”与“城墙为灰砖”两点；仅见角楼而不见城墙转折判Uncertain",
+      "source": {
+        "symbol_id": "BJ_GUDU_001",
+        "kb_field": "visual_features / 权威结构描述（故宫博物院官网、官媒）",
+        "source_name": "故宫博物院官网及官媒对故宫角楼的介绍",
+        "source_url": "https://www.dpm.org.cn/Home.html",
+        "confidence": "high",
+        "evidence_note": "角楼为多重屋顶组合（1个三重檐四角攒尖亭+4个重檐歇山+2个单檐歇山叠加，“九梁十八柱七十二条脊”，实际76条）；共28个翼角（下、中层各12，顶层4）；建于紫禁城城墙转角之上，城墙下部为灰砖砌筑；屋顶覆黄琉璃瓦，立柱与门窗为朱红色。",
+        "kb_value": "角楼位于紫禁城城墙转角处，城墙下部为灰砖砌筑"
+      }
+    },
+    {
+      "feature_id": "T02-F4",
+      "task_id": "T02",
+      "feature_description": "黄瓦朱柱配色（黄琉璃瓦+朱红立柱/门窗）",
+      "yes_criteria": "屋顶覆黄色琉璃瓦，且同时可见朱红色立柱或门窗构件（黄瓦与朱红构件同现）",
+      "no_criteria": "屋顶非黄色琉璃瓦，或无朱红立柱/门窗（如灰瓦、青瓦、白墙灰柱）",
+      "uncertain_criteria": "屋顶颜色或柱色不可辨（过曝、背光或遮挡）",
+      "ambiguity_note": "仅凭黄琉璃瓦不判Yes（多处古建均用黄瓦），须黄瓦+朱红构件组合；仅凭红色亦不判Yes",
+      "source": {
+        "symbol_id": "BJ_GUDU_001",
+        "kb_field": "visual_features / 权威结构描述（故宫博物院官网、官媒）",
+        "source_name": "故宫博物院官网及官媒对故宫角楼的介绍",
+        "source_url": "https://www.dpm.org.cn/Home.html",
+        "confidence": "high",
+        "evidence_note": "角楼为多重屋顶组合（1个三重檐四角攒尖亭+4个重檐歇山+2个单檐歇山叠加，“九梁十八柱七十二条脊”，实际76条）；共28个翼角（下、中层各12，顶层4）；建于紫禁城城墙转角之上，城墙下部为灰砖砌筑；屋顶覆黄琉璃瓦，立柱与门窗为朱红色。",
+        "kb_value": "屋顶覆黄琉璃瓦，立柱和门窗为朱红色"
+      }
+    }
+  ],
+  "records": [
+    {
+      "video_file": "T2-1.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-1.mp4",
+      "eval_time": "2026-11-04T20:57:52",
+      "parse_ok": true,
+      "raw_response": "{\"results\":[{\"feature_id\":\"T02-F1\",\"verdict\":\"Yes\",\"evidence\":\"主体屋顶由中央多层檐攒尖亭与四周重檐歇山顶叠合，轮廓呈明显分层、复合的屋顶群\",\"confidence\":1.0},{\"feature_id\":\"T02-F2\",\"verdict\":\"Yes\",\"evidence\":\"檐口四向可见多个向外起翘的翼角，檐口层层出挑形成复杂轮廓\",\"confidence\":1.0},{\"feature_id\":\"T02-F3\",\"verdict\":\"Yes\",\"evidence\":\"角楼位于灰色砖砌城墙的转角处，画面可同时看到角楼与其下方灰砖城墙的转折关系\",\"confidence\":1.0},{\"feature_id\":\"T02-F4\",\"verdict\":\"No\",\"evidence\":\"屋顶为灰色瓦，无朱红色立柱或门窗构件\",\"confidence\":1.0}]}",
+      "results": [
+        {
+          "feature_id": "T02-F1",
+          "feature_description": "主体屋顶为多重屋顶组合（非单一屋顶）",
+          "verdict": "Yes",
+          "evidence": "主体屋顶由中央多层檐攒尖亭与四周重檐歇山顶叠合，轮廓呈明显分层、复合的屋顶群",
+          "confidence": 1.0,
+          "uncertain_reason": null,
+          "error": null
+        },
+        {
+          "feature_id": "T02-F2",
+          "feature_description": "檐口多翼角出挑、层层起翘",
+          "verdict": "Yes",
+          "evidence": "檐口四向可见多个向外起翘的翼角，檐口层层出挑形成复杂轮廓",
+          "confidence": 1.0,
+          "uncertain_reason": null,
+          "error": null
+        },
+        {
+          "feature_id": "T02-F3",
+          "feature_description": "角楼坐落于灰砖城墙转角之上",
+          "verdict": "Yes",
+          "evidence": "角楼位于灰色砖砌城墙的转角处，画面可同时看到角楼与其下方灰砖城墙的转折关系",
+          "confidence": 1.0,
+          "uncertain_reason": null,
+          "error": null
+        },
+        {
+          "feature_id": "T02-F4",
+          "feature_description": "黄瓦朱柱配色（黄琉璃瓦+朱红立柱/门窗）",
+          "verdict": "No",
+          "evidence": "屋顶为灰色瓦，无朱红色立柱或门窗构件",
+          "confidence": 1.0,
+          "uncertain_reason": null,
+          "error": null
+        }
+      ],
+      "satisfaction_rate": 0.75,
+      "uncertain_ratio": 0.0,
+      "counts": {
+        "Yes": 3,
+        "No": 1,
+        "Uncertain": 0
+      }
+    },
+    {
+      "video_file": "T2-2.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-2.mp4",
+      "eval_time": "2026-11-04T20:58:01",
+      "parse_ok": true,
+      "raw_response": "{\"results\":[{\"feature_id\":\"T02-F1\",\"verdict\":\"Yes\",\"evidence\":\"主体屋顶由多层檐口叠合，中央攒尖顶与下方重檐歇山顶形成复合屋顶群\",\"confidence\":1.0},{\"feature_id\":\"T02-F2\",\"verdict\":\"Yes\",\"evidence\":\"檐口四向可见多个向外起翘的翼角，层层出挑形成复杂轮廓\",\"confidence\":1.0},{\"feature_id\":\"T02-F3\",\"verdict\":\"Yes\",\"evidence\":\"角楼位于灰色砖砌城墙的转角处，画面可同时看到角楼与其下方灰砖城墙的转折关系\",\"confidence\":1.0},{\"feature_id\":\"T02-F4\",\"verdict\":\"Yes\",\"evidence\":\"屋顶覆黄色琉璃瓦，且同时可见朱红色立柱或门窗构件\",\"confidence\":1.0}]}",
+      "results": [
+        {
+          "feature_id": "T02-F1",
+          "feature_description": "主体屋顶为多重屋顶组合（非单一屋顶）",
+          "verdict": "Yes",
+          "evidence": "主体屋顶由多层檐口叠合，中央攒尖顶与下方重檐歇山顶形成复合屋顶群",
+          "confidence": 1.0,
+          "uncertain_reason": null,
+          "error": null
+        },
+        {
+          "feature_id": "T02-F2",
+          "feature_description": "檐口多翼角出挑、层层起翘",
+          "verdict": "Yes",
+          "evidence": "檐口四向可见多个向外起翘的翼角，层层出挑形成复杂轮廓",
+          "confidence": 1.0,
+          "uncertain_reason": null,
+          "error": null
+        },
+        {
+          "feature_id": "T02-F3",
+          "feature_description": "角楼坐落于灰砖城墙转角之上",
+          "verdict": "Yes",
+          "evidence": "角楼位于灰色砖砌城墙的转角处，画面可同时看到角楼与其下方灰砖城墙的转折关系",
+          "confidence": 1.0,
+          "uncertain_reason": null,
+          "error": null
+        },
+        {
+          "feature_id": "T02-F4",
+          "feature_description": "黄瓦朱柱配色（黄琉璃瓦+朱红立柱/门窗）",
+          "verdict": "Yes",
+          "evidence": "屋顶覆黄色琉璃瓦，且同时可见朱红色立柱或门窗构件",
+          "confidence": 1.0,
+          "uncertain_reason": null,
+          "error": null
+        }
+      ],
+      "satisfaction_rate": 1.0,
+      "uncertain_ratio": 0.0,
+      "counts": {
+        "Yes": 4,
+        "No": 0,
+        "Uncertain": 0
+      }
+    },
+    {
+      "video_file": "T2-3.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-3.mp4",
+      "eval_time": "2026-11-04T20:58:10",
+      "parse_ok": true,
+      "raw_response": "{\"results\":[{\"feature_id\":\"T02-F1\",\"verdict\":\"Yes\",\"evidence\":\"主体屋顶由中央多层攒尖顶与下方重檐歇山顶叠合，轮廓呈明显分层复合结构\",\"confidence\":1.0,\"uncertain_reason\":\"\"},{\"feature_id\":\"T02-F2\",\"verdict\":\"Yes\",\"evidence\":\"檐口四向可见多个向外起翘的翼角，层层出挑形成复杂轮廓\",\"confidence\":1.0,\"uncertain_reason\":\"\"},{\"feature_id\":\"T02-F3\",\"verdict\":\"Yes\",\"evidence\":\"角楼位于灰色砖砌城墙的转角处，画面可同时看到角楼与下方城墙的转折关系\",\"confidence\":1.0,\"uncertain_reason\":\"\"},{\"feature_id\":\"T02-F4\",\"verdict\":\"Yes\",\"evidence\":\"屋顶覆黄色琉璃瓦，且可见朱红色立柱与门窗构件，黄瓦与朱红构件同现\",\"confidence\":1.0,\"uncertain_reason\":\"\"}]}",
+      "results": [
+        {
+          "feature_id": "T02-F1",
+          "feature_description": "主体屋顶为多重屋顶组合（非单一屋顶）",
+          "verdict": "Yes",
+          "evidence": "主体屋顶由中央多层攒尖顶与下方重檐歇山顶叠合，轮廓呈明显分层复合结构",
+          "confidence": 1.0,
+          "uncertain_reason": "",
+          "error": null
+        },
+        {
+          "feature_id": "T02-F2",
+          "feature_description": "檐口多翼角出挑、层层起翘",
+          "verdict": "Yes",
+          "evidence": "檐口四向可见多个向外起翘的翼角，层层出挑形成复杂轮廓",
+          "confidence": 1.0,
+          "uncertain_reason": "",
+          "error": null
+        },
+        {
+          "feature_id": "T02-F3",
+          "feature_description": "角楼坐落于灰砖城墙转角之上",
+          "verdict": "Yes",
+          "evidence": "角楼位于灰色砖砌城墙的转角处，画面可同时看到角楼与下方城墙的转折关系",
+          "confidence": 1.0,
+          "uncertain_reason": "",
+          "error": null
+        },
+        {
+          "feature_id": "T02-F4",
+          "feature_description": "黄瓦朱柱配色（黄琉璃瓦+朱红立柱/门窗）",
+          "verdict": "Yes",
+          "evidence": "屋顶覆黄色琉璃瓦，且可见朱红色立柱与门窗构件，黄瓦与朱红构件同现",
+          "confidence": 1.0,
+          "uncertain_reason": "",
+          "error": null
+        }
+      ],
+      "satisfaction_rate": 1.0,
+      "uncertain_ratio": 0.0,
+      "counts": {
+        "Yes": 4,
+        "No": 0,
+        "Uncertain": 0
+      }
+    },
+    {
+      "video_file": "T2-4.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-4.mp4",
+      "eval_time": "2026-11-04T20:58:21",
+      "parse_ok": true,
+      "raw_response": "{\"results\":[{\"feature_id\":\"T02-F1\",\"verdict\":\"Yes\",\"evidence\":\"主体屋顶由中央多层攒尖顶与下方单层歇山顶叠合，轮廓呈明显分层复合结构\",\"confidence\":1.0,\"uncertain_reason\":\"\"},{\"feature_id\":\"T02-F2\",\"verdict\":\"Yes\",\"evidence\":\"檐口四向可见多个向外起翘的翼角，层层出挑形成复杂轮廓\",\"confidence\":1.0,\"uncertain_reason\":\"\"},{\"feature_id\":\"T02-F3\",\"verdict\":\"Yes\",\"evidence\":\"角楼位于灰色砖砌城墙的转角处，画面可同时看到角楼与下方城墙的转折关系\",\"confidence\":1.0,\"uncertain_reason\":\"\"},{\"feature_id\":\"T02-F4\",\"verdict\":\"Yes\",\"evidence\":\"屋顶覆黄色琉璃瓦，同时可见朱红色立柱与门窗构件\",\"confidence\":1.0,\"uncertain_reason\":\"\"}]}",
+      "results": [
+        {
+          "feature_id": "T02-F1",
+          "feature_description": "主体屋顶为多重屋顶组合（非单一屋顶）",
+          "verdict": "Yes",
+          "evidence": "主体屋顶由中央多层攒尖顶与下方单层歇山顶叠合，轮廓呈明显分层复合结构",
+          "confidence": 1.0,
+          "uncertain_reason": "",
+          "error": null
+        },
+        {
+          "feature_id": "T02-F2",
+          "feature_description": "檐口多翼角出挑、层层起翘",
+          "verdict": "Yes",
+          "evidence": "檐口四向可见多个向外起翘的翼角，层层出挑形成复杂轮廓",
+          "confidence": 1.0,
+          "uncertain_reason": "",
+          "error": null
+        },
+        {
+          "feature_id": "T02-F3",
+          "feature_description": "角楼坐落于灰砖城墙转角之上",
+          "verdict": "Yes",
+          "evidence": "角楼位于灰色砖砌城墙的转角处，画面可同时看到角楼与下方城墙的转折关系",
+          "confidence": 1.0,
+          "uncertain_reason": "",
+          "error": null
+        },
+        {
+          "feature_id": "T02-F4",
+          "feature_description": "黄瓦朱柱配色（黄琉璃瓦+朱红立柱/门窗）",
+          "verdict": "Yes",
+          "evidence": "屋顶覆黄色琉璃瓦，同时可见朱红色立柱与门窗构件",
+          "confidence": 1.0,
+          "uncertain_reason": "",
+          "error": null
+        }
+      ],
+      "satisfaction_rate": 1.0,
+      "uncertain_ratio": 0.0,
+      "counts": {
+        "Yes": 4,
+        "No": 0,
+        "Uncertain": 0
+      }
+    }
+  ],
+  "summary": {
+    "total_facts": 16,
+    "total_yes": 15,
+    "total_uncertain": 0,
+    "overall_satisfaction_rate": 0.9375,
+    "overall_uncertain_ratio": 0.0,
+    "per_video": {
+      "T2-1.mp4": 0.75,
+      "T2-2.mp4": 1.0,
+      "T2-3.mp4": 1.0,
+      "T2-4.mp4": 1.0
+    }
+  }
+}

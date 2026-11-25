@@ -1,0 +1,13 @@
+[
+  {
+    "symbol_id": "BJ_RED_002",
+    "canonical_name": "天安门广场",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 6.0,
+    "reason": "关键词/别名命中：天安门",
+    "image_score": 0.0,
+    "text_score": 6.0,
+    "fusion_score": 6.0
+  }
+]

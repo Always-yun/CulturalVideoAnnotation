@@ -1,0 +1,48 @@
+{
+  "request": {
+    "id": "T10_T10_G4_r01_video",
+    "task_id": "T10",
+    "video_id": "T10_G4_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T10-G4.mp4",
+    "video_sha256": "b9c9f3c5e047f69d65358f8e77559e4c9bfb2cd8df46fea1ae7740267473b761",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：【E｜场景环境层】\n傍晚蓝调时刻，上海陆家嘴现代商务区建筑密集，深蓝色天空与逐渐点亮的楼宇灯光形成鲜明对比，都市氛围繁华。\n\n【M｜主体行为层】\n视觉焦点为东方明珠广播电视塔及周边现代建筑群。电视塔位于画面主要位置，与周围高层建筑形成明显高度差，所有建筑主体保持静止。\n\n【C｜文化符号层】\n文化类别：现代城市与国际文化。\n核心视觉特征：不同高度分布的大小球形结构、球体沿竖向高塔主体排列、塔体下部的倾斜支撑柱、顶部细长的天线桅杆。\n\n【A｜视听语言层】\n镜头稳定、节奏慢，采用地面仰视中远景和缓慢向上摇摄。整体以冷调天空与暖调建筑灯光形成对比，使用写实城市建筑摄影风格。\n\n【S｜整体叙事层】\n镜头从较低位置逐渐向上展开，连续展示城市地标塔楼与周围建筑的高度关系，最终呈现高耸塔体及现代城市天际空间。。时序事实及判据：[]",
+    "request_sha256": "bdd98b1a8e892330b177a0252b5e790074d65525360665a9f9182e857808b0d7"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"conditions\": {\"subject\": {\"verdict\": \"Yes\", \"evidence\": \"视觉焦点为东方明珠广播电视塔及周边现代建筑群，电视塔位于画面主要位置，与周围高层建筑形成明显高度差，所有建筑主体保持静止\", \"timestamps\": \"0.00-5.00\"}, \"scene\": {\"verdict\": \"No\", \"evidence\": \"场景为白天，天空明亮，与目标描述的傍晚蓝调时刻不符\", \"timestamps\": \"0.00-5.00\"}, \"time_weather\": {\"verdict\": \"No\", \"evidence\": \"天空明亮，光线充足，为白天，与目标描述的傍晚蓝调时刻不符\", \"timestamps\": \"0.00-5.00\"}, \"camera_motion\": {\"verdict\": \"Yes\", \"evidence\": \"镜头从较低位置逐渐向上摇摄，连续展示城市地标塔楼与周围建筑的高度关系，最终呈现高耸塔体及现代城市天际空间\", \"timestamps\": \"0.00-5.00\"}}, \"temporal_facts\": {}}",
+  "parse_ok": true,
+  "parsed": {
+    "conditions": {
+      "subject": {
+        "verdict": "Yes",
+        "evidence": "视觉焦点为东方明珠广播电视塔及周边现代建筑群，电视塔位于画面主要位置，与周围高层建筑形成明显高度差，所有建筑主体保持静止",
+        "timestamps": "0.00-5.00"
+      },
+      "scene": {
+        "verdict": "No",
+        "evidence": "场景为白天，天空明亮，与目标描述的傍晚蓝调时刻不符",
+        "timestamps": "0.00-5.00"
+      },
+      "time_weather": {
+        "verdict": "No",
+        "evidence": "天空明亮，光线充足，为白天，与目标描述的傍晚蓝调时刻不符",
+        "timestamps": "0.00-5.00"
+      },
+      "camera_motion": {
+        "verdict": "Yes",
+        "evidence": "镜头从较低位置逐渐向上摇摄，连续展示城市地标塔楼与周围建筑的高度关系，最终呈现高耸塔体及现代城市天际空间",
+        "timestamps": "0.00-5.00"
+      }
+    },
+    "temporal_facts": {}
+  }
+}

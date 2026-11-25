@@ -1,0 +1,12 @@
+{
+  "video_id": "糖葫芦",
+  "gt_symbols": [
+    "冰糖葫芦"
+  ],
+  "gt_symbol_ids": [],
+  "gt_dimension_code": "FOLK",
+  "kb_coverage": false,
+  "mode": "image",
+  "status": "blocked_material",
+  "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_GUDU_010",
+    "canonical_name": "角楼",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.805572509765625,
+    "reason": "关键词/别名命中：角楼",
+    "image_score": 0.6111,
+    "text_score": 1.0,
+    "fusion_score": 0.8056
+  },
+  {
+    "symbol_id": "BJ_GUDU_001",
+    "canonical_name": "故宫",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.80279541015625,
+    "reason": "关键词/别名命中：故宫",
+    "image_score": 0.6056,
+    "text_score": 1.0,
+    "fusion_score": 0.8028
+  },
+  {
+    "symbol_id": "CN2_FOLK_004",
+    "canonical_name": "丽江古城",
+    "cultural_dimension": "民族与民俗文化;古城与历史文化",
+    "dimension_code": "FOLK;ANCIENT",
+    "score": 0.314208984375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6284,
+    "text_score": 0.0,
+    "fusion_score": 0.3142
+  },
+  {
+    "symbol_id": "BJ_RED_006",
+    "canonical_name": "中国国家博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.31256103515625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6251,
+    "text_score": 0.0,
+    "fusion_score": 0.3126
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_007",
+    "canonical_name": "登封“天地之中”历史古迹",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.31195068359375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6239,
+    "text_score": 0.0,
+    "fusion_score": 0.312
+  }
+]

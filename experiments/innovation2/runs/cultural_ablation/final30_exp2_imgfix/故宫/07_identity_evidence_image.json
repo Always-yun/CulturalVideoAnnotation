@@ -1,0 +1,91 @@
+{
+  "decision": {
+    "identity_gate_pass": true,
+    "reason": "At least one candidate has strong identity evidence.",
+    "passed_symbol_ids": [
+      "BJ_GUDU_002"
+    ]
+  },
+  "candidates": [
+    {
+      "symbol_id": "BJ_GUDU_002",
+      "canonical_name": "太和殿",
+      "identity_name_match": true,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 1,
+      "identity_evidence_level": "strong",
+      "identity_gate_pass": true,
+      "identity_gate_reason": "场景主体描述中命中候选完整名称/别名或KB独特属性",
+      "category_evidence": "dimension=ANCIENT; type=宫殿单体建筑",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_002",
+      "canonical_name": "平遥古城",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=ANCIENT; type=明清古城",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_008",
+      "canonical_name": "明清皇家陵寝",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=ANCIENT; type=皇家陵寝",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_015",
+      "canonical_name": "颐和园",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=ANCIENT; type=皇家园林",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_012",
+      "canonical_name": "承德避暑山庄及其周围寺庙",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=ANCIENT; type=皇家园林与寺庙群",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    }
+  ]
+}

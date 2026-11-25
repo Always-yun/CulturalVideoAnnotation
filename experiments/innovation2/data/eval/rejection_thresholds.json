@@ -1,0 +1,48 @@
+{
+  "version": "v2-30sucai",
+  "tuned_at": "2026-10-15 16:05:31",
+  "val_gt": "experiments/innovation2/data/eval/cultural_ablation_gt_v2.jsonl",
+  "val_split": "val",
+  "val_size": 11,
+  "n_gap": 3,
+  "n_hit": 8,
+  "objective": "soft balanced acc: gap(insufficient=1/uncertain=0.5/confident=0) vs hit(confident=1/uncertain=0.5/insufficient=0)",
+  "signal_file": "experiments/innovation2/cache/rejection_val_signals.json",
+  "thresholds": {
+    "text": {
+      "signal": "text",
+      "score_thr": 0.5,
+      "margin_thr": 0,
+      "require_keywords": true
+    },
+    "image": {
+      "signal": "fusion",
+      "score_thr": 0.4,
+      "margin_thr": 0,
+      "require_keywords": true
+    },
+    "multimodal": {
+      "signal": "fusion",
+      "score_thr": 0.4,
+      "margin_thr": 0,
+      "require_keywords": true
+    }
+  },
+  "report": {
+    "text": {
+      "balanced_acc": 0.9375,
+      "gap_reject": 1.0,
+      "hit_pass": 0.875
+    },
+    "image": {
+      "balanced_acc": 0.9375,
+      "gap_reject": 1.0,
+      "hit_pass": 0.875
+    },
+    "multimodal": {
+      "balanced_acc": 0.9375,
+      "gap_reject": 1.0,
+      "hit_pass": 0.875
+    }
+  }
+}

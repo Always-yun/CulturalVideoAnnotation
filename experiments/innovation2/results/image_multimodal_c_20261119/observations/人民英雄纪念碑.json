@@ -1,0 +1,39 @@
+{
+  "scene_description_raw": "{\"scene\":\"晴朗天气下的室外广场，地面为灰色石板，天空湛蓝\",\"subject\":\"多面红旗在旗杆上飘扬，旗杆顶部有金色五角星装饰\",\"visible_features\":[\"红色旗帜、银色旗杆、金色五角星、灰色石碑、石碑上的金色文字、广场上的金色隔离桩、远处建筑\"],\"background\":[\"灰色石碑、石碑基座、远处的建筑、蓝天\"],\"readable_text\":[{\"text\":\"人民英雄永垂不朽\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"碑刻\",\"time_ratio\":1.0,\"bbox\":[0.476,0.465,0.495,0.662]}],\"uncertain_entities\":[]}",
+  "scene_description": "晴朗天气下的室外广场，地面为灰色石板，天空湛蓝\n多面红旗在旗杆上飘扬，旗杆顶部有金色五角星装饰\n红色旗帜、银色旗杆、金色五角星、灰色石碑、石碑上的金色文字、广场上的金色隔离桩、远处建筑\n可读文字：人民英雄永垂不朽",
+  "structured_scene": {
+    "scene": "晴朗天气下的室外广场，地面为灰色石板，天空湛蓝",
+    "subject": "多面红旗在旗杆上飘扬，旗杆顶部有金色五角星装饰",
+    "visible_features": [
+      "红色旗帜、银色旗杆、金色五角星、灰色石碑、石碑上的金色文字、广场上的金色隔离桩、远处建筑"
+    ],
+    "background": [
+      "灰色石碑、石碑基座、远处的建筑、蓝天"
+    ],
+    "readable_text": [
+      {
+        "text": "人民英雄永垂不朽",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "碑刻",
+        "time_ratio": 1.0,
+        "bbox": [
+          0.476,
+          0.465,
+          0.495,
+          0.662
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

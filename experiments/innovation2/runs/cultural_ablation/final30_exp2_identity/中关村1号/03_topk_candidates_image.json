@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN2_MODERN_002",
+    "canonical_name": "鼓浪屿：历史国际社区",
+    "cultural_dimension": "现代城市与国际文化;古城与历史文化",
+    "dimension_code": "MODERN;ANCIENT",
+    "score": 0.630615234375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6306,
+    "text_score": 0.0,
+    "fusion_score": 0.6306
+  },
+  {
+    "symbol_id": "BJ_INNOV_006",
+    "canonical_name": "北京大学",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.628173828125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6282,
+    "text_score": 0.0,
+    "fusion_score": 0.6282
+  },
+  {
+    "symbol_id": "CN2_TECH_015",
+    "canonical_name": "东升科技园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6270751953125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6271,
+    "text_score": 0.0,
+    "fusion_score": 0.6271
+  },
+  {
+    "symbol_id": "CN_MODERN_002",
+    "canonical_name": "泉州：宋元中国的世界海洋商贸中心",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.6265869140625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6266,
+    "text_score": 0.0,
+    "fusion_score": 0.6266
+  },
+  {
+    "symbol_id": "BJ_FASHION_008",
+    "canonical_name": "郎园Station",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.62548828125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6255,
+    "text_score": 0.0,
+    "fusion_score": 0.6255
+  }
+]

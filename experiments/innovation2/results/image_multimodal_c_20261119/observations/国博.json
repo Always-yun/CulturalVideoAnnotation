@@ -1,0 +1,39 @@
+{
+  "scene_description_raw": "{\"scene\":\"白天，晴朗天气下，一座大型建筑前有行人走动和车辆停放\",\"subject\":\"建筑前有行人走动和车辆停放\",\"visible_features\":[\"建筑顶部有红色横幅和黄色五角星标志，横幅上有金色文字，建筑顶部有多个红旗，建筑有白色立柱和台阶\"],\"background\":[\"蓝天、树木、路灯\"],\"readable_text\":[{\"text\":\"中国国家博物馆\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.03,0.48,0.09,0.51]}],\"uncertain_entities\":[]}",
+  "scene_description": "白天，晴朗天气下，一座大型建筑前有行人走动和车辆停放\n建筑前有行人走动和车辆停放\n建筑顶部有红色横幅和黄色五角星标志，横幅上有金色文字，建筑顶部有多个红旗，建筑有白色立柱和台阶\n可读文字：中国国家博物馆",
+  "structured_scene": {
+    "scene": "白天，晴朗天气下，一座大型建筑前有行人走动和车辆停放",
+    "subject": "建筑前有行人走动和车辆停放",
+    "visible_features": [
+      "建筑顶部有红色横幅和黄色五角星标志，横幅上有金色文字，建筑顶部有多个红旗，建筑有白色立柱和台阶"
+    ],
+    "background": [
+      "蓝天、树木、路灯"
+    ],
+    "readable_text": [
+      {
+        "text": "中国国家博物馆",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.03,
+          0.48,
+          0.09,
+          0.51
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

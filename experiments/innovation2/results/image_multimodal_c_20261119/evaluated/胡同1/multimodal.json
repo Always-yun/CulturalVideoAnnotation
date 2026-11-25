@@ -1,0 +1,64 @@
+{
+  "video_id": "胡同1",
+  "mode": "multimodal",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "胡同"
+  ],
+  "reference_ids": [
+    "BJ_JINGWEI_001"
+  ],
+  "predicted_names": [
+    "胡同"
+  ],
+  "predicted_ids": [
+    "BJ_JINGWEI_001"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "ANCIENT",
+    "FOLK"
+  ],
+  "reference_categories": [
+    "FOLK"
+  ],
+  "category_exact": false,
+  "category_tp": 1,
+  "category_fp": 1,
+  "category_fn": 0,
+  "recall_at_k": true,
+  "candidate_ids": [
+    "BJ_JINGWEI_001",
+    "BJ_INNOV_007",
+    "BJ_FASHION_003"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化、民族与民俗文化。\n核心符号：胡同\n价值指向：画面呈现狭窄的街巷空间，两侧为传统低矮建筑，具有灰砖墙、坡顶等视觉特征，符合北京胡同的典型形态；街巷尺度、建筑风格及市井氛围（如停放的车辆、骑行的电动车）体现了胡同作为传统街巷形态的文化内涵。画面中未出现明确标识胡同名称的牌匾，但建筑布局与空间特征已构成胡同的核心视觉依据，其承载的市井文化与历史信息可归入古城与历史文化、民族与民俗文化维度。",
+  "c_layer_natural_language": "：该场景隶属于古城与历史文化、民族与民俗文化。\n核心符号：胡同\n价值指向：画面呈现狭窄的街巷空间，两侧为传统低矮建筑，具有灰砖墙、坡顶等视觉特征，符合北京胡同的典型形态；街巷尺度、建筑风格及市井氛围（如停放的车辆、骑行的电动车）体现了胡同作为传统街巷形态的文化内涵。画面中未出现明确标识胡同名称的牌匾，但建筑布局与空间特征已构成胡同的核心视觉依据，其承载的市井文化与历史信息可归入古城与历史文化、民族与民俗文化维度。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/胡同1/multimodal.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T17:01:23.034804+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化、民族与民俗文化。\n核心符号：胡同\n价值指向：画面呈现狭窄的街巷空间，两侧为传统低矮建筑，具有灰砖墙、坡顶等视觉特征，符合北京胡同的典型形态；街巷尺度、建筑风格及市井氛围（如停放的车辆、骑行的电动车）体现了胡同作为传统街巷形态的文化内涵。画面中未出现明确标识胡同名称的牌匾，但建筑布局与空间特征已构成胡同的核心视觉依据，其承载的市井文化与历史信息可归入古城与历史文化、民族与民俗文化维度。",
+      "response_model": "glm-4v",
+      "response_id": "20261119170123a51fab026c484aed",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=50035, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=139, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=50174)",
+      "seconds": 63.15539479255676
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

@@ -1,0 +1,30 @@
+{
+  "request": {
+    "id": "T06_source_video",
+    "task_id": "T06",
+    "video_id": "source",
+    "video_file": "data/video/皮影戏.mp4",
+    "video_sha256": "377fcbe5ddcdf327c696f610de0b747adaa8df97cc129842dd50d68a73f6ae81",
+    "condition_names": [],
+    "temporal_question_ids": [
+      "T06-F3"
+    ],
+    "description_basis": "source_reference",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[]。目标描述：原视频参考，不做条件遵循评分。时序事实及判据：[{\"fact_id\": \"T06-F3\", \"question\": \"两个皮影人物是否发生连续的打斗或武打动作？\", \"yes_rule\": \"连续视频中两个皮影人物存在至少两个连续时刻的攻防、挥击、追逐或武打动作变化\", \"no_rule\": \"人物仅静止、摆姿或彼此没有连续武打互动\", \"uncertain_rule\": \"片段过短、动作被遮挡、播放异常或无法区分动作连续性\"}]",
+    "request_sha256": "ee8d9959736947f59d53b664e9dc861bc277b4492308597df7afdd2ab5d5efa4"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"conditions\": {}, \"temporal_facts\": {\"T06-F3\": {\"verdict\": \"Yes\", \"evidence\": \"视频中两个皮影人物从初始对峙状态开始，持续进行挥棒、格挡、跳跃等攻防动作，动作连贯且具有武打互动特征\", \"timestamps\": \"0.00-12.50\"}}}",
+  "parse_ok": true,
+  "parsed": {
+    "conditions": {},
+    "temporal_facts": {
+      "T06-F3": {
+        "verdict": "Yes",
+        "evidence": "视频中两个皮影人物从初始对峙状态开始，持续进行挥棒、格挡、跳跃等攻防动作，动作连贯且具有武打互动特征",
+        "timestamps": "0.00-12.50"
+      }
+    }
+  }
+}

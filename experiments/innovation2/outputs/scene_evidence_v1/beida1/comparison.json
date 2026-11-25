@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-12",
+  "scope": "开发诊断；历史记录与新单次采样对比，不能分离提示词变化与模型采样波动；未全量评测",
+  "video": "北大1",
+  "baseline_top1": "卢沟桥",
+  "baseline_correct_in_top5": false,
+  "new_top1": "北京大学",
+  "new_correct_in_top5": true,
+  "transcription": [
+    {
+      "text": "北京大学",
+      "legibility": "clear"
+    }
+  ],
+  "additional_text_calls": 1,
+  "seconds": 106.34,
+  "tests_passed": 14,
+  "retrieval_weights_changed": false,
+  "thresholds_changed": false,
+  "full_annotation_rerun": false,
+  "historical_results_overwritten": false
+}

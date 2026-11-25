@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_GUDU_001",
+    "canonical_name": "故宫",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.9359130859375,
+    "reason": "关键词/别名命中：故宫、故宫博物院、宫殿",
+    "image_score": 0.8718,
+    "text_score": 1.0,
+    "fusion_score": 0.9359
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_026",
+    "canonical_name": "都江堰",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4683837890625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9368,
+    "text_score": 0.0,
+    "fusion_score": 0.4684
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_025",
+    "canonical_name": "青城山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4683837890625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9368,
+    "text_score": 0.0,
+    "fusion_score": 0.4684
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_002",
+    "canonical_name": "平遥古城",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.466552734375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9331,
+    "text_score": 0.0,
+    "fusion_score": 0.4666
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_021",
+    "canonical_name": "泰山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4600830078125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9202,
+    "text_score": 0.0,
+    "fusion_score": 0.4601
+  }
+]

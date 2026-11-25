@@ -1,0 +1,56 @@
+{
+  "development_text_raw": {
+    "n": 12,
+    "min": 1.0,
+    "max": 9.0,
+    "mean": 4.166666666666667,
+    "population_std": 2.6087459737497545
+  },
+  "development_image_cosine": {
+    "n": 260,
+    "min": 0.3920700252056122,
+    "max": 0.9354032278060913,
+    "mean": 0.6482862944786365,
+    "population_std": 0.10996130109214151
+  },
+  "test_text_raw": {
+    "n": 36,
+    "min": 1.0,
+    "max": 12.0,
+    "mean": 3.2222222222222223,
+    "population_std": 2.5507200629442215
+  },
+  "test_image_cosine": {
+    "n": 600,
+    "min": 0.40965649485588074,
+    "max": 0.9303769469261169,
+    "mean": 0.6446059438586235,
+    "population_std": 0.09862817155700049
+  },
+  "test_videos_with_text_hits": 20,
+  "test_videos_with_image_scores": 30,
+  "duplicate_entities_in_any_candidates": false,
+  "reference_photos_per_entity": {
+    "BJ_FASHION_003": 4,
+    "BJ_GUDU_001": 1,
+    "BJ_GUDU_002": 1,
+    "BJ_GUDU_010": 2,
+    "BJ_INNOV_004": 1,
+    "BJ_INNOV_006": 1,
+    "BJ_INNOV_007": 3,
+    "BJ_INNOV_008": 1,
+    "BJ_JINGWEI_001": 2,
+    "BJ_JINGWEI_003": 2,
+    "BJ_JINGWEI_004": 1,
+    "BJ_JINGWEI_007": 1,
+    "BJ_RED_002": 2,
+    "BJ_RED_003": 1,
+    "BJ_RED_006": 1,
+    "CN2_TECH_005": 1,
+    "CN2_TECH_006": 2,
+    "CN2_TECH_008": 1,
+    "CN_ANCIENT_003": 1,
+    "CN_MODERN_001": 1
+  },
+  "note": "Descriptive score audit only; no parameter updates after viewing test distributions."
+}

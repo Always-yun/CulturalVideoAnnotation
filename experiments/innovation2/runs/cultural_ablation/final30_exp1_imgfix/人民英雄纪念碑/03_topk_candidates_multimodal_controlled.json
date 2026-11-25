@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_RED_002",
+    "canonical_name": "天安门广场",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.9271240234375,
+    "reason": "关键词/别名命中：天安门广场、天安门、广场",
+    "image_score": 0.8542,
+    "text_score": 1.0,
+    "fusion_score": 0.9271
+  },
+  {
+    "symbol_id": "BJ_RED_003",
+    "canonical_name": "人民英雄纪念碑",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.814208984375,
+    "reason": "关键词/别名命中：人民英雄纪念碑、纪念碑",
+    "image_score": 0.8784,
+    "text_score": 0.75,
+    "fusion_score": 0.8142
+  },
+  {
+    "symbol_id": "BJ_RED_006",
+    "canonical_name": "中国国家博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.5252685546875,
+    "reason": "关键词/别名命中：天安门广场",
+    "image_score": 0.8005,
+    "text_score": 0.25,
+    "fusion_score": 0.5253
+  },
+  {
+    "symbol_id": "CN_RED_002",
+    "canonical_name": "西柏坡纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.5190022786458334,
+    "reason": "关键词/别名命中：纪念碑",
+    "image_score": 0.8713,
+    "text_score": 0.1667,
+    "fusion_score": 0.519
+  },
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4373779296875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8748,
+    "text_score": 0.0,
+    "fusion_score": 0.4374
+  }
+]

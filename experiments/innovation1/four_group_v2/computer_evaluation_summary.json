@@ -1,0 +1,1202 @@
+{
+  "status": "provisional_pending_human_reference_verification",
+  "source_reference_proposals": [
+    {
+      "task_id": "T01",
+      "answers": {
+        "T01-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "画面中可见多排人物陶俑整齐排列，主体朝向镜头方向"
+        },
+        "T01-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "陶俑具有古代军士的服饰和甲胄特征，如铠甲、发髻等"
+        },
+        "T01-F3": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "陶俑呈现土褐、灰褐等陶土色泽，具有哑光、粗粝的陶土材质质感"
+        },
+        "T01-F4": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "陶俑排列在由土质隔墙分隔的长方形坑道内"
+        }
+      },
+      "status": "machine_proposal_pending_human_verification",
+      "reference_truth_written": false,
+      "source_file": "experiments/innovation1/four_group_v2/machine/T01_source_7048cc0d432b0952.json"
+    },
+    {
+      "task_id": "T04",
+      "answers": {
+        "T04-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "船只呈狭长传统中式船形，可见木质色泽与纹理"
+        },
+        "T04-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "船体上方船舱具有传统中式坡屋顶、瓦顶及飞檐式轮廓"
+        },
+        "T04-F3": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "可辨认中部有顶舱段与前后露出船体部分，形成明确分段"
+        },
+        "T04-F4": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "船只与湖面接触关系清楚，船体大部分轮廓可见且呈停泊状态"
+        }
+      },
+      "status": "machine_proposal_pending_human_verification",
+      "reference_truth_written": false,
+      "source_file": "experiments/innovation1/four_group_v2/machine/T04_source_fc2fd61ff22f767b.json"
+    },
+    {
+      "task_id": "T06",
+      "answers": {
+        "T06-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "画面中可见两个扁平、剪影式的皮影人物，分别位于画面中央偏左和偏右位置"
+        },
+        "T06-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "舞台背景可见传统中式建筑图案，包括带有屋顶和装饰的亭阁造型及传统灯笼装饰"
+        },
+        "T06-F4": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "两个皮影人物分别具有可辨认的角色特征，左侧人物为孙悟空（猴相、金箍棒），右侧人物为白骨精（女性妖怪造型）"
+        },
+        "T06-F3": {
+          "answer": "Yes",
+          "evidence": "视频中两个皮影人物从初始对峙状态开始，持续进行挥棒、格挡、跳跃等攻防动作，动作连贯且具有武打互动特征",
+          "timestamps": "0.00-12.50"
+        }
+      },
+      "status": "machine_proposal_pending_human_verification",
+      "reference_truth_written": false,
+      "source_file": "experiments/innovation1/four_group_v2/machine/T06_source_6a9a33393f575fb5.json"
+    },
+    {
+      "task_id": "T07",
+      "answers": {
+        "T07-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "画面中可见大型运载火箭竖直立于发射工位，伴随火焰和烟雾，背景有发射平台相关结构"
+        },
+        "T07-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "火箭旁可见多座高大的金属桁架结构，高度与火箭相当或更高，符合发射塔架特征"
+        },
+        "T07-F3": {
+          "answer": "Yes",
+          "evidence": "视频中火箭底部从无火焰到出现明显喷射火焰和大量烟雾，符合点火过程特征",
+          "timestamps": "0.00s-8.00s"
+        },
+        "T07-F4": {
+          "answer": "Yes",
+          "evidence": "火箭相对发射工位持续向上位移并逐步离开平台，呈现向上升空的连续变化",
+          "timestamps": "0.00s-8.00s"
+        }
+      },
+      "status": "machine_proposal_pending_human_verification",
+      "reference_truth_written": false,
+      "source_file": "experiments/innovation1/four_group_v2/machine/T07_source_ec5846746b17d55f.json"
+    },
+    {
+      "task_id": "T10",
+      "answers": {
+        "T10-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "可见塔楼有至少两个大小不同的球形结构（上方小圆球与下方大圆球）"
+        },
+        "T10-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "多个球形结构沿高耸竖向塔身上下分布，形成完整组合关系"
+        },
+        "T10-F3": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "塔楼下部可见明显倾斜支撑柱，与主塔形成承托关系"
+        },
+        "T10-F4": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "东方明珠形态塔楼位于画面中央，是明确视觉焦点，其他建筑仅作背景"
+        }
+      },
+      "status": "machine_proposal_pending_human_verification",
+      "reference_truth_written": false,
+      "source_file": "experiments/innovation1/four_group_v2/machine/T10_source_636dc20b5f0100c9.json"
+    }
+  ],
+  "details": [
+    {
+      "video_id": "T01_G1_r01",
+      "task_id": "T01",
+      "group": "G1",
+      "repeat": 1,
+      "facts": {
+        "T01-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "画面中可见多排整齐排列的人物陶俑，主体朝向镜头方向，形成有序排列的军阵形态"
+        },
+        "T01-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "陶俑具有古代军士的服饰特征，如甲胄、发髻等古代军士造型细节可见"
+        },
+        "T01-F3": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "陶俑呈现土褐、灰褐等陶土色泽，表面具有哑光、粗粝的陶土材质质感"
+        },
+        "T01-F4": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "陶俑排列在由土质隔墙分隔的长方形坑道内，坑道布局清晰可见"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 1.0,
+      "overall_form": "Match",
+      "overall_evidence": "生成视频与原视频在陶俑排列、服饰特征、材质质感及坑道布局等核心要素上完全一致",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T01_G2_r01",
+      "task_id": "T01",
+      "group": "G2",
+      "repeat": 1,
+      "facts": {
+        "T01-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "画面中可见多排人物雕塑有序排列，整体朝向镜头方向"
+        },
+        "T01-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "人物雕塑具有古代军士服饰特征，如甲胄、发髻等造型"
+        },
+        "T01-F3": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "人物雕塑呈现土褐、灰褐等陶土色泽，具有哑光、粗粝的陶土质感"
+        },
+        "T01-F4": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "人物雕塑排列在由土质隔墙分隔的长方形坑道内"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 1.0,
+      "overall_form": "Match",
+      "overall_evidence": "生成视频与原视频在陶俑排列、服饰特征、材质质感及坑道布局上均一致",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T01_G3_r01",
+      "task_id": "T01",
+      "group": "G3",
+      "repeat": 1,
+      "facts": {
+        "T01-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "画面中可见多排人物陶俑整齐排列，主体朝向镜头方向"
+        },
+        "T01-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "陶俑具有古代军士的服饰和甲胄特征，如古代军士的装束与造型"
+        },
+        "T01-F3": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "陶俑呈现土褐、灰褐等陶土色泽，具有哑光、粗粝的陶土材质质感"
+        },
+        "T01-F4": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "陶俑排列在由土质隔墙分隔的长方形坑道内，坑道布局清晰可见"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 1.0,
+      "overall_form": "Match",
+      "overall_evidence": "生成视频与原视频在陶俑排列、服饰特征、材质质感及坑道布局等方面均匹配",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T01_G4_r01",
+      "task_id": "T01",
+      "group": "G4",
+      "repeat": 1,
+      "facts": {
+        "T01-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "画面中可见多排整齐排列的人物陶俑，主体朝向镜头方向，形成有序军阵布局"
+        },
+        "T01-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "陶俑具有古代军士的服饰和甲胄特征，如铠甲、发髻等造型清晰可见"
+        },
+        "T01-F3": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "陶俑呈现土褐、灰褐等陶土色泽，表面具有哑光、粗粝的陶土质感"
+        },
+        "T01-F4": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "陶俑排列在由土质隔墙分隔的长方形坑道内，坑道结构清晰可见"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 1.0,
+      "overall_form": "Match",
+      "overall_evidence": "生成视频与原视频在陶俑排列、服饰特征、材质质感及坑道布局等方面均匹配",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T04_G1_r01",
+      "task_id": "T04",
+      "group": "G1",
+      "repeat": 1,
+      "facts": {
+        "T04-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频中的船只呈现狭长传统中式船形，船体可见木质色泽与纹理"
+        },
+        "T04-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频中的船体上方船舱具有传统中式坡屋顶、瓦顶及飞檐式轮廓"
+        },
+        "T04-F3": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频中的船只可辨认中部有顶舱段与前后露出船体部分，形成明确分段结构"
+        },
+        "T04-F4": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频中的船只与湖面接触关系清楚，船体大部分轮廓可见且呈停泊状态"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 1.0,
+      "overall_form": "Match",
+      "overall_evidence": "生成视频与原视频的船只形态（狭长传统木质船体、传统中式屋顶船舱、分段结构、停泊湖面轮廓）均匹配",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T04_G2_r01",
+      "task_id": "T04",
+      "group": "G2",
+      "repeat": 1,
+      "facts": {
+        "T04-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频中的船只呈现狭长传统中式船形，船体可见木质色泽与纹理"
+        },
+        "T04-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频中的船体上方船舱具有传统中式坡屋顶与瓦顶轮廓"
+        },
+        "T04-F3": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频中的船只可辨认中部有顶舱段与前后露出船体部分，形成明确分段结构"
+        },
+        "T04-F4": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频中的船只与湖面接触关系清楚，船体大部分轮廓可见且呈停泊状态"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 1.0,
+      "overall_form": "Match",
+      "overall_evidence": "生成视频中的船只整体形态（狭长船体、传统中式屋顶船舱、分段结构、停泊湖面）与原视频一致",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T04_G3_r01",
+      "task_id": "T04",
+      "group": "G3",
+      "repeat": 1,
+      "facts": {
+        "T04-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频中的船只呈现狭长传统中式船形，船体可见木质色泽与纹理"
+        },
+        "T04-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频中的船体上方船舱具有传统中式坡屋顶与瓦顶轮廓"
+        },
+        "T04-F3": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频中的船只可辨认中部有顶舱段与前后露出船体部分，形成明确分段"
+        },
+        "T04-F4": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频中的船只与湖面接触关系清楚，船体大部分轮廓可见且呈停泊状态"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 1.0,
+      "overall_form": "Match",
+      "overall_evidence": "生成视频中的船只整体形态（狭长传统木质船体、带传统中式屋顶的船舱、分段结构、停泊在湖面的完整轮廓）与原视频一致",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T04_G4_r01",
+      "task_id": "T04",
+      "group": "G4",
+      "repeat": 1,
+      "facts": {
+        "T04-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频中的船只呈现狭长传统中式船形，船体可见木质色泽与纹理"
+        },
+        "T04-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频中的船体上方船舱具有传统中式坡屋顶与瓦顶轮廓"
+        },
+        "T04-F3": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频中的船只可辨认中部有顶舱段与前后露出船体部分，形成明确分段结构"
+        },
+        "T04-F4": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频中的船只与湖面接触关系清楚，船体大部分轮廓可见且呈停泊状态"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 1.0,
+      "overall_form": "Match",
+      "overall_evidence": "生成视频中的船只整体形态（狭长传统船体、中式屋顶船舱、分段结构、停泊湖面）与原视频一致",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T06_G1_r01",
+      "task_id": "T06",
+      "group": "G1",
+      "repeat": 1,
+      "facts": {
+        "T06-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "画面中可见两个扁平剪影式人物，符合皮影人物特征"
+        },
+        "T06-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "背景幕布上出现传统中式建筑图案，包含传统屋顶造型"
+        },
+        "T06-F4": {
+          "answer": "Uncertain",
+          "frames": [
+            "Uncertain"
+          ],
+          "evidence": "剪影人物缺乏足够标志性特征，无法可靠确认是否为孙悟空和白骨精"
+        },
+        "T06-F3": {
+          "answer": "Yes",
+          "evidence": "两个皮影人物从站立到做出挥臂、踢腿等连续攻防动作，动作连贯且具有武打互动性",
+          "timestamps": "0.00-5.50"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 0.75,
+      "overall_form": "Match",
+      "overall_evidence": "生成视频与原视频在皮影人物数量、背景中式建筑元素上匹配，角色身份因剪影特征不足无法确认但整体形态匹配",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T06_G2_r01",
+      "task_id": "T06",
+      "group": "G2",
+      "repeat": 1,
+      "facts": {
+        "T06-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "当前生成视频画面中可见两个扁平剪影式人物，符合皮影人物特征"
+        },
+        "T06-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "当前生成视频舞台背景出现传统中式建筑图案（如传统中式屋顶、门楼等）"
+        },
+        "T06-F4": {
+          "answer": "Uncertain",
+          "frames": [
+            "Uncertain"
+          ],
+          "evidence": "当前生成视频为剪影式皮影人物，但缺少足够标志性特征，无法可靠确认两者是否为孙悟空和白骨精"
+        },
+        "T06-F3": {
+          "answer": "Yes",
+          "evidence": "两个皮影人物在连续视频中呈现攻防、挥击等武打动作变化，如手臂挥动、身体姿态调整等",
+          "timestamps": "0.00-5.00"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 0.75,
+      "overall_form": "Match",
+      "overall_evidence": "整体形态（皮影人物、传统中式背景）与原视频匹配",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T06_G3_r01",
+      "task_id": "T06",
+      "group": "G3",
+      "repeat": 1,
+      "facts": {
+        "T06-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "当前生成视频画面中可见两个扁平剪影式皮影人物"
+        },
+        "T06-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "当前生成视频舞台背景出现传统中式亭阁造型"
+        },
+        "T06-F4": {
+          "answer": "No",
+          "frames": [
+            "No"
+          ],
+          "evidence": "当前生成视频两个皮影人物造型不对应孙悟空和白骨精的标志性特征"
+        },
+        "T06-F3": {
+          "answer": "Yes",
+          "evidence": "从0.00秒到5.00秒，两个皮影人物从对峙姿态逐渐转变为连续的攻防动作，如挥臂、抬腿等，动作具有连续性和互动性",
+          "timestamps": "0.00-5.00"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 0.75,
+      "overall_form": "Mismatch",
+      "overall_evidence": "当前生成视频虽有两个皮影人物且背景有中式建筑，但角色造型不对应孙悟空和白骨精，与原视频形态不匹配",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T06_G4_r01",
+      "task_id": "T06",
+      "group": "G4",
+      "repeat": 1,
+      "facts": {
+        "T06-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "当前生成视频画面中可见两个扁平剪影式皮影人物"
+        },
+        "T06-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "当前生成视频舞台背景出现传统中式建筑图案（如亭阁造型）"
+        },
+        "T06-F4": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "当前生成视频两个皮影人物分别具有孙悟空（猴相、金箍棒）和白骨精（女性妖怪造型）的可辨认角色特征"
+        },
+        "T06-F3": {
+          "answer": "Yes",
+          "evidence": "两个皮影人物存在连续的攻防动作变化，如持武器对峙、挥击等",
+          "timestamps": "0.00-5.00"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 1.0,
+      "overall_form": "Match",
+      "overall_evidence": "生成视频在皮影人物数量、舞台背景中式建筑、角色特征三方面均与原视频匹配",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T07_G1_r01",
+      "task_id": "T07",
+      "group": "G1",
+      "repeat": 1,
+      "facts": {
+        "T07-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "当前生成视频可见大型运载火箭竖直立于发射工位区域，伴随发射烟雾和火焰"
+        },
+        "T07-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "当前生成视频火箭旁可见高度与其相当的高大金属桁架发射塔架"
+        },
+        "T07-F3": {
+          "answer": "Yes",
+          "evidence": "连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱的点火过程",
+          "timestamps": "2.00-4.00"
+        },
+        "T07-F4": {
+          "answer": "No",
+          "evidence": "火箭始终静止在发射工位，未发生相对发射工位的持续向上位移",
+          "timestamps": "0.00-5.00"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 0.75,
+      "overall_form": "Match",
+      "overall_evidence": "两视频均呈现竖直位于发射工位的大型运载火箭及旁侧高大金属桁架发射塔架，整体形态匹配",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T07_G2_r01",
+      "task_id": "T07",
+      "group": "G2",
+      "repeat": 1,
+      "facts": {
+        "T07-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "当前生成视频可见大型运载火箭竖直立于发射工位区域，伴随发射火焰与烟雾"
+        },
+        "T07-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "当前生成视频火箭旁可见高度与其相当的高大金属桁架发射塔架"
+        },
+        "T07-F3": {
+          "answer": "Yes",
+          "evidence": "连续视频中可见火箭底部从无点火状态到出现明显喷射火焰、烟柱及大量烟雾的点火过程",
+          "timestamps": "1.00-5.00秒"
+        },
+        "T07-F4": {
+          "answer": "Yes",
+          "evidence": "连续视频中火箭相对发射工位发生持续向上的位移，逐步离开平台并升空",
+          "timestamps": "4.00-6.00秒"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 1.0,
+      "overall_form": "Match",
+      "overall_evidence": "当前生成视频与原视频均呈现竖直位于发射工位的大型运载火箭及旁侧高大金属桁架发射塔架，整体形态匹配",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T07_G3_r01",
+      "task_id": "T07",
+      "group": "G3",
+      "repeat": 1,
+      "facts": {
+        "T07-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "当前生成视频可见大型运载火箭竖直立于发射工位区域，伴随发射火焰与烟雾"
+        },
+        "T07-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "当前生成视频火箭旁可见高度相当的金属桁架式发射塔架"
+        },
+        "T07-F3": {
+          "answer": "Yes",
+          "evidence": "视频中火箭底部从无火焰到出现明显喷射火焰与烟柱，呈现点火过程",
+          "timestamps": "0.00-5.00"
+        },
+        "T07-F4": {
+          "answer": "Yes",
+          "evidence": "火箭从发射工位持续向上位移，逐步离开平台，呈现升空变化",
+          "timestamps": "0.00-5.00"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 1.0,
+      "overall_form": "Match",
+      "overall_evidence": "两视频均呈现竖直位于发射工位的大型运载火箭及旁侧高大的金属桁架发射塔架，整体形态匹配",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T07_G4_r01",
+      "task_id": "T07",
+      "group": "G4",
+      "repeat": 1,
+      "facts": {
+        "T07-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "当前生成视频可见大型运载火箭竖直立于发射工位区域，伴随发射火焰与烟雾"
+        },
+        "T07-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "当前生成视频火箭旁可见高度相当的金属桁架式发射塔架"
+        },
+        "T07-F3": {
+          "answer": "Yes",
+          "evidence": "连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程",
+          "timestamps": "0.00-5.00"
+        },
+        "T07-F4": {
+          "answer": "Yes",
+          "evidence": "连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架",
+          "timestamps": "0.00-5.00"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 1.0,
+      "overall_form": "Match",
+      "overall_evidence": "两视频均呈现竖直位于发射工位的大型运载火箭及旁侧高大的金属桁架发射塔架，整体形态匹配",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T10_G1_r01",
+      "task_id": "T10",
+      "group": "G1",
+      "repeat": 1,
+      "facts": {
+        "T10-F1": {
+          "answer": "No",
+          "frames": [
+            "No"
+          ],
+          "evidence": "当前生成视频画面中无球形结构，无法满足主要塔楼具有多个大小不同球形结构的要求"
+        },
+        "T10-F2": {
+          "answer": "No",
+          "frames": [
+            "No"
+          ],
+          "evidence": "当前生成视频画面中无球形结构，无法满足球形结构沿高耸竖向塔身分布的要求"
+        },
+        "T10-F3": {
+          "answer": "No",
+          "frames": [
+            "No"
+          ],
+          "evidence": "当前生成视频画面中塔楼无倾斜支撑柱结构，塔楼下部为普通基座"
+        },
+        "T10-F4": {
+          "answer": "No",
+          "frames": [
+            "No"
+          ],
+          "evidence": "当前生成视频画面中无东方明珠形态塔楼，主体为其他建筑"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 0.0,
+      "overall_form": "Mismatch",
+      "overall_evidence": "当前生成视频画面中无东方明珠形态塔楼，主体为其他建筑，与原视频主要塔楼形态不匹配",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T10_G2_r01",
+      "task_id": "T10",
+      "group": "G2",
+      "repeat": 1,
+      "facts": {
+        "T10-F1": {
+          "answer": "No",
+          "frames": [
+            "No"
+          ],
+          "evidence": "当前生成视频中的塔楼无球形结构，与原视频的球形结构特征不匹配"
+        },
+        "T10-F2": {
+          "answer": "No",
+          "frames": [
+            "No"
+          ],
+          "evidence": "当前生成视频中的塔楼无球形结构，无法满足沿竖向塔身分布的条件"
+        },
+        "T10-F3": {
+          "answer": "No",
+          "frames": [
+            "No"
+          ],
+          "evidence": "当前生成视频中的塔楼下部为垂直柱状结构，无倾斜支撑柱"
+        },
+        "T10-F4": {
+          "answer": "No",
+          "frames": [
+            "No"
+          ],
+          "evidence": "当前生成视频中的塔楼形态与东方明珠不同，且未呈现东方明珠形态的塔楼"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 0.0,
+      "overall_form": "Mismatch",
+      "overall_evidence": "当前生成视频的塔楼形态、结构特征（无球形、无倾斜支撑柱等）与原视频的东方明珠塔楼特征完全不同",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T10_G3_r01",
+      "task_id": "T10",
+      "group": "G3",
+      "repeat": 1,
+      "facts": {
+        "T10-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频可见东方明珠塔有多个大小不同的球形结构（如顶部小紫球、中部大球、底部小球）"
+        },
+        "T10-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频可见多个球体沿高耸竖向塔身上下分布，形成完整组合关系"
+        },
+        "T10-F3": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频可见主要塔楼下部有明显的倾斜支撑柱结构，与主塔形成承托关系"
+        },
+        "T10-F4": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频可见东方明珠形态塔楼位于画面中央且明显突出于其他背景建筑"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 1.0,
+      "overall_form": "Match",
+      "overall_evidence": "生成视频与原视频在塔楼球形结构数量与大小、球体分布、倾斜支撑柱及画面位置等关键特征上均匹配",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    },
+    {
+      "video_id": "T10_G4_r01",
+      "task_id": "T10",
+      "group": "G4",
+      "repeat": 1,
+      "facts": {
+        "T10-F1": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频关键帧中可见主要塔楼有至少两个大小不同的球形结构（下方大球体与上方小球体）"
+        },
+        "T10-F2": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频关键帧中多个球体沿高耸竖向塔身上下分布，形成完整组合关系"
+        },
+        "T10-F3": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频关键帧中主要塔楼下部可见明显倾斜支撑柱结构，与主塔形成承托关系"
+        },
+        "T10-F4": {
+          "answer": "Yes",
+          "frames": [
+            "Yes"
+          ],
+          "evidence": "生成视频关键帧中东方明珠形态塔楼位于画面中央且明显突出于其他背景建筑"
+        }
+      },
+      "expected_fact_count": 4,
+      "evaluated_fact_count": 4,
+      "missing_fact_ids": [],
+      "machine_yes_rate": 1.0,
+      "overall_form": "Match",
+      "overall_evidence": "生成视频关键帧中东方明珠塔楼的轮廓、布局及部件关系与原视频匹配，各事实均判定为Yes",
+      "status": "complete_machine_evaluation_pending_human_reference",
+      "formal_cultural_satisfaction_rate": null
+    }
+  ],
+  "groups": {
+    "G1": {
+      "complete_tasks": 5,
+      "machine_yes_rate_mean": 0.7,
+      "overall_form_distribution": {
+        "Match": 0.8,
+        "Mismatch": 0.2,
+        "Partial": 0.0,
+        "Uncertain": 0.0
+      },
+      "repeat_sd": null
+    },
+    "G2": {
+      "complete_tasks": 5,
+      "machine_yes_rate_mean": 0.75,
+      "overall_form_distribution": {
+        "Match": 0.8,
+        "Mismatch": 0.2,
+        "Partial": 0.0,
+        "Uncertain": 0.0
+      },
+      "repeat_sd": null
+    },
+    "G3": {
+      "complete_tasks": 5,
+      "machine_yes_rate_mean": 0.95,
+      "overall_form_distribution": {
+        "Match": 0.8,
+        "Mismatch": 0.2,
+        "Partial": 0.0,
+        "Uncertain": 0.0
+      },
+      "repeat_sd": null
+    },
+    "G4": {
+      "complete_tasks": 5,
+      "machine_yes_rate_mean": 1.0,
+      "overall_form_distribution": {
+        "Match": 1.0,
+        "Mismatch": 0.0,
+        "Partial": 0.0,
+        "Uncertain": 0.0
+      },
+      "repeat_sd": null
+    }
+  },
+  "other_metrics": {
+    "G1": {
+      "videos": 5,
+      "condition_distribution": {
+        "subject": {
+          "No": 0.2,
+          "Uncertain": 0.0,
+          "Yes": 0.8
+        },
+        "scene": {
+          "No": 0.2,
+          "Uncertain": 0.0,
+          "Yes": 0.8
+        },
+        "time_weather": {
+          "No": 0.2,
+          "Uncertain": 0.0,
+          "Yes": 0.8
+        },
+        "camera_motion": {
+          "No": 0.2,
+          "Uncertain": 0.0,
+          "Yes": 0.8
+        }
+      },
+      "VBench_IQ_mean": 74.31970836885513,
+      "VBench_SC_mean": 0.9718223165205824,
+      "repeat_sd": null
+    },
+    "G2": {
+      "videos": 5,
+      "condition_distribution": {
+        "subject": {
+          "No": 0.0,
+          "Uncertain": 0.0,
+          "Yes": 1.0
+        },
+        "scene": {
+          "No": 0.2,
+          "Uncertain": 0.0,
+          "Yes": 0.8
+        },
+        "time_weather": {
+          "No": 0.2,
+          "Uncertain": 0.0,
+          "Yes": 0.8
+        },
+        "camera_motion": {
+          "No": 0.4,
+          "Uncertain": 0.0,
+          "Yes": 0.6
+        }
+      },
+      "VBench_IQ_mean": 71.39184535241895,
+      "VBench_SC_mean": 0.9634249700763361,
+      "repeat_sd": null
+    },
+    "G3": {
+      "videos": 5,
+      "condition_distribution": {
+        "subject": {
+          "No": 0.0,
+          "Uncertain": 0.0,
+          "Yes": 1.0
+        },
+        "scene": {
+          "No": 0.0,
+          "Uncertain": 0.0,
+          "Yes": 1.0
+        },
+        "time_weather": {
+          "No": 0.2,
+          "Uncertain": 0.0,
+          "Yes": 0.8
+        },
+        "camera_motion": {
+          "No": 0.4,
+          "Uncertain": 0.0,
+          "Yes": 0.6
+        }
+      },
+      "VBench_IQ_mean": 75.01879362906179,
+      "VBench_SC_mean": 0.964838752077847,
+      "repeat_sd": null
+    },
+    "G4": {
+      "videos": 5,
+      "condition_distribution": {
+        "subject": {
+          "No": 0.0,
+          "Uncertain": 0.0,
+          "Yes": 1.0
+        },
+        "scene": {
+          "No": 0.2,
+          "Uncertain": 0.0,
+          "Yes": 0.8
+        },
+        "time_weather": {
+          "No": 0.2,
+          "Uncertain": 0.0,
+          "Yes": 0.8
+        },
+        "camera_motion": {
+          "No": 0.4,
+          "Uncertain": 0.0,
+          "Yes": 0.6
+        }
+      },
+      "VBench_IQ_mean": 76.19367702853296,
+      "VBench_SC_mean": 0.9621593209786143,
+      "repeat_sd": null
+    }
+  },
+  "notes": [
+    "machine_yes_rate不是正式文化视觉事实满足率",
+    "原视频机器答案未写入reference_answer",
+    "单次生成不估计重复波动"
+  ]
+}

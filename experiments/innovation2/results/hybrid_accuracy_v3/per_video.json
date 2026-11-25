@@ -1,0 +1,368 @@
+[
+  {
+    "video_id": "cbd",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [
+      "BJ_FASHION_003"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "H3",
+    "api_calls": 2,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 106.92
+  },
+  {
+    "video_id": "cbd2",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [
+      "BJ_FASHION_003"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "H3",
+    "api_calls": 2,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 106.68
+  },
+  {
+    "video_id": "cbd3",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [
+      "BJ_FASHION_003"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "H3",
+    "api_calls": 2,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 281.3
+  },
+  {
+    "video_id": "中关村国际创新中心",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_006"
+    ],
+    "pred_ids": [
+      "CN2_TECH_006"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "H3",
+    "api_calls": 2,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 192.04
+  },
+  {
+    "video_id": "中关村展示中心",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_005"
+    ],
+    "pred_ids": [
+      "CN2_TECH_005"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": false,
+    "recall5": true,
+    "reciprocal_rank": 0.3333333333333333,
+    "error_type": "correct",
+    "group": "H3",
+    "api_calls": 2,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 104.56
+  },
+  {
+    "video_id": "京剧青衣",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "H3",
+    "api_calls": 1,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 122.66
+  },
+  {
+    "video_id": "人民大会堂",
+    "sample_type": "hard_unknown",
+    "gt_ids": [],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": true,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "correct",
+    "group": "H3",
+    "api_calls": 1,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 113.73
+  },
+  {
+    "video_id": "人民大会堂1",
+    "sample_type": "hard_unknown",
+    "gt_ids": [],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": true,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "correct",
+    "group": "H3",
+    "api_calls": 1,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 75.09
+  },
+  {
+    "video_id": "人民英雄纪念碑",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_003"
+    ],
+    "pred_ids": [
+      "BJ_RED_003"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": false,
+    "recall5": true,
+    "reciprocal_rank": 0.5,
+    "error_type": "correct",
+    "group": "H3",
+    "api_calls": 2,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 98.8
+  },
+  {
+    "video_id": "人民英雄纪念碑1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_003"
+    ],
+    "pred_ids": [
+      "BJ_RED_003"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": false,
+    "recall5": true,
+    "reciprocal_rank": 0.5,
+    "error_type": "correct",
+    "group": "H3",
+    "api_calls": 2,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 74.62
+  },
+  {
+    "video_id": "兔爷",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_004"
+    ],
+    "pred_ids": [
+      "BJ_JINGWEI_004"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "H3",
+    "api_calls": 2,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 73.62
+  },
+  {
+    "video_id": "北大",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_INNOV_006"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "H3",
+    "api_calls": 1,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": false,
+    "seconds": 97.29
+  },
+  {
+    "video_id": "北大1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_INNOV_006"
+    ],
+    "pred_ids": [
+      "BJ_INNOV_006"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "H3",
+    "api_calls": 2,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 83.12
+  },
+  {
+    "video_id": "国博",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_006"
+    ],
+    "pred_ids": [
+      "BJ_RED_006"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "H3",
+    "api_calls": 2,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 134.36
+  },
+  {
+    "video_id": "天安门",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_002"
+    ],
+    "pred_ids": [
+      "BJ_RED_002"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "H3",
+    "api_calls": 2,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 94.75
+  },
+  {
+    "video_id": "天安门1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_002"
+    ],
+    "pred_ids": [
+      "BJ_RED_002"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "H3",
+    "api_calls": 2,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 109.01
+  },
+  {
+    "video_id": "太和殿",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_GUDU_002"
+    ],
+    "pred_ids": [
+      "BJ_GUDU_002"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "H3",
+    "api_calls": 2,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 99.55
+  },
+  {
+    "video_id": "庙会",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_007"
+    ],
+    "pred_ids": [
+      "BJ_JINGWEI_007"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": false,
+    "recall5": true,
+    "reciprocal_rank": 0.5,
+    "error_type": "correct",
+    "group": "H3",
+    "api_calls": 2,
+    "preparation_api_calls": 0,
+    "pre_verification_correct": true,
+    "seconds": 61.13
+  }
+]

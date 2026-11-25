@@ -1,0 +1,41 @@
+﻿batch,task_id,group_id,video_id,evaluator,fact_yes_rate,fact_count,overall_form,keyframe_consistency,keyframe_consistency_status,camera_CMA,conditions_TWA,VBench_IQ,VBench_SC,provenance_status
+batch1,T02,G1,T02_G1_r01,AI,0.5,4,Match,,pending_original_video_pair,Yes,Yes,77.583,0.9699,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T02,G2,T02_G2_r01,AI,0.5,4,Match,,pending_original_video_pair,Yes,Yes,78.7762,0.9755,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T02,G3,T02_G3_r01,AI,0.75,4,Match,,pending_original_video_pair,Yes,Yes,74.6646,0.9713,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T02,G4,T02_G4_r01,AI,0.75,4,Match,,pending_original_video_pair,Yes,Yes,76.6764,0.9786,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T03,G1,T03_G1_r01,AI,0.75,4,Match,,pending_original_video_pair,Yes,Yes,75.7656,0.9981,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T03,G2,T03_G2_r01,AI,0.75,4,Mismatch,,pending_original_video_pair,Yes,Yes,58.9709,0.554,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T03,G3,T03_G3_r01,AI,1.0,4,Match,,pending_original_video_pair,Yes,Yes,79.4937,0.9988,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T03,G4,T03_G4_r01,AI,1.0,4,Match,,pending_original_video_pair,Yes,Yes,74.4513,0.9997,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T05,G1,T05_G1_r01,AI,0.25,4,Mismatch,,pending_original_video_pair,Yes,Yes,78.916,0.9785,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T05,G2,T05_G2_r01,AI,1.0,4,Mismatch,,pending_original_video_pair,Yes,Yes,75.795,0.9822,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T05,G3,T05_G3_r01,AI,1.0,4,Match,,pending_original_video_pair,Yes,Yes,73.9963,0.9764,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T05,G4,T05_G4_r01,AI,1.0,4,Match,,pending_original_video_pair,Yes,Yes,79.1781,0.9628,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T08,G1,T08_G1_r01,AI,,0,Mismatch,,pending_original_video_pair,No,Yes,80.4893,0.9682,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T08,G2,T08_G2_r01,AI,,0,Mismatch,,pending_original_video_pair,Yes,Yes,79.7894,0.9367,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T08,G3,T08_G3_r01,AI,,0,Mismatch,,pending_original_video_pair,Yes,Yes,79.8874,0.9825,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T08,G4,T08_G4_r01,AI,,0,Mismatch,,pending_original_video_pair,Yes,Yes,78.267,0.9345,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T09,G1,T09_G1_r01,AI,0.75,4,Mismatch,,pending_original_video_pair,Yes,No,78.9251,0.965,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T09,G2,T09_G2_r01,AI,1.0,4,Mismatch,,pending_original_video_pair,Yes,No,71.5532,0.9822,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T09,G3,T09_G3_r01,AI,1.0,4,Match,,pending_original_video_pair,Yes,No,78.3415,0.9774,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch1,T09,G4,T09_G4_r01,AI,1.0,4,Match,,pending_original_video_pair,No,Yes,78.0401,0.9763,historical_mapping_unverified; KB_reference_not_source_keyframes
+batch2,T01,G1,T01_G1_r01,AI,1.0,4,Match,Match,rated_semantic_v2,Yes,Yes,75.21365042655698,0.9893136637482217,source_answers_and_generation_inputs_pending_human_verification
+batch2,T01,G2,T01_G2_r01,AI,1.0,4,Match,Mismatch,rated_semantic_v2,Yes,Yes,68.61778471546788,0.9809625645478567,source_answers_and_generation_inputs_pending_human_verification
+batch2,T01,G3,T01_G3_r01,AI,1.0,4,Match,Match,rated_semantic_v2,Yes,Yes,77.80558678411668,0.9759771952299567,source_answers_and_generation_inputs_pending_human_verification
+batch2,T01,G4,T01_G4_r01,AI,1.0,4,Match,Match,rated_semantic_v2,Yes,Yes,79.02752328688099,0.9838313787448697,source_answers_and_generation_inputs_pending_human_verification
+batch2,T04,G1,T04_G1_r01,AI,1.0,4,Match,Partial,rated_semantic_v2,Yes,Yes,79.1440946517452,0.9793054800692612,source_answers_and_generation_inputs_pending_human_verification
+batch2,T04,G2,T04_G2_r01,AI,1.0,4,Match,Partial,rated_semantic_v2,Yes,Yes,76.21210528958228,0.9731331581507272,source_answers_and_generation_inputs_pending_human_verification
+batch2,T04,G3,T04_G3_r01,AI,1.0,4,Match,Match,rated_semantic_v2,Yes,Yes,76.53233743483021,0.9839020318132106,source_answers_and_generation_inputs_pending_human_verification
+batch2,T04,G4,T04_G4_r01,AI,1.0,4,Match,Match,rated_semantic_v2,Yes,Yes,77.06743689506284,0.9780609859683649,source_answers_and_generation_inputs_pending_human_verification
+batch2,T06,G1,T06_G1_r01,AI,0.75,4,Match,Mismatch,rated_semantic_v2,Yes,Yes,60.94537947254796,0.9726352485699382,source_answers_and_generation_inputs_pending_human_verification
+batch2,T06,G2,T06_G2_r01,AI,0.75,4,Match,Mismatch,rated_semantic_v2,No,Yes,59.971506610993416,0.9746101093970663,source_answers_and_generation_inputs_pending_human_verification
+batch2,T06,G3,T06_G3_r01,AI,0.75,4,Mismatch,Mismatch,rated_semantic_v2,Yes,Yes,68.15342955435476,0.9649470169854358,source_answers_and_generation_inputs_pending_human_verification
+batch2,T06,G4,T06_G4_r01,AI,1.0,4,Match,Partial,rated_semantic_v2,No,Yes,70.50035698183122,0.9918744198190488,source_answers_and_generation_inputs_pending_human_verification
+batch2,T07,G1,T07_G1_r01,AI,0.75,4,Match,Match,rated_semantic_v2,Yes,Yes,75.61558182008805,0.9267533276139236,source_answers_and_generation_inputs_pending_human_verification
+batch2,T07,G2,T07_G2_r01,AI,1.0,4,Match,Match,rated_semantic_v2,Yes,Yes,71.86860355254143,0.8995239618347912,source_answers_and_generation_inputs_pending_human_verification
+batch2,T07,G3,T07_G3_r01,AI,1.0,4,Match,Match,rated_semantic_v2,No,Yes,73.77558068306216,0.9452317211686111,source_answers_and_generation_inputs_pending_human_verification
+batch2,T07,G4,T07_G4_r01,AI,1.0,4,Match,Match,rated_semantic_v2,No,Yes,74.71830780275407,0.8940655019709735,source_answers_and_generation_inputs_pending_human_verification
+batch2,T10,G1,T10_G1_r01,AI,0.0,4,Mismatch,Mismatch,rated_semantic_v2,No,No,80.67983547333748,0.9911038626015671,source_answers_and_generation_inputs_pending_human_verification
+batch2,T10,G2,T10_G2_r01,AI,0.0,4,Mismatch,Mismatch,rated_semantic_v2,No,No,80.2892265935098,0.9888950564512392,source_answers_and_generation_inputs_pending_human_verification
+batch2,T10,G3,T10_G3_r01,AI,1.0,4,Match,Match,rated_semantic_v2,No,No,78.82703368894515,0.9541357951920207,source_answers_and_generation_inputs_pending_human_verification
+batch2,T10,G4,T10_G4_r01,AI,1.0,4,Match,Match,rated_semantic_v2,Yes,No,79.65476017613565,0.962964318389815,source_answers_and_generation_inputs_pending_human_verification

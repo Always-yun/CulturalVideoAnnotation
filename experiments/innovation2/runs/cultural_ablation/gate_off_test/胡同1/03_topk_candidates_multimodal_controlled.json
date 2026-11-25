@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_JINGWEI_001",
+    "canonical_name": "胡同",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.798431396484375,
+    "reason": "关键词/别名命中：胡同",
+    "image_score": 0.5969,
+    "text_score": 1.0,
+    "fusion_score": 0.7984
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_010",
+    "canonical_name": "大栅栏",
+    "cultural_dimension": "民族与民俗文化;现代城市与国际文化",
+    "dimension_code": "FOLK;MODERN",
+    "score": 0.5521240234375,
+    "reason": "关键词/别名命中：胡同",
+    "image_score": 0.6042,
+    "text_score": 0.5,
+    "fusion_score": 0.5521
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_003",
+    "canonical_name": "京剧",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.549713134765625,
+    "reason": "关键词/别名命中：京胡",
+    "image_score": 0.5994,
+    "text_score": 0.5,
+    "fusion_score": 0.5497
+  },
+  {
+    "symbol_id": "BJ_GUDU_009",
+    "canonical_name": "什刹海",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.548095703125,
+    "reason": "关键词/别名命中：胡同",
+    "image_score": 0.5962,
+    "text_score": 0.5,
+    "fusion_score": 0.5481
+  },
+  {
+    "symbol_id": "BJ_FASHION_005",
+    "canonical_name": "望京",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.304656982421875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6093,
+    "text_score": 0.0,
+    "fusion_score": 0.3047
+  }
+]

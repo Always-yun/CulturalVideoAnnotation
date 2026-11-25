@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T17:00:50.599440+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于民族与民俗文化。\n核心符号：胡同\n价值指向：画面中可见两侧建筑为灰砖墙、窄巷尺度，街道上行人穿梭，有树荫，这些视觉特征符合胡同的典型场景。胡同是北京特有的街巷形态，承载着市井文化、地理与历史信息，属于民族与民俗文化范畴。",
+  "response_model": "glm-4v",
+  "response_id": "2026111917005035cd5adc5c5244a4",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=38275, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=84, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=38359)",
+  "seconds": 32.243985176086426
+}

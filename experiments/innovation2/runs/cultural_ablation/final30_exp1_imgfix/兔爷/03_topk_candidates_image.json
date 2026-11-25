@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_JINGWEI_003",
+    "canonical_name": "京剧",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.87060546875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8706,
+    "text_score": 0.0,
+    "fusion_score": 0.8706
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_002",
+    "canonical_name": "平遥古城",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.868408203125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8684,
+    "text_score": 0.0,
+    "fusion_score": 0.8684
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_026",
+    "canonical_name": "都江堰",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.849365234375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8494,
+    "text_score": 0.0,
+    "fusion_score": 0.8494
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_025",
+    "canonical_name": "青城山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.849365234375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8494,
+    "text_score": 0.0,
+    "fusion_score": 0.8494
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_021",
+    "canonical_name": "泰山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.84130859375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8413,
+    "text_score": 0.0,
+    "fusion_score": 0.8413
+  }
+]

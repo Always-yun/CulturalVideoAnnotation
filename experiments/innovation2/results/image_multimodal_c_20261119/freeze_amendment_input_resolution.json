@@ -1,0 +1,8 @@
+{
+  "reason": "Fix baseline artifact discovery: full historical records are in aggregate results.json and worker trace folders, rather than incomplete parent snapshots. Preserve multilabel categories from full C header; classify legacy JSON parse failures explicitly. No prediction or parameter tuning.",
+  "old_evaluator_sha256": "28c1b06a43ac10160038283d4e4551caa057f90d453608f634af3442807859c3",
+  "new_evaluator_sha256": "43065a2a1fe921a3d5cc771129b66a0c6e7089cfada1ae9a9350d1091b893e18",
+  "test_annotation_records_at_amendment": 0,
+  "parameters_unchanged": true,
+  "source_path_correction": "Legacy result source now points to aggregate results.json and the actual worker trace."
+}

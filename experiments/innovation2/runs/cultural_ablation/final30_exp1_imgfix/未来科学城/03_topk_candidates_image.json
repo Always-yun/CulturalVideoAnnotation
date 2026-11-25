@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_INNOV_002",
+    "canonical_name": "中关村科学城",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.85888671875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8589,
+    "text_score": 0.0,
+    "fusion_score": 0.8589
+  },
+  {
+    "symbol_id": "CN_MODERN_001",
+    "canonical_name": "杭州西湖文化景观",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.85400390625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.854,
+    "text_score": 0.0,
+    "fusion_score": 0.854
+  },
+  {
+    "symbol_id": "BJ_INNOV_003",
+    "canonical_name": "奥林匹克公园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.8466796875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8467,
+    "text_score": 0.0,
+    "fusion_score": 0.8467
+  },
+  {
+    "symbol_id": "BJ_INNOV_005",
+    "canonical_name": "水立方",
+    "cultural_dimension": "科技与创新文化;现代城市与国际文化",
+    "dimension_code": "TECH;MODERN",
+    "score": 0.841796875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8418,
+    "text_score": 0.0,
+    "fusion_score": 0.8418
+  },
+  {
+    "symbol_id": "BJ_INNOV_001",
+    "canonical_name": "中关村",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.834716796875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8347,
+    "text_score": 0.0,
+    "fusion_score": 0.8347
+  }
+]

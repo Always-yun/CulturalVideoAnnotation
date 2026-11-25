@@ -1,0 +1,64 @@
+{
+  "video_id": "天安门1",
+  "mode": "multimodal",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "天安门广场"
+  ],
+  "reference_ids": [
+    "BJ_RED_002"
+  ],
+  "predicted_names": [
+    "天安门广场"
+  ],
+  "predicted_ids": [
+    "BJ_RED_002"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "ANCIENT",
+    "RED"
+  ],
+  "reference_categories": [
+    "RED"
+  ],
+  "category_exact": false,
+  "category_tp": 1,
+  "category_fp": 1,
+  "category_fn": 0,
+  "recall_at_k": true,
+  "candidate_ids": [
+    "BJ_RED_002",
+    "BJ_GUDU_010",
+    "BJ_INNOV_006"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化、古城与历史文化。\n核心符号：天安门广场\n价值指向：画面中可见天安门城楼，其城楼为重檐歇山顶、黄琉璃瓦，城楼下方有“中华人民共和国”字样及毛泽东画像，城楼前有华表，这些元素共同构成天安门广场的标志性景观。天安门广场是1949年开国大典举行地，是国家政治活动核心空间，象征新中国，属于红色文化范畴；同时，天安门城楼本身作为古代建筑，也体现了古城与历史文化。",
+  "c_layer_natural_language": "：该场景隶属于红色文化、古城与历史文化。\n核心符号：天安门广场\n价值指向：画面中可见天安门城楼，其城楼为重檐歇山顶、黄琉璃瓦，城楼下方有“中华人民共和国”字样及毛泽东画像，城楼前有华表，这些元素共同构成天安门广场的标志性景观。天安门广场是1949年开国大典举行地，是国家政治活动核心空间，象征新中国，属于红色文化范畴；同时，天安门城楼本身作为古代建筑，也体现了古城与历史文化。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/天安门1/multimodal.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:55:02.530380+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化、古城与历史文化。\n核心符号：天安门广场\n价值指向：画面中可见天安门城楼，其城楼为重檐歇山顶、黄琉璃瓦，城楼下方有“中华人民共和国”字样及毛泽东画像，城楼前有华表，这些元素共同构成天安门广场的标志性景观。天安门广场是1949年开国大典举行地，是国家政治活动核心空间，象征新中国，属于红色文化范畴；同时，天安门城楼本身作为古代建筑，也体现了古城与历史文化。",
+      "response_model": "glm-4v",
+      "response_id": "2026111916550308b1ffea66334e4b",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=73222, prompt_tokens_details=PromptTokensDetails(cached_tokens=65542), completion_tokens=126, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73348)",
+      "seconds": 60.76590657234192
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

@@ -1,0 +1,59 @@
+{
+  "video_id": "角楼1",
+  "mode": "free",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "角楼"
+  ],
+  "reference_ids": [
+    "BJ_GUDU_010"
+  ],
+  "predicted_names": [
+    "角楼",
+    "护城河",
+    "飞檐斗拱",
+    "红墙灰瓦"
+  ],
+  "predicted_ids": [
+    "BJ_GUDU_010",
+    "UNRESOLVED:护城河",
+    "UNRESOLVED:红墙灰瓦",
+    "UNRESOLVED:飞檐斗拱"
+  ],
+  "main_correct": true,
+  "strict_correct": false,
+  "reference_extra_entities": [
+    "UNRESOLVED:护城河",
+    "UNRESOLVED:红墙灰瓦",
+    "UNRESOLVED:飞檐斗拱"
+  ],
+  "tp": 1,
+  "fp": 3,
+  "fn": 0,
+  "predicted_categories": [
+    "ANCIENT"
+  ],
+  "reference_categories": [
+    "ANCIENT"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": null,
+  "candidate_ids": [],
+  "raw_reply": "【EMCAST 视频标注结果】\n\n【E｜场景环境层】：视频构建了一个故宫角楼护城河的物理环境。此时处于日出时刻，天空呈现蓝橙渐变。整体场景呈现出静谧壮美的感官基调。\n\n【M｜主体行为层】：视觉焦点包含承载主体：角楼、护城河旁的附属建筑\n    承载主体外观：角楼呈现出多层飞檐斗拱的轴对称形态，外立面材质主要为红墙灰瓦；护城河旁的附属建筑呈现出单层歇山顶的矩形形态，外立面材质主要为红墙灰瓦。\n\n【C｜文化维度层】：该场景隶属于古城与历史文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为角楼、护城河、飞檐斗拱、红墙灰瓦。\n价值指向：角楼作为故宫建筑群的重要组成部分，体现了中国古代皇家建筑的威严与精巧，是中华传统建筑艺术的典型代表，承载着深厚的历史文化内涵与民族自豪感。\n\n【A｜视听语言层】\n    镜头语法：镜头为固定机位。状态稳定，节奏慢，以全景为主，景深深，视觉重心位于画面右侧的角楼及其在水中的倒影。\n    播放速度效果：延时摄影\n    构图遵循中轴线对称，光影特征呈现为黄金时刻，视觉色彩倾向于暖调。\n\n【S｜整体叙事层】：视频以固定机位捕捉了日出时分故宫角楼及其护城河的景象。随着时间推移，天空从深蓝过渡到橙黄，太阳逐渐升起，光线洒满整个场景，角楼的轮廓在晨光中愈发清晰，其倒影在平静的水面上完美呈现，展现了从黎明到日出的自然时序演进与建筑在光影中的静谧之美。\n\n【T｜技术属性层】\n分辨率：3840x2160；实际帧率：29.63 FPS；标称帧率：29.97 FPS；画幅：16:9；动态范围：SDR；色彩空间/像素格式：yuv420p；采样方式：4:2:0；编码格式：h264；码率：16942249；视频时长：5.831s。\n",
+  "c_layer_natural_language": "：该场景隶属于古城与历史文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为角楼、护城河、飞檐斗拱、红墙灰瓦。\n价值指向：角楼作为故宫建筑群的重要组成部分，体现了中国古代皇家建筑的威严与精巧，是中华传统建筑艺术的典型代表，承载着深厚的历史文化内涵与民族自豪感。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/four_method_accuracy_20261119/results.json",
+  "attempts": [],
+  "raw_available": true,
+  "full_c_available": true,
+  "original_trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/1/traces/角楼1/free/trace.json",
+  "historical_model_config_path": "experiments/innovation2/results/four_method_accuracy_20261119/model_config.json"
+}

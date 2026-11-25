@@ -1,0 +1,23 @@
+{
+  "scene_description_raw": "{\"scene\":\"晴朗蓝天下的城市建筑群，前景有绿色树木\",\"subject\":\"多栋现代高层建筑\",\"visible_features\":[\"左侧有独特拱门造型的玻璃幕墙建筑，右侧有细长玻璃幕墙高楼，还有几栋方形玻璃幕墙高楼\"],\"background\":[\"蓝天、绿色树木\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "scene_description": "晴朗蓝天下的城市建筑群，前景有绿色树木\n多栋现代高层建筑\n左侧有独特拱门造型的玻璃幕墙建筑，右侧有细长玻璃幕墙高楼，还有几栋方形玻璃幕墙高楼",
+  "structured_scene": {
+    "scene": "晴朗蓝天下的城市建筑群，前景有绿色树木",
+    "subject": "多栋现代高层建筑",
+    "visible_features": [
+      "左侧有独特拱门造型的玻璃幕墙建筑，右侧有细长玻璃幕墙高楼，还有几栋方形玻璃幕墙高楼"
+    ],
+    "background": [
+      "蓝天、绿色树木"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

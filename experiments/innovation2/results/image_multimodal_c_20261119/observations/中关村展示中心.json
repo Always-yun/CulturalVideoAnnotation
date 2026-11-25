@@ -1,0 +1,39 @@
+{
+  "scene_description_raw": "{\"scene\":\"城市景观，白天，天气晴朗\",\"subject\":\"建筑及周围环境\",\"visible_features\":[\"大型流线型银色屋顶建筑，屋顶有绿色草坪，左侧灰色建筑，建筑前草坪上排列多国国旗，右侧多车道公路，远处山脉\"],\"background\":[\"城市建筑群，山脉，树木\"],\"readable_text\":[{\"text\":\"展示中心\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.125,0.585,0.168,0.617]}],\"uncertain_entities\":[]}",
+  "scene_description": "城市景观，白天，天气晴朗\n建筑及周围环境\n大型流线型银色屋顶建筑，屋顶有绿色草坪，左侧灰色建筑，建筑前草坪上排列多国国旗，右侧多车道公路，远处山脉\n可读文字：展示中心",
+  "structured_scene": {
+    "scene": "城市景观，白天，天气晴朗",
+    "subject": "建筑及周围环境",
+    "visible_features": [
+      "大型流线型银色屋顶建筑，屋顶有绿色草坪，左侧灰色建筑，建筑前草坪上排列多国国旗，右侧多车道公路，远处山脉"
+    ],
+    "background": [
+      "城市建筑群，山脉，树木"
+    ],
+    "readable_text": [
+      {
+        "text": "展示中心",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.125,
+          0.585,
+          0.168,
+          0.617
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

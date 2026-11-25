@@ -1,0 +1,67 @@
+[
+  {
+    "symbol_id": "BJ_JINGWEI_003",
+    "canonical_name": "京剧",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.4431052953004837,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8862,
+    "text_score": 0.0,
+    "fusion_score": 0.4431,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_002",
+    "canonical_name": "平遥古城",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4282741993665695,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8565,
+    "text_score": 0.0,
+    "fusion_score": 0.4283,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_005",
+    "canonical_name": "大足石刻",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.425599068403244,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8512,
+    "text_score": 0.0,
+    "fusion_score": 0.4256,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN_FOLK_001",
+    "canonical_name": "粤剧",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.4249275177717209,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8499,
+    "text_score": 0.0,
+    "fusion_score": 0.4249,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_026",
+    "canonical_name": "都江堰",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4164021909236908,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8328,
+    "text_score": 0.0,
+    "fusion_score": 0.4164,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  }
+]

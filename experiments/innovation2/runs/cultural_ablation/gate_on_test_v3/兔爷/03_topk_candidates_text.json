@@ -1,0 +1,24 @@
+[
+  {
+    "symbol_id": "BJ_JINGWEI_004",
+    "canonical_name": "兔儿爷",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 3.0,
+    "reason": "关键词/别名命中：兔爷",
+    "image_score": 0.0,
+    "text_score": 3.0,
+    "fusion_score": 3.0
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_008",
+    "canonical_name": "剪纸",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 3.0,
+    "reason": "关键词/别名命中：民俗",
+    "image_score": 0.0,
+    "text_score": 3.0,
+    "fusion_score": 3.0
+  }
+]

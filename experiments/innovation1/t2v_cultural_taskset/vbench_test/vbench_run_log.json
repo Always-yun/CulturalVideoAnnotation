@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "video": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-1.mp4",
+    "device": "cuda",
+    "torch": "2.4.1+cu118",
+    "dimensions": [
+      "imaging_quality",
+      "subject_consistency"
+    ],
+    "started": "2026-11-02 21:28:13"
+  },
+  "status": "success",
+  "elapsed_sec": 11.75,
+  "finished": "2026-11-02 21:28:25",
+  "eval_results": {
+    "imaging_quality": [
+      0.7758298510889853,
+      [
+        {
+          "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-1.mp4",
+          "video_results": 77.58298510889853
+        }
+      ]
+    ],
+    "subject_consistency": [
+      0.9699484567816664,
+      [
+        {
+          "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-1.mp4",
+          "video_results": 0.9699484567816664
+        }
+      ]
+    ]
+  },
+  "versions": {
+    "vbench": "unknown",
+    "pyiqa": "0.1.10",
+    "torch": "2.4.1+cu118",
+    "torchvision": "0.19.1+cu118",
+    "decord": "0.6.0",
+    "opencv_python": "not_installed (No module named 'opencv_python')",
+    "numpy": "1.26.4"
+  }
+}

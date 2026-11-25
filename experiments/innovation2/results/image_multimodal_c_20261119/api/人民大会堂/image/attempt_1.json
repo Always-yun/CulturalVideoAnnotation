@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:46:38.757851+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化。\n核心符号：中国国家博物馆\n价值指向：画面中可见建筑立面有对称的柱廊、黄色花岗岩外墙，以及最醒目的中华人民共和国国徽，这些视觉特征与候选知识中“中国国家博物馆”的典型场景“广场立面”“柱廊仰视”高度吻合。国徽作为国家象征，是红色文化中承载国家记忆与政治权威的核心符号，建筑本身作为国家级博物馆，其文化内涵也指向红色文化范畴。",
+  "response_model": "glm-4v",
+  "response_id": "20261119164639fb3632cdea464226",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73742, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=109, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73851)",
+  "seconds": 57.364399433135986
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "庙会",
+  "sample_type": "known",
+  "gt_ids": [
+    "BJ_JINGWEI_007"
+  ],
+  "pred_ids": [],
+  "rejected": true,
+  "correct": false,
+  "recall1": true,
+  "recall5": true,
+  "reciprocal_rank": 1.0,
+  "error_type": "false_reject",
+  "group": "C2",
+  "api_calls": 2,
+  "seconds": 38.75
+}

@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:40:25.961864+08:00",
+  "status": "completed",
+  "raw_reply": "{\"scene\":\"白天，晴朗天气，户外，一个带有拱门和柱子的建筑入口，周围有树木和花坛\",\"subject\":\"一个带有拱门和柱子的建筑入口，入口上方悬挂着红色横幅，横幅上有白色文字，入口前有花坛，花坛里有红色的花\",\"visible_features\":[\"白色建筑，拱门，柱子，灰色砖墙，红色横幅，白色文字，红色花朵，白色花盆，树木，蓝天\"],\"background\":[\"树木，蓝天\"],\"readable_text\":[{\"text\":\"清華 園\",\"legibility\":\"clear\"},{\"text\":\"歡 迎 新 同 學\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"匾额\",\"time_ratio\":0.5,\"bbox\":[0.342,0.296,0.518,0.385]},{\"kind\":\"横幅\",\"time_ratio\":0.5,\"bbox\":[0.338,0.734,0.522,0.782]}],\"uncertain_entities\":[]}",
+  "response_model": "glm-4v",
+  "response_id": "20261119164026d17cce5835ec4193",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73932, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=220, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=74152)",
+  "seconds": 72.88066291809082
+}

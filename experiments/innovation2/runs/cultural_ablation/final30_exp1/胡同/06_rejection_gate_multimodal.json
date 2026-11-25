@@ -1,0 +1,16 @@
+{
+  "level": "insufficient",
+  "signals": {
+    "mode": "multimodal",
+    "signal": "fusion",
+    "top1_score": 0.3072,
+    "top2_score": 0.3066,
+    "margin_rel": 0.002,
+    "n_keywords": 0,
+    "scene_negative": false,
+    "score_thr": 0.4,
+    "margin_thr": 0
+  },
+  "reason": "Top1检索分 0.307 低于门限 0.4",
+  "constraint_overridden": false
+}

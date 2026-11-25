@@ -1,0 +1,63 @@
+{
+  "video_id": "角楼",
+  "mode": "multimodal",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "角楼"
+  ],
+  "reference_ids": [
+    "BJ_GUDU_010"
+  ],
+  "predicted_names": [
+    "角楼"
+  ],
+  "predicted_ids": [
+    "BJ_GUDU_010"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "ANCIENT"
+  ],
+  "reference_categories": [
+    "ANCIENT"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": true,
+  "candidate_ids": [
+    "BJ_GUDU_010",
+    "BJ_GUDU_001",
+    "BJ_GUDU_002"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：角楼\n价值指向：画面中可见一座具有典型中国古代建筑风格的角楼，其位于护城河旁，建筑为多层重檐结构，屋顶覆盖黄色琉璃瓦，墙体为红色，下方有石砌基座，背景是高大的城墙，这些特征与紫禁城角楼的视觉特征相符。角楼作为古代城池防御与装饰兼具的建筑，体现了中国古代建筑木构技术的精巧与历史文化的深厚底蕴。</think>",
+  "c_layer_natural_language": "：该场景隶属于古城与历史文化。\n核心符号：角楼\n价值指向：画面中可见一座具有典型中国古代建筑风格的角楼，其位于护城河旁，建筑为多层重檐结构，屋顶覆盖黄色琉璃瓦，墙体为红色，下方有石砌基座，背景是高大的城墙，这些特征与紫禁城角楼的视觉特征相符。角楼作为古代城池防御与装饰兼具的建筑，体现了中国古代建筑木构技术的精巧与历史文化的深厚底蕴。</think>",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/角楼/multimodal.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T17:02:26.107028+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：角楼\n价值指向：画面中可见一座具有典型中国古代建筑风格的角楼，其位于护城河旁，建筑为多层重檐结构，屋顶覆盖黄色琉璃瓦，墙体为红色，下方有石砌基座，背景是高大的城墙，这些特征与紫禁城角楼的视觉特征相符。角楼作为古代城池防御与装饰兼具的建筑，体现了中国古代建筑木构技术的精巧与历史文化的深厚底蕴。</think>",
+      "response_model": "glm-4v",
+      "response_id": "202611191702266a3e9e6a28ed4f58",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=73827, prompt_tokens_details=PromptTokensDetails(cached_tokens=73826), completion_tokens=113, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73940)",
+      "seconds": 70.53306937217712
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

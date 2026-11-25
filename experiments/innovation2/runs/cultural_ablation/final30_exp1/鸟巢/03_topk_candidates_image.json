@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN2_MODERN_002",
+    "canonical_name": "鼓浪屿：历史国际社区",
+    "cultural_dimension": "现代城市与国际文化;古城与历史文化",
+    "dimension_code": "MODERN;ANCIENT",
+    "score": 0.6297607421875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6298,
+    "text_score": 0.0,
+    "fusion_score": 0.6298
+  },
+  {
+    "symbol_id": "CN2_FOLK_003",
+    "canonical_name": "福建土楼",
+    "cultural_dimension": "民族与民俗文化;古城与历史文化",
+    "dimension_code": "FOLK;ANCIENT",
+    "score": 0.62939453125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6294,
+    "text_score": 0.0,
+    "fusion_score": 0.6294
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_001",
+    "canonical_name": "武当山古建筑群",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6280517578125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6281,
+    "text_score": 0.0,
+    "fusion_score": 0.6281
+  },
+  {
+    "symbol_id": "CN2_TECH_001",
+    "canonical_name": "中国科学院大学",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6260986328125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6261,
+    "text_score": 0.0,
+    "fusion_score": 0.6261
+  },
+  {
+    "symbol_id": "CN_RED_003",
+    "canonical_name": "延安革命纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.6259765625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.626,
+    "text_score": 0.0,
+    "fusion_score": 0.626
+  }
+]

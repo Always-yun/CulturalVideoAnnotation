@@ -1,0 +1,131 @@
+[
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.9489184021949768,
+    "reason": "证据排序v1；名称=太和殿；文字=太和殿；弱特征=",
+    "image_score": 0.8978,
+    "text_score": 1.0,
+    "fusion_score": 0.9489,
+    "ranking_score": 0.948918,
+    "retrieval_evidence": {
+      "name_hits": [
+        "太和殿"
+      ],
+      "clear_text_exact_hits": [
+        "太和殿"
+      ],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 1.0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": true,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_002",
+    "canonical_name": "平遥古城",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4626474827528,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.9253,
+    "text_score": 0.0,
+    "fusion_score": 0.4626,
+    "ranking_score": 0.462647,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_025",
+    "canonical_name": "青城山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4589169770479202,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.9178,
+    "text_score": 0.0,
+    "fusion_score": 0.4589,
+    "ranking_score": 0.458917,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_026",
+    "canonical_name": "都江堰",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4589169770479202,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.9178,
+    "text_score": 0.0,
+    "fusion_score": 0.4589,
+    "ranking_score": 0.458917,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_011",
+    "canonical_name": "五台山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.45513375103473663,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.9103,
+    "text_score": 0.0,
+    "fusion_score": 0.4551,
+    "ranking_score": 0.455134,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  }
+]

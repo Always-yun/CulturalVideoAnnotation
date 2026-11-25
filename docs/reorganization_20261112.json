@@ -1,0 +1,217 @@
+{
+  "date": "2026-11-12",
+  "moves": [
+    {
+      "old": "/data/data/xzy/t2v_cultural_taskset",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/data/创新点1",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/experiments/cultural_ablation",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/runs/cultural_ablation"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/experiments/final31_keyframes",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/cache/final31_keyframes"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/experiments/scene_desc_cache_v2.json",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/cache/scene_desc_cache_v2.json"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/experiments/final30_scene_cache.json",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/cache/final30_scene_cache.json"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/experiments/rejection_val_signals.json",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/cache/rejection_val_signals.json"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/experiments/rejection_gate_ablation_report",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/reports/rejection_gate_ablation_report"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/outputs/cultural_rag",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/outputs/cultural_rag"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/results/cultural_rag",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/cultural_rag"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/data/实验用30个素材",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/data/videos"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/data/cultural_eval",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/data/cultural_eval"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/data/label_studio_exports",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/data/label_studio_exports"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/sam_camera_motion_archive",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/archives/sam_camera_motion"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/data/eval/cultural_ablation_gt.jsonl",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/data/eval/cultural_ablation_gt.jsonl"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/data/eval/cultural_ablation_gt_v2.jsonl",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/data/eval/cultural_ablation_gt_v2.jsonl"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/data/eval/rejection_thresholds.json",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/data/eval/rejection_thresholds.json"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/data/eval/cultural_ablation_gt_final31.jsonl",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/data/eval/cultural_ablation_gt_final31.jsonl"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/scripts/run_cultural_rag.py",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/scripts/innovation2/run_cultural_rag.py"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/scripts/run_cultural_ablation.py",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/scripts/innovation2/run_cultural_ablation.py"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/scripts/tune_rejection_thresholds.py",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/scripts/innovation2/tune_rejection_thresholds.py"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/scripts/compare_rejection.py",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/scripts/innovation2/compare_rejection.py"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/scripts/build_cultural_unknown_analysis.py",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/scripts/innovation2/build_cultural_unknown_analysis.py"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/scripts/run_identity_gate_evaluation.py",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/scripts/innovation2/run_identity_gate_evaluation.py"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/scripts/build_gt_30.py",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/scripts/innovation2/build_gt_30.py"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/scripts/gt31_to_jsonl.py",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/scripts/innovation2/gt31_to_jsonl.py"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/scripts/analyze_final30.py",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/scripts/innovation2/analyze_final30.py"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/scripts/calibrate_visual_identity.py",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/scripts/innovation2/calibrate_visual_identity.py"
+    },
+    {
+      "old": "/data/data/xzy/CulturalVideoAnnotation/scripts/run_identity_verifier_v2.py",
+      "new": "/data/data/xzy/CulturalVideoAnnotation/scripts/innovation2/run_identity_verifier_v2.py"
+    }
+  ],
+  "changed_text_files": [
+    "README.md",
+    "archives/sam_camera_motion/docs/innovation3/ground_truth_audit.md",
+    "config/identity_verifier_v2.json",
+    "docs/README.md",
+    "docs/innovation2/innovation2_current_status.md",
+    "experiments/innovation1/t2v_cultural_taskset/T02_eval_v3_results.json",
+    "experiments/innovation1/t2v_cultural_taskset/batch1_machine_eval_merged_v1.json",
+    "experiments/innovation1/t2v_cultural_taskset/eval_batch1_input_v1.json",
+    "experiments/innovation1/t2v_cultural_taskset/eval_batch1_input_v2.json",
+    "experiments/innovation1/t2v_cultural_taskset/eval_batch1_input_v3.json",
+    "experiments/innovation1/t2v_cultural_taskset/exp3_cma_twa_eval_v1.json",
+    "experiments/innovation1/t2v_cultural_taskset/human_eval/anonymous_mapping.json",
+    "experiments/innovation1/t2v_cultural_taskset/human_eval/reference_image_list.csv",
+    "experiments/innovation1/t2v_cultural_taskset/taskset_candidates_v1.json",
+    "experiments/innovation1/t2v_cultural_taskset/vbench_test/T2-1_eval_results.json",
+    "experiments/innovation1/t2v_cultural_taskset/vbench_test/T2-1_full_info.json",
+    "experiments/innovation1/t2v_cultural_taskset/vbench_test/vbench_batch19_run_log.json",
+    "experiments/innovation1/t2v_cultural_taskset/vbench_test/vbench_run_log.json",
+    "experiments/innovation2/cache/final30_scene_cache.json",
+    "experiments/innovation2/cache/rejection_val_signals.json",
+    "experiments/innovation2/cache/scene_desc_cache_v2.json",
+    "experiments/innovation2/data/cultural_eval/cultural_eval_30.csv",
+    "experiments/innovation2/data/eval/cultural_ablation_gt_final31.jsonl",
+    "experiments/innovation2/data/eval/cultural_ablation_gt_v2.jsonl",
+    "experiments/innovation2/data/eval/rejection_thresholds.json",
+    "experiments/innovation2/outputs/cultural_rag/20261008_134454_鸟巢/pipeline_trace.json",
+    "experiments/innovation2/outputs/cultural_rag/20261008_140003_鸟巢/pipeline_trace.json",
+    "experiments/innovation2/outputs/cultural_rag/20261008_141218_鸟巢/pipeline_trace.json",
+    "experiments/innovation2/outputs/cultural_rag/20261008_141415_鸟巢/pipeline_trace.json",
+    "experiments/innovation2/results/cultural_rag/final30/innovation2_final_experiment_report.md",
+    "experiments/innovation2/results/cultural_rag/final31/experiment2_identity_verification_v2_report.md",
+    "experiments/innovation2/results/cultural_rag/unknown_analysis/cultural_unknown_analysis.csv",
+    "experiments/innovation2/runs/cultural_ablation/20261015_143003/per_video.csv",
+    "experiments/innovation2/runs/cultural_ablation/20261015_143003/results.json",
+    "experiments/innovation2/runs/cultural_ablation/20261027_142443/per_video.csv",
+    "experiments/innovation2/runs/cultural_ablation/20261027_142443/results.json",
+    "experiments/innovation2/runs/cultural_ablation/final30_exp1/per_video.csv",
+    "experiments/innovation2/runs/cultural_ablation/final30_exp1/results.json",
+    "experiments/innovation2/runs/cultural_ablation/final30_exp1_imgfix/per_video.csv",
+    "experiments/innovation2/runs/cultural_ablation/final30_exp1_imgfix/results.json",
+    "experiments/innovation2/runs/cultural_ablation/final30_exp2_identity/per_video.csv",
+    "experiments/innovation2/runs/cultural_ablation/final30_exp2_identity/results.json",
+    "experiments/innovation2/runs/cultural_ablation/final30_exp2_imgfix/per_video.csv",
+    "experiments/innovation2/runs/cultural_ablation/final30_exp2_imgfix/results.json",
+    "experiments/innovation2/runs/cultural_ablation/gate_off_test/per_video.csv",
+    "experiments/innovation2/runs/cultural_ablation/gate_off_test/results.json",
+    "experiments/innovation2/runs/cultural_ablation/gate_on_final/per_video.csv",
+    "experiments/innovation2/runs/cultural_ablation/gate_on_final/results.json",
+    "experiments/innovation2/runs/cultural_ablation/gate_on_test/per_video.csv",
+    "experiments/innovation2/runs/cultural_ablation/gate_on_test/results.json",
+    "experiments/innovation2/runs/cultural_ablation/gate_on_test_v2/per_video.csv",
+    "experiments/innovation2/runs/cultural_ablation/gate_on_test_v2/results.json",
+    "experiments/innovation2/runs/cultural_ablation/gate_on_test_v3/per_video.csv",
+    "experiments/innovation2/runs/cultural_ablation/gate_on_test_v3/results.json",
+    "scripts/innovation2/analyze_final30.py",
+    "scripts/innovation2/build_cultural_unknown_analysis.py",
+    "scripts/innovation2/build_gt_30.py",
+    "scripts/innovation2/calibrate_visual_identity.py",
+    "scripts/innovation2/compare_rejection.py",
+    "scripts/innovation2/gt31_to_jsonl.py",
+    "scripts/innovation2/run_cultural_ablation.py",
+    "scripts/innovation2/run_cultural_rag.py",
+    "scripts/innovation2/run_identity_gate_evaluation.py",
+    "scripts/innovation2/run_identity_verifier_v2.py",
+    "scripts/innovation2/tune_rejection_thresholds.py",
+    "src/experiments/ablation_runner.py",
+    "src/knowledge/identity_verifier_v2.py",
+    "src/knowledge/rejection_gate.py",
+    "src/pipeline/cultural_rag.py"
+  ],
+  "original_text_backup": "/tmp/emcast_reorganization_originals",
+  "files_checked": 6695,
+  "missing_files": [],
+  "unchanged_file_integrity_errors": [],
+  "notes": "既有Git改动保留，未提交；模型目录和.git未迁移。仅迁移与修正路径，未重跑模型或评分。",
+  "validation": {
+    "syntax_and_json_files_checked": 47,
+    "parse_errors": [],
+    "innovation1_path_references_checked": 104,
+    "unresolved_innovation1_paths": [],
+    "innovation2_gt_video_paths_checked": 68,
+    "unresolved_innovation2_gt_videos": [
+      "/data/data/xzy/CulturalVideoAnnotation/data/test/222.mp4",
+      "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/data/videos/神武门.mp4"
+    ],
+    "remaining_old_logical_json_paths": [],
+    "escaped_json_path_files_fixed": [
+      "experiments/innovation1/t2v_cultural_taskset/vbench_test/T2-1_eval_results.json",
+      "experiments/innovation1/t2v_cultural_taskset/vbench_test/T2-1_full_info.json"
+    ],
+    "preexisting_missing_gt_videos": [
+      "data/test/222.mp4",
+      "data/实验用30个素材/神武门.mp4"
+    ]
+  }
+}

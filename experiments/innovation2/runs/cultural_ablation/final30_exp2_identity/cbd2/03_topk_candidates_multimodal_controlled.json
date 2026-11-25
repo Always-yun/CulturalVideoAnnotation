@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_FASHION_003",
+    "canonical_name": "CBD",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.8089599609375,
+    "reason": "关键词/别名命中：CBD、中央商务区、国贸、中国尊、商务区",
+    "image_score": 0.6179,
+    "text_score": 1.0,
+    "fusion_score": 0.809
+  },
+  {
+    "symbol_id": "BJ_FASHION_004",
+    "canonical_name": "国贸",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.6411641438802083,
+    "reason": "关键词/别名命中：国贸、国贸三期、CBD",
+    "image_score": 0.6157,
+    "text_score": 0.6667,
+    "fusion_score": 0.6412
+  },
+  {
+    "symbol_id": "CN2_TECH_015",
+    "canonical_name": "东升科技园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.31396484375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6279,
+    "text_score": 0.0,
+    "fusion_score": 0.314
+  },
+  {
+    "symbol_id": "CN2_MODERN_002",
+    "canonical_name": "鼓浪屿：历史国际社区",
+    "cultural_dimension": "现代城市与国际文化;古城与历史文化",
+    "dimension_code": "MODERN;ANCIENT",
+    "score": 0.313232421875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6265,
+    "text_score": 0.0,
+    "fusion_score": 0.3132
+  },
+  {
+    "symbol_id": "CN2_TECH_007",
+    "canonical_name": "中关村广场",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.31292724609375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6259,
+    "text_score": 0.0,
+    "fusion_score": 0.3129
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "video_id": "人民英雄纪念碑1",
+  "gt_symbols": [
+    "人民英雄纪念碑"
+  ],
+  "gt_symbol_ids": [
+    "BJ_RED_003"
+  ],
+  "gt_dimension_code": "RED",
+  "kb_coverage": true,
+  "mode": "text",
+  "status": "blocked_runtime",
+  "reason": "基础模型调用受阻：APIConnectionError；详情见api_calls.json"
+}

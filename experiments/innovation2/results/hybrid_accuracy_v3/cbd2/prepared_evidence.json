@@ -1,0 +1,156 @@
+{
+  "scene_description_raw": "{\"scene\":\"黄昏时分城市天际线，高楼大厦林立，下方有高架桥和车辆行驶，天空呈蓝色渐变\",\"subject\":\"城市建筑群\",\"visible_features\":[\"多栋现代化高楼，部分楼顶有红色发光标识，下方有高架桥和车流光轨，前景有低矮建筑和树木\"],\"background\":[\"城市建筑群、高架桥、行驶的车辆、树木\"],\"readable_text\":[],\"text_regions\":[{\"kind\":\"楼顶标识\",\"time_ratio\":0.1,\"bbox\":[0.233,0.307,0.265,0.322]},{\"kind\":\"楼顶标识\",\"time_ratio\":0.1,\"bbox\":[0.406,0.318,0.431,0.334]},{\"kind\":\"楼顶标识\",\"time_ratio\":0.1,\"bbox\":[0.028,0.405,0.053,0.419]}],\"uncertain_entities\":[]}",
+  "scene_description": "黄昏时分城市天际线，高楼大厦林立，下方有高架桥和车辆行驶，天空呈蓝色渐变\n城市建筑群\n多栋现代化高楼，部分楼顶有红色发光标识，下方有高架桥和车流光轨，前景有低矮建筑和树木\n可读文字：YINTAI\n可读文字：PICC\n【背景辅助证据；不能单独证明主体身份】\n城市建筑群、高架桥、行驶的车辆、树木",
+  "scene_evidence_version": "hybrid_v3",
+  "structured_scene": {
+    "scene": "黄昏时分城市天际线，高楼大厦林立，下方有高架桥和车辆行驶，天空呈蓝色渐变",
+    "subject": "城市建筑群",
+    "visible_features": [
+      "多栋现代化高楼，部分楼顶有红色发光标识，下方有高架桥和车流光轨，前景有低矮建筑和树木"
+    ],
+    "background": [
+      "城市建筑群、高架桥、行驶的车辆、树木"
+    ],
+    "readable_text": [],
+    "text_regions": [
+      {
+        "kind": "楼顶标识",
+        "time_ratio": 0.1,
+        "bbox": [
+          0.233,
+          0.307,
+          0.265,
+          0.322
+        ]
+      },
+      {
+        "kind": "楼顶标识",
+        "time_ratio": 0.1,
+        "bbox": [
+          0.406,
+          0.318,
+          0.431,
+          0.334
+        ]
+      },
+      {
+        "kind": "楼顶标识",
+        "time_ratio": 0.1,
+        "bbox": [
+          0.028,
+          0.405,
+          0.053,
+          0.419
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "completed",
+    "calls": 3,
+    "items": [
+      {
+        "text": "YINTAI",
+        "legibility": "clear"
+      },
+      {
+        "text": "PICC",
+        "legibility": "clear"
+      },
+      {
+        "text": "",
+        "legibility": "unreadable"
+      }
+    ],
+    "attempts": [
+      {
+        "kind": "楼顶标识",
+        "time_ratio": 0.1,
+        "bbox": [
+          0.233,
+          0.307,
+          0.265,
+          0.322
+        ],
+        "index": 0,
+        "frame_index": 15,
+        "pixel_bbox": [
+          817,
+          619,
+          1094,
+          738
+        ],
+        "images": [
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/cbd2/B/text_evidence/region_0_crop.jpg",
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/cbd2/B/text_evidence/region_0_context.jpg"
+        ],
+        "raw_response": "{\"text\":\"YINTAI\",\"legibility\":\"clear\"}",
+        "result": {
+          "text": "YINTAI",
+          "legibility": "clear"
+        }
+      },
+      {
+        "kind": "楼顶标识",
+        "time_ratio": 0.1,
+        "bbox": [
+          0.406,
+          0.318,
+          0.431,
+          0.334
+        ],
+        "index": 1,
+        "frame_index": 15,
+        "pixel_bbox": [
+          1482,
+          643,
+          1731,
+          764
+        ],
+        "images": [
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/cbd2/B/text_evidence/region_1_crop.jpg",
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/cbd2/B/text_evidence/region_1_context.jpg"
+        ],
+        "raw_response": "{\"text\":\"PICC\",\"legibility\":\"clear\"}",
+        "result": {
+          "text": "PICC",
+          "legibility": "clear"
+        }
+      },
+      {
+        "kind": "楼顶标识",
+        "time_ratio": 0.1,
+        "bbox": [
+          0.028,
+          0.405,
+          0.053,
+          0.419
+        ],
+        "index": 2,
+        "frame_index": 15,
+        "pixel_bbox": [
+          30,
+          831,
+          280,
+          948
+        ],
+        "images": [
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/cbd2/B/text_evidence/region_2_crop.jpg",
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/cbd2/B/text_evidence/region_2_context.jpg"
+        ],
+        "raw_response": "{\"text\":\"\", \"legibility\":\"unreadable\"}",
+        "result": {
+          "text": "",
+          "legibility": "unreadable"
+        }
+      }
+    ]
+  },
+  "retrieval_scene_text": "1.【场景描述】：黄昏至夜晚的北京中央商务区（CBD），以现代化摩天大楼群和车流光轨为主体，展现都市繁华景象。\n2.【文化视觉元素】：中国尊、中信大厦、北京电视台（大裤衩）、国贸三期、银泰中心、中国国际贸易中心（国贸）、中国人民保险集团（PICC）大楼、北京财富中心。\n黄昏时分城市天际线，高楼大厦林立，下方有高架桥和车辆行驶，天空呈蓝色渐变\n城市建筑群\n多栋现代化高楼，部分楼顶有红色发光标识，下方有高架桥和车流光轨，前景有低矮建筑和树木\n可读文字：YINTAI\n可读文字：PICC\n【背景辅助证据；不能单独证明主体身份】\n城市建筑群、高架桥、行驶的车辆、树木",
+  "hypothesis_provenance": {
+    "source": "cached_legacy_pass1",
+    "text": "1.【场景描述】：黄昏至夜晚的北京中央商务区（CBD），以现代化摩天大楼群和车流光轨为主体，展现都市繁华景象。\n2.【文化视觉元素】：中国尊、中信大厦、北京电视台（大裤衩）、国贸三期、银泰中心、中国国际贸易中心（国贸）、中国人民保险集团（PICC）大楼、北京财富中心。",
+    "use": "retrieval_only_not_identity_evidence"
+  }
+}

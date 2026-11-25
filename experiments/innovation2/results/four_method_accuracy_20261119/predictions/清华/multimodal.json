@@ -1,0 +1,14 @@
+{
+  "video_id": "清华",
+  "gt_symbols": [
+    "清华大学"
+  ],
+  "gt_symbol_ids": [
+    "BJ_INNOV_007"
+  ],
+  "gt_dimension_code": "TECH",
+  "kb_coverage": true,
+  "mode": "multimodal",
+  "status": "blocked_material",
+  "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+}

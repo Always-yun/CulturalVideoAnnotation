@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN2_ANCIENT_011",
+    "canonical_name": "五台山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6317138671875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6317,
+    "text_score": 0.0,
+    "fusion_score": 0.6317
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_007",
+    "canonical_name": "登封“天地之中”历史古迹",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6312255859375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6312,
+    "text_score": 0.0,
+    "fusion_score": 0.6312
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_023",
+    "canonical_name": "峨眉山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.630126953125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6301,
+    "text_score": 0.0,
+    "fusion_score": 0.6301
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_012",
+    "canonical_name": "承德避暑山庄及其周围寺庙",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6297607421875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6298,
+    "text_score": 0.0,
+    "fusion_score": 0.6298
+  },
+  {
+    "symbol_id": "CN_ANCIENT_004",
+    "canonical_name": "良渚古城遗址",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6295166015625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6295,
+    "text_score": 0.0,
+    "fusion_score": 0.6295
+  }
+]

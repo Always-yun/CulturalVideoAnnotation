@@ -1,0 +1,17 @@
+{
+  "video_id": "京剧青衣",
+  "sample_type": "known",
+  "gt_ids": [
+    "BJ_JINGWEI_003"
+  ],
+  "pred_ids": [],
+  "rejected": true,
+  "correct": false,
+  "recall1": true,
+  "recall5": true,
+  "reciprocal_rank": 1.0,
+  "error_type": "false_reject",
+  "group": "B",
+  "api_calls": 2,
+  "seconds": 91.68
+}

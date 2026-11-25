@@ -1,0 +1,23 @@
+{
+  "video_id": "天安门1",
+  "gt_symbols": [
+    "天安门广场"
+  ],
+  "gt_symbol_ids": [
+    "BJ_RED_002"
+  ],
+  "gt_dimension_code": "RED",
+  "kb_coverage": true,
+  "mode": "free",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为天安门城楼、华表。",
+  "pred_dimension": "红色文化",
+  "unknown_symbol": false,
+  "symbol_correct": false,
+  "dimension_correct": true,
+  "topk_candidates": [],
+  "recall_at_5": null,
+  "seconds": 99.62,
+  "error_type": "entity_confusion_or_generation",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/traces/天安门1/free/trace.json"
+}

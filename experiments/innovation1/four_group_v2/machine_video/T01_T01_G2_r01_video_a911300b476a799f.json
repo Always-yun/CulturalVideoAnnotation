@@ -1,0 +1,48 @@
+{
+  "request": {
+    "id": "T01_T01_G2_r01_video",
+    "task_id": "T01",
+    "video_id": "T01_G2_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T01-G2.mp4",
+    "video_sha256": "e9f418666fa4525ac14edee8a42c48624e555a429b4e8ecadf3187079af0a276",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：**主体（Main Object）：** 一组规模庞大的古代人物雕塑，雕塑形态具有一定差异，整体排列有序，主体保持静止。\n\n**背景（Background）：** 雕塑群位于大型室内考古遗址展厅内，周围可见遗址地面、展厅空间及远处建筑结构，白天的室内光线均匀柔和。\n\n**风格（Style）：** 写实纪实摄影风格，色彩自然，突出古代遗址的历史年代感与大型雕塑群的规模，画面整体庄重。\n\n**镜头（Camera）：** 镜头从较高位置斜向俯视，采用较广景别缓慢水平移动，展示雕塑群的排列及遗址空间。。时序事实及判据：[]",
+    "request_sha256": "a911300b476a799ff6166701cec431b6c000d3aefc548c0483cd3f41205e51fd"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"conditions\": {\"subject\": {\"verdict\": \"Yes\", \"evidence\": \"视频清晰展示了一组规模庞大的古代人物雕塑，雕塑形态存在差异（如服饰、姿态），整体排列有序且保持静止，与目标描述一致\", \"timestamps\": \"0.00-5.00\"}, \"scene\": {\"verdict\": \"Yes\", \"evidence\": \"雕塑群位于大型室内考古遗址展厅内，可见遗址地面、展厅空间及远处建筑结构，光线均匀柔和，符合目标描述的背景特征\", \"timestamps\": \"0.00-5.00\"}, \"time_weather\": {\"verdict\": \"Yes\", \"evidence\": \"室内光线均匀柔和，推测为白天，与目标描述的白天室内光线一致\", \"timestamps\": \"0.00-5.00\"}, \"camera_motion\": {\"verdict\": \"Yes\", \"evidence\": \"镜头从较高位置斜向俯视，采用较广景别，且在连续变化中呈现缓慢水平移动，展示了雕塑群的排列及遗址空间，与目标描述的镜头特征一致\", \"timestamps\": \"0.00-5.00\"}}, \"temporal_facts\": {}}",
+  "parse_ok": true,
+  "parsed": {
+    "conditions": {
+      "subject": {
+        "verdict": "Yes",
+        "evidence": "视频清晰展示了一组规模庞大的古代人物雕塑，雕塑形态存在差异（如服饰、姿态），整体排列有序且保持静止，与目标描述一致",
+        "timestamps": "0.00-5.00"
+      },
+      "scene": {
+        "verdict": "Yes",
+        "evidence": "雕塑群位于大型室内考古遗址展厅内，可见遗址地面、展厅空间及远处建筑结构，光线均匀柔和，符合目标描述的背景特征",
+        "timestamps": "0.00-5.00"
+      },
+      "time_weather": {
+        "verdict": "Yes",
+        "evidence": "室内光线均匀柔和，推测为白天，与目标描述的白天室内光线一致",
+        "timestamps": "0.00-5.00"
+      },
+      "camera_motion": {
+        "verdict": "Yes",
+        "evidence": "镜头从较高位置斜向俯视，采用较广景别，且在连续变化中呈现缓慢水平移动，展示了雕塑群的排列及遗址空间，与目标描述的镜头特征一致",
+        "timestamps": "0.00-5.00"
+      }
+    },
+    "temporal_facts": {}
+  }
+}

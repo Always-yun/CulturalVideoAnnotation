@@ -1,0 +1,285 @@
+[
+  {
+    "task_id": "T01",
+    "video_id": "T01_G1_r01",
+    "video_sha256": "86d1f4b5f91fd33f0e1e51334310096be1f8130dcd6949b7f8db58bf2bdc7fe5",
+    "question_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "parse_ok": true,
+    "facts": {},
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T01_T01_G1_r01_video_cab20964818d4478.json"
+  },
+  {
+    "task_id": "T01",
+    "video_id": "T01_G2_r01",
+    "video_sha256": "e9f418666fa4525ac14edee8a42c48624e555a429b4e8ecadf3187079af0a276",
+    "question_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "parse_ok": true,
+    "facts": {},
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T01_T01_G2_r01_video_a911300b476a799f.json"
+  },
+  {
+    "task_id": "T01",
+    "video_id": "T01_G3_r01",
+    "video_sha256": "f6a4604bea42fc7fc1f9e62935cf442bb46dfa9d3275ae839a8c55512bdc41e5",
+    "question_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "parse_ok": true,
+    "facts": {},
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T01_T01_G3_r01_video_b4474ae169f13ef5.json"
+  },
+  {
+    "task_id": "T01",
+    "video_id": "T01_G4_r01",
+    "video_sha256": "fde486f37f8414d8b4e0356844e3cd055690eac1bc1c49cbd06270e290d22035",
+    "question_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "parse_ok": true,
+    "facts": {},
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T01_T01_G4_r01_video_783005c79955e8f7.json"
+  },
+  {
+    "task_id": "T04",
+    "video_id": "T04_G1_r01",
+    "video_sha256": "cc0c1c4d14750fc7b86bbbde00db6cebc90b1a98a6da6049a17abf9d5a120670",
+    "question_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "parse_ok": true,
+    "facts": {},
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T04_T04_G1_r01_video_b99f8e4061b5d36f.json"
+  },
+  {
+    "task_id": "T04",
+    "video_id": "T04_G2_r01",
+    "video_sha256": "ccae79811706df540a9c34d3260e1baef5d7b001b017e43f1a1cea032390e09f",
+    "question_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "parse_ok": true,
+    "facts": {},
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T04_T04_G2_r01_video_5f2465f6c6bcefaf.json"
+  },
+  {
+    "task_id": "T04",
+    "video_id": "T04_G3_r01",
+    "video_sha256": "24288153dd637b844a26694b399569a690d934057a2df5b3955c4499f156d661",
+    "question_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "parse_ok": true,
+    "facts": {},
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T04_T04_G3_r01_video_a4f99c29bf73a44f.json"
+  },
+  {
+    "task_id": "T04",
+    "video_id": "T04_G4_r01",
+    "video_sha256": "4253abff487032b34b318d3b9aa96f0f1da1a59f18d710053e7ffc190205e4dc",
+    "question_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "parse_ok": true,
+    "facts": {},
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T04_T04_G4_r01_video_842727170c348cd8.json"
+  },
+  {
+    "task_id": "T06",
+    "video_id": "T06_G1_r01",
+    "video_sha256": "8d52c7cadb87bf0a614d4d69e56599ecb95f529569d559cf288dfcd2af1a4e25",
+    "question_sha256": "e6b88058844448fd7cca76ce7de19f788dfd71fe8a54367cd3fda13f6888fa2a",
+    "parse_ok": true,
+    "facts": {
+      "T06-F3": {
+        "answer": "Yes",
+        "evidence": "两个皮影人物从站立到做出挥臂、踢腿等连续攻防动作，动作连贯且具有武打互动性",
+        "timestamps": "0.00-5.50"
+      }
+    },
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T06_T06_G1_r01_video_31c72b3148c3d4a8.json"
+  },
+  {
+    "task_id": "T06",
+    "video_id": "T06_G2_r01",
+    "video_sha256": "feef7bceb30d732984dba83fae96dc406f03b86de3285ca8d51894b20369b2e8",
+    "question_sha256": "e6b88058844448fd7cca76ce7de19f788dfd71fe8a54367cd3fda13f6888fa2a",
+    "parse_ok": true,
+    "facts": {
+      "T06-F3": {
+        "answer": "Yes",
+        "evidence": "两个皮影人物在连续视频中呈现攻防、挥击等武打动作变化，如手臂挥动、身体姿态调整等",
+        "timestamps": "0.00-5.00"
+      }
+    },
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T06_T06_G2_r01_video_78c044edff4c8c70.json"
+  },
+  {
+    "task_id": "T06",
+    "video_id": "T06_G3_r01",
+    "video_sha256": "751629cc6dd1532e1b4fa8ce5bb106a4c926699126295c42e70d04cf28017296",
+    "question_sha256": "e6b88058844448fd7cca76ce7de19f788dfd71fe8a54367cd3fda13f6888fa2a",
+    "parse_ok": true,
+    "facts": {
+      "T06-F3": {
+        "answer": "Yes",
+        "evidence": "从0.00秒到5.00秒，两个皮影人物从对峙姿态逐渐转变为连续的攻防动作，如挥臂、抬腿等，动作具有连续性和互动性",
+        "timestamps": "0.00-5.00"
+      }
+    },
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T06_T06_G3_r01_video_4a97170cb6ccfcae.json"
+  },
+  {
+    "task_id": "T06",
+    "video_id": "T06_G4_r01",
+    "video_sha256": "db558dac60684c14f655b9b12ed33ea9f97dc64521545230fd47481c5dd12081",
+    "question_sha256": "e6b88058844448fd7cca76ce7de19f788dfd71fe8a54367cd3fda13f6888fa2a",
+    "parse_ok": true,
+    "facts": {
+      "T06-F3": {
+        "answer": "Yes",
+        "evidence": "两个皮影人物存在连续的攻防动作变化，如持武器对峙、挥击等",
+        "timestamps": "0.00-5.00"
+      }
+    },
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T06_T06_G4_r01_video_e8b9cdb342186f51.json"
+  },
+  {
+    "task_id": "T06",
+    "video_id": "source",
+    "video_sha256": "377fcbe5ddcdf327c696f610de0b747adaa8df97cc129842dd50d68a73f6ae81",
+    "question_sha256": "e6b88058844448fd7cca76ce7de19f788dfd71fe8a54367cd3fda13f6888fa2a",
+    "parse_ok": true,
+    "facts": {
+      "T06-F3": {
+        "answer": "Yes",
+        "evidence": "视频中两个皮影人物从初始对峙状态开始，持续进行挥棒、格挡、跳跃等攻防动作，动作连贯且具有武打互动特征",
+        "timestamps": "0.00-12.50"
+      }
+    },
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T06_source_video_ee8d9959736947f5.json"
+  },
+  {
+    "task_id": "T07",
+    "video_id": "T07_G1_r01",
+    "video_sha256": "482ac0138cecdc3d926965f970cabd4fdc0b3ddcf9265bce590297f49cd47994",
+    "question_sha256": "883bf1bfbcded15e6c514cf76d1477fa66effc614db05a8be98f9339843c99ff",
+    "parse_ok": true,
+    "facts": {
+      "T07-F3": {
+        "answer": "Yes",
+        "evidence": "连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱的点火过程",
+        "timestamps": "2.00-4.00"
+      },
+      "T07-F4": {
+        "answer": "No",
+        "evidence": "火箭始终静止在发射工位，未发生相对发射工位的持续向上位移",
+        "timestamps": "0.00-5.00"
+      }
+    },
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T07_T07_G1_r01_video_f5d9a3891c23a9a7.json"
+  },
+  {
+    "task_id": "T07",
+    "video_id": "T07_G2_r01",
+    "video_sha256": "79ca20508c164754583de71dd33c4b3a2093be4aee0a59305204e19413f1ab71",
+    "question_sha256": "883bf1bfbcded15e6c514cf76d1477fa66effc614db05a8be98f9339843c99ff",
+    "parse_ok": true,
+    "facts": {
+      "T07-F3": {
+        "answer": "Yes",
+        "evidence": "连续视频中可见火箭底部从无点火状态到出现明显喷射火焰、烟柱及大量烟雾的点火过程",
+        "timestamps": "1.00-5.00秒"
+      },
+      "T07-F4": {
+        "answer": "Yes",
+        "evidence": "连续视频中火箭相对发射工位发生持续向上的位移，逐步离开平台并升空",
+        "timestamps": "4.00-6.00秒"
+      }
+    },
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T07_T07_G2_r01_video_2edbec81bf301f68.json"
+  },
+  {
+    "task_id": "T07",
+    "video_id": "T07_G3_r01",
+    "video_sha256": "0ac427d868ac685c4b467bbe791a311d78d3d0bbf8741c0eea7513fd890902e6",
+    "question_sha256": "883bf1bfbcded15e6c514cf76d1477fa66effc614db05a8be98f9339843c99ff",
+    "parse_ok": true,
+    "facts": {
+      "T07-F3": {
+        "answer": "Yes",
+        "evidence": "视频中火箭底部从无火焰到出现明显喷射火焰与烟柱，呈现点火过程",
+        "timestamps": "0.00-5.00"
+      },
+      "T07-F4": {
+        "answer": "Yes",
+        "evidence": "火箭从发射工位持续向上位移，逐步离开平台，呈现升空变化",
+        "timestamps": "0.00-5.00"
+      }
+    },
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T07_T07_G3_r01_video_6529fc89418f1c29.json"
+  },
+  {
+    "task_id": "T07",
+    "video_id": "T07_G4_r01",
+    "video_sha256": "17be7163a72c9b984279ed9dd554118b748c22eaa319f0292112bad747c79dea",
+    "question_sha256": "883bf1bfbcded15e6c514cf76d1477fa66effc614db05a8be98f9339843c99ff",
+    "parse_ok": true,
+    "facts": {
+      "T07-F3": {
+        "answer": "Yes",
+        "evidence": "连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程",
+        "timestamps": "0.00-5.00"
+      },
+      "T07-F4": {
+        "answer": "Yes",
+        "evidence": "连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架",
+        "timestamps": "0.00-5.00"
+      }
+    },
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T07_T07_G4_r01_video_fc6767abc66453a7.json"
+  },
+  {
+    "task_id": "T07",
+    "video_id": "source",
+    "video_sha256": "be3d61382377b14049b502517d1bef316f8cf91009b46edb6bb943a449b5a7c2",
+    "question_sha256": "883bf1bfbcded15e6c514cf76d1477fa66effc614db05a8be98f9339843c99ff",
+    "parse_ok": true,
+    "facts": {
+      "T07-F3": {
+        "answer": "Yes",
+        "evidence": "视频中火箭底部从无火焰到出现明显喷射火焰和大量烟雾，符合点火过程特征",
+        "timestamps": "0.00s-8.00s"
+      },
+      "T07-F4": {
+        "answer": "Yes",
+        "evidence": "火箭相对发射工位持续向上位移并逐步离开平台，呈现向上升空的连续变化",
+        "timestamps": "0.00s-8.00s"
+      }
+    },
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T07_source_video_d64b0ad25e9b3bc2.json"
+  },
+  {
+    "task_id": "T10",
+    "video_id": "T10_G1_r01",
+    "video_sha256": "0cb7ae9664d3b5b6fe62df1a0a3fadbd652ad0f869ad106021087392a0b183d9",
+    "question_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "parse_ok": true,
+    "facts": {},
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T10_T10_G1_r01_video_19caf2eb02272f98.json"
+  },
+  {
+    "task_id": "T10",
+    "video_id": "T10_G2_r01",
+    "video_sha256": "bba4b74d1cc20e6d3c4eeee9efc6705776fd16d2a185b647db61776e7e3aeba5",
+    "question_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "parse_ok": true,
+    "facts": {},
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T10_T10_G2_r01_video_34a8fb993f3f3692.json"
+  },
+  {
+    "task_id": "T10",
+    "video_id": "T10_G3_r01",
+    "video_sha256": "d640b2842cd8619ac07e2bba02642d66b721cc4d9c057032ddbe8dfc5651a3c4",
+    "question_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "parse_ok": true,
+    "facts": {},
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T10_T10_G3_r01_video_6f5b8b902b510ed3.json"
+  },
+  {
+    "task_id": "T10",
+    "video_id": "T10_G4_r01",
+    "video_sha256": "b9c9f3c5e047f69d65358f8e77559e4c9bfb2cd8df46fea1ae7740267473b761",
+    "question_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "parse_ok": true,
+    "facts": {},
+    "source_file": "experiments/innovation1/four_group_v2/machine_video/T10_T10_G4_r01_video_bdd98b1a8e892330.json"
+  }
+]

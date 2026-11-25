@@ -1,0 +1,17 @@
+{
+  "video_id": "中关村展示中心",
+  "sample_type": "known",
+  "gt_ids": [
+    "CN2_TECH_005"
+  ],
+  "pred_ids": [],
+  "rejected": true,
+  "correct": false,
+  "recall1": false,
+  "recall5": false,
+  "reciprocal_rank": 0,
+  "error_type": "false_reject",
+  "group": "B2",
+  "api_calls": 2,
+  "seconds": 96.2
+}

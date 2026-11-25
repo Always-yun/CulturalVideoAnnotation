@@ -1,0 +1,84 @@
+{
+  "free": {
+    "execution": "reuse historical run; no new model call",
+    "output": "extract C natural-language block from historical six-layer reply",
+    "original_manifest": "experiments/innovation2/results/four_method_accuracy_20261119/manifest.json",
+    "results_source": "experiments/innovation2/results/four_method_accuracy_20261119/results.json",
+    "prompt_source": "actual prompt saved in original per-video worker trace.json",
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "max_tokens": 2048,
+    "knowledge_base_entities": 114,
+    "top_k": null,
+    "retriever": null,
+    "retry": "historical attempts preserved; not retroactively made identical to new methods"
+  },
+  "text": {
+    "execution": "reuse historical run; no new model call",
+    "output": "extract C natural-language block from historical six-layer reply",
+    "original_manifest": "experiments/innovation2/results/four_method_accuracy_20261119/manifest.json",
+    "results_source": "experiments/innovation2/results/four_method_accuracy_20261119/results.json",
+    "prompt_source": "actual prompt saved in original per-video worker trace.json",
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "max_tokens": 2048,
+    "knowledge_base_entities": 114,
+    "top_k": 5,
+    "retriever": "KeywordCulturalRetriever",
+    "retry": "historical attempts preserved; not retroactively made identical to new methods"
+  },
+  "image": {
+    "execution": "new model calls",
+    "output": "C-only natural language; auxiliary log entity extraction",
+    "model": "glm-4v",
+    "generation": {
+      "temperature": 0.1,
+      "max_tokens": 2048
+    },
+    "prompt_version": "c_only_v1",
+    "knowledge_base_entities": 126,
+    "top_k": 3,
+    "threshold": 0,
+    "fusion_alpha": 0,
+    "reference_index_photos": 30,
+    "image_text_fallback": false,
+    "identity_gate": false,
+    "controlled": false,
+    "retry": {
+      "max_attempts": 2,
+      "retry_service_and_parse": true,
+      "sdk_retries": 0,
+      "timeout_seconds": 300,
+      "sleep_seconds": 2,
+      "resume": "terminal completed/failure records are not retried automatically"
+    },
+    "frozen_protocol": "protocol.json"
+  },
+  "multimodal": {
+    "execution": "new model calls",
+    "output": "C-only natural language; auxiliary log entity extraction",
+    "model": "glm-4v",
+    "generation": {
+      "temperature": 0.1,
+      "max_tokens": 2048
+    },
+    "prompt_version": "c_only_v1",
+    "knowledge_base_entities": 126,
+    "top_k": 3,
+    "threshold": 0,
+    "fusion_alpha": 0.5,
+    "reference_index_photos": 30,
+    "image_text_fallback": false,
+    "identity_gate": false,
+    "controlled": false,
+    "retry": {
+      "max_attempts": 2,
+      "retry_service_and_parse": true,
+      "sdk_retries": 0,
+      "timeout_seconds": 300,
+      "sleep_seconds": 2,
+      "resume": "terminal completed/failure records are not retried automatically"
+    },
+    "frozen_protocol": "protocol.json"
+  }
+}

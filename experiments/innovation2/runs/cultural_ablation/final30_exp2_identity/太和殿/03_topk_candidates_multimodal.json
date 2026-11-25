@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.8076171875,
+    "reason": "关键词/别名命中：太和殿",
+    "image_score": 0.6152,
+    "text_score": 1.0,
+    "fusion_score": 0.8076
+  },
+  {
+    "symbol_id": "BJ_GUDU_004",
+    "canonical_name": "祈年殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.3912251790364583,
+    "reason": "关键词/别名命中：雪景",
+    "image_score": 0.6158,
+    "text_score": 0.1667,
+    "fusion_score": 0.3912
+  },
+  {
+    "symbol_id": "BJ_INNOV_004",
+    "canonical_name": "鸟巢",
+    "cultural_dimension": "科技与创新文化;现代城市与国际文化",
+    "dimension_code": "TECH;MODERN",
+    "score": 0.3872578938802083,
+    "reason": "关键词/别名命中：雪景",
+    "image_score": 0.6078,
+    "text_score": 0.1667,
+    "fusion_score": 0.3873
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_007",
+    "canonical_name": "登封“天地之中”历史古迹",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.3153076171875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6306,
+    "text_score": 0.0,
+    "fusion_score": 0.3153
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_011",
+    "canonical_name": "五台山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.3153076171875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6306,
+    "text_score": 0.0,
+    "fusion_score": 0.3153
+  }
+]

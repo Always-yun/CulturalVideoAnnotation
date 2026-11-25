@@ -1,6 +1,6 @@
-# EMCAST - 文化视频结构化标注框架
+# EMCAST - 中华文化视频结构化标注框架
 
-基于 Qwen 3.5-9B 视觉大模型的北京城市文化视频智能标注工具，采用 **EMCAST 六维分层标注体系**。
+面向中华文化视频的多模态文化符号知识库驱动标注框架（北京为当前实验案例），采用 **EMCAST 六维分层标注体系**。
 
 ## 功能特性
 
@@ -12,57 +12,42 @@
   - **A** - 视听语言层
   - **S** - 整体叙事层
   - **T** - 技术属性层
-- **北京文化分类**：支持古都文化、红色文化、京味文化、创新科技文化、国际时尚文化五大类别
+- **中华文化五维分类（创新点2）**：古城与历史文化、红色文化、民族与民俗文化、科技与创新文化、现代城市与国际文化；由中华文化符号知识库经"多模态检索 → Top-K 文化候选 → 动态 Prompt"驱动受控标注（北京为当前地域实验案例）
 - **视频元数据提取**：基于 ffmpeg 自动提取视频技术参数
 - **批量处理**：支持单个视频和批量视频标注
 - **多格式输出**：支持 TXT 和 JSON 格式输出
 - **多GPU并行处理**：智能检测GPU状态，自动分配任务到空闲GPU
-- **RAG + Few-shot 学习系统**：支持修正案例学习和提示词增强
 - **实验评估系统**：支持 Baseline 对比实验、消融实验，自动计算各项指标
-- **SAM 建筑检测**：基于 Segment Anything Model 的自适应建筑主体检测
 
 ## 项目结构
 
-```
+```text
 CulturalVideoAnnotation/
-├── pipeline/              # 标注/推理系统
-│   ├── inference_engine.py   # 推理引擎
-│   ├── prompt_manager.py     # 提示词管理
-│   ├── result_processor.py   # 结果处理
-│   └── video_processor.py    # 视频处理
-├── models/                # 模型封装
-│   ├── config.py             # 配置管理
-│   ├── model_manager.py      # 模型管理
-│   ├── gpu_manager.py        # GPU管理
-│   └── segment-anything-2-main/
-├── dataset/               # 数据处理
-│   └── txt_to_json.py        # 数据格式转换
-├── experiments/           # 实验评估系统（预留）
-├── metrics/               # 评价指标
-│   ├── emcast_schema.py      # EMCAST Schema定义
-│   ├── cultural_metrics.py   # 文化符号指标
-│   ├── text_metrics.py       # 文本生成指标
-│   ├── baseline_eval.py      # Baseline对比评估
-│   └── generate_test_data.py # 测试数据生成器
-├── src/learning/          # RAG + Few-shot学习模块
-│   ├── config.py             # 学习配置
-│   ├── vector_store.py       # 向量数据库
-│   ├── fewshot_manager.py    # Few-shot示例管理
-│   ├── correction_collector.py # 修正案例收集
-│   └── run_learning.py       # 学习流程主程序
-├── scripts/               # 执行脚本
-│   ├── run_annotation.py     # 主标注程序
-│   ├── run_multi_gpu.py      # 多GPU并行处理
-│   ├── run_with_learning.py  # 带学习功能的标注
-│   └── test_sam_detection.py # SAM建筑检测测试
-├── data/                  # 数据目录
-│   ├── learning/             # 学习数据
-│   │   ├── corrections/      # 修正案例
-│   │   └── vector_db/        # 向量数据库
-│   └── eval/                 # 评估数据
-├── outputs/               # 输出结果目录
-└── README.md              # 项目说明
+├── src/                         # 共用源码：标注、模型接口、文化检索、指标
+├── scripts/                     # 基础标注入口、知识库维护
+│   └── innovation2/             # 创新点2实验入口（从项目根目录运行）
+├── config/                      # 共用策略与版本化门控配置
+├── models/                      # 模型权重
+├── dataset/                     # 通用数据转换
+├── data/                        # 共用数据：knowledge_base、test、test_samples、中关村、eval
+├── outputs/                     # 基础标注输出：annotations、preview、eval
+├── experiments/
+│   ├── innovation1/             # EMCAST描述策略与文化视频生成评价
+│   │   ├── t2v_cultural_taskset/ # 候选任务、第一批评价、第二批配置及提示词
+│   │   └── videos/batch1/       # 第一批生成视频
+│   └── innovation2/             # 文化知识增强、检索、拒识与身份门控
+│       ├── data/                # 实验视频、GT、人工标注导出
+│       ├── runs/                # 消融实验逐次运行产物
+│       ├── cache/               # 场景描述、关键帧、验证信号
+│       ├── outputs/             # 文化RAG中间输出
+│       ├── results/             # 指标汇总与分析
+│       └── reports/             # HTML等报告
+├── archives/sam_camera_motion/  # 历史SAM与运镜模块
+├── docs/                        # 研究文档、目录说明和迁移清单
+└── README.md
 ```
+
+目录使用说明见 [docs/project_layout.md](docs/project_layout.md)。实验入口均从项目根目录运行；创新点1原项目外任务集已完整迁入。
 
 ## 环境要求
 
@@ -86,7 +71,7 @@ conda activate cultural_video
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install transformers qwen-vl-utils
 pip install ffmpeg-python decord
-pip install pandas numpy scikit-learn nltk
+pip install pandas numpy scipy scikit-learn nltk
 pip install rouge-score  # ROUGE指标
 pip install pycocoevalcap  # BLEU/CIDEr指标（可选）
 ```
@@ -127,6 +112,31 @@ conda activate cultural_video
 mkdir -p $CONDA_PREFIX/etc/conda/activate.d
 echo 'cd /data/data/xzy/CulturalVideoAnnotation' > $CONDA_PREFIX/etc/conda/activate.d/cd_project.sh
 ```
+
+### 结构化视觉证据与文字复核
+
+Pass-1默认输出结构化主体、外观与文字区域证据；发现匾额/标牌时按需裁剪真实视频帧并复核文字。每视频最多增加3次GLM调用。`--no-text-recognition`关闭额外转录，`--scene-mode legacy`使用旧版Pass-1。详细过程、限制和验证见 [第一步优化记录](docs/innovation2/scene_evidence_v1_20261112.md)。
+
+### 候选排序实验版本
+
+`--retrieval-strategy evidence_v1`启用名称/清楚文字优先、通用特征降权及文本图像双路候选合并。默认保留legacy，待独立验证与门控重新标定后再决定切换。配对回放与限制见[第二步优化记录](docs/innovation2/evidence_ranking_v1_20261112.md)。
+
+### 默认文化增强流程
+
+`run_annotation.py` 默认使用创新点2的完整文化链路：视频视觉描述 → 关键词与CLIP多模态Top-K检索 → 拒识门控 → EMCAST受控标注 → v2文化身份核验。复用现有v2知识库与标定配置；可通过 `--kb-path` 指定其他知识库版本。T层由视频元数据确定性写入。
+
+```bash
+# 完整流程，输出TXT/JSON及文化检索与核验追踪
+python scripts/run_annotation.py --video data/test/鸟巢.mp4
+
+# 原始EMCAST对照，不调用文化检索与核验
+python scripts/run_annotation.py --video data/test/鸟巢.mp4 --culture-mode off
+
+# 轻量关键词检索，保留拒识门控，关闭v2视觉身份核验
+python scripts/run_annotation.py --video data/test/鸟巢.mp4 --culture-mode keyword --identity-verifier off
+```
+
+默认结果位于 `outputs/annotations/`，文化过程记录位于输出目录内的 `cultural_traces/`；含视觉描述、候选与分项分数、提示词、原始标注、最终C层和v2核验。单个视频会有两次基础VLM调用，模糊身份可能触发额外核验。CLIP首次使用需要本地权重或下载；`--max-frames` 控制本地Qwen抽帧，不控制GLM整视频API。多GPU入口支持相同文化参数。
 
 ### 单个视频标注
 
@@ -200,40 +210,6 @@ python scripts/run_multi_gpu.py \
   --verbose
 ```
 
-### 带学习功能的标注
-
-```bash
-# 使用学习系统增强标注
-python scripts/run_with_learning.py --video /path/to/video.mp4
-
-# 学习系统命令行工具
-python -m src.learning.run_learning --help
-
-# 收集修正案例
-python -m src.learning.run_learning collect \
-  --video /path/to/video.mp4 \
-  --original original.txt \
-  --corrected corrected.txt \
-  --reason "修正原因"
-
-# 批量导入修正数据
-python -m src.learning.run_learning batch
-
-# 显示学习系统统计信息
-python -m src.learning.run_learning stats
-
-# 搜索相似示例
-python -m src.learning.run_learning search --query "故宫" --category "古都文化"
-```
-
-### SAM 建筑检测测试
-
-```bash
-python scripts/test_sam_detection.py
-```
-
-该脚本使用 SAM Automatic Mask Generation 生成候选mask，通过自适应打分规则筛选建筑主体区域，支持单建筑和多建筑场景的统一检测。
-
 ### 实验评估
 
 ```bash
@@ -251,6 +227,33 @@ python -m metrics.baseline_eval \
   --data your_eval_data.jsonl \
   --output outputs/eval
 ```
+
+### 创新点2 消融实验（五模式对比）
+
+```bash
+# 默认：GT 全部视频 × 全部 5 种模式（free / text / image / multimodal / multimodal_controlled）
+python scripts/innovation2/run_cultural_ablation.py
+
+# 仅指定模式与视频
+python scripts/innovation2/run_cultural_ablation.py --modes free,multimodal --video-ids niaochao
+
+# 自定义候选数与融合权重
+python scripts/innovation2/run_cultural_ablation.py --top-k 5 --fusion-alpha 0.5
+```
+
+五种模式：Free Prompt（无检索）、关键词检索、图像检索（纯 image_score）、
+多模态融合（text+image 加权）、多模态+受控输出（候选闭集约束）。
+
+统一记录 Top-K 候选（text_score / image_score / fusion_score）、最终文化符号、
+最终文化维度、unknown_symbol、模型输出全文。
+
+输出（`experiments/innovation2/runs/cultural_ablation/<时间戳>/`）：
+- `results.json` — 全量记录（含 Prompt 与模型输出）
+- `per_video.csv` — 逐视频逐模式明细（含符号命中/幻觉/拒识标记，`human_edit` 列预留人工审核）
+- `summary.csv` — 模式×指标汇总（Recall@1/5、MRR、符号/维度准确率、幻觉率、unknown拒识率、人工修改率）
+- 每视频每模式中间产物（视觉描述 / Query / 候选 / Prompt / 最终标注）
+
+评测集：`experiments/innovation2/data/eval/cultural_ablation_gt.jsonl`（video_id、gt_symbol_ids、gt_symbols、gt_dimension_code、notes）。扩大数据集时按该格式追加行即可。
 
 ## 命令行参数
 
@@ -334,16 +337,6 @@ class GenerationConfig:
     do_sample: bool = False              # 是否采样
 ```
 
-### 学习模块配置
-```python
-@dataclass
-class LearningConfig:
-    enabled: bool = False                # 是否启用学习功能
-    vector_db_path: str = None           # 向量数据库路径
-    max_examples_per_query: int = 3      # 每次检索示例数
-    min_similarity_score: float = 0.6    # 最小相似度阈值
-```
-
 ## 输出格式
 
 ### EMCAST 标准格式
@@ -354,8 +347,8 @@ class LearningConfig:
 【M｜主体行为层】：视觉焦点包含承载主体：钟鼓楼
 承载主体外观：钟鼓楼呈现出轴对称的几何形态，外立面材质主要为青砖灰瓦...
 
-【C｜文化维度层】：该场景隶属于古都文化。
-核心符号：识别出承载该文化内涵的关键视觉锚点为飞檐斗拱、青砖灰瓦。
+【C｜文化维度层】：该场景隶属于古城与历史文化。
+核心符号：识别出承载该文化内涵的关键视觉锚点为飞檐斗拱、青砖灰瓦、钟鼓楼。
 
 【A｜视听语言层】
 镜头语法：镜头为运动机位。运镜采用拉（后），状态稳定，节奏慢...
@@ -390,32 +383,40 @@ class LearningConfig:
 - `result_summary.csv`：汇总统计（均值+标准差）
 - `result_summary.md`：Markdown格式的对比表格（可直接用于论文）
 
-## 北京文化分类规则
+## 中华文化五维分类规则（C 文化维度层）
 
-### 古都文化
-- 中轴线、皇城格局、世界遗产
-- 故宫、长城、钟鼓楼等历史建筑
-- 体现北京历史延续性的内容
+五维分类受控于中华文化符号知识库（`data/knowledge_base/chinese_cultural_symbols_v2.json`，
+当前 114 条，`culture_scope=中华文化`）。
+标注时由"多模态检索 → Top-K 文化候选 → 动态 Prompt"给出候选，最终须结合画面证据闭集判定。
 
-### 红色文化
+### 古城与历史文化（ANCIENT）
+- 古城中轴线、皇城格局、世界遗产
+- 故宫、长城、天坛、钟鼓楼等历史建筑与古遗址
+- 体现历史延续性与传统营造技艺的内容
+
+### 红色文化（RED）
 - 革命旧址、纪念设施
-- 天安门广场、革命博物馆
-- 国家庆典相关内容
+- 天安门广场、革命/军事博物馆、卢沟桥
+- 国家庆典与革命历史相关内容
 
-### 京味文化
-- 胡同生活、老字号
-- 非遗技艺（京剧、相声、传统手工艺）
-- 民俗活动相关内容
+### 民族与民俗文化（FOLK）
+- 胡同、四合院等传统民居与市井生活
+- 非遗技艺（京剧、京韵大鼓、剪纸、传统手工艺）
+- 节庆民俗、地方美食与老字号相关内容
 
-### 创新科技文化
-- 科技园区、大兴机场
-- 自动驾驶、现代文创园区
-- 体现当代科技与创新气质的内容
+### 科技与创新文化（TECH）
+- 科技园区与高教机构（中关村、北大、清华）
+- 现代科技地标（鸟巢、水立方、国家会议中心）
+- 自动驾驶、人工智能等当代科技创新内容
 
-### 国际时尚文化
-- 使馆区、国际消费商圈
-- 亮马河、三里屯
-- 重大外交活动场所
+### 现代城市与国际文化（MODERN）
+- 中央商务区、国际消费商圈（CBD、三里屯、王府井）
+- 现代艺术与文创园区（798、郎园、北京坊、首钢园）
+- 使馆区、重大国际交往活动场所
+
+> 维度码与旧→新维度映射详见 `data/knowledge_base/schema.json`；
+> 历史标注中的旧五维名（古都文化/京味文化/创新科技文化/国际时尚文化）
+> 会由 `normalize_cultural_category()` 自动归一化，评测可直接兼容旧真值。
 
 ## 常见问题
 
@@ -477,12 +478,6 @@ metrics/
 ├── cultural_metrics.py   # 文化符号指标（P/R/F1、结构准确率）
 ├── text_metrics.py       # 文本生成指标（BLEU、CIDEr、ROUGE）
 └── baseline_eval.py      # Baseline对比实验评估器
-
-src/learning/
-├── vector_store.py       # 向量数据库管理
-├── fewshot_manager.py    # Few-shot示例管理
-├── correction_collector.py # 修正案例收集
-└── run_learning.py       # 学习流程主程序
 ```
 
 ### 核心流程
@@ -493,13 +488,6 @@ src/learning/
 4. 模型推理生成标注
 5. 结果提取和格式化
 6. 保存输出文件
-
-### 学习系统流程
-
-1. 收集修正案例（原始标注 vs 修正标注）
-2. 提取差异并存储到向量数据库
-3. 标注时检索相似案例
-4. 构建 Few-shot 提示词增强
 
 ## 性能优化
 
@@ -515,12 +503,17 @@ src/learning/
 
 ## 更新日志
 
+### v1.5.0 (2026-09-07)
+- **RealEstate10K 运镜对比实验子集与运镜真值标注模块**（已归档至 `archives/sam_camera_motion/`）：
+  - 原 `src/temporal/` 运镜模块 + `data/realestate10k_subset/` 数据，因当前实验未使用该特性而整体归档
+- **项目文件整理**：模型权重/对比图/散落标注结果归位，清理 9.4GB 重复实验产物
+
 ### v1.4.0 (2026-07-02)
 - **代码清理与重构**：
   - 删除 `src/` 目录下所有存根文件（实际代码已迁移至 `pipeline/`）
   - 删除根目录兼容性 shim 文件（`run_multi_gpu.py`, `txt-to-json.py`）
   - 删除旧测试文件（`test_sam.py`, `test_sam_auto.py`）
-- **SAM 建筑检测**：新增 `test_sam_detection.py`，实现基于 mask 属性的自适应建筑主体检测
+- **SAM 建筑检测**（已归档至 `archives/sam_camera_motion/`）：原 `src/sam/` 模块与相关脚本，因当前实验未使用该特性而整体归档
 - **项目结构优化**：精简目录结构，核心代码集中在 `pipeline/`、`models/`、`scripts/`
 
 ### v1.3.0 (2026-06-30)
@@ -538,12 +531,8 @@ src/learning/
   - 支持 JSONL/CSV 输入，输出 CSV + Markdown 表格
 
 ### v1.2.0 (2026-06-15)
-- **RAG + Few-shot 学习系统**：
-  - 新增 `src/learning/` 模块
-  - 支持修正案例收集和存储
-  - 向量数据库（ChromaDB）检索相似案例
-  - Few-shot 提示词增强
-- 学习系统命令行工具：collect/batch/stats/search/export
+- **RAG + Few-shot 学习系统**（已移除）：
+  - 原 `src/learning/` 模块（修正案例收集/向量检索/Few-shot 增强），后续因实验一二未使用该特性而整体下线
 
 ### v1.1.0 (2026-05-08)
 - **多GPU并行处理**：

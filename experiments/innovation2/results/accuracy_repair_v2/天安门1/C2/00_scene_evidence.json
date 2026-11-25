@@ -1,0 +1,118 @@
+{
+  "scene_description_raw": "{\"scene\":\"室外，蓝天白云，光线明亮\",\"subject\":\"一座雕刻有龙纹和云纹的白色华表\",\"visible_features\":[\"白色石柱，柱身有龙纹雕刻，顶部有瑞兽，两侧有云纹装饰\"],\"background\":[\"红色墙体建筑，建筑上有红色灯笼，墙体上方有红旗，建筑上有毛泽东画像\"],\"readable_text\":[{\"text\":\"中华人民共和国\",\"legibility\":\"clear\"},{\"text\":\"世界人民大团结万岁\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.25,0.89,0.48,0.96]},{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.68,0.93,0.85,0.98]}],\"uncertain_entities\":[]}",
+  "scene_description": "室外，蓝天白云，光线明亮\n一座雕刻有龙纹和云纹的白色华表\n白色石柱，柱身有龙纹雕刻，顶部有瑞兽，两侧有云纹装饰\n可读文字：中华人民共和国\n可读文字：世界人民大团结万岁\n【背景辅助证据；不能单独证明主体身份】\n红色墙体建筑，建筑上有红色灯笼，墙体上方有红旗，建筑上有毛泽东画像",
+  "scene_evidence_version": "structured_context_v2",
+  "structured_scene": {
+    "scene": "室外，蓝天白云，光线明亮",
+    "subject": "一座雕刻有龙纹和云纹的白色华表",
+    "visible_features": [
+      "白色石柱，柱身有龙纹雕刻，顶部有瑞兽，两侧有云纹装饰"
+    ],
+    "background": [
+      "红色墙体建筑，建筑上有红色灯笼，墙体上方有红旗，建筑上有毛泽东画像"
+    ],
+    "readable_text": [
+      {
+        "text": "中华人民共和国",
+        "legibility": "clear"
+      },
+      {
+        "text": "世界人民大团结万岁",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.25,
+          0.89,
+          0.48,
+          0.96
+        ]
+      },
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.68,
+          0.93,
+          0.85,
+          0.98
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "completed",
+    "calls": 2,
+    "items": [
+      {
+        "text": "中华人民共和国",
+        "legibility": "clear"
+      },
+      {
+        "text": "世界人民大团结万岁",
+        "legibility": "clear"
+      }
+    ],
+    "attempts": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.25,
+          0.89,
+          0.48,
+          0.96
+        ],
+        "index": 0,
+        "frame_index": 85,
+        "pixel_bbox": [
+          883,
+          1879,
+          1920,
+          2116
+        ],
+        "images": [
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/天安门1/B/text_evidence/region_0_crop.jpg",
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/天安门1/B/text_evidence/region_0_context.jpg"
+        ],
+        "raw_response": "{\"text\":\"中华人民共和国\",\"legibility\":\"clear\"}",
+        "result": {
+          "text": "中华人民共和国",
+          "legibility": "clear"
+        }
+      },
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.68,
+          0.93,
+          0.85,
+          0.98
+        ],
+        "index": 1,
+        "frame_index": 85,
+        "pixel_bbox": [
+          2534,
+          1965,
+          3340,
+          2160
+        ],
+        "images": [
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/天安门1/B/text_evidence/region_1_crop.jpg",
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/天安门1/B/text_evidence/region_1_context.jpg"
+        ],
+        "raw_response": "{\"text\":\"世界人民大团结万岁\",\"legibility\":\"clear\"}",
+        "result": {
+          "text": "世界人民大团结万岁",
+          "legibility": "clear"
+        }
+      }
+    ]
+  }
+}

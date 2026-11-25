@@ -1,0 +1,718 @@
+{
+  "meta": {
+    "name": "实验三第一阶段：CMA镜头运动遵循性 + TWA时间天气遵循性",
+    "created": "2026-11-02",
+    "model": "glm-4v",
+    "temperature": 0.0,
+    "input_method": "video(base64) sent to glm-4v, 帧采样由API内部控制",
+    "group_mapping_status": "unverified",
+    "prompt_specified_status": "all yes (已核对G1-G4提示词均含镜头与时间天气要求)",
+    "criteria": {
+      "T02": {
+        "camera": "缓慢水平平移（镜头沿水平方向缓慢移动）",
+        "time_weather": "冬季黄昏、暖色夕阳（暖色调、低角度阳光、黄昏氛围）"
+      },
+      "T03": {
+        "camera": "固定机位（镜头位置与角度不变，无明显运动）",
+        "time_weather": "阴天、自然漫射光（无直射阳光、柔和均匀光线、可能多云）"
+      },
+      "T05": {
+        "camera": "高空俯视、缓慢向前移动（俯视角度，镜头缓慢向前推进）",
+        "time_weather": "白天、自然光（明亮日光、正常白昼光照）"
+      },
+      "T08": {
+        "camera": "向上摇摄（镜头自下而上缓慢摇动）",
+        "time_weather": "白天、自然光（明亮日光、正常白昼光照）"
+      },
+      "T09": {
+        "camera": "缓慢水平平移（镜头沿水平方向缓慢移动）",
+        "time_weather": "夜晚、城市灯光（黑暗天空、建筑灯光/霓虹点亮）"
+      }
+    }
+  },
+  "results": [
+    {
+      "video_id": "T02_G1",
+      "task_id": "T02",
+      "group_id": "G1",
+      "file": "T2-1.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-1.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "缓慢水平平移（镜头沿水平方向缓慢移动）",
+      "time_weather_requirement": "冬季黄昏、暖色夕阳（暖色调、低角度阳光、黄昏氛围）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "镜头沿水平方向缓慢移动，画面中建筑与水体的相对位置持续变化，符合缓慢水平平移特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"镜头沿水平方向缓慢移动，画面中建筑与水体的相对位置持续变化，符合缓慢水平平移特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "画面呈现暖色调光线，建筑屋顶受光面呈金黄色，阴影清晰，符合低角度夕阳照射的黄昏氛围。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"画面呈现暖色调光线，建筑屋顶受光面呈金黄色，阴影清晰，符合低角度夕阳照射的黄昏氛围。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T02_G2",
+      "task_id": "T02",
+      "group_id": "G2",
+      "file": "T2-2.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-2.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "缓慢水平平移（镜头沿水平方向缓慢移动）",
+      "time_weather_requirement": "冬季黄昏、暖色夕阳（暖色调、低角度阳光、黄昏氛围）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "镜头从右向左缓慢移动，画面中建筑、树木、船只等元素相对位置持续变化，符合水平平移特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"镜头从右向左缓慢移动，画面中建筑、树木、船只等元素相对位置持续变化，符合水平平移特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "天空呈淡蓝色，光线柔和呈暖黄色，建筑和地面有阴影，符合冬季黄昏暖色夕阳的低角度光照特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"天空呈淡蓝色，光线柔和呈暖黄色，建筑和地面有阴影，符合冬季黄昏暖色夕阳的低角度光照特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T02_G3",
+      "task_id": "T02",
+      "group_id": "G3",
+      "file": "T2-3.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-3.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "缓慢水平平移（镜头沿水平方向缓慢移动）",
+      "time_weather_requirement": "冬季黄昏、暖色夕阳（暖色调、低角度阳光、黄昏氛围）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "镜头沿水平方向缓慢移动，画面中建筑与水面相对位置持续变化，符合水平平移特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"镜头沿水平方向缓慢移动，画面中建筑与水面相对位置持续变化，符合水平平移特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "天空呈现暖橙色渐变，建筑与水面反射暖光，光线低角度，符合冬季黄昏暖色夕阳氛围。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"天空呈现暖橙色渐变，建筑与水面反射暖光，光线低角度，符合冬季黄昏暖色夕阳氛围。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T02_G4",
+      "task_id": "T02",
+      "group_id": "G4",
+      "file": "T2-4.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-4.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "缓慢水平平移（镜头沿水平方向缓慢移动）",
+      "time_weather_requirement": "冬季黄昏、暖色夕阳（暖色调、低角度阳光、黄昏氛围）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "画面中建筑、水面及背景树木的相对位置随时间逐渐向左移动，呈现缓慢水平平移特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"画面中建筑、水面及背景树木的相对位置随时间逐渐向左移动，呈现缓慢水平平移特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "天空呈淡蓝与浅粉渐变，光线柔和温暖，建筑与水面反射暖色调，符合冬季黄昏暖色夕阳的光线、色调与氛围特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"天空呈淡蓝与浅粉渐变，光线柔和温暖，建筑与水面反射暖色调，符合冬季黄昏暖色夕阳的光线、色调与氛围特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T03_G1",
+      "task_id": "T03",
+      "group_id": "G1",
+      "file": "T3-1.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T3-1.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "固定机位（镜头位置与角度不变，无明显运动）",
+      "time_weather_requirement": "阴天、自然漫射光（无直射阳光、柔和均匀光线、可能多云）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "多帧画面中建筑、庭院、背景及字幕位置均无变化，镜头位置与角度固定。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"多帧画面中建筑、庭院、背景及字幕位置均无变化，镜头位置与角度固定。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "天空阴沉，光线柔和均匀，无直射阳光，建筑色调偏灰暗，符合阴天自然漫射光特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"天空阴沉，光线柔和均匀，无直射阳光，建筑色调偏灰暗，符合阴天自然漫射光特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T03_G2",
+      "task_id": "T03",
+      "group_id": "G2",
+      "file": "T3-2.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T3-2.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "固定机位（镜头位置与角度不变，无明显运动）",
+      "time_weather_requirement": "阴天、自然漫射光（无直射阳光、柔和均匀光线、可能多云）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "多帧间建筑、庭院、背景元素位置关系无变化，仅亮度逐渐提升，镜头位置与角度固定。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"多帧间建筑、庭院、背景元素位置关系无变化，仅亮度逐渐提升，镜头位置与角度固定。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "天空阴沉，光线柔和均匀，无直射阳光，建筑和庭院色调偏灰暗，符合阴天自然漫射光特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"天空阴沉，光线柔和均匀，无直射阳光，建筑和庭院色调偏灰暗，符合阴天自然漫射光特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T03_G3",
+      "task_id": "T03",
+      "group_id": "G3",
+      "file": "T3-3.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T3-3.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "固定机位（镜头位置与角度不变，无明显运动）",
+      "time_weather_requirement": "阴天、自然漫射光（无直射阳光、柔和均匀光线、可能多云）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "多帧画面中建筑、庭院、天空等元素位置和角度无变化，镜头固定。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"多帧画面中建筑、庭院、天空等元素位置和角度无变化，镜头固定。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "天空布满厚云，光线柔和均匀，无直射阳光，建筑色调自然，符合阴天自然漫射光特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"天空布满厚云，光线柔和均匀，无直射阳光，建筑色调自然，符合阴天自然漫射光特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T03_G4",
+      "task_id": "T03",
+      "group_id": "G4",
+      "file": "T3-4.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T3-4.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "固定机位（镜头位置与角度不变，无明显运动）",
+      "time_weather_requirement": "阴天、自然漫射光（无直射阳光、柔和均匀光线、可能多云）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "多帧画面中建筑各部分（屋顶、拱门、窗户、门牌、地面）的位置、大小、角度均无变化，背景树木位置也固定，表明镜头无移动。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"多帧画面中建筑各部分（屋顶、拱门、窗户、门牌、地面）的位置、大小、角度均无变化，背景树木位置也固定，表明镜头无移动。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "天空阴沉无阳光，光线柔和均匀，建筑阴影不明显，符合阴天自然漫射光特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"天空阴沉无阳光，光线柔和均匀，建筑阴影不明显，符合阴天自然漫射光特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T05_G1",
+      "task_id": "T05",
+      "group_id": "G1",
+      "file": "T5-1.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T5-1.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "高空俯视、缓慢向前移动（俯视角度，镜头缓慢向前推进）",
+      "time_weather_requirement": "白天、自然光（明亮日光、正常白昼光照）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "多帧画面显示村庄、农田、山脉的相对位置持续向前移动，俯视角度不变，符合高空俯视且缓慢向前推进的运动特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"多帧画面显示村庄、农田、山脉的相对位置持续向前移动，俯视角度不变，符合高空俯视且缓慢向前推进的运动特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "画面光线明亮，天空晴朗呈蓝色，整体色调为白昼正常光照下的自然色彩。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"画面光线明亮，天空晴朗呈蓝色，整体色调为白昼正常光照下的自然色彩。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T05_G2",
+      "task_id": "T05",
+      "group_id": "G2",
+      "file": "T5-2.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T5-2.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "高空俯视、缓慢向前移动（俯视角度，镜头缓慢向前推进）",
+      "time_weather_requirement": "白天、自然光（明亮日光、正常白昼光照）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "多帧画面中，村庄、梯田、道路等元素持续向画面下方移动，且移动幅度均匀，符合高空俯视角度下镜头缓慢向前推进的特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"多帧画面中，村庄、梯田、道路等元素持续向画面下方移动，且移动幅度均匀，符合高空俯视角度下镜头缓慢向前推进的特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "画面光线明亮，天空清晰，色调正常，符合白天自然光特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"画面光线明亮，天空清晰，色调正常，符合白天自然光特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T05_G3",
+      "task_id": "T05",
+      "group_id": "G3",
+      "file": "T5-3.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T5-3.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "高空俯视、缓慢向前移动（俯视角度，镜头缓慢向前推进）",
+      "time_weather_requirement": "白天、自然光（明亮日光、正常白昼光照）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "多帧画面中，俯视角度不变，画面整体持续向前推进，背景山脉、土楼、农田等元素均呈现向镜头方向移动的视觉效果，符合缓慢向前移动的俯视镜头运动特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"多帧画面中，俯视角度不变，画面整体持续向前推进，背景山脉、土楼、农田等元素均呈现向镜头方向移动的视觉效果，符合缓慢向前移动的俯视镜头运动特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "画面光线明亮，天空呈浅蓝色，色调正常，符合白天自然光特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"画面光线明亮，天空呈浅蓝色，色调正常，符合白天自然光特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T05_G4",
+      "task_id": "T05",
+      "group_id": "G4",
+      "file": "T5-4.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T5-4.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "高空俯视、缓慢向前移动（俯视角度，镜头缓慢向前推进）",
+      "time_weather_requirement": "白天、自然光（明亮日光、正常白昼光照）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "镜头从高空俯视角度，多帧间画面持续向前推进，前景建筑逐渐放大，背景视野逐渐收窄，符合缓慢向前移动的俯视镜头运动特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"镜头从高空俯视角度，多帧间画面持续向前推进，前景建筑逐渐放大，背景视野逐渐收窄，符合缓慢向前移动的俯视镜头运动特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "画面光线明亮，天空清晰，色调自然，符合白天自然光特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"画面光线明亮，天空清晰，色调自然，符合白天自然光特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T08_G1",
+      "task_id": "T08",
+      "group_id": "G1",
+      "file": "T8-1.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T8-1.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "向上摇摄（镜头自下而上缓慢摇动）",
+      "time_weather_requirement": "白天、自然光（明亮日光、正常白昼光照）",
+      "cma": {
+        "verdict": "No",
+        "evidence": "镜头持续向前移动，画面中体育场及背景工业设施逐渐向画面中心靠拢，呈现明显的推近效果，而非向上摇摄。",
+        "uncertain_reason": null,
+        "raw_response": "{\"verdict\":\"No\",\"evidence\":\"镜头持续向前移动，画面中体育场及背景工业设施逐渐向画面中心靠拢，呈现明显的推近效果，而非向上摇摄。\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "画面光线明亮，天空晴朗有白云，整体色调为白昼正常光照下的色彩。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"画面光线明亮，天空晴朗有白云，整体色调为白昼正常光照下的色彩。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T08_G2",
+      "task_id": "T08",
+      "group_id": "G2",
+      "file": "T8-2.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T8-2.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "向上摇摄（镜头自下而上缓慢摇动）",
+      "time_weather_requirement": "白天、自然光（明亮日光、正常白昼光照）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "镜头从低角度逐渐抬高，建筑底部逐渐缩小，顶部和背景工业设施逐渐显现，符合向上摇摄特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"镜头从低角度逐渐抬高，建筑底部逐渐缩小，顶部和背景工业设施逐渐显现，符合向上摇摄特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "画面光线明亮，天空晴朗呈淡蓝色，建筑和地面有清晰阴影，符合白天自然光特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"画面光线明亮，天空晴朗呈淡蓝色，建筑和地面有清晰阴影，符合白天自然光特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T08_G3",
+      "task_id": "T08",
+      "group_id": "G3",
+      "file": "T8-3.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T8-3.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "向上摇摄（镜头自下而上缓慢摇动）",
+      "time_weather_requirement": "白天、自然光（明亮日光、正常白昼光照）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "镜头从下往上移动，逐渐展现滑梯顶端结构，符合向上摇摄特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"镜头从下往上移动，逐渐展现滑梯顶端结构，符合向上摇摄特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "画面光线明亮，阴影清晰，天空呈浅蓝色，整体色调为白昼正常日光下的暖色调，符合白天自然光特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"画面光线明亮，阴影清晰，天空呈浅蓝色，整体色调为白昼正常日光下的暖色调，符合白天自然光特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T08_G4",
+      "task_id": "T08",
+      "group_id": "G4",
+      "file": "T8-4.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T8-4.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "向上摇摄（镜头自下而上缓慢摇动）",
+      "time_weather_requirement": "白天、自然光（明亮日光、正常白昼光照）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "镜头从下往上移动，画面中滑雪跳台、工业设施及远景建筑逐渐向上呈现，符合向上摇摄特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"镜头从下往上移动，画面中滑雪跳台、工业设施及远景建筑逐渐向上呈现，符合向上摇摄特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "画面光线明亮，天空呈浅灰色，色调正常，符合白天自然光特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"画面光线明亮，天空呈浅灰色，色调正常，符合白天自然光特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T09_G1",
+      "task_id": "T09",
+      "group_id": "G1",
+      "file": "T9-1.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T9-1.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "缓慢水平平移（镜头沿水平方向缓慢移动）",
+      "time_weather_requirement": "夜晚、城市灯光（黑暗天空、建筑灯光/霓虹点亮）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "画面中建筑群相对位置持续向左移动，符合水平平移特征，且移动速度缓慢。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"画面中建筑群相对位置持续向左移动，符合水平平移特征，且移动速度缓慢。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "No",
+        "evidence": "天空明亮呈淡蓝/橙黄渐变，建筑灯光未点亮，光线为自然日光，显示为黄昏或清晨而非夜晚。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"No\",\"evidence\":\"天空明亮呈淡蓝/橙黄渐变，建筑灯光未点亮，光线为自然日光，显示为黄昏或清晨而非夜晚。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T09_G2",
+      "task_id": "T09",
+      "group_id": "G2",
+      "file": "T9-2.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T9-2.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "缓慢水平平移（镜头沿水平方向缓慢移动）",
+      "time_weather_requirement": "夜晚、城市灯光（黑暗天空、建筑灯光/霓虹点亮）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "画面中建筑相对位置持续变化，显示镜头沿水平方向缓慢移动",
+        "uncertain_reason": null,
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"画面中建筑相对位置持续变化，显示镜头沿水平方向缓慢移动\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "No",
+        "evidence": "天空明亮呈粉橙色，建筑灯光未点亮，光线为自然日光，呈现黄昏或日出景象，非夜晚。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"No\",\"evidence\":\"天空明亮呈粉橙色，建筑灯光未点亮，光线为自然日光，呈现黄昏或日出景象，非夜晚。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T09_G3",
+      "task_id": "T09",
+      "group_id": "G3",
+      "file": "T9-3.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T9-3.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "缓慢水平平移（镜头沿水平方向缓慢移动）",
+      "time_weather_requirement": "夜晚、城市灯光（黑暗天空、建筑灯光/霓虹点亮）",
+      "cma": {
+        "verdict": "Yes",
+        "evidence": "画面中建筑群相对位置持续向左移动，符合水平平移特征，且移动速度缓慢。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"画面中建筑群相对位置持续向左移动，符合水平平移特征，且移动速度缓慢。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "No",
+        "evidence": "天空明亮呈蓝粉渐变，建筑无灯光，光线柔和，为黄昏/日出而非夜晚。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"No\",\"evidence\":\"天空明亮呈蓝粉渐变，建筑无灯光，光线柔和，为黄昏/日出而非夜晚。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    },
+    {
+      "video_id": "T09_G4",
+      "task_id": "T09",
+      "group_id": "G4",
+      "file": "T9-4.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T9-4.mp4",
+      "prompt_specified": {
+        "camera": "yes",
+        "time": "yes"
+      },
+      "camera_requirement": "缓慢水平平移（镜头沿水平方向缓慢移动）",
+      "time_weather_requirement": "夜晚、城市灯光（黑暗天空、建筑灯光/霓虹点亮）",
+      "cma": {
+        "verdict": "No",
+        "evidence": "画面中建筑位置、角度及天空云层均无水平方向移动变化，镜头固定未平移",
+        "uncertain_reason": null,
+        "raw_response": "{\"verdict\":\"No\",\"evidence\":\"画面中建筑位置、角度及天空云层均无水平方向移动变化，镜头固定未平移\"}",
+        "parse_ok": true
+      },
+      "twa": {
+        "verdict": "Yes",
+        "evidence": "天空呈深蓝色，建筑灯光和霓虹已点亮，光线符合夜晚城市特征。",
+        "uncertain_reason": "",
+        "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"天空呈深蓝色，建筑灯光和霓虹已点亮，光线符合夜晚城市特征。\",\"uncertain_reason\":\"\"}",
+        "parse_ok": true
+      }
+    }
+  ],
+  "group_summary": [
+    {
+      "group_id": "G1",
+      "n": 5,
+      "cma": {
+        "Yes": 4,
+        "No": 1
+      },
+      "cma_satisfaction_rate": 0.8,
+      "twa": {
+        "Yes": 4,
+        "No": 1
+      },
+      "twa_satisfaction_rate": 0.8,
+      "avg_satisfaction_rate": 0.8
+    },
+    {
+      "group_id": "G2",
+      "n": 5,
+      "cma": {
+        "Yes": 5
+      },
+      "cma_satisfaction_rate": 1.0,
+      "twa": {
+        "Yes": 4,
+        "No": 1
+      },
+      "twa_satisfaction_rate": 0.8,
+      "avg_satisfaction_rate": 0.9
+    },
+    {
+      "group_id": "G3",
+      "n": 5,
+      "cma": {
+        "Yes": 5
+      },
+      "cma_satisfaction_rate": 1.0,
+      "twa": {
+        "Yes": 4,
+        "No": 1
+      },
+      "twa_satisfaction_rate": 0.8,
+      "avg_satisfaction_rate": 0.9
+    },
+    {
+      "group_id": "G4",
+      "n": 5,
+      "cma": {
+        "Yes": 4,
+        "No": 1
+      },
+      "cma_satisfaction_rate": 0.8,
+      "twa": {
+        "Yes": 5
+      },
+      "twa_satisfaction_rate": 1.0,
+      "avg_satisfaction_rate": 0.9
+    }
+  ],
+  "task_summary": [
+    {
+      "task_id": "T02",
+      "n": 4,
+      "cma": {
+        "Yes": 4
+      },
+      "cma_satisfaction_rate": 1.0,
+      "twa": {
+        "Yes": 4
+      },
+      "twa_satisfaction_rate": 1.0,
+      "avg_satisfaction_rate": 1.0
+    },
+    {
+      "task_id": "T03",
+      "n": 4,
+      "cma": {
+        "Yes": 4
+      },
+      "cma_satisfaction_rate": 1.0,
+      "twa": {
+        "Yes": 4
+      },
+      "twa_satisfaction_rate": 1.0,
+      "avg_satisfaction_rate": 1.0
+    },
+    {
+      "task_id": "T05",
+      "n": 4,
+      "cma": {
+        "Yes": 4
+      },
+      "cma_satisfaction_rate": 1.0,
+      "twa": {
+        "Yes": 4
+      },
+      "twa_satisfaction_rate": 1.0,
+      "avg_satisfaction_rate": 1.0
+    },
+    {
+      "task_id": "T08",
+      "n": 4,
+      "cma": {
+        "No": 1,
+        "Yes": 3
+      },
+      "cma_satisfaction_rate": 0.75,
+      "twa": {
+        "Yes": 4
+      },
+      "twa_satisfaction_rate": 1.0,
+      "avg_satisfaction_rate": 0.875
+    },
+    {
+      "task_id": "T09",
+      "n": 4,
+      "cma": {
+        "Yes": 3,
+        "No": 1
+      },
+      "cma_satisfaction_rate": 0.75,
+      "twa": {
+        "No": 3,
+        "Yes": 1
+      },
+      "twa_satisfaction_rate": 0.25,
+      "avg_satisfaction_rate": 0.5
+    }
+  ],
+  "overall_summary": {
+    "n": 20,
+    "cma": {
+      "Yes": 18,
+      "No": 2
+    },
+    "cma_satisfaction_rate": 0.9,
+    "twa": {
+      "Yes": 17,
+      "No": 3
+    },
+    "twa_satisfaction_rate": 0.85,
+    "avg_satisfaction_rate": 0.875
+  }
+}

@@ -1,0 +1,1122 @@
+Completed: 4 /60 model annotations
+--- 使用 GLM-4 API 模式 ---
+--- GLM-4 API 配置已就绪 ---
+--- 使用 GLM-4 API 模式 ---
+--- GLM-4 API 配置已就绪 ---
+RUN cbd2/free
+--- 使用 GLM-4 API 模式 ---
+--- GLM-4 API 配置已就绪 ---
+RUN cbd3/free
+RUN 中关村1号/free
+--- 使用 GLM-4 API 处理视频: 中关村1号.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 中关村1号.mp4 ---
+--- 视频文件大小: 92.76 MB ---
+--- Base64编码后大小: 126643.60 KB ---
+--- 使用 GLM-4 API 处理视频: cbd3.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: cbd3.mp4 ---
+--- 使用 GLM-4 API 处理视频: cbd2.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: cbd2.mp4 ---
+--- 提示词长度: 3599 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- 视频文件大小: 18.14 MB ---
+--- Base64编码后大小: 24773.68 KB ---
+--- 提示词长度: 3591 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- 视频文件大小: 30.13 MB ---
+--- Base64编码后大小: 41131.81 KB ---
+--- 提示词长度: 3593 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 4 /60 model annotations
+Completed: 4 /60 model annotations
+Completed: 4 /60 model annotations
+Completed: 4 /60 model annotations
+Completed: 4 /60 model annotations
+Completed: 4 /60 model annotations
+Completed: 4 /60 model annotations
+Completed: 4 /60 model annotations
+Completed: 4 /60 model annotations
+Completed: 4 /60 model annotations
+Completed: 4 /60 model annotations
+Completed: 4 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN cbd2/text
+--- 使用 GLM-4 API 处理视频: cbd2.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: cbd2.mp4 ---
+--- 视频文件大小: 18.14 MB ---
+--- Base64编码后大小: 24773.68 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+RUN cbd3/text
+--- 使用 GLM-4 API 处理视频: cbd3.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: cbd3.mp4 ---
+--- 视频文件大小: 30.13 MB ---
+--- Base64编码后大小: 41131.81 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 6 /60 model annotations
+Completed: 6 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 中关村1号/text
+--- 使用 GLM-4 API 处理视频: 中关村1号.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 中关村1号.mp4 ---
+--- 视频文件大小: 92.76 MB ---
+--- Base64编码后大小: 126643.60 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: cbd3.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: cbd3.mp4 ---
+--- 视频文件大小: 30.13 MB ---
+--- Base64编码后大小: 41131.81 KB ---
+--- 提示词长度: 3593 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: cbd2.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: cbd2.mp4 ---
+--- 视频文件大小: 18.14 MB ---
+--- Base64编码后大小: 24773.68 KB ---
+--- 提示词长度: 4010 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 7 /60 model annotations
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 中关村1号.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 中关村1号.mp4 ---
+--- 视频文件大小: 92.76 MB ---
+--- Base64编码后大小: 126643.60 KB ---
+--- 提示词长度: 4166 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+Completed: 7 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 中关村展示中心/free
+--- 使用 GLM-4 API 处理视频: 中关村展示中心.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 中关村展示中心.mp4 ---
+--- 视频文件大小: 6.58 MB ---
+--- Base64编码后大小: 8981.78 KB ---
+--- 提示词长度: 3592 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 8 /60 model annotations
+Completed: 8 /60 model annotations
+Completed: 8 /60 model annotations
+Completed: 8 /60 model annotations
+Completed: 8 /60 model annotations
+Completed: 8 /60 model annotations
+Completed: 8 /60 model annotations
+Completed: 8 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 中关村国际创新中心/free
+--- 使用 GLM-4 API 处理视频: 中关村国际创新中心.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 中关村国际创新中心.mp4 ---
+--- 视频文件大小: 20.35 MB ---
+--- Base64编码后大小: 27777.71 KB ---
+--- 提示词长度: 3595 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 9 /60 model annotations
+Completed: 9 /60 model annotations
+Completed: 9 /60 model annotations
+Completed: 9 /60 model annotations
+Completed: 9 /60 model annotations
+Completed: 9 /60 model annotations
+Completed: 9 /60 model annotations
+--- GLM-4 API 调用完成 ---
+Completed: 9 /60 model annotations
+RUN 中关村展示中心/text
+--- 使用 GLM-4 API 处理视频: 中关村展示中心.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 中关村展示中心.mp4 ---
+--- 视频文件大小: 6.58 MB ---
+--- Base64编码后大小: 8981.78 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 10 /60 model annotations
+Completed: 10 /60 model annotations
+Completed: 10 /60 model annotations
+Completed: 10 /60 model annotations
+Completed: 10 /60 model annotations
+Completed: 10 /60 model annotations
+Completed: 10 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 京剧青衣/free
+--- 使用 GLM-4 API 处理视频: 京剧青衣.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 京剧青衣.mp4 ---
+--- 视频文件大小: 4.44 MB ---
+--- Base64编码后大小: 6056.19 KB ---
+--- 提示词长度: 3591 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 中关村展示中心.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 中关村展示中心.mp4 ---
+--- 视频文件大小: 6.58 MB ---
+--- Base64编码后大小: 8981.78 KB ---
+--- 提示词长度: 3839 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 11 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 中关村国际创新中心/text
+--- 使用 GLM-4 API 处理视频: 中关村国际创新中心.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 中关村国际创新中心.mp4 ---
+--- 视频文件大小: 20.35 MB ---
+--- Base64编码后大小: 27777.71 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 12 /60 model annotations
+Completed: 12 /60 model annotations
+Completed: 12 /60 model annotations
+Completed: 12 /60 model annotations
+Completed: 12 /60 model annotations
+Completed: 12 /60 model annotations
+Completed: 12 /60 model annotations
+Completed: 12 /60 model annotations
+Completed: 12 /60 model annotations
+Completed: 12 /60 model annotations
+Completed: 12 /60 model annotations
+Completed: 12 /60 model annotations
+Completed: 12 /60 model annotations
+Completed: 12 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 京剧青衣/text
+--- 使用 GLM-4 API 处理视频: 京剧青衣.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 京剧青衣.mp4 ---
+--- 视频文件大小: 4.44 MB ---
+--- Base64编码后大小: 6056.19 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+RUN 人民大会堂1/free
+--- 使用 GLM-4 API 处理视频: 人民大会堂1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 人民大会堂1.mp4 ---
+--- 视频文件大小: 18.54 MB ---
+--- Base64编码后大小: 25313.53 KB ---
+--- 提示词长度: 3595 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 中关村国际创新中心.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 中关村国际创新中心.mp4 ---
+--- 视频文件大小: 20.35 MB ---
+--- Base64编码后大小: 27777.71 KB ---
+--- 提示词长度: 4076 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 14 /60 model annotations
+Completed: 14 /60 model annotations
+Completed: 14 /60 model annotations
+Completed: 14 /60 model annotations
+Completed: 14 /60 model annotations
+Completed: 14 /60 model annotations
+Completed: 14 /60 model annotations
+Completed: 14 /60 model annotations
+Completed: 14 /60 model annotations
+Completed: 14 /60 model annotations
+Completed: 14 /60 model annotations
+Completed: 14 /60 model annotations
+Completed: 14 /60 model annotations
+Completed: 14 /60 model annotations
+Completed: 14 /60 model annotations
+Completed: 14 /60 model annotations
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 京剧青衣.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 京剧青衣.mp4 ---
+--- 视频文件大小: 4.44 MB ---
+--- Base64编码后大小: 6056.19 KB ---
+--- 提示词长度: 3591 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 14 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 人民大会堂1/text
+--- 使用 GLM-4 API 处理视频: 人民大会堂1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 人民大会堂1.mp4 ---
+--- 视频文件大小: 18.54 MB ---
+--- Base64编码后大小: 25313.53 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+RUN 人民大会堂/free
+--- 使用 GLM-4 API 处理视频: 人民大会堂.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 人民大会堂.mp4 ---
+--- 视频文件大小: 16.42 MB ---
+--- Base64编码后大小: 22421.13 KB ---
+--- 提示词长度: 3595 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 16 /60 model annotations
+Completed: 16 /60 model annotations
+Completed: 16 /60 model annotations
+Completed: 16 /60 model annotations
+Completed: 16 /60 model annotations
+Completed: 16 /60 model annotations
+Completed: 16 /60 model annotations
+Completed: 16 /60 model annotations
+Completed: 16 /60 model annotations
+Completed: 16 /60 model annotations
+Completed: 16 /60 model annotations
+Completed: 16 /60 model annotations
+Completed: 16 /60 model annotations
+Completed: 16 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 人民英雄纪念碑/free
+--- 使用 GLM-4 API 处理视频: 人民英雄纪念碑.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 人民英雄纪念碑.mp4 ---
+--- 视频文件大小: 10.28 MB ---
+--- Base64编码后大小: 14030.34 KB ---
+--- 提示词长度: 3590 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 17 /60 model annotations
+Completed: 17 /60 model annotations
+--- GLM-4 API 调用完成 ---
+--- GLM-4 API 调用完成 ---
+RUN 人民大会堂/text
+--- 使用 GLM-4 API 处理视频: 人民大会堂1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 人民大会堂1.mp4 ---
+--- 视频文件大小: 18.54 MB ---
+--- Base64编码后大小: 25313.53 KB ---
+--- 提示词长度: 3832 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- 使用 GLM-4 API 处理视频: 人民大会堂.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 人民大会堂.mp4 ---
+--- 视频文件大小: 16.42 MB ---
+--- Base64编码后大小: 22421.13 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 18 /60 model annotations
+Completed: 18 /60 model annotations
+Completed: 18 /60 model annotations
+Completed: 18 /60 model annotations
+Completed: 18 /60 model annotations
+Completed: 18 /60 model annotations
+Completed: 18 /60 model annotations
+Completed: 18 /60 model annotations
+Completed: 18 /60 model annotations
+Completed: 18 /60 model annotations
+Completed: 18 /60 model annotations
+Completed: 18 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 兔爷/free
+--- 使用 GLM-4 API 处理视频: 兔爷.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 兔爷.mp4 ---
+--- 视频文件大小: 1.58 MB ---
+--- Base64编码后大小: 2155.22 KB ---
+--- 提示词长度: 3592 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 人民大会堂.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 人民大会堂.mp4 ---
+--- 视频文件大小: 16.42 MB ---
+--- Base64编码后大小: 22421.13 KB ---
+--- 提示词长度: 3595 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+RUN 人民英雄纪念碑/text
+Completed: 19 /60 model annotations
+--- 使用 GLM-4 API 处理视频: 人民英雄纪念碑.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 人民英雄纪念碑.mp4 ---
+--- 视频文件大小: 10.28 MB ---
+--- Base64编码后大小: 14030.34 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 20 /60 model annotations
+Completed: 20 /60 model annotations
+Completed: 20 /60 model annotations
+Completed: 20 /60 model annotations
+Completed: 20 /60 model annotations
+Completed: 20 /60 model annotations
+Completed: 20 /60 model annotations
+Completed: 20 /60 model annotations
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 人民英雄纪念碑.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 人民英雄纪念碑.mp4 ---
+--- 视频文件大小: 10.28 MB ---
+--- Base64编码后大小: 14030.34 KB ---
+--- 提示词长度: 3827 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 20 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 兔爷/text
+--- 使用 GLM-4 API 处理视频: 兔爷.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 兔爷.mp4 ---
+--- 视频文件大小: 1.58 MB ---
+--- Base64编码后大小: 2155.22 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 21 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 人民英雄纪念碑1/free
+--- 使用 GLM-4 API 处理视频: 人民英雄纪念碑1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 人民英雄纪念碑1.mp4 ---
+--- 视频文件大小: 15.18 MB ---
+--- Base64编码后大小: 20732.43 KB ---
+--- 提示词长度: 3591 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 22 /60 model annotations
+Completed: 22 /60 model annotations
+Completed: 22 /60 model annotations
+Completed: 22 /60 model annotations
+Completed: 22 /60 model annotations
+Completed: 22 /60 model annotations
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 兔爷.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 兔爷.mp4 ---
+--- 视频文件大小: 1.58 MB ---
+--- Base64编码后大小: 2155.22 KB ---
+--- 提示词长度: 3824 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 22 /60 model annotations
+Completed: 22 /60 model annotations
+Completed: 22 /60 model annotations
+Completed: 22 /60 model annotations
+Completed: 22 /60 model annotations
+Completed: 22 /60 model annotations
+Completed: 22 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 北大/free
+--- 使用 GLM-4 API 处理视频: 北大.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 北大.mp4 ---
+--- 视频文件大小: 5.63 MB ---
+--- Base64编码后大小: 7681.98 KB ---
+--- 提示词长度: 3591 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 23 /60 model annotations
+Completed: 23 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 国博/free
+--- 使用 GLM-4 API 处理视频: 国博.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 国博.mp4 ---
+--- 视频文件大小: 16.33 MB ---
+--- Base64编码后大小: 22301.66 KB ---
+--- 提示词长度: 3595 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 24 /60 model annotations
+Completed: 24 /60 model annotations
+Completed: 24 /60 model annotations
+Completed: 24 /60 model annotations
+Completed: 24 /60 model annotations
+Completed: 24 /60 model annotations
+Completed: 24 /60 model annotations
+Completed: 24 /60 model annotations
+Completed: 24 /60 model annotations
+Completed: 24 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 北大/text
+--- 使用 GLM-4 API 处理视频: 北大.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 北大.mp4 ---
+--- 视频文件大小: 5.63 MB ---
+--- Base64编码后大小: 7681.98 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 25 /60 model annotations
+Completed: 25 /60 model annotations
+Completed: 25 /60 model annotations
+Completed: 25 /60 model annotations
+Completed: 25 /60 model annotations
+Completed: 25 /60 model annotations
+Completed: 25 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 国博/text
+--- 使用 GLM-4 API 处理视频: 国博.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 国博.mp4 ---
+--- 视频文件大小: 16.33 MB ---
+--- Base64编码后大小: 22301.66 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 26 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 人民英雄纪念碑1/text
+--- 使用 GLM-4 API 处理视频: 人民英雄纪念碑1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 人民英雄纪念碑1.mp4 ---
+--- 视频文件大小: 15.18 MB ---
+--- Base64编码后大小: 20732.43 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 北大.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 北大.mp4 ---
+--- 视频文件大小: 5.63 MB ---
+--- Base64编码后大小: 7681.98 KB ---
+--- 提示词长度: 3826 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 26 /60 model annotations
+Completed: 26 /60 model annotations
+Completed: 26 /60 model annotations
+Completed: 26 /60 model annotations
+Completed: 26 /60 model annotations
+Completed: 26 /60 model annotations
+Completed: 26 /60 model annotations
+Completed: 26 /60 model annotations
+--- GLM-4 API 调用完成 ---
+Completed: 26 /60 model annotations
+--- 使用 GLM-4 API 处理视频: 国博.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 国博.mp4 ---
+--- 视频文件大小: 16.33 MB ---
+--- Base64编码后大小: 22301.66 KB ---
+--- 提示词长度: 3844 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 人民英雄纪念碑1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 人民英雄纪念碑1.mp4 ---
+--- 视频文件大小: 15.18 MB ---
+--- Base64编码后大小: 20732.43 KB ---
+--- 提示词长度: 3920 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 26 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 天安门/free
+--- 使用 GLM-4 API 处理视频: 天安门.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 天安门.mp4 ---
+--- 视频文件大小: 7.56 MB ---
+--- Base64编码后大小: 10315.85 KB ---
+--- 提示词长度: 3593 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 27 /60 model annotations
+Completed: 27 /60 model annotations
+Completed: 27 /60 model annotations
+Completed: 27 /60 model annotations
+Completed: 27 /60 model annotations
+Completed: 27 /60 model annotations
+Completed: 27 /60 model annotations
+Completed: 27 /60 model annotations
+Completed: 27 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 太和殿/free
+--- 使用 GLM-4 API 处理视频: 太和殿.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 太和殿.mp4 ---
+--- 视频文件大小: 13.26 MB ---
+--- Base64编码后大小: 18110.81 KB ---
+--- 提示词长度: 3591 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 28 /60 model annotations
+Completed: 28 /60 model annotations
+Completed: 28 /60 model annotations
+Completed: 28 /60 model annotations
+Completed: 28 /60 model annotations
+Completed: 28 /60 model annotations
+Completed: 28 /60 model annotations
+Completed: 28 /60 model annotations
+Completed: 28 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 北大1/free
+--- 使用 GLM-4 API 处理视频: 北大1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 北大1.mp4 ---
+--- 视频文件大小: 9.79 MB ---
+--- Base64编码后大小: 13364.84 KB ---
+--- 提示词长度: 3591 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 29 /60 model annotations
+Completed: 29 /60 model annotations
+Completed: 29 /60 model annotations
+Completed: 29 /60 model annotations
+Completed: 29 /60 model annotations
+Completed: 29 /60 model annotations
+Completed: 29 /60 model annotations
+Completed: 29 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 天安门/text
+--- 使用 GLM-4 API 处理视频: 天安门.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 天安门.mp4 ---
+--- 视频文件大小: 7.56 MB ---
+--- Base64编码后大小: 10315.85 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 30 /60 model annotations
+Completed: 30 /60 model annotations
+Completed: 30 /60 model annotations
+Completed: 30 /60 model annotations
+Completed: 30 /60 model annotations
+Completed: 30 /60 model annotations
+Completed: 30 /60 model annotations
+Completed: 30 /60 model annotations
+Completed: 30 /60 model annotations
+Completed: 30 /60 model annotations
+Completed: 30 /60 model annotations
+Completed: 30 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 太和殿/text
+--- 使用 GLM-4 API 处理视频: 太和殿.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 太和殿.mp4 ---
+--- 视频文件大小: 13.26 MB ---
+--- Base64编码后大小: 18110.81 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+Completed: 31 /60 model annotations
+--- 使用 GLM-4 API 处理视频: 天安门.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 天安门.mp4 ---
+--- 视频文件大小: 7.56 MB ---
+--- Base64编码后大小: 10315.85 KB ---
+--- 提示词长度: 3593 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+RUN 北大1/text
+--- 使用 GLM-4 API 处理视频: 北大1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 北大1.mp4 ---
+--- 视频文件大小: 9.79 MB ---
+--- Base64编码后大小: 13364.84 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 32 /60 model annotations
+Completed: 32 /60 model annotations
+Completed: 32 /60 model annotations
+Completed: 32 /60 model annotations
+Completed: 32 /60 model annotations
+Completed: 32 /60 model annotations
+Completed: 32 /60 model annotations
+Completed: 32 /60 model annotations
+Completed: 32 /60 model annotations
+Completed: 32 /60 model annotations
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 太和殿.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 太和殿.mp4 ---
+--- 视频文件大小: 13.26 MB ---
+--- Base64编码后大小: 18110.81 KB ---
+--- 提示词长度: 3832 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 北大1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 北大1.mp4 ---
+--- 视频文件大小: 9.79 MB ---
+--- Base64编码后大小: 13364.84 KB ---
+--- 提示词长度: 3824 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+RUN 庙会/free
+--- 使用 GLM-4 API 处理视频: 庙会.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 庙会.mp4 ---
+--- 视频文件大小: 4.37 MB ---
+--- Base64编码后大小: 5961.09 KB ---
+--- 提示词长度: 3592 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 33 /60 model annotations
+Completed: 33 /60 model annotations
+Completed: 33 /60 model annotations
+Completed: 33 /60 model annotations
+Completed: 33 /60 model annotations
+Completed: 33 /60 model annotations
+Completed: 33 /60 model annotations
+Completed: 33 /60 model annotations
+Completed: 33 /60 model annotations
+Completed: 33 /60 model annotations
+Completed: 33 /60 model annotations
+Completed: 33 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 天安门1/free
+--- 使用 GLM-4 API 处理视频: 天安门1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 天安门1.mp4 ---
+--- 视频文件大小: 7.91 MB ---
+--- Base64编码后大小: 10800.19 KB ---
+--- 提示词长度: 3593 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 34 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 庙会/text
+--- 使用 GLM-4 API 处理视频: 庙会.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 庙会.mp4 ---
+--- 视频文件大小: 4.37 MB ---
+--- Base64编码后大小: 5961.09 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+RUN 故宫全景/free
+--- 使用 GLM-4 API 处理视频: 故宫全景.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 故宫全景.mp4 ---
+--- 视频文件大小: 6.02 MB ---
+--- Base64编码后大小: 8223.33 KB ---
+--- 提示词长度: 3594 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 庙会.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 庙会.mp4 ---
+--- 视频文件大小: 4.37 MB ---
+--- Base64编码后大小: 5961.09 KB ---
+--- 提示词长度: 3592 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+Completed: 36 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 故宫全景/text
+--- 使用 GLM-4 API 处理视频: 故宫全景.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 故宫全景.mp4 ---
+--- 视频文件大小: 6.02 MB ---
+--- Base64编码后大小: 8223.33 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+RUN 天安门1/text
+--- 使用 GLM-4 API 处理视频: 天安门1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 天安门1.mp4 ---
+--- 视频文件大小: 7.91 MB ---
+--- Base64编码后大小: 10800.19 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 38 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 未来科学城/free
+Completed: 39 /60 model annotations
+--- 使用 GLM-4 API 处理视频: 未来科学城.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 未来科学城.mp4 ---
+--- 视频文件大小: 11.64 MB ---
+--- Base64编码后大小: 15897.91 KB ---
+--- 提示词长度: 3589 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 39 /60 model annotations
+Completed: 39 /60 model annotations
+Completed: 39 /60 model annotations
+Completed: 39 /60 model annotations
+Completed: 39 /60 model annotations
+Completed: 39 /60 model annotations
+Completed: 39 /60 model annotations
+Completed: 39 /60 model annotations
+Completed: 39 /60 model annotations
+Completed: 39 /60 model annotations
+--- GLM-4 API 调用完成 ---
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 故宫全景.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 故宫全景.mp4 ---
+--- 视频文件大小: 6.02 MB ---
+--- Base64编码后大小: 8223.33 KB ---
+--- 提示词长度: 4061 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- 使用 GLM-4 API 处理视频: 天安门1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 天安门1.mp4 ---
+--- 视频文件大小: 7.91 MB ---
+--- Base64编码后大小: 10800.19 KB ---
+--- 提示词长度: 3830 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 39 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 未来科学城/text
+--- 使用 GLM-4 API 处理视频: 未来科学城.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 未来科学城.mp4 ---
+--- 视频文件大小: 11.64 MB ---
+--- Base64编码后大小: 15897.91 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 40 /60 model annotations
+Completed: 40 /60 model annotations
+Completed: 40 /60 model annotations
+Completed: 40 /60 model annotations
+Completed: 40 /60 model annotations
+Completed: 40 /60 model annotations
+Completed: 40 /60 model annotations
+Completed: 40 /60 model annotations
+--- GLM-4 API 调用完成 ---
+--- GLM-4 API 调用完成 ---
+RUN 糖葫芦/free
+--- GLM-4 API 调用完成 ---
+RUN 故宫/free
+--- 使用 GLM-4 API 处理视频: 糖葫芦.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 糖葫芦.mp4 ---
+--- 视频文件大小: 1.15 MB ---
+--- Base64编码后大小: 1570.60 KB ---
+--- 提示词长度: 3593 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 42 /60 model annotations
+--- 使用 GLM-4 API 处理视频: 故宫.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 故宫.mp4 ---
+--- 视频文件大小: 8.82 MB ---
+--- Base64编码后大小: 12039.91 KB ---
+--- 提示词长度: 3590 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- 使用 GLM-4 API 处理视频: 未来科学城.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 未来科学城.mp4 ---
+--- 视频文件大小: 11.64 MB ---
+--- Base64编码后大小: 15897.91 KB ---
+--- 提示词长度: 3589 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 42 /60 model annotations
+Completed: 42 /60 model annotations
+Completed: 42 /60 model annotations
+Completed: 42 /60 model annotations
+Completed: 42 /60 model annotations
+Completed: 42 /60 model annotations
+Completed: 42 /60 model annotations
+Completed: 42 /60 model annotations
+Completed: 42 /60 model annotations
+Completed: 42 /60 model annotations
+Completed: 42 /60 model annotations
+Completed: 42 /60 model annotations
+Completed: 42 /60 model annotations
+Completed: 42 /60 model annotations
+Completed: 42 /60 model annotations
+Completed: 42 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 糖葫芦/text
+--- 使用 GLM-4 API 处理视频: 糖葫芦.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 糖葫芦.mp4 ---
+--- 视频文件大小: 1.15 MB ---
+--- Base64编码后大小: 1570.60 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+RUN 故宫/text
+--- GLM-4 API 调用完成 ---
+RUN 胡同/free
+--- 使用 GLM-4 API 处理视频: 故宫.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 故宫.mp4 ---
+--- 视频文件大小: 8.82 MB ---
+--- Base64编码后大小: 12039.91 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- 使用 GLM-4 API 处理视频: 胡同.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 胡同.mp4 ---
+--- 视频文件大小: 2.49 MB ---
+--- Base64编码后大小: 3402.48 KB ---
+--- 提示词长度: 3590 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 45 /60 model annotations
+Completed: 45 /60 model annotations
+Completed: 45 /60 model annotations
+Completed: 45 /60 model annotations
+Completed: 45 /60 model annotations
+Completed: 45 /60 model annotations
+Completed: 45 /60 model annotations
+Completed: 45 /60 model annotations
+Completed: 45 /60 model annotations
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 故宫.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 故宫.mp4 ---
+--- 视频文件大小: 8.82 MB ---
+--- Base64编码后大小: 12039.91 KB ---
+--- 提示词长度: 3868 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 糖葫芦.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 糖葫芦.mp4 ---
+--- 视频文件大小: 1.15 MB ---
+--- Base64编码后大小: 1570.60 KB ---
+--- 提示词长度: 3593 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 45 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 胡同/text
+--- 使用 GLM-4 API 处理视频: 胡同.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 胡同.mp4 ---
+--- 视频文件大小: 2.49 MB ---
+--- Base64编码后大小: 3402.48 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 46 /60 model annotations
+Completed: 46 /60 model annotations
+Completed: 46 /60 model annotations
+Completed: 46 /60 model annotations
+Completed: 46 /60 model annotations
+--- GLM-4 API 调用完成 ---
+Completed: 46 /60 model annotations
+--- 使用 GLM-4 API 处理视频: 胡同.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 胡同.mp4 ---
+--- 视频文件大小: 2.49 MB ---
+--- Base64编码后大小: 3402.48 KB ---
+--- 提示词长度: 3590 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+RUN 角楼/free
+--- 使用 GLM-4 API 处理视频: 角楼.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 角楼.mp4 ---
+--- 视频文件大小: 17.08 MB ---
+--- Base64编码后大小: 23316.74 KB ---
+--- 提示词长度: 3595 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 47 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 清华/free
+--- 使用 GLM-4 API 处理视频: 清华.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 清华.mp4 ---
+--- 视频文件大小: 69.28 MB ---
+--- Base64编码后大小: 94585.48 KB ---
+--- 提示词长度: 3594 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 48 /60 model annotations
+Completed: 48 /60 model annotations
+Completed: 48 /60 model annotations
+Completed: 48 /60 model annotations
+Completed: 48 /60 model annotations
+Completed: 48 /60 model annotations
+Completed: 48 /60 model annotations
+Completed: 48 /60 model annotations
+Completed: 48 /60 model annotations
+Completed: 48 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 角楼1/free
+--- 使用 GLM-4 API 处理视频: 角楼1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 角楼1.mp4 ---
+--- 视频文件大小: 11.93 MB ---
+--- Base64编码后大小: 16291.92 KB ---
+--- 提示词长度: 3594 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 49 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 角楼/text
+--- 使用 GLM-4 API 处理视频: 角楼.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 角楼.mp4 ---
+--- 视频文件大小: 17.08 MB ---
+--- Base64编码后大小: 23316.74 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+Completed: 50 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 角楼1/text
+--- 使用 GLM-4 API 处理视频: 角楼1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 角楼1.mp4 ---
+--- 视频文件大小: 11.93 MB ---
+--- Base64编码后大小: 16291.92 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+--- GLM-4 API 调用完成 ---
+RUN 清华/text
+--- 使用 GLM-4 API 处理视频: 清华.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 清华.mp4 ---
+--- 视频文件大小: 69.28 MB ---
+--- Base64编码后大小: 94585.48 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 52 /60 model annotations
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 角楼.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 角楼.mp4 ---
+--- 视频文件大小: 17.08 MB ---
+--- Base64编码后大小: 23316.74 KB ---
+--- 提示词长度: 3919 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 52 /60 model annotations
+Completed: 52 /60 model annotations
+Completed: 52 /60 model annotations
+Completed: 52 /60 model annotations
+Completed: 52 /60 model annotations
+Completed: 52 /60 model annotations
+Completed: 52 /60 model annotations
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 角楼1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 角楼1.mp4 ---
+--- 视频文件大小: 11.93 MB ---
+--- Base64编码后大小: 16291.92 KB ---
+--- 提示词长度: 3917 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 52 /60 model annotations
+Completed: 52 /60 model annotations
+--- GLM-4 API 调用完成 ---
+Completed: 53 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 胡同1/free
+--- 使用 GLM-4 API 处理视频: 胡同1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 胡同1.mp4 ---
+--- 视频文件大小: 2.97 MB ---
+--- Base64编码后大小: 4060.03 KB ---
+--- 提示词长度: 3590 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 53 /60 model annotations
+Completed: 53 /60 model annotations
+Completed: 53 /60 model annotations
+Completed: 53 /60 model annotations
+Completed: 53 /60 model annotations
+Completed: 53 /60 model annotations
+Completed: 53 /60 model annotations
+Completed: 53 /60 model annotations
+--- GLM-4 API 调用完成 ---
+Completed: 54 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 胡同1/text
+--- 使用 GLM-4 API 处理视频: 胡同1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 胡同1.mp4 ---
+--- 视频文件大小: 2.97 MB ---
+--- Base64编码后大小: 4060.03 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 55 /60 model annotations
+Completed: 55 /60 model annotations
+Completed: 55 /60 model annotations
+Completed: 55 /60 model annotations
+Completed: 55 /60 model annotations
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 胡同1.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 胡同1.mp4 ---
+--- 视频文件大小: 2.97 MB ---
+--- Base64编码后大小: 4060.03 KB ---
+--- 提示词长度: 3590 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 55 /60 model annotations
+Completed: 55 /60 model annotations
+Completed: 55 /60 model annotations
+Completed: 55 /60 model annotations
+Completed: 55 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 鸟巢/free
+Completed: 56 /60 model annotations
+--- 使用 GLM-4 API 处理视频: 鸟巢.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 鸟巢.mp4 ---
+--- 视频文件大小: 16.48 MB ---
+--- Base64编码后大小: 22499.05 KB ---
+--- 提示词长度: 3594 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 56 /60 model annotations
+Completed: 56 /60 model annotations
+Completed: 56 /60 model annotations
+Completed: 56 /60 model annotations
+Completed: 56 /60 model annotations
+Completed: 56 /60 model annotations
+Completed: 56 /60 model annotations
+Completed: 56 /60 model annotations
+Completed: 56 /60 model annotations
+Completed: 56 /60 model annotations
+Completed: 56 /60 model annotations
+Completed: 56 /60 model annotations
+Completed: 56 /60 model annotations
+--- GLM-4 API 调用完成 ---
+RUN 鸟巢/text
+--- 使用 GLM-4 API 处理视频: 鸟巢.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 鸟巢.mp4 ---
+--- 视频文件大小: 16.48 MB ---
+--- Base64编码后大小: 22499.05 KB ---
+--- 提示词长度: 637 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 57 /60 model annotations
+Completed: 57 /60 model annotations
+Completed: 57 /60 model annotations
+Completed: 57 /60 model annotations
+Completed: 57 /60 model annotations
+--- GLM-4 API 调用完成 ---
+--- 使用 GLM-4 API 处理视频: 鸟巢.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: 鸟巢.mp4 ---
+--- 视频文件大小: 16.48 MB ---
+--- Base64编码后大小: 22499.05 KB ---
+--- 提示词长度: 3840 ---
+--- 内容类型: ['video_url', 'text'] ---
+Completed: 57 /60 model annotations
+Completed: 57 /60 model annotations
+Completed: 57 /60 model annotations
+Completed: 57 /60 model annotations
+Completed: 57 /60 model annotations
+Completed: 57 /60 model annotations
+Completed: 57 /60 model annotations
+Completed: 57 /60 model annotations
+--- GLM-4 API 调用完成 ---
+Completed: 58 /60 model annotations

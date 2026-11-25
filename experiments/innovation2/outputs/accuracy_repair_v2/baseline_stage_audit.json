@@ -1,0 +1,1190 @@
+[
+  {
+    "video_id": "cbd",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [
+      "BJ_FASHION_003"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "A",
+    "api_calls": 2,
+    "seconds": 112.72,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "cbd",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "B",
+    "api_calls": 2,
+    "seconds": 59.0,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "cbd",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "C",
+    "api_calls": 1,
+    "seconds": 31.58,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "cbd1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [
+      "BJ_FASHION_003"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "A",
+    "api_calls": 2,
+    "seconds": 112.5,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "cbd1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "B",
+    "api_calls": 2,
+    "seconds": 59.17,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "cbd1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "C",
+    "api_calls": 1,
+    "seconds": 30.97,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "cbd2",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [
+      "BJ_FASHION_003"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "A",
+    "api_calls": 2,
+    "seconds": 149.54,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "cbd2",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "B",
+    "api_calls": 6,
+    "seconds": 195.09,
+    "stage": "identity_reject",
+    "identity_reasons": [
+      "视频展示的是北京中央商务区（CBD）的城市天际线，包含国贸三期、银泰中心、中信大厦等标志性建筑，属于CBD建筑群，但未提供候选名称、别名或专属视觉特征的身份级证据，无法证明是同一身份"
+    ]
+  },
+  {
+    "video_id": "cbd2",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "C",
+    "api_calls": 2,
+    "seconds": 73.73,
+    "stage": "identity_reject",
+    "identity_reasons": [
+      "视频展示的是北京中央商务区（CBD）的城市天际线，包含国贸三期、银泰中心、中信大厦等标志性建筑，属于CBD建筑群，但未提供候选名称、别名或专属视觉特征的身份级证据，无法证明是同一身份"
+    ]
+  },
+  {
+    "video_id": "cbd3",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [
+      "BJ_FASHION_003"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "A",
+    "api_calls": 2,
+    "seconds": 129.28,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "cbd3",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "B",
+    "api_calls": 2,
+    "seconds": 147.35,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "cbd3",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_FASHION_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "C",
+    "api_calls": 1,
+    "seconds": 49.66,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "中关村1号",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_008"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": true,
+    "reciprocal_rank": 0.3333333333333333,
+    "error_type": "false_reject",
+    "group": "A",
+    "api_calls": 3,
+    "seconds": 236.36,
+    "stage": "identity_reject",
+    "identity_reasons": [
+      "视频中出现候选别名“中关村1号”，但视觉证据不足（无专属独特视觉特征或参考图匹配），仅能证明属于候选所属建筑群，无法证明是候选本身"
+    ]
+  },
+  {
+    "video_id": "中关村1号",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_008"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "B",
+    "api_calls": 2,
+    "seconds": 157.26,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "中关村1号",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_008"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "C",
+    "api_calls": 1,
+    "seconds": 76.84,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "中关村国际创新中心",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_006"
+    ],
+    "pred_ids": [
+      "CN2_TECH_006"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": false,
+    "recall5": true,
+    "reciprocal_rank": 0.5,
+    "error_type": "correct",
+    "group": "A",
+    "api_calls": 3,
+    "seconds": 174.59,
+    "stage": "correct",
+    "identity_reasons": [
+      "视频关键帧中清晰呈现候选规范名“中关村国际创新中心”的中英文文字标识，且建筑外观特征与候选描述的视觉特征匹配，满足身份级证据要求"
+    ]
+  },
+  {
+    "video_id": "中关村国际创新中心",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_006"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "B",
+    "api_calls": 3,
+    "seconds": 79.97,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "中关村国际创新中心",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_006"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "C",
+    "api_calls": 1,
+    "seconds": 74.63,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "中关村展示中心",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_005"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "A",
+    "api_calls": 3,
+    "seconds": 139.87,
+    "stage": "retrieval_miss",
+    "identity_reasons": [
+      "视频画面中的主体是现代建筑群（展示中心与流线型建筑），远景虽有山脉，但未呈现长城的典型视觉特征（如蜿蜒城墙、城砖垛口、敌楼烽火台等）。候选「长城」作为古代军事防御工程，其身份级证据（专属文字标识、独特视觉特征）在视频中完全缺失，仅能通过远景山脉关联到长城所属的地理区域，属于父实体层面的关联，无法证明视频实体与候选为同一身份。"
+    ]
+  },
+  {
+    "video_id": "中关村展示中心",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_005"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "B",
+    "api_calls": 4,
+    "seconds": 180.69,
+    "stage": "retrieval_miss",
+    "identity_reasons": [
+      "视频中的现代建筑与水立方的视觉特征（流线型银色屋顶、绿色草坪）存在相似性，但缺乏水立方专属的蓝色ETFE气枕外墙、方体造型等核心视觉身份证据，且场景描述未出现候选名称或别名，无法证明exact identity"
+    ]
+  },
+  {
+    "video_id": "中关村展示中心",
+    "sample_type": "known",
+    "gt_ids": [
+      "CN2_TECH_005"
+    ],
+    "pred_ids": [
+      "CN2_TECH_005"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": false,
+    "recall5": true,
+    "reciprocal_rank": 0.5,
+    "error_type": "correct",
+    "group": "C",
+    "api_calls": 1,
+    "seconds": 33.74,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "京剧青衣",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "A",
+    "api_calls": 2,
+    "seconds": 113.09,
+    "stage": "retrieval_gate_reject",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "京剧青衣",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "B",
+    "api_calls": 2,
+    "seconds": 91.68,
+    "stage": "retrieval_gate_reject",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "京剧青衣",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "C",
+    "api_calls": 1,
+    "seconds": 81.62,
+    "stage": "retrieval_gate_reject",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "人民大会堂",
+    "sample_type": "hard_unknown",
+    "gt_ids": [],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": true,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "correct",
+    "group": "A",
+    "api_calls": 2,
+    "seconds": 128.67,
+    "stage": "correct",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "人民大会堂",
+    "sample_type": "hard_unknown",
+    "gt_ids": [],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": true,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "correct",
+    "group": "B",
+    "api_calls": 2,
+    "seconds": 235.83,
+    "stage": "correct",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "人民大会堂",
+    "sample_type": "hard_unknown",
+    "gt_ids": [],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": true,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "correct",
+    "group": "C",
+    "api_calls": 1,
+    "seconds": 53.54,
+    "stage": "correct",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "人民大会堂1",
+    "sample_type": "hard_unknown",
+    "gt_ids": [],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": true,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "correct",
+    "group": "A",
+    "api_calls": 3,
+    "seconds": 189.56,
+    "stage": "correct",
+    "identity_reasons": [
+      "视频画面显示的是人民大会堂，与候选中国国家博物馆同属天安门广场建筑群，但视觉证据无法证明是同一文化符号"
+    ]
+  },
+  {
+    "video_id": "人民大会堂1",
+    "sample_type": "hard_unknown",
+    "gt_ids": [],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": true,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "correct",
+    "group": "B",
+    "api_calls": 2,
+    "seconds": 87.94,
+    "stage": "correct",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "人民大会堂1",
+    "sample_type": "hard_unknown",
+    "gt_ids": [],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": true,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "correct",
+    "group": "C",
+    "api_calls": 1,
+    "seconds": 78.27,
+    "stage": "correct",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "人民英雄纪念碑",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_003"
+    ],
+    "pred_ids": [
+      "BJ_RED_003"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": false,
+    "recall5": true,
+    "reciprocal_rank": 0.5,
+    "error_type": "correct",
+    "group": "A",
+    "api_calls": 2,
+    "seconds": 122.74,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "人民英雄纪念碑",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": true,
+    "reciprocal_rank": 0.5,
+    "error_type": "false_reject",
+    "group": "B",
+    "api_calls": 3,
+    "seconds": 95.0,
+    "stage": "identity_reject",
+    "identity_reasons": [
+      "视觉证据显示画面与人民英雄纪念碑的参考图存在较高相似性，但未达到身份级证据（如规范名/别名明确出现、专属文字标识、独特视觉特征稳定匹配等）的标准，无法证明视频中的具体文化实体就是候选本身"
+    ]
+  },
+  {
+    "video_id": "人民英雄纪念碑",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_003"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "C",
+    "api_calls": 2,
+    "seconds": 91.51,
+    "stage": "identity_reject",
+    "identity_reasons": [
+      "视频画面显示的是天安门广场场景，人民英雄纪念碑是广场上的核心建筑之一，但画面中未出现候选的专属文字标识（如“人民英雄永垂不朽”鎏金大字）或独特视觉特征（如碑心花岗岩、须弥座台基等），仅能证明属于同一景区（天安门广场），无法证明是候选本身"
+    ]
+  },
+  {
+    "video_id": "人民英雄纪念碑1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_003"
+    ],
+    "pred_ids": [
+      "BJ_RED_003"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": false,
+    "recall5": true,
+    "reciprocal_rank": 0.5,
+    "error_type": "correct",
+    "group": "A",
+    "api_calls": 2,
+    "seconds": 108.7,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "人民英雄纪念碑1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_003"
+    ],
+    "pred_ids": [
+      "BJ_RED_003"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "B",
+    "api_calls": 3,
+    "seconds": 124.38,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "人民英雄纪念碑1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_003"
+    ],
+    "pred_ids": [
+      "BJ_RED_003"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "C",
+    "api_calls": 1,
+    "seconds": 34.2,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "兔爷",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_004"
+    ],
+    "pred_ids": [
+      "BJ_JINGWEI_004"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "A",
+    "api_calls": 2,
+    "seconds": 49.95,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "兔爷",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_004"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "B",
+    "api_calls": 4,
+    "seconds": 108.4,
+    "stage": "identity_reject",
+    "identity_reasons": [
+      "视频证据中未出现候选规范名/别名的明确出现，画面中无候选专属文字标识（匾额、题字、铭牌、OCR 可读字样），也无候选专属且独特的视觉特征（如兔首人身、长耳、三瓣嘴、身披甲胄或官服、坐骑虎/狮/象、粉彩绘等），视觉证据不足以证明 exact identity，仅能通过上下文提及'兔爷'关联到候选，但不符合身份级证据要求"
+    ]
+  },
+  {
+    "video_id": "兔爷",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_004"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "C",
+    "api_calls": 2,
+    "seconds": 44.59,
+    "stage": "identity_reject",
+    "identity_reasons": [
+      "视频证据中无候选规范名/别名的明确出现，无专属文字标识，视觉特征未达到身份级匹配（max_ref_sim=0.657<0.8），无法证明视频中的具体文化实体就是候选本身"
+    ]
+  },
+  {
+    "video_id": "北大",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_INNOV_006"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "A",
+    "api_calls": 2,
+    "seconds": 117.63,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "北大",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_INNOV_006"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "B",
+    "api_calls": 2,
+    "seconds": 58.4,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "北大",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_INNOV_006"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "C",
+    "api_calls": 1,
+    "seconds": 104.81,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "北大1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_INNOV_006"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "A",
+    "api_calls": 2,
+    "seconds": 117.83,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "北大1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_INNOV_006"
+    ],
+    "pred_ids": [
+      "BJ_INNOV_006"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "B",
+    "api_calls": 3,
+    "seconds": 144.21,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "北大1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_INNOV_006"
+    ],
+    "pred_ids": [
+      "BJ_INNOV_006"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "C",
+    "api_calls": 1,
+    "seconds": 43.34,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "国博",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_006"
+    ],
+    "pred_ids": [
+      "BJ_RED_006"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "A",
+    "api_calls": 2,
+    "seconds": 191.62,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "国博",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_006"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "B",
+    "api_calls": 3,
+    "seconds": 102.12,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "国博",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_006"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "C",
+    "api_calls": 1,
+    "seconds": 340.9,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "天安门",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_002"
+    ],
+    "pred_ids": [
+      "BJ_RED_002"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "A",
+    "api_calls": 2,
+    "seconds": 133.99,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "天安门",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_002"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": true,
+    "reciprocal_rank": 0.25,
+    "error_type": "false_reject",
+    "group": "B",
+    "api_calls": 4,
+    "seconds": 385.1,
+    "stage": "retrieval_gate_reject",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "天安门",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_002"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": true,
+    "reciprocal_rank": 0.25,
+    "error_type": "false_reject",
+    "group": "C",
+    "api_calls": 1,
+    "seconds": 51.39,
+    "stage": "retrieval_gate_reject",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "天安门1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_002"
+    ],
+    "pred_ids": [
+      "BJ_RED_002"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "A",
+    "api_calls": 2,
+    "seconds": 414.93,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "天安门1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_002"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "B",
+    "api_calls": 5,
+    "seconds": 109.05,
+    "stage": "identity_reject",
+    "identity_reasons": [
+      "视频中的华表、天安门城楼及“中华人民共和国”“世界人民大团结万岁”文字表明场景位于天安门广场所属的天安门景区，但视觉证据未达到证明具体文化实体就是“天安门广场”这一候选本身的exact identity标准，仅能证明属于同一景区"
+    ]
+  },
+  {
+    "video_id": "天安门1",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_RED_002"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "C",
+    "api_calls": 2,
+    "seconds": 97.98,
+    "stage": "identity_reject",
+    "identity_reasons": [
+      "视频中的华表、天安门城楼及“中华人民共和国”“世界人民大团结万岁”文字表明场景位于天安门广场所属景区，但无候选名称、别名或专属视觉特征（如广场整体布局、金水桥、旗杆等）的直接身份证据，仅能证明属于同一景区，无法确认 exact identity"
+    ]
+  },
+  {
+    "video_id": "太和殿",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_GUDU_002"
+    ],
+    "pred_ids": [
+      "BJ_GUDU_002"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "A",
+    "api_calls": 2,
+    "seconds": 154.14,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "太和殿",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_GUDU_002"
+    ],
+    "pred_ids": [
+      "BJ_GUDU_002"
+    ],
+    "rejected": false,
+    "correct": true,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "correct",
+    "group": "B",
+    "api_calls": 3,
+    "seconds": 89.93,
+    "stage": "correct",
+    "identity_reasons": [
+      "strong_identity_evidence"
+    ]
+  },
+  {
+    "video_id": "庙会",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_007"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": false,
+    "recall5": false,
+    "reciprocal_rank": 0,
+    "error_type": "false_reject",
+    "group": "A",
+    "api_calls": 2,
+    "seconds": 106.23,
+    "stage": "retrieval_miss",
+    "identity_reasons": []
+  },
+  {
+    "video_id": "庙会",
+    "sample_type": "known",
+    "gt_ids": [
+      "BJ_JINGWEI_007"
+    ],
+    "pred_ids": [],
+    "rejected": true,
+    "correct": false,
+    "recall1": true,
+    "recall5": true,
+    "reciprocal_rank": 1.0,
+    "error_type": "false_reject",
+    "group": "B",
+    "api_calls": 6,
+    "seconds": 94.19,
+    "stage": "identity_reject",
+    "identity_reasons": [
+      "视频仅显示人群聚集、红色装饰等庙会场景特征，但无候选名称、别名或专属视觉特征（如摊位、舞龙舞狮等）的身份级证据，无法证明具体文化实体就是北京庙会"
+    ]
+  }
+]

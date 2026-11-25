@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:54:03.426789+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化。\n核心符号：中国国家博物馆\n价值指向：画面中可见建筑为大型柱廊式结构，顶部悬挂多面红旗，中央有红色横幅及金色五角星标志，建筑正面左侧有“中国国家博物馆”字样，这些视觉元素符合中国国家博物馆的典型特征。中国国家博物馆作为承载国家记忆的重要场所，其建筑风格与装饰符号体现了红色文化内涵，是新中国历史与革命精神的象征。",
+  "response_model": "glm-4v",
+  "response_id": "202611191654034f0936cfc08d4ae7",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73755, prompt_tokens_details=PromptTokensDetails(cached_tokens=73754), completion_tokens=103, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73858)",
+  "seconds": 58.018147706985474
+}

@@ -1,0 +1,56 @@
+{
+  "request": {
+    "id": "T06_T06_G1_r01_video",
+    "task_id": "T06",
+    "video_id": "T06_G1_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T06-G1.mp4",
+    "video_sha256": "8d52c7cadb87bf0a614d4d69e56599ecb95f529569d559cf288dfcd2af1a4e25",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [
+      "T06-F3"
+    ],
+    "description_basis": "task_conditions_fallback",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：室内白色幕布皮影舞台，两个皮影人物同台表演，固定机位全景，暖色背光。时序事实及判据：[{\"fact_id\": \"T06-F3\", \"question\": \"两个皮影人物是否发生连续的打斗或武打动作？\", \"yes_rule\": \"连续视频中两个皮影人物存在至少两个连续时刻的攻防、挥击、追逐或武打动作变化\", \"no_rule\": \"人物仅静止、摆姿或彼此没有连续武打互动\", \"uncertain_rule\": \"片段过短、动作被遮挡、播放异常或无法区分动作连续性\"}]",
+    "request_sha256": "31c72b3148c3d4a83933f688ee6d6b4bf1e9f564fb626d2941f4586b8de29076"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"conditions\": {\"subject\": {\"verdict\": \"Yes\", \"evidence\": \"画面中可见两个皮影人物在幕布前表演\", \"timestamps\": \"0.00-5.50\"}, \"scene\": {\"verdict\": \"Yes\", \"evidence\": \"舞台布置有中式建筑背景、树木装饰，幕布上绘有传统建筑图案，呈现室内皮影戏场景\", \"timestamps\": \"0.00-5.50\"}, \"time_weather\": {\"verdict\": \"Yes\", \"evidence\": \"舞台灯光为暖色调，模拟室内环境，无自然天气元素\", \"timestamps\": \"0.00-5.50\"}, \"camera_motion\": {\"verdict\": \"Yes\", \"evidence\": \"镜头始终固定，未出现平移、推拉、升降等运动，保持全景视角\", \"timestamps\": \"0.00-5.50\"}}, \"temporal_facts\": {\"T06-F3\": {\"verdict\": \"Yes\", \"evidence\": \"两个皮影人物从站立到做出挥臂、踢腿等连续攻防动作，动作连贯且具有武打互动性\", \"timestamps\": \"0.00-5.50\"}}}",
+  "parse_ok": true,
+  "parsed": {
+    "conditions": {
+      "subject": {
+        "verdict": "Yes",
+        "evidence": "画面中可见两个皮影人物在幕布前表演",
+        "timestamps": "0.00-5.50"
+      },
+      "scene": {
+        "verdict": "Yes",
+        "evidence": "舞台布置有中式建筑背景、树木装饰，幕布上绘有传统建筑图案，呈现室内皮影戏场景",
+        "timestamps": "0.00-5.50"
+      },
+      "time_weather": {
+        "verdict": "Yes",
+        "evidence": "舞台灯光为暖色调，模拟室内环境，无自然天气元素",
+        "timestamps": "0.00-5.50"
+      },
+      "camera_motion": {
+        "verdict": "Yes",
+        "evidence": "镜头始终固定，未出现平移、推拉、升降等运动，保持全景视角",
+        "timestamps": "0.00-5.50"
+      }
+    },
+    "temporal_facts": {
+      "T06-F3": {
+        "verdict": "Yes",
+        "evidence": "两个皮影人物从站立到做出挥臂、踢腿等连续攻防动作，动作连贯且具有武打互动性",
+        "timestamps": "0.00-5.50"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "video_file": "data/video/东方明珠.mp4",
+  "video_sha256": "bf3a6fe6001397439250e596aa9227a5d5f4bd0203d5258e32eb95fd0dfa7f30",
+  "frames": [
+    {
+      "fraction": 0.5,
+      "duration_sec": 5.633,
+      "requested_sec": 2.8165,
+      "actual_sec": 2.8,
+      "absolute_pts_sec": 2.8,
+      "frame_index": 70,
+      "frame_file": "experiments/innovation1/four_group_v2/source_preview/T10/source/50.jpg",
+      "sha256": "0f33d3166651c8bfd68b2253d18008cb72185d6688a5dfea651576b18e97cc25",
+      "attempts": [
+        {
+          "index": 70,
+          "pts_sec": 2.8,
+          "black": false
+        }
+      ]
+    }
+  ],
+  "T": {
+    "fps": 24.5102269785104,
+    "decoded_frames": 141,
+    "duration_sec": 5.633,
+    "duration_scope_warning": "outside_3_to_5_seconds_review_scope"
+  },
+  "exception_rule": "nearest PTS; black >98% gray<8; previous then next within 0.1s; failure blocks; no aesthetic selection"
+}

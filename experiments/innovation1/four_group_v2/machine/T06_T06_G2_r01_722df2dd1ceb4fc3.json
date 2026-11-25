@@ -1,0 +1,88 @@
+{
+  "request": {
+    "id": "T06_T06_G2_r01",
+    "task_id": "T06",
+    "video_id": "T06_G2_r01",
+    "question_ids": [
+      "T06-F1",
+      "T06-F2",
+      "T06-F4"
+    ],
+    "question_sha256": "ed23cb93a5eace28dfab94d2ecff8c6f5c0e6228e0ca2bc25fbec60714277add",
+    "reference_sha256": "a6a6e344bba42d37b495c8fcd6468d3a9ca5fd2ff3368af370034f2e72cc00b8",
+    "evidence_sha256": "5c818e0cc90051f74317e8d422d908e11d380681de0b8eb37e7080d0a8ddcdba",
+    "source_evidence_sha256": "5bd8a147fd75bcf199bac1eb87f1cbe5d3c6e366a1ed5f94be3e6cced120ab52",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T06-F1\", \"question\": \"视频中是否出现两个平面剪影式的皮影人物？\", \"yes_rule\": \"同一表演画面可见两个扁平、透光或剪影式皮影人物\", \"no_rule\": \"主体清晰但不是皮影人物，或只出现一个皮影人物\", \"uncertain_rule\": \"人物过小、重叠、遮挡或画面模糊，无法判断数量及平面皮影形态\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T06-F2\", \"question\": \"舞台背景是否出现传统中式建筑图案或亭阁造型？\", \"yes_rule\": \"幕布或舞台装饰中可见传统中式屋顶、门楼、亭阁或相应建筑图案\", \"no_rule\": \"背景清晰但仅为普通空白幕布、现代建筑或无中式建筑装饰\", \"uncertain_rule\": \"背景过暗、过曝、遮挡或细节不足\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T06-F4\", \"question\": \"视频中的两个皮影人物是否分别具有孙悟空和白骨精的可辨认角色特征？\", \"yes_rule\": \"两个角色可分别凭稳定可见的标志性造型辨认为孙悟空与白骨精，例如孙悟空的猴相/金箍棒及白骨精的女性妖怪或白骨主题造型\", \"no_rule\": \"两个主体清晰但角色造型不对应孙悟空和白骨精，或只能辨认其中一个角色\", \"uncertain_rule\": \"缺少足够标志性特征，虽为皮影人物但无法可靠确认两者身份\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 13.032,
+        "requested_sec": 6.516,
+        "actual_sec": 6.5,
+        "absolute_pts_sec": 6.5,
+        "frame_index": 195,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T06/source/50.jpg",
+        "sha256": "80de00ee2d169720df4ce6568d9b1bc743a2b53ea1a07a77d01ebe5d00c82c53",
+        "attempts": [
+          {
+            "index": 195,
+            "pts_sec": 6.5,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T06/T06_G2_r01/50.jpg",
+        "sha256": "131c522868a6735c1188d742461310573816e26dc11bf93951645084479c7cf9",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"facts\":{\"T06-F1\":{\"frames\":[\"Yes\"],\"evidence\":\"当前生成视频画面中可见两个扁平剪影式人物，符合皮影人物特征\"},\"T06-F2\":{\"frames\":[\"Yes\"],\"evidence\":\"当前生成视频舞台背景出现传统中式建筑图案（如传统中式屋顶、门楼等）\"},\"T06-F4\":{\"frames\":[\"Uncertain\"],\"evidence\":\"当前生成视频为剪影式皮影人物，但缺少足够标志性特征，无法可靠确认两者是否为孙悟空和白骨精\"},\"overall_form\":\"Match\",\"overall_evidence\":\"整体形态（皮影人物、传统中式背景）与原视频匹配\"}",
+  "parse_ok": true,
+  "parsed": {
+    "facts": {
+      "T06-F1": {
+        "answer": "Yes",
+        "frames": [
+          "Yes"
+        ],
+        "evidence": "当前生成视频画面中可见两个扁平剪影式人物，符合皮影人物特征"
+      },
+      "T06-F2": {
+        "answer": "Yes",
+        "frames": [
+          "Yes"
+        ],
+        "evidence": "当前生成视频舞台背景出现传统中式建筑图案（如传统中式屋顶、门楼等）"
+      },
+      "T06-F4": {
+        "answer": "Uncertain",
+        "frames": [
+          "Uncertain"
+        ],
+        "evidence": "当前生成视频为剪影式皮影人物，但缺少足够标志性特征，无法可靠确认两者是否为孙悟空和白骨精"
+      }
+    },
+    "overall_form": "Match",
+    "overall_evidence": "整体形态（皮影人物、传统中式背景）与原视频匹配",
+    "unexpected_fact_ids_ignored": []
+  }
+}

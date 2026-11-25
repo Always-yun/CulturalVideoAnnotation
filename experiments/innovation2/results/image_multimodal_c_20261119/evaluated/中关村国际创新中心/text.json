@@ -1,0 +1,54 @@
+{
+  "video_id": "中关村国际创新中心",
+  "mode": "text",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "中关村国际创新中心"
+  ],
+  "reference_ids": [
+    "CN2_TECH_006"
+  ],
+  "predicted_names": [
+    "中关村国际创新中心"
+  ],
+  "predicted_ids": [
+    "CN2_TECH_006"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "TECH"
+  ],
+  "reference_categories": [
+    "TECH"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": true,
+  "candidate_ids": [
+    "CN2_TECH_006",
+    "BJ_INNOV_001",
+    "BJ_INNOV_009",
+    "BJ_FASHION_004"
+  ],
+  "raw_reply": "【EMCAST 视频标注结果】\n\n【E｜场景环境层】：视频构建了一个现代商业办公建筑入口的物理环境。此时处于白天状态。整体场景呈现出简洁明快的感官基调。\n\n【M｜主体行为层】：视觉焦点包含承载主体：中关村国际创新中心\n    承载主体外观：主体呈现出流线型曲面几何形态，外立面材质主要为大面积玻璃幕墙。\n    文字符号：[\"中关村国际创新中心\"]\n\n【C｜文化维度层】：该场景隶属于科技与创新文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为中关村国际创新中心。\n价值指向：中关村国际创新中心作为中关村科学城的重要组成部分，是北京乃至中国科技创新与产业孵化的核心地标，其建筑形态与命名直接关联“创新”与“国际化”的时代主题，象征着中国科技产业的蓬勃发展与开放合作。\n\n【A｜视听语言层】\n    镜头语法：镜头为运动机位。运镜采用平移（左），状态稳定，节奏慢，以全景为主，景深深，视觉重心位于建筑入口上方的标识牌区域。\n    播放速度效果：正常速度\n    构图遵循几何引导线，光影特征呈现为自然漫射光，视觉色彩倾向于冷调。\n\n【S｜整体叙事层】：视频以一个低角度的平移镜头，从建筑入口的玻璃幕墙开始，缓缓向左移动，逐渐揭示出“中关村国际创新中心”的名称标识。镜头运动平稳，通过展示建筑的现代外观和清晰的品牌标识，构建了一个关于科技创新与国际化主题的视觉叙事，强调了该地点作为创新中心的身份与功能。\n\n【T｜技术属性层】\n分辨率：4096x2160；实际帧率：25.0 FPS；标称帧率：25.0 FPS；画幅：256:135；动态范围：SDR；色彩空间/像素格式：yuv420p；采样方式：4:2:0；编码格式：h264；码率：12613995；视频时长：13.52s。\n",
+  "c_layer_natural_language": "：该场景隶属于科技与创新文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为中关村国际创新中心。\n价值指向：中关村国际创新中心作为中关村科学城的重要组成部分，是北京乃至中国科技创新与产业孵化的核心地标，其建筑形态与命名直接关联“创新”与“国际化”的时代主题，象征着中国科技产业的蓬勃发展与开放合作。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/four_method_accuracy_20261119/results.json",
+  "attempts": [],
+  "raw_available": true,
+  "full_c_available": true,
+  "original_trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/traces/中关村国际创新中心/text/trace.json",
+  "historical_model_config_path": "experiments/innovation2/results/four_method_accuracy_20261119/model_config.json"
+}

@@ -1,0 +1,30 @@
+{
+  "video_file": "data/video/南湖红船.mp4",
+  "video_sha256": "b2cb09956a3e2c21930e516d48d225208d03888d0dcd1b767f9af886561b19d8",
+  "frames": [
+    {
+      "fraction": 0.5,
+      "duration_sec": 2.819,
+      "requested_sec": 1.4095,
+      "actual_sec": 1.4,
+      "absolute_pts_sec": 1.4,
+      "frame_index": 42,
+      "frame_file": "experiments/innovation1/four_group_v2/source_preview/T04/source/50.jpg",
+      "sha256": "c7d294375942f1ab464983f3d66434e52f0e7a0562f3cc6520601d105f7b7209",
+      "attempts": [
+        {
+          "index": 42,
+          "pts_sec": 1.4,
+          "black": false
+        }
+      ]
+    }
+  ],
+  "T": {
+    "fps": 29.819009618631878,
+    "decoded_frames": 84,
+    "duration_sec": 2.819,
+    "duration_scope_warning": "outside_3_to_5_seconds_review_scope"
+  },
+  "exception_rule": "nearest PTS; black >98% gray<8; previous then next within 0.1s; failure blocks; no aesthetic selection"
+}

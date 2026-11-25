@@ -1,0 +1,30 @@
+{
+  "video_file": "data/video/海南文昌发射场.mp4",
+  "video_sha256": "be3d61382377b14049b502517d1bef316f8cf91009b46edb6bb943a449b5a7c2",
+  "frames": [
+    {
+      "fraction": 0.5,
+      "duration_sec": 8.762,
+      "requested_sec": 4.381,
+      "actual_sec": 4.371,
+      "absolute_pts_sec": 4.371,
+      "frame_index": 131,
+      "frame_file": "experiments/innovation1/four_group_v2/source_preview/T07/source/50.jpg",
+      "sha256": "fd364b221dca1b1113e4346222bf101151cb23162636614d7411b626b641d8ed",
+      "attempts": [
+        {
+          "index": 131,
+          "pts_sec": 4.371,
+          "black": false
+        }
+      ]
+    }
+  ],
+  "T": {
+    "fps": 29.9234132312994,
+    "decoded_frames": 263,
+    "duration_sec": 8.762,
+    "duration_scope_warning": "outside_3_to_5_seconds_review_scope"
+  },
+  "exception_rule": "nearest PTS; black >98% gray<8; previous then next within 0.1s; failure blocks; no aesthetic selection"
+}

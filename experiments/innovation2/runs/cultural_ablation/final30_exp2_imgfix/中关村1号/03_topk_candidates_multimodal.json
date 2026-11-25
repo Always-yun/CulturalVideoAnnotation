@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_INNOV_001",
+    "canonical_name": "中关村",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.94970703125,
+    "reason": "关键词/别名命中：中关村",
+    "image_score": 0.8994,
+    "text_score": 1.0,
+    "fusion_score": 0.9497
+  },
+  {
+    "symbol_id": "BJ_RED_002",
+    "canonical_name": "天安门广场",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.6317138671875,
+    "reason": "关键词/别名命中：广场",
+    "image_score": 0.7634,
+    "text_score": 0.5,
+    "fusion_score": 0.6317
+  },
+  {
+    "symbol_id": "CN2_TECH_008",
+    "canonical_name": "中关村壹号",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.5,
+    "reason": "关键词/别名命中：中关村1号",
+    "image_score": 0.0,
+    "text_score": 1.0,
+    "fusion_score": 0.5
+  },
+  {
+    "symbol_id": "BJ_INNOV_002",
+    "canonical_name": "中关村科学城",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.471435546875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9429,
+    "text_score": 0.0,
+    "fusion_score": 0.4714
+  },
+  {
+    "symbol_id": "BJ_INNOV_003",
+    "canonical_name": "奥林匹克公园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.4405517578125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8811,
+    "text_score": 0.0,
+    "fusion_score": 0.4406
+  }
+]

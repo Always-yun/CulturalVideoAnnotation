@@ -1,0 +1,54 @@
+{
+  "video_id": "庙会",
+  "mode": "free",
+  "status": "completed",
+  "outcome": "wrong_identity",
+  "reference_names": [
+    "北京庙会"
+  ],
+  "reference_ids": [
+    "BJ_JINGWEI_007"
+  ],
+  "predicted_names": [
+    "红色灯笼",
+    "红色横幅"
+  ],
+  "predicted_ids": [
+    "UNRESOLVED:红色横幅",
+    "UNRESOLVED:红色灯笼"
+  ],
+  "main_correct": false,
+  "strict_correct": false,
+  "reference_extra_entities": [
+    "UNRESOLVED:红色横幅",
+    "UNRESOLVED:红色灯笼"
+  ],
+  "tp": 0,
+  "fp": 2,
+  "fn": 1,
+  "predicted_categories": [
+    "FOLK"
+  ],
+  "reference_categories": [
+    "FOLK"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": null,
+  "candidate_ids": [],
+  "raw_reply": "【EMCAST 视频标注结果】\n\n【E｜场景环境层】：视频构建了一个城市街道的物理环境。此时处于白天/阴天状态。整体场景呈现出拥挤的感官基调。\n\n【M｜主体行为层】：视觉焦点包含承载主体：红色建筑、绿色建筑\n    承载主体外观：右侧/红色建筑呈现出矩形矩阵形态，外立面材质主要为红色广告牌；左侧/绿色建筑呈现出矩形形态，外立面材质主要为绿色招牌。\n    文字符号：[\"红都\", \"龙年吉祥\", \"壹叁壹肆壹叁壹肆\"]\n\n【C｜文化维度层】：该场景隶属于民族与民俗文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为红色灯笼、红色横幅。\n价值指向：红色灯笼和横幅是中华民族传统节庆（如春节）的典型符号，象征着喜庆、吉祥与团圆，体现了民俗文化中对美好生活的向往与集体庆祝的仪式感。\n\n【A｜视听语言层】\n    镜头语法：镜头为运动机位。运镜采用平移（左），状态晃动，节奏慢，以全景为主，景深深，视觉重心位于画面中央的人群区域\n    播放速度效果：正常速度\n    构图遵循中轴线对称，光影特征呈现为自然漫射光，视觉色彩倾向于暖调。\n\n【S｜整体叙事层】：镜头从右向左平移，展现了一条被密集人群占据的街道。画面中可见红色灯笼和横幅，右侧有红色建筑，左侧有绿色建筑，人群缓慢移动，整体氛围拥挤而热闹，呈现出节庆期间公共空间的繁忙景象。\n\n【T｜技术属性层】\n分辨率：1920x1080；实际帧率：29.73 FPS；标称帧率：30.0 FPS；画幅：16:9；动态范围：SDR；色彩空间/像素格式：yuv420p；采样方式：4:2:0；编码格式：h264；码率：3124737；视频时长：6.654s。\n",
+  "c_layer_natural_language": "：该场景隶属于民族与民俗文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为红色灯笼、红色横幅。\n价值指向：红色灯笼和横幅是中华民族传统节庆（如春节）的典型符号，象征着喜庆、吉祥与团圆，体现了民俗文化中对美好生活的向往与集体庆祝的仪式感。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/four_method_accuracy_20261119/results.json",
+  "attempts": [],
+  "raw_available": true,
+  "full_c_available": true,
+  "original_trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/1/traces/庙会/free/trace.json",
+  "historical_model_config_path": "experiments/innovation2/results/four_method_accuracy_20261119/model_config.json"
+}

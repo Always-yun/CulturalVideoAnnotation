@@ -1,0 +1,30 @@
+{
+  "video_file": "data/video/皮影戏.mp4",
+  "video_sha256": "377fcbe5ddcdf327c696f610de0b747adaa8df97cc129842dd50d68a73f6ae81",
+  "frames": [
+    {
+      "fraction": 0.5,
+      "duration_sec": 13.032,
+      "requested_sec": 6.516,
+      "actual_sec": 6.5,
+      "absolute_pts_sec": 6.5,
+      "frame_index": 195,
+      "frame_file": "experiments/innovation1/four_group_v2/source_preview/unmatched/皮影戏/source/50.jpg",
+      "sha256": "80de00ee2d169720df4ce6568d9b1bc743a2b53ea1a07a77d01ebe5d00c82c53",
+      "attempts": [
+        {
+          "index": 195,
+          "pts_sec": 6.5,
+          "black": false
+        }
+      ]
+    }
+  ],
+  "T": {
+    "fps": 29.75473783173069,
+    "decoded_frames": 391,
+    "duration_sec": 13.032,
+    "duration_scope_warning": "outside_3_to_5_seconds_review_scope"
+  },
+  "exception_rule": "nearest PTS; black >98% gray<8; previous then next within 0.1s; failure blocks; no aesthetic selection"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_RED_001",
+    "canonical_name": "北大红楼",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.907958984375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.908,
+    "text_score": 0.0,
+    "fusion_score": 0.908
+  },
+  {
+    "symbol_id": "BJ_RED_008",
+    "canonical_name": "中国人民革命军事博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.897705078125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8977,
+    "text_score": 0.0,
+    "fusion_score": 0.8977
+  },
+  {
+    "symbol_id": "CN2_MODERN_002",
+    "canonical_name": "鼓浪屿：历史国际社区",
+    "cultural_dimension": "现代城市与国际文化;古城与历史文化",
+    "dimension_code": "MODERN;ANCIENT",
+    "score": 0.874755859375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8748,
+    "text_score": 0.0,
+    "fusion_score": 0.8748
+  },
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.873779296875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8738,
+    "text_score": 0.0,
+    "fusion_score": 0.8738
+  },
+  {
+    "symbol_id": "CN_RED_002",
+    "canonical_name": "西柏坡纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.8701171875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8701,
+    "text_score": 0.0,
+    "fusion_score": 0.8701
+  }
+]

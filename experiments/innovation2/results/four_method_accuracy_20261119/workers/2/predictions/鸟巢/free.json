@@ -1,0 +1,23 @@
+{
+  "video_id": "鸟巢",
+  "gt_symbols": [
+    "鸟巢"
+  ],
+  "gt_symbol_ids": [
+    "BJ_INNOV_004"
+  ],
+  "gt_dimension_code": "TECH",
+  "kb_coverage": true,
+  "mode": "free",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为国家体育场（鸟巢）、国家游泳中心（水立方）。",
+  "pred_dimension": "科技与创新文化",
+  "unknown_symbol": false,
+  "symbol_correct": true,
+  "dimension_correct": true,
+  "topk_candidates": [],
+  "recall_at_5": null,
+  "seconds": 68.62,
+  "error_type": "",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/traces/鸟巢/free/trace.json"
+}

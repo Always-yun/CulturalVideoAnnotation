@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:37:42.804052+08:00",
+  "status": "completed",
+  "raw_reply": "{\"scene\":\"晴朗天气下的城市建筑群，仰视视角拍摄\",\"subject\":\"一座高耸的玻璃幕墙摩天大楼\",\"visible_features\":[\"玻璃幕墙、流线型顶部、垂直线条装饰、周围环绕其他高层建筑\"],\"background\":[\"蓝天、多栋不同风格的高层建筑\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "response_model": "glm-4v",
+  "response_id": "20261119163742339830e5c31c4b94",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=38070, prompt_tokens_details=PromptTokensDetails(cached_tokens=2), completion_tokens=78, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=38148)",
+  "seconds": 25.060442209243774
+}

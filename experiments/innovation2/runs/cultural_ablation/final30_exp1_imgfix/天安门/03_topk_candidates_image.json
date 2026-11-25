@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.92333984375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9233,
+    "text_score": 0.0,
+    "fusion_score": 0.9233
+  },
+  {
+    "symbol_id": "CN_RED_002",
+    "canonical_name": "西柏坡纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.9033203125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9033,
+    "text_score": 0.0,
+    "fusion_score": 0.9033
+  },
+  {
+    "symbol_id": "BJ_GUDU_010",
+    "canonical_name": "角楼",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.90234375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9023,
+    "text_score": 0.0,
+    "fusion_score": 0.9023
+  },
+  {
+    "symbol_id": "BJ_RED_002",
+    "canonical_name": "天安门广场",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.901123046875,
+    "reason": "关键词/别名命中：天安门",
+    "image_score": 0.9011,
+    "text_score": 1.0,
+    "fusion_score": 0.9011
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_015",
+    "canonical_name": "颐和园",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.89990234375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8999,
+    "text_score": 0.0,
+    "fusion_score": 0.8999
+  }
+]

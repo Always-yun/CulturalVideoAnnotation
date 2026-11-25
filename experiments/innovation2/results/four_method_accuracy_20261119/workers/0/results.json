@@ -1,0 +1,958 @@
+{
+  "config": {
+    "modes": [
+      "free",
+      "text",
+      "image",
+      "multimodal"
+    ],
+    "top_k": 5,
+    "fusion_alpha": 0.5,
+    "scene_cache": "fresh structured observation only",
+    "rejection_gate": false,
+    "identity_gate": false,
+    "controlled": false,
+    "scoring": "exact canonical/alias entity match; all asserted entities must be valid",
+    "ground_truth": "Existing labels retained, including KB gaps; not independent human reannotation"
+  },
+  "records": [
+    {
+      "video_id": "cbd",
+      "gt_symbols": [
+        "CBD"
+      ],
+      "gt_symbol_ids": [
+        "BJ_FASHION_003"
+      ],
+      "gt_dimension_code": "MODERN",
+      "kb_coverage": true,
+      "mode": "free",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为中央电视台总部大楼、中国尊、国贸三期、国贸一期。",
+      "pred_dimension": "现代城市与国际文化",
+      "unknown_symbol": false,
+      "symbol_correct": false,
+      "dimension_correct": true,
+      "topk_candidates": [],
+      "recall_at_5": null,
+      "seconds": 35.94,
+      "error_type": "entity_confusion_or_generation",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/traces/cbd/free/trace.json"
+    },
+    {
+      "video_id": "cbd",
+      "gt_symbols": [
+        "CBD"
+      ],
+      "gt_symbol_ids": [
+        "BJ_FASHION_003"
+      ],
+      "gt_dimension_code": "MODERN",
+      "kb_coverage": true,
+      "mode": "text",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为中国中央电视台总部大楼、中国尊、国贸中心。",
+      "pred_dimension": "现代城市与国际文化",
+      "unknown_symbol": false,
+      "symbol_correct": false,
+      "dimension_correct": true,
+      "topk_candidates": [
+        {
+          "symbol_id": "BJ_INNOV_009",
+          "canonical_name": "国家会议中心",
+          "cultural_dimension": "科技与创新文化",
+          "dimension_code": "TECH",
+          "score": 1.0,
+          "reason": "关键词/别名命中：玻璃幕墙",
+          "image_score": 0.0,
+          "text_score": 1.0,
+          "fusion_score": 1.0,
+          "ranking_score": null,
+          "retrieval_evidence": {}
+        },
+        {
+          "symbol_id": "BJ_FASHION_004",
+          "canonical_name": "国贸",
+          "cultural_dimension": "现代城市与国际文化",
+          "dimension_code": "MODERN",
+          "score": 1.0,
+          "reason": "关键词/别名命中：玻璃幕墙",
+          "image_score": 0.0,
+          "text_score": 1.0,
+          "fusion_score": 1.0,
+          "ranking_score": null,
+          "retrieval_evidence": {}
+        }
+      ],
+      "recall_at_5": false,
+      "seconds": 21.77,
+      "error_type": "retrieval_miss",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/traces/cbd/text/trace.json"
+    },
+    {
+      "video_id": "cbd",
+      "gt_symbols": [
+        "CBD"
+      ],
+      "gt_symbol_ids": [
+        "BJ_FASHION_003"
+      ],
+      "gt_dimension_code": "MODERN",
+      "kb_coverage": true,
+      "mode": "image",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "cbd",
+      "gt_symbols": [
+        "CBD"
+      ],
+      "gt_symbol_ids": [
+        "BJ_FASHION_003"
+      ],
+      "gt_dimension_code": "MODERN",
+      "kb_coverage": true,
+      "mode": "multimodal",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "cbd3",
+      "gt_symbols": [
+        "CBD"
+      ],
+      "gt_symbol_ids": [
+        "BJ_FASHION_003"
+      ],
+      "gt_dimension_code": "MODERN",
+      "kb_coverage": true,
+      "mode": "free",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为中国尊、国贸三期、央视总部大楼、望京SOHO。",
+      "pred_dimension": "现代城市与国际文化",
+      "unknown_symbol": false,
+      "symbol_correct": false,
+      "dimension_correct": true,
+      "topk_candidates": [],
+      "recall_at_5": null,
+      "seconds": 63.54,
+      "error_type": "entity_confusion_or_generation",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/cbd3/free/trace.json"
+    },
+    {
+      "video_id": "cbd3",
+      "gt_symbols": [
+        "CBD"
+      ],
+      "gt_symbol_ids": [
+        "BJ_FASHION_003"
+      ],
+      "gt_dimension_code": "MODERN",
+      "kb_coverage": true,
+      "mode": "text",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为中国尊、国贸三期、央视总部大楼、望京SOHO。",
+      "pred_dimension": "现代城市与国际文化",
+      "unknown_symbol": false,
+      "symbol_correct": false,
+      "dimension_correct": true,
+      "topk_candidates": [],
+      "recall_at_5": false,
+      "seconds": 64.62,
+      "error_type": "retrieval_miss",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/cbd3/text/trace.json"
+    },
+    {
+      "video_id": "cbd3",
+      "gt_symbols": [
+        "CBD"
+      ],
+      "gt_symbol_ids": [
+        "BJ_FASHION_003"
+      ],
+      "gt_dimension_code": "MODERN",
+      "kb_coverage": true,
+      "mode": "image",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "cbd3",
+      "gt_symbols": [
+        "CBD"
+      ],
+      "gt_symbol_ids": [
+        "BJ_FASHION_003"
+      ],
+      "gt_dimension_code": "MODERN",
+      "kb_coverage": true,
+      "mode": "multimodal",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "中关村展示中心",
+      "gt_symbols": [
+        "中关村国家自主创新示范区展示中心"
+      ],
+      "gt_symbol_ids": [
+        "CN2_TECH_005"
+      ],
+      "gt_dimension_code": "TECH",
+      "kb_coverage": true,
+      "mode": "free",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为国家会议中心（流线型建筑）。",
+      "pred_dimension": "科技与创新文化",
+      "unknown_symbol": false,
+      "symbol_correct": false,
+      "dimension_correct": true,
+      "topk_candidates": [],
+      "recall_at_5": null,
+      "seconds": 78.62,
+      "error_type": "entity_confusion_or_generation",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/中关村展示中心/free/trace.json"
+    },
+    {
+      "video_id": "中关村展示中心",
+      "gt_symbols": [
+        "中关村国家自主创新示范区展示中心"
+      ],
+      "gt_symbol_ids": [
+        "CN2_TECH_005"
+      ],
+      "gt_dimension_code": "TECH",
+      "kb_coverage": true,
+      "mode": "text",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为中关村国家自主创新示范区展示中心。",
+      "pred_dimension": "科技与创新文化",
+      "unknown_symbol": false,
+      "symbol_correct": true,
+      "dimension_correct": true,
+      "topk_candidates": [
+        {
+          "symbol_id": "CN2_TECH_005",
+          "canonical_name": "中关村国家自主创新示范区展示中心",
+          "cultural_dimension": "科技与创新文化",
+          "dimension_code": "TECH",
+          "score": 6.0,
+          "reason": "关键词/别名命中：展示中心",
+          "image_score": 0.0,
+          "text_score": 6.0,
+          "fusion_score": 6.0,
+          "ranking_score": null,
+          "retrieval_evidence": {}
+        }
+      ],
+      "recall_at_5": true,
+      "seconds": 74.51,
+      "error_type": "",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/中关村展示中心/text/trace.json"
+    },
+    {
+      "video_id": "中关村展示中心",
+      "gt_symbols": [
+        "中关村国家自主创新示范区展示中心"
+      ],
+      "gt_symbol_ids": [
+        "CN2_TECH_005"
+      ],
+      "gt_dimension_code": "TECH",
+      "kb_coverage": true,
+      "mode": "image",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "中关村展示中心",
+      "gt_symbols": [
+        "中关村国家自主创新示范区展示中心"
+      ],
+      "gt_symbol_ids": [
+        "CN2_TECH_005"
+      ],
+      "gt_dimension_code": "TECH",
+      "kb_coverage": true,
+      "mode": "multimodal",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "人民大会堂1",
+      "gt_symbols": [
+        "人民大会堂"
+      ],
+      "gt_symbol_ids": [],
+      "gt_dimension_code": "ANCIENT",
+      "kb_coverage": false,
+      "mode": "free",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为人民大会堂。",
+      "pred_dimension": "红色文化",
+      "unknown_symbol": false,
+      "symbol_correct": true,
+      "dimension_correct": false,
+      "topk_candidates": [],
+      "recall_at_5": null,
+      "seconds": 84.92,
+      "error_type": "",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/人民大会堂1/free/trace.json"
+    },
+    {
+      "video_id": "人民大会堂1",
+      "gt_symbols": [
+        "人民大会堂"
+      ],
+      "gt_symbol_ids": [],
+      "gt_dimension_code": "ANCIENT",
+      "kb_coverage": false,
+      "mode": "text",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为人民大会堂。",
+      "pred_dimension": "红色文化",
+      "unknown_symbol": false,
+      "symbol_correct": true,
+      "dimension_correct": false,
+      "topk_candidates": [
+        {
+          "symbol_id": "BJ_RED_002",
+          "canonical_name": "天安门广场",
+          "cultural_dimension": "红色文化",
+          "dimension_code": "RED",
+          "score": 3.0,
+          "reason": "关键词/别名命中：广场",
+          "image_score": 0.0,
+          "text_score": 3.0,
+          "fusion_score": 3.0,
+          "ranking_score": null,
+          "retrieval_evidence": {}
+        }
+      ],
+      "recall_at_5": null,
+      "seconds": 62.79,
+      "error_type": "",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/人民大会堂1/text/trace.json"
+    },
+    {
+      "video_id": "人民大会堂1",
+      "gt_symbols": [
+        "人民大会堂"
+      ],
+      "gt_symbol_ids": [],
+      "gt_dimension_code": "ANCIENT",
+      "kb_coverage": false,
+      "mode": "image",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "人民大会堂1",
+      "gt_symbols": [
+        "人民大会堂"
+      ],
+      "gt_symbol_ids": [],
+      "gt_dimension_code": "ANCIENT",
+      "kb_coverage": false,
+      "mode": "multimodal",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "兔爷",
+      "gt_symbols": [
+        "兔儿爷"
+      ],
+      "gt_symbol_ids": [
+        "BJ_JINGWEI_004"
+      ],
+      "gt_dimension_code": "FOLK",
+      "kb_coverage": true,
+      "mode": "free",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为兔儿爷。",
+      "pred_dimension": "民族与民俗文化",
+      "unknown_symbol": false,
+      "symbol_correct": true,
+      "dimension_correct": true,
+      "topk_candidates": [],
+      "recall_at_5": null,
+      "seconds": 51.35,
+      "error_type": "",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/兔爷/free/trace.json"
+    },
+    {
+      "video_id": "兔爷",
+      "gt_symbols": [
+        "兔儿爷"
+      ],
+      "gt_symbol_ids": [
+        "BJ_JINGWEI_004"
+      ],
+      "gt_dimension_code": "FOLK",
+      "kb_coverage": true,
+      "mode": "text",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为兔儿爷。",
+      "pred_dimension": "民族与民俗文化",
+      "unknown_symbol": false,
+      "symbol_correct": true,
+      "dimension_correct": true,
+      "topk_candidates": [
+        {
+          "symbol_id": "BJ_JINGWEI_004",
+          "canonical_name": "兔儿爷",
+          "cultural_dimension": "民族与民俗文化",
+          "dimension_code": "FOLK",
+          "score": 3.0,
+          "reason": "关键词/别名命中：兔爷",
+          "image_score": 0.0,
+          "text_score": 3.0,
+          "fusion_score": 3.0,
+          "ranking_score": null,
+          "retrieval_evidence": {}
+        }
+      ],
+      "recall_at_5": true,
+      "seconds": 45.29,
+      "error_type": "",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/兔爷/text/trace.json"
+    },
+    {
+      "video_id": "兔爷",
+      "gt_symbols": [
+        "兔儿爷"
+      ],
+      "gt_symbol_ids": [
+        "BJ_JINGWEI_004"
+      ],
+      "gt_dimension_code": "FOLK",
+      "kb_coverage": true,
+      "mode": "image",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "兔爷",
+      "gt_symbols": [
+        "兔儿爷"
+      ],
+      "gt_symbol_ids": [
+        "BJ_JINGWEI_004"
+      ],
+      "gt_dimension_code": "FOLK",
+      "kb_coverage": true,
+      "mode": "multimodal",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "国博",
+      "gt_symbols": [
+        "中国国家博物馆"
+      ],
+      "gt_symbol_ids": [
+        "BJ_RED_006"
+      ],
+      "gt_dimension_code": "RED",
+      "kb_coverage": true,
+      "mode": "free",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为国家博物馆建筑、红色横幅、中华人民共和国国徽。",
+      "pred_dimension": "红色文化",
+      "unknown_symbol": false,
+      "symbol_correct": false,
+      "dimension_correct": true,
+      "topk_candidates": [],
+      "recall_at_5": null,
+      "seconds": 87.84,
+      "error_type": "entity_confusion_or_generation",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/国博/free/trace.json"
+    },
+    {
+      "video_id": "国博",
+      "gt_symbols": [
+        "中国国家博物馆"
+      ],
+      "gt_symbol_ids": [
+        "BJ_RED_006"
+      ],
+      "gt_dimension_code": "RED",
+      "kb_coverage": true,
+      "mode": "text",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为中国国家博物馆。",
+      "pred_dimension": "红色文化",
+      "unknown_symbol": false,
+      "symbol_correct": true,
+      "dimension_correct": true,
+      "topk_candidates": [
+        {
+          "symbol_id": "BJ_RED_006",
+          "canonical_name": "中国国家博物馆",
+          "cultural_dimension": "红色文化",
+          "dimension_code": "RED",
+          "score": 6.0,
+          "reason": "关键词/别名命中：中国国家博物馆、国家博物馆",
+          "image_score": 0.0,
+          "text_score": 6.0,
+          "fusion_score": 6.0,
+          "ranking_score": null,
+          "retrieval_evidence": {}
+        }
+      ],
+      "recall_at_5": true,
+      "seconds": 53.74,
+      "error_type": "",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/国博/text/trace.json"
+    },
+    {
+      "video_id": "国博",
+      "gt_symbols": [
+        "中国国家博物馆"
+      ],
+      "gt_symbol_ids": [
+        "BJ_RED_006"
+      ],
+      "gt_dimension_code": "RED",
+      "kb_coverage": true,
+      "mode": "image",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "国博",
+      "gt_symbols": [
+        "中国国家博物馆"
+      ],
+      "gt_symbol_ids": [
+        "BJ_RED_006"
+      ],
+      "gt_dimension_code": "RED",
+      "kb_coverage": true,
+      "mode": "multimodal",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "太和殿",
+      "gt_symbols": [
+        "太和殿"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_002"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "kb_coverage": true,
+      "mode": "free",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为太和殿。",
+      "pred_dimension": "古城与历史文化",
+      "unknown_symbol": false,
+      "symbol_correct": true,
+      "dimension_correct": true,
+      "topk_candidates": [],
+      "recall_at_5": null,
+      "seconds": 143.89,
+      "error_type": "",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/太和殿/free/trace.json"
+    },
+    {
+      "video_id": "太和殿",
+      "gt_symbols": [
+        "太和殿"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_002"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "kb_coverage": true,
+      "mode": "text",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为太和殿。",
+      "pred_dimension": "古城与历史文化",
+      "unknown_symbol": false,
+      "symbol_correct": true,
+      "dimension_correct": true,
+      "topk_candidates": [
+        {
+          "symbol_id": "BJ_GUDU_002",
+          "canonical_name": "太和殿",
+          "cultural_dimension": "古城与历史文化",
+          "dimension_code": "ANCIENT",
+          "score": 6.0,
+          "reason": "关键词/别名命中：太和殿",
+          "image_score": 0.0,
+          "text_score": 6.0,
+          "fusion_score": 6.0,
+          "ranking_score": null,
+          "retrieval_evidence": {}
+        }
+      ],
+      "recall_at_5": true,
+      "seconds": 66.26,
+      "error_type": "",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/太和殿/text/trace.json"
+    },
+    {
+      "video_id": "太和殿",
+      "gt_symbols": [
+        "太和殿"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_002"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "kb_coverage": true,
+      "mode": "image",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "太和殿",
+      "gt_symbols": [
+        "太和殿"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_002"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "kb_coverage": true,
+      "mode": "multimodal",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "故宫全景",
+      "gt_symbols": [
+        "故宫"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_001"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "kb_coverage": true,
+      "mode": "free",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为故宫（紫禁城）、红墙黄瓦、飞檐斗拱。",
+      "pred_dimension": "古城与历史文化",
+      "unknown_symbol": false,
+      "symbol_correct": true,
+      "dimension_correct": true,
+      "topk_candidates": [],
+      "recall_at_5": null,
+      "seconds": 93.97,
+      "error_type": "",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/故宫全景/free/trace.json"
+    },
+    {
+      "video_id": "故宫全景",
+      "gt_symbols": [
+        "故宫"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_001"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "kb_coverage": true,
+      "mode": "text",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为故宫。",
+      "pred_dimension": "古城与历史文化",
+      "unknown_symbol": false,
+      "symbol_correct": true,
+      "dimension_correct": true,
+      "topk_candidates": [
+        {
+          "symbol_id": "BJ_GUDU_001",
+          "canonical_name": "故宫",
+          "cultural_dimension": "古城与历史文化",
+          "dimension_code": "ANCIENT",
+          "score": 9.0,
+          "reason": "关键词/别名命中：故宫、故宫博物院",
+          "image_score": 0.0,
+          "text_score": 9.0,
+          "fusion_score": 9.0,
+          "ranking_score": null,
+          "retrieval_evidence": {}
+        },
+        {
+          "symbol_id": "BJ_RED_002",
+          "canonical_name": "天安门广场",
+          "cultural_dimension": "红色文化",
+          "dimension_code": "RED",
+          "score": 3.0,
+          "reason": "关键词/别名命中：广场",
+          "image_score": 0.0,
+          "text_score": 3.0,
+          "fusion_score": 3.0,
+          "ranking_score": null,
+          "retrieval_evidence": {}
+        },
+        {
+          "symbol_id": "BJ_FASHION_003",
+          "canonical_name": "CBD",
+          "cultural_dimension": "现代城市与国际文化",
+          "dimension_code": "MODERN",
+          "score": 3.0,
+          "reason": "关键词/别名命中：天际线",
+          "image_score": 0.0,
+          "text_score": 3.0,
+          "fusion_score": 3.0,
+          "ranking_score": null,
+          "retrieval_evidence": {}
+        }
+      ],
+      "recall_at_5": true,
+      "seconds": 48.56,
+      "error_type": "",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/故宫全景/text/trace.json"
+    },
+    {
+      "video_id": "故宫全景",
+      "gt_symbols": [
+        "故宫"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_001"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "kb_coverage": true,
+      "mode": "image",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "故宫全景",
+      "gt_symbols": [
+        "故宫"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_001"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "kb_coverage": true,
+      "mode": "multimodal",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "糖葫芦",
+      "gt_symbols": [
+        "冰糖葫芦"
+      ],
+      "gt_symbol_ids": [],
+      "gt_dimension_code": "FOLK",
+      "kb_coverage": false,
+      "mode": "free",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为[冰糖葫芦]。",
+      "pred_dimension": "民族与民俗文化",
+      "unknown_symbol": false,
+      "symbol_correct": true,
+      "dimension_correct": true,
+      "topk_candidates": [],
+      "recall_at_5": null,
+      "seconds": 82.15,
+      "error_type": "",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/糖葫芦/free/trace.json"
+    },
+    {
+      "video_id": "糖葫芦",
+      "gt_symbols": [
+        "冰糖葫芦"
+      ],
+      "gt_symbol_ids": [],
+      "gt_dimension_code": "FOLK",
+      "kb_coverage": false,
+      "mode": "text",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为[冰糖葫芦]。",
+      "pred_dimension": "民族与民俗文化",
+      "unknown_symbol": false,
+      "symbol_correct": true,
+      "dimension_correct": true,
+      "topk_candidates": [],
+      "recall_at_5": null,
+      "seconds": 36.74,
+      "error_type": "",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/糖葫芦/text/trace.json"
+    },
+    {
+      "video_id": "糖葫芦",
+      "gt_symbols": [
+        "冰糖葫芦"
+      ],
+      "gt_symbol_ids": [],
+      "gt_dimension_code": "FOLK",
+      "kb_coverage": false,
+      "mode": "image",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "糖葫芦",
+      "gt_symbols": [
+        "冰糖葫芦"
+      ],
+      "gt_symbol_ids": [],
+      "gt_dimension_code": "FOLK",
+      "kb_coverage": false,
+      "mode": "multimodal",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "角楼",
+      "gt_symbols": [
+        "角楼"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_010"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "kb_coverage": true,
+      "mode": "free",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为角楼、护城河、城墙。",
+      "pred_dimension": "古城与历史文化",
+      "unknown_symbol": false,
+      "symbol_correct": false,
+      "dimension_correct": true,
+      "topk_candidates": [],
+      "recall_at_5": null,
+      "seconds": 59.14,
+      "error_type": "entity_confusion_or_generation",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/角楼/free/trace.json"
+    },
+    {
+      "video_id": "角楼",
+      "gt_symbols": [
+        "角楼"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_010"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "kb_coverage": true,
+      "mode": "text",
+      "status": "completed",
+      "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为角楼。",
+      "pred_dimension": "古城与历史文化",
+      "unknown_symbol": false,
+      "symbol_correct": true,
+      "dimension_correct": true,
+      "topk_candidates": [
+        {
+          "symbol_id": "BJ_GUDU_010",
+          "canonical_name": "角楼",
+          "cultural_dimension": "古城与历史文化",
+          "dimension_code": "ANCIENT",
+          "score": 6.0,
+          "reason": "关键词/别名命中：角楼",
+          "image_score": 0.0,
+          "text_score": 6.0,
+          "fusion_score": 6.0,
+          "ranking_score": null,
+          "retrieval_evidence": {}
+        },
+        {
+          "symbol_id": "CN_MODERN_001",
+          "canonical_name": "杭州西湖文化景观",
+          "cultural_dimension": "现代城市与国际文化",
+          "dimension_code": "MODERN",
+          "score": 1.0,
+          "reason": "关键词/别名命中：湖面",
+          "image_score": 0.0,
+          "text_score": 1.0,
+          "fusion_score": 1.0,
+          "ranking_score": null,
+          "retrieval_evidence": {}
+        }
+      ],
+      "recall_at_5": true,
+      "seconds": 47.34,
+      "error_type": "",
+      "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/角楼/text/trace.json"
+    },
+    {
+      "video_id": "角楼",
+      "gt_symbols": [
+        "角楼"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_010"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "kb_coverage": true,
+      "mode": "image",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    },
+    {
+      "video_id": "角楼",
+      "gt_symbols": [
+        "角楼"
+      ],
+      "gt_symbol_ids": [
+        "BJ_GUDU_010"
+      ],
+      "gt_dimension_code": "ANCIENT",
+      "kb_coverage": true,
+      "mode": "multimodal",
+      "status": "blocked_material",
+      "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+    }
+  ],
+  "summaries": [
+    {
+      "mode": "free",
+      "expected": 30,
+      "attempted": 10,
+      "completed": 10,
+      "correct": 5,
+      "accuracy": null,
+      "completed_accuracy": 0.5,
+      "dimension_correct": 9,
+      "failed": 0,
+      "blocked": 0
+    },
+    {
+      "mode": "text",
+      "expected": 30,
+      "attempted": 10,
+      "completed": 10,
+      "correct": 8,
+      "accuracy": null,
+      "completed_accuracy": 0.8,
+      "dimension_correct": 9,
+      "failed": 0,
+      "blocked": 0
+    },
+    {
+      "mode": "image",
+      "expected": 30,
+      "attempted": 0,
+      "completed": 0,
+      "correct": 0,
+      "accuracy": null,
+      "completed_accuracy": null,
+      "dimension_correct": 0,
+      "failed": 0,
+      "blocked": 10
+    },
+    {
+      "mode": "multimodal",
+      "expected": 30,
+      "attempted": 0,
+      "completed": 0,
+      "correct": 0,
+      "accuracy": null,
+      "completed_accuracy": null,
+      "dimension_correct": 0,
+      "failed": 0,
+      "blocked": 10
+    }
+  ]
+}

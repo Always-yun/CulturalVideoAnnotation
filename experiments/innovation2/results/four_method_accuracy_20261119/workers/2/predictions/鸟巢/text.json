@@ -1,0 +1,37 @@
+{
+  "video_id": "鸟巢",
+  "gt_symbols": [
+    "鸟巢"
+  ],
+  "gt_symbol_ids": [
+    "BJ_INNOV_004"
+  ],
+  "gt_dimension_code": "TECH",
+  "kb_coverage": true,
+  "mode": "text",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为国家体育场（鸟巢）。",
+  "pred_dimension": "科技与创新文化",
+  "unknown_symbol": false,
+  "symbol_correct": true,
+  "dimension_correct": true,
+  "topk_candidates": [
+    {
+      "symbol_id": "BJ_INNOV_004",
+      "canonical_name": "鸟巢",
+      "cultural_dimension": "科技与创新文化;现代城市与国际文化",
+      "dimension_code": "TECH;MODERN",
+      "score": 3.0,
+      "reason": "关键词/别名命中：钢结构",
+      "image_score": 0.0,
+      "text_score": 3.0,
+      "fusion_score": 3.0,
+      "ranking_score": null,
+      "retrieval_evidence": {}
+    }
+  ],
+  "recall_at_5": true,
+  "seconds": 38.09,
+  "error_type": "",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/traces/鸟巢/text/trace.json"
+}

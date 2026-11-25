@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_RED_004",
+    "canonical_name": "卢沟桥",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.80072021484375,
+    "reason": "关键词/别名命中：石狮",
+    "image_score": 0.6014,
+    "text_score": 1.0,
+    "fusion_score": 0.8007
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_007",
+    "canonical_name": "北京庙会",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.47669474283854163,
+    "reason": "关键词/别名命中：红灯笼",
+    "image_score": 0.6201,
+    "text_score": 0.3333,
+    "fusion_score": 0.4767
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_011",
+    "canonical_name": "五台山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.31585693359375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6317,
+    "text_score": 0.0,
+    "fusion_score": 0.3159
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_007",
+    "canonical_name": "登封“天地之中”历史古迹",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.31561279296875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6312,
+    "text_score": 0.0,
+    "fusion_score": 0.3156
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_023",
+    "canonical_name": "峨眉山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.3150634765625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6301,
+    "text_score": 0.0,
+    "fusion_score": 0.3151
+  }
+]

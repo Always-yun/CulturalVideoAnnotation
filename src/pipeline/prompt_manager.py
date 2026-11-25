@@ -1,73 +1,27 @@
 """
-提示词管理模块 (EMCAST v2.2 多建筑解耦独立标注版)
+提示词管理模块 (EMCAST v2.3 多建筑解耦独立标注 + 中华文化维度受控版)
 负责管理和生成符合学术级受控词表约束的提示词模板
 深度修复多建筑形态被模型强行合并、糊弄描述的底层缺陷
+
+创新点2升级：
+- C 文化维度层由"北京地方文化硬编码"升级为面向中华文化的新五维受控分类；
+- 支持注入知识库检索得到的 Top-K 文化符号候选（cultural_candidates），
+  候选仅作参考，最终维度与符号须结合画面判定（动态 Prompt / RAG 插槽）；
+- 五维分类与符号词表统一从 src.metrics.emcast_schema 获取，避免多处维护。
 """
 
-from typing import Dict, Any, Optional
+from typing import Dict, Any, List, Optional
 import os
+
+from ..metrics.emcast_schema import CULTURAL_CATEGORIES, CULTURAL_SYMBOLS
 
 
 class PromptManager:
     """提示词管理器，负责生成和管理统一的标准闭集约束提示词"""
 
-    # 按文化类别分组的场景关键词数据：(关键词, 描述, 地点)
-    # 相比原来逐条重复写 "category" 字段，这里每个类别的名称只出现一次，
-    # 同时修复了原版中「圆明园」缺失 category 字段（写串到 description 里）的 bug，
-    # 按文化类别分组的场景关键词数据：(关键词, 描述, 地点)
-    # （已注释，当前所有内容硬性判定为创新科技文化，无需场景匹配）
-    #
-    # _CATEGORY_SCENES = {
-    #     "创新科技文化": [
-    #         ("中关村", "中关村论坛、科技园区、前沿实验室等体现当代科技气质的内容",
-    #          "中关村国际创新中心、中关村国家自主创新示范区展示中心等论坛活动场所"),
-    #         ("科技", "科技园区、前沿技术、现代科技设施", "科技相关场所"),
-    #         ("创新", "创新园区、创新中心、科技创新展示", "创新相关场所"),
-    #         ("大兴机场", "大兴机场及周边现代化设施", "北京大兴国际机场"),
-    #         ("自动驾驶", "自动驾驶车辆、智能交通", "自动驾驶测试区域"),
-    #         ("数字", "数字科技、数字化展示", "数字科技相关场所"),
-    #     ],
-    #     "古都文化": [
-    #         ("故宫", "故宫博物院及周边历史建筑", "故宫博物院"),
-    #         ("中轴线", "北京中轴线及其周边历史遗迹", "北京中轴线区域"),
-    #         ("钟鼓楼", "钟楼、鼓楼及周边历史区域", "钟鼓楼"),
-    #         ("长城", "长城及相关历史遗迹", "长城"),
-    #         ("皇城", "皇城格局及相关历史建筑", "皇城区域"),
-    #         ("天坛", "天坛及周边历史区域", "天坛公园"),
-    #         ("颐和园", "颐和园及周边皇家园林", "颐和园"),
-    #         ("圆明园", "圆明园遗址及周边区域", "圆明园"),
-    #         ("历史", "历史建筑、历史遗迹", "历史相关场所"),
-    #     ],
-    #     "红色文化": [
-    #         ("天安门", "天安门广场及周边纪念设施", "天安门广场"),
-    #         ("革命", "革命旧址、纪念设施", "革命纪念场所"),
-    #         ("国家庆典", "国家庆典相关活动", "庆典活动场所"),
-    #         ("博物馆", "革命博物馆、历史博物馆", "博物馆"),
-    #     ],
-    #     "京味文化": [
-    #         ("胡同", "胡同生活、老北京风情", "胡同区域"),
-    #         ("老字号", "老字号店铺、传统商业", "老字号店铺"),
-    #         ("京剧", "京剧表演、传统戏曲", "戏曲演出场所"),
-    #         ("相声", "相声表演、传统曲艺", "曲艺演出场所"),
-    #         ("非遗", "非物质文化遗产、传统手工艺", "非遗展示场所"),
-    #         ("民俗", "民俗活动、传统节日", "民俗活动场所"),
-    #     ],
-    #     "国际时尚文化": [
-    #         ("三里屯", "国际消费商圈、时尚购物", "三里屯"),
-    #         ("亮马河", "国际商圈、高端消费", "亮马河"),
-    #         ("使馆区", "使馆区、外交场所", "使馆区"),
-    #         ("外交", "重大外交活动场所", "外交活动场所"),
-    #         ("国际", "国际活动、国际交流", "国际活动场所"),
-    #     ],
-    # }
-
-    # 展开为原来的扁平结构，供 _detect_scene_from_path 直接查表使用
-    # （已注释，配合 _CATEGORY_SCENES 一起停用，当前无需场景匹配）
-    # SCENE_KEYWORDS = {
-    #     keyword: {"category": category, "description": description, "location": location}
-    #     for category, entries in _CATEGORY_SCENES.items()
-    #     for keyword, description, location in entries
-    # }
+    # 历史上基于视频路径关键词锁定场景范围的 _CATEGORY_SCENES / SCENE_KEYWORDS
+    # 已随创新点2升级移除：文化维度改为由"中华文化五维闭集 + 知识库 Top-K 候选"
+    # 动态驱动（见 _build_c_layer_instruction 与 src/knowledge 检索器）。
 
     # 技术属性层 / 元数据参考信息共用的字段定义： (metadata键, 展示标签, 单位后缀)
     _TECH_FIELDS = [
@@ -90,16 +44,192 @@ class PromptManager:
         self._template_prompt = None
 
     def _detect_scene_from_path(self, video_path: str) -> Dict[str, str]:
-        """从视频路径中动态检索并锁定推理范围
-        （当前已停用动态检索，所有内容默认创新科技文化，此处返回空信息）
+        """从视频路径推断场景范围（已停用）。
+
+        文化维度不再由路径关键词锁定，统一走五维闭集 + 知识库 Top-K 候选，
+        故此函数始终返回空信息，仅保留接口以兼容旧调用。
         """
-        # 停用场景匹配，直接返回空
         return {"category": "", "description": "", "location": ""}
 
+    def _format_cultural_candidates(self, cultural_candidates: Optional[List[Dict[str, Any]]],
+                                    controlled: bool = False,
+                                    rejection: Optional[Dict[str, Any]] = None) -> str:
+        """把知识库检索到的 Top-K 文化符号候选渲染为 C 层提示文本（动态 Prompt 插槽）
+
+        controlled=False：候选仅作参考线索（自由判定）；
+        controlled=True：候选升级为受控闭集（消融实验模式5）；
+        rejection：拒识门控决策（score/margin/视觉证据三信号），注入检索置信度
+        快照，使模型可感知"检索其实高度不确定"，避免顺候选强行匹配。
+        """
+        if not cultural_candidates:
+            return ""
+        if controlled:
+            lines = [
+                f"- 受控候选闭集（知识库检索 Top-{len(cultural_candidates)}）："
+            ]
+        else:
+            lines = [
+                f"- 知识库候选（检索 Top-{len(cultural_candidates)}，仅供参考，须结合画面实际判定，禁止照抄）："
+            ]
+        for i, s in enumerate(cultural_candidates, 1):
+            aliases = s.get('aliases') or []
+            alias_txt = f"；别名：{'、'.join(aliases)}" if aliases else ""
+            lines.append(
+                f"    {i}. {s.get('canonical_name', '')}"
+                f"（维度：{s.get('cultural_dimension', '')}{alias_txt}；"
+                f"典型视觉特征：{s.get('visual_features', '')}）"
+            )
+        # 检索置信度快照（分数感知注入：让模型看到候选之间的区分度）
+        if rejection:
+            sig = rejection.get("signals", {}) or {}
+            t1, mg = sig.get("top1_score"), sig.get("margin_rel")
+            if t1 is not None:
+                conf = {"confident": "高", "uncertain": "低（区分度不足）",
+                        "insufficient": "不足（证据不达标）"}.get(rejection.get("level", ""), "")
+                lines.append(
+                    f"    [检索置信度] Top1检索分={t1}，Top1-Top2相对分差={mg}，"
+                    f"门控判定：{conf}")
+        return "\n".join(lines) + "\n"
+
+    def _build_c_dimension_hint(self) -> str:
+        """五维闭集 + 各维度代表性符号锚点（取自统一受控词表 CULTURAL_SYMBOLS）"""
+        lines = []
+        for dim in CULTURAL_CATEGORIES:
+            examples = "、".join(CULTURAL_SYMBOLS.get(dim, [])[:8])
+            lines.append(f"    · {dim}：{examples}")
+        return "\n".join(lines)
+
+    def _build_c_layer_instruction(self, cultural_candidates: Optional[List[Dict[str, Any]]],
+                                   controlled: bool = False,
+                                   rejection: Optional[Dict[str, Any]] = None) -> str:
+        """构建 C 文化维度层的判定指令（新五维受控 + 可选 Top-K 候选注入 + 门控拒识）
+
+        rejection 三档（RejectionGate 产出，阈值来自验证集搜索）：
+        - insufficient：检索分数/关键词/场景负信号任一不达标 → 知识库无可靠对应
+          符号，强制输出 unknown_symbol（受控闭集同时解除，禁止错误匹配）；
+        - uncertain：分数达标但 Top1-Top2 分差不足 → 候选区分度低，仅画面证据
+          明确对应才可选，否则 unknown_symbol；
+        - confident / None：维持原有判定规则。
+        """
+        dims = "、".join(CULTURAL_CATEGORIES)
+        candidate_text = self._format_cultural_candidates(
+            cultural_candidates, controlled=controlled, rejection=rejection)
+        hint = self._build_c_dimension_hint()
+        level = (rejection or {}).get("level", "")
+
+        if level == "insufficient":
+            sig = (rejection or {}).get("signals", {}) or {}
+            reason = (rejection or {}).get("reason", "")
+            gate_text = (
+                f"- 【拒识指令｜检索证据不足，最高优先级】知识库检索置信度不足（{reason}；"
+                f"Top1检索分={sig.get('top1_score')}，命中关键词数={sig.get('n_keywords')}），"
+                "说明知识库中很可能没有与画面可靠对应的文化符号：\n"
+                "  * 默认输出 unknown_symbol，并在价值指向中说明画面实际可见的视觉元素；\n"
+                "  * 唯一例外：画面中出现与某个候选（规范名或别名）明确对应的决定性视觉证据"
+                "（候选符号的专有名称文字、其独有标志性形态），此时才可输出该候选的规范名并写出对应依据；\n"
+                "  * 若画面中清晰可读的专有名称不属于任何候选（如知识库未收录的建筑/物件名称），"
+                "核心符号必须输出 unknown_symbol，并在价值指向中如实记录画面可见名称，"
+                "严禁把该名称当作结论——错误匹配比拒识更严重。\n"
+                "  * 候选列表仅作背景参考，不构成可选答案（闭集约束在本档位解除）。\n"
+            )
+            rule_text = ""  # 覆盖原有规则，以拒识指令为准
+        elif level == "uncertain":
+            sig = (rejection or {}).get("signals", {}) or {}
+            gate_text = (
+                f"- 【拒识指令｜候选区分度不足】Top1 与 Top2 检索分差过小"
+                f"（相对分差={sig.get('margin_rel')} < 门限{sig.get('margin_thr')}），"
+                "候选之间无法区分，存在强行匹配风险：\n"
+                "  * 仅当画面证据能明确对应其中某一个候选（如出现其专有名称、独有标志性形态）时，"
+                "才输出该候选的规范名，并在价值指向中写出对应的具体画面依据；\n"
+                "  * 若画面无法与任一候选明确对应，必须输出 unknown_symbol，禁止凭猜测选择。\n"
+            )
+            rule_text = ""
+        else:
+            gate_text = ""
+            if controlled:
+                rule_text = (
+                    "- 受控输出规则：核心符号必须且只能从上述受控候选闭集中选择（使用其规范名）；"
+                    "若画面主体与任一候选都无法可靠对应（没有专有名称、独有形态等明确依据），"
+                    "必须输出 unknown_symbol 并在价值指向中说明画面证据；"
+                    "若画面中清晰可读的专有名称不属于任何候选（规范名或别名），"
+                    "核心符号必须输出 unknown_symbol，并在价值指向中如实记录画面可见名称；"
+                    "严禁借用候选之外的名称或自造名称充当结论。\n"
+                )
+            elif cultural_candidates:
+                rule_text = ("- 候选使用规则：知识库候选仅作参考线索，不得直接照抄为结论；"
+                             "候选与画面不符或画面证据不足时，核心符号必须输出 unknown_symbol，"
+                             "并在价值指向中说明画面证据为何不足以匹配；"
+                             "若画面中清晰可读的专有名称不属于任何候选（规范名或别名），"
+                             "核心符号必须输出 unknown_symbol，并在价值指向中如实记录画面可见名称，"
+                             "严禁强行匹配。\n")
+            else:
+                rule_text = ("- 无知识库候选辅助：核心符号完全依据画面证据判定，"
+                             "画面证据不足时输出 unknown_symbol，严禁强行匹配。\n")
+        return (
+            "【C｜文化维度层】\n"
+            "- 标注目标：界定视频的文化本体属性与符号学内涵。\n"
+            f"- 分类标准：从中华文化五维闭集中选择最契合的一项——{dims}；"
+            "单一维度优先，确属跨界时可用分号并列（最多2个）。\n"
+            "- 各维度典型符号锚点（受控参考，非穷举）：\n"
+            f"{hint}\n"
+            f"{candidate_text}"
+            "- 判定要求：以画面真实视觉证据为唯一依据，禁止脱离画面臆测；"
+            "核心符号须精准锚定承载该文化内涵的关键视觉要素"
+            "（如斗拱飞檐/红墙黄瓦、红色纪念设施、民俗物件与戏曲、科技地标、现代都市天际线等）。\n"
+            f"{gate_text}"
+            f"{rule_text}"
+        )
+
+    def _build_c_layer_template(self, rejection: Optional[Dict[str, Any]] = None) -> str:
+        """构建 C 文化维度层的输出模板（闭集选择 + 门控拒识级联）
+
+        insufficient 档的核心符号行默认 unknown_symbol（保留决定性视觉证据例外），
+        使输出模板与拒识指令一致——修复旧实验"指令要求拒识、模板却引导照写画面"
+        的冲突（非受控模式下模型顺着模板直写画面元素绕过拒识的根因之一）。
+        """
+        dims = "/".join(CULTURAL_CATEGORIES)
+        level = (rejection or {}).get("level", "")
+        if level == "insufficient":
+            symbol_line = (
+                "核心符号：unknown_symbol（知识库检索证据不足；"
+                "仅当画面存在与某个候选（规范名或别名）明确对应的决定性视觉证据时，"
+                "才可改写为该候选规范名；若画面可见的专有名称不在候选列表中，"
+                "保持 unknown_symbol 并在价值指向中如实记录该名称）。\n"
+            )
+        elif level == "uncertain":
+            symbol_line = (
+                "核心符号：识别出承载该文化内涵的关键视觉锚点为[具体元素，尽量使用知识库规范名；"
+                "候选区分度不足，无法与任一候选明确对应时必须输出 unknown_symbol]。\n"
+            )
+        else:
+            symbol_line = (
+                "核心符号：识别出承载该文化内涵的关键视觉锚点为[具体元素，尽量使用知识库规范名；"
+                "画面证据不足时输出 unknown_symbol]。\n"
+            )
+        return (
+            f"【C｜文化维度层】：该场景隶属于[{dims}中的一项（确属跨界可分号并列，最多2个）]。\n\n"
+            f"{symbol_line}"
+            "价值指向：[结合该符号的历史文化背景，阐明其文化内涵与时代价值]。\n"
+        )
+
     def get_emcast_prompt(self, video_metadata: Optional[Dict[str, Any]] = None,
-                          video_path: Optional[str] = None) -> str:
+                          video_path: Optional[str] = None,
+                          cultural_candidates: Optional[List[Dict[str, Any]]] = None,
+                          controlled_output: bool = False,
+                          rejection: Optional[Dict[str, Any]] = None) -> str:
         """
         获取全面对接多建筑独立分层拆分规范的EMCAST六维分层标注提示词
+
+        Args:
+            video_metadata: ffprobe 解析的视频技术元数据
+            video_path: 视频路径（预留给场景/地域感知）
+            cultural_candidates: 知识库检索得到的 Top-K 文化符号候选（dict 列表），
+                由 src.knowledge 检索器产出；None 表示不注入候选，仅按五维闭集判定。
+            controlled_output: 受控输出模式（消融实验模式5）：候选作为闭集，
+                核心符号必须从候选中选择或输出 unknown_symbol；
+                False（默认）时候选仅作参考线索（保持既有行为）。
+            rejection: 拒识门控决策（RejectionGate 三信号产出）；
+                insufficient=强制拒识，uncertain=区分度警告，None/confident=旧行为。
         """
         scene_info = self._detect_scene_from_path(video_path)
         scene_category = scene_info.get("category", "")
@@ -107,6 +237,9 @@ class PromptManager:
         scene_location = scene_info.get("location", "")
 
         tech_layer_template = self._generate_tech_layer_template(video_metadata)
+        c_layer_instruction = self._build_c_layer_instruction(
+            cultural_candidates, controlled=controlled_output, rejection=rejection)
+        c_layer_template = self._build_c_layer_template(rejection)
 
         # 构建播放速度检测指令（优先级：ffprobe帧率检测 > LLM视觉验证）
         speed_status = "[正常速度]"
@@ -157,7 +290,7 @@ class PromptManager:
             task_context = ""
 
         prompt = (
-            "你是一位专业的北京城市文化与视听语言分析师，严格遵循「EMCAST六维分层标注体系」对视频进行标注。\n"
+            "你是一位专业的中华文化与视听语言分析师，严格遵循「EMCAST六维分层标注体系」对视频进行标注。\n"
             f"{task_context}"
             "请严格执行以下双重规范：\n\n"
             "============================================================\n"
@@ -172,14 +305,8 @@ class PromptManager:
             "  1. 本次标注任务以建筑空间为主。你必须把出现在画面中的、看起来像核心主体的建筑全部标注并罗列出来。若画面同时包含多座外观或功能不同的独立建筑（如一个长方形、一个流线圆形），你必须在输出时‘完全清晰拆分描述’各自独立的特征。严禁使用一个合成句将不同形态的建筑混淆合并描述。\n"
             "  2. 对于每一座罗列出来的核心建筑，必须独立写清其具体的[方位/相对位置]+[几何形态]（如：曲面、流线型、轴对称、矩形矩阵、飞檐斗拱）以及各自对应的[外立面材质质感]（如：玻璃幕墙、金属铝板、清水混凝土、青砖灰瓦）。\n"
             "  3. 活跃主体判定：如果活跃主体（如人物、车辆）在全图画面中的视觉占比小于或等于 70%，经判断不是主要焦点，则在最终输出中必须‘完全剥离、剔除并隐藏’任何关于活跃主体动态以及关系的字眼。只有当活跃主体占比大于 70% 时，才允许在‘视觉焦点’中并列写出活跃主体并保留其动态和关系描述。\n\n"
-            # 【C｜文化维度层】
-            # - 标注目标：界定视频的文化本体属性与符号学内涵。
-            # - 分类标准（唯一排他性选择）：古都文化、红色文化、京味文化、创新科技文化、国际时尚文化。
-            # - 核心符号：识别并精准锚定承载该文化内涵的关键视觉要素（如：特定的流线型穹顶/科技标识/国际旗帜阵列/古建斗拱）。
-            # （以上原始提示已注释，当前硬性判定为创新科技文化）
-            "【C｜文化维度层】\n"
-            "- 标注目标：界定视频的文化本体属性与符号学内涵。\n"
-            "- 当前硬性判定：创新科技文化。\n\n"
+            # C 文化维度层：新五维受控闭集 + 可选 Top-K 知识库候选（由方法动态生成）
+            "{c_layer_instruction}\n"
             "【A｜视听语言层】\n"
             "- 标注目标：使用电影叙事学闭集术语，客观描述影像的拍摄手法与视听组织范式。\n"
             "- 核心禁止规则：严禁在最终输出中包含任何诸如‘若镜头运动详细描述：’等带有控制逻辑的提示短语。直接根据物理画面机位判定结果，平铺直叙对应结构的描述语句。\n"
@@ -205,13 +332,8 @@ class PromptManager:
             "    【仅占比>70%时追加】活跃主体动态：主体正在进行[具体动作]，状态呈现为[行为方式/节奏]。\n"
             "    【仅占比>70%时追加】主体关系：描述[活跃主体]与[各个承载主体]的空间交互逻辑。\n"
             "    若画面涉及文字，文字符号：[\"提取的文字内容\"]\n\n"
-            # 原始模板（已注释，当前硬性判定为创新科技文化）
-            # "【C｜文化维度层】：该场景隶属于[古都文化/红色文化/京味文化/创新科技文化/国际时尚文化]。\n\n"
-            # "核心符号：识别出承载该文化内涵的关键视觉锚点为[具体元素]。\n"
-            # "价值指向：场景表达了[时代精神/文化内涵]。\n\n"
-            "【C｜文化维度层】：该场景隶属于创新科技文化。\n\n"
-            "核心符号：识别出承载创新科技文化内涵的关键视觉锚点为[具体元素，如：科技标识/流线型穹顶/数字屏幕/高等学府等]。\n"
-            "价值指向：[如果有该建筑相关的历史文化背景，需要在价值指向中提及。]\n\n"
+            # C 文化维度层输出模板：新五维闭集选择（由方法动态生成，不再硬编码单一维度）
+            "{c_layer_template}\n"
             "【A｜视听语言层】按以下统一格式平铺直叙输出（严禁夹杂控制条件括号）：\n"
             "    【A｜视听语言层】\n"
             "    镜头语法：镜头为[运动机位/固定机位]。若为运动机位，需紧接着写明具体运镜方式，即“运镜采用[具体动作+方向]，”；若为固定机位则不写这半句，直接续写：状态[稳定/晃动]，节奏[快/慢]，以[标准景别词]为主，景深[浅/深]，视觉重心位于[具体视觉核心区域]\n"
@@ -223,7 +345,9 @@ class PromptManager:
         )
         return prompt.format(
             speed_status=speed_status,
-            visual_speed_instruction=visual_speed_instruction
+            visual_speed_instruction=visual_speed_instruction,
+            c_layer_instruction=c_layer_instruction,
+            c_layer_template=c_layer_template,
         )
 
     def _generate_tech_layer_template(self, metadata: Optional[Dict[str, Any]]) -> str:

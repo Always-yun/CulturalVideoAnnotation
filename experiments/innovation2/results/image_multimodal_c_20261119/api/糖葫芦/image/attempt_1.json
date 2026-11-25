@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:59:44.290920+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于民族与民俗文化。\n核心符号：冰糖葫芦儿\n价值指向：画面中可见街头售卖的冰糖葫芦，这是一种中国传统小吃，属于民族与民俗文化范畴。冰糖葫芦通常由山楂等水果串在竹签上，裹上糖稀制成，是具有代表性的民俗食品。画面中的字幕也明确标注了“冰糖葫芦儿”，进一步确认了这一文化符号。背景为城市街道，有车辆和行人，但主要文化符号是冰糖葫芦这一民俗食品。",
+  "response_model": "glm-4v",
+  "response_id": "202611191659449ec2e6e238dc47d0",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=51901, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=113, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=52014)",
+  "seconds": 66.15011668205261
+}

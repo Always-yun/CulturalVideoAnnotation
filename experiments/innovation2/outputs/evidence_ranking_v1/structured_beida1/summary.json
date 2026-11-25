@@ -1,0 +1,23 @@
+{
+  "source": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/runs/cultural_ablation/final30_exp1_imgfix/results.json",
+  "scope": "历史测试样本已用于诊断，仅作开发回放；非独立测试收益",
+  "total_replayed": 1,
+  "known_replayed": 1,
+  "skipped": [],
+  "cached_scene_report": "experiments/innovation2/outputs/scene_evidence_v1/beida1/scene_evidence_report.json",
+  "glm_calls": 0,
+  "image_scores": "本地CLIP重新计算，共享分数用于两种排序",
+  "gate_calibration": "未重新标定，未运行门控或最终标注",
+  "metrics": {
+    "legacy": {
+      "recall1": 1.0,
+      "recall5": 1.0,
+      "mrr_at5": 1.0
+    },
+    "evidence": {
+      "recall1": 1.0,
+      "recall5": 1.0,
+      "mrr_at5": 1.0
+    }
+  }
+}

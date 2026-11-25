@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:45:17.750814+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于现代城市与国际文化。\n核心符号：展示中心、国际旗帜阵列\n价值指向：画面中可见标有“展示中心”字样的建筑，建筑前有排列整齐的多国国旗，体现国际交流属性；建筑本身为现代风格，与周边现代城市道路、车流共同构成现代城市景观。无法确认具体是否为候选知识中的“中关村国际创新中心”，但建筑功能与视觉特征符合现代城市与国际文化范畴。",
+  "response_model": "glm-4v",
+  "response_id": "20261119164517ab8665d1c20a4387",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73765, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=105, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73870)",
+  "seconds": 80.7555000782013
+}

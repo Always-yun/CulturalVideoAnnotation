@@ -1,0 +1,41 @@
+PREPARE cbd
+PREPARE cbd1
+PREPARE cbd2
+PREPARE cbd3
+PREPARE 中关村1号
+PREPARE 中关村国际创新中心
+PREPARE 中关村展示中心
+PREPARE 京剧青衣
+PREPARE 人民大会堂
+PREPARE 人民大会堂1
+PREPARE 人民英雄纪念碑
+PREPARE 人民英雄纪念碑1
+PREPARE 兔爷
+PREPARE 北大
+PREPARE 北大1
+PREPARE 国博
+PREPARE 天安门
+PREPARE 天安门1
+PREPARE 太和殿
+PREPARE 庙会
+PREPARE 故宫
+PREPARE 故宫全景
+PREPARE 未来科学城
+PREPARE 清华
+PREPARE 糖葫芦
+PREPARE 胡同
+PREPARE 胡同1
+PREPARE 角楼
+PREPARE 角楼1
+PREPARE 鸟巢
+Prepared 30 videos; eligible references=0
+--- 使用 GLM-4 API 模式 ---
+--- GLM-4 API 配置已就绪 ---
+RUN cbd/free
+--- 使用 GLM-4 API 处理视频: cbd.mp4 ---
+--- 第一次尝试：直接发送原始视频 ---
+--- 正在读取视频文件: cbd.mp4 ---
+--- 视频文件大小: 6.53 MB ---
+--- Base64编码后大小: 8915.75 KB ---
+--- 提示词长度: 3593 ---
+--- 内容类型: ['video_url', 'text'] ---

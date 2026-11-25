@@ -1,0 +1,16 @@
+test_mixed_candidate_output_does_not_accept_unknown_entity (test_cultural_integration.IntegrationTest.test_mixed_candidate_output_does_not_accept_unknown_entity) ... ok
+test_multi_gpu_forwards_culture_options (test_cultural_integration.IntegrationTest.test_multi_gpu_forwards_culture_options) ... ok
+test_public_engine_dispatch_and_custom_prompt_bypass (test_cultural_integration.IntegrationTest.test_public_engine_dispatch_and_custom_prompt_bypass) ... ok
+test_rejection_updates_saved_text_and_parse_and_preserves_other_layers (test_cultural_integration.IntegrationTest.test_rejection_updates_saved_text_and_parse_and_preserves_other_layers) ... ok
+test_v2_acceptance_preserves_known_symbol (test_cultural_integration.IntegrationTest.test_v2_acceptance_preserves_known_symbol) ... ok
+test_v2_rejection_reaches_final_annotation (test_cultural_integration.IntegrationTest.test_v2_rejection_reaches_final_annotation) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.102s
+
+OK
+    [约束执行] 输出符号不在候选闭集内 → 改写 unknown_symbol
+    [拒识门控] insufficient：test
+    [约束执行] 输出符号不在候选闭集内 → 改写 unknown_symbol
+    [拒识门控] confident：test
+    [拒识门控] confident：test

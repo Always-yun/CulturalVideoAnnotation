@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:42:25.856800+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于现代城市与国际文化。\n核心符号：CBD\n价值指向：画面中可见以中国尊（中信大厦）为代表的超高层建筑集群，以及密集的城市交通网络，符合北京中央商务区（CBD）的典型视觉特征。CBD作为国际化商务中心，是现代城市天际线和国际化的象征。</think>",
+  "response_model": "glm-4v",
+  "response_id": "20261119164226de7f49774a74408c",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=74100, prompt_tokens_details=PromptTokensDetails(cached_tokens=73446), completion_tokens=77, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=74177)",
+  "seconds": 32.85322594642639
+}

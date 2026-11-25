@@ -1,0 +1,129 @@
+[
+  {
+    "symbol_id": "BJ_RED_002",
+    "canonical_name": "天安门广场",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.9397203326225281,
+    "reason": "证据排序v1；名称=；文字=；弱特征=华表",
+    "image_score": 0.8794,
+    "text_score": 1.0,
+    "fusion_score": 0.9397,
+    "ranking_score": 0.492481,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [
+        "华表"
+      ],
+      "text_evidence_strength": 0.105522,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": true,
+      "in_image_pool": false
+    }
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_008",
+    "canonical_name": "明清皇家陵寝",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4640274792909622,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.9281,
+    "text_score": 0.0,
+    "fusion_score": 0.464,
+    "ranking_score": 0.464027,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4629677087068558,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.9259,
+    "text_score": 0.0,
+    "fusion_score": 0.463,
+    "ranking_score": 0.462968,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_021",
+    "canonical_name": "泰山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.45797373354434967,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.9159,
+    "text_score": 0.0,
+    "fusion_score": 0.458,
+    "ranking_score": 0.457974,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_015",
+    "canonical_name": "颐和园",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.455803319811821,
+    "reason": "证据排序v1；名称=；文字=；弱特征=",
+    "image_score": 0.9116,
+    "text_score": 0.0,
+    "fusion_score": 0.4558,
+    "ranking_score": 0.455803,
+    "retrieval_evidence": {
+      "name_hits": [],
+      "clear_text_exact_hits": [],
+      "generic_hits": [],
+      "feature_hits": [],
+      "text_evidence_strength": 0,
+      "identity_verified": false,
+      "strategy": "evidence_v1",
+      "score_semantics": "ranking_only_not_probability",
+      "gate_score_source": "legacy_fusion_not_recalibrated",
+      "in_text_pool": false,
+      "in_image_pool": true
+    }
+  }
+]

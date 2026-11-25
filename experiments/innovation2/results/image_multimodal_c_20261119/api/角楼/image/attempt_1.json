@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T17:01:23.540542+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：角楼\n价值指向：画面中可见一座具有典型中国古代建筑风格的楼阁，其位于护城河旁，建筑为多层结构，顶部有金色装饰，下方有长廊，背景是高大的城墙，符合紫禁城角楼的视觉特征。护城河水面结冰，周围有树木，整体呈现冬季景象。结合待核实知识中角楼的视觉特征描述（如九梁十八柱七十二条脊、黄琉璃瓦等），可确认该建筑为角楼，属于古城与历史文化范畴。",
+  "response_model": "glm-4v",
+  "response_id": "20261119170123f22a3b764d9048e0",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73827, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=130, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73957)",
+  "seconds": 62.43755626678467
+}

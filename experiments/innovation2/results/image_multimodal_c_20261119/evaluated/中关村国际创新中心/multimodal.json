@@ -1,0 +1,64 @@
+{
+  "video_id": "中关村国际创新中心",
+  "mode": "multimodal",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "中关村国际创新中心"
+  ],
+  "reference_ids": [
+    "CN2_TECH_006"
+  ],
+  "predicted_names": [
+    "中关村国际创新中心"
+  ],
+  "predicted_ids": [
+    "CN2_TECH_006"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "MODERN",
+    "TECH"
+  ],
+  "reference_categories": [
+    "TECH"
+  ],
+  "category_exact": false,
+  "category_tp": 1,
+  "category_fp": 1,
+  "category_fn": 0,
+  "recall_at_k": true,
+  "candidate_ids": [
+    "CN2_TECH_006",
+    "BJ_INNOV_007",
+    "CN2_TECH_005"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于科技与创新文化、现代城市与国际文化。\n核心符号：中关村国际创新中心\n价值指向：画面中可见建筑外墙上清晰标有“中关村国际创新中心”的名称，建筑外观为现代玻璃幕墙结构，具有科技感与国际化特征，符合科技与创新文化、现代城市与国际文化的视觉依据。</think>",
+  "c_layer_natural_language": "：该场景隶属于科技与创新文化、现代城市与国际文化。\n核心符号：中关村国际创新中心\n价值指向：画面中可见建筑外墙上清晰标有“中关村国际创新中心”的名称，建筑外观为现代玻璃幕墙结构，具有科技感与国际化特征，符合科技与创新文化、现代城市与国际文化的视觉依据。</think>",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/中关村国际创新中心/multimodal.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:44:45.496165+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于科技与创新文化、现代城市与国际文化。\n核心符号：中关村国际创新中心\n价值指向：画面中可见建筑外墙上清晰标有“中关村国际创新中心”的名称，建筑外观为现代玻璃幕墙结构，具有科技感与国际化特征，符合科技与创新文化、现代城市与国际文化的视觉依据。</think>",
+      "response_model": "glm-4v",
+      "response_id": "20261119164445ab4397dedd464480",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=73966, prompt_tokens_details=PromptTokensDetails(cached_tokens=73627), completion_tokens=78, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=74044)",
+      "seconds": 33.96818161010742
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

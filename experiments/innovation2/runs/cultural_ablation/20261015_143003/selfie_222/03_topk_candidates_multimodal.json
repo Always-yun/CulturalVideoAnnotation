@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_RED_008",
+    "canonical_name": "中国人民革命军事博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.31601792573928833,
+    "reason": "图像相似度匹配",
+    "image_score": 0.632,
+    "text_score": 0.0,
+    "fusion_score": 0.316
+  },
+  {
+    "symbol_id": "BJ_INNOV_006",
+    "canonical_name": "北京大学",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.3156830072402954,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6314,
+    "text_score": 0.0,
+    "fusion_score": 0.3157
+  },
+  {
+    "symbol_id": "BJ_INNOV_007",
+    "canonical_name": "清华大学",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.3154406175017357,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6309,
+    "text_score": 0.0,
+    "fusion_score": 0.3154
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_007",
+    "canonical_name": "北京庙会",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.3152540773153305,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6305,
+    "text_score": 0.0,
+    "fusion_score": 0.3153
+  },
+  {
+    "symbol_id": "BJ_INNOV_008",
+    "canonical_name": "未来科学城",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.31499049067497253,
+    "reason": "图像相似度匹配",
+    "image_score": 0.63,
+    "text_score": 0.0,
+    "fusion_score": 0.315
+  }
+]

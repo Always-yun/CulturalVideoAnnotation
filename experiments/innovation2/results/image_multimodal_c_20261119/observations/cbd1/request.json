@@ -1,0 +1,10 @@
+{
+  "media_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/data/videos/cbd1.mp4",
+  "media_sha256": "f2f162e6b8fffc9ffd02db64a250d56385a3713b60b8e2f819bcb61f956f4797",
+  "media_kind": "video_url",
+  "prompt": "观看视频，仅输出一个JSON对象。描述画面证据，不做文化分类，不猜地标名称，不利用常识补齐文字。\n主体与背景分开；仅凭“湖面”“石狮”“红墙”等通用元素不能命名具体场所。\n无法识别身份时使用通用主体名称，将猜测放入uncertain_entities，禁止写进subject或visible_features。\n文字必须逐字抄录，模糊字用?，不得凭建筑外形或上下文补字。\n若出现匾额、招牌、标牌、碑刻等可能承载名称的区域，即使文字读不清也报告text_regions。\n每个区域用time_ratio表示其清楚出现的时刻/视频总时长（0至1），bbox为该时刻整帧上归一化的[x1,y1,x2,y2]（0至1）。最多报告3个区域，优先主体名称牌。\n格式：\n{\"scene\":\"空间场所、时间天气的客观概述\",\"subject\":\"主要主体及行为（不猜专名）\",\n\"visible_features\":[\"真实可见的主体外观特征\"],\"background\":[\"背景元素\"],\n\"readable_text\":[{\"text\":\"逐字文字\",\"legibility\":\"clear或partial或unreadable\"}],\n\"text_regions\":[{\"kind\":\"匾额或标牌等\",\"time_ratio\":0.5,\"bbox\":[0.3,0.2,0.7,0.4]}],\n\"uncertain_entities\":[\"身份猜测与原因，仅供审计，不参与检索\"]}\n",
+  "model": "glm-4v",
+  "temperature": 0.1,
+  "max_tokens": 2048,
+  "base64_omitted": true
+}

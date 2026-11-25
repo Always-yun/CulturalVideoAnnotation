@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_FASHION_002",
+    "canonical_name": "798艺术区",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.814453125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8145,
+    "text_score": 0.0,
+    "fusion_score": 0.8145
+  },
+  {
+    "symbol_id": "CN2_MODERN_002",
+    "canonical_name": "鼓浪屿：历史国际社区",
+    "cultural_dimension": "现代城市与国际文化;古城与历史文化",
+    "dimension_code": "MODERN;ANCIENT",
+    "score": 0.80810546875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8081,
+    "text_score": 0.0,
+    "fusion_score": 0.8081
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_023",
+    "canonical_name": "峨眉山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.80419921875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8042,
+    "text_score": 0.0,
+    "fusion_score": 0.8042
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_024",
+    "canonical_name": "乐山大佛",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.80419921875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8042,
+    "text_score": 0.0,
+    "fusion_score": 0.8042
+  },
+  {
+    "symbol_id": "BJ_FASHION_008",
+    "canonical_name": "郎园Station",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.799560546875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.7996,
+    "text_score": 0.0,
+    "fusion_score": 0.7996
+  }
+]

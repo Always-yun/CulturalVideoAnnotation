@@ -1,0 +1,79 @@
+{
+  "scene_description_raw": "{\"scene\":\"白天，晴朗天气下，一座大型建筑前有行人走动和车辆停放\",\"subject\":\"建筑前的行人、车辆\",\"visible_features\":[\"建筑正面有多个立柱，顶部悬挂多面红旗，中央有红色横幅，横幅上有黄色图案和文字\"],\"background\":[\"蓝天、建筑、树木、围栏\"],\"readable_text\":[{\"text\":\"中国国家博物馆\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.036,0.472,0.092,0.508]}],\"uncertain_entities\":[]}",
+  "scene_description": "白天，晴朗天气下，一座大型建筑前有行人走动和车辆停放\n建筑前的行人、车辆\n建筑正面有多个立柱，顶部悬挂多面红旗，中央有红色横幅，横幅上有黄色图案和文字\n【背景辅助证据；不能单独证明主体身份】\n蓝天、建筑、树木、围栏",
+  "scene_evidence_version": "hybrid_v3",
+  "structured_scene": {
+    "scene": "白天，晴朗天气下，一座大型建筑前有行人走动和车辆停放",
+    "subject": "建筑前的行人、车辆",
+    "visible_features": [
+      "建筑正面有多个立柱，顶部悬挂多面红旗，中央有红色横幅，横幅上有黄色图案和文字"
+    ],
+    "background": [
+      "蓝天、建筑、树木、围栏"
+    ],
+    "readable_text": [
+      {
+        "text": "中国国家博物馆",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.036,
+          0.472,
+          0.092,
+          0.508
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "completed",
+    "calls": 1,
+    "items": [
+      {
+        "text": "",
+        "legibility": "unreadable"
+      }
+    ],
+    "attempts": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.036,
+          0.472,
+          0.092,
+          0.508
+        ],
+        "index": 0,
+        "frame_index": 105,
+        "pixel_bbox": [
+          61,
+          976,
+          430,
+          1140
+        ],
+        "images": [
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/国博/B/text_evidence/region_0_crop.jpg",
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/国博/B/text_evidence/region_0_context.jpg"
+        ],
+        "raw_response": "{\"text\":\"\", \"legibility\":\"unreadable\"}",
+        "result": {
+          "text": "",
+          "legibility": "unreadable"
+        }
+      }
+    ]
+  },
+  "retrieval_scene_text": "1.【场景描述】：晴朗白天，中国国家博物馆前的广场上，人群在建筑前活动。\n2.【文化视觉元素】：中国国家博物馆、中华人民共和国国旗、中华人民共和国国徽、汉藏双语文字标语。\n白天，晴朗天气下，一座大型建筑前有行人走动和车辆停放\n建筑前的行人、车辆\n建筑正面有多个立柱，顶部悬挂多面红旗，中央有红色横幅，横幅上有黄色图案和文字\n【背景辅助证据；不能单独证明主体身份】\n蓝天、建筑、树木、围栏",
+  "hypothesis_provenance": {
+    "source": "cached_legacy_pass1",
+    "text": "1.【场景描述】：晴朗白天，中国国家博物馆前的广场上，人群在建筑前活动。\n2.【文化视觉元素】：中国国家博物馆、中华人民共和国国旗、中华人民共和国国徽、汉藏双语文字标语。",
+    "use": "retrieval_only_not_identity_evidence"
+  }
+}

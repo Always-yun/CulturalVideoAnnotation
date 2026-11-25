@@ -1,0 +1,14 @@
+{
+  "video_id": "京剧青衣",
+  "gt_symbols": [
+    "京剧"
+  ],
+  "gt_symbol_ids": [
+    "BJ_JINGWEI_003"
+  ],
+  "gt_dimension_code": "FOLK",
+  "kb_coverage": true,
+  "mode": "free",
+  "status": "blocked_runtime",
+  "reason": "基础模型调用受阻：APIConnectionError；详情见api_calls.json"
+}

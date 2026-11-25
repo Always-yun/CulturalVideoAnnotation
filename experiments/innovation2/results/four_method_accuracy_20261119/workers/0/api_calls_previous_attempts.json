@@ -1,0 +1,18 @@
+[
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:27:20.651323+08:00",
+    "status": "failed",
+    "error_type": "APITimeoutError",
+    "error": "Request timed out.",
+    "seconds": 99.58242464065552
+  },
+  {
+    "model": "glm-4v",
+    "temperature": 0.1,
+    "started_at": "2026-11-19T12:29:00.744153+08:00",
+    "seconds": 38.85148334503174,
+    "status": "interrupted"
+  }
+]

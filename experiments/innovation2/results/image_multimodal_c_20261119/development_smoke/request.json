@@ -1,0 +1,10 @@
+{
+  "media_path": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images/08876d6d25eb2322f444.png",
+  "media_sha256": "08876d6d25eb2322f444498c199027e5a1c06309309b000fa8fe3c1682ab9f7f",
+  "media_kind": "image_url",
+  "prompt": "请仅输出EMCAST的C文化维度层，保留完整中文自然语言说明，不输出其余五层。\n根据视频实际可见证据识别文化符号。文化类别可多选：古城与历史文化、红色文化、民族与民俗文化、科技与创新文化、现代城市与国际文化；证据不足可写无法确认。\n候选知识只是待核实材料，不证明画面已出现该实体。允许命名候选之外的实体，允许无候选或无法确认，不强迫选择。不要给数值置信度。\n核心符号行请用规范名称列出实际确认的实体，多个用顿号分隔；没有可靠身份则写unknown_symbol。其他说明放在价值指向中，不把身份猜测写成已识别事实。\n输出格式沿用现有C层：\n【C｜文化维度层】：该场景隶属于……（多类可并列，无法确认则说明）。\n核心符号：……\n价值指向：描述可见视觉依据、文化内涵与不确定之处。\n",
+  "model": "glm-4v",
+  "temperature": 0.1,
+  "max_tokens": 2048,
+  "base64_omitted": true
+}

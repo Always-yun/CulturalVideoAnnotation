@@ -1,0 +1,17 @@
+{
+  "video_id": "天安门",
+  "sample_type": "known",
+  "gt_ids": [
+    "BJ_RED_002"
+  ],
+  "pred_ids": [],
+  "rejected": true,
+  "correct": false,
+  "recall1": false,
+  "recall5": true,
+  "reciprocal_rank": 0.25,
+  "error_type": "false_reject",
+  "group": "B",
+  "api_calls": 4,
+  "seconds": 385.1
+}

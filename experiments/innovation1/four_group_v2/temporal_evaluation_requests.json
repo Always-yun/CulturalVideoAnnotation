@@ -1,0 +1,267 @@
+[
+  {
+    "id": "T06_source_continuous_video",
+    "task_id": "T06",
+    "video_id": "source",
+    "video_file": "data/video/皮影戏.mp4",
+    "video_sha256": "377fcbe5ddcdf327c696f610de0b747adaa8df97cc129842dd50d68a73f6ae81",
+    "question_ids": [
+      "T06-F3"
+    ],
+    "question_sha256": "7dce6ab33aed8b75bfe1b506d4a7e0398fc001a64a079218cd0cd3205db65a11",
+    "questions": [
+      {
+        "fact_id": "T06-F3",
+        "question": "两个皮影人物是否发生连续的打斗或武打动作？",
+        "yes_rule": "连续视频中两个皮影人物存在至少两个连续时刻的攻防、挥击、追逐或武打动作变化",
+        "no_rule": "人物仅静止、摆姿或彼此没有连续武打互动",
+        "uncertain_rule": "片段过短、动作被遮挡、播放异常或无法区分动作连续性",
+        "evidence_mode": "continuous_video"
+      }
+    ],
+    "instruction": "必须观看完整连续视频判断过程变化；不得根据单张关键帧判断。按每题Yes/No/Uncertain输出并保留证据时间段。"
+  },
+  {
+    "id": "T06_T06_G1_r01_continuous_video",
+    "task_id": "T06",
+    "video_id": "T06_G1_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T06-G1.mp4",
+    "video_sha256": "8d52c7cadb87bf0a614d4d69e56599ecb95f529569d559cf288dfcd2af1a4e25",
+    "question_ids": [
+      "T06-F3"
+    ],
+    "question_sha256": "7dce6ab33aed8b75bfe1b506d4a7e0398fc001a64a079218cd0cd3205db65a11",
+    "questions": [
+      {
+        "fact_id": "T06-F3",
+        "question": "两个皮影人物是否发生连续的打斗或武打动作？",
+        "yes_rule": "连续视频中两个皮影人物存在至少两个连续时刻的攻防、挥击、追逐或武打动作变化",
+        "no_rule": "人物仅静止、摆姿或彼此没有连续武打互动",
+        "uncertain_rule": "片段过短、动作被遮挡、播放异常或无法区分动作连续性",
+        "evidence_mode": "continuous_video"
+      }
+    ],
+    "instruction": "必须观看完整连续视频判断过程变化；不得根据单张关键帧判断。按每题Yes/No/Uncertain输出并保留证据时间段。"
+  },
+  {
+    "id": "T06_T06_G2_r01_continuous_video",
+    "task_id": "T06",
+    "video_id": "T06_G2_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T06-G2.mp4",
+    "video_sha256": "feef7bceb30d732984dba83fae96dc406f03b86de3285ca8d51894b20369b2e8",
+    "question_ids": [
+      "T06-F3"
+    ],
+    "question_sha256": "7dce6ab33aed8b75bfe1b506d4a7e0398fc001a64a079218cd0cd3205db65a11",
+    "questions": [
+      {
+        "fact_id": "T06-F3",
+        "question": "两个皮影人物是否发生连续的打斗或武打动作？",
+        "yes_rule": "连续视频中两个皮影人物存在至少两个连续时刻的攻防、挥击、追逐或武打动作变化",
+        "no_rule": "人物仅静止、摆姿或彼此没有连续武打互动",
+        "uncertain_rule": "片段过短、动作被遮挡、播放异常或无法区分动作连续性",
+        "evidence_mode": "continuous_video"
+      }
+    ],
+    "instruction": "必须观看完整连续视频判断过程变化；不得根据单张关键帧判断。按每题Yes/No/Uncertain输出并保留证据时间段。"
+  },
+  {
+    "id": "T06_T06_G3_r01_continuous_video",
+    "task_id": "T06",
+    "video_id": "T06_G3_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T06-G3.mp4",
+    "video_sha256": "751629cc6dd1532e1b4fa8ce5bb106a4c926699126295c42e70d04cf28017296",
+    "question_ids": [
+      "T06-F3"
+    ],
+    "question_sha256": "7dce6ab33aed8b75bfe1b506d4a7e0398fc001a64a079218cd0cd3205db65a11",
+    "questions": [
+      {
+        "fact_id": "T06-F3",
+        "question": "两个皮影人物是否发生连续的打斗或武打动作？",
+        "yes_rule": "连续视频中两个皮影人物存在至少两个连续时刻的攻防、挥击、追逐或武打动作变化",
+        "no_rule": "人物仅静止、摆姿或彼此没有连续武打互动",
+        "uncertain_rule": "片段过短、动作被遮挡、播放异常或无法区分动作连续性",
+        "evidence_mode": "continuous_video"
+      }
+    ],
+    "instruction": "必须观看完整连续视频判断过程变化；不得根据单张关键帧判断。按每题Yes/No/Uncertain输出并保留证据时间段。"
+  },
+  {
+    "id": "T06_T06_G4_r01_continuous_video",
+    "task_id": "T06",
+    "video_id": "T06_G4_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T06-G4.mp4",
+    "video_sha256": "db558dac60684c14f655b9b12ed33ea9f97dc64521545230fd47481c5dd12081",
+    "question_ids": [
+      "T06-F3"
+    ],
+    "question_sha256": "7dce6ab33aed8b75bfe1b506d4a7e0398fc001a64a079218cd0cd3205db65a11",
+    "questions": [
+      {
+        "fact_id": "T06-F3",
+        "question": "两个皮影人物是否发生连续的打斗或武打动作？",
+        "yes_rule": "连续视频中两个皮影人物存在至少两个连续时刻的攻防、挥击、追逐或武打动作变化",
+        "no_rule": "人物仅静止、摆姿或彼此没有连续武打互动",
+        "uncertain_rule": "片段过短、动作被遮挡、播放异常或无法区分动作连续性",
+        "evidence_mode": "continuous_video"
+      }
+    ],
+    "instruction": "必须观看完整连续视频判断过程变化；不得根据单张关键帧判断。按每题Yes/No/Uncertain输出并保留证据时间段。"
+  },
+  {
+    "id": "T07_source_continuous_video",
+    "task_id": "T07",
+    "video_id": "source",
+    "video_file": "data/video/海南文昌发射场.mp4",
+    "video_sha256": "be3d61382377b14049b502517d1bef316f8cf91009b46edb6bb943a449b5a7c2",
+    "question_ids": [
+      "T07-F3",
+      "T07-F4"
+    ],
+    "question_sha256": "ab788ed7444afed9b7dcd2a864a43cff9788615942211f52e2ba5b62770b35d7",
+    "questions": [
+      {
+        "fact_id": "T07-F3",
+        "question": "视频中是否出现火箭底部点火并伴随明显火焰或烟雾的过程？",
+        "yes_rule": "连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程",
+        "no_rule": "火箭底部始终无火焰烟雾，或所见烟雾与火箭点火无明确关系",
+        "uncertain_rule": "底部被遮挡、片段缺失、解码异常或无法确认点火过程",
+        "evidence_mode": "continuous_video"
+      },
+      {
+        "fact_id": "T07-F4",
+        "question": "视频中是否呈现火箭从发射工位向上升空的连续变化？",
+        "yes_rule": "连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架",
+        "no_rule": "火箭始终静止在工位，或运动方向不是向上升空",
+        "uncertain_rule": "镜头运动、遮挡、片段过短或解码异常导致无法判断相对位移",
+        "evidence_mode": "continuous_video"
+      }
+    ],
+    "instruction": "必须观看完整连续视频判断过程变化；不得根据单张关键帧判断。按每题Yes/No/Uncertain输出并保留证据时间段。"
+  },
+  {
+    "id": "T07_T07_G1_r01_continuous_video",
+    "task_id": "T07",
+    "video_id": "T07_G1_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T07-G1.mp4",
+    "video_sha256": "482ac0138cecdc3d926965f970cabd4fdc0b3ddcf9265bce590297f49cd47994",
+    "question_ids": [
+      "T07-F3",
+      "T07-F4"
+    ],
+    "question_sha256": "ab788ed7444afed9b7dcd2a864a43cff9788615942211f52e2ba5b62770b35d7",
+    "questions": [
+      {
+        "fact_id": "T07-F3",
+        "question": "视频中是否出现火箭底部点火并伴随明显火焰或烟雾的过程？",
+        "yes_rule": "连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程",
+        "no_rule": "火箭底部始终无火焰烟雾，或所见烟雾与火箭点火无明确关系",
+        "uncertain_rule": "底部被遮挡、片段缺失、解码异常或无法确认点火过程",
+        "evidence_mode": "continuous_video"
+      },
+      {
+        "fact_id": "T07-F4",
+        "question": "视频中是否呈现火箭从发射工位向上升空的连续变化？",
+        "yes_rule": "连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架",
+        "no_rule": "火箭始终静止在工位，或运动方向不是向上升空",
+        "uncertain_rule": "镜头运动、遮挡、片段过短或解码异常导致无法判断相对位移",
+        "evidence_mode": "continuous_video"
+      }
+    ],
+    "instruction": "必须观看完整连续视频判断过程变化；不得根据单张关键帧判断。按每题Yes/No/Uncertain输出并保留证据时间段。"
+  },
+  {
+    "id": "T07_T07_G2_r01_continuous_video",
+    "task_id": "T07",
+    "video_id": "T07_G2_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T07-G2.mp4",
+    "video_sha256": "79ca20508c164754583de71dd33c4b3a2093be4aee0a59305204e19413f1ab71",
+    "question_ids": [
+      "T07-F3",
+      "T07-F4"
+    ],
+    "question_sha256": "ab788ed7444afed9b7dcd2a864a43cff9788615942211f52e2ba5b62770b35d7",
+    "questions": [
+      {
+        "fact_id": "T07-F3",
+        "question": "视频中是否出现火箭底部点火并伴随明显火焰或烟雾的过程？",
+        "yes_rule": "连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程",
+        "no_rule": "火箭底部始终无火焰烟雾，或所见烟雾与火箭点火无明确关系",
+        "uncertain_rule": "底部被遮挡、片段缺失、解码异常或无法确认点火过程",
+        "evidence_mode": "continuous_video"
+      },
+      {
+        "fact_id": "T07-F4",
+        "question": "视频中是否呈现火箭从发射工位向上升空的连续变化？",
+        "yes_rule": "连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架",
+        "no_rule": "火箭始终静止在工位，或运动方向不是向上升空",
+        "uncertain_rule": "镜头运动、遮挡、片段过短或解码异常导致无法判断相对位移",
+        "evidence_mode": "continuous_video"
+      }
+    ],
+    "instruction": "必须观看完整连续视频判断过程变化；不得根据单张关键帧判断。按每题Yes/No/Uncertain输出并保留证据时间段。"
+  },
+  {
+    "id": "T07_T07_G3_r01_continuous_video",
+    "task_id": "T07",
+    "video_id": "T07_G3_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T07-G3.mp4",
+    "video_sha256": "0ac427d868ac685c4b467bbe791a311d78d3d0bbf8741c0eea7513fd890902e6",
+    "question_ids": [
+      "T07-F3",
+      "T07-F4"
+    ],
+    "question_sha256": "ab788ed7444afed9b7dcd2a864a43cff9788615942211f52e2ba5b62770b35d7",
+    "questions": [
+      {
+        "fact_id": "T07-F3",
+        "question": "视频中是否出现火箭底部点火并伴随明显火焰或烟雾的过程？",
+        "yes_rule": "连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程",
+        "no_rule": "火箭底部始终无火焰烟雾，或所见烟雾与火箭点火无明确关系",
+        "uncertain_rule": "底部被遮挡、片段缺失、解码异常或无法确认点火过程",
+        "evidence_mode": "continuous_video"
+      },
+      {
+        "fact_id": "T07-F4",
+        "question": "视频中是否呈现火箭从发射工位向上升空的连续变化？",
+        "yes_rule": "连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架",
+        "no_rule": "火箭始终静止在工位，或运动方向不是向上升空",
+        "uncertain_rule": "镜头运动、遮挡、片段过短或解码异常导致无法判断相对位移",
+        "evidence_mode": "continuous_video"
+      }
+    ],
+    "instruction": "必须观看完整连续视频判断过程变化；不得根据单张关键帧判断。按每题Yes/No/Uncertain输出并保留证据时间段。"
+  },
+  {
+    "id": "T07_T07_G4_r01_continuous_video",
+    "task_id": "T07",
+    "video_id": "T07_G4_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T07-G4.mp4",
+    "video_sha256": "17be7163a72c9b984279ed9dd554118b748c22eaa319f0292112bad747c79dea",
+    "question_ids": [
+      "T07-F3",
+      "T07-F4"
+    ],
+    "question_sha256": "ab788ed7444afed9b7dcd2a864a43cff9788615942211f52e2ba5b62770b35d7",
+    "questions": [
+      {
+        "fact_id": "T07-F3",
+        "question": "视频中是否出现火箭底部点火并伴随明显火焰或烟雾的过程？",
+        "yes_rule": "连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程",
+        "no_rule": "火箭底部始终无火焰烟雾，或所见烟雾与火箭点火无明确关系",
+        "uncertain_rule": "底部被遮挡、片段缺失、解码异常或无法确认点火过程",
+        "evidence_mode": "continuous_video"
+      },
+      {
+        "fact_id": "T07-F4",
+        "question": "视频中是否呈现火箭从发射工位向上升空的连续变化？",
+        "yes_rule": "连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架",
+        "no_rule": "火箭始终静止在工位，或运动方向不是向上升空",
+        "uncertain_rule": "镜头运动、遮挡、片段过短或解码异常导致无法判断相对位移",
+        "evidence_mode": "continuous_video"
+      }
+    ],
+    "instruction": "必须观看完整连续视频判断过程变化；不得根据单张关键帧判断。按每题Yes/No/Uncertain输出并保留证据时间段。"
+  }
+]

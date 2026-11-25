@@ -1,0 +1,48 @@
+{
+  "request": {
+    "id": "T01_T01_G3_r01_video",
+    "task_id": "T01",
+    "video_id": "T01_G3_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T01-G3.mp4",
+    "video_sha256": "f6a4604bea42fc7fc1f9e62935cf442bb46dfa9d3275ae839a8c55512bdc41e5",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：白天，镜头从较高位置斜向俯视陕西西安秦始皇兵马俑一号坑。遗址中大量古代军士陶俑排列成多排整齐的军阵，人物具有古代军士的服饰、发髻与甲胄造型，雕塑表面呈现土褐色和灰褐色的陶土质感。陶俑分布在由土质隔墙划分的长条形考古坑道内，形成有序的队列布局。室内展厅光线柔和，镜头缓慢水平移动，以写实纪实摄影风格展示军阵与遗址空间。。时序事实及判据：[]",
+    "request_sha256": "b4474ae169f13ef51cd76d1e30af38b4535c6065543889dc76d99445758569f7"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"conditions\": {\"subject\": {\"verdict\": \"Yes\", \"evidence\": \"画面中可见大量排列整齐的古代军士陶俑，具有古代军士的服饰、发髻与甲胄造型，雕塑表面呈现土褐色和灰褐色的陶土质感，符合目标描述中‘大量古代军士陶俑排列成多排整齐的军阵’的描述。\", \"timestamps\": \"0.00-5.00s\"}, \"scene\": {\"verdict\": \"Yes\", \"evidence\": \"画面展示了由土质隔墙划分的长条形考古坑道，陶俑分布在坑道内形成有序队列，且场景为室内展厅，符合目标描述中‘遗址中大量古代军士陶俑排列成多排整齐的军阵，陶俑分布在由土质隔墙划分的长条形考古坑道内，形成有序的队列布局。室内展厅’的描述。\", \"timestamps\": \"0.00-5.00s\"}, \"time_weather\": {\"verdict\": \"Yes\", \"evidence\": \"画面光线明亮且均匀，室内展厅光线柔和，符合目标描述中‘白天’的描述。\", \"timestamps\": \"0.00-5.00s\"}, \"camera_motion\": {\"verdict\": \"Yes\", \"evidence\": \"镜头从较高位置斜向俯视，且在连续画面中可见镜头缓慢水平移动，符合目标描述中‘镜头从较高位置斜向俯视……镜头缓慢水平移动’的描述。\", \"timestamps\": \"0.00-5.00s\"}}, \"temporal_facts\": {}}",
+  "parse_ok": true,
+  "parsed": {
+    "conditions": {
+      "subject": {
+        "verdict": "Yes",
+        "evidence": "画面中可见大量排列整齐的古代军士陶俑，具有古代军士的服饰、发髻与甲胄造型，雕塑表面呈现土褐色和灰褐色的陶土质感，符合目标描述中‘大量古代军士陶俑排列成多排整齐的军阵’的描述。",
+        "timestamps": "0.00-5.00s"
+      },
+      "scene": {
+        "verdict": "Yes",
+        "evidence": "画面展示了由土质隔墙划分的长条形考古坑道，陶俑分布在坑道内形成有序队列，且场景为室内展厅，符合目标描述中‘遗址中大量古代军士陶俑排列成多排整齐的军阵，陶俑分布在由土质隔墙划分的长条形考古坑道内，形成有序的队列布局。室内展厅’的描述。",
+        "timestamps": "0.00-5.00s"
+      },
+      "time_weather": {
+        "verdict": "Yes",
+        "evidence": "画面光线明亮且均匀，室内展厅光线柔和，符合目标描述中‘白天’的描述。",
+        "timestamps": "0.00-5.00s"
+      },
+      "camera_motion": {
+        "verdict": "Yes",
+        "evidence": "镜头从较高位置斜向俯视，且在连续画面中可见镜头缓慢水平移动，符合目标描述中‘镜头从较高位置斜向俯视……镜头缓慢水平移动’的描述。",
+        "timestamps": "0.00-5.00s"
+      }
+    },
+    "temporal_facts": {}
+  }
+}

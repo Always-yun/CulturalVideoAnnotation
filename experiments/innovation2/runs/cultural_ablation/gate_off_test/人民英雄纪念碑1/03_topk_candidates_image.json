@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_FASHION_002",
+    "canonical_name": "798艺术区",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.61456298828125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6146,
+    "text_score": 0.0,
+    "fusion_score": 0.6146
+  },
+  {
+    "symbol_id": "BJ_RED_006",
+    "canonical_name": "中国国家博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.6136474609375,
+    "reason": "关键词/别名命中：天安门广场",
+    "image_score": 0.6136,
+    "text_score": 0.25,
+    "fusion_score": 0.6136
+  },
+  {
+    "symbol_id": "BJ_FASHION_009",
+    "canonical_name": "北京坊",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.6126708984375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6127,
+    "text_score": 0.0,
+    "fusion_score": 0.6127
+  },
+  {
+    "symbol_id": "BJ_FASHION_001",
+    "canonical_name": "三里屯",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.61151123046875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6115,
+    "text_score": 0.0,
+    "fusion_score": 0.6115
+  },
+  {
+    "symbol_id": "BJ_INNOV_003",
+    "canonical_name": "奥林匹克公园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.61126708984375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6113,
+    "text_score": 0.0,
+    "fusion_score": 0.6113
+  }
+]

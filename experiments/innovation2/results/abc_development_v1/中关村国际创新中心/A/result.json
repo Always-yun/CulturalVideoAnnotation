@@ -1,0 +1,19 @@
+{
+  "video_id": "中关村国际创新中心",
+  "sample_type": "known",
+  "gt_ids": [
+    "CN2_TECH_006"
+  ],
+  "pred_ids": [
+    "CN2_TECH_006"
+  ],
+  "rejected": false,
+  "correct": true,
+  "recall1": false,
+  "recall5": true,
+  "reciprocal_rank": 0.5,
+  "error_type": "correct",
+  "group": "A",
+  "api_calls": 3,
+  "seconds": 174.59
+}

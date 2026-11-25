@@ -1,0 +1,23 @@
+{
+  "scene_description_raw": "{\"scene\":\"室外，白天，晴朗天空下的大型建筑正面\",\"subject\":\"建筑正面\",\"visible_features\":[\"浅色石柱，浅色墙面，深色窗框，红色圆形国徽，国徽上有金色五角星和金色图案，顶部有红色旗帜\"],\"background\":[\"蓝天\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "scene_description": "室外，白天，晴朗天空下的大型建筑正面\n建筑正面\n浅色石柱，浅色墙面，深色窗框，红色圆形国徽，国徽上有金色五角星和金色图案，顶部有红色旗帜\n【背景辅助证据；不能单独证明主体身份】\n蓝天",
+  "scene_evidence_version": "structured_context_v2",
+  "structured_scene": {
+    "scene": "室外，白天，晴朗天空下的大型建筑正面",
+    "subject": "建筑正面",
+    "visible_features": [
+      "浅色石柱，浅色墙面，深色窗框，红色圆形国徽，国徽上有金色五角星和金色图案，顶部有红色旗帜"
+    ],
+    "background": [
+      "蓝天"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "not_needed",
+    "calls": 0,
+    "items": []
+  }
+}

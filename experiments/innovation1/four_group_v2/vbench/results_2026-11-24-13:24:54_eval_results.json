@@ -1,0 +1,172 @@
+{
+    "imaging_quality": [
+        0.7423100609471721,
+        [
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T01-G1.mp4",
+                "video_results": 75.21365042655698
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T01-G2.mp4",
+                "video_results": 68.61778471546788
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T01-G3.mp4",
+                "video_results": 77.80558678411668
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T01-G4.mp4",
+                "video_results": 79.02752328688099
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T04-G1.mp4",
+                "video_results": 79.1440946517452
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T04-G2.mp4",
+                "video_results": 76.21210528958228
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T04-G3.mp4",
+                "video_results": 76.53233743483021
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T04-G4.mp4",
+                "video_results": 77.06743689506284
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T06-G1.mp4",
+                "video_results": 60.94537947254796
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T06-G2.mp4",
+                "video_results": 59.971506610993416
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T06-G3.mp4",
+                "video_results": 68.15342955435476
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T06-G4.mp4",
+                "video_results": 70.50035698183122
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T07-G1.mp4",
+                "video_results": 75.61558182008805
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T07-G2.mp4",
+                "video_results": 71.86860355254143
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T07-G3.mp4",
+                "video_results": 73.77558068306216
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T07-G4.mp4",
+                "video_results": 74.71830780275407
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T10-G1.mp4",
+                "video_results": 80.67983547333748
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T10-G2.mp4",
+                "video_results": 80.2892265935098
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T10-G3.mp4",
+                "video_results": 78.82703368894515
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T10-G4.mp4",
+                "video_results": 79.65476017613565
+            }
+        ]
+    ],
+    "subject_consistency": [
+        0.9655613399133449,
+        [
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T01-G1.mp4",
+                "video_results": 0.9893136637482217
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T01-G2.mp4",
+                "video_results": 0.9809625645478567
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T01-G3.mp4",
+                "video_results": 0.9759771952299567
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T01-G4.mp4",
+                "video_results": 0.9838313787448697
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T04-G1.mp4",
+                "video_results": 0.9793054800692612
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T04-G2.mp4",
+                "video_results": 0.9731331581507272
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T04-G3.mp4",
+                "video_results": 0.9839020318132106
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T04-G4.mp4",
+                "video_results": 0.9780609859683649
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T06-G1.mp4",
+                "video_results": 0.9726352485699382
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T06-G2.mp4",
+                "video_results": 0.9746101093970663
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T06-G3.mp4",
+                "video_results": 0.9649470169854358
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T06-G4.mp4",
+                "video_results": 0.9918744198190488
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T07-G1.mp4",
+                "video_results": 0.9267533276139236
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T07-G2.mp4",
+                "video_results": 0.8995239618347912
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T07-G3.mp4",
+                "video_results": 0.9452317211686111
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T07-G4.mp4",
+                "video_results": 0.8940655019709735
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T10-G1.mp4",
+                "video_results": 0.9911038626015671
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T10-G2.mp4",
+                "video_results": 0.9888950564512392
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T10-G3.mp4",
+                "video_results": 0.9541357951920207
+            },
+            {
+                "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/four_group_v2/T10-G4.mp4",
+                "video_results": 0.962964318389815
+            }
+        ]
+    ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_RED_002",
+    "canonical_name": "天安门广场",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.81732177734375,
+    "reason": "关键词/别名命中：广场",
+    "image_score": 0.6346,
+    "text_score": 1.0,
+    "fusion_score": 0.8173
+  },
+  {
+    "symbol_id": "BJ_GUDU_003",
+    "canonical_name": "天坛",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.3226318359375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6453,
+    "text_score": 0.0,
+    "fusion_score": 0.3226
+  },
+  {
+    "symbol_id": "BJ_GUDU_008",
+    "canonical_name": "景山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.319580078125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6392,
+    "text_score": 0.0,
+    "fusion_score": 0.3196
+  },
+  {
+    "symbol_id": "BJ_GUDU_005",
+    "canonical_name": "钟鼓楼",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.31884765625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6377,
+    "text_score": 0.0,
+    "fusion_score": 0.3188
+  },
+  {
+    "symbol_id": "BJ_RED_008",
+    "canonical_name": "中国人民革命军事博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.3184814453125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.637,
+    "text_score": 0.0,
+    "fusion_score": 0.3185
+  }
+]

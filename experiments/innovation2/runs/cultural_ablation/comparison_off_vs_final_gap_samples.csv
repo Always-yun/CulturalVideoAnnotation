@@ -1,0 +1,28 @@
+﻿experiment,video_id,mode,gt_dimension,pred_symbol,pred_dimension,rejected,gate_level,gate_reason
+gate_off,神武门,text,ANCIENT,识别出承载该文化内涵的关键视觉锚点为故宫（神武门）。,古城与历史文化,False,,
+gate_off,神武门,image,ANCIENT,识别出承载该文化内涵的关键视觉锚点为神武门。,古城与历史文化,False,,
+gate_off,神武门,multimodal,ANCIENT,识别出承载该文化内涵的关键视觉锚点为故宫。,古城与历史文化,False,,
+gate_off,神武门,multimodal_controlled,ANCIENT,识别出承载该文化内涵的关键视觉锚点为故宫。,古城与历史文化,False,,
+gate_off,中关村国际创新中心,text,TECH,识别出承载该文化内涵的关键视觉锚点为中关村国际创新中心。,科技与创新文化,False,,
+gate_off,中关村国际创新中心,image,TECH,识别出承载该文化内涵的关键视觉锚点为中关村国际创新中心。,科技与创新文化,False,,
+gate_off,中关村国际创新中心,multimodal,TECH,识别出承载该文化内涵的关键视觉锚点为中关村国际创新中心。,科技与创新文化,False,,
+gate_off,中关村国际创新中心,multimodal_controlled,TECH,识别出承载该文化内涵的关键视觉锚点为中关村。,科技与创新文化,False,,
+gate_off,人民大会堂1,text,RED,识别出承载该文化内涵的关键视觉锚点为人民大会堂。,红色文化,False,,
+gate_off,人民大会堂1,image,RED,识别出承载该文化内涵的关键视觉锚点为人民大会堂。,红色文化,False,,
+gate_off,人民大会堂1,multimodal,RED,识别出承载该文化内涵的关键视觉锚点为人民大会堂。,红色文化,False,,
+gate_off,人民大会堂1,multimodal_controlled,RED,识别出承载该文化内涵的关键视觉锚点为人民大会堂。,红色文化,False,,
+gate_on_final,神武门,text,ANCIENT,识别出承载该文化内涵的关键视觉锚点为故宫博物院（神武门）。,古城与历史文化,False,confident,检索分数/分差/视觉证据三信号均达标
+gate_on_final,神武门,image,ANCIENT,识别出承载该文化内涵的关键视觉锚点为神武门。,古城与历史文化,False,confident,检索分数/分差/视觉证据三信号均达标
+gate_on_final,神武门,multimodal,ANCIENT,识别出承载该文化内涵的关键视觉锚点为故宫（紫禁城）。,古城与历史文化,False,confident,检索分数/分差/视觉证据三信号均达标
+gate_on_final,神武门,multimodal_controlled,ANCIENT,识别出承载该文化内涵的关键视觉锚点为故宫。,古城与历史文化,False,confident,检索分数/分差/视觉证据三信号均达标
+gate_on_final,中关村国际创新中心,text,TECH,识别出承载该文化内涵的关键视觉锚点为中关村国际创新中心。,科技与创新文化,False,confident,检索分数/分差/视觉证据三信号均达标
+gate_on_final,中关村国际创新中心,image,TECH,识别出承载该文化内涵的关键视觉锚点为中关村国际创新中心。,科技与创新文化,False,confident,检索分数/分差/视觉证据三信号均达标
+gate_on_final,中关村国际创新中心,multimodal,TECH,识别出承载该文化内涵的关键视觉锚点为中关村国际创新中心。,科技与创新文化,False,confident,检索分数/分差/视觉证据三信号均达标
+gate_on_final,中关村国际创新中心,multimodal_controlled,TECH,识别出承载该文化内涵的关键视觉锚点为中关村科学城。,科技与创新文化,False,confident,检索分数/分差/视觉证据三信号均达标
+gate_on_final,人民大会堂1,text,RED,unknown_symbol,红色文化,True,insufficient,检索无任何候选
+gate_on_final,人民大会堂1,image,RED,unknown_symbol（知识库检索证据不足；画面中可见“中华人民共和国国徽,红色文化,True,insufficient,视觉描述无任何知识库词表命中（n_keywords=0）
+gate_on_final,人民大会堂1,multimodal,RED,unknown_symbol,红色文化,True,insufficient,Top1检索分 0.319 低于门限 0.4
+gate_on_final,人民大会堂1,multimodal_controlled,RED,unknown_symbol,红色文化,True,insufficient,Top1检索分 0.319 低于门限 0.4
+gate_on_final,神武门,free,ANCIENT,识别出承载该文化内涵的关键视觉锚点为故宫、神武门、红墙黄瓦。,古城与历史文化,False,,
+gate_on_final,中关村国际创新中心,free,TECH,识别出承载该文化内涵的关键视觉锚点为[中关村国际创新中心]。,科技与创新文化,False,,
+gate_on_final,人民大会堂1,free,RED,识别出承载该文化内涵的关键视觉锚点为人民大会堂。,红色文化,False,,

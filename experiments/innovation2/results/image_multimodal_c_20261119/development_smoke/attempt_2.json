@@ -1,0 +1,8 @@
+{
+  "attempt": 2,
+  "started_at": "2026-11-19T16:36:37.328425+08:00",
+  "status": "service_failure",
+  "error_type": "APIConnectionError",
+  "error": "Connection error.",
+  "seconds": 0.020062685012817383
+}

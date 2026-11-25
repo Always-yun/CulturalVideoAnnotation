@@ -1,0 +1,63 @@
+{
+  "video_id": "人民英雄纪念碑",
+  "mode": "image",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "人民英雄纪念碑"
+  ],
+  "reference_ids": [
+    "BJ_RED_003"
+  ],
+  "predicted_names": [
+    "人民英雄纪念碑"
+  ],
+  "predicted_ids": [
+    "BJ_RED_003"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "RED"
+  ],
+  "reference_categories": [
+    "RED"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": true,
+  "candidate_ids": [
+    "BJ_RED_003",
+    "BJ_RED_002",
+    "BJ_INNOV_007"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化。\n核心符号：人民英雄纪念碑\n价值指向：画面中央可见一座高大的纪念碑，碑身呈灰白色，具有典型的碑式结构，结合其位置和建筑特征，可识别为人民英雄纪念碑。该纪念碑是纪念近代以来为国家牺牲的人民英雄的标志性建筑，是红色文化的重要象征，承载着革命历史记忆与国家精神。</think>",
+  "c_layer_natural_language": "：该场景隶属于红色文化。\n核心符号：人民英雄纪念碑\n价值指向：画面中央可见一座高大的纪念碑，碑身呈灰白色，具有典型的碑式结构，结合其位置和建筑特征，可识别为人民英雄纪念碑。该纪念碑是纪念近代以来为国家牺牲的人民英雄的标志性建筑，是红色文化的重要象征，承载着革命历史记忆与国家精神。</think>",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/人民英雄纪念碑/image.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:50:21.566915+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化。\n核心符号：人民英雄纪念碑\n价值指向：画面中央可见一座高大的纪念碑，碑身呈灰白色，具有典型的碑式结构，结合其位置和建筑特征，可识别为人民英雄纪念碑。该纪念碑是纪念近代以来为国家牺牲的人民英雄的标志性建筑，是红色文化的重要象征，承载着革命历史记忆与国家精神。</think>",
+      "response_model": "glm-4v",
+      "response_id": "202611191650223e4af2a8e8c14d91",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=73301, prompt_tokens_details=PromptTokensDetails(cached_tokens=73300), completion_tokens=88, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73389)",
+      "seconds": 47.008148431777954
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

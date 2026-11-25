@@ -1,0 +1,48 @@
+{
+  "request": {
+    "id": "T01_T01_G4_r01_video",
+    "task_id": "T01",
+    "video_id": "T01_G4_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T01-G4.mp4",
+    "video_sha256": "fde486f37f8414d8b4e0356844e3cd055690eac1bc1c49cbd06270e290d22035",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：【E｜场景环境层】\n白天，陕西西安一处大型室内考古遗址展厅空间开阔，光线均匀柔和，整体环境安静、庄重。\n\n【M｜主体行为层】\n视觉焦点为秦始皇兵马俑一号坑内的大型人物雕塑群。多个雕塑主体分布于遗址区域内，各主体保持静止，形成具有规模感的空间组织。\n\n【C｜文化符号层】\n文化类别：古城与历史文化。\n核心视觉特征：多排陶俑组成整齐军阵、古代军士服饰与甲胄造型、土褐色及灰褐色陶土表面、由土质隔墙划分的考古坑道布局。\n\n【A｜视听语言层】\n镜头稳定、节奏慢，采用高处斜俯视的大远景，缓慢水平平移。光照柔和，景深较深，整体为写实纪实摄影风格。\n\n【S｜整体叙事层】\n镜头沿遗址区域缓慢移动，连续展示人物雕塑群的排列及其所在空间，呈现古代遗址的规模与秩序。。时序事实及判据：[]",
+    "request_sha256": "783005c79955e8f740ae6fc29aea193f6e03282945430db76b3beee3c4f01f7a"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"conditions\": {\"subject\": {\"verdict\": \"Yes\", \"evidence\": \"视觉焦点为秦始皇兵马俑一号坑内的大型人物雕塑群，多个雕塑主体分布于遗址区域内，各主体保持静止，形成具有规模感的空间组织\", \"timestamps\": \"0.00-5.00\"}, \"scene\": {\"verdict\": \"Yes\", \"evidence\": \"白天，陕西西安一处大型室内考古遗址展厅空间开阔，光线均匀柔和，整体环境安静、庄重\", \"timestamps\": \"0.00-5.00\"}, \"time_weather\": {\"verdict\": \"Yes\", \"evidence\": \"光线均匀柔和，符合白天室内环境特征\", \"timestamps\": \"0.00-5.00\"}, \"camera_motion\": {\"verdict\": \"Yes\", \"evidence\": \"镜头稳定、节奏慢，采用高处斜俯视的大远景，缓慢水平平移\", \"timestamps\": \"0.00-5.00\"}}, \"temporal_facts\": {}}",
+  "parse_ok": true,
+  "parsed": {
+    "conditions": {
+      "subject": {
+        "verdict": "Yes",
+        "evidence": "视觉焦点为秦始皇兵马俑一号坑内的大型人物雕塑群，多个雕塑主体分布于遗址区域内，各主体保持静止，形成具有规模感的空间组织",
+        "timestamps": "0.00-5.00"
+      },
+      "scene": {
+        "verdict": "Yes",
+        "evidence": "白天，陕西西安一处大型室内考古遗址展厅空间开阔，光线均匀柔和，整体环境安静、庄重",
+        "timestamps": "0.00-5.00"
+      },
+      "time_weather": {
+        "verdict": "Yes",
+        "evidence": "光线均匀柔和，符合白天室内环境特征",
+        "timestamps": "0.00-5.00"
+      },
+      "camera_motion": {
+        "verdict": "Yes",
+        "evidence": "镜头稳定、节奏慢，采用高处斜俯视的大远景，缓慢水平平移",
+        "timestamps": "0.00-5.00"
+      }
+    },
+    "temporal_facts": {}
+  }
+}

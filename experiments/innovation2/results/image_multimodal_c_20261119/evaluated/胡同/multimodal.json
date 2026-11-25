@@ -1,0 +1,63 @@
+{
+  "video_id": "胡同",
+  "mode": "multimodal",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "胡同"
+  ],
+  "reference_ids": [
+    "BJ_JINGWEI_001"
+  ],
+  "predicted_names": [
+    "胡同"
+  ],
+  "predicted_ids": [
+    "BJ_JINGWEI_001"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "FOLK"
+  ],
+  "reference_categories": [
+    "FOLK"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": true,
+  "candidate_ids": [
+    "BJ_JINGWEI_001",
+    "BJ_INNOV_007",
+    "BJ_FASHION_003"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于民族与民俗文化。\n核心符号：胡同\n价值指向：画面中可见两侧建筑为灰砖墙、窄巷尺度，街道上行人穿梭，有树荫，这些视觉特征符合胡同的典型场景。胡同是北京特有的街巷形态，承载着市井文化、地理与历史信息，属于民族与民俗文化范畴。",
+  "c_layer_natural_language": "：该场景隶属于民族与民俗文化。\n核心符号：胡同\n价值指向：画面中可见两侧建筑为灰砖墙、窄巷尺度，街道上行人穿梭，有树荫，这些视觉特征符合胡同的典型场景。胡同是北京特有的街巷形态，承载着市井文化、地理与历史信息，属于民族与民俗文化范畴。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/胡同/multimodal.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T17:00:50.599440+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于民族与民俗文化。\n核心符号：胡同\n价值指向：画面中可见两侧建筑为灰砖墙、窄巷尺度，街道上行人穿梭，有树荫，这些视觉特征符合胡同的典型场景。胡同是北京特有的街巷形态，承载着市井文化、地理与历史信息，属于民族与民俗文化范畴。",
+      "response_model": "glm-4v",
+      "response_id": "2026111917005035cd5adc5c5244a4",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=38275, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=84, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=38359)",
+      "seconds": 32.243985176086426
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

@@ -1,0 +1,407 @@
+{
+  "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/data/videos/人民英雄纪念碑1.mp4",
+  "mode": "kb",
+  "controlled_output": true,
+  "kb_enabled": true,
+  "top_k": 5,
+  "retriever": "MultimodalCulturalRetriever",
+  "retrieval_strategy": "evidence_v1",
+  "retrieval_calibration_status": "experimental_unrecalibrated",
+  "steps": {
+    "retrieve": 1.94,
+    "annotate": 117.36
+  },
+  "scene_description_raw": "{\"scene\":\"室外开阔广场，天空多云转晴，光线明亮\",\"subject\":\"一座高大的石碑矗立在广场中央，前方有台阶和围栏\",\"visible_features\":[\"石碑呈长方体，表面有金色文字，底部有浮雕，前方有宽阔的台阶和石制围栏，地面为浅色石板铺成\"],\"background\":[\"广场周围有建筑物，左侧有绿色遮阳伞和岗亭，远处可见树木和建筑\"],\"readable_text\":[{\"text\":\"禁止入内\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.485,0.838,0.514,0.875]}],\"uncertain_entities\":[]}",
+  "scene_description": "室外开阔广场，天空多云转晴，光线明亮\n一座高大的石碑矗立在广场中央，前方有台阶和围栏\n石碑呈长方体，表面有金色文字，底部有浮雕，前方有宽阔的台阶和石制围栏，地面为浅色石板铺成\n【背景辅助证据；不能单独证明主体身份】\n广场周围有建筑物，左侧有绿色遮阳伞和岗亭，远处可见树木和建筑",
+  "scene_evidence_version": "structured_context_v2",
+  "structured_scene": {
+    "scene": "室外开阔广场，天空多云转晴，光线明亮",
+    "subject": "一座高大的石碑矗立在广场中央，前方有台阶和围栏",
+    "visible_features": [
+      "石碑呈长方体，表面有金色文字，底部有浮雕，前方有宽阔的台阶和石制围栏，地面为浅色石板铺成"
+    ],
+    "background": [
+      "广场周围有建筑物，左侧有绿色遮阳伞和岗亭，远处可见树木和建筑"
+    ],
+    "readable_text": [
+      {
+        "text": "禁止入内",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.485,
+          0.838,
+          0.514,
+          0.875
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "partial_failure",
+    "calls": 1,
+    "items": [],
+    "attempts": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.485,
+          0.838,
+          0.514,
+          0.875
+        ],
+        "index": 0,
+        "frame_index": 83,
+        "pixel_bbox": [
+          1785,
+          1766,
+          2050,
+          1933
+        ],
+        "images": [
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/人民英雄纪念碑1/B/text_evidence/region_0_crop.jpg",
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/人民英雄纪念碑1/B/text_evidence/region_0_context.jpg"
+        ],
+        "raw_response": "{\"text\":\"禁止入内\nNo Entry\",\"legibility\":\"clear\"}",
+        "error": "Invalid control character at: line 1 column 14 (char 13)"
+      }
+    ]
+  },
+  "scene_description_cached": true,
+  "prepared_evidence_reused": true,
+  "cultural_query": {
+    "scene_text": "室外开阔广场，天空多云转晴，光线明亮\n一座高大的石碑矗立在广场中央，前方有台阶和围栏\n石碑呈长方体，表面有金色文字，底部有浮雕，前方有宽阔的台阶和石制围栏，地面为浅色石板铺成\n【背景辅助证据；不能单独证明主体身份】\n广场周围有建筑物，左侧有绿色遮阳伞和岗亭，远处可见树木和建筑",
+    "keywords": [
+      "广场",
+      "浮雕"
+    ]
+  },
+  "topk_candidates": [
+    {
+      "symbol_id": "BJ_RED_003",
+      "canonical_name": "人民英雄纪念碑",
+      "cultural_dimension": "红色文化",
+      "dimension_code": "RED",
+      "score": 0.962705448269844,
+      "reason": "证据排序v1；名称=；文字=；弱特征=浮雕",
+      "image_score": 0.9254,
+      "text_score": 1.0,
+      "fusion_score": 0.9627,
+      "ranking_score": 0.515466,
+      "retrieval_evidence": {
+        "name_hits": [],
+        "clear_text_exact_hits": [],
+        "generic_hits": [],
+        "feature_hits": [
+          "浮雕"
+        ],
+        "text_evidence_strength": 0.105522,
+        "identity_verified": false,
+        "strategy": "evidence_v1",
+        "score_semantics": "ranking_only_not_probability",
+        "gate_score_source": "legacy_fusion_not_recalibrated",
+        "in_text_pool": true,
+        "in_image_pool": true
+      }
+    },
+    {
+      "symbol_id": "CN_RED_003",
+      "canonical_name": "延安革命纪念馆",
+      "cultural_dimension": "红色文化",
+      "dimension_code": "RED",
+      "score": 0.43588322401046753,
+      "reason": "证据排序v1；名称=；文字=；弱特征=",
+      "image_score": 0.8718,
+      "text_score": 0.0,
+      "fusion_score": 0.4359,
+      "ranking_score": 0.435883,
+      "retrieval_evidence": {
+        "name_hits": [],
+        "clear_text_exact_hits": [],
+        "generic_hits": [],
+        "feature_hits": [],
+        "text_evidence_strength": 0,
+        "identity_verified": false,
+        "strategy": "evidence_v1",
+        "score_semantics": "ranking_only_not_probability",
+        "gate_score_source": "legacy_fusion_not_recalibrated",
+        "in_text_pool": false,
+        "in_image_pool": true
+      }
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_027",
+      "canonical_name": "曲阜孔庙",
+      "cultural_dimension": "古城与历史文化",
+      "dimension_code": "ANCIENT",
+      "score": 0.4252088814973831,
+      "reason": "证据排序v1；名称=；文字=；弱特征=",
+      "image_score": 0.8504,
+      "text_score": 0.0,
+      "fusion_score": 0.4252,
+      "ranking_score": 0.425209,
+      "retrieval_evidence": {
+        "name_hits": [],
+        "clear_text_exact_hits": [],
+        "generic_hits": [],
+        "feature_hits": [],
+        "text_evidence_strength": 0,
+        "identity_verified": false,
+        "strategy": "evidence_v1",
+        "score_semantics": "ranking_only_not_probability",
+        "gate_score_source": "legacy_fusion_not_recalibrated",
+        "in_text_pool": false,
+        "in_image_pool": true
+      }
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_028",
+      "canonical_name": "曲阜孔林",
+      "cultural_dimension": "古城与历史文化",
+      "dimension_code": "ANCIENT",
+      "score": 0.42520885169506073,
+      "reason": "证据排序v1；名称=；文字=；弱特征=",
+      "image_score": 0.8504,
+      "text_score": 0.0,
+      "fusion_score": 0.4252,
+      "ranking_score": 0.425209,
+      "retrieval_evidence": {
+        "name_hits": [],
+        "clear_text_exact_hits": [],
+        "generic_hits": [],
+        "feature_hits": [],
+        "text_evidence_strength": 0,
+        "identity_verified": false,
+        "strategy": "evidence_v1",
+        "score_semantics": "ranking_only_not_probability",
+        "gate_score_source": "legacy_fusion_not_recalibrated",
+        "in_text_pool": false,
+        "in_image_pool": true
+      }
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_029",
+      "canonical_name": "曲阜孔府",
+      "cultural_dimension": "古城与历史文化",
+      "dimension_code": "ANCIENT",
+      "score": 0.42520885169506073,
+      "reason": "证据排序v1；名称=；文字=；弱特征=",
+      "image_score": 0.8504,
+      "text_score": 0.0,
+      "fusion_score": 0.4252,
+      "ranking_score": 0.425209,
+      "retrieval_evidence": {
+        "name_hits": [],
+        "clear_text_exact_hits": [],
+        "generic_hits": [],
+        "feature_hits": [],
+        "text_evidence_strength": 0,
+        "identity_verified": false,
+        "strategy": "evidence_v1",
+        "score_semantics": "ranking_only_not_probability",
+        "gate_score_source": "legacy_fusion_not_recalibrated",
+        "in_text_pool": false,
+        "in_image_pool": true
+      }
+    }
+  ],
+  "rejection_gate": {
+    "level": "confident",
+    "signals": {
+      "mode": "multimodal",
+      "signal": "fusion",
+      "top1_score": 0.9627,
+      "top2_score": 0.4359,
+      "margin_rel": 0.5472,
+      "n_keywords": 2,
+      "scene_negative": false,
+      "score_thr": 0.4,
+      "margin_thr": 0
+    },
+    "reason": "检索分数/分差/视觉证据三信号均达标",
+    "constraint_overridden": false
+  },
+  "effective_gate": {
+    "level": "confident",
+    "signals": {
+      "mode": "multimodal",
+      "signal": "fusion",
+      "top1_score": 0.9627,
+      "top2_score": 0.4359,
+      "margin_rel": 0.5472,
+      "n_keywords": 2,
+      "scene_negative": false,
+      "score_thr": 0.4,
+      "margin_thr": 0
+    },
+    "reason": "检索分数/分差/视觉证据三信号均达标",
+    "constraint_overridden": false
+  },
+  "prompt": "你是一位专业的中华文化与视听语言分析师，严格遵循「EMCAST六维分层标注体系」对视频进行标注。\n请严格执行以下双重规范：\n\n============================================================\n一、 EMCAST 结构化标注规范\n============================================================\n【E｜场景环境层】\n- 标注目标：确立物理空间容器与感官基调，为生成模型设定整体影调。\n- 标注逻辑：具体空间场所 + 时间/天气 + 环境/情绪氛围。\n\n【M｜主体行为层】\n- 标注目标：定义画面的视觉代理与核心行为。\n- 核心限制规则（多建筑解耦分离描述要求）：\n  1. 本次标注任务以建筑空间为主。你必须把出现在画面中的、看起来像核心主体的建筑全部标注并罗列出来。若画面同时包含多座外观或功能不同的独立建筑（如一个长方形、一个流线圆形），你必须在输出时‘完全清晰拆分描述’各自独立的特征。严禁使用一个合成句将不同形态的建筑混淆合并描述。\n  2. 对于每一座罗列出来的核心建筑，必须独立写清其具体的[方位/相对位置]+[几何形态]（如：曲面、流线型、轴对称、矩形矩阵、飞檐斗拱）以及各自对应的[外立面材质质感]（如：玻璃幕墙、金属铝板、清水混凝土、青砖灰瓦）。\n  3. 活跃主体判定：如果活跃主体（如人物、车辆）在全图画面中的视觉占比小于或等于 70%，经判断不是主要焦点，则在最终输出中必须‘完全剥离、剔除并隐藏’任何关于活跃主体动态以及关系的字眼。只有当活跃主体占比大于 70% 时，才允许在‘视觉焦点’中并列写出活跃主体并保留其动态和关系描述。\n\n【C｜文化维度层】\n- 标注目标：界定视频的文化本体属性与符号学内涵。\n- 分类标准：从中华文化五维闭集中选择最契合的一项——古城与历史文化、红色文化、民族与民俗文化、科技与创新文化、现代城市与国际文化；单一维度优先，确属跨界时可用分号并列（最多2个）。\n- 各维度典型符号锚点（受控参考，非穷举）：\n    · 古城与历史文化：故宫、紫禁城、太和殿、天坛、祈年殿、钟鼓楼、北京中轴线、中轴线\n    · 红色文化：北大红楼、天安门广场、天安门、人民英雄纪念碑、卢沟桥、宛平城、中国国家博物馆、国家博物馆\n    · 民族与民俗文化：胡同、四合院、京剧、兔儿爷、兔爷、京韵大鼓、北京烤鸭、烤鸭\n    · 科技与创新文化：中关村、中关村科学城、奥林匹克公园、鸟巢、国家体育场、水立方、国家游泳中心、北京大学\n    · 现代城市与国际文化：三里屯、798艺术区、798、CBD、国贸、望京、王府井、郎园Station\n- 受控候选闭集（知识库检索 Top-5）：\n    1. 人民英雄纪念碑（维度：红色文化；别名：纪、念、碑；典型视觉特征：碑高37.94米|碑心花岗岩|正面\"人民英雄永垂不朽\"鎏金大字|须弥座台基两层|下层四周八块汉白玉浮雕）\n    2. 延安革命纪念馆（维度：红色文化；别名：延、安、纪、念、馆、|、王、家、坪、革、命、旧、址；典型视觉特征：纪念馆建筑|革命旧址|展陈文物|延安窑洞与黄土高原环境）\n    3. 曲阜孔庙（维度：古城与历史文化；别名：孔、庙、|、阙、里、至、圣、庙、|、大、成、殿、|、奎、文、阁；典型视觉特征：大成殿重檐歇山黄瓦|奎文阁|十三碑亭|杏坛|万仞宫墙）\n    4. 曲阜孔林（维度：古城与历史文化；别名：孔、林、|、至、圣、林；典型视觉特征：神道石像生|孔子墓封土|洙水桥|古柏夹道|碑林）\n    5. 曲阜孔府（维度：古城与历史文化；别名：孔、府、|、衍、圣、公、府、|、圣、府；典型视觉特征：重光门|大堂|内宅门|前堂后寝格局|黑漆大门与匾额）\n    [检索置信度] Top1检索分=0.9627，Top1-Top2相对分差=0.5472，门控判定：高\n- 判定要求：以画面真实视觉证据为唯一依据，禁止脱离画面臆测；核心符号须精准锚定承载该文化内涵的关键视觉要素（如斗拱飞檐/红墙黄瓦、红色纪念设施、民俗物件与戏曲、科技地标、现代都市天际线等）。\n- 受控输出规则：核心符号必须且只能从上述受控候选闭集中选择（使用其规范名）；若画面主体与任一候选都无法可靠对应（没有专有名称、独有形态等明确依据），必须输出 unknown_symbol 并在价值指向中说明画面证据；若画面中清晰可读的专有名称不属于任何候选（规范名或别名），核心符号必须输出 unknown_symbol，并在价值指向中如实记录画面可见名称；严禁借用候选之外的名称或自造名称充当结论。\n\n【A｜视听语言层】\n- 标注目标：使用电影叙事学闭集术语，客观描述影像的拍摄手法与视听组织范式。\n- 核心禁止规则：严禁在最终输出中包含任何诸如‘若镜头运动详细描述：’等带有控制逻辑的提示短语。直接根据物理画面机位判定结果，平铺直叙对应结构的描述语句。\n- 闭集受控词表集合：\n  * 运镜：移动类[推（前）/拉（后）/升（上）/降（下）/平移（左/右）]；旋转类[摇摄（左/右/俯/仰）/滚转/变焦]；追踪类[侧向追踪/尾随跟拍/前方领拍/弧形追踪/环绕拍摄]。\n  * 基础要素：状态[稳定/晃动]、节奏[快/慢]、景别[大远景/全景/中景/近景/特写/大特写]、景深[浅/深]。\n  * 画面表征：构图[三分法/中轴线对称/框架式/几何引导线]；光影[高调/低调/自然漫射光/侧逆光/逆光/黄金时刻/硬光/软光]；色彩[高饱和/低饱和/冷调/暖调/对比色/同类色]。\n\n  * 播放速度效果检测：\n    - ffprobe仅提供编码参数参考，帧率信息不一定代表真实拍摄时间间隔。判断延时摄影时，应关注连续画面之间的真实视觉变化速度，而不是只依据 FPS。\n    - 如果 ffprobe明确检测到慢放/快放，可作为参考；但若 ffprobe显示正常速度，仍须继续结合视觉判断。\n    - 视觉判断要点：\n      ▸ 延时摄影：云层快速移动、日出日落/光影变化明显加速、星轨变化、车流/人群变化速度明显超过现实、植物生长/天气变化等长期过程被压缩。\n      ▸ 慢放：人物动作明显缓慢、运动过程被拉长、动作细节展开。\n      ▸ 快放：普通运动速度明显加快，但不是长期时间压缩效果。\n      ▸ 倒放：事件发展顺序与正常时间相反。\n    - 选项：[正常速度/慢放/快放/延时摄影/倒放]\n\n【S｜整体叙事层】\n- 标注目标：实现时序维度的语义合成与密集叙事总结。必须串联时间演进、多座核心建筑在画面中的空间对位与呼应逻辑，形成高度连贯的密集语言流。\n\n【T｜技术属性层】\n- 标注目标：记录由底层引擎解析传入的视频物理元数据。\n\n============================================================\n二、 EMCAST 标准化标注模板 (输出格式要求)\n============================================================\n严禁在最终生成的文本中遗留任何中括号占位符、条件控制说明文字。请严格依据实际画面条件，选择并组装以下对应的纯净段落格式进行输出：\n\n【EMCAST 视频标注结果】\n\n【E｜场景环境层】：视频构建了一个[具体空间场所]的物理环境。此时处于[时间/天气]状态。整体场景呈现出[氛围词表选一]的感官基调。\n\n【M｜主体行为层】按以下统一格式输出（多建筑主体必须在‘承载主体外观’中逐一换行或分句清晰陈述，严禁合并）。标记为【仅占比>70%时追加】的部分，只有当活跃主体占比 > 70% 时才写入；占比 <= 70% 时必须完全省略这些部分，不得出现任何活跃主体动态或关系的字眼：\n    【M｜主体行为层】：视觉焦点包含承载主体：[列出画面中出现的所有核心建筑/场馆主体的名称或代称]【仅占比>70%时追加：与 活跃主体：[名称]】\n    承载主体外观：[必须逐一、分开清晰描述各个核心建筑的具体几何形态与对应材质，多建筑严禁共用一段含糊句。格式参考：左侧/主体一呈现出...，外立面材质主要为...；右侧/主体二呈现出...，外立面材质主要为...]\n    【仅占比>70%时追加】活跃主体动态：主体正在进行[具体动作]，状态呈现为[行为方式/节奏]。\n    【仅占比>70%时追加】主体关系：描述[活跃主体]与[各个承载主体]的空间交互逻辑。\n    若画面涉及文字，文字符号：[\"提取的文字内容\"]\n\n【C｜文化维度层】：该场景隶属于[古城与历史文化/红色文化/民族与民俗文化/科技与创新文化/现代城市与国际文化中的一项（确属跨界可分号并列，最多2个）]。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为[具体元素，尽量使用知识库规范名；画面证据不足时输出 unknown_symbol]。\n价值指向：[结合该符号的历史文化背景，阐明其文化内涵与时代价值]。\n\n【A｜视听语言层】按以下统一格式平铺直叙输出（严禁夹杂控制条件括号）：\n    【A｜视听语言层】\n    镜头语法：镜头为[运动机位/固定机位]。若为运动机位，需紧接着写明具体运镜方式，即“运镜采用[具体动作+方向]，”；若为固定机位则不写这半句，直接续写：状态[稳定/晃动]，节奏[快/慢]，以[标准景别词]为主，景深[浅/深]，视觉重心位于[具体视觉核心区域]\n    播放速度效果：[正常速度/慢放/快放/延时摄影/倒放]\n    构图遵循[标准构图词]，光影特征呈现为[标准光影词]，视觉色彩倾向于[标准色彩词]。\n\n【S｜整体叙事层】：[密集化描述视频从空间组织到时序演进的连贯过程]。\n\n【T｜技术属性层】\n分辨率：3840x2160；实际帧率：25.0 FPS；标称帧率：25.0 FPS；画幅：16:9；动态范围：SDR；色彩空间/像素格式：yuv420p；采样方式：4:2:0；编码格式：h264；码率：18951705；视频时长：6.72s。\n现在，请严格执行多主体拆分逻辑与判定规则，仅输出干净、标准、无逻辑残留的最终标注结果。",
+  "final_annotation": "【EMCAST 视频标注结果】\n\n【E｜场景环境层】：视频构建了一个天安门广场的物理环境。此时处于白天、多云天气状态。整体场景呈现出庄严开阔的感官基调。\n\n【M｜主体行为层】：视觉焦点包含承载主体：人民英雄纪念碑\n    承载主体外观：画面中央的人民英雄纪念碑呈现出高耸的碑体形态，外立面材质主要为花岗岩；纪念碑基座呈现出矩形台基形态，外立面材质主要为汉白玉；纪念碑基座四周的栏杆呈现出围栏形态，外立面材质主要为汉白玉。\n\n【C｜文化维度层】：该场景隶属于红色文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为人民英雄纪念碑。\n价值指向：人民英雄纪念碑是纪念为中国人民解放事业和共和国建设事业英勇献身的革命先烈的国家级纪念碑，其“人民英雄永垂不朽”的鎏金大字与浮雕，承载着对革命历史的铭记与对英雄精神的传承，是红色文化中重要的纪念性符号与精神图腾。\n\n【A｜视听语言层】\n    镜头语法：镜头为固定机位。状态稳定，节奏慢，以全景为主，景深深，视觉重心位于纪念碑碑体。\n    播放速度效果：延时摄影\n    构图遵循中轴线对称，光影特征呈现为自然漫射光，视觉色彩倾向于高饱和。\n\n【S｜整体叙事层】：视频以固定机位全景呈现天安门广场上的人民英雄纪念碑，通过延时摄影手法捕捉云层在蓝天背景下缓慢移动的动态过程，纪念碑作为核心视觉焦点，其庄严的形态与周围开阔的广场空间形成稳定对位，云层的变化为静态画面增添了时间流逝的动态感，整体营造出庄重而富有历史感的氛围。\n\n【T｜技术属性层】\n分辨率：3840x2160；实际帧率：25.0 FPS；标称帧率：25.0 FPS；画幅：16:9；动态范围：SDR；色彩空间/像素格式：yuv420p；采样方式：4:2:0；编码格式：h264；码率：18951705；视频时长：6.72s。\n",
+  "identity_verification": [
+    {
+      "video_id": "512e753b7fd40b7b_人民英雄纪念碑1",
+      "final_symbol": "人民英雄纪念碑",
+      "final_status": "accept_exact_identity",
+      "final_reason": "strong_identity_evidence",
+      "verification_required": false,
+      "candidates_verified": [
+        {
+          "symbol_id": "BJ_RED_003",
+          "canonical_name": "人民英雄纪念碑",
+          "rank": 0,
+          "text_identity": "none",
+          "text_detail": "场景描述未出现候选名称/别名/独特特征",
+          "visual_identity": "strong",
+          "visual_detail": "max_ref_sim=0.849; top3_ref_sim=0.844; frame_consistency=1.00 (4/4 帧最优)",
+          "hierarchy_relation": "none",
+          "strong_identity": true,
+          "supporting": [],
+          "verification_required": false,
+          "trigger_reasons": [],
+          "scores": {
+            "text_score": 1.0,
+            "image_score": 0.9254,
+            "fusion_score": 0.9627
+          }
+        },
+        {
+          "symbol_id": "CN_RED_003",
+          "canonical_name": "延安革命纪念馆",
+          "rank": 1,
+          "text_identity": "none",
+          "text_detail": "场景描述未出现候选名称/别名/独特特征",
+          "visual_identity": "none",
+          "visual_detail": "max_ref_sim=0.711; top3_ref_sim=0.690; frame_consistency=0.00 (0/4 帧最优)",
+          "hierarchy_relation": "none",
+          "strong_identity": false,
+          "supporting": [],
+          "verification_required": false,
+          "trigger_reasons": [],
+          "scores": {
+            "text_score": 0.0,
+            "image_score": 0.8718,
+            "fusion_score": 0.4359
+          }
+        },
+        {
+          "symbol_id": "CN2_ANCIENT_027",
+          "canonical_name": "曲阜孔庙",
+          "rank": 2,
+          "text_identity": "none",
+          "text_detail": "场景描述未出现候选名称/别名/独特特征",
+          "visual_identity": "none",
+          "visual_detail": "max_ref_sim=0.681; top3_ref_sim=0.668; frame_consistency=0.00 (0/4 帧最优)",
+          "hierarchy_relation": "none",
+          "strong_identity": false,
+          "supporting": [],
+          "verification_required": false,
+          "trigger_reasons": [],
+          "scores": {
+            "text_score": 0.0,
+            "image_score": 0.8504,
+            "fusion_score": 0.4252
+          }
+        }
+      ],
+      "decisions": [
+        {
+          "identity_status": "accept_exact_identity",
+          "reason": "strong_identity_evidence",
+          "confidence": 1.0,
+          "text_identity_evidence": "场景描述未出现候选名称/别名/独特特征",
+          "visual_identity_evidence": "max_ref_sim=0.849; top3_ref_sim=0.844; frame_consistency=1.00 (4/4 帧最优)",
+          "hierarchy_relation": "none",
+          "symbol_id": "BJ_RED_003",
+          "canonical_name": "人民英雄纪念碑",
+          "rank": 0,
+          "text_identity": "none",
+          "text_detail": "场景描述未出现候选名称/别名/独特特征",
+          "visual_identity": "strong",
+          "visual_detail": "max_ref_sim=0.849; top3_ref_sim=0.844; frame_consistency=1.00 (4/4 帧最优)",
+          "strong_identity": true,
+          "supporting": [],
+          "verification_required": false,
+          "trigger_reasons": [],
+          "scores": {
+            "text_score": 1.0,
+            "image_score": 0.9254,
+            "fusion_score": 0.9627
+          },
+          "source": "rule_screen",
+          "verifier_hierarchy_relation": "none"
+        },
+        {
+          "symbol_id": "CN_RED_003",
+          "canonical_name": "延安革命纪念馆",
+          "rank": 1,
+          "text_identity": "none",
+          "text_detail": "场景描述未出现候选名称/别名/独特特征",
+          "visual_identity": "none",
+          "visual_detail": "max_ref_sim=0.711; top3_ref_sim=0.690; frame_consistency=0.00 (0/4 帧最优)",
+          "hierarchy_relation": "none",
+          "strong_identity": false,
+          "supporting": [],
+          "verification_required": false,
+          "trigger_reasons": [],
+          "scores": {
+            "text_score": 0.0,
+            "image_score": 0.8718,
+            "fusion_score": 0.4359
+          },
+          "source": "rule_screen_only",
+          "identity_status": "reject_insufficient_evidence",
+          "reason": "no_identity_evidence",
+          "confidence": 0.0,
+          "text_identity_evidence": "场景描述未出现候选名称/别名/独特特征",
+          "visual_identity_evidence": "max_ref_sim=0.711; top3_ref_sim=0.690; frame_consistency=0.00 (0/4 帧最优)"
+        },
+        {
+          "symbol_id": "CN2_ANCIENT_027",
+          "canonical_name": "曲阜孔庙",
+          "rank": 2,
+          "text_identity": "none",
+          "text_detail": "场景描述未出现候选名称/别名/独特特征",
+          "visual_identity": "none",
+          "visual_detail": "max_ref_sim=0.681; top3_ref_sim=0.668; frame_consistency=0.00 (0/4 帧最优)",
+          "hierarchy_relation": "none",
+          "strong_identity": false,
+          "supporting": [],
+          "verification_required": false,
+          "trigger_reasons": [],
+          "scores": {
+            "text_score": 0.0,
+            "image_score": 0.8504,
+            "fusion_score": 0.4252
+          },
+          "source": "rule_screen_only",
+          "identity_status": "reject_insufficient_evidence",
+          "reason": "no_identity_evidence",
+          "confidence": 0.0,
+          "text_identity_evidence": "场景描述未出现候选名称/别名/独特特征",
+          "visual_identity_evidence": "max_ref_sim=0.681; top3_ref_sim=0.668; frame_consistency=0.00 (0/4 帧最优)"
+        }
+      ],
+      "n_llm_calls": 0,
+      "visual_available": true
+    }
+  ],
+  "raw_final_annotation": "【EMCAST 视频标注结果】\n\n【E｜场景环境层】：视频构建了一个天安门广场的物理环境。此时处于白天、多云天气状态。整体场景呈现出庄严开阔的感官基调。\n\n【M｜主体行为层】：视觉焦点包含承载主体：人民英雄纪念碑\n    承载主体外观：画面中央的人民英雄纪念碑呈现出高耸的碑体形态，外立面材质主要为花岗岩；纪念碑基座呈现出矩形台基形态，外立面材质主要为汉白玉；纪念碑基座四周的栏杆呈现出围栏形态，外立面材质主要为汉白玉。\n\n【C｜文化维度层】：该场景隶属于红色文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为人民英雄纪念碑。\n价值指向：人民英雄纪念碑是纪念为中国人民解放事业和共和国建设事业英勇献身的革命先烈的国家级纪念碑，其“人民英雄永垂不朽”的鎏金大字与浮雕，承载着对革命历史的铭记与对英雄精神的传承，是红色文化中重要的纪念性符号与精神图腾。\n\n【A｜视听语言层】\n    镜头语法：镜头为固定机位。状态稳定，节奏慢，以全景为主，景深深，视觉重心位于纪念碑碑体。\n    播放速度效果：延时摄影\n    构图遵循中轴线对称，光影特征呈现为自然漫射光，视觉色彩倾向于高饱和。\n\n【S｜整体叙事层】：视频以固定机位全景呈现天安门广场上的人民英雄纪念碑，通过延时摄影手法捕捉云层在蓝天背景下缓慢移动的动态过程，纪念碑作为核心视觉焦点，其庄严的形态与周围开阔的广场空间形成稳定对位，云层的变化为静态画面增添了时间流逝的动态感，整体营造出庄重而富有历史感的氛围。\n\n【T｜技术属性层】\n分辨率：3840x2160；实际帧率：25.0 FPS；标称帧率：25.0 FPS；画幅：16:9；动态范围：SDR；色彩空间/像素格式：yuv420p；采样方式：4:2:0；编码格式：h264；码率：18951705；视频时长：6.72s。",
+  "final_c_layer": {
+    "dimension": "红色文化",
+    "core_symbol": "识别出承载该文化内涵的关键视觉锚点为人民英雄纪念碑。",
+    "unknown_symbol": false,
+    "raw_block": "：该场景隶属于红色文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为人民英雄纪念碑。\n价值指向：人民英雄纪念碑是纪念为中国人民解放事业和共和国建设事业英勇献身的革命先烈的国家级纪念碑，其“人民英雄永垂不朽”的鎏金大字与浮雕，承载着对革命历史的铭记与对英雄精神的传承，是红色文化中重要的纪念性符号与精神图腾。"
+  },
+  "kb_path": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/chinese_cultural_symbols_v2.json",
+  "total_seconds": 120.16,
+  "output_dir": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/accuracy_repair_v2/人民英雄纪念碑1/C2"
+}

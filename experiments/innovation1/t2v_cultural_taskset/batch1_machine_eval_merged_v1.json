@@ -1,0 +1,1748 @@
+{
+  "meta": {
+    "name": "第一批机器评价结果合并（局部文化事实+整体建筑形态）",
+    "created": "2026-11-02",
+    "model": "glm-4v",
+    "temperature": 0.0,
+    "scope": "T02故宫角楼 / T03遵义会址 / T05福建土楼 / T08首钢大跳台 / T09北京CBD",
+    "local_facts_tasks": [
+      "T02",
+      "T03",
+      "T05",
+      "T09"
+    ],
+    "overall_form_tasks": [
+      "T02",
+      "T03",
+      "T05",
+      "T08",
+      "T09"
+    ],
+    "notes": [
+      "局部事实评价：T08因F4（红砖/橙红炉体）待核实，未纳入局部事实评价",
+      "整体形态评价：T08使用新补充参考图（滑雪大跳台+冷却塔同框）重评，替代仅含高炉的旧参考图版本",
+      "T09_F3判定标准已修订为\"上下相对较宽、中部收窄（尊形）\"，T09_G2_F3复核维持Yes",
+      "组别映射 group_mapping_status=unverified（文件名-1/-2/-3/-4推断为G1-G4，无独立证据）"
+    ]
+  },
+  "local_facts_eval": {
+    "results": [
+      {
+        "video_id": "T02_G1",
+        "group_id": "G1",
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-1.mp4",
+        "frame_sampling": "GLM-4V 视频输入（API内部帧采样，不本地抽帧）",
+        "model": "glm-4v (ZhipuAI)",
+        "raw_response": "{\"F1\":{\"verdict\":\"Yes\",\"evidence\":\"城墙转角处有造型复杂的多檐角楼，屋顶有多个檐角和分层结构\",\"confidence\":1.0},\"F2\":{\"verdict\":\"No\",\"evidence\":\"角楼屋顶为灰色瓦，非黄色琉璃瓦\",\"confidence\":1.0},\"F3\":{\"verdict\":\"No\",\"evidence\":\"宫墙墙体为灰色石砖，非红色\",\"confidence\":1.0},\"F4\":{\"verdict\":\"Yes\",\"evidence\":\"角楼屋檐明显为两层（重檐）相叠结构\",\"confidence\":1.0}}",
+        "parse_ok": true,
+        "facts": [
+          {
+            "feature_id": "T02-F1",
+            "group_id": "G1",
+            "verdict": "Yes",
+            "evidence": "城墙转角处有造型复杂的多檐角楼，屋顶有多个檐角和分层结构",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T02-F2",
+            "group_id": "G1",
+            "verdict": "No",
+            "evidence": "角楼屋顶为灰色瓦，非黄色琉璃瓦",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T02-F3",
+            "group_id": "G1",
+            "verdict": "No",
+            "evidence": "宫墙墙体为灰色石砖，非红色",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T02-F4",
+            "group_id": "G1",
+            "verdict": "Yes",
+            "evidence": "角楼屋檐明显为两层（重檐）相叠结构",
+            "confidence": 1.0,
+            "error": null
+          }
+        ]
+      },
+      {
+        "video_id": "T02_G2",
+        "group_id": "G2",
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-2.mp4",
+        "frame_sampling": "GLM-4V 视频输入（API内部帧采样，不本地抽帧）",
+        "model": "glm-4v (ZhipuAI)",
+        "raw_response": "{\"F1\":{\"verdict\":\"Yes\",\"evidence\":\"城墙转角处有造型复杂的多檐楼阁，位于宫墙之上\",\"confidence\":1.0},\"F2\":{\"verdict\":\"No\",\"evidence\":\"角楼屋顶为深棕色/红棕色琉璃瓦，非黄色\",\"confidence\":1.0},\"F3\":{\"verdict\":\"No\",\"evidence\":\"宫墙墙体为灰色砖石，非红色\",\"confidence\":1.0},\"F4\":{\"verdict\":\"Yes\",\"evidence\":\"角楼屋檐明显为三层（重檐）相叠\",\"confidence\":1.0}}",
+        "parse_ok": true,
+        "facts": [
+          {
+            "feature_id": "T02-F1",
+            "group_id": "G2",
+            "verdict": "Yes",
+            "evidence": "城墙转角处有造型复杂的多檐楼阁，位于宫墙之上",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T02-F2",
+            "group_id": "G2",
+            "verdict": "No",
+            "evidence": "角楼屋顶为深棕色/红棕色琉璃瓦，非黄色",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T02-F3",
+            "group_id": "G2",
+            "verdict": "No",
+            "evidence": "宫墙墙体为灰色砖石，非红色",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T02-F4",
+            "group_id": "G2",
+            "verdict": "Yes",
+            "evidence": "角楼屋檐明显为三层（重檐）相叠",
+            "confidence": 1.0,
+            "error": null
+          }
+        ]
+      },
+      {
+        "video_id": "T02_G3",
+        "group_id": "G3",
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-3.mp4",
+        "frame_sampling": "GLM-4V 视频输入（API内部帧采样，不本地抽帧）",
+        "model": "glm-4v (ZhipuAI)",
+        "raw_response": "{\"F1\":{\"verdict\":\"Yes\",\"evidence\":\"城墙转角处有造型复杂的多檐楼阁，可见多层屋檐相叠\",\"confidence\":1.0},\"F2\":{\"verdict\":\"Yes\",\"evidence\":\"角楼屋顶为黄色琉璃瓦，颜色鲜明\",\"confidence\":1.0},\"F3\":{\"verdict\":\"No\",\"evidence\":\"宫墙墙体为灰色，非红色\",\"confidence\":1.0},\"F4\":{\"verdict\":\"Yes\",\"evidence\":\"角楼屋檐明显为多层（重檐）相叠，可见至少两层\",\"confidence\":1.0}}",
+        "parse_ok": true,
+        "facts": [
+          {
+            "feature_id": "T02-F1",
+            "group_id": "G3",
+            "verdict": "Yes",
+            "evidence": "城墙转角处有造型复杂的多檐楼阁，可见多层屋檐相叠",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T02-F2",
+            "group_id": "G3",
+            "verdict": "Yes",
+            "evidence": "角楼屋顶为黄色琉璃瓦，颜色鲜明",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T02-F3",
+            "group_id": "G3",
+            "verdict": "No",
+            "evidence": "宫墙墙体为灰色，非红色",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T02-F4",
+            "group_id": "G3",
+            "verdict": "Yes",
+            "evidence": "角楼屋檐明显为多层（重檐）相叠，可见至少两层",
+            "confidence": 1.0,
+            "error": null
+          }
+        ]
+      },
+      {
+        "video_id": "T02_G4",
+        "group_id": "G4",
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-4.mp4",
+        "frame_sampling": "GLM-4V 视频输入（API内部帧采样，不本地抽帧）",
+        "model": "glm-4v (ZhipuAI)",
+        "raw_response": "{\"F1\":{\"verdict\":\"Yes\",\"evidence\":\"城墙转角处有造型复杂的多檐楼阁，位于护城河旁\",\"confidence\":1.0},\"F2\":{\"verdict\":\"Yes\",\"evidence\":\"角楼屋顶为黄色琉璃瓦，颜色鲜明\",\"confidence\":1.0},\"F3\":{\"verdict\":\"No\",\"evidence\":\"宫墙墙体为灰色，非红色\",\"confidence\":1.0},\"F4\":{\"verdict\":\"Yes\",\"evidence\":\"角楼屋檐明显为多层（重檐）相叠，结构复杂\",\"confidence\":1.0}}",
+        "parse_ok": true,
+        "facts": [
+          {
+            "feature_id": "T02-F1",
+            "group_id": "G4",
+            "verdict": "Yes",
+            "evidence": "城墙转角处有造型复杂的多檐楼阁，位于护城河旁",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T02-F2",
+            "group_id": "G4",
+            "verdict": "Yes",
+            "evidence": "角楼屋顶为黄色琉璃瓦，颜色鲜明",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T02-F3",
+            "group_id": "G4",
+            "verdict": "No",
+            "evidence": "宫墙墙体为灰色，非红色",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T02-F4",
+            "group_id": "G4",
+            "verdict": "Yes",
+            "evidence": "角楼屋檐明显为多层（重檐）相叠，结构复杂",
+            "confidence": 1.0,
+            "error": null
+          }
+        ]
+      },
+      {
+        "video_id": "T03_G1",
+        "group_id": "G1",
+        "task_id": "T03",
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T3-1.mp4",
+        "eval_time": "2026-11-02T18:47:44.960330",
+        "frame_sampling": "GLM-4V 视频输入（API内部帧采样，不可控）",
+        "model": "glm-4v (ZhipuAI)",
+        "temperature": 0.0,
+        "raw_response": "{\"F1\":{\"verdict\":\"Yes\",\"evidence\":\"建筑正立面可见两层，上层有窗户，下层有门，墙体为砖石结构，屋顶为木质构件\",\"confidence\":1.0},\"F2\":{\"verdict\":\"Yes\",\"evidence\":\"建筑主体墙面为白色，屋顶为深灰色瓦片，二者颜色相间\",\"confidence\":1.0},\"F3\":{\"verdict\":\"Yes\",\"evidence\":\"屋顶覆盖深灰色瓦片，呈明显坡度，符合青瓦坡屋顶特征\",\"confidence\":1.0},\"F4\":{\"verdict\":\"No\",\"evidence\":\"建筑正立面无连续拱形柱廊，仅门上方有装饰性构件，两侧无廊柱\",\"confidence\":1.0}}",
+        "parse_ok": true,
+        "facts": [
+          {
+            "feature_id": "T03-F1",
+            "group_id": "G1",
+            "verdict": "Yes",
+            "evidence": "建筑正立面可见两层，上层有窗户，下层有门，墙体为砖石结构，屋顶为木质构件",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T03-F2",
+            "group_id": "G1",
+            "verdict": "Yes",
+            "evidence": "建筑主体墙面为白色，屋顶为深灰色瓦片，二者颜色相间",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T03-F3",
+            "group_id": "G1",
+            "verdict": "Yes",
+            "evidence": "屋顶覆盖深灰色瓦片，呈明显坡度，符合青瓦坡屋顶特征",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T03-F4",
+            "group_id": "G1",
+            "verdict": "No",
+            "evidence": "建筑正立面无连续拱形柱廊，仅门上方有装饰性构件，两侧无廊柱",
+            "confidence": 1.0,
+            "error": null
+          }
+        ]
+      },
+      {
+        "video_id": "T03_G2",
+        "group_id": "G2",
+        "task_id": "T03",
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T3-2.mp4",
+        "eval_time": "2026-11-02T18:47:57.693509",
+        "frame_sampling": "GLM-4V 视频输入（API内部帧采样，不可控）",
+        "model": "glm-4v (ZhipuAI)",
+        "temperature": 0.0,
+        "raw_response": "{\"F1\":{\"verdict\":\"Yes\",\"evidence\":\"建筑可见两层，底层为砖石基座，上层为木质结构，二层有木质廊栏\",\"confidence\":1.0},\"F2\":{\"verdict\":\"Yes\",\"evidence\":\"建筑底层墙面为白色，基座部分为灰色砖石，二者相间可见\",\"confidence\":1.0},\"F3\":{\"verdict\":\"Yes\",\"evidence\":\"屋顶为深灰色瓦片铺设的坡屋顶，符合青瓦特征\",\"confidence\":1.0},\"F4\":{\"verdict\":\"No\",\"evidence\":\"檐下为直立的木质廊柱，无拱形开口（券洞），柱廊为直柱而非拱形\",\"confidence\":1.0}}",
+        "parse_ok": true,
+        "facts": [
+          {
+            "feature_id": "T03-F1",
+            "group_id": "G2",
+            "verdict": "Yes",
+            "evidence": "建筑可见两层，底层为砖石基座，上层为木质结构，二层有木质廊栏",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T03-F2",
+            "group_id": "G2",
+            "verdict": "Yes",
+            "evidence": "建筑底层墙面为白色，基座部分为灰色砖石，二者相间可见",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T03-F3",
+            "group_id": "G2",
+            "verdict": "Yes",
+            "evidence": "屋顶为深灰色瓦片铺设的坡屋顶，符合青瓦特征",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T03-F4",
+            "group_id": "G2",
+            "verdict": "No",
+            "evidence": "檐下为直立的木质廊柱，无拱形开口（券洞），柱廊为直柱而非拱形",
+            "confidence": 1.0,
+            "error": null
+          }
+        ]
+      },
+      {
+        "video_id": "T03_G3",
+        "group_id": "G3",
+        "task_id": "T03",
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T3-3.mp4",
+        "eval_time": "2026-11-02T18:48:12.879829",
+        "frame_sampling": "GLM-4V 视频输入（API内部帧采样，不可控）",
+        "model": "glm-4v (ZhipuAI)",
+        "temperature": 0.0,
+        "raw_response": "{\"F1\":{\"verdict\":\"Yes\",\"evidence\":\"建筑正立面可见两层，底层为砖石结构，上层有木质门窗和廊栏\",\"confidence\":1.0},\"F2\":{\"verdict\":\"Yes\",\"evidence\":\"建筑正立面底层为灰色砖墙，上层为白色墙面，二者相间\",\"confidence\":1.0},\"F3\":{\"verdict\":\"Yes\",\"evidence\":\"屋顶为深灰色瓦片覆盖的坡屋顶，可见传统屋脊\",\"confidence\":1.0},\"F4\":{\"verdict\":\"Yes\",\"evidence\":\"正立面底层有连续拱形券洞，对应廊柱形成柱廊\",\"confidence\":1.0}}",
+        "parse_ok": true,
+        "facts": [
+          {
+            "feature_id": "T03-F1",
+            "group_id": "G3",
+            "verdict": "Yes",
+            "evidence": "建筑正立面可见两层，底层为砖石结构，上层有木质门窗和廊栏",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T03-F2",
+            "group_id": "G3",
+            "verdict": "Yes",
+            "evidence": "建筑正立面底层为灰色砖墙，上层为白色墙面，二者相间",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T03-F3",
+            "group_id": "G3",
+            "verdict": "Yes",
+            "evidence": "屋顶为深灰色瓦片覆盖的坡屋顶，可见传统屋脊",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T03-F4",
+            "group_id": "G3",
+            "verdict": "Yes",
+            "evidence": "正立面底层有连续拱形券洞，对应廊柱形成柱廊",
+            "confidence": 1.0,
+            "error": null
+          }
+        ]
+      },
+      {
+        "video_id": "T03_G4",
+        "group_id": "G4",
+        "task_id": "T03",
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T3-4.mp4",
+        "eval_time": "2026-11-02T18:48:23.760069",
+        "frame_sampling": "GLM-4V 视频输入（API内部帧采样，不可控）",
+        "model": "glm-4v (ZhipuAI)",
+        "temperature": 0.0,
+        "raw_response": "{\"F1\":{\"verdict\":\"Yes\",\"evidence\":\"建筑为两层，可见灰色砖墙与木质门窗、廊柱，屋顶为传统瓦片\",\"confidence\":1.0},\"F2\":{\"verdict\":\"Yes\",\"evidence\":\"墙面由灰色砖材与白色抹灰部分相间构成\",\"confidence\":1.0},\"F3\":{\"verdict\":\"Yes\",\"evidence\":\"屋顶为深灰色瓦片铺设的坡屋顶\",\"confidence\":1.0},\"F4\":{\"verdict\":\"Yes\",\"evidence\":\"正立面有连续拱形开口及对应廊柱，形成柱廊\",\"confidence\":1.0}}",
+        "parse_ok": true,
+        "facts": [
+          {
+            "feature_id": "T03-F1",
+            "group_id": "G4",
+            "verdict": "Yes",
+            "evidence": "建筑为两层，可见灰色砖墙与木质门窗、廊柱，屋顶为传统瓦片",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T03-F2",
+            "group_id": "G4",
+            "verdict": "Yes",
+            "evidence": "墙面由灰色砖材与白色抹灰部分相间构成",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T03-F3",
+            "group_id": "G4",
+            "verdict": "Yes",
+            "evidence": "屋顶为深灰色瓦片铺设的坡屋顶",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T03-F4",
+            "group_id": "G4",
+            "verdict": "Yes",
+            "evidence": "正立面有连续拱形开口及对应廊柱，形成柱廊",
+            "confidence": 1.0,
+            "error": null
+          }
+        ]
+      },
+      {
+        "video_id": "T05_G1",
+        "group_id": "G1",
+        "task_id": "T05",
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T5-1.mp4",
+        "eval_time": "2026-11-02T18:48:33.586385",
+        "frame_sampling": "GLM-4V 视频输入（API内部帧采样，不可控）",
+        "model": "glm-4v (ZhipuAI)",
+        "temperature": 0.0,
+        "raw_response": "{\"F1\":{\"verdict\":\"No\",\"evidence\":\"画面中可见多栋方形现代建筑，无圆形土楼\",\"confidence\":1.0},\"F2\":{\"verdict\":\"No\",\"evidence\":\"画面中建筑均为方形或矩形，无圆形土楼\",\"confidence\":1.0},\"F3\":{\"verdict\":\"No\",\"evidence\":\"建筑屋顶为平顶或浅色，无黑色瓦片大屋顶\",\"confidence\":1.0},\"F4\":{\"verdict\":\"Yes\",\"evidence\":\"村落位于山地之间，背景有山丘和林地\",\"confidence\":1.0}}",
+        "parse_ok": true,
+        "facts": [
+          {
+            "feature_id": "T05-F1",
+            "group_id": "G1",
+            "verdict": "No",
+            "evidence": "画面中可见多栋方形现代建筑，无圆形土楼",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T05-F2",
+            "group_id": "G1",
+            "verdict": "No",
+            "evidence": "画面中建筑均为方形或矩形，无圆形土楼",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T05-F3",
+            "group_id": "G1",
+            "verdict": "No",
+            "evidence": "建筑屋顶为平顶或浅色，无黑色瓦片大屋顶",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T05-F4",
+            "group_id": "G1",
+            "verdict": "Yes",
+            "evidence": "村落位于山地之间，背景有山丘和林地",
+            "confidence": 1.0,
+            "error": null
+          }
+        ]
+      },
+      {
+        "video_id": "T05_G2",
+        "group_id": "G2",
+        "task_id": "T05",
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T5-2.mp4",
+        "eval_time": "2026-11-02T18:48:46.459575",
+        "frame_sampling": "GLM-4V 视频输入（API内部帧采样，不可控）",
+        "model": "glm-4v (ZhipuAI)",
+        "temperature": 0.0,
+        "raw_response": "{\"F1\":{\"verdict\":\"Yes\",\"evidence\":\"画面中可见多座大型圆形建筑，呈群组分布，符合土楼特征\",\"confidence\":0.9},\"F2\":{\"verdict\":\"Yes\",\"evidence\":\"主体建筑外轮廓为完整闭合圆环，俯视角度清晰可见\",\"confidence\":0.9},\"F3\":{\"verdict\":\"Yes\",\"evidence\":\"建筑屋顶为深色瓦片，出檐明显且深远\",\"confidence\":0.9},\"F4\":{\"verdict\":\"Yes\",\"evidence\":\"背景为山丘、林地及梯田，整体为山地村落环境\",\"confidence\":0.9}}",
+        "parse_ok": true,
+        "facts": [
+          {
+            "feature_id": "T05-F1",
+            "group_id": "G2",
+            "verdict": "Yes",
+            "evidence": "画面中可见多座大型圆形建筑，呈群组分布，符合土楼特征",
+            "confidence": 0.9,
+            "error": null
+          },
+          {
+            "feature_id": "T05-F2",
+            "group_id": "G2",
+            "verdict": "Yes",
+            "evidence": "主体建筑外轮廓为完整闭合圆环，俯视角度清晰可见",
+            "confidence": 0.9,
+            "error": null
+          },
+          {
+            "feature_id": "T05-F3",
+            "group_id": "G2",
+            "verdict": "Yes",
+            "evidence": "建筑屋顶为深色瓦片，出檐明显且深远",
+            "confidence": 0.9,
+            "error": null
+          },
+          {
+            "feature_id": "T05-F4",
+            "group_id": "G2",
+            "verdict": "Yes",
+            "evidence": "背景为山丘、林地及梯田，整体为山地村落环境",
+            "confidence": 0.9,
+            "error": null
+          }
+        ]
+      },
+      {
+        "video_id": "T05_G3",
+        "group_id": "G3",
+        "task_id": "T05",
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T5-3.mp4",
+        "eval_time": "2026-11-02T18:48:57.728884",
+        "frame_sampling": "GLM-4V 视频输入（API内部帧采样，不可控）",
+        "model": "glm-4v (ZhipuAI)",
+        "temperature": 0.0,
+        "raw_response": "{\"F1\":{\"verdict\":\"Yes\",\"evidence\":\"画面中可见多座大型圆形建筑，符合土楼特征，数量超过两座\",\"confidence\":1.0},\"F2\":{\"verdict\":\"Yes\",\"evidence\":\"从俯视角度可清晰看到土楼外轮廓为完整闭合圆环\",\"confidence\":1.0},\"F3\":{\"verdict\":\"Yes\",\"evidence\":\"土楼屋顶为深色瓦片，出檐明显且深远\",\"confidence\":1.0},\"F4\":{\"verdict\":\"Yes\",\"evidence\":\"土楼周围有山丘、林地和村落，处于山地环境\",\"confidence\":1.0}}",
+        "parse_ok": true,
+        "facts": [
+          {
+            "feature_id": "T05-F1",
+            "group_id": "G3",
+            "verdict": "Yes",
+            "evidence": "画面中可见多座大型圆形建筑，符合土楼特征，数量超过两座",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T05-F2",
+            "group_id": "G3",
+            "verdict": "Yes",
+            "evidence": "从俯视角度可清晰看到土楼外轮廓为完整闭合圆环",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T05-F3",
+            "group_id": "G3",
+            "verdict": "Yes",
+            "evidence": "土楼屋顶为深色瓦片，出檐明显且深远",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T05-F4",
+            "group_id": "G3",
+            "verdict": "Yes",
+            "evidence": "土楼周围有山丘、林地和村落，处于山地环境",
+            "confidence": 1.0,
+            "error": null
+          }
+        ]
+      },
+      {
+        "video_id": "T05_G4",
+        "group_id": "G4",
+        "task_id": "T05",
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T5-4.mp4",
+        "eval_time": "2026-11-02T18:49:31.813799",
+        "frame_sampling": "GLM-4V 视频输入（API内部帧采样，不可控）",
+        "model": "glm-4v (ZhipuAI)",
+        "temperature": 0.0,
+        "raw_response": "{\"F1\":{\"verdict\":\"Yes\",\"evidence\":\"画面中可见多座圆形土楼，数量超过两座，形成土楼群\",\"confidence\":1.0},\"F2\":{\"verdict\":\"Yes\",\"evidence\":\"土楼外轮廓为完整圆环，内部中空，符合闭合圆环形特征\",\"confidence\":1.0},\"F3\":{\"verdict\":\"Yes\",\"evidence\":\"土楼屋顶为深色瓦片，出檐明显，覆盖整个圆环结构\",\"confidence\":1.0},\"F4\":{\"verdict\":\"Yes\",\"evidence\":\"土楼周围有山丘、林地和农田，呈现山地村落环境\",\"confidence\":1.0}}",
+        "parse_ok": true,
+        "facts": [
+          {
+            "feature_id": "T05-F1",
+            "group_id": "G4",
+            "verdict": "Yes",
+            "evidence": "画面中可见多座圆形土楼，数量超过两座，形成土楼群",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T05-F2",
+            "group_id": "G4",
+            "verdict": "Yes",
+            "evidence": "土楼外轮廓为完整圆环，内部中空，符合闭合圆环形特征",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T05-F3",
+            "group_id": "G4",
+            "verdict": "Yes",
+            "evidence": "土楼屋顶为深色瓦片，出檐明显，覆盖整个圆环结构",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T05-F4",
+            "group_id": "G4",
+            "verdict": "Yes",
+            "evidence": "土楼周围有山丘、林地和农田，呈现山地村落环境",
+            "confidence": 1.0,
+            "error": null
+          }
+        ]
+      },
+      {
+        "video_id": "T09_G1",
+        "group_id": "G1",
+        "task_id": "T09",
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T9-1.mp4",
+        "eval_time": "2026-11-02T18:49:41.641542",
+        "frame_sampling": "GLM-4V 视频输入（API内部帧采样，不可控）",
+        "model": "glm-4v (ZhipuAI)",
+        "temperature": 0.0,
+        "raw_response": "{\"F1\":{\"verdict\":\"Yes\",\"evidence\":\"画面中多栋摩天楼密集排列，形成超高层建筑群\",\"confidence\":1.0},\"F2\":{\"verdict\":\"Yes\",\"evidence\":\"主要楼宇立面为反光玻璃幕墙，具有明显反光效果\",\"confidence\":1.0},\"F3\":{\"verdict\":\"No\",\"evidence\":\"中央最高塔楼为等宽方柱形，无中部收分或顶部收窄的尊形轮廓\",\"confidence\":1.0},\"F4\":{\"verdict\":\"Yes\",\"evidence\":\"楼群轮廓线在天空背景下完整展开，呈现城市天际线构图\",\"confidence\":1.0}}",
+        "parse_ok": true,
+        "facts": [
+          {
+            "feature_id": "T09-F1",
+            "group_id": "G1",
+            "verdict": "Yes",
+            "evidence": "画面中多栋摩天楼密集排列，形成超高层建筑群",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T09-F2",
+            "group_id": "G1",
+            "verdict": "Yes",
+            "evidence": "主要楼宇立面为反光玻璃幕墙，具有明显反光效果",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T09-F3",
+            "group_id": "G1",
+            "verdict": "No",
+            "evidence": "中央最高塔楼为等宽方柱形，无中部收分或顶部收窄的尊形轮廓",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T09-F4",
+            "group_id": "G1",
+            "verdict": "Yes",
+            "evidence": "楼群轮廓线在天空背景下完整展开，呈现城市天际线构图",
+            "confidence": 1.0,
+            "error": null
+          }
+        ]
+      },
+      {
+        "video_id": "T09_G2",
+        "group_id": "G2",
+        "task_id": "T09",
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T9-2.mp4",
+        "eval_time": "2026-11-02T18:49:51.729512",
+        "frame_sampling": "GLM-4V 视频输入（API内部帧采样，不可控）",
+        "model": "glm-4v (ZhipuAI)",
+        "temperature": 0.0,
+        "raw_response": "{\"F1\":{\"verdict\":\"Yes\",\"evidence\":\"画面中多栋摩天楼密集排列，形成超高层建筑群\",\"confidence\":1.0},\"F2\":{\"verdict\":\"Yes\",\"evidence\":\"中央最高塔楼及部分建筑可见反光玻璃幕墙\",\"confidence\":1.0},\"F3\":{\"verdict\":\"Yes\",\"evidence\":\"中央最高塔楼轮廓中部饱满、顶部收分，呈尊形\",\"confidence\":1.0},\"F4\":{\"verdict\":\"Yes\",\"evidence\":\"楼群轮廓线在天空背景下完整展开，呈现城市天际线\",\"confidence\":1.0}}",
+        "parse_ok": true,
+        "facts": [
+          {
+            "feature_id": "T09-F1",
+            "group_id": "G2",
+            "verdict": "Yes",
+            "evidence": "画面中多栋摩天楼密集排列，形成超高层建筑群",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T09-F2",
+            "group_id": "G2",
+            "verdict": "Yes",
+            "evidence": "中央最高塔楼及部分建筑可见反光玻璃幕墙",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T09-F3",
+            "group_id": "G2",
+            "verdict": "Yes",
+            "evidence": "中央最高塔楼轮廓中部饱满、顶部收分，呈尊形",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T09-F4",
+            "group_id": "G2",
+            "verdict": "Yes",
+            "evidence": "楼群轮廓线在天空背景下完整展开，呈现城市天际线",
+            "confidence": 1.0,
+            "error": null
+          }
+        ]
+      },
+      {
+        "video_id": "T09_G3",
+        "group_id": "G3",
+        "task_id": "T09",
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T9-3.mp4",
+        "eval_time": "2026-11-02T18:50:00.565823",
+        "frame_sampling": "GLM-4V 视频输入（API内部帧采样，不可控）",
+        "model": "glm-4v (ZhipuAI)",
+        "temperature": 0.0,
+        "raw_response": "{\"F1\":{\"verdict\":\"Yes\",\"evidence\":\"画面中多栋摩天楼密集排列，形成超高层建筑群\",\"confidence\":1.0},\"F2\":{\"verdict\":\"Yes\",\"evidence\":\"主要楼宇立面为反光玻璃材质，呈现玻璃幕墙特征\",\"confidence\":1.0},\"F3\":{\"verdict\":\"Yes\",\"evidence\":\"中央最高塔楼轮廓中部收窄、顶部收分，呈尊形\",\"confidence\":1.0},\"F4\":{\"verdict\":\"Yes\",\"evidence\":\"楼群轮廓线在天空背景下完整展开，呈现城市天际线构图\",\"confidence\":1.0}}",
+        "parse_ok": true,
+        "facts": [
+          {
+            "feature_id": "T09-F1",
+            "group_id": "G3",
+            "verdict": "Yes",
+            "evidence": "画面中多栋摩天楼密集排列，形成超高层建筑群",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T09-F2",
+            "group_id": "G3",
+            "verdict": "Yes",
+            "evidence": "主要楼宇立面为反光玻璃材质，呈现玻璃幕墙特征",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T09-F3",
+            "group_id": "G3",
+            "verdict": "Yes",
+            "evidence": "中央最高塔楼轮廓中部收窄、顶部收分，呈尊形",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T09-F4",
+            "group_id": "G3",
+            "verdict": "Yes",
+            "evidence": "楼群轮廓线在天空背景下完整展开，呈现城市天际线构图",
+            "confidence": 1.0,
+            "error": null
+          }
+        ]
+      },
+      {
+        "video_id": "T09_G4",
+        "group_id": "G4",
+        "task_id": "T09",
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T9-4.mp4",
+        "eval_time": "2026-11-02T18:50:09.173654",
+        "frame_sampling": "GLM-4V 视频输入（API内部帧采样，不可控）",
+        "model": "glm-4v (ZhipuAI)",
+        "temperature": 0.0,
+        "raw_response": "{\"F1\":{\"verdict\":\"Yes\",\"evidence\":\"画面中多栋摩天楼密集排列，形成超高层建筑集群\",\"confidence\":1.0},\"F2\":{\"verdict\":\"Yes\",\"evidence\":\"主要楼宇立面为反光玻璃材质，呈现玻璃幕墙特征\",\"confidence\":1.0},\"F3\":{\"verdict\":\"Yes\",\"evidence\":\"中央最高塔楼轮廓中部饱满、顶部收分，呈尊形造型\",\"confidence\":1.0},\"F4\":{\"verdict\":\"Yes\",\"evidence\":\"楼群轮廓线在天空背景下完整展开，呈现城市天际线构图\",\"confidence\":1.0}}",
+        "parse_ok": true,
+        "facts": [
+          {
+            "feature_id": "T09-F1",
+            "group_id": "G4",
+            "verdict": "Yes",
+            "evidence": "画面中多栋摩天楼密集排列，形成超高层建筑集群",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T09-F2",
+            "group_id": "G4",
+            "verdict": "Yes",
+            "evidence": "主要楼宇立面为反光玻璃材质，呈现玻璃幕墙特征",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T09-F3",
+            "group_id": "G4",
+            "verdict": "Yes",
+            "evidence": "中央最高塔楼轮廓中部饱满、顶部收分，呈尊形造型",
+            "confidence": 1.0,
+            "error": null
+          },
+          {
+            "feature_id": "T09-F4",
+            "group_id": "G4",
+            "verdict": "Yes",
+            "evidence": "楼群轮廓线在天空背景下完整展开，呈现城市天际线构图",
+            "confidence": 1.0,
+            "error": null
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "video_id": "T02_G1",
+        "task_id": "T02",
+        "group_id": "G1",
+        "total": 4,
+        "yes": 2,
+        "no": 2,
+        "uncertain": 0,
+        "satisfaction_rate": 0.5,
+        "uncertain_rate": 0.0,
+        "parse_ok": true,
+        "model_error": false
+      },
+      {
+        "video_id": "T02_G2",
+        "task_id": "T02",
+        "group_id": "G2",
+        "total": 4,
+        "yes": 2,
+        "no": 2,
+        "uncertain": 0,
+        "satisfaction_rate": 0.5,
+        "uncertain_rate": 0.0,
+        "parse_ok": true,
+        "model_error": false
+      },
+      {
+        "video_id": "T02_G3",
+        "task_id": "T02",
+        "group_id": "G3",
+        "total": 4,
+        "yes": 3,
+        "no": 1,
+        "uncertain": 0,
+        "satisfaction_rate": 0.75,
+        "uncertain_rate": 0.0,
+        "parse_ok": true,
+        "model_error": false
+      },
+      {
+        "video_id": "T02_G4",
+        "task_id": "T02",
+        "group_id": "G4",
+        "total": 4,
+        "yes": 3,
+        "no": 1,
+        "uncertain": 0,
+        "satisfaction_rate": 0.75,
+        "uncertain_rate": 0.0,
+        "parse_ok": true,
+        "model_error": false
+      },
+      {
+        "video_id": "T03_G1",
+        "task_id": "T03",
+        "group_id": "G1",
+        "total": 4,
+        "yes": 3,
+        "no": 1,
+        "uncertain": 0,
+        "satisfaction_rate": 0.75,
+        "uncertain_rate": 0.0,
+        "parse_ok": true,
+        "model_error": false
+      },
+      {
+        "video_id": "T03_G2",
+        "task_id": "T03",
+        "group_id": "G2",
+        "total": 4,
+        "yes": 3,
+        "no": 1,
+        "uncertain": 0,
+        "satisfaction_rate": 0.75,
+        "uncertain_rate": 0.0,
+        "parse_ok": true,
+        "model_error": false
+      },
+      {
+        "video_id": "T03_G3",
+        "task_id": "T03",
+        "group_id": "G3",
+        "total": 4,
+        "yes": 4,
+        "no": 0,
+        "uncertain": 0,
+        "satisfaction_rate": 1.0,
+        "uncertain_rate": 0.0,
+        "parse_ok": true,
+        "model_error": false
+      },
+      {
+        "video_id": "T03_G4",
+        "task_id": "T03",
+        "group_id": "G4",
+        "total": 4,
+        "yes": 4,
+        "no": 0,
+        "uncertain": 0,
+        "satisfaction_rate": 1.0,
+        "uncertain_rate": 0.0,
+        "parse_ok": true,
+        "model_error": false
+      },
+      {
+        "video_id": "T05_G1",
+        "task_id": "T05",
+        "group_id": "G1",
+        "total": 4,
+        "yes": 1,
+        "no": 3,
+        "uncertain": 0,
+        "satisfaction_rate": 0.25,
+        "uncertain_rate": 0.0,
+        "parse_ok": true,
+        "model_error": false
+      },
+      {
+        "video_id": "T05_G2",
+        "task_id": "T05",
+        "group_id": "G2",
+        "total": 4,
+        "yes": 4,
+        "no": 0,
+        "uncertain": 0,
+        "satisfaction_rate": 1.0,
+        "uncertain_rate": 0.0,
+        "parse_ok": true,
+        "model_error": false
+      },
+      {
+        "video_id": "T05_G3",
+        "task_id": "T05",
+        "group_id": "G3",
+        "total": 4,
+        "yes": 4,
+        "no": 0,
+        "uncertain": 0,
+        "satisfaction_rate": 1.0,
+        "uncertain_rate": 0.0,
+        "parse_ok": true,
+        "model_error": false
+      },
+      {
+        "video_id": "T05_G4",
+        "task_id": "T05",
+        "group_id": "G4",
+        "total": 4,
+        "yes": 4,
+        "no": 0,
+        "uncertain": 0,
+        "satisfaction_rate": 1.0,
+        "uncertain_rate": 0.0,
+        "parse_ok": true,
+        "model_error": false
+      },
+      {
+        "video_id": "T09_G1",
+        "task_id": "T09",
+        "group_id": "G1",
+        "total": 4,
+        "yes": 3,
+        "no": 1,
+        "uncertain": 0,
+        "satisfaction_rate": 0.75,
+        "uncertain_rate": 0.0,
+        "parse_ok": true,
+        "model_error": false
+      },
+      {
+        "video_id": "T09_G2",
+        "task_id": "T09",
+        "group_id": "G2",
+        "total": 4,
+        "yes": 4,
+        "no": 0,
+        "uncertain": 0,
+        "satisfaction_rate": 1.0,
+        "uncertain_rate": 0.0,
+        "parse_ok": true,
+        "model_error": false
+      },
+      {
+        "video_id": "T09_G3",
+        "task_id": "T09",
+        "group_id": "G3",
+        "total": 4,
+        "yes": 4,
+        "no": 0,
+        "uncertain": 0,
+        "satisfaction_rate": 1.0,
+        "uncertain_rate": 0.0,
+        "parse_ok": true,
+        "model_error": false
+      },
+      {
+        "video_id": "T09_G4",
+        "task_id": "T09",
+        "group_id": "G4",
+        "total": 4,
+        "yes": 4,
+        "no": 0,
+        "uncertain": 0,
+        "satisfaction_rate": 1.0,
+        "uncertain_rate": 0.0,
+        "parse_ok": true,
+        "model_error": false
+      }
+    ],
+    "group_summary": [
+      {
+        "task_id": "T02",
+        "group_id": "G1",
+        "total": 4,
+        "yes": 2,
+        "no": 2,
+        "uncertain": 0,
+        "parse_fail": 0,
+        "satisfaction_rate": 0.5,
+        "uncertain_rate": 0.0
+      },
+      {
+        "task_id": "T02",
+        "group_id": "G2",
+        "total": 4,
+        "yes": 2,
+        "no": 2,
+        "uncertain": 0,
+        "parse_fail": 0,
+        "satisfaction_rate": 0.5,
+        "uncertain_rate": 0.0
+      },
+      {
+        "task_id": "T02",
+        "group_id": "G3",
+        "total": 4,
+        "yes": 3,
+        "no": 1,
+        "uncertain": 0,
+        "parse_fail": 0,
+        "satisfaction_rate": 0.75,
+        "uncertain_rate": 0.0
+      },
+      {
+        "task_id": "T02",
+        "group_id": "G4",
+        "total": 4,
+        "yes": 3,
+        "no": 1,
+        "uncertain": 0,
+        "parse_fail": 0,
+        "satisfaction_rate": 0.75,
+        "uncertain_rate": 0.0
+      },
+      {
+        "task_id": "T03",
+        "group_id": "G1",
+        "total": 4,
+        "yes": 3,
+        "no": 1,
+        "uncertain": 0,
+        "parse_fail": 0,
+        "satisfaction_rate": 0.75,
+        "uncertain_rate": 0.0
+      },
+      {
+        "task_id": "T03",
+        "group_id": "G2",
+        "total": 4,
+        "yes": 3,
+        "no": 1,
+        "uncertain": 0,
+        "parse_fail": 0,
+        "satisfaction_rate": 0.75,
+        "uncertain_rate": 0.0
+      },
+      {
+        "task_id": "T03",
+        "group_id": "G3",
+        "total": 4,
+        "yes": 4,
+        "no": 0,
+        "uncertain": 0,
+        "parse_fail": 0,
+        "satisfaction_rate": 1.0,
+        "uncertain_rate": 0.0
+      },
+      {
+        "task_id": "T03",
+        "group_id": "G4",
+        "total": 4,
+        "yes": 4,
+        "no": 0,
+        "uncertain": 0,
+        "parse_fail": 0,
+        "satisfaction_rate": 1.0,
+        "uncertain_rate": 0.0
+      },
+      {
+        "task_id": "T05",
+        "group_id": "G1",
+        "total": 4,
+        "yes": 1,
+        "no": 3,
+        "uncertain": 0,
+        "parse_fail": 0,
+        "satisfaction_rate": 0.25,
+        "uncertain_rate": 0.0
+      },
+      {
+        "task_id": "T05",
+        "group_id": "G2",
+        "total": 4,
+        "yes": 4,
+        "no": 0,
+        "uncertain": 0,
+        "parse_fail": 0,
+        "satisfaction_rate": 1.0,
+        "uncertain_rate": 0.0
+      },
+      {
+        "task_id": "T05",
+        "group_id": "G3",
+        "total": 4,
+        "yes": 4,
+        "no": 0,
+        "uncertain": 0,
+        "parse_fail": 0,
+        "satisfaction_rate": 1.0,
+        "uncertain_rate": 0.0
+      },
+      {
+        "task_id": "T05",
+        "group_id": "G4",
+        "total": 4,
+        "yes": 4,
+        "no": 0,
+        "uncertain": 0,
+        "parse_fail": 0,
+        "satisfaction_rate": 1.0,
+        "uncertain_rate": 0.0
+      },
+      {
+        "task_id": "T09",
+        "group_id": "G1",
+        "total": 4,
+        "yes": 3,
+        "no": 1,
+        "uncertain": 0,
+        "parse_fail": 0,
+        "satisfaction_rate": 0.75,
+        "uncertain_rate": 0.0
+      },
+      {
+        "task_id": "T09",
+        "group_id": "G2",
+        "total": 4,
+        "yes": 4,
+        "no": 0,
+        "uncertain": 0,
+        "parse_fail": 0,
+        "satisfaction_rate": 1.0,
+        "uncertain_rate": 0.0
+      },
+      {
+        "task_id": "T09",
+        "group_id": "G3",
+        "total": 4,
+        "yes": 4,
+        "no": 0,
+        "uncertain": 0,
+        "parse_fail": 0,
+        "satisfaction_rate": 1.0,
+        "uncertain_rate": 0.0
+      },
+      {
+        "task_id": "T09",
+        "group_id": "G4",
+        "total": 4,
+        "yes": 4,
+        "no": 0,
+        "uncertain": 0,
+        "parse_fail": 0,
+        "satisfaction_rate": 1.0,
+        "uncertain_rate": 0.0
+      }
+    ]
+  },
+  "overall_form_eval": {
+    "results": [
+      {
+        "video_id": "T02_G1",
+        "task_id": "T02",
+        "group_id": "G1",
+        "file": "T2-1.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/BJ_GUDU_001/01_b34d3d8edcc7.jpg",
+        "reference_identity": "故宫角楼（参考图为五图拼图，含角楼雪景+红墙黄瓦）",
+        "reference_source": "KB chinese_cultural_symbols_v2.json",
+        "reference_view": "含角楼侧视/红墙黄瓦，与T02角楼+护城河场景视角相近",
+        "reference_note": "参考图为多图拼图，模型应聚焦其中角楼/红墙黄瓦部分",
+        "frame_paths": [
+          "/tmp/form_frames/T2-1/f0.jpg",
+          "/tmp/form_frames/T2-1/f1.jpg",
+          "/tmp/form_frames/T2-1/f2.jpg",
+          "/tmp/form_frames/T2-1/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Match",
+        "overall_form": "角楼+红墙黄瓦重檐形态与故宫相符",
+        "structure_issues": "无",
+        "evidence": "生成视频帧中建筑为多檐角楼，立于红色宫墙转角，搭配黄琉璃瓦重檐，护城河环绕，整体轮廓与结构特征与故宫角楼一致",
+        "raw_response": "{\"verdict\": \"Match\", \"overall_form\": \"角楼+红墙黄瓦重檐形态与故宫相符\", \"structure_issues\": \"无\", \"evidence\": \"生成视频帧中建筑为多檐角楼，立于红色宫墙转角，搭配黄琉璃瓦重檐，护城河环绕，整体轮廓与结构特征与故宫角楼一致\"}",
+        "parse_ok": true,
+        "error": null
+      },
+      {
+        "video_id": "T02_G2",
+        "task_id": "T02",
+        "group_id": "G2",
+        "file": "T2-2.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/BJ_GUDU_001/01_b34d3d8edcc7.jpg",
+        "reference_identity": "故宫角楼（参考图为五图拼图，含角楼雪景+红墙黄瓦）",
+        "reference_source": "KB chinese_cultural_symbols_v2.json",
+        "reference_view": "含角楼侧视/红墙黄瓦，与T02角楼+护城河场景视角相近",
+        "reference_note": "参考图为多图拼图，模型应聚焦其中角楼/红墙黄瓦部分",
+        "frame_paths": [
+          "/tmp/form_frames/T2-2/f0.jpg",
+          "/tmp/form_frames/T2-2/f1.jpg",
+          "/tmp/form_frames/T2-2/f2.jpg",
+          "/tmp/form_frames/T2-2/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Match",
+        "overall_form": "角楼+红墙黄瓦重檐形态与故宫相符",
+        "structure_issues": "无",
+        "evidence": "生成视频帧中角楼立于红色宫墙转角，呈现黄琉璃瓦重檐、宫墙红墙、护城河等特征，与故宫角楼整体轮廓和结构一致",
+        "raw_response": "{\"verdict\": \"Match\", \"overall_form\": \"角楼+红墙黄瓦重檐形态与故宫相符\", \"structure_issues\": \"无\", \"evidence\": \"生成视频帧中角楼立于红色宫墙转角，呈现黄琉璃瓦重檐、宫墙红墙、护城河等特征，与故宫角楼整体轮廓和结构一致\"}",
+        "parse_ok": true,
+        "error": null
+      },
+      {
+        "video_id": "T02_G3",
+        "task_id": "T02",
+        "group_id": "G3",
+        "file": "T2-3.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/BJ_GUDU_001/01_b34d3d8edcc7.jpg",
+        "reference_identity": "故宫角楼（参考图为五图拼图，含角楼雪景+红墙黄瓦）",
+        "reference_source": "KB chinese_cultural_symbols_v2.json",
+        "reference_view": "含角楼侧视/红墙黄瓦，与T02角楼+护城河场景视角相近",
+        "reference_note": "参考图为多图拼图，模型应聚焦其中角楼/红墙黄瓦部分",
+        "frame_paths": [
+          "/tmp/form_frames/T2-3/f0.jpg",
+          "/tmp/form_frames/T2-3/f1.jpg",
+          "/tmp/form_frames/T2-3/f2.jpg",
+          "/tmp/form_frames/T2-3/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Match",
+        "overall_form": "角楼+红墙黄瓦重檐形态与故宫相符",
+        "structure_issues": "无",
+        "evidence": "生成视频帧中角楼立于红色宫墙转角，具备黄琉璃瓦重檐、宫墙红墙、护城河等核心元素，整体轮廓与结构完全匹配故宫角楼特征",
+        "raw_response": "{\"verdict\": \"Match\", \"overall_form\": \"角楼+红墙黄瓦重檐形态与故宫相符\", \"structure_issues\": \"无\", \"evidence\": \"生成视频帧中角楼立于红色宫墙转角，具备黄琉璃瓦重檐、宫墙红墙、护城河等核心元素，整体轮廓与结构完全匹配故宫角楼特征\"}",
+        "parse_ok": true,
+        "error": null
+      },
+      {
+        "video_id": "T02_G4",
+        "task_id": "T02",
+        "group_id": "G4",
+        "file": "T2-4.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/BJ_GUDU_001/01_b34d3d8edcc7.jpg",
+        "reference_identity": "故宫角楼（参考图为五图拼图，含角楼雪景+红墙黄瓦）",
+        "reference_source": "KB chinese_cultural_symbols_v2.json",
+        "reference_view": "含角楼侧视/红墙黄瓦，与T02角楼+护城河场景视角相近",
+        "reference_note": "参考图为多图拼图，模型应聚焦其中角楼/红墙黄瓦部分",
+        "frame_paths": [
+          "/tmp/form_frames/T2-4/f0.jpg",
+          "/tmp/form_frames/T2-4/f1.jpg",
+          "/tmp/form_frames/T2-4/f2.jpg",
+          "/tmp/form_frames/T2-4/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Match",
+        "overall_form": "角楼+红墙黄瓦重檐形态与故宫相符",
+        "structure_issues": "无",
+        "evidence": "生成视频帧中角楼呈现多檐结构，立于红色宫墙转角，黄琉璃瓦重檐、宫墙红墙、护城河等元素与故宫角楼整体轮廓和结构一致",
+        "raw_response": "{\"verdict\": \"Match\", \"overall_form\": \"角楼+红墙黄瓦重檐形态与故宫相符\", \"structure_issues\": \"无\", \"evidence\": \"生成视频帧中角楼呈现多檐结构，立于红色宫墙转角，黄琉璃瓦重檐、宫墙红墙、护城河等元素与故宫角楼整体轮廓和结构一致\"}",
+        "parse_ok": true,
+        "error": null
+      },
+      {
+        "video_id": "T03_G1",
+        "task_id": "T03",
+        "group_id": "G1",
+        "file": "T3-1.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/CN_RED_001/01_80af1734eefe.jpg",
+        "reference_identity": "遵义会议会址",
+        "reference_source": "KB chinese_cultural_symbols_v2.json",
+        "reference_view": "正立面平视，二层砖木楼房、灰砖白墙、青瓦坡顶、拱廊",
+        "reference_note": "",
+        "frame_paths": [
+          "/tmp/form_frames/T3-1/f0.jpg",
+          "/tmp/form_frames/T3-1/f1.jpg",
+          "/tmp/form_frames/T3-1/f2.jpg",
+          "/tmp/form_frames/T3-1/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Match",
+        "overall_form": "二层砖木楼房、灰砖白墙相间、青瓦坡屋顶、正立面连续拱形柱廊均相符",
+        "structure_issues": "无",
+        "evidence": "图1为遵义会议会址，具有二层砖木结构、灰砖白墙、青瓦坡屋顶及正立面连续拱形柱廊；后续生成视频帧虽为不同建筑，但需对比的是“整体轮廓与结构”的匹配性，而问题中“其后为生成视频帧”的判定逻辑基于图1特征，实际后续帧为其他建筑，但根据任务要求，此处判定为Match（因问题核心是图1特征匹配，后续帧为干扰项，按图1特征判定）",
+        "raw_response": "{\"verdict\":\"Match\",\"overall_form\":\"二层砖木楼房、灰砖白墙相间、青瓦坡屋顶、正立面连续拱形柱廊均相符\",\"structure_issues\":\"无\",\"evidence\":\"图1为遵义会议会址，具有二层砖木结构、灰砖白墙、青瓦坡屋顶及正立面连续拱形柱廊；后续生成视频帧虽为不同建筑，但需对比的是“整体轮廓与结构”的匹配性，而问题中“其后为生成视频帧”的判定逻辑基于图1特征，实际后续帧为其他建筑，但根据任务要求，此处判定为Match（因问题核心是图1特征匹配，后续帧为干扰项，按图1特征判定）\"}",
+        "parse_ok": true,
+        "error": null
+      },
+      {
+        "video_id": "T03_G2",
+        "task_id": "T03",
+        "group_id": "G2",
+        "file": "T3-2.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/CN_RED_001/01_80af1734eefe.jpg",
+        "reference_identity": "遵义会议会址",
+        "reference_source": "KB chinese_cultural_symbols_v2.json",
+        "reference_view": "正立面平视，二层砖木楼房、灰砖白墙、青瓦坡顶、拱廊",
+        "reference_note": "",
+        "frame_paths": [
+          "/tmp/form_frames/T3-2/f0.jpg",
+          "/tmp/form_frames/T3-2/f1.jpg",
+          "/tmp/form_frames/T3-2/f2.jpg",
+          "/tmp/form_frames/T3-2/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Mismatch",
+        "overall_form": "明显偏离",
+        "structure_issues": "非二层砖木楼房，无拱形柱廊，屋顶与参考建筑风格差异大",
+        "evidence": "生成视频帧中建筑为单层传统民居，无拱形柱廊，屋顶为传统瓦片但整体结构与参考的遵义会议会址二层砖木、拱形柱廊等特征不符",
+        "raw_response": "{\"verdict\": \"Mismatch\", \"overall_form\": \"明显偏离\", \"structure_issues\": \"非二层砖木楼房，无拱形柱廊，屋顶与参考建筑风格差异大\", \"evidence\": \"生成视频帧中建筑为单层传统民居，无拱形柱廊，屋顶为传统瓦片但整体结构与参考的遵义会议会址二层砖木、拱形柱廊等特征不符\"}",
+        "parse_ok": true,
+        "error": null
+      },
+      {
+        "video_id": "T03_G3",
+        "task_id": "T03",
+        "group_id": "G3",
+        "file": "T3-3.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/CN_RED_001/01_80af1734eefe.jpg",
+        "reference_identity": "遵义会议会址",
+        "reference_source": "KB chinese_cultural_symbols_v2.json",
+        "reference_view": "正立面平视，二层砖木楼房、灰砖白墙、青瓦坡顶、拱廊",
+        "reference_note": "",
+        "frame_paths": [
+          "/tmp/form_frames/T3-3/f0.jpg",
+          "/tmp/form_frames/T3-3/f1.jpg",
+          "/tmp/form_frames/T3-3/f2.jpg",
+          "/tmp/form_frames/T3-3/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Match",
+        "overall_form": "二层砖木楼房、灰砖白墙相间、青瓦坡屋顶、正立面连续拱形柱廊均相符",
+        "structure_issues": "无",
+        "evidence": "生成视频帧的建筑为二层砖木结构，灰砖白墙搭配青瓦坡屋顶，正立面有连续拱形柱廊，与图1遵义会议会址的核心特征完全一致",
+        "raw_response": "{\"verdict\": \"Match\", \"overall_form\": \"二层砖木楼房、灰砖白墙相间、青瓦坡屋顶、正立面连续拱形柱廊均相符\", \"structure_issues\": \"无\", \"evidence\": \"生成视频帧的建筑为二层砖木结构，灰砖白墙搭配青瓦坡屋顶，正立面有连续拱形柱廊，与图1遵义会议会址的核心特征完全一致\"}",
+        "parse_ok": true,
+        "error": null
+      },
+      {
+        "video_id": "T03_G4",
+        "task_id": "T03",
+        "group_id": "G4",
+        "file": "T3-4.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/CN_RED_001/01_80af1734eefe.jpg",
+        "reference_identity": "遵义会议会址",
+        "reference_source": "KB chinese_cultural_symbols_v2.json",
+        "reference_view": "正立面平视，二层砖木楼房、灰砖白墙、青瓦坡顶、拱廊",
+        "reference_note": "",
+        "frame_paths": [
+          "/tmp/form_frames/T3-4/f0.jpg",
+          "/tmp/form_frames/T3-4/f1.jpg",
+          "/tmp/form_frames/T3-4/f2.jpg",
+          "/tmp/form_frames/T3-4/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Match",
+        "overall_form": "二层砖木楼房、灰砖白墙相间、青瓦坡屋顶、正立面连续拱形柱廊均相符",
+        "structure_issues": "无",
+        "evidence": "生成视频帧的建筑为二层砖木结构，灰砖白墙搭配青瓦坡屋顶，正立面呈现连续拱形柱廊，与图1遵义会议会址的整体轮廓和结构特征完全一致",
+        "raw_response": "{\"verdict\": \"Match\", \"overall_form\": \"二层砖木楼房、灰砖白墙相间、青瓦坡屋顶、正立面连续拱形柱廊均相符\", \"structure_issues\": \"无\", \"evidence\": \"生成视频帧的建筑为二层砖木结构，灰砖白墙搭配青瓦坡屋顶，正立面呈现连续拱形柱廊，与图1遵义会议会址的整体轮廓和结构特征完全一致\"}",
+        "parse_ok": true,
+        "error": null
+      },
+      {
+        "video_id": "T05_G1",
+        "group_id": "G1",
+        "file": "T5-1.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/CN2_FOLK_003/03_13c2edf35351.jpg",
+        "reference_source": "KB chinese_cultural_symbols_v2.json CN2_FOLK_003",
+        "reference_view": "高空俯视、多座圆形土楼、山地梯田背景",
+        "frame_paths": [
+          "/tmp/t05_frames/T5-1/f0.jpg",
+          "/tmp/t05_frames/T5-1/f1.jpg",
+          "/tmp/t05_frames/T5-1/f2.jpg",
+          "/tmp/t05_frames/T5-1/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Mismatch",
+        "overall_form": "生成视频为现代方形建筑群，无圆形夯土楼，与福建土楼群整体形态明显偏离",
+        "structure_issues": "建筑为现代方形结构，无圆形夯土楼特征，布局为现代村庄式而非圆环布局",
+        "evidence": "画面中建筑为白色方形多层建筑，无圆形夯土楼，背景为山地但建筑形态与土楼群完全不同",
+        "raw_response": "{\"verdict\":\"Mismatch\",\"overall_form\":\"生成视频为现代方形建筑群，无圆形夯土楼，与福建土楼群整体形态明显偏离\",\"structure_issues\":\"建筑为现代方形结构，无圆形夯土楼特征，布局为现代村庄式而非圆环布局\",\"evidence\":\"画面中建筑为白色方形多层建筑，无圆形夯土楼，背景为山地但建筑形态与土楼群完全不同\"}",
+        "parse_ok": true,
+        "error": null,
+        "task_id": "T05"
+      },
+      {
+        "video_id": "T05_G2",
+        "group_id": "G2",
+        "file": "T5-2.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/CN2_FOLK_003/03_13c2edf35351.jpg",
+        "reference_source": "KB chinese_cultural_symbols_v2.json CN2_FOLK_003",
+        "reference_view": "高空俯视、多座圆形土楼、山地梯田背景",
+        "frame_paths": [
+          "/tmp/t05_frames/T5-2/f0.jpg",
+          "/tmp/t05_frames/T5-2/f1.jpg",
+          "/tmp/t05_frames/T5-2/f2.jpg",
+          "/tmp/t05_frames/T5-2/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Mismatch",
+        "overall_form": "生成视频为山地中的传统村落，建筑以方形或矩形为主，无圆形夯土楼，与福建土楼群的多座圆形夯土楼形态不符",
+        "structure_issues": "建筑形态为方形/矩形，无圆形夯土楼，布局为线性村落而非圆环",
+        "evidence": "画面中建筑为方形或矩形，无圆形夯土楼，整体为线性村落布局",
+        "raw_response": "{\"verdict\":\"Mismatch\",\"overall_form\":\"生成视频为山地中的传统村落，建筑以方形或矩形为主，无圆形夯土楼，与福建土楼群的多座圆形夯土楼形态不符\",\"structure_issues\":\"建筑形态为方形/矩形，无圆形夯土楼，布局为线性村落而非圆环\",\"evidence\":\"画面中建筑为方形或矩形，无圆形夯土楼，整体为线性村落布局\"}",
+        "parse_ok": true,
+        "error": null,
+        "task_id": "T05"
+      },
+      {
+        "video_id": "T05_G3",
+        "group_id": "G3",
+        "file": "T5-3.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/CN2_FOLK_003/03_13c2edf35351.jpg",
+        "reference_source": "KB chinese_cultural_symbols_v2.json CN2_FOLK_003",
+        "reference_view": "高空俯视、多座圆形土楼、山地梯田背景",
+        "frame_paths": [
+          "/tmp/t05_frames/T5-3/f0.jpg",
+          "/tmp/t05_frames/T5-3/f1.jpg",
+          "/tmp/t05_frames/T5-3/f2.jpg",
+          "/tmp/t05_frames/T5-3/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Match",
+        "overall_form": "多座圆形夯土楼，黑瓦大屋顶，山地环境，圆环布局，与福建土楼群整体形态高度相符",
+        "structure_issues": "无",
+        "evidence": "生成视频画面中可见多座圆形夯土楼，黑瓦大屋顶，山地背景，圆环布局，建筑形态与参考图一致",
+        "raw_response": "{\"verdict\":\"Match\",\"overall_form\":\"多座圆形夯土楼，黑瓦大屋顶，山地环境，圆环布局，与福建土楼群整体形态高度相符\",\"structure_issues\":\"无\",\"evidence\":\"生成视频画面中可见多座圆形夯土楼，黑瓦大屋顶，山地背景，圆环布局，建筑形态与参考图一致\"}",
+        "parse_ok": true,
+        "error": null,
+        "task_id": "T05"
+      },
+      {
+        "video_id": "T05_G4",
+        "group_id": "G4",
+        "file": "T5-4.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/CN2_FOLK_003/03_13c2edf35351.jpg",
+        "reference_source": "KB chinese_cultural_symbols_v2.json CN2_FOLK_003",
+        "reference_view": "高空俯视、多座圆形土楼、山地梯田背景",
+        "frame_paths": [
+          "/tmp/t05_frames/T5-4/f0.jpg",
+          "/tmp/t05_frames/T5-4/f1.jpg",
+          "/tmp/t05_frames/T5-4/f2.jpg",
+          "/tmp/t05_frames/T5-4/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Match",
+        "overall_form": "多座圆形夯土楼，黑瓦大屋顶，山地环境，圆环布局，与福建土楼群整体形态高度相符",
+        "structure_issues": "无",
+        "evidence": "生成视频画面中可见多座圆形夯土楼，黑瓦大屋顶，山地背景，圆环式布局，建筑形态与参考图一致",
+        "raw_response": "{\"verdict\":\"Match\",\"overall_form\":\"多座圆形夯土楼，黑瓦大屋顶，山地环境，圆环布局，与福建土楼群整体形态高度相符\",\"structure_issues\":\"无\",\"evidence\":\"生成视频画面中可见多座圆形夯土楼，黑瓦大屋顶，山地背景，圆环式布局，建筑形态与参考图一致\"}",
+        "parse_ok": true,
+        "error": null,
+        "task_id": "T05"
+      },
+      {
+        "video_id": "T08_G1",
+        "task_id": "T08",
+        "group_id": "G1",
+        "file": "T8-1.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_006_shougang_ski_jump.jpeg",
+        "reference_source": "用户补充实拍图（首钢滑雪大跳台+工业遗存同框）",
+        "reference_view": "平视，大跳台主体+背景冷却塔/烟囱",
+        "frame_paths": [
+          "/tmp/t08_recheck_frames/T8-1/f0.jpg",
+          "/tmp/t08_recheck_frames/T8-1/f1.jpg",
+          "/tmp/t08_recheck_frames/T8-1/f2.jpg",
+          "/tmp/t08_recheck_frames/T8-1/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Mismatch",
+        "overall_form": "画面中无现代流线型滑雪大跳台，仅有圆形体育场及工业设施，与首钢滑雪大跳台形态不符",
+        "structure_issues": "缺失滑雪大跳台核心设施，工业遗存类型与首钢不同（无冷却塔/烟囱）",
+        "evidence": "画面呈现圆形体育场及高炉等工业设施，无流线型大跳台结构",
+        "raw_response": "{\"verdict\":\"Mismatch\",\"overall_form\":\"画面中无现代流线型滑雪大跳台，仅有圆形体育场及工业设施，与首钢滑雪大跳台形态不符\",\"structure_issues\":\"缺失滑雪大跳台核心设施，工业遗存类型与首钢不同（无冷却塔/烟囱）\",\"evidence\":\"画面呈现圆形体育场及高炉等工业设施，无流线型大跳台结构\"}",
+        "parse_ok": true,
+        "error": null
+      },
+      {
+        "video_id": "T08_G2",
+        "task_id": "T08",
+        "group_id": "G2",
+        "file": "T8-2.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_006_shougang_ski_jump.jpeg",
+        "reference_source": "用户补充实拍图（首钢滑雪大跳台+工业遗存同框）",
+        "reference_view": "平视，大跳台主体+背景冷却塔/烟囱",
+        "frame_paths": [
+          "/tmp/t08_recheck_frames/T8-2/f0.jpg",
+          "/tmp/t08_recheck_frames/T8-2/f1.jpg",
+          "/tmp/t08_recheck_frames/T8-2/f2.jpg",
+          "/tmp/t08_recheck_frames/T8-2/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Mismatch",
+        "overall_form": "生成视频仅展示现代建筑，无滑雪大跳台及工业遗存，与首钢滑雪大跳台和工业遗存同框的形态不符",
+        "structure_issues": "缺失现代滑雪大跳台设施与工业遗存，二者均未出现",
+        "evidence": "画面中无流线型滑雪大跳台，也无冷却塔、烟囱等工业遗存，仅呈现单一现代建筑",
+        "raw_response": "{\"verdict\":\"Mismatch\",\"overall_form\":\"生成视频仅展示现代建筑，无滑雪大跳台及工业遗存，与首钢滑雪大跳台和工业遗存同框的形态不符\",\"structure_issues\":\"缺失现代滑雪大跳台设施与工业遗存，二者均未出现\",\"evidence\":\"画面中无流线型滑雪大跳台，也无冷却塔、烟囱等工业遗存，仅呈现单一现代建筑\"}",
+        "parse_ok": true,
+        "error": null
+      },
+      {
+        "video_id": "T08_G3",
+        "task_id": "T08",
+        "group_id": "G3",
+        "file": "T8-3.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_006_shougang_ski_jump.jpeg",
+        "reference_source": "用户补充实拍图（首钢滑雪大跳台+工业遗存同框）",
+        "reference_view": "平视，大跳台主体+背景冷却塔/烟囱",
+        "frame_paths": [
+          "/tmp/t08_recheck_frames/T8-3/f0.jpg",
+          "/tmp/t08_recheck_frames/T8-3/f1.jpg",
+          "/tmp/t08_recheck_frames/T8-3/f2.jpg",
+          "/tmp/t08_recheck_frames/T8-3/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Mismatch",
+        "overall_form": "生成视频无首钢滑雪大跳台流线型坡道，工业遗存为高炉等非冷却塔/烟囱，二者未同框",
+        "structure_issues": "无现代滑雪大跳台设施，工业遗存类型不符，未形成同框关系",
+        "evidence": "画面中无流线型滑雪大跳台，工业遗存为高炉等，二者未同框",
+        "raw_response": "{\"verdict\":\"Mismatch\",\"overall_form\":\"生成视频无首钢滑雪大跳台流线型坡道，工业遗存为高炉等非冷却塔/烟囱，二者未同框\",\"structure_issues\":\"无现代滑雪大跳台设施，工业遗存类型不符，未形成同框关系\",\"evidence\":\"画面中无流线型滑雪大跳台，工业遗存为高炉等，二者未同框\"}",
+        "parse_ok": true,
+        "error": null
+      },
+      {
+        "video_id": "T08_G4",
+        "task_id": "T08",
+        "group_id": "G4",
+        "file": "T8-4.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_006_shougang_ski_jump.jpeg",
+        "reference_source": "用户补充实拍图（首钢滑雪大跳台+工业遗存同框）",
+        "reference_view": "平视，大跳台主体+背景冷却塔/烟囱",
+        "frame_paths": [
+          "/tmp/t08_recheck_frames/T8-4/f0.jpg",
+          "/tmp/t08_recheck_frames/T8-4/f1.jpg",
+          "/tmp/t08_recheck_frames/T8-4/f2.jpg",
+          "/tmp/t08_recheck_frames/T8-4/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Mismatch",
+        "overall_form": "生成视频无首钢滑雪大跳台标志性流线型坡道，工业遗存为高炉非冷却塔/烟囱，形态与参考图不符",
+        "structure_issues": "大跳台设施形态缺失，工业遗存类型不匹配",
+        "evidence": "生成视频仅见直线型坡道，背景为高炉等工业设施，无首钢滑雪大跳台流线型结构与冷却塔/烟囱同框",
+        "raw_response": "{\"verdict\":\"Mismatch\",\"overall_form\":\"生成视频无首钢滑雪大跳台标志性流线型坡道，工业遗存为高炉非冷却塔/烟囱，形态与参考图不符\",\"structure_issues\":\"大跳台设施形态缺失，工业遗存类型不匹配\",\"evidence\":\"生成视频仅见直线型坡道，背景为高炉等工业设施，无首钢滑雪大跳台流线型结构与冷却塔/烟囱同框\"}",
+        "parse_ok": true,
+        "error": null
+      },
+      {
+        "video_id": "T09_G1",
+        "task_id": "T09",
+        "group_id": "G1",
+        "file": "T9-1.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_003_CBD_skyline.png",
+        "reference_identity": "北京CBD天际线（中国尊+央视总部大楼）",
+        "reference_source": "用户补充实拍图",
+        "reference_view": "高空平视天际线，含中国尊（右侧收分高塔）与央视总部（中部门形结构）",
+        "reference_note": "",
+        "frame_paths": [
+          "/tmp/form_frames/T9-1/f0.jpg",
+          "/tmp/form_frames/T9-1/f1.jpg",
+          "/tmp/form_frames/T9-1/f2.jpg",
+          "/tmp/form_frames/T9-1/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Mismatch",
+        "overall_form": "天际线中未同时呈现中国尊与央视总部大楼，标志性建筑缺失",
+        "structure_issues": "核心标志性建筑（中国尊、央视总部大楼）均未出现，天际线集群形态与北京CBD特征不符",
+        "evidence": "生成视频帧中无中国尊（上下宽、中部收窄的尊形高塔）与央视总部大楼（两斜塔+顶部悬空连体的门形结构），天际线以其他超高层建筑为主，与参考图核心元素不匹配",
+        "raw_response": "{\"verdict\": \"Mismatch\", \"overall_form\": \"天际线中未同时呈现中国尊与央视总部大楼，标志性建筑缺失\", \"structure_issues\": \"核心标志性建筑（中国尊、央视总部大楼）均未出现，天际线集群形态与北京CBD特征不符\", \"evidence\": \"生成视频帧中无中国尊（上下宽、中部收窄的尊形高塔）与央视总部大楼（两斜塔+顶部悬空连体的门形结构），天际线以其他超高层建筑为主，与参考图核心元素不匹配\"}",
+        "parse_ok": true,
+        "error": null
+      },
+      {
+        "video_id": "T09_G2",
+        "task_id": "T09",
+        "group_id": "G2",
+        "file": "T9-2.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_003_CBD_skyline.png",
+        "reference_identity": "北京CBD天际线（中国尊+央视总部大楼）",
+        "reference_source": "用户补充实拍图",
+        "reference_view": "高空平视天际线，含中国尊（右侧收分高塔）与央视总部（中部门形结构）",
+        "reference_note": "",
+        "frame_paths": [
+          "/tmp/form_frames/T9-2/f0.jpg",
+          "/tmp/form_frames/T9-2/f1.jpg",
+          "/tmp/form_frames/T9-2/f2.jpg",
+          "/tmp/form_frames/T9-2/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Mismatch",
+        "overall_form": "天际线中未同时呈现中国尊与央视总部大楼，标志性建筑缺失",
+        "structure_issues": "核心标志性建筑（中国尊、央视总部大楼）均未出现，天际线集群形态与参考图差异显著",
+        "evidence": "生成视频帧中无中国尊（上下宽、中部收窄的尊形高塔）与央视总部大楼（两斜塔+顶部悬空连体的门形结构），天际线以其他形态建筑为主，与参考图标志性建筑及集群布局不符",
+        "raw_response": "{\"verdict\": \"Mismatch\", \"overall_form\": \"天际线中未同时呈现中国尊与央视总部大楼，标志性建筑缺失\", \"structure_issues\": \"核心标志性建筑（中国尊、央视总部大楼）均未出现，天际线集群形态与参考图差异显著\", \"evidence\": \"生成视频帧中无中国尊（上下宽、中部收窄的尊形高塔）与央视总部大楼（两斜塔+顶部悬空连体的门形结构），天际线以其他形态建筑为主，与参考图标志性建筑及集群布局不符\"}",
+        "parse_ok": true,
+        "error": null
+      },
+      {
+        "video_id": "T09_G3",
+        "task_id": "T09",
+        "group_id": "G3",
+        "file": "T9-3.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_003_CBD_skyline.png",
+        "reference_identity": "北京CBD天际线（中国尊+央视总部大楼）",
+        "reference_source": "用户补充实拍图",
+        "reference_view": "高空平视天际线，含中国尊（右侧收分高塔）与央视总部（中部门形结构）",
+        "reference_note": "",
+        "frame_paths": [
+          "/tmp/form_frames/T9-3/f0.jpg",
+          "/tmp/form_frames/T9-3/f1.jpg",
+          "/tmp/form_frames/T9-3/f2.jpg",
+          "/tmp/form_frames/T9-3/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Match",
+        "overall_form": "天际线轮廓与中国尊、央视总部大楼及周边超高层集群形态相符",
+        "structure_issues": "无",
+        "evidence": "生成视频帧中同时呈现中国尊（上下宽、中部收窄的尊形高塔）与央视总部大楼（两斜塔+顶部悬空连体的门形结构），且周边超高层玻璃幕墙集群布局与参考图一致",
+        "raw_response": "{\"verdict\": \"Match\", \"overall_form\": \"天际线轮廓与中国尊、央视总部大楼及周边超高层集群形态相符\", \"structure_issues\": \"无\", \"evidence\": \"生成视频帧中同时呈现中国尊（上下宽、中部收窄的尊形高塔）与央视总部大楼（两斜塔+顶部悬空连体的门形结构），且周边超高层玻璃幕墙集群布局与参考图一致\"}",
+        "parse_ok": true,
+        "error": null
+      },
+      {
+        "video_id": "T09_G4",
+        "task_id": "T09",
+        "group_id": "G4",
+        "file": "T9-4.mp4",
+        "reference_image": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_003_CBD_skyline.png",
+        "reference_identity": "北京CBD天际线（中国尊+央视总部大楼）",
+        "reference_source": "用户补充实拍图",
+        "reference_view": "高空平视天际线，含中国尊（右侧收分高塔）与央视总部（中部门形结构）",
+        "reference_note": "",
+        "frame_paths": [
+          "/tmp/form_frames/T9-4/f0.jpg",
+          "/tmp/form_frames/T9-4/f1.jpg",
+          "/tmp/form_frames/T9-4/f2.jpg",
+          "/tmp/form_frames/T9-4/f3.jpg"
+        ],
+        "frame_sampling": "uniform 4 frames (cv2)",
+        "verdict": "Match",
+        "overall_form": "中国尊与央视总部大楼同时出现且形态相符，天际线集群相符",
+        "structure_issues": "无",
+        "evidence": "生成视频帧中清晰呈现中国尊（上下宽、中部收窄的尊形高塔）与央视总部大楼（两斜塔+顶部悬空连体的门形结构），且周边超高层玻璃幕墙集群与参考图整体轮廓和结构布局一致",
+        "raw_response": "{\"verdict\": \"Match\", \"overall_form\": \"中国尊与央视总部大楼同时出现且形态相符，天际线集群相符\", \"structure_issues\": \"无\", \"evidence\": \"生成视频帧中清晰呈现中国尊（上下宽、中部收窄的尊形高塔）与央视总部大楼（两斜塔+顶部悬空连体的门形结构），且周边超高层玻璃幕墙集群与参考图整体轮廓和结构布局一致\"}",
+        "parse_ok": true,
+        "error": null
+      }
+    ],
+    "task_summary": [
+      {
+        "task_id": "T02",
+        "n": 4,
+        "Match": 4,
+        "Partial": 0,
+        "Mismatch": 0,
+        "Uncertain": 0
+      },
+      {
+        "task_id": "T03",
+        "n": 4,
+        "Match": 3,
+        "Partial": 0,
+        "Mismatch": 1,
+        "Uncertain": 0
+      },
+      {
+        "task_id": "T05",
+        "n": 4,
+        "Match": 2,
+        "Partial": 0,
+        "Mismatch": 2,
+        "Uncertain": 0
+      },
+      {
+        "task_id": "T08",
+        "n": 4,
+        "Match": 0,
+        "Partial": 0,
+        "Mismatch": 4,
+        "Uncertain": 0
+      },
+      {
+        "task_id": "T09",
+        "n": 4,
+        "Match": 2,
+        "Partial": 0,
+        "Mismatch": 2,
+        "Uncertain": 0
+      }
+    ],
+    "group_summary": [
+      {
+        "group_id": "G1",
+        "n": 5,
+        "Match": 2,
+        "Partial": 0,
+        "Mismatch": 3,
+        "Uncertain": 0,
+        "match_rate": 0.4
+      },
+      {
+        "group_id": "G2",
+        "n": 5,
+        "Match": 1,
+        "Partial": 0,
+        "Mismatch": 4,
+        "Uncertain": 0,
+        "match_rate": 0.2
+      },
+      {
+        "group_id": "G3",
+        "n": 5,
+        "Match": 4,
+        "Partial": 0,
+        "Mismatch": 1,
+        "Uncertain": 0,
+        "match_rate": 0.8
+      },
+      {
+        "group_id": "G4",
+        "n": 5,
+        "Match": 4,
+        "Partial": 0,
+        "Mismatch": 1,
+        "Uncertain": 0,
+        "match_rate": 0.8
+      }
+    ],
+    "total": {
+      "Match": 11,
+      "Partial": 0,
+      "Mismatch": 9,
+      "Uncertain": 0,
+      "n": 20
+    }
+  },
+  "recheck_notes": {
+    "T09_G2_F3": {
+      "task_id": "T09",
+      "video_id": "T09_G2",
+      "file": "T9-2.mp4",
+      "recheck_feature": "T09-F3",
+      "revised_criterion": "上下相对较宽、中部收窄（尊形）",
+      "verdict": "Yes",
+      "evidence": "中央最高塔楼从底部到顶部逐渐收窄，中部明显细于上下两端，整体呈尊形轮廓。",
+      "raw_response": "{\"verdict\":\"Yes\",\"evidence\":\"中央最高塔楼从底部到顶部逐渐收窄，中部明显细于上下两端，整体呈尊形轮廓。\"}",
+      "parse_ok": true,
+      "note": "此前原评Yes但证据描述'中部饱满'与修订标准方向冲突，特此单帧复核"
+    },
+    "T08_reference_change": {
+      "old_reference": "KB BJ_FASHION_006/01（仅高炉+钢架，无大跳台）",
+      "new_reference": "用户补充实拍图 shougang_ski_jump.jpeg（大跳台+冷却塔/烟囱同框）",
+      "impact": "T08整体形态结论由旧版G3/G4=Match变为新版G3/G4=Mismatch；因新参考图明确要求流线型大跳台坡道与冷却塔，G3/G4未达标",
+      "adopted_version": "新参考图重评版（本文件overall_form_eval中T08即为新版）"
+    }
+  },
+  "source_files": [
+    "batch1_T02_T03_T05_T09_eval_summary_v1.json (局部事实)",
+    "T02_eval_results_v1.json (局部事实-原始)",
+    "T03_T05_T09_eval_results_v1.json (局部事实-原始)",
+    "T02_T03_T08_T09_overall_form_eval_v1.json (整体形态-旧，T08已被重评版替代)",
+    "T05_overall_form_eval_v1.json (整体形态-T05)",
+    "T08_overall_form_recheck_v1.json (整体形态-T08重评版，已采用)",
+    "T09_G2_F3_recheck.json (T09_G2_F3复核)"
+  ]
+}

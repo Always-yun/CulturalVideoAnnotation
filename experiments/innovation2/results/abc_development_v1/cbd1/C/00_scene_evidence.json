@@ -1,0 +1,23 @@
+{
+  "scene_description_raw": "{\"scene\":\"晴朗天气下的城市建筑群，仰视视角拍摄\",\"subject\":\"一座高耸的玻璃幕墙摩天大楼\",\"visible_features\":[\"玻璃幕墙、流线型顶部、垂直线条装饰\"],\"background\":[\"多栋不同风格的现代高层建筑、蓝天\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "scene_description": "晴朗天气下的城市建筑群，仰视视角拍摄\n一座高耸的玻璃幕墙摩天大楼\n玻璃幕墙、流线型顶部、垂直线条装饰",
+  "scene_evidence_version": "structured_v1",
+  "structured_scene": {
+    "scene": "晴朗天气下的城市建筑群，仰视视角拍摄",
+    "subject": "一座高耸的玻璃幕墙摩天大楼",
+    "visible_features": [
+      "玻璃幕墙、流线型顶部、垂直线条装饰"
+    ],
+    "background": [
+      "多栋不同风格的现代高层建筑、蓝天"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "not_needed",
+    "calls": 0,
+    "items": []
+  }
+}

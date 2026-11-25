@@ -1,0 +1,91 @@
+{
+  "decision": {
+    "identity_gate_pass": true,
+    "reason": "At least one candidate has strong identity evidence.",
+    "passed_symbol_ids": [
+      "BJ_JINGWEI_001"
+    ]
+  },
+  "candidates": [
+    {
+      "symbol_id": "BJ_JINGWEI_001",
+      "canonical_name": "胡同",
+      "identity_name_match": true,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 1,
+      "identity_evidence_level": "strong",
+      "identity_gate_pass": true,
+      "identity_gate_reason": "场景主体描述中命中候选完整名称/别名或KB独特属性",
+      "category_evidence": "dimension=FOLK; type=城市街巷形态",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "BJ_JINGWEI_010",
+      "canonical_name": "大栅栏",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=FOLK;MODERN; type=历史文化街区",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "BJ_JINGWEI_003",
+      "canonical_name": "京剧",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=FOLK; type=传统戏曲",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "BJ_GUDU_009",
+      "canonical_name": "什刹海",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=ANCIENT; type=历史水域与街区",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "CN_ANCIENT_001",
+      "canonical_name": "秦始皇帝陵兵马俑",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=ANCIENT; type=古代陵墓与陶俑遗址",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    }
+  ]
+}

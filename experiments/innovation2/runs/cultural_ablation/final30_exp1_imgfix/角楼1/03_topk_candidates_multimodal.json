@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_GUDU_010",
+    "canonical_name": "角楼",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.969970703125,
+    "reason": "关键词/别名命中：角楼",
+    "image_score": 0.9399,
+    "text_score": 1.0,
+    "fusion_score": 0.97
+  },
+  {
+    "symbol_id": "BJ_GUDU_001",
+    "canonical_name": "故宫",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.9407958984375,
+    "reason": "关键词/别名命中：故宫",
+    "image_score": 0.8816,
+    "text_score": 1.0,
+    "fusion_score": 0.9408
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_015",
+    "canonical_name": "颐和园",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.458740234375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9175,
+    "text_score": 0.0,
+    "fusion_score": 0.4587
+  },
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.456787109375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9136,
+    "text_score": 0.0,
+    "fusion_score": 0.4568
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_004",
+    "canonical_name": "苏州古典园林",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.455078125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9102,
+    "text_score": 0.0,
+    "fusion_score": 0.4551
+  }
+]

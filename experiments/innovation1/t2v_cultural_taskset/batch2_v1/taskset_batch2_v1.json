@@ -1,0 +1,895 @@
+{
+  "meta": {
+    "name": "EMCAST第二批正式对象配置_v1",
+    "created": "2026-11-12",
+    "batch_id": "batch2",
+    "targets": [
+      "T01",
+      "T04",
+      "T06",
+      "T07",
+      "T10"
+    ],
+    "total_tasks": 5,
+    "total_prompts": 20,
+    "total_facts": 20,
+    "object_selection_status": "confirmed_by_user",
+    "fact_freeze_status": "pending_review",
+    "source": "source_user_supplied.txt",
+    "source_sha256": "ba6aa9ae56d498b579c6d975ee57cebe519024d84c3eec7073442c6cb702417d",
+    "first_batch": "unchanged; T02/T03/T05/T08/T09",
+    "technical_layer": {
+      "T": "post_generation_ffmpeg",
+      "include_in_prompt": false
+    },
+    "comparison_note": "G1–G4为描述策略比较；G3/G4匹配四项核心事实但不保证token等量；运行前按实际模型tokenizer记录token数。",
+    "external_verification": "未访问外部网页；用户原文中的来源线索不视为已核实证据。"
+  },
+  "tasks": [
+    {
+      "task_id": "T01",
+      "canonical_name": "秦始皇帝陵兵马俑",
+      "symbol_id": "CN_ANCIENT_001",
+      "cultural_dimension": "古城与历史文化",
+      "scene_text": "一号坑室内展厅、白天、高处斜俯视、缓慢横移",
+      "scene_constraints": "F3不要求所有陶俑完全同色；F4不要求坑道精确尺寸。",
+      "kb_version": "v2",
+      "kb_visual_features": "成列陶俑|战马战车|地下俑坑|秦代军阵|不同面貌与服饰",
+      "kb_source_url": "https://zhuanti.mct.gov.cn/qshbmybwg2022.html",
+      "reference_images": [],
+      "reference_image_status": "missing",
+      "facts": [
+        {
+          "fact_id": "T01-F1",
+          "task_id": "T01",
+          "statement": "多排陶俑军阵",
+          "yes_rule": "至少两排人物陶俑呈有序队列排列",
+          "no_rule": "目标清晰可见但不满足本项Yes条件。",
+          "uncertain_rule": "遮挡、画面过小或细节无法辨认。",
+          "ambiguity_note": "F3不要求所有陶俑完全同色；F4不要求坑道精确尺寸。",
+          "kb_field": "visual_features",
+          "kb_value": "成列陶俑|秦代军阵",
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v2",
+            "symbol_id": "CN_ANCIENT_001",
+            "kb_support": "partial; operational details require review",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        },
+        {
+          "fact_id": "T01-F2",
+          "task_id": "T01",
+          "statement": "古代军士造型",
+          "yes_rule": "可辨认古代军士的服饰、发髻或甲胄造型",
+          "no_rule": "目标清晰可见但不满足本项Yes条件。",
+          "uncertain_rule": "遮挡、画面过小或细节无法辨认。",
+          "ambiguity_note": "F3不要求所有陶俑完全同色；F4不要求坑道精确尺寸。",
+          "kb_field": "visual_features",
+          "kb_value": "不同面貌与服饰",
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v2",
+            "symbol_id": "CN_ANCIENT_001",
+            "kb_support": "partial; operational details require review",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        },
+        {
+          "fact_id": "T01-F3",
+          "task_id": "T01",
+          "statement": "陶土质感",
+          "yes_rule": "陶俑具有土褐或灰褐色的塑像表面，而非真人皮肤或金属机器人",
+          "no_rule": "目标清晰可见但不满足本项Yes条件。",
+          "uncertain_rule": "遮挡、画面过小或细节无法辨认。",
+          "ambiguity_note": "F3不要求所有陶俑完全同色；F4不要求坑道精确尺寸。",
+          "kb_field": null,
+          "kb_value": null,
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v2",
+            "symbol_id": "CN_ANCIENT_001",
+            "kb_support": "supplementary; not established by local visual_features",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        },
+        {
+          "fact_id": "T01-F4",
+          "task_id": "T01",
+          "statement": "坑道式空间布局",
+          "yes_rule": "陶俑位于由土质隔墙或坑道划分的考古遗址空间中",
+          "no_rule": "目标清晰可见但不满足本项Yes条件。",
+          "uncertain_rule": "遮挡、画面过小或细节无法辨认。",
+          "ambiguity_note": "F3不要求所有陶俑完全同色；F4不要求坑道精确尺寸。",
+          "kb_field": "visual_features",
+          "kb_value": "地下俑坑",
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v2",
+            "symbol_id": "CN_ANCIENT_001",
+            "kb_support": "partial; operational details require review",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        }
+      ],
+      "groups": {
+        "G1": {
+          "title": "普通整段描述",
+          "prompt_file": "prompts/T01/G1.txt",
+          "prompt": "白天，一处规模宏大的中国古代考古遗址位于室内展厅之中，大量古代人物雕塑排列在开阔的遗址区域内，展现出具有历史年代感的场景。展厅光线柔和，建筑空间宽敞，人物雕塑保持静止。镜头从较高位置斜向俯视，缓慢水平移动，连续展示古代雕塑群及其周围空间，整体采用写实纪实摄影风格。",
+          "character_count": 132,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        },
+        "G2": {
+          "title": "MiraData式结构化描述",
+          "prompt_file": "prompts/T01/G2.txt",
+          "prompt": "**主体（Main Object）：** 一组规模庞大的古代人物雕塑，雕塑形态具有一定差异，整体排列有序，主体保持静止。\n\n**背景（Background）：** 雕塑群位于大型室内考古遗址展厅内，周围可见遗址地面、展厅空间及远处建筑结构，白天的室内光线均匀柔和。\n\n**风格（Style）：** 写实纪实摄影风格，色彩自然，突出古代遗址的历史年代感与大型雕塑群的规模，画面整体庄重。\n\n**镜头（Camera）：** 镜头从较高位置斜向俯视，采用较广景别缓慢水平移动，展示雕塑群的排列及遗址空间。",
+          "character_count": 249,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        },
+        "G3": {
+          "title": "整段描述＋文化视觉特征",
+          "prompt_file": "prompts/T01/G3.txt",
+          "prompt": "白天，镜头从较高位置斜向俯视陕西西安秦始皇兵马俑一号坑。遗址中大量古代军士陶俑排列成多排整齐的军阵，人物具有古代军士的服饰、发髻与甲胄造型，雕塑表面呈现土褐色和灰褐色的陶土质感。陶俑分布在由土质隔墙划分的长条形考古坑道内，形成有序的队列布局。室内展厅光线柔和，镜头缓慢水平移动，以写实纪实摄影风格展示军阵与遗址空间。",
+          "character_count": 158,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [
+            "T01-F1",
+            "T01-F2",
+            "T01-F3",
+            "T01-F4"
+          ],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        },
+        "G4": {
+          "title": "EMCAST六维体系生成描述",
+          "prompt_file": "prompts/T01/G4.txt",
+          "prompt": "【E｜场景环境层】\n白天，陕西西安一处大型室内考古遗址展厅空间开阔，光线均匀柔和，整体环境安静、庄重。\n\n【M｜主体行为层】\n视觉焦点为秦始皇兵马俑一号坑内的大型人物雕塑群。多个雕塑主体分布于遗址区域内，各主体保持静止，形成具有规模感的空间组织。\n\n【C｜文化符号层】\n文化类别：古城与历史文化。\n核心视觉特征：多排陶俑组成整齐军阵、古代军士服饰与甲胄造型、土褐色及灰褐色陶土表面、由土质隔墙划分的考古坑道布局。\n\n【A｜视听语言层】\n镜头稳定、节奏慢，采用高处斜俯视的大远景，缓慢水平平移。光照柔和，景深较深，整体为写实纪实摄影风格。\n\n【S｜整体叙事层】\n镜头沿遗址区域缓慢移动，连续展示人物雕塑群的排列及其所在空间，呈现古代遗址的规模与秩序。",
+          "character_count": 324,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [
+            "T01-F1",
+            "T01-F2",
+            "T01-F3",
+            "T01-F4"
+          ],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        }
+      }
+    },
+    {
+      "task_id": "T04",
+      "canonical_name": "南湖红船",
+      "symbol_id": "CN2_RED_002",
+      "cultural_dimension": "红色文化",
+      "scene_text": "嘉兴南湖、晴朗白天、湖面侧前方、缓慢横移",
+      "scene_constraints": "红船不要求通体大红色；四项形态不能单独确认南湖红船身份。",
+      "kb_version": "v3",
+      "kb_visual_features": "传统乌篷木船|船篷与船舱|船体狭长|停泊于湖岸|与周围水岸环境同框",
+      "kb_source_url": "https://www.nanhu.com/",
+      "reference_images": [],
+      "reference_image_status": "missing",
+      "facts": [
+        {
+          "fact_id": "T04-F1",
+          "task_id": "T04",
+          "statement": "传统木质船体",
+          "yes_rule": "呈现木质、狭长的传统中式船体",
+          "no_rule": "船只或对应结构清晰可见但不满足本项Yes条件，例如现代快艇。",
+          "uncertain_rule": "船体或舱室严重遮挡，轮廓无法辨认。",
+          "ambiguity_note": "红船不要求通体大红色；四项形态不能单独确认南湖红船身份。",
+          "kb_field": "visual_features",
+          "kb_value": "传统乌篷木船|船体狭长",
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v3",
+            "symbol_id": "CN2_RED_002",
+            "kb_support": "partial; operational details require review",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        },
+        {
+          "fact_id": "T04-F2",
+          "task_id": "T04",
+          "statement": "带顶船舱",
+          "yes_rule": "船体上方具有清晰、连续的有顶船舱",
+          "no_rule": "船只或对应结构清晰可见但不满足本项Yes条件，例如现代快艇。",
+          "uncertain_rule": "船体或舱室严重遮挡，轮廓无法辨认。",
+          "ambiguity_note": "红船不要求通体大红色；四项形态不能单独确认南湖红船身份。",
+          "kb_field": "visual_features",
+          "kb_value": "船篷与船舱",
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v3",
+            "symbol_id": "CN2_RED_002",
+            "kb_support": "partial; operational details require review",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        },
+        {
+          "fact_id": "T04-F3",
+          "task_id": "T04",
+          "statement": "船舱与船体前后布局",
+          "yes_rule": "可见有顶舱段与前后露出船体部分的区别",
+          "no_rule": "船只或对应结构清晰可见但不满足本项Yes条件，例如现代快艇。",
+          "uncertain_rule": "船体或舱室严重遮挡，轮廓无法辨认。",
+          "ambiguity_note": "红船不要求通体大红色；四项形态不能单独确认南湖红船身份。",
+          "kb_field": "visual_features",
+          "kb_value": "船篷与船舱",
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v3",
+            "symbol_id": "CN2_RED_002",
+            "kb_support": "partial; operational details require review",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        },
+        {
+          "fact_id": "T04-F4",
+          "task_id": "T04",
+          "statement": "湖面上的完整船形",
+          "yes_rule": "可辨认船只浮于湖面，船身整体轮廓较完整",
+          "no_rule": "船只或对应结构清晰可见但不满足本项Yes条件，例如现代快艇。",
+          "uncertain_rule": "船体或舱室严重遮挡，轮廓无法辨认。",
+          "ambiguity_note": "红船不要求通体大红色；四项形态不能单独确认南湖红船身份。",
+          "kb_field": "visual_features",
+          "kb_value": "停泊于湖岸|与周围水岸环境同框",
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v3",
+            "symbol_id": "CN2_RED_002",
+            "kb_support": "partial; operational details require review",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        }
+      ],
+      "groups": {
+        "G1": {
+          "title": "普通整段描述",
+          "prompt_file": "prompts/T04/G1.txt",
+          "prompt": "晴朗的白天，一艘具有历史年代感的传统中国船只停泊在宁静的湖面上，船只外形古朴，与周围水岸景色共同形成安静的江南水乡景观。阳光照亮船身，湖面产生柔和的反射，远处可见树木与岸边建筑。镜头从船只侧前方缓慢水平移动，以中远景展现船只及其周围环境，整体采用写实摄影风格。",
+          "character_count": 130,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        },
+        "G2": {
+          "title": "MiraData式结构化描述",
+          "prompt_file": "prompts/T04/G2.txt",
+          "prompt": "**主体（Main Object）：** 一艘具有传统中国船舶风格的中型船只，整体造型古朴，船只停泊在水面上，没有明显航行动作。\n\n**背景（Background）：** 船只位于宽阔而平静的湖面，远处有树木、湖岸及少量传统建筑，晴朗白天的自然光照亮整个场景。\n\n**风格（Style）：** 写实纪实摄影风格，色彩自然，湖面反射柔和，呈现江南湖区安静而具有历史感的视觉氛围。\n\n**镜头（Camera）：** 采用船只侧前方的中远景，镜头缓慢水平移动，连续展示船只整体及其周围水岸环境。",
+          "character_count": 244,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        },
+        "G3": {
+          "title": "整段描述＋文化视觉特征",
+          "prompt_file": "prompts/T04/G3.txt",
+          "prompt": "晴朗的白天，镜头从侧前方缓慢水平移动，展示停泊在浙江嘉兴南湖上的传统南湖红船。船只具有木质、狭长的传统中式船体，上方设有连续的有顶船舱，船舱与前后露出的船体部分形成清楚的分段布局，从该视角能够辨认漂浮在湖面上的完整船形。平静的湖水映出船身轮廓，远处是树木与湖岸景观，自然阳光照亮船体，整体采用写实纪实摄影风格。",
+          "character_count": 155,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [
+            "T04-F1",
+            "T04-F2",
+            "T04-F3",
+            "T04-F4"
+          ],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        },
+        "G4": {
+          "title": "EMCAST六维体系生成描述",
+          "prompt_file": "prompts/T04/G4.txt",
+          "prompt": "【E｜场景环境层】\n晴朗的白天，浙江嘉兴南湖水面平静，湖岸树木与远处建筑构成江南水乡环境，自然光柔和，整体氛围宁静。\n\n【M｜主体行为层】\n视觉焦点为停泊在湖面上的南湖红船，船只位于画面中央，主体保持静止，与湖面及岸边环境形成清楚的空间关系。\n\n【C｜文化符号层】\n文化类别：红色文化。\n核心视觉特征：木质狭长的传统中式船体、连续的有顶船舱、船舱与前后露出船体部分的分段布局、漂浮在湖面上的完整船形。\n\n【A｜视听语言层】\n镜头稳定、节奏慢，采用侧前方中远景，缓慢水平平移，以自然日光和写实纪实摄影风格展示船只，水面形成柔和反射。\n\n【S｜整体叙事层】\n镜头沿水岸方向缓慢移动，连续展现船只的整体外观及湖面环境，形成平稳、连贯的传统水乡景观。",
+          "character_count": 321,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [
+            "T04-F1",
+            "T04-F2",
+            "T04-F3",
+            "T04-F4"
+          ],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        }
+      }
+    },
+    {
+      "task_id": "T06",
+      "canonical_name": "兔儿爷",
+      "symbol_id": "BJ_JINGWEI_004",
+      "cultural_dimension": "民族与民俗文化",
+      "scene_text": "传统民俗展台、暖色室内光、正面近景、缓慢横移",
+      "scene_constraints": "仅采用武将型；为静态实体泥塑，不是活兔。",
+      "kb_version": "v2",
+      "kb_visual_features": "兔首人身|长耳|三瓣嘴|身披甲胄或官服|坐骑虎/狮/象|粉彩绘",
+      "kb_source_url": "https://www.beijing.gov.cn/",
+      "reference_images": [
+        {
+          "local_path": "data/knowledge_base/reference_images_v2/BJ_JINGWEI_004/01_831b37691fec.jpg",
+          "image_url": "https://bkimg.cdn.bcebos.com/pic/c2cec3fdfc039245da1d6a038494a4c27d1e2515?x-bce-process=image/resize,m_lfit,w_536,limit_1/quality,Q_70",
+          "source_page_url": "https://wapbaike.baidu.com/item/%E5%85%94%E5%84%BF%E7%88%B7",
+          "source_organization": "百度百科（仅图片候选来源）",
+          "authority_level": "image_only_non_authoritative",
+          "caption": "兔儿爷 百度百科头图",
+          "retrieved_at": "2026-10-17",
+          "content_type": "image/jpeg",
+          "sha256": "831b37691fece79972b00542ac92218a01dbce8eb10151f6a49b4a376001a14f",
+          "verification_status": "candidate_unreviewed",
+          "use_for_retrieval": false,
+          "image_status": "downloaded"
+        }
+      ],
+      "reference_image_status": "pending_viewpoint_and_content_review",
+      "facts": [
+        {
+          "fact_id": "T06-F1",
+          "task_id": "T06",
+          "statement": "兔首人身",
+          "yes_rule": "兔形头部与拟人化躯体组合",
+          "no_rule": "主体或对应部位清晰可见但不满足本项Yes条件。",
+          "uncertain_rule": "头部、服饰或表面材质不可辨认。",
+          "ambiguity_note": "仅采用武将型；为静态实体泥塑，不是活兔。",
+          "kb_field": "visual_features",
+          "kb_value": "兔首人身",
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v2",
+            "symbol_id": "BJ_JINGWEI_004",
+            "kb_support": "partial; operational details require review",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        },
+        {
+          "fact_id": "T06-F2",
+          "task_id": "T06",
+          "statement": "竖立长耳",
+          "yes_rule": "头顶部可见一对明显长兔耳",
+          "no_rule": "主体或对应部位清晰可见但不满足本项Yes条件。",
+          "uncertain_rule": "头部、服饰或表面材质不可辨认。",
+          "ambiguity_note": "仅采用武将型；为静态实体泥塑，不是活兔。",
+          "kb_field": "visual_features",
+          "kb_value": "长耳",
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v2",
+            "symbol_id": "BJ_JINGWEI_004",
+            "kb_support": "partial; operational details require review",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        },
+        {
+          "fact_id": "T06-F3",
+          "task_id": "T06",
+          "statement": "武将服饰",
+          "yes_rule": "明确呈现盔甲、武将头盔等装备",
+          "no_rule": "主体或对应部位清晰可见但不满足本项Yes条件。",
+          "uncertain_rule": "头部、服饰或表面材质不可辨认。",
+          "ambiguity_note": "仅采用武将型；为静态实体泥塑，不是活兔。",
+          "kb_field": "visual_features",
+          "kb_value": "身披甲胄或官服",
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v2",
+            "symbol_id": "BJ_JINGWEI_004",
+            "kb_support": "partial; operational details require review",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        },
+        {
+          "fact_id": "T06-F4",
+          "task_id": "T06",
+          "statement": "彩绘泥塑质感",
+          "yes_rule": "整体是带明显彩绘表面的实体泥塑摆件，而非活兔或普通二维卡通",
+          "no_rule": "主体或对应部位清晰可见但不满足本项Yes条件。",
+          "uncertain_rule": "头部、服饰或表面材质不可辨认。",
+          "ambiguity_note": "仅采用武将型；为静态实体泥塑，不是活兔。",
+          "kb_field": "visual_features",
+          "kb_value": "粉彩绘",
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v2",
+            "symbol_id": "BJ_JINGWEI_004",
+            "kb_support": "partial; operational details require review",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        }
+      ],
+      "groups": {
+        "G1": {
+          "title": "普通整段描述",
+          "prompt_file": "prompts/T06/G1.txt",
+          "prompt": "温暖的室内灯光下，一尊具有传统中国民俗风格的彩色装饰摆件放置在展台中央。摆件外观精致，具有拟人化的造型和丰富的装饰细节，周围布置着简洁的传统节日陈设。镜头采用正面近景，从略偏左的位置缓慢水平移动，展示摆件的整体轮廓及表面细节，整体呈现写实静物摄影风格。",
+          "character_count": 126,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        },
+        "G2": {
+          "title": "MiraData式结构化描述",
+          "prompt_file": "prompts/T06/G2.txt",
+          "prompt": "**主体（Main Object）：** 一尊具有传统民俗特色的拟人化装饰塑像，造型精致，表面带有丰富纹样与鲜明色彩，主体保持静止。\n\n**背景（Background）：** 塑像放置在室内民俗展台上，周围有少量节日装饰，背景简洁，暖色灯光照亮展品。\n\n**风格（Style）：** 写实静物摄影风格，突出装饰摆件的材质、色彩及细部纹样，整体具有传统节日展示的温暖氛围。\n\n**镜头（Camera）：** 采用正面近景，镜头从略偏左的位置缓慢水平移动，使摆件正面与部分侧面连续呈现。",
+          "character_count": 241,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        },
+        "G3": {
+          "title": "整段描述＋文化视觉特征",
+          "prompt_file": "prompts/T06/G3.txt",
+          "prompt": "温暖的室内灯光下，镜头从略偏左的位置缓慢水平移动，展示一尊放在传统民俗展台中央的北京兔儿爷泥塑。塑像采用兔首人身的拟人化造型，头顶有一对明显竖立的长兔耳，身穿带有盔甲和武将头盔的传统武将服饰，整体是一尊表面具有鲜艳彩绘的实体泥塑摆件。展台周围陈设简洁，暖光照亮塑像面部和服饰细节，镜头采用写实静物摄影风格，展示其正面与部分侧面结构。",
+          "character_count": 166,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [
+            "T06-F1",
+            "T06-F2",
+            "T06-F3",
+            "T06-F4"
+          ],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        },
+        "G4": {
+          "title": "EMCAST六维体系生成描述",
+          "prompt_file": "prompts/T06/G4.txt",
+          "prompt": "【E｜场景环境层】\n暖色室内灯光照亮传统民俗展台，背景简洁，少量节日陈设营造出安静、温暖的展示环境。\n\n【M｜主体行为层】\n视觉焦点为一尊北京兔儿爷传统民俗摆件，位于展台中央。摆件为静止实体，镜头移动时可观察其正面与部分侧面外观。\n\n【C｜文化符号层】\n文化类别：民族与民俗文化。\n核心视觉特征：兔首人身的拟人化结构、一对明显竖立的长兔耳、盔甲及武将头盔组成的武将服饰、表面具有鲜艳彩绘的实体泥塑质感。\n\n【A｜视听语言层】\n镜头稳定、节奏慢，以正面近景从略偏左位置缓慢水平平移。采用暖色软光和写实静物摄影风格，突出主体形态与表面装饰。\n\n【S｜整体叙事层】\n画面围绕展台中央的民俗摆件展开，镜头缓慢移动，连续呈现其整体轮廓与装饰细节，构成完整的传统民俗器物展示过程。",
+          "character_count": 334,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [
+            "T06-F1",
+            "T06-F2",
+            "T06-F3",
+            "T06-F4"
+          ],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        }
+      }
+    },
+    {
+      "task_id": "T07",
+      "canonical_name": "文昌航天发射场",
+      "symbol_id": "CN_TECH_002",
+      "cultural_dimension": "科技与创新文化",
+      "scene_text": "长征五号系列火箭静置发射工位、白天、中远景、固定机位",
+      "scene_constraints": "长征五号系列发射前静置，不点火或升空；F4不要求同一视角看见全部四个助推器，但光滑圆柱火箭不足以判Yes。",
+      "kb_version": "v2",
+      "kb_visual_features": "发射塔架|运载火箭|航天器转运|热带滨海发射场|发射倒计时场景",
+      "kb_source_url": "https://www.cmse.gov.cn/gygc/xtzc/hnfscxt/",
+      "reference_images": [
+        {
+          "local_path": "data/knowledge_base/reference_images_v2/CN_TECH_002/01_8b39a0a096c5.jpg",
+          "image_url": "https://bkimg.cdn.bcebos.com/pic/8b13632762d0f703918f0b8961aa463d269759ee6f1f?x-bce-process=image/resize,m_lfit,w_536,limit_1/quality,Q_70",
+          "source_page_url": "https://wapbaike.baidu.com/item/%E6%96%87%E6%98%8C%E8%88%AA%E5%A4%A9%E5%8F%91%E5%B0%84%E5%9C%BA",
+          "source_organization": "百度百科（仅图片候选来源）",
+          "authority_level": "image_only_non_authoritative",
+          "caption": "文昌航天发射场 百度百科头图",
+          "retrieved_at": "2026-10-17",
+          "content_type": "image/jpeg",
+          "sha256": "8b39a0a096c54aa1868010a3f95cbb99b1606089e12d14ac064e99e791bcc697",
+          "verification_status": "candidate_unreviewed",
+          "use_for_retrieval": false,
+          "image_status": "downloaded"
+        }
+      ],
+      "reference_image_status": "pending_viewpoint_and_content_review",
+      "facts": [
+        {
+          "fact_id": "T07-F1",
+          "task_id": "T07",
+          "statement": "竖立的运载火箭",
+          "yes_rule": "一枚大型火箭垂直立于发射工位",
+          "no_rule": "对应结构清晰可见但不满足本项Yes条件。",
+          "uncertain_rule": "底部或侧向结构被塔架遮挡，或相关结构无法辨认。",
+          "ambiguity_note": "长征五号系列发射前静置，不点火或升空；F4不要求同一视角看见全部四个助推器，但光滑圆柱火箭不足以判Yes。",
+          "kb_field": "visual_features",
+          "kb_value": "运载火箭",
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v2",
+            "symbol_id": "CN_TECH_002",
+            "kb_support": "partial; operational details require review",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        },
+        {
+          "fact_id": "T07-F2",
+          "task_id": "T07",
+          "statement": "发射塔架",
+          "yes_rule": "火箭旁有明显高大的发射服务塔架或钢结构设施",
+          "no_rule": "对应结构清晰可见但不满足本项Yes条件。",
+          "uncertain_rule": "底部或侧向结构被塔架遮挡，或相关结构无法辨认。",
+          "ambiguity_note": "长征五号系列发射前静置，不点火或升空；F4不要求同一视角看见全部四个助推器，但光滑圆柱火箭不足以判Yes。",
+          "kb_field": "visual_features",
+          "kb_value": "发射塔架",
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v2",
+            "symbol_id": "CN_TECH_002",
+            "kb_support": "partial; operational details require review",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        },
+        {
+          "fact_id": "T07-F3",
+          "task_id": "T07",
+          "statement": "发射平台",
+          "yes_rule": "火箭底部连接可辨认的发射承载平台",
+          "no_rule": "对应结构清晰可见但不满足本项Yes条件。",
+          "uncertain_rule": "底部或侧向结构被塔架遮挡，或相关结构无法辨认。",
+          "ambiguity_note": "长征五号系列发射前静置，不点火或升空；F4不要求同一视角看见全部四个助推器，但光滑圆柱火箭不足以判Yes。",
+          "kb_field": null,
+          "kb_value": null,
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v2",
+            "symbol_id": "CN_TECH_002",
+            "kb_support": "supplementary; not established by local visual_features",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        },
+        {
+          "fact_id": "T07-F4",
+          "task_id": "T07",
+          "statement": "芯级与侧向助推器",
+          "yes_rule": "火箭具有中央芯级和附着于侧面的助推器，结构可辨",
+          "no_rule": "对应结构清晰可见但不满足本项Yes条件。",
+          "uncertain_rule": "底部或侧向结构被塔架遮挡，或相关结构无法辨认。",
+          "ambiguity_note": "长征五号系列发射前静置，不点火或升空；F4不要求同一视角看见全部四个助推器，但光滑圆柱火箭不足以判Yes。",
+          "kb_field": null,
+          "kb_value": null,
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v2",
+            "symbol_id": "CN_TECH_002",
+            "kb_support": "supplementary; not established by local visual_features",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        }
+      ],
+      "groups": {
+        "G1": {
+          "title": "普通整段描述",
+          "prompt_file": "prompts/T07/G1.txt",
+          "prompt": "晴朗的白天，一处规模宏大的中国现代航天发射基地位于开阔的室外场地中。画面中央矗立着大型运载火箭，周围分布着高大的发射设施与工业建筑，展现出具有科技感的现代航天工程景观。天空明亮，远处环境开阔，镜头采用固定机位和中远景，完整展示火箭与周边发射设施，整体采用写实工业摄影风格。",
+          "character_count": 136,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        },
+        "G2": {
+          "title": "MiraData式结构化描述",
+          "prompt_file": "prompts/T07/G2.txt",
+          "prompt": "**主体（Main Object）：** 一枚大型现代运载火箭位于航天发射基地中央，火箭竖直矗立，周围分布有不同功能的发射设施，主体保持静止。\n\n**背景（Background）：** 火箭位于开阔的室外航天发射场，周围有工业建筑、道路和发射保障设施，晴朗白天的自然光照亮场地。\n\n**风格（Style）：** 写实工业摄影风格，画面具有现代科技设施的严谨感，建筑与设备结构清晰，色彩自然。\n\n**镜头（Camera）：** 固定机位，中远景平视略微仰拍，完整展示大型火箭及周围设施，没有明显的镜头运动。",
+          "character_count": 252,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        },
+        "G3": {
+          "title": "整段描述＋文化视觉特征",
+          "prompt_file": "prompts/T07/G3.txt",
+          "prompt": "晴朗的白天，镜头以固定中远景展示海南文昌航天发射场内处于发射前静置状态的长征五号系列运载火箭。一枚大型火箭竖直矗立在发射工位中央，其旁边设有高大的钢结构发射塔架，火箭底部连接明显的发射承载平台。火箭由中央芯级和附着在侧面的助推器组成，整体结构清晰。周围场地开阔，白天自然光照亮火箭与发射设施，整体采用写实工业摄影风格。",
+          "character_count": 159,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [
+            "T07-F1",
+            "T07-F2",
+            "T07-F3",
+            "T07-F4"
+          ],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        },
+        "G4": {
+          "title": "EMCAST六维体系生成描述",
+          "prompt_file": "prompts/T07/G4.txt",
+          "prompt": "【E｜场景环境层】\n晴朗的白天，海南文昌航天发射场室外场地开阔，周围分布航天工程设施，明亮的自然光营造出清晰、严谨的工业景观。\n\n【M｜主体行为层】\n视觉焦点为长征五号系列运载火箭与发射工位。火箭处于发射前静置状态，周围设施保持静止，主要航天设施相互独立、空间关系清楚。\n\n【C｜文化符号层】\n文化类别：科技与创新文化。\n核心视觉特征：竖直矗立的大型运载火箭、旁侧高大的钢结构发射塔架、火箭底部的发射承载平台、中央芯级与侧向助推器组成的火箭结构。\n\n【A｜视听语言层】\n固定机位，镜头稳定，以中远景平视略微仰拍呈现发射设施。自然光充足，景深较深，画面采用写实工业摄影风格。\n\n【S｜整体叙事层】\n画面持续展示静置的运载火箭及其周围发射工位，使火箭主体与发射场设施的空间组织在连续画面中保持清晰。",
+          "character_count": 347,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [
+            "T07-F1",
+            "T07-F2",
+            "T07-F3",
+            "T07-F4"
+          ],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        }
+      }
+    },
+    {
+      "task_id": "T10",
+      "canonical_name": "东方明珠广播电视塔",
+      "symbol_id": "CN2_MODERN_003",
+      "cultural_dimension": "现代城市与国际文化",
+      "scene_text": "上海陆家嘴、傍晚蓝调时刻、地面仰视、缓慢向上摇摄",
+      "scene_constraints": "F1不要求所有小球体全部可见；上下摇摄过程中须兼顾底部斜撑与顶部天线可见性。",
+      "kb_version": "v3",
+      "kb_visual_features": "下球+上球+太空舱大珠小珠组合|竖向塔体|三根斜向支撑柱|与陆家嘴超高层同框",
+      "kb_source_url": "https://zjw.sh.gov.cn/",
+      "reference_images": [],
+      "reference_image_status": "missing",
+      "facts": [
+        {
+          "fact_id": "T10-F1",
+          "task_id": "T10",
+          "statement": "大小不同的球形结构",
+          "yes_rule": "塔体有多个高度不同、大小有别的球体",
+          "no_rule": "相关塔身部位清晰可见但缺少本项结构。",
+          "uncertain_rule": "相关部分不在画面内或难以分辨。",
+          "ambiguity_note": "F1不要求所有小球体全部可见；上下摇摄过程中须兼顾底部斜撑与顶部天线可见性。",
+          "kb_field": "visual_features",
+          "kb_value": "下球+上球+太空舱大珠小珠组合",
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v3",
+            "symbol_id": "CN2_MODERN_003",
+            "kb_support": "partial; operational details require review",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        },
+        {
+          "fact_id": "T10-F2",
+          "task_id": "T10",
+          "statement": "竖向高塔主体",
+          "yes_rule": "多个球体沿高耸的竖向塔身组织",
+          "no_rule": "相关塔身部位清晰可见但缺少本项结构。",
+          "uncertain_rule": "相关部分不在画面内或难以分辨。",
+          "ambiguity_note": "F1不要求所有小球体全部可见；上下摇摄过程中须兼顾底部斜撑与顶部天线可见性。",
+          "kb_field": "visual_features",
+          "kb_value": "竖向塔体",
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v3",
+            "symbol_id": "CN2_MODERN_003",
+            "kb_support": "partial; operational details require review",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        },
+        {
+          "fact_id": "T10-F3",
+          "task_id": "T10",
+          "statement": "倾斜支撑柱",
+          "yes_rule": "塔体下部有可辨认的斜向支撑结构",
+          "no_rule": "相关塔身部位清晰可见但缺少本项结构。",
+          "uncertain_rule": "相关部分不在画面内或难以分辨。",
+          "ambiguity_note": "F1不要求所有小球体全部可见；上下摇摄过程中须兼顾底部斜撑与顶部天线可见性。",
+          "kb_field": "visual_features",
+          "kb_value": "三根斜向支撑柱",
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v3",
+            "symbol_id": "CN2_MODERN_003",
+            "kb_support": "partial; operational details require review",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        },
+        {
+          "fact_id": "T10-F4",
+          "task_id": "T10",
+          "statement": "顶部天线桅杆",
+          "yes_rule": "上部球体之上延伸出细长天线桅杆",
+          "no_rule": "相关塔身部位清晰可见但缺少本项结构。",
+          "uncertain_rule": "相关部分不在画面内或难以分辨。",
+          "ambiguity_note": "F1不要求所有小球体全部可见；上下摇摄过程中须兼顾底部斜撑与顶部天线可见性。",
+          "kb_field": null,
+          "kb_value": null,
+          "provenance": {
+            "criteria_source": "source_user_supplied.txt",
+            "kb_version": "v3",
+            "symbol_id": "CN2_MODERN_003",
+            "kb_support": "supplementary; not established by local visual_features",
+            "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+          },
+          "freeze_status": "pending_review"
+        }
+      ],
+      "groups": {
+        "G1": {
+          "title": "普通整段描述",
+          "prompt_file": "prompts/T10/G1.txt",
+          "prompt": "傍晚蓝调时刻，上海一处繁华的现代城市中心出现高大的地标建筑，周围分布着许多现代摩天大楼。城市建筑外立面逐渐亮起灯光，与深蓝色天空形成鲜明对比。镜头从地面采用中远景仰视，缓慢向上摇摄，逐渐展示高耸的城市地标与周围楼群，整体采用写实城市夜景摄影风格。",
+          "character_count": 123,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        },
+        "G2": {
+          "title": "MiraData式结构化描述",
+          "prompt_file": "prompts/T10/G2.txt",
+          "prompt": "**主体（Main Object）：** 一座高耸的现代城市地标塔楼位于画面中央，整体轮廓独特，与周围不同高度的现代建筑形成对比，主体保持静止。\n\n**背景（Background）：** 塔楼位于上海现代城市商务区，周围密集分布玻璃幕墙高楼，傍晚天空呈深蓝色，楼宇灯光逐渐点亮。\n\n**风格（Style）：** 写实城市建筑摄影风格，色彩以冷色夜空和暖色建筑灯光形成对比，突出城市地标的高度与现代都市氛围。\n\n**镜头（Camera）：** 镜头采用地面仰视中远景，缓慢向上摇摄，逐渐呈现塔楼整体及周围建筑群。",
+          "character_count": 255,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        },
+        "G3": {
+          "title": "整段描述＋文化视觉特征",
+          "prompt_file": "prompts/T10/G3.txt",
+          "prompt": "傍晚蓝调时刻，镜头从地面以中远景缓慢向上摇摄，展示上海陆家嘴的东方明珠广播电视塔。塔体上分布着多个大小不同、处于不同高度的球形结构，各球体沿高耸的竖向塔身组织排列，塔体下部有明显的倾斜支撑柱结构，上部球体之上延伸出细长的天线桅杆。周围是现代玻璃幕墙高楼，建筑灯光逐渐点亮，与深蓝色天空形成对比，整体采用写实城市建筑摄影风格。",
+          "character_count": 162,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [
+            "T10-F1",
+            "T10-F2",
+            "T10-F3",
+            "T10-F4"
+          ],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        },
+        "G4": {
+          "title": "EMCAST六维体系生成描述",
+          "prompt_file": "prompts/T10/G4.txt",
+          "prompt": "【E｜场景环境层】\n傍晚蓝调时刻，上海陆家嘴现代商务区建筑密集，深蓝色天空与逐渐点亮的楼宇灯光形成鲜明对比，都市氛围繁华。\n\n【M｜主体行为层】\n视觉焦点为东方明珠广播电视塔及周边现代建筑群。电视塔位于画面主要位置，与周围高层建筑形成明显高度差，所有建筑主体保持静止。\n\n【C｜文化符号层】\n文化类别：现代城市与国际文化。\n核心视觉特征：不同高度分布的大小球形结构、球体沿竖向高塔主体排列、塔体下部的倾斜支撑柱、顶部细长的天线桅杆。\n\n【A｜视听语言层】\n镜头稳定、节奏慢，采用地面仰视中远景和缓慢向上摇摄。整体以冷调天空与暖调建筑灯光形成对比，使用写实城市建筑摄影风格。\n\n【S｜整体叙事层】\n镜头从较低位置逐渐向上展开，连续展示城市地标塔楼与周围建筑的高度关系，最终呈现高耸塔体及现代城市天际空间。",
+          "character_count": 351,
+          "token_count": null,
+          "tokenizer": null,
+          "target_fact_ids": [
+            "T10-F1",
+            "T10-F2",
+            "T10-F3",
+            "T10-F4"
+          ],
+          "generation_params": {
+            "model": "unknown",
+            "seed": "unknown",
+            "resolution": "unknown",
+            "fps": "unknown",
+            "duration_sec": "unknown"
+          }
+        }
+      }
+    }
+  ]
+}

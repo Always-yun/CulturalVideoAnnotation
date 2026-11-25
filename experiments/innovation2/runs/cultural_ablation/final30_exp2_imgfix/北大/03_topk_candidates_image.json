@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN2_ANCIENT_015",
+    "canonical_name": "颐和园",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.893310546875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8933,
+    "text_score": 0.0,
+    "fusion_score": 0.8933
+  },
+  {
+    "symbol_id": "BJ_GUDU_010",
+    "canonical_name": "角楼",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.890625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8906,
+    "text_score": 0.0,
+    "fusion_score": 0.8906
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_004",
+    "canonical_name": "苏州古典园林",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.88720703125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8872,
+    "text_score": 0.0,
+    "fusion_score": 0.8872
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_024",
+    "canonical_name": "乐山大佛",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.883544921875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8835,
+    "text_score": 0.0,
+    "fusion_score": 0.8835
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_023",
+    "canonical_name": "峨眉山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.883544921875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8835,
+    "text_score": 0.0,
+    "fusion_score": 0.8835
+  }
+]

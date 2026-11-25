@@ -1,0 +1,62 @@
+{
+  "request": {
+    "id": "T07_T07_G4_r01_video",
+    "task_id": "T07",
+    "video_id": "T07_G4_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T07-G4.mp4",
+    "video_sha256": "17be7163a72c9b984279ed9dd554118b748c22eaa319f0292112bad747c79dea",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [
+      "T07-F3",
+      "T07-F4"
+    ],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：【E｜场景环境层】\n晴朗的白天，海南文昌航天发射场室外场地开阔，周围分布航天工程设施，明亮的自然光营造出清晰、严谨的工业景观。\n\n【M｜主体行为层】\n视觉焦点为长征五号系列运载火箭与发射工位。火箭处于发射前静置状态，周围设施保持静止，主要航天设施相互独立、空间关系清楚。\n\n【C｜文化符号层】\n文化类别：科技与创新文化。\n核心视觉特征：竖直矗立的大型运载火箭、旁侧高大的钢结构发射塔架、火箭底部的发射承载平台、中央芯级与侧向助推器组成的火箭结构。\n\n【A｜视听语言层】\n固定机位，镜头稳定，以中远景平视略微仰拍呈现发射设施。自然光充足，景深较深，画面采用写实工业摄影风格。\n\n【S｜整体叙事层】\n画面持续展示静置的运载火箭及其周围发射工位，使火箭主体与发射场设施的空间组织在连续画面中保持清晰。。时序事实及判据：[{\"fact_id\": \"T07-F3\", \"question\": \"视频中是否出现火箭底部点火并伴随明显火焰或烟雾的过程？\", \"yes_rule\": \"连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程\", \"no_rule\": \"火箭底部始终无火焰烟雾，或所见烟雾与火箭点火无明确关系\", \"uncertain_rule\": \"底部被遮挡、片段缺失、解码异常或无法确认点火过程\"}, {\"fact_id\": \"T07-F4\", \"question\": \"视频中是否呈现火箭从发射工位向上升空的连续变化？\", \"yes_rule\": \"连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架\", \"no_rule\": \"火箭始终静止在工位，或运动方向不是向上升空\", \"uncertain_rule\": \"镜头运动、遮挡、片段过短或解码异常导致无法判断相对位移\"}]",
+    "request_sha256": "fc6767abc66453a7862c0df6d81d0f63b64e9e657acb062c56129d497decad16"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"conditions\": {\"subject\": {\"verdict\": \"Yes\", \"evidence\": \"视觉焦点为长征五号系列运载火箭与发射工位，火箭处于发射前静置状态，周围设施保持静止，主要航天设施相互独立、空间关系清楚\", \"timestamps\": \"0.00-5.00\"}, \"scene\": {\"verdict\": \"Yes\", \"evidence\": \"海南文昌航天发射场室外场地开阔，周围分布航天工程设施，明亮的自然光营造出清晰、严谨的工业景观\", \"timestamps\": \"0.00-5.00\"}, \"time_weather\": {\"verdict\": \"Yes\", \"evidence\": \"晴朗的白天，自然光充足，光线明亮\", \"timestamps\": \"0.00-5.00\"}, \"camera_motion\": {\"verdict\": \"No\", \"evidence\": \"镜头稳定，无明显的平移、倾斜或缩放运动，保持固定机位\", \"timestamps\": \"0.00-5.00\"}}, \"temporal_facts\": {\"T07-F3\": {\"verdict\": \"Yes\", \"evidence\": \"连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程\", \"timestamps\": \"0.00-5.00\"}, \"T07-F4\": {\"verdict\": \"Yes\", \"evidence\": \"连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架\", \"timestamps\": \"0.00-5.00\"}}}",
+  "parse_ok": true,
+  "parsed": {
+    "conditions": {
+      "subject": {
+        "verdict": "Yes",
+        "evidence": "视觉焦点为长征五号系列运载火箭与发射工位，火箭处于发射前静置状态，周围设施保持静止，主要航天设施相互独立、空间关系清楚",
+        "timestamps": "0.00-5.00"
+      },
+      "scene": {
+        "verdict": "Yes",
+        "evidence": "海南文昌航天发射场室外场地开阔，周围分布航天工程设施，明亮的自然光营造出清晰、严谨的工业景观",
+        "timestamps": "0.00-5.00"
+      },
+      "time_weather": {
+        "verdict": "Yes",
+        "evidence": "晴朗的白天，自然光充足，光线明亮",
+        "timestamps": "0.00-5.00"
+      },
+      "camera_motion": {
+        "verdict": "No",
+        "evidence": "镜头稳定，无明显的平移、倾斜或缩放运动，保持固定机位",
+        "timestamps": "0.00-5.00"
+      }
+    },
+    "temporal_facts": {
+      "T07-F3": {
+        "verdict": "Yes",
+        "evidence": "连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程",
+        "timestamps": "0.00-5.00"
+      },
+      "T07-F4": {
+        "verdict": "Yes",
+        "evidence": "连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架",
+        "timestamps": "0.00-5.00"
+      }
+    }
+  }
+}

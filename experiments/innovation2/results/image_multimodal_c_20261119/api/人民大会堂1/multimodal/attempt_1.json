@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:50:21.585765+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化。\n核心符号：中国国家博物馆\n价值指向：画面中可见建筑正面有中华人民共和国国徽，建筑风格为大型柱廊式，具有庄重的政治建筑特征，与候选知识中“中国国家博物馆”的视觉特征（立面柱廊对称、黄色花岗岩外墙等）相符，且其作为承载国家记忆的场所，属于红色文化范畴。",
+  "response_model": "glm-4v",
+  "response_id": "20261119165021e7ffcb1fa4334ac4",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73742, prompt_tokens_details=PromptTokensDetails(cached_tokens=73741), completion_tokens=89, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73831)",
+  "seconds": 47.04361319541931
+}

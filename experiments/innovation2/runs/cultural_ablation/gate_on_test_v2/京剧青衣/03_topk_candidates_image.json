@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_GUDU_003",
+    "canonical_name": "天坛",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6326904296875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6327,
+    "text_score": 0.0,
+    "fusion_score": 0.6327
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_005",
+    "canonical_name": "京韵大鼓",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.62408447265625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6241,
+    "text_score": 0.0,
+    "fusion_score": 0.6241
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_009",
+    "canonical_name": "鸽哨",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.6231689453125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6232,
+    "text_score": 0.0,
+    "fusion_score": 0.6232
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_004",
+    "canonical_name": "兔儿爷",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.62310791015625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6231,
+    "text_score": 0.0,
+    "fusion_score": 0.6231
+  },
+  {
+    "symbol_id": "BJ_GUDU_004",
+    "canonical_name": "祈年殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.622802734375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6228,
+    "text_score": 0.0,
+    "fusion_score": 0.6228
+  }
+]

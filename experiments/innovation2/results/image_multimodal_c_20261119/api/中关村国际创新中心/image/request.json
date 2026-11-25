@@ -1,0 +1,10 @@
+{
+  "media_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/data/videos/中关村国际创新中心.mp4",
+  "media_sha256": "9d472ca67881dcc5dc0eb3bd3a28e5bf8ba060bac0c0b1903ef570d8f17fcc17",
+  "media_kind": "video_url",
+  "prompt": "请仅输出EMCAST的C文化维度层，保留完整中文自然语言说明，不输出其余五层。\n根据视频实际可见证据识别文化符号。文化类别可多选：古城与历史文化、红色文化、民族与民俗文化、科技与创新文化、现代城市与国际文化；证据不足可写无法确认。\n候选知识只是待核实材料，不证明画面已出现该实体。允许命名候选之外的实体，允许无候选或无法确认，不强迫选择。不要给数值置信度。\n核心符号行请用规范名称列出实际确认的实体，多个用顿号分隔；没有可靠身份则写unknown_symbol。其他说明放在价值指向中，不把身份猜测写成已识别事实。\n输出格式沿用现有C层：\n【C｜文化维度层】：该场景隶属于……（多类可并列，无法确认则说明）。\n核心符号：……\n价值指向：描述可见视觉依据、文化内涵与不确定之处。\n\n以下为检索到的待核实文化知识（不是已经出现的事实；可不选）：\n[{\"symbol_id\": \"BJ_INNOV_007\", \"canonical_name\": \"清华大学\", \"aliases\": \"清华\", \"cultural_dimension\": \"科技与创新文化\", \"dimension_code\": \"TECH\", \"visual_features\": \"清华园工字厅|大礼堂红砖砌筑|二校门欧式牌坊|近春园荷塘|日晷|清华学堂\", \"cultural_description\": \"1911年留美预备学校发展至今，中国顶尖理工科与综合性大学，\\\"自强不息，厚德载物\\\"\", \"typical_scene\": \"二校门仰视|大礼堂正面|荷塘月色|银杏大道\"}, {\"symbol_id\": \"CN2_TECH_005\", \"canonical_name\": \"中关村国家自主创新示范区展示中心\", \"aliases\": \"中关村展示中心|展示中心\", \"cultural_dimension\": \"科技与创新文化\", \"dimension_code\": \"TECH\", \"visual_features\": \"展示中心建筑外观|序厅|科技成果展台|创新地图大屏\", \"cultural_description\": \"集中展示中关村国家自主创新示范区创新成果的展馆。\", \"typical_scene\": \"\"}, {\"symbol_id\": \"CN2_TECH_008\", \"canonical_name\": \"中关村壹号\", \"aliases\": \"中关村1号\", \"cultural_dimension\": \"科技与创新文化\", \"dimension_code\": \"TECH\", \"visual_features\": \"双塔式玻璃幕墙|园区中庭|夜景灯光|企业总部标识\", \"cultural_description\": \"位于海淀区的中关村壹号科技商务综合体，聚集科技企业总部。\", \"typical_scene\": \"\"}]",
+  "model": "glm-4v",
+  "temperature": 0.1,
+  "max_tokens": 2048,
+  "base64_omitted": true
+}

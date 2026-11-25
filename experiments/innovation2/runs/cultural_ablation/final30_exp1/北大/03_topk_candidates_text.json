@@ -1,0 +1,13 @@
+[
+  {
+    "symbol_id": "CN_MODERN_001",
+    "canonical_name": "杭州西湖文化景观",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 1.0,
+    "reason": "关键词/别名命中：湖面",
+    "image_score": 0.0,
+    "text_score": 1.0,
+    "fusion_score": 1.0
+  }
+]

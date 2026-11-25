@@ -1,0 +1,71 @@
+{
+  "status": "complete",
+  "completed": 20,
+  "expected": 20,
+  "scope": "development_only_not_independent_test",
+  "known_n": 18,
+  "unknown_n": 2,
+  "accuracy": 0.9,
+  "known_accuracy": 0.8888888888888888,
+  "known_false_reject": 0.1111111111111111,
+  "unknown_false_accept": 0.0,
+  "recall1": 0.6111111111111112,
+  "recall5": 0.8888888888888888,
+  "new_api_calls": 37,
+  "errors": [],
+  "paired": {
+    "A": {
+      "n": 20,
+      "before_correct": 14,
+      "after_correct": 18,
+      "improved": [
+        "中关村1号",
+        "中关村展示中心",
+        "北大1",
+        "庙会"
+      ],
+      "regressed": []
+    },
+    "B": {
+      "n": 20,
+      "before_correct": 5,
+      "after_correct": 18,
+      "improved": [
+        "cbd",
+        "cbd1",
+        "cbd2",
+        "cbd3",
+        "中关村1号",
+        "中关村国际创新中心",
+        "中关村展示中心",
+        "人民英雄纪念碑",
+        "兔爷",
+        "国博",
+        "天安门",
+        "天安门1",
+        "庙会"
+      ],
+      "regressed": []
+    },
+    "C": {
+      "n": 18,
+      "before_correct": 5,
+      "after_correct": 16,
+      "improved": [
+        "cbd",
+        "cbd1",
+        "cbd2",
+        "cbd3",
+        "中关村1号",
+        "中关村国际创新中心",
+        "人民英雄纪念碑",
+        "兔爷",
+        "国博",
+        "天安门",
+        "天安门1"
+      ],
+      "regressed": []
+    }
+  },
+  "pre_verification_correct": 19
+}

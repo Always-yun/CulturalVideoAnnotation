@@ -1,0 +1,14 @@
+{
+  "video_id": "cbd3",
+  "gt_symbols": [
+    "CBD"
+  ],
+  "gt_symbol_ids": [
+    "BJ_FASHION_003"
+  ],
+  "gt_dimension_code": "MODERN",
+  "kb_coverage": true,
+  "mode": "image",
+  "status": "blocked_material",
+  "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+}

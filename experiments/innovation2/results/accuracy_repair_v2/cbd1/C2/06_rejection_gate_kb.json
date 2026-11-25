@@ -1,0 +1,16 @@
+{
+  "level": "insufficient",
+  "signals": {
+    "mode": "multimodal",
+    "signal": "fusion",
+    "top1_score": 0.906,
+    "top2_score": 0.8987,
+    "margin_rel": 0.0081,
+    "n_keywords": 0,
+    "scene_negative": false,
+    "score_thr": 0.4,
+    "margin_thr": 0
+  },
+  "reason": "视觉描述无任何知识库词表命中（n_keywords=0）",
+  "constraint_overridden": false
+}

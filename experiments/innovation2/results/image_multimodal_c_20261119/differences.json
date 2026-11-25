@@ -1,0 +1,1061 @@
+[
+  {
+    "video_id": "cbd",
+    "reference": [
+      "CBD"
+    ],
+    "free": {
+      "names": [
+        "中央电视台总部大楼",
+        "中国尊",
+        "国贸三期",
+        "国贸一期"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "中国中央电视台总部大楼",
+        "中国尊",
+        "国贸中心"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "中央商务区"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "中央商务区"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "cbd1",
+    "reference": [
+      "CBD"
+    ],
+    "free": {
+      "names": [
+        "cbd天际线"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "cbd天际线"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "cbd"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "cbd"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "cbd2",
+    "reference": [
+      "CBD"
+    ],
+    "free": {
+      "names": [
+        "北京中央商务区天际线"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "cbd"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "cbd"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "cbd"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "cbd3",
+    "reference": [
+      "CBD"
+    ],
+    "free": {
+      "names": [
+        "中国尊",
+        "国贸三期",
+        "央视总部大楼",
+        "望京soho"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "中国尊",
+        "国贸三期",
+        "央视总部大楼",
+        "望京soho"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "cbd"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "cbd"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "中关村1号",
+    "reference": [
+      "中关村壹号"
+    ],
+    "free": {
+      "names": [
+        "中关村1号建筑群"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "中关村1号"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "中关村壹号"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "中关村壹号"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "中关村国际创新中心",
+    "reference": [
+      "中关村国际创新中心"
+    ],
+    "free": {
+      "names": [
+        "中关村国际创新中心"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "中关村国际创新中心"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "中关村国际创新中心"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "中关村国际创新中心"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "中关村展示中心",
+    "reference": [
+      "中关村国家自主创新示范区展示中心"
+    ],
+    "free": {
+      "names": [
+        "国家会议中心"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "中关村国家自主创新示范区展示中心"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "展示中心",
+        "国际旗帜阵列"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "中关村国家自主创新示范区展示中心"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "京剧青衣",
+    "reference": [
+      "京剧"
+    ],
+    "free": {
+      "names": [
+        "京剧服饰",
+        "折扇"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "京剧服饰",
+        "折扇"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "京剧"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "京剧"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "人民大会堂",
+    "reference": [
+      "人民大会堂"
+    ],
+    "free": {
+      "names": [
+        "人民大会堂",
+        "中华人民共和国国徽"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "人民大会堂"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "中国国家博物馆"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "中国国家博物馆"
+      ],
+      "correct": false,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "人民大会堂1",
+    "reference": [
+      "人民大会堂"
+    ],
+    "free": {
+      "names": [
+        "人民大会堂"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "人民大会堂"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "中国国家博物馆"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "中国国家博物馆"
+      ],
+      "correct": false,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "人民英雄纪念碑",
+    "reference": [
+      "人民英雄纪念碑"
+    ],
+    "free": {
+      "names": [
+        "人民英雄纪念碑",
+        "天安门广场"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "人民英雄纪念碑"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "人民英雄纪念碑"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "人民英雄纪念碑"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "人民英雄纪念碑1",
+    "reference": [
+      "人民英雄纪念碑"
+    ],
+    "free": {
+      "names": [],
+      "correct": false,
+      "status": "parse_failure"
+    },
+    "text": {
+      "names": [
+        "人民英雄纪念碑"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "人民英雄纪念碑"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "人民英雄纪念碑"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "兔爷",
+    "reference": [
+      "兔儿爷"
+    ],
+    "free": {
+      "names": [
+        "兔儿爷"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "兔儿爷"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "兔爷",
+        "红色对联"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "兔儿爷"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "北大",
+    "reference": [
+      "北京大学"
+    ],
+    "free": {
+      "names": [
+        "宝塔"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "宝塔"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "雷峰塔"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "宝轮寺塔"
+      ],
+      "correct": false,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "北大1",
+    "reference": [
+      "北京大学"
+    ],
+    "free": {
+      "names": [
+        "北京大学建筑",
+        "石狮子"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "北京大学校门"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "石狮子",
+        "传统中式建筑"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "石狮子",
+        "传统中式建筑",
+        "汉字匾额"
+      ],
+      "correct": false,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "国博",
+    "reference": [
+      "中国国家博物馆"
+    ],
+    "free": {
+      "names": [
+        "国家博物馆建筑",
+        "红色横幅",
+        "中华人民共和国国徽"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "中国国家博物馆"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "中国国家博物馆"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "中国国家博物馆"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "天安门",
+    "reference": [
+      "天安门广场"
+    ],
+    "free": {
+      "names": [
+        "天安门城楼"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "天安门城楼",
+        "毛泽东画像",
+        "红旗"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "天安门城楼"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "天安门城楼"
+      ],
+      "correct": false,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "天安门1",
+    "reference": [
+      "天安门广场"
+    ],
+    "free": {
+      "names": [
+        "天安门城楼",
+        "华表"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "天安门城楼"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "天安门广场"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "天安门广场"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "太和殿",
+    "reference": [
+      "太和殿"
+    ],
+    "free": {
+      "names": [
+        "太和殿"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "太和殿"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "太和殿"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "太和殿"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "庙会",
+    "reference": [
+      "北京庙会"
+    ],
+    "free": {
+      "names": [
+        "红色灯笼",
+        "红色横幅"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "红色灯笼",
+        "红色横幅"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "春节庙会"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "北京庙会"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "故宫",
+    "reference": [
+      "故宫"
+    ],
+    "free": {
+      "names": [
+        "太和殿",
+        "红墙黄瓦"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "太和殿",
+        "红墙黄琉璃瓦",
+        "中轴对称布局"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "太和殿"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "故宫",
+        "太和殿"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "故宫全景",
+    "reference": [
+      "故宫"
+    ],
+    "free": {
+      "names": [
+        "故宫",
+        "红墙黄瓦",
+        "飞檐斗拱"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "故宫"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "故宫博物院"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "故宫"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "未来科学城",
+    "reference": [
+      "未来科学城"
+    ],
+    "free": {
+      "names": [
+        "现代桥梁",
+        "红砖建筑群",
+        "灰色高层建筑群"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "现代桥梁",
+        "高层建筑群"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "未来科学城"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "未来科学城"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "清华",
+    "reference": [
+      "清华大学"
+    ],
+    "free": {
+      "names": [
+        "清华大学二校门"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "text": {
+      "names": [],
+      "correct": false,
+      "status": "parse_failure"
+    },
+    "image": {
+      "names": [
+        "清华大学"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "清华大学"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "糖葫芦",
+    "reference": [
+      "冰糖葫芦"
+    ],
+    "free": {
+      "names": [
+        "冰糖葫芦"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "冰糖葫芦"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "冰糖葫芦儿"
+      ],
+      "correct": false,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "冰糖葫芦儿"
+      ],
+      "correct": false,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "胡同",
+    "reference": [
+      "胡同"
+    ],
+    "free": {
+      "names": [
+        "胡同"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "胡同"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "胡同"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "胡同"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "胡同1",
+    "reference": [
+      "胡同"
+    ],
+    "free": {
+      "names": [
+        "胡同"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "胡同"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "胡同"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "胡同"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "角楼",
+    "reference": [
+      "角楼"
+    ],
+    "free": {
+      "names": [
+        "角楼",
+        "护城河",
+        "城墙"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "角楼"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "角楼"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "角楼"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "角楼1",
+    "reference": [
+      "角楼"
+    ],
+    "free": {
+      "names": [
+        "角楼",
+        "护城河",
+        "飞檐斗拱",
+        "红墙灰瓦"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "角楼"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "角楼"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "角楼"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  },
+  {
+    "video_id": "鸟巢",
+    "reference": [
+      "鸟巢"
+    ],
+    "free": {
+      "names": [
+        "国家体育场",
+        "国家游泳中心"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "text": {
+      "names": [
+        "国家体育场"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "image": {
+      "names": [
+        "鸟巢"
+      ],
+      "correct": true,
+      "status": "completed"
+    },
+    "multimodal": {
+      "names": [
+        "鸟巢"
+      ],
+      "correct": true,
+      "status": "completed"
+    }
+  }
+]

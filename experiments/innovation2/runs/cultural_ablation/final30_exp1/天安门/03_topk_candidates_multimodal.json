@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_RED_002",
+    "canonical_name": "天安门广场",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.805206298828125,
+    "reason": "关键词/别名命中：天安门",
+    "image_score": 0.6104,
+    "text_score": 1.0,
+    "fusion_score": 0.8052
+  },
+  {
+    "symbol_id": "BJ_RED_007",
+    "canonical_name": "香山双清别墅",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.55401611328125,
+    "reason": "关键词/别名命中：毛泽东",
+    "image_score": 0.608,
+    "text_score": 0.5,
+    "fusion_score": 0.554
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_009",
+    "canonical_name": "鸽哨",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.31585693359375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6317,
+    "text_score": 0.0,
+    "fusion_score": 0.3159
+  },
+  {
+    "symbol_id": "CN2_TECH_002",
+    "canonical_name": "中国工程院",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.31573486328125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6315,
+    "text_score": 0.0,
+    "fusion_score": 0.3157
+  },
+  {
+    "symbol_id": "BJ_RED_006",
+    "canonical_name": "中国国家博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.315185546875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6304,
+    "text_score": 0.0,
+    "fusion_score": 0.3152
+  }
+]

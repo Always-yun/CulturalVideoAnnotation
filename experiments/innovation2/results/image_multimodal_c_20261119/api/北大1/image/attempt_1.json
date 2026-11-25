@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:52:52.102897+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化、民族与民俗文化。\n核心符号：石狮子、传统中式建筑（含匾额）\n价值指向：可见石狮子（传统瑞兽，常用于中式建筑门前，象征守护与吉祥）、传统中式建筑（红柱、彩绘、飞檐、匾额，体现古典建筑风格）。匾额文字虽不清晰，但建筑形制符合古城与历史文化特征，石狮子亦为民族与民俗文化常见符号。无法确认具体建筑是否为候选知识中的“北京大学”或“太和殿”，但建筑风格与石狮子共同指向传统中国文化的核心符号。",
+  "response_model": "glm-4v",
+  "response_id": "20261119165252f3ba76321b7d4b09",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73177, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=139, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73316)",
+  "seconds": 71.09867429733276
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "symbol_id": "BJ_RED_002",
+    "canonical_name": "天安门广场",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.90869140625,
+    "reason": "关键词/别名命中：天安门广场、天安门、广场",
+    "image_score": 0.8174,
+    "text_score": 1.0,
+    "fusion_score": 0.9087,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_RED_006",
+    "canonical_name": "中国国家博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.5335693359375,
+    "reason": "关键词/别名命中：天安门广场",
+    "image_score": 0.8171,
+    "text_score": 0.25,
+    "fusion_score": 0.5336,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_RED_001",
+    "canonical_name": "北大红楼",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.453857421875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9077,
+    "text_score": 0.0,
+    "fusion_score": 0.4539,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN_RED_002",
+    "canonical_name": "西柏坡纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.4307861328125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8616,
+    "text_score": 0.0,
+    "fusion_score": 0.4308,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN_RED_003",
+    "canonical_name": "延安革命纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.4293212890625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8586,
+    "text_score": 0.0,
+    "fusion_score": 0.4293,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  }
+]

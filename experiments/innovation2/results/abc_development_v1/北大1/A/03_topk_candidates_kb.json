@@ -1,0 +1,67 @@
+[
+  {
+    "symbol_id": "BJ_RED_004",
+    "canonical_name": "卢沟桥",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.9312744140625,
+    "reason": "关键词/别名命中：石狮",
+    "image_score": 0.8625,
+    "text_score": 1.0,
+    "fusion_score": 0.9313,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_007",
+    "canonical_name": "北京庙会",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.5984293619791666,
+    "reason": "关键词/别名命中：红灯笼",
+    "image_score": 0.8635,
+    "text_score": 0.3333,
+    "fusion_score": 0.5984,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_025",
+    "canonical_name": "青城山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4693603515625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9387,
+    "text_score": 0.0,
+    "fusion_score": 0.4694,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_026",
+    "canonical_name": "都江堰",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4693603515625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9387,
+    "text_score": 0.0,
+    "fusion_score": 0.4694,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_002",
+    "canonical_name": "平遥古城",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4632568359375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9265,
+    "text_score": 0.0,
+    "fusion_score": 0.4633,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  }
+]

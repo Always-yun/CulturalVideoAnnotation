@@ -1,0 +1,96 @@
+{
+  "request": {
+    "id": "T04_T04_G4_r01",
+    "task_id": "T04",
+    "video_id": "T04_G4_r01",
+    "question_ids": [
+      "T04-F1",
+      "T04-F2",
+      "T04-F3",
+      "T04-F4"
+    ],
+    "question_sha256": "f13b9591e96ef6faef3683c8c0f1449600df5d875792195b790a0164131738ba",
+    "reference_sha256": "c5914724891bedece8a6ee4ab5641c7e5e7ce37b5b8acb74f2650da450d37a87",
+    "evidence_sha256": "8d4f237d1db9c375f09d830c9d7a776a5f8b6fd12d90bc0f94da0b8ff1e9f350",
+    "source_evidence_sha256": "35b1e2091beb9dccbfb713aa0c11fb0659f23791229af2980e92d2214c065dc4",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T04-F1\", \"question\": \"视频中的船只是否具有狭长的传统木质船体？\", \"yes_rule\": \"主要船只呈狭长传统中式船形，并可见木质色泽、纹理或木构外观\", \"no_rule\": \"船只清晰但为现代快艇、金属船或不具狭长传统木船形态\", \"uncertain_rule\": \"船体遮挡、过小或材质无法辨认\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F2\", \"question\": \"船体上方是否存在带有传统中式屋顶的船舱？\", \"yes_rule\": \"船体上方可见连续船舱，船舱顶部具有传统中式坡屋顶、瓦顶或飞檐式轮廓\", \"no_rule\": \"船体清晰但无有顶船舱，或船舱仅为现代平顶/封闭舱体\", \"uncertain_rule\": \"船舱顶部未入画、被遮挡或轮廓无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F3\", \"question\": \"视频中的船只是否呈现有顶船舱与前后露出船体部分的分段结构？\", \"yes_rule\": \"可同时辨认中部或主要有顶舱段，以及舱体前后至少一端露出的船体部分，形成明确分段\", \"no_rule\": \"船只清晰但舱体覆盖全部船身，或无法区分舱段与前后船体\", \"uncertain_rule\": \"视角或遮挡导致船体分段关系无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F4\", \"question\": \"视频中是否能够辨认停泊在湖面上的较完整船体轮廓？\", \"yes_rule\": \"船只与湖面接触关系清楚，船体大部分轮廓可见并呈停泊状态\", \"no_rule\": \"船体明显残缺、离开水面，或主体不是停泊在湖面上的船只\", \"uncertain_rule\": \"水面关系、船体轮廓或运动状态无法判断\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 2.819,
+        "requested_sec": 1.4095,
+        "actual_sec": 1.4,
+        "absolute_pts_sec": 1.4,
+        "frame_index": 42,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T04/source/50.jpg",
+        "sha256": "c7d294375942f1ab464983f3d66434e52f0e7a0562f3cc6520601d105f7b7209",
+        "attempts": [
+          {
+            "index": 42,
+            "pts_sec": 1.4,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T04/T04_G4_r01/50.jpg",
+        "sha256": "b1015a92aebbc97fe55d7342cdf3a4163d212f0ff53f2a37fc5295b45fdcfe11",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"facts\":{\"T04-F1\":{\"frames\":[\"Yes\"],\"evidence\":\"生成视频中的船只呈现狭长传统中式船形，船体可见木质色泽与纹理\"},\"T04-F2\":{\"frames\":[\"Yes\"],\"evidence\":\"生成视频中的船体上方船舱具有传统中式坡屋顶与瓦顶轮廓\"},\"T04-F3\":{\"frames\":[\"Yes\"],\"evidence\":\"生成视频中的船只可辨认中部有顶舱段与前后露出船体部分，形成明确分段结构\"},\"T04-F4\":{\"frames\":[\"Yes\"],\"evidence\":\"生成视频中的船只与湖面接触关系清楚，船体大部分轮廓可见且呈停泊状态\"},\"overall_form\":\"Match\",\"overall_evidence\":\"生成视频中的船只整体形态（狭长传统船体、中式屋顶船舱、分段结构、停泊湖面）与原视频一致\"}",
+  "parse_ok": true,
+  "parsed": {
+    "facts": {
+      "T04-F1": {
+        "answer": "Yes",
+        "frames": [
+          "Yes"
+        ],
+        "evidence": "生成视频中的船只呈现狭长传统中式船形，船体可见木质色泽与纹理"
+      },
+      "T04-F2": {
+        "answer": "Yes",
+        "frames": [
+          "Yes"
+        ],
+        "evidence": "生成视频中的船体上方船舱具有传统中式坡屋顶与瓦顶轮廓"
+      },
+      "T04-F3": {
+        "answer": "Yes",
+        "frames": [
+          "Yes"
+        ],
+        "evidence": "生成视频中的船只可辨认中部有顶舱段与前后露出船体部分，形成明确分段结构"
+      },
+      "T04-F4": {
+        "answer": "Yes",
+        "frames": [
+          "Yes"
+        ],
+        "evidence": "生成视频中的船只与湖面接触关系清楚，船体大部分轮廓可见且呈停泊状态"
+      }
+    },
+    "overall_form": "Match",
+    "overall_evidence": "生成视频中的船只整体形态（狭长传统船体、中式屋顶船舱、分段结构、停泊湖面）与原视频一致",
+    "unexpected_fact_ids_ignored": []
+  }
+}

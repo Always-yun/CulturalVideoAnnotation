@@ -1,0 +1,23 @@
+{
+  "new_tasks": 60,
+  "all_four_method_rows": 120,
+  "attempts": 60,
+  "attempt_statuses": {
+    "completed": 60
+  },
+  "terminal_failures": [],
+  "all_frozen_input_hashes_verified": true,
+  "all_raw_replies_saved_before_parsing": true,
+  "all_denominators_30": true,
+  "zero_main_entity_count_for_missing_identity": true,
+  "rule_correction_log": "evaluation_implementation_correction.json",
+  "reference_status": "user confirmed all 30 main-entity and category labels",
+  "no_reference_relabeling_or_parameter_changes": true,
+  "finalizer_sha256": "cd2da2955cad2735bd66e5b2660dc865ad2a000845e6080d1cbb699c03c6c4e5",
+  "execution_interruption_record": "execution_interruption.json",
+  "interrupted_requests_without_reply": 3,
+  "reference_confirmation": "reference_answers_confirmation.json",
+  "confirmation_updated_at": "2026-11-19T17:21:59.327649+08:00",
+  "labels_changed_on_confirmation": false,
+  "metrics_changed_on_confirmation": false
+}

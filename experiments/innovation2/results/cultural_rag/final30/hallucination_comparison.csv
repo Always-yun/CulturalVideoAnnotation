@@ -1,0 +1,6 @@
+﻿method,mode,hallucination_rate
+Free,free,0.2258
+Text,text,0.0968
+Image,image,0.129
+Multimodal,multimodal,0.0645
+Multimodal Controlled,multimodal_controlled,0.0

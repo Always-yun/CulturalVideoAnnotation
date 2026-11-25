@@ -1,0 +1,489 @@
+{
+  "groups": {
+    "batch1": {
+      "G1": {
+        "videos": 5,
+        "warning": "different cultural evidence protocols; descriptive aggregation only",
+        "fact_yes_rate": {
+          "mean": 0.5625,
+          "tasks": 4
+        },
+        "VBench_IQ": {
+          "mean": 78.3358,
+          "tasks": 5
+        },
+        "VBench_SC": {
+          "mean": 0.97594,
+          "tasks": 5
+        },
+        "overall_form_counts": {
+          "Match": 2,
+          "Partial": 0,
+          "Mismatch": 3,
+          "Uncertain": 0
+        },
+        "keyframe_consistency": {
+          "rated": 0,
+          "mean": null
+        }
+      },
+      "G2": {
+        "videos": 5,
+        "warning": "different cultural evidence protocols; descriptive aggregation only",
+        "fact_yes_rate": {
+          "mean": 0.8125,
+          "tasks": 4
+        },
+        "VBench_IQ": {
+          "mean": 72.97694,
+          "tasks": 5
+        },
+        "VBench_SC": {
+          "mean": 0.88612,
+          "tasks": 5
+        },
+        "overall_form_counts": {
+          "Match": 1,
+          "Partial": 0,
+          "Mismatch": 4,
+          "Uncertain": 0
+        },
+        "keyframe_consistency": {
+          "rated": 0,
+          "mean": null
+        }
+      },
+      "G3": {
+        "videos": 5,
+        "warning": "different cultural evidence protocols; descriptive aggregation only",
+        "fact_yes_rate": {
+          "mean": 0.9375,
+          "tasks": 4
+        },
+        "VBench_IQ": {
+          "mean": 77.2767,
+          "tasks": 5
+        },
+        "VBench_SC": {
+          "mean": 0.98128,
+          "tasks": 5
+        },
+        "overall_form_counts": {
+          "Match": 4,
+          "Partial": 0,
+          "Mismatch": 1,
+          "Uncertain": 0
+        },
+        "keyframe_consistency": {
+          "rated": 0,
+          "mean": null
+        }
+      },
+      "G4": {
+        "videos": 5,
+        "warning": "different cultural evidence protocols; descriptive aggregation only",
+        "fact_yes_rate": {
+          "mean": 0.9375,
+          "tasks": 4
+        },
+        "VBench_IQ": {
+          "mean": 77.32258,
+          "tasks": 5
+        },
+        "VBench_SC": {
+          "mean": 0.97038,
+          "tasks": 5
+        },
+        "overall_form_counts": {
+          "Match": 4,
+          "Partial": 0,
+          "Mismatch": 1,
+          "Uncertain": 0
+        },
+        "keyframe_consistency": {
+          "rated": 0,
+          "mean": null
+        }
+      }
+    },
+    "batch2": {
+      "G1": {
+        "videos": 5,
+        "warning": "different cultural evidence protocols; descriptive aggregation only",
+        "fact_yes_rate": {
+          "mean": 0.7,
+          "tasks": 5
+        },
+        "VBench_IQ": {
+          "mean": 74.31970836885513,
+          "tasks": 5
+        },
+        "VBench_SC": {
+          "mean": 0.9718223165205824,
+          "tasks": 5
+        },
+        "overall_form_counts": {
+          "Match": 4,
+          "Partial": 0,
+          "Mismatch": 1,
+          "Uncertain": 0
+        },
+        "keyframe_consistency": {
+          "rated": 0,
+          "mean": null
+        }
+      },
+      "G2": {
+        "videos": 5,
+        "warning": "different cultural evidence protocols; descriptive aggregation only",
+        "fact_yes_rate": {
+          "mean": 0.75,
+          "tasks": 5
+        },
+        "VBench_IQ": {
+          "mean": 71.39184535241895,
+          "tasks": 5
+        },
+        "VBench_SC": {
+          "mean": 0.9634249700763361,
+          "tasks": 5
+        },
+        "overall_form_counts": {
+          "Match": 4,
+          "Partial": 0,
+          "Mismatch": 1,
+          "Uncertain": 0
+        },
+        "keyframe_consistency": {
+          "rated": 0,
+          "mean": null
+        }
+      },
+      "G3": {
+        "videos": 5,
+        "warning": "different cultural evidence protocols; descriptive aggregation only",
+        "fact_yes_rate": {
+          "mean": 0.95,
+          "tasks": 5
+        },
+        "VBench_IQ": {
+          "mean": 75.01879362906179,
+          "tasks": 5
+        },
+        "VBench_SC": {
+          "mean": 0.964838752077847,
+          "tasks": 5
+        },
+        "overall_form_counts": {
+          "Match": 4,
+          "Partial": 0,
+          "Mismatch": 1,
+          "Uncertain": 0
+        },
+        "keyframe_consistency": {
+          "rated": 0,
+          "mean": null
+        }
+      },
+      "G4": {
+        "videos": 5,
+        "warning": "different cultural evidence protocols; descriptive aggregation only",
+        "fact_yes_rate": {
+          "mean": 1.0,
+          "tasks": 5
+        },
+        "VBench_IQ": {
+          "mean": 76.19367702853296,
+          "tasks": 5
+        },
+        "VBench_SC": {
+          "mean": 0.9621593209786143,
+          "tasks": 5
+        },
+        "overall_form_counts": {
+          "Match": 5,
+          "Partial": 0,
+          "Mismatch": 0,
+          "Uncertain": 0
+        },
+        "keyframe_consistency": {
+          "rated": 0,
+          "mean": null
+        }
+      }
+    },
+    "combined": {
+      "G1": {
+        "videos": 10,
+        "warning": "different cultural evidence protocols; descriptive aggregation only",
+        "fact_yes_rate": {
+          "mean": 0.6388888888888888,
+          "tasks": 9
+        },
+        "VBench_IQ": {
+          "mean": 76.32775418442756,
+          "tasks": 10
+        },
+        "VBench_SC": {
+          "mean": 0.9738811582602912,
+          "tasks": 10
+        },
+        "overall_form_counts": {
+          "Match": 6,
+          "Partial": 0,
+          "Mismatch": 4,
+          "Uncertain": 0
+        },
+        "keyframe_consistency": {
+          "rated": 0,
+          "mean": null
+        }
+      },
+      "G2": {
+        "videos": 10,
+        "warning": "different cultural evidence protocols; descriptive aggregation only",
+        "fact_yes_rate": {
+          "mean": 0.7777777777777778,
+          "tasks": 9
+        },
+        "VBench_IQ": {
+          "mean": 72.18439267620948,
+          "tasks": 10
+        },
+        "VBench_SC": {
+          "mean": 0.924772485038168,
+          "tasks": 10
+        },
+        "overall_form_counts": {
+          "Match": 5,
+          "Partial": 0,
+          "Mismatch": 5,
+          "Uncertain": 0
+        },
+        "keyframe_consistency": {
+          "rated": 0,
+          "mean": null
+        }
+      },
+      "G3": {
+        "videos": 10,
+        "warning": "different cultural evidence protocols; descriptive aggregation only",
+        "fact_yes_rate": {
+          "mean": 0.9444444444444444,
+          "tasks": 9
+        },
+        "VBench_IQ": {
+          "mean": 76.14774681453089,
+          "tasks": 10
+        },
+        "VBench_SC": {
+          "mean": 0.9730593760389236,
+          "tasks": 10
+        },
+        "overall_form_counts": {
+          "Match": 8,
+          "Partial": 0,
+          "Mismatch": 2,
+          "Uncertain": 0
+        },
+        "keyframe_consistency": {
+          "rated": 0,
+          "mean": null
+        }
+      },
+      "G4": {
+        "videos": 10,
+        "warning": "different cultural evidence protocols; descriptive aggregation only",
+        "fact_yes_rate": {
+          "mean": 0.9722222222222222,
+          "tasks": 9
+        },
+        "VBench_IQ": {
+          "mean": 76.75812851426647,
+          "tasks": 10
+        },
+        "VBench_SC": {
+          "mean": 0.9662696604893072,
+          "tasks": 10
+        },
+        "overall_form_counts": {
+          "Match": 9,
+          "Partial": 0,
+          "Mismatch": 1,
+          "Uncertain": 0
+        },
+        "keyframe_consistency": {
+          "rated": 0,
+          "mean": null
+        }
+      }
+    }
+  },
+  "human_batch1": "20 supplied human video reviews imported 2026-11-25",
+  "human_batch2": {
+    "G1": {
+      "tasks": 5,
+      "fact_yes_rate": 0.4,
+      "fact_answer_counts": {
+        "Yes": 8,
+        "No": 11,
+        "Uncertain": 1
+      },
+      "overall_form_counts": {
+        "Mismatch": 5
+      },
+      "camera_CMA_yes_rate": 0.6,
+      "conditions_TWA_yes_rate": 1.0,
+      "repeat_sd": null
+    },
+    "G2": {
+      "tasks": 5,
+      "fact_yes_rate": 0.5,
+      "fact_answer_counts": {
+        "Yes": 10,
+        "No": 9,
+        "Uncertain": 1
+      },
+      "overall_form_counts": {
+        "Mismatch": 5
+      },
+      "camera_CMA_yes_rate": 0.6,
+      "conditions_TWA_yes_rate": 1.0,
+      "repeat_sd": null
+    },
+    "G3": {
+      "tasks": 5,
+      "fact_yes_rate": 0.85,
+      "fact_answer_counts": {
+        "Yes": 17,
+        "Uncertain": 1,
+        "No": 2
+      },
+      "overall_form_counts": {
+        "Match": 2,
+        "Mismatch": 2,
+        "Partial": 1
+      },
+      "camera_CMA_yes_rate": 1.0,
+      "conditions_TWA_yes_rate": 1.0,
+      "repeat_sd": null
+    },
+    "G4": {
+      "tasks": 5,
+      "fact_yes_rate": 0.9,
+      "fact_answer_counts": {
+        "Yes": 18,
+        "Uncertain": 1,
+        "No": 1
+      },
+      "overall_form_counts": {
+        "Match": 2,
+        "Mismatch": 1,
+        "Partial": 2
+      },
+      "camera_CMA_yes_rate": 1.0,
+      "conditions_TWA_yes_rate": 1.0,
+      "repeat_sd": null
+    }
+  },
+  "keyframe_consistency_definition": {
+    "answers": [
+      "Match",
+      "Partial",
+      "Mismatch",
+      "Uncertain"
+    ],
+    "criteria": "Compare source/generated keyframes for subject silhouette, component spatial relations, scene layout and framing/viewpoint. Ignore pixel identity and style-only differences. Assess camera movement only from video.",
+    "separate_from": "overall cultural form; no reuse of prior scores"
+  },
+  "repeat_count": 1,
+  "human_combined": {
+    "G1": {
+      "tasks": 10,
+      "fact_yes_rate": 0.35,
+      "overall_form_counts": {
+        "Mismatch": 10
+      },
+      "camera_CMA_yes_rate": 0.6,
+      "conditions_TWA_yes_rate": 0.9
+    },
+    "G2": {
+      "tasks": 10,
+      "fact_yes_rate": 0.475,
+      "overall_form_counts": {
+        "Mismatch": 8,
+        "Partial": 2
+      },
+      "camera_CMA_yes_rate": 0.8,
+      "conditions_TWA_yes_rate": 0.9
+    },
+    "G3": {
+      "tasks": 10,
+      "fact_yes_rate": 0.875,
+      "overall_form_counts": {
+        "Match": 4,
+        "Mismatch": 3,
+        "Partial": 3
+      },
+      "camera_CMA_yes_rate": 0.9,
+      "conditions_TWA_yes_rate": 0.9
+    },
+    "G4": {
+      "tasks": 10,
+      "fact_yes_rate": 0.95,
+      "overall_form_counts": {
+        "Match": 5,
+        "Partial": 4,
+        "Mismatch": 1
+      },
+      "camera_CMA_yes_rate": 0.9,
+      "conditions_TWA_yes_rate": 1.0
+    }
+  },
+  "independent_keyframe_consistency": {
+    "scope": "batch2 existing original pairs only",
+    "groups": {
+      "G1": {
+        "rated": 5,
+        "counts": {
+          "Match": 2,
+          "Mismatch": 2,
+          "Partial": 1,
+          "Uncertain": 0
+        }
+      },
+      "G2": {
+        "rated": 5,
+        "counts": {
+          "Match": 1,
+          "Mismatch": 3,
+          "Partial": 1,
+          "Uncertain": 0
+        }
+      },
+      "G3": {
+        "rated": 5,
+        "counts": {
+          "Match": 4,
+          "Mismatch": 1,
+          "Partial": 0,
+          "Uncertain": 0
+        }
+      },
+      "G4": {
+        "rated": 5,
+        "counts": {
+          "Match": 4,
+          "Mismatch": 0,
+          "Partial": 1,
+          "Uncertain": 0
+        }
+      }
+    },
+    "missing_batch1": 20,
+    "rubric_version": "semantic_v2",
+    "rubric_revision": "User requested revised semantic criterion after inspecting strict_v1 results; all 20 pairs rerated uniformly",
+    "strict_v1_archive": "history/keyframe_strict_v1/keyframe_consistency_ratings.csv",
+    "criteria": "Correct main subject and core form/scene effect sufficient for Match; viewpoint/composition/scale/background/lighting differences alone do not downgrade"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "video_id": "故宫",
+  "gt_symbols": [
+    "故宫"
+  ],
+  "gt_symbol_ids": [
+    "BJ_GUDU_001"
+  ],
+  "gt_dimension_code": "ANCIENT",
+  "kb_coverage": true,
+  "mode": "free",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为太和殿、红墙黄瓦。",
+  "pred_dimension": "古城与历史文化",
+  "unknown_symbol": false,
+  "symbol_correct": false,
+  "dimension_correct": true,
+  "topk_candidates": [],
+  "recall_at_5": null,
+  "seconds": 82.77,
+  "error_type": "entity_confusion_or_generation",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/traces/故宫/free/trace.json"
+}

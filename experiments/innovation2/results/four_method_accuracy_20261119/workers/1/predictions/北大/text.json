@@ -1,0 +1,37 @@
+{
+  "video_id": "北大",
+  "gt_symbols": [
+    "北京大学"
+  ],
+  "gt_symbol_ids": [
+    "BJ_INNOV_006"
+  ],
+  "gt_dimension_code": "TECH",
+  "kb_coverage": true,
+  "mode": "text",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为[宝塔]。",
+  "pred_dimension": "古城与历史文化",
+  "unknown_symbol": false,
+  "symbol_correct": false,
+  "dimension_correct": false,
+  "topk_candidates": [
+    {
+      "symbol_id": "CN_MODERN_001",
+      "canonical_name": "杭州西湖文化景观",
+      "cultural_dimension": "现代城市与国际文化",
+      "dimension_code": "MODERN",
+      "score": 1.0,
+      "reason": "关键词/别名命中：湖面",
+      "image_score": 0.0,
+      "text_score": 1.0,
+      "fusion_score": 1.0,
+      "ranking_score": null,
+      "retrieval_evidence": {}
+    }
+  ],
+  "recall_at_5": false,
+  "seconds": 48.76,
+  "error_type": "retrieval_miss",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/1/traces/北大/text/trace.json"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_INNOV_009",
+    "canonical_name": "国家会议中心",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.89111328125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8911,
+    "text_score": 0.0,
+    "fusion_score": 0.8911
+  },
+  {
+    "symbol_id": "BJ_INNOV_008",
+    "canonical_name": "未来科学城",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.856201171875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8562,
+    "text_score": 0.0,
+    "fusion_score": 0.8562
+  },
+  {
+    "symbol_id": "BJ_RED_005",
+    "canonical_name": "宛平城",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.85595703125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.856,
+    "text_score": 0.0,
+    "fusion_score": 0.856
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_024",
+    "canonical_name": "乐山大佛",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.855224609375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8552,
+    "text_score": 0.0,
+    "fusion_score": 0.8552
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_023",
+    "canonical_name": "峨眉山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.855224609375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8552,
+    "text_score": 0.0,
+    "fusion_score": 0.8552
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "scene_description_raw": "{\"scene\":\"现代玻璃幕墙建筑入口，光线明亮，建筑外观简洁，玻璃反射出外部环境\",\"subject\":\"建筑入口处的标牌\",\"visible_features\":[\"玻璃幕墙建筑，金属框架，白色立体文字标牌\"],\"background\":[\"玻璃幕墙，建筑入口，反射的天空和树木\"],\"readable_text\":[{\"text\":\"中关村国际创新中心\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.2,0.2,0.9,0.5]}],\"uncertain_entities\":[]}",
+  "scene_description": "现代玻璃幕墙建筑入口，光线明亮，建筑外观简洁，玻璃反射出外部环境\n建筑入口处的标牌\n玻璃幕墙建筑，金属框架，白色立体文字标牌",
+  "scene_evidence_version": "structured_v1",
+  "structured_scene": {
+    "scene": "现代玻璃幕墙建筑入口，光线明亮，建筑外观简洁，玻璃反射出外部环境",
+    "subject": "建筑入口处的标牌",
+    "visible_features": [
+      "玻璃幕墙建筑，金属框架，白色立体文字标牌"
+    ],
+    "background": [
+      "玻璃幕墙，建筑入口，反射的天空和树木"
+    ],
+    "readable_text": [
+      {
+        "text": "中关村国际创新中心",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.2,
+          0.2,
+          0.9,
+          0.5
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "partial_failure",
+    "calls": 1,
+    "items": [],
+    "attempts": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.2,
+          0.2,
+          0.9,
+          0.5
+        ],
+        "index": 0,
+        "frame_index": 168,
+        "pixel_bbox": [
+          737,
+          388,
+          3768,
+          1123
+        ],
+        "images": [
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/中关村国际创新中心/B/text_evidence/region_0_crop.jpg",
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/中关村国际创新中心/B/text_evidence/region_0_context.jpg"
+        ],
+        "raw_response": "{\"text\":\"中关村国际创新中\nAL INNOVATION CEN\",\"legibility\":\"partial\"}",
+        "error": "Invalid control character at: line 1 column 18 (char 17)"
+      }
+    ]
+  }
+}

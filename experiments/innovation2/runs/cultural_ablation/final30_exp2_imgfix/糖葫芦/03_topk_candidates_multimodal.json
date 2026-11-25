@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_JINGWEI_003",
+    "canonical_name": "京剧",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.40234375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8047,
+    "text_score": 0.0,
+    "fusion_score": 0.4023
+  },
+  {
+    "symbol_id": "BJ_GUDU_005",
+    "canonical_name": "钟鼓楼",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.3990478515625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.7981,
+    "text_score": 0.0,
+    "fusion_score": 0.399
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_002",
+    "canonical_name": "平遥古城",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.3983154296875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.7966,
+    "text_score": 0.0,
+    "fusion_score": 0.3983
+  },
+  {
+    "symbol_id": "BJ_RED_005",
+    "canonical_name": "宛平城",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.3953857421875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.7908,
+    "text_score": 0.0,
+    "fusion_score": 0.3954
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_021",
+    "canonical_name": "泰山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.3953857421875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.7908,
+    "text_score": 0.0,
+    "fusion_score": 0.3954
+  }
+]

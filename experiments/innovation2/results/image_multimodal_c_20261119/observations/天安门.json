@@ -1,0 +1,53 @@
+{
+  "scene_description_raw": "{\"scene\":\"室外，晴朗天气，蓝天白云下，一座传统中式建筑，建筑前有红色墙体和绿色植被\",\"subject\":\"一座传统中式建筑，建筑前有红色墙体和绿色植被\",\"visible_features\":[\"红色墙体，传统中式建筑，橙色屋顶，红色旗帜，绿色植被，墙体上的文字和画像\"],\"background\":[\"蓝天白云，绿色树木\"],\"readable_text\":[{\"text\":\"中华人民共和国万岁\",\"legibility\":\"clear\"},{\"text\":\"世界人民大团结万岁\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.35,0.538,0.547,0.608]},{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.642,0.587,0.737,0.625]}],\"uncertain_entities\":[]}",
+  "scene_description": "室外，晴朗天气，蓝天白云下，一座传统中式建筑，建筑前有红色墙体和绿色植被\n一座传统中式建筑，建筑前有红色墙体和绿色植被\n红色墙体，传统中式建筑，橙色屋顶，红色旗帜，绿色植被，墙体上的文字和画像\n可读文字：中华人民共和国万岁\n可读文字：世界人民大团结万岁",
+  "structured_scene": {
+    "scene": "室外，晴朗天气，蓝天白云下，一座传统中式建筑，建筑前有红色墙体和绿色植被",
+    "subject": "一座传统中式建筑，建筑前有红色墙体和绿色植被",
+    "visible_features": [
+      "红色墙体，传统中式建筑，橙色屋顶，红色旗帜，绿色植被，墙体上的文字和画像"
+    ],
+    "background": [
+      "蓝天白云，绿色树木"
+    ],
+    "readable_text": [
+      {
+        "text": "中华人民共和国万岁",
+        "legibility": "clear"
+      },
+      {
+        "text": "世界人民大团结万岁",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.35,
+          0.538,
+          0.547,
+          0.608
+        ]
+      },
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.642,
+          0.587,
+          0.737,
+          0.625
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

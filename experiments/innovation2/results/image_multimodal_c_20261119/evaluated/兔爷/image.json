@@ -1,0 +1,67 @@
+{
+  "video_id": "兔爷",
+  "mode": "image",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "兔儿爷"
+  ],
+  "reference_ids": [
+    "BJ_JINGWEI_004"
+  ],
+  "predicted_names": [
+    "兔爷",
+    "红色对联"
+  ],
+  "predicted_ids": [
+    "BJ_JINGWEI_004",
+    "UNRESOLVED:红色对联"
+  ],
+  "main_correct": true,
+  "strict_correct": false,
+  "reference_extra_entities": [
+    "UNRESOLVED:红色对联"
+  ],
+  "tp": 1,
+  "fp": 1,
+  "fn": 0,
+  "predicted_categories": [
+    "FOLK"
+  ],
+  "reference_categories": [
+    "FOLK"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": false,
+  "candidate_ids": [
+    "BJ_GUDU_002",
+    "BJ_JINGWEI_001",
+    "BJ_INNOV_006"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于民族与民俗文化。\n核心符号：兔爷（传统民俗手工艺品）、红色对联（民俗装饰）。\n价值指向：画面中可见一位工匠正在制作或装饰类似“兔爷”的传统手工艺品，背景中摆放着大量色彩鲜艳的兔爷成品，这些是典型的中国民间手工艺品，与中秋节等民俗活动相关。背景墙上悬挂着红色对联，这是中国传统文化中常见的装饰元素，用于祈福或营造节日氛围。这些元素共同指向民族与民俗文化。</think>",
+  "c_layer_natural_language": "：该场景隶属于民族与民俗文化。\n核心符号：兔爷（传统民俗手工艺品）、红色对联（民俗装饰）。\n价值指向：画面中可见一位工匠正在制作或装饰类似“兔爷”的传统手工艺品，背景中摆放着大量色彩鲜艳的兔爷成品，这些是典型的中国民间手工艺品，与中秋节等民俗活动相关。背景墙上悬挂着红色对联，这是中国传统文化中常见的装饰元素，用于祈福或营造节日氛围。这些元素共同指向民族与民俗文化。</think>",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/兔爷/image.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:52:10.728007+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于民族与民俗文化。\n核心符号：兔爷（传统民俗手工艺品）、红色对联（民俗装饰）。\n价值指向：画面中可见一位工匠正在制作或装饰类似“兔爷”的传统手工艺品，背景中摆放着大量色彩鲜艳的兔爷成品，这些是典型的中国民间手工艺品，与中秋节等民俗活动相关。背景墙上悬挂着红色对联，这是中国传统文化中常见的装饰元素，用于祈福或营造节日氛围。这些元素共同指向民族与民俗文化。</think>",
+      "response_model": "glm-4v",
+      "response_id": "202611191652101fc10422145c40e4",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=22233, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=115, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=22348)",
+      "seconds": 41.21343660354614
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

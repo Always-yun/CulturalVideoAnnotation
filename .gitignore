@@ -58,3 +58,16 @@ data/*.mkv
 # OS
 .DS_Store
 Thumbs.db
+
+# --- Git 备份策略（2026-11-25）：保留实验结果，排除可重生成的中间产物 ---
+# 历史归档 / 原始素材（体积大）
+archives/
+data/中关村/
+data/test/
+# 视频与关键帧缓存
+experiments/innovation1/videos/
+experiments/innovation2/data/videos/
+experiments/innovation2/cache/
+**/keyframes/
+# 四方法实验的 API 输入快照（base64 图片，可由脚本重建）
+experiments/innovation2/results/four_method_accuracy_20261119/api_inputs/

@@ -1,0 +1,15 @@
+﻿method,gate,scope,mode,known_acc,hard_unknown_reject,easy_unknown_reject,false_reject,hallucination
+Existing Gate,existing_gate,all_modes,,0.7556,0.1333,0.8,0.1481,0.1032
+Existing Gate @ Free,existing_gate,per_mode,free,0.8519,0.0,0.0,0.0,0.2258
+Existing Gate @ Text,existing_gate,per_mode,text,0.7778,0.0,1.0,0.1852,0.0968
+Existing Gate @ Image,existing_gate,per_mode,image,0.7407,0.0,1.0,0.1481,0.129
+Existing Gate @ Multimodal,existing_gate,per_mode,multimodal,0.7037,0.0,1.0,0.1852,0.0645
+Existing Gate @ Multimodal Controlled,existing_gate,per_mode,multimodal_controlled,0.7037,0.6667,1.0,0.2222,0.0
+Existing Gate (KB modes only),existing_gate,kb_modes_only,,0.7315,0.1667,1.0,0.1852,0.0726
++ Identity Evidence Gate,identity_gate,all_modes,,0.5556,0.4667,0.8,0.3704,0.071
++ Identity Evidence Gate @ Free,identity_gate,per_mode,free,0.8519,0.0,0.0,0.0,0.2258
++ Identity Evidence Gate @ Text,identity_gate,per_mode,text,0.5926,0.3333,1.0,0.3704,0.0645
++ Identity Evidence Gate @ Image,identity_gate,per_mode,image,0.1852,1.0,1.0,0.7407,0.0
++ Identity Evidence Gate @ Multimodal,identity_gate,per_mode,multimodal,0.5556,0.3333,1.0,0.3704,0.0645
++ Identity Evidence Gate @ Multimodal Controlled,identity_gate,per_mode,multimodal_controlled,0.5926,0.6667,1.0,0.3704,0.0
++ Identity Evidence Gate (KB modes only),identity_gate,kb_modes_only,,0.4815,0.5833,1.0,0.463,0.0323

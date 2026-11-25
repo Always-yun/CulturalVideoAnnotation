@@ -1,0 +1,67 @@
+[
+  {
+    "symbol_id": "BJ_INNOV_002",
+    "canonical_name": "中关村科学城",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.4388427734375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8777,
+    "text_score": 0.0,
+    "fusion_score": 0.4388,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN_MODERN_001",
+    "canonical_name": "杭州西湖文化景观",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.4320068359375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.864,
+    "text_score": 0.0,
+    "fusion_score": 0.432,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_INNOV_001",
+    "canonical_name": "中关村",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.4315185546875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.863,
+    "text_score": 0.0,
+    "fusion_score": 0.4315,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_015",
+    "canonical_name": "颐和园",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.424560546875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8491,
+    "text_score": 0.0,
+    "fusion_score": 0.4246,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.42431640625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8486,
+    "text_score": 0.0,
+    "fusion_score": 0.4243,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  }
+]

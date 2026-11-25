@@ -1,0 +1,63 @@
+{
+  "video_id": "人民英雄纪念碑1",
+  "mode": "multimodal",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "人民英雄纪念碑"
+  ],
+  "reference_ids": [
+    "BJ_RED_003"
+  ],
+  "predicted_names": [
+    "人民英雄纪念碑"
+  ],
+  "predicted_ids": [
+    "BJ_RED_003"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "RED"
+  ],
+  "reference_categories": [
+    "RED"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": true,
+  "candidate_ids": [
+    "BJ_RED_003",
+    "BJ_RED_002",
+    "BJ_INNOV_007"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化。\n核心符号：人民英雄纪念碑\n价值指向：画面中央可见一座高大的纪念碑，碑身正面有鎏金大字，基座为两层须弥座，下层四周有汉白玉浮雕，这些特征与人民英雄纪念碑的视觉特征相符。该纪念碑是纪念1840年以来为国牺牲的人民英雄，象征革命精神与国家记忆，属于红色文化范畴。背景中可见广场及建筑，结合纪念碑的标志性特征，可确认其文化身份。",
+  "c_layer_natural_language": "：该场景隶属于红色文化。\n核心符号：人民英雄纪念碑\n价值指向：画面中央可见一座高大的纪念碑，碑身正面有鎏金大字，基座为两层须弥座，下层四周有汉白玉浮雕，这些特征与人民英雄纪念碑的视觉特征相符。该纪念碑是纪念1840年以来为国牺牲的人民英雄，象征革命精神与国家记忆，属于红色文化范畴。背景中可见广场及建筑，结合纪念碑的标志性特征，可确认其文化身份。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/人民英雄纪念碑1/multimodal.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:51:09.247815+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化。\n核心符号：人民英雄纪念碑\n价值指向：画面中央可见一座高大的纪念碑，碑身正面有鎏金大字，基座为两层须弥座，下层四周有汉白玉浮雕，这些特征与人民英雄纪念碑的视觉特征相符。该纪念碑是纪念1840年以来为国牺牲的人民英雄，象征革命精神与国家记忆，属于红色文化范畴。背景中可见广场及建筑，结合纪念碑的标志性特征，可确认其文化身份。",
+      "response_model": "glm-4v",
+      "response_id": "202611191651093b5837e74b734d19",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=72765, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=115, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=72880)",
+      "seconds": 63.91741347312927
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

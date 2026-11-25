@@ -1,0 +1,23 @@
+{
+  "video_id": "胡同1",
+  "gt_symbols": [
+    "胡同"
+  ],
+  "gt_symbol_ids": [
+    "BJ_JINGWEI_001"
+  ],
+  "gt_dimension_code": "FOLK",
+  "kb_coverage": true,
+  "mode": "free",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为胡同。",
+  "pred_dimension": "民族与民俗文化",
+  "unknown_symbol": false,
+  "symbol_correct": true,
+  "dimension_correct": true,
+  "topk_candidates": [],
+  "recall_at_5": null,
+  "seconds": 43.12,
+  "error_type": "",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/traces/胡同1/free/trace.json"
+}

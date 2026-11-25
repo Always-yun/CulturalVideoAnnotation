@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.941650390625,
+    "reason": "关键词/别名命中：太和殿",
+    "image_score": 0.9417,
+    "text_score": 0.6667,
+    "fusion_score": 0.9417
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_002",
+    "canonical_name": "平遥古城",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.93310546875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9331,
+    "text_score": 0.0,
+    "fusion_score": 0.9331
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_008",
+    "canonical_name": "明清皇家陵寝",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.931396484375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9314,
+    "text_score": 0.0,
+    "fusion_score": 0.9314
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_015",
+    "canonical_name": "颐和园",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.911865234375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9119,
+    "text_score": 0.0,
+    "fusion_score": 0.9119
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_012",
+    "canonical_name": "承德避暑山庄及其周围寺庙",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.9091796875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9092,
+    "text_score": 0.0,
+    "fusion_score": 0.9092
+  }
+]

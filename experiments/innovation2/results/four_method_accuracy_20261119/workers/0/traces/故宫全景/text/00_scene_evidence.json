@@ -1,0 +1,39 @@
+{
+  "scene_description_raw": "{\"scene\":\"晴朗天气下，从高处俯瞰的广阔传统建筑群，建筑群以红墙黄瓦为主，前方有开阔广场和停放的车辆，远处可见现代城市天际线\",\"subject\":\"传统建筑群及前方广场\",\"visible_features\":[\"大量红墙黄瓦的传统建筑屋顶，建筑群前方有红色墙体和白色牌匾，广场上停放着多排车辆\"],\"background\":[\"蓝天白云，远处现代城市建筑\"],\"readable_text\":[{\"text\":\"故宫博物院\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"匾额\",\"time_ratio\":0.5,\"bbox\":[0.479,0.785,0.521,0.812]}],\"uncertain_entities\":[]}",
+  "scene_description": "晴朗天气下，从高处俯瞰的广阔传统建筑群，建筑群以红墙黄瓦为主，前方有开阔广场和停放的车辆，远处可见现代城市天际线\n传统建筑群及前方广场\n大量红墙黄瓦的传统建筑屋顶，建筑群前方有红色墙体和白色牌匾，广场上停放着多排车辆\n可读文字：故宫博物院",
+  "structured_scene": {
+    "scene": "晴朗天气下，从高处俯瞰的广阔传统建筑群，建筑群以红墙黄瓦为主，前方有开阔广场和停放的车辆，远处可见现代城市天际线",
+    "subject": "传统建筑群及前方广场",
+    "visible_features": [
+      "大量红墙黄瓦的传统建筑屋顶，建筑群前方有红色墙体和白色牌匾，广场上停放着多排车辆"
+    ],
+    "background": [
+      "蓝天白云，远处现代城市建筑"
+    ],
+    "readable_text": [
+      {
+        "text": "故宫博物院",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "匾额",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.479,
+          0.785,
+          0.521,
+          0.812
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

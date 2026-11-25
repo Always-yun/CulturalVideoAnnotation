@@ -1,0 +1,67 @@
+[
+  {
+    "symbol_id": "BJ_RED_002",
+    "canonical_name": "天安门广场",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.923828125,
+    "reason": "关键词/别名命中：广场",
+    "image_score": 0.8477,
+    "text_score": 1.0,
+    "fusion_score": 0.9238,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_002",
+    "canonical_name": "平遥古城",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.437255859375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8745,
+    "text_score": 0.0,
+    "fusion_score": 0.4373,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.429443359375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8589,
+    "text_score": 0.0,
+    "fusion_score": 0.4294,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_021",
+    "canonical_name": "泰山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.427978515625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.856,
+    "text_score": 0.0,
+    "fusion_score": 0.428,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_015",
+    "canonical_name": "颐和园",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4254150390625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8508,
+    "text_score": 0.0,
+    "fusion_score": 0.4254,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  }
+]

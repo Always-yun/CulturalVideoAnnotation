@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:37:07.854742+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于现代城市与国际文化。\n核心符号：中国尊（北京中信大厦）、CBD建筑群、空中飞行表演（红蓝烟雾）、城市道路与河流景观。\n价值指向：可见视觉依据为画面中具有标志性形态的摩天大楼（如中国尊）、密集的现代化建筑群、城市主干道及河流景观，以及空中飞机喷射红蓝烟雾的飞行表演；文化内涵体现为现代城市建设的成就与国际化风貌，飞行表演可能关联特定城市活动或庆典；不确定之处为飞行表演的具体文化属性（如是否为特定节庆或仪式），以及部分建筑的具体功能定位需进一步确认。",
+  "response_model": "glm-4v",
+  "response_id": "20261119163708e54fdc49e21743f2",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=1943, prompt_tokens_details=PromptTokensDetails(cached_tokens=5), completion_tokens=141, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=2084)",
+  "seconds": 4.841865301132202
+}

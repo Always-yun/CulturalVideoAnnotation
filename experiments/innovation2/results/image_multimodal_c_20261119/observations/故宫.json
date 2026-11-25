@@ -1,0 +1,23 @@
+{
+  "scene_description_raw": "{\"scene\":\"室外，白天，光线明亮，天空晴朗\",\"subject\":\"从廊下向远处宫殿建筑拍摄\",\"visible_features\":[\"红色立柱，深色屋顶，白色石栏杆，红色墙体，黄色琉璃瓦屋顶，石质台阶\"],\"background\":[\"远处红墙黄瓦的宫殿建筑，天空\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "scene_description": "室外，白天，光线明亮，天空晴朗\n从廊下向远处宫殿建筑拍摄\n红色立柱，深色屋顶，白色石栏杆，红色墙体，黄色琉璃瓦屋顶，石质台阶",
+  "structured_scene": {
+    "scene": "室外，白天，光线明亮，天空晴朗",
+    "subject": "从廊下向远处宫殿建筑拍摄",
+    "visible_features": [
+      "红色立柱，深色屋顶，白色石栏杆，红色墙体，黄色琉璃瓦屋顶，石质台阶"
+    ],
+    "background": [
+      "远处红墙黄瓦的宫殿建筑，天空"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

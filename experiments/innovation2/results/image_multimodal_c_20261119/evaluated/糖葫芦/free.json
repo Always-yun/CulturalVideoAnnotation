@@ -1,0 +1,49 @@
+{
+  "video_id": "糖葫芦",
+  "mode": "free",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "冰糖葫芦"
+  ],
+  "reference_ids": [
+    "OUTSIDE_KB:冰糖葫芦"
+  ],
+  "predicted_names": [
+    "冰糖葫芦"
+  ],
+  "predicted_ids": [
+    "OUTSIDE_KB:冰糖葫芦"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "FOLK"
+  ],
+  "reference_categories": [
+    "FOLK"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": null,
+  "candidate_ids": [],
+  "raw_reply": "【EMCAST 视频标注结果】\n\n【E｜场景环境层】：视频构建了一个城市街道的物理环境。此时处于日落时分，天气晴朗。整体场景呈现出温暖、宁静的感官基调。\n\n【M｜主体行为层】：视觉焦点包含承载主体：[画面中未出现可明确识别为独立核心建筑的结构，主要元素为街道、交通信号灯杆等非建筑性设施，故不标注建筑主体]\n文字符号：[\"冰糖葫芦儿\", \"Bingtanghulu\"]\n\n【C｜文化维度层】：该场景隶属于[民族与民俗文化]。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为[冰糖葫芦]。\n价值指向：冰糖葫芦是中国传统街头小吃，由山楂等水果裹上糖衣制成，是冬季常见的零食，象征着传统民俗文化和市井生活。\n\n【A｜视听语言层】\n镜头语法：镜头为固定机位。状态稳定，节奏慢，以中景为主，景深浅，视觉重心位于画面中央的冰糖葫芦摊位。\n播放速度效果：正常速度\n构图遵循三分法，光影特征呈现为黄金时刻，视觉色彩倾向于暖调。\n\n【S｜整体叙事层】：视频以固定机位拍摄，聚焦于黄昏时分城市街道旁的冰糖葫芦摊贩。摊贩站在摊位旁，背景是车流和交通信号灯，整体氛围宁静而温暖，展现了传统民俗文化在现代城市中的存在。\n\n【T｜技术属性层】\n分辨率：1920x1080；实际帧率：29.88 FPS；标称帧率：29.97 FPS；画幅：16:9；动态范围：SDR；色彩空间/像素格式：yuv420p；采样方式：4:2:0；编码格式：h264；码率：1006734；视频时长：6.285s。\n",
+  "c_layer_natural_language": "：该场景隶属于[民族与民俗文化]。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为[冰糖葫芦]。\n价值指向：冰糖葫芦是中国传统街头小吃，由山楂等水果裹上糖衣制成，是冬季常见的零食，象征着传统民俗文化和市井生活。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/four_method_accuracy_20261119/results.json",
+  "attempts": [],
+  "raw_available": true,
+  "full_c_available": true,
+  "original_trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/糖葫芦/free/trace.json",
+  "historical_model_config_path": "experiments/innovation2/results/four_method_accuracy_20261119/model_config.json"
+}

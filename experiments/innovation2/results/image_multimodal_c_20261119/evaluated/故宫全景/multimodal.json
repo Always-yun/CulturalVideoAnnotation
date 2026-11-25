@@ -1,0 +1,63 @@
+{
+  "video_id": "故宫全景",
+  "mode": "multimodal",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "故宫"
+  ],
+  "reference_ids": [
+    "BJ_GUDU_001"
+  ],
+  "predicted_names": [
+    "故宫"
+  ],
+  "predicted_ids": [
+    "BJ_GUDU_001"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "ANCIENT"
+  ],
+  "reference_categories": [
+    "ANCIENT"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": true,
+  "candidate_ids": [
+    "BJ_GUDU_001",
+    "BJ_RED_002",
+    "CN_ANCIENT_003"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：故宫\n价值指向：画面中可见红墙黄琉璃瓦、重檐庑殿顶、中轴对称布局的庞大古建筑群，建筑风格与布局符合明清皇家宫殿特征，结合“故宫博物院”标识，可识别为故宫；其作为明清两代皇家宫殿，是世界现存规模最大、保存最完整的木质结构古建筑群之一，承载着深厚的历史文化内涵。",
+  "c_layer_natural_language": "：该场景隶属于古城与历史文化。\n核心符号：故宫\n价值指向：画面中可见红墙黄琉璃瓦、重檐庑殿顶、中轴对称布局的庞大古建筑群，建筑风格与布局符合明清皇家宫殿特征，结合“故宫博物院”标识，可识别为故宫；其作为明清两代皇家宫殿，是世界现存规模最大、保存最完整的木质结构古建筑群之一，承载着深厚的历史文化内涵。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/故宫全景/multimodal.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:58:21.053130+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：故宫\n价值指向：画面中可见红墙黄琉璃瓦、重檐庑殿顶、中轴对称布局的庞大古建筑群，建筑风格与布局符合明清皇家宫殿特征，结合“故宫博物院”标识，可识别为故宫；其作为明清两代皇家宫殿，是世界现存规模最大、保存最完整的木质结构古建筑群之一，承载着深厚的历史文化内涵。",
+      "response_model": "glm-4v",
+      "response_id": "202611191658214c69cacc725945db",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=73328, prompt_tokens_details=PromptTokensDetails(cached_tokens=65542), completion_tokens=103, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73431)",
+      "seconds": 62.350197315216064
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

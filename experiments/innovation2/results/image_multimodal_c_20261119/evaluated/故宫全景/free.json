@@ -1,0 +1,56 @@
+{
+  "video_id": "故宫全景",
+  "mode": "free",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "故宫"
+  ],
+  "reference_ids": [
+    "BJ_GUDU_001"
+  ],
+  "predicted_names": [
+    "故宫",
+    "红墙黄瓦",
+    "飞檐斗拱"
+  ],
+  "predicted_ids": [
+    "BJ_GUDU_001",
+    "UNRESOLVED:红墙黄瓦",
+    "UNRESOLVED:飞檐斗拱"
+  ],
+  "main_correct": true,
+  "strict_correct": false,
+  "reference_extra_entities": [
+    "UNRESOLVED:红墙黄瓦",
+    "UNRESOLVED:飞檐斗拱"
+  ],
+  "tp": 1,
+  "fp": 2,
+  "fn": 0,
+  "predicted_categories": [
+    "ANCIENT"
+  ],
+  "reference_categories": [
+    "ANCIENT"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": null,
+  "candidate_ids": [],
+  "raw_reply": "【EMCAST 视频标注结果】\n\n【E｜场景环境层】：视频构建了一个故宫博物院（紫禁城）的物理环境。此时处于晴朗白天状态。整体场景呈现出庄严恢弘的感官基调。\n\n【M｜主体行为层】：视觉焦点包含承载主体：故宫博物院（紫禁城）建筑群\n    承载主体外观：画面中央主体建筑呈现出轴对称矩形矩阵形态，外立面材质主要为红墙黄瓦；画面中其余建筑均呈现出飞檐斗拱形态，外立面材质主要为黄琉璃瓦与红墙。\n\n【C｜文化维度层】：该场景隶属于古城与历史文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为故宫（紫禁城）、红墙黄瓦、飞檐斗拱。\n价值指向：故宫作为明清两代皇家宫殿，是中国古代宫廷建筑之精华，其红墙黄瓦、飞檐斗拱等元素象征着皇权与尊贵，承载着深厚的历史文化内涵，是中华文明的重要物质载体与精神象征。\n\n【A｜视听语言层】\n    镜头语法：镜头为固定机位。状态稳定，节奏慢，以全景为主，景深深，视觉重心位于画面中央的故宫建筑群。\n    播放速度效果：延时摄影\n    构图遵循中轴线对称，光影特征呈现为自然漫射光，视觉色彩倾向于暖调。\n\n【S｜整体叙事层】：视频以固定机位全景呈现了故宫博物院（紫禁城）建筑群的宏大景象，通过延时摄影手法捕捉了云层在蓝天背景下缓慢移动的动态过程，突显了故宫建筑群的庄严与历史厚重感，以及其作为世界文化遗产的独特魅力。\n\n【T｜技术属性层】\n分辨率：3840x2160；实际帧率：29.97 FPS；标称帧率：29.97 FPS；画幅：16:9；动态范围：SDR；色彩空间/像素格式：yuv420p；采样方式：4:2:0；编码格式：h264；码率：10089564；视频时长：5.005s。\n",
+  "c_layer_natural_language": "：该场景隶属于古城与历史文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为故宫（紫禁城）、红墙黄瓦、飞檐斗拱。\n价值指向：故宫作为明清两代皇家宫殿，是中国古代宫廷建筑之精华，其红墙黄瓦、飞檐斗拱等元素象征着皇权与尊贵，承载着深厚的历史文化内涵，是中华文明的重要物质载体与精神象征。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/four_method_accuracy_20261119/results.json",
+  "attempts": [],
+  "raw_available": true,
+  "full_c_available": true,
+  "original_trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/故宫全景/free/trace.json",
+  "historical_model_config_path": "experiments/innovation2/results/four_method_accuracy_20261119/model_config.json"
+}

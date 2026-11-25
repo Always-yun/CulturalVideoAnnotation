@@ -1,0 +1,63 @@
+{
+  "video_id": "cbd2",
+  "mode": "multimodal",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "CBD"
+  ],
+  "reference_ids": [
+    "BJ_FASHION_003"
+  ],
+  "predicted_names": [
+    "cbd"
+  ],
+  "predicted_ids": [
+    "BJ_FASHION_003"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "MODERN"
+  ],
+  "reference_categories": [
+    "MODERN"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": true,
+  "candidate_ids": [
+    "BJ_FASHION_003",
+    "BJ_GUDU_001",
+    "CN2_TECH_008"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于现代城市与国际文化。\n核心符号：CBD（中央商务区）\n价值指向：画面中可见大量玻璃幕墙超高层建筑集群，包括具有标志性外形的中国尊（中信大厦）、央视总部大楼（大裤衩）等，以及国贸桥车流，这些是北京CBD的典型视觉特征。CBD作为国际化程度最高的商务中心，聚集跨国公司总部与国际机构，其天际线是城市现代化与国际化的象征。</think>",
+  "c_layer_natural_language": "：该场景隶属于现代城市与国际文化。\n核心符号：CBD（中央商务区）\n价值指向：画面中可见大量玻璃幕墙超高层建筑集群，包括具有标志性外形的中国尊（中信大厦）、央视总部大楼（大裤衩）等，以及国贸桥车流，这些是北京CBD的典型视觉特征。CBD作为国际化程度最高的商务中心，聚集跨国公司总部与国际机构，其天际线是城市现代化与国际化的象征。</think>",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/cbd2/multimodal.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:42:12.611693+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于现代城市与国际文化。\n核心符号：CBD（中央商务区）\n价值指向：画面中可见大量玻璃幕墙超高层建筑集群，包括具有标志性外形的中国尊（中信大厦）、央视总部大楼（大裤衩）等，以及国贸桥车流，这些是北京CBD的典型视觉特征。CBD作为国际化程度最高的商务中心，聚集跨国公司总部与国际机构，其天际线是城市现代化与国际化的象征。</think>",
+      "response_model": "glm-4v",
+      "response_id": "202611191642129fcc2a4181354476",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=74208, prompt_tokens_details=PromptTokensDetails(cached_tokens=73554), completion_tokens=104, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=74312)",
+      "seconds": 46.63104271888733
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

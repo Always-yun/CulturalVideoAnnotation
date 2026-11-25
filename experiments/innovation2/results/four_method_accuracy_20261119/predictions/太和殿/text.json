@@ -1,0 +1,14 @@
+{
+  "video_id": "太和殿",
+  "gt_symbols": [
+    "太和殿"
+  ],
+  "gt_symbol_ids": [
+    "BJ_GUDU_002"
+  ],
+  "gt_dimension_code": "ANCIENT",
+  "kb_coverage": true,
+  "mode": "text",
+  "status": "blocked_runtime",
+  "reason": "基础模型调用受阻：APIConnectionError；详情见api_calls.json"
+}

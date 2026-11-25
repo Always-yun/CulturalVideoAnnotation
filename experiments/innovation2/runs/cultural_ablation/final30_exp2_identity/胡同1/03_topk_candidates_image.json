@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN_ANCIENT_001",
+    "canonical_name": "秦始皇帝陵兵马俑",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6138916015625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6139,
+    "text_score": 0.0,
+    "fusion_score": 0.6139
+  },
+  {
+    "symbol_id": "CN2_TECH_014",
+    "canonical_name": "国际创投集聚区",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6131591796875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6132,
+    "text_score": 0.0,
+    "fusion_score": 0.6132
+  },
+  {
+    "symbol_id": "CN2_TECH_007",
+    "canonical_name": "中关村广场",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6119384765625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6119,
+    "text_score": 0.0,
+    "fusion_score": 0.6119
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_002",
+    "canonical_name": "平遥古城",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.60955810546875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6096,
+    "text_score": 0.0,
+    "fusion_score": 0.6096
+  },
+  {
+    "symbol_id": "BJ_FASHION_005",
+    "canonical_name": "望京",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.60931396484375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6093,
+    "text_score": 0.0,
+    "fusion_score": 0.6093
+  }
+]

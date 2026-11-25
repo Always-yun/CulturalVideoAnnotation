@@ -1,0 +1,23 @@
+{
+  "scene_description_raw": "{\"scene\":\"黄昏时分城市景观，天空呈橙黄色，城市灯光逐渐亮起\",\"subject\":\"城市建筑群及交通\",\"visible_features\":[\"高楼大厦、蜿蜒河流、多层立交桥、车流光轨、远山轮廓\"],\"background\":[\"渐暗的天空、远处的山脉\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "scene_description": "黄昏时分城市景观，天空呈橙黄色，城市灯光逐渐亮起\n城市建筑群及交通\n高楼大厦、蜿蜒河流、多层立交桥、车流光轨、远山轮廓",
+  "structured_scene": {
+    "scene": "黄昏时分城市景观，天空呈橙黄色，城市灯光逐渐亮起",
+    "subject": "城市建筑群及交通",
+    "visible_features": [
+      "高楼大厦、蜿蜒河流、多层立交桥、车流光轨、远山轮廓"
+    ],
+    "background": [
+      "渐暗的天空、远处的山脉"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

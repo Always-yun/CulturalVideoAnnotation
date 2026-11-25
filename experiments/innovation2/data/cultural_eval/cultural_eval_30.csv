@@ -1,0 +1,32 @@
+﻿video_id,video_path,ground_truth_symbol,ground_truth_dimension,kb_covered,sample_type,gt_source,review_status,notes
+cbd,experiments/innovation2/data/videos/cbd.mp4,CBD,MODERN,yes,known,ablation_per_video + 文件名,frozen,
+cbd1,experiments/innovation2/data/videos/cbd1.mp4,CBD,MODERN,yes,known,ablation_per_video + 文件名,frozen,
+cbd2,experiments/innovation2/data/videos/cbd2.mp4,CBD,MODERN,yes,known,ablation_per_video + 文件名,frozen,
+cbd3,experiments/innovation2/data/videos/cbd3.mp4,CBD,MODERN,yes,known,文件名,frozen,
+中关村1号,experiments/innovation2/data/videos/中关村1号.mp4,中关村壹号,TECH,yes,known,ablation_per_video + 文件名,frozen,
+中关村国际创新中心,experiments/innovation2/data/videos/中关村国际创新中心.mp4,中关村国际创新中心,TECH,yes,known,文件名（v2 KB 新增 CN2_TECH_006）,frozen,
+中关村展示中心,experiments/innovation2/data/videos/中关村展示中心.mp4,中关村国家自主创新示范区展示中心,TECH,yes,known,文件名（v2 KB 新增 CN2_TECH_005）,frozen,
+京剧青衣,experiments/innovation2/data/videos/京剧青衣.mp4,京剧,FOLK,yes,known,ablation_per_video + 文件名,frozen,
+人民大会堂,experiments/innovation2/data/videos/人民大会堂.mp4,人民大会堂,ANCIENT,no,hard_unknown,文件名（KB 未收录，需确认）,frozen,Hard Unknown: ANCIENT 维度 KB 有故宫/天安门/天坛等古建筑，同类型同视觉
+人民大会堂1,experiments/innovation2/data/videos/人民大会堂1.mp4,人民大会堂,ANCIENT,no,hard_unknown,文件名（KB 未收录，需确认）,frozen,Hard Unknown: ANCIENT 维度 KB 有故宫/天安门/天坛等古建筑，同类型同视觉
+人民英雄纪念碑,experiments/innovation2/data/videos/人民英雄纪念碑.mp4,人民英雄纪念碑,RED,yes,known,ablation_per_video + 文件名,frozen,
+人民英雄纪念碑1,experiments/innovation2/data/videos/人民英雄纪念碑1.mp4,人民英雄纪念碑,RED,yes,known,ablation_per_video + 文件名,frozen,
+兔爷,experiments/innovation2/data/videos/兔爷.mp4,兔儿爷,FOLK,yes,known,ablation_per_video + 文件名,frozen,
+北大,experiments/innovation2/data/videos/北大.mp4,北京大学,TECH,yes,known,ablation_per_video + 文件名,frozen,
+北大1,experiments/innovation2/data/videos/北大1.mp4,北京大学,TECH,yes,known,ablation_per_video + 文件名,frozen,
+国博,experiments/innovation2/data/videos/国博.mp4,中国国家博物馆,RED,yes,known,文件名（KB 别名 国博 命中 BJ_RED_006）,frozen,
+天安门,experiments/innovation2/data/videos/天安门.mp4,天安门广场,RED,yes,known,文件名（KB 别名 天安门 命中 BJ_RED_002）,frozen,
+天安门1,experiments/innovation2/data/videos/天安门1.mp4,天安门广场,RED,yes,known,ablation_per_video + 文件名,frozen,
+太和殿,experiments/innovation2/data/videos/太和殿.mp4,太和殿,ANCIENT,yes,known,ablation_per_video + 文件名,frozen,
+庙会,experiments/innovation2/data/videos/庙会.mp4,北京庙会,FOLK,yes,known,ablation_per_video + 文件名,frozen,
+故宫,experiments/innovation2/data/videos/故宫.mp4,故宫,ANCIENT,yes,known,文件名,frozen,
+故宫全景,experiments/innovation2/data/videos/故宫全景.mp4,故宫,ANCIENT,yes,known,ablation_per_video + 文件名,frozen,
+未来科学城,experiments/innovation2/data/videos/未来科学城.mp4,未来科学城,TECH,yes,known,ablation_per_video + 文件名,frozen,
+清华,experiments/innovation2/data/videos/清华.mp4,清华大学,TECH,yes,known,文件名（KB 别名 清华 命中 BJ_INNOV_007）,frozen,
+神武门,experiments/innovation2/data/videos/神武门.mp4,神武门,ANCIENT,no,hard_unknown,文件名（KB 未收录但父实体故宫在 KB → Hard Unknown）,frozen,Hard Unknown: 父实体故宫 BJ_GUDU_001 在 KB；同 ANCIENT 有角楼/太和殿/祈年殿
+糖葫芦,experiments/innovation2/data/videos/糖葫芦.mp4,冰糖葫芦,FOLK,no,easy_unknown,文件名（KB 无小吃类符号 → Easy Unknown）,frozen,Easy Unknown: KB 无北京小吃/民俗食品类符号
+胡同,experiments/innovation2/data/videos/胡同.mp4,胡同,FOLK,yes,known,文件名,frozen,
+胡同1,experiments/innovation2/data/videos/胡同1.mp4,胡同,FOLK,yes,known,ablation_per_video + 文件名,frozen,
+角楼,experiments/innovation2/data/videos/角楼.mp4,角楼,ANCIENT,yes,known,文件名,frozen,
+角楼1,experiments/innovation2/data/videos/角楼1.mp4,角楼,ANCIENT,yes,known,ablation_per_video + 文件名,frozen,
+鸟巢,experiments/innovation2/data/videos/鸟巢.mp4,鸟巢,TECH,yes,known,文件名,frozen,

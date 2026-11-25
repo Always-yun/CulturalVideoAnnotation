@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T17:02:26.462343+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：角楼\n价值指向：画面中可见具有典型中国古代建筑风格的角楼，其位于护城河旁，建筑结构复杂，呈现三重檐歇山顶特征，与紫禁城角楼的视觉特征相符，体现了中国古代建筑木构技术的精巧与历史防御建筑的特色。</think>",
+  "response_model": "glm-4v",
+  "response_id": "2026111917022720487b4ddfc34e7c",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73227, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=80, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73307)",
+  "seconds": 70.61564946174622
+}

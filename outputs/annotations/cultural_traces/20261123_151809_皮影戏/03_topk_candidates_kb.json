@@ -1,0 +1,67 @@
+[
+  {
+    "symbol_id": "BJ_JINGWEI_004",
+    "canonical_name": "兔儿爷",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.4210205078125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.842,
+    "text_score": 0.0,
+    "fusion_score": 0.421,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_003",
+    "canonical_name": "京剧",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.41845703125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8369,
+    "text_score": 0.0,
+    "fusion_score": 0.4185,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.412109375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8242,
+    "text_score": 0.0,
+    "fusion_score": 0.4121,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN_ANCIENT_003",
+    "canonical_name": "布达拉宫",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.40966796875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8193,
+    "text_score": 0.0,
+    "fusion_score": 0.4097,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_007",
+    "canonical_name": "北京庙会",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.409423828125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8188,
+    "text_score": 0.0,
+    "fusion_score": 0.4094,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "video_id": "太和殿",
+  "mode": "image",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "太和殿"
+  ],
+  "reference_ids": [
+    "BJ_GUDU_002"
+  ],
+  "predicted_names": [
+    "太和殿"
+  ],
+  "predicted_ids": [
+    "BJ_GUDU_002"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "ANCIENT"
+  ],
+  "reference_categories": [
+    "ANCIENT"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": true,
+  "candidate_ids": [
+    "BJ_GUDU_002",
+    "BJ_INNOV_006",
+    "CN_ANCIENT_003"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：太和殿\n价值指向：画面中可见一座覆雪的古代宫殿建筑，其屋顶为重檐庑殿顶，屋檐下有蓝色匾额，上书“太和殿”三字，建筑外墙有绿色、金色相间的彩画装饰，前方有汉白玉栏杆，栏杆顶部有雪覆盖。结合建筑形制、匾额文字及装饰特征，可识别为太和殿，它是紫禁城等级最高的礼制建筑，具有典型的中国古代皇家建筑文化内涵。",
+  "c_layer_natural_language": "：该场景隶属于古城与历史文化。\n核心符号：太和殿\n价值指向：画面中可见一座覆雪的古代宫殿建筑，其屋顶为重檐庑殿顶，屋檐下有蓝色匾额，上书“太和殿”三字，建筑外墙有绿色、金色相间的彩画装饰，前方有汉白玉栏杆，栏杆顶部有雪覆盖。结合建筑形制、匾额文字及装饰特征，可识别为太和殿，它是紫禁城等级最高的礼制建筑，具有典型的中国古代皇家建筑文化内涵。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/太和殿/image.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:56:03.199340+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：太和殿\n价值指向：画面中可见一座覆雪的古代宫殿建筑，其屋顶为重檐庑殿顶，屋檐下有蓝色匾额，上书“太和殿”三字，建筑外墙有绿色、金色相间的彩画装饰，前方有汉白玉栏杆，栏杆顶部有雪覆盖。结合建筑形制、匾额文字及装饰特征，可识别为太和殿，它是紫禁城等级最高的礼制建筑，具有典型的中国古代皇家建筑文化内涵。",
+      "response_model": "glm-4v",
+      "response_id": "20261119165603c36f72e4c452412e",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=73324, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=128, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73452)",
+      "seconds": 71.86963367462158
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

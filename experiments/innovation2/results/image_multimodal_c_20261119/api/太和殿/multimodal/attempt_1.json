@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:56:03.679954+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：太和殿\n价值指向：画面中可见一座覆雪的古代宫殿建筑，其屋顶为重檐庑殿顶，屋檐下有蓝色匾额，上书“太和殿”三字，建筑外墙有绿色、金色相间的彩画装饰，前方有汉白玉栏杆，栏杆顶部和建筑屋顶均覆盖积雪。结合建筑形制与匾额文字，可识别为太和殿，其作为紫禁城等级最高的礼制建筑，承载着中国古代皇家文化与历史记忆，是典型的古城与历史文化符号。",
+  "response_model": "glm-4v",
+  "response_id": "202611191656043939b81912804720",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73324, prompt_tokens_details=PromptTokensDetails(cached_tokens=67705), completion_tokens=136, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73460)",
+  "seconds": 71.5250916481018
+}

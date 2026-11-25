@@ -1,0 +1,50 @@
+{
+  "video_id": "人民英雄纪念碑1",
+  "gt_symbols": [
+    "人民英雄纪念碑"
+  ],
+  "gt_symbol_ids": [
+    "BJ_RED_003"
+  ],
+  "gt_dimension_code": "RED",
+  "kb_coverage": true,
+  "mode": "text",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为人民英雄纪念碑。",
+  "pred_dimension": "红色文化",
+  "unknown_symbol": false,
+  "symbol_correct": true,
+  "dimension_correct": true,
+  "topk_candidates": [
+    {
+      "symbol_id": "BJ_RED_002",
+      "canonical_name": "天安门广场",
+      "cultural_dimension": "红色文化",
+      "dimension_code": "RED",
+      "score": 3.0,
+      "reason": "关键词/别名命中：广场",
+      "image_score": 0.0,
+      "text_score": 3.0,
+      "fusion_score": 3.0,
+      "ranking_score": null,
+      "retrieval_evidence": {}
+    },
+    {
+      "symbol_id": "BJ_RED_003",
+      "canonical_name": "人民英雄纪念碑",
+      "cultural_dimension": "红色文化",
+      "dimension_code": "RED",
+      "score": 3.0,
+      "reason": "关键词/别名命中：浮雕",
+      "image_score": 0.0,
+      "text_score": 3.0,
+      "fusion_score": 3.0,
+      "ranking_score": null,
+      "retrieval_evidence": {}
+    }
+  ],
+  "recall_at_5": true,
+  "seconds": 93.17,
+  "error_type": "",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/traces/人民英雄纪念碑1/text/trace.json"
+}

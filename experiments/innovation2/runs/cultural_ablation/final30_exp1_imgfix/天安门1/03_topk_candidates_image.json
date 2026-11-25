@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN2_ANCIENT_008",
+    "canonical_name": "明清皇家陵寝",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.927978515625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.928,
+    "text_score": 0.0,
+    "fusion_score": 0.928
+  },
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.92578125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9258,
+    "text_score": 0.0,
+    "fusion_score": 0.9258
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_021",
+    "canonical_name": "泰山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.915771484375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9158,
+    "text_score": 0.0,
+    "fusion_score": 0.9158
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_015",
+    "canonical_name": "颐和园",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.91162109375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9116,
+    "text_score": 0.0,
+    "fusion_score": 0.9116
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_012",
+    "canonical_name": "承德避暑山庄及其周围寺庙",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.90966796875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9097,
+    "text_score": 0.0,
+    "fusion_score": 0.9097
+  }
+]

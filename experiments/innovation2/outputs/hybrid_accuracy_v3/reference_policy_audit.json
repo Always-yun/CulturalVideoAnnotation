@@ -1,0 +1,1350 @@
+{
+  "reference_count": 149,
+  "present_count": 149,
+  "explicitly_disabled": 149,
+  "unreviewed_count": 149,
+  "new_experiment_reference_images_used": 0,
+  "rows": [
+    {
+      "symbol_id": "BJ_GUDU_001",
+      "canonical_name": "故宫",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_GUDU_001/01_b34d3d8edcc7.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_GUDU_002",
+      "canonical_name": "太和殿",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_GUDU_002/01_1b6604cffd46.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_GUDU_003",
+      "canonical_name": "天坛",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_GUDU_003/01_b28778baafe9.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_GUDU_004",
+      "canonical_name": "祈年殿",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_GUDU_004/01_71e4e9ab5eef.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_GUDU_005",
+      "canonical_name": "钟鼓楼",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_GUDU_005/01_0dfbb5f69116.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_GUDU_006",
+      "canonical_name": "北京中轴线",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_GUDU_006/01_1d623ad26352.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_GUDU_007",
+      "canonical_name": "正阳门",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_GUDU_007/01_dd62af22dc5f.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_GUDU_008",
+      "canonical_name": "景山",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_GUDU_008/01_1febd1d59af9.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_GUDU_009",
+      "canonical_name": "什刹海",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_GUDU_009/01_092f62bc4cbc.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_GUDU_010",
+      "canonical_name": "角楼",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_GUDU_010/01_ccca08de5d81.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_RED_001",
+      "canonical_name": "北大红楼",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_RED_001/01_adcd752c40c3.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_RED_002",
+      "canonical_name": "天安门广场",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_RED_002/01_414b0b415c53.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_RED_003",
+      "canonical_name": "人民英雄纪念碑",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_RED_003/01_6d20ef9e936d.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_RED_004",
+      "canonical_name": "卢沟桥",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_RED_004/01_45a19ea611b7.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_RED_005",
+      "canonical_name": "宛平城",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_RED_005/01_01ff6e35fe19.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_RED_006",
+      "canonical_name": "中国国家博物馆",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_RED_006/01_ab6913b65439.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_RED_007",
+      "canonical_name": "香山双清别墅",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_RED_007/01_5d797763b800.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_RED_008",
+      "canonical_name": "中国人民革命军事博物馆",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_RED_008/01_8475fbc78bfe.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_RED_009",
+      "canonical_name": "李大钊故居",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_RED_009/01_8468444f6944.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_JINGWEI_001",
+      "canonical_name": "胡同",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_JINGWEI_001/01_c53db2461f76.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_JINGWEI_002",
+      "canonical_name": "四合院",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_JINGWEI_002/01_fcd0e9c264ec.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_JINGWEI_003",
+      "canonical_name": "京剧",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_JINGWEI_003/01_cfe88801e08a.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_JINGWEI_004",
+      "canonical_name": "兔儿爷",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_JINGWEI_004/01_831b37691fec.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_JINGWEI_005",
+      "canonical_name": "京韵大鼓",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_JINGWEI_005/01_b6e4a64a70ac.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_JINGWEI_006",
+      "canonical_name": "北京烤鸭",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_JINGWEI_006/01_fd51cc9a4e06.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_JINGWEI_007",
+      "canonical_name": "北京庙会",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_JINGWEI_007/01_d350ab17a7c7.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_JINGWEI_008",
+      "canonical_name": "剪纸",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_JINGWEI_008/01_ce1c377e60b5.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_JINGWEI_009",
+      "canonical_name": "鸽哨",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_JINGWEI_009/01_efac49d57b2c.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_JINGWEI_010",
+      "canonical_name": "大栅栏",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_JINGWEI_010/01_a6c65b71b4c6.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_INNOV_001",
+      "canonical_name": "中关村",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_INNOV_001/01_f2ec09b75e3e.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_INNOV_002",
+      "canonical_name": "中关村科学城",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_INNOV_002/01_3ee3f189ee48.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_INNOV_003",
+      "canonical_name": "奥林匹克公园",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_INNOV_003/01_a74d9bad7ec9.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_INNOV_004",
+      "canonical_name": "鸟巢",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_INNOV_004/01_4cd011a8b74c.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_INNOV_005",
+      "canonical_name": "水立方",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_INNOV_005/01_4ec501d59254.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_INNOV_006",
+      "canonical_name": "北京大学",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_INNOV_006/01_4546bcd7ebd9.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_INNOV_007",
+      "canonical_name": "清华大学",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_INNOV_007/01_97fb67a55dde.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_INNOV_008",
+      "canonical_name": "未来科学城",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_INNOV_008/01_160150cf40d7.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_INNOV_009",
+      "canonical_name": "国家会议中心",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_INNOV_009/01_08d8a11aa973.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_FASHION_001",
+      "canonical_name": "三里屯",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_FASHION_001/01_a6ed839d59e9.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_FASHION_002",
+      "canonical_name": "798艺术区",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_FASHION_002/01_66b4bea2a0ae.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_FASHION_003",
+      "canonical_name": "CBD",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_FASHION_003/01_cb1b094ee1f6.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_FASHION_004",
+      "canonical_name": "国贸",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_FASHION_004/01_46afe9855d9b.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_FASHION_005",
+      "canonical_name": "望京",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_FASHION_005/01_567e1815a1be.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_FASHION_006",
+      "canonical_name": "首钢园",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_FASHION_006/01_b4b4392b429f.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_FASHION_007",
+      "canonical_name": "王府井",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_FASHION_007/01_d81d4902722c.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_FASHION_008",
+      "canonical_name": "郎园Station",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_FASHION_008/01_ce3d55142aaa.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "BJ_FASHION_009",
+      "canonical_name": "北京坊",
+      "local_path": "data/knowledge_base/reference_images_v2/BJ_FASHION_009/01_6a422624a82a.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN_ANCIENT_003",
+      "canonical_name": "布达拉宫",
+      "local_path": "data/knowledge_base/reference_images_v2/CN_ANCIENT_003/01_a55288fdbd21.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN_ANCIENT_003",
+      "canonical_name": "布达拉宫",
+      "local_path": "data/knowledge_base/reference_images_v2/CN_ANCIENT_003/02_56ea17936c49.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN_ANCIENT_005",
+      "canonical_name": "云冈石窟",
+      "local_path": "data/knowledge_base/reference_images_v2/CN_ANCIENT_005/01_37e4e259268f.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN_RED_001",
+      "canonical_name": "遵义会议会址",
+      "local_path": "data/knowledge_base/reference_images_v2/CN_RED_001/01_80af1734eefe.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN_RED_002",
+      "canonical_name": "西柏坡纪念馆",
+      "local_path": "data/knowledge_base/reference_images_v2/CN_RED_002/01_14a82cb662ed.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN_RED_003",
+      "canonical_name": "延安革命纪念馆",
+      "local_path": "data/knowledge_base/reference_images_v2/CN_RED_003/01_914aecdc3daf.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN_RED_003",
+      "canonical_name": "延安革命纪念馆",
+      "local_path": "data/knowledge_base/reference_images_v2/CN_RED_003/02_ce6b61b28688.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN_RED_003",
+      "canonical_name": "延安革命纪念馆",
+      "local_path": "data/knowledge_base/reference_images_v2/CN_RED_003/03_e94857db679c.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN_RED_003",
+      "canonical_name": "延安革命纪念馆",
+      "local_path": "data/knowledge_base/reference_images_v2/CN_RED_003/04_d1ab9b7a1142.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN_FOLK_001",
+      "canonical_name": "粤剧",
+      "local_path": "data/knowledge_base/reference_images_v2/CN_FOLK_001/01_844565834fbb.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN_FOLK_003",
+      "canonical_name": "侗族大歌",
+      "local_path": "data/knowledge_base/reference_images_v2/CN_FOLK_003/01_050f5f560e51.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN_TECH_002",
+      "canonical_name": "文昌航天发射场",
+      "local_path": "data/knowledge_base/reference_images_v2/CN_TECH_002/01_8b39a0a096c5.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN_MODERN_001",
+      "canonical_name": "杭州西湖文化景观",
+      "local_path": "data/knowledge_base/reference_images_v2/CN_MODERN_001/01_9297793a14e2.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_001",
+      "canonical_name": "武当山古建筑群",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_001/01_c0fd37bf26c8.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_001",
+      "canonical_name": "武当山古建筑群",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_001/02_59d73071d25c.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_001",
+      "canonical_name": "武当山古建筑群",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_001/03_72d7c4695293.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_002",
+      "canonical_name": "平遥古城",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_002/01_8523d18840db.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_002",
+      "canonical_name": "平遥古城",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_002/02_6d8db56c90a4.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_002",
+      "canonical_name": "平遥古城",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_002/03_a7f414344a28.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_003",
+      "canonical_name": "高句丽王城、王陵及贵族墓葬",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_003/01_68f2665e74cf.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_003",
+      "canonical_name": "高句丽王城、王陵及贵族墓葬",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_003/02_47a84b8429ff.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_003",
+      "canonical_name": "高句丽王城、王陵及贵族墓葬",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_003/03_dfcfece65fa7.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_004",
+      "canonical_name": "苏州古典园林",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_004/01_da0dc1294bf5.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_004",
+      "canonical_name": "苏州古典园林",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_004/02_bde3dff4c3aa.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_FOLK_001",
+      "canonical_name": "红河哈尼梯田文化景观",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_FOLK_001/01_a066dbaaa8cb.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_FOLK_001",
+      "canonical_name": "红河哈尼梯田文化景观",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_FOLK_001/02_e65642942aa0.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_005",
+      "canonical_name": "大足石刻",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_005/01_07d0a86917a0.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_005",
+      "canonical_name": "大足石刻",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_005/02_93a06b4c66c7.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_005",
+      "canonical_name": "大足石刻",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_005/03_7124158931f3.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_FOLK_003",
+      "canonical_name": "福建土楼",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_FOLK_003/01_7e58a2ac6dbd.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_FOLK_003",
+      "canonical_name": "福建土楼",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_FOLK_003/02_d5f420931c47.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_FOLK_003",
+      "canonical_name": "福建土楼",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_FOLK_003/03_13c2edf35351.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_006",
+      "canonical_name": "澳门历史城区",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_006/01_ead663cfa2a4.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_006",
+      "canonical_name": "澳门历史城区",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_006/02_ed4bb489cc08.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_006",
+      "canonical_name": "澳门历史城区",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_006/03_32b2f2e632a2.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_007",
+      "canonical_name": "登封“天地之中”历史古迹",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_007/01_879b381ecbe7.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_007",
+      "canonical_name": "登封“天地之中”历史古迹",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_007/02_c09e3a34d78c.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_007",
+      "canonical_name": "登封“天地之中”历史古迹",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_007/03_ea745ae1591d.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_008",
+      "canonical_name": "明清皇家陵寝",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_008/01_2b1ca16d0926.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_008",
+      "canonical_name": "明清皇家陵寝",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_008/02_4fd4f786fb12.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_008",
+      "canonical_name": "明清皇家陵寝",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_008/03_ee3af2e93af3.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_MODERN_001",
+      "canonical_name": "开平碉楼与村落",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_MODERN_001/01_462a2330b06c.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_MODERN_001",
+      "canonical_name": "开平碉楼与村落",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_MODERN_001/02_e69a03c7bae3.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_MODERN_001",
+      "canonical_name": "开平碉楼与村落",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_MODERN_001/03_9bb63530cce8.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_MODERN_002",
+      "canonical_name": "鼓浪屿：历史国际社区",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_MODERN_002/01_1df0d9d5b819.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_MODERN_002",
+      "canonical_name": "鼓浪屿：历史国际社区",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_MODERN_002/02_01b3390873d9.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_MODERN_002",
+      "canonical_name": "鼓浪屿：历史国际社区",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_MODERN_002/03_2626d1af305b.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_009",
+      "canonical_name": "龙门石窟",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_009/01_c64617bbe031.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_009",
+      "canonical_name": "龙门石窟",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_009/02_a0ee15050dca.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_011",
+      "canonical_name": "五台山",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_011/01_f9e5abb79233.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_011",
+      "canonical_name": "五台山",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_011/02_5263b6303b01.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_011",
+      "canonical_name": "五台山",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_011/03_b3a79e1c6484.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_012",
+      "canonical_name": "承德避暑山庄及其周围寺庙",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_012/01_465537a702a3.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_012",
+      "canonical_name": "承德避暑山庄及其周围寺庙",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_012/02_4c6ea2a6e61d.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_012",
+      "canonical_name": "承德避暑山庄及其周围寺庙",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_012/03_acf435a99e04.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_FOLK_004",
+      "canonical_name": "丽江古城",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_FOLK_004/01_76d7ad071541.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_FOLK_004",
+      "canonical_name": "丽江古城",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_FOLK_004/02_85f0ab092621.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_FOLK_004",
+      "canonical_name": "丽江古城",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_FOLK_004/03_53f47fc98ed2.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_013",
+      "canonical_name": "周口店北京人遗址",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_013/01_71ab87231f8d.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_013",
+      "canonical_name": "周口店北京人遗址",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_013/02_6a032f90eec1.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_013",
+      "canonical_name": "周口店北京人遗址",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_013/03_b95be12baf89.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_014",
+      "canonical_name": "元上都遗址",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_014/01_6796471d9f21.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_014",
+      "canonical_name": "元上都遗址",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_014/02_a2cc1f442b8e.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_014",
+      "canonical_name": "元上都遗址",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_014/03_b98cb2a585e1.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_015",
+      "canonical_name": "颐和园",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_015/01_2156fb66aa20.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_015",
+      "canonical_name": "颐和园",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_015/02_04d95790e226.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_015",
+      "canonical_name": "颐和园",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_015/03_09246694d1d3.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_017",
+      "canonical_name": "长城",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_017/01_11f48480a295.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_017",
+      "canonical_name": "长城",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_017/02_5b8d5eec24c9.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_017",
+      "canonical_name": "长城",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_017/03_dafdc655b89d.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_018",
+      "canonical_name": "土司遗址",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_018/01_86a563dc5c6d.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_018",
+      "canonical_name": "土司遗址",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_018/02_d1a03ad6ccab.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_018",
+      "canonical_name": "土司遗址",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_018/03_88d25e307a74.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_FOLK_005",
+      "canonical_name": "左江花山岩画文化景观",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_FOLK_005/01_c8cc726d92c1.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_FOLK_005",
+      "canonical_name": "左江花山岩画文化景观",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_FOLK_005/02_80e15fafa56e.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_FOLK_005",
+      "canonical_name": "左江花山岩画文化景观",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_FOLK_005/03_60b75bd6bb60.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_020",
+      "canonical_name": "黄山",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_020/01_59f62e901505.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_020",
+      "canonical_name": "黄山",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_020/02_97d931711ac1.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_021",
+      "canonical_name": "泰山",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_021/01_5c568ea17015.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_021",
+      "canonical_name": "泰山",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_021/02_56906ff86359.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_021",
+      "canonical_name": "泰山",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_021/03_ea45812b8ee6.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_022",
+      "canonical_name": "武夷山",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_022/01_c04e6ba7da6e.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_022",
+      "canonical_name": "武夷山",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_022/02_bd51e88dd1d0.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_023",
+      "canonical_name": "峨眉山",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_023/01_c516aab757b8.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_023",
+      "canonical_name": "峨眉山",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_023/02_dc92f38e50e4.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_024",
+      "canonical_name": "乐山大佛",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_024/01_c516aab757b8.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_024",
+      "canonical_name": "乐山大佛",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_024/02_dc92f38e50e4.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_025",
+      "canonical_name": "青城山",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_025/01_16a4f413b16c.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_025",
+      "canonical_name": "青城山",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_025/02_e683960360f7.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_025",
+      "canonical_name": "青城山",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_025/03_fe51c236c7c2.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_026",
+      "canonical_name": "都江堰",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_026/01_16a4f413b16c.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_026",
+      "canonical_name": "都江堰",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_026/02_e683960360f7.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_026",
+      "canonical_name": "都江堰",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_026/03_fe51c236c7c2.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_027",
+      "canonical_name": "曲阜孔庙",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_027/01_67243297ad32.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_027",
+      "canonical_name": "曲阜孔庙",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_027/02_485d908cbedd.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_027",
+      "canonical_name": "曲阜孔庙",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_027/03_5f6a5e25c03e.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_028",
+      "canonical_name": "曲阜孔林",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_028/01_67243297ad32.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_028",
+      "canonical_name": "曲阜孔林",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_028/02_485d908cbedd.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_028",
+      "canonical_name": "曲阜孔林",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_028/03_5f6a5e25c03e.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_029",
+      "canonical_name": "曲阜孔府",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_029/01_67243297ad32.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_029",
+      "canonical_name": "曲阜孔府",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_029/02_485d908cbedd.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_029",
+      "canonical_name": "曲阜孔府",
+      "local_path": "data/knowledge_base/reference_images_v2/CN2_ANCIENT_029/03_5f6a5e25c03e.jpg",
+      "verification_status": "candidate_unreviewed",
+      "use_for_retrieval": false,
+      "present": true,
+      "hash_matches": true
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "scene_description_raw": "{\"scene\":\"户外，传统中式建筑前，光线明亮，有树木\",\"subject\":\"石狮子，静立\",\"visible_features\":[\"浅色石材，卷曲鬃毛，张嘴，闭眼，底座有花纹\"],\"background\":[\"传统中式建筑，红墙，彩绘斗拱，灰色瓦片屋顶，悬挂的灯笼，上方有树木\"],\"readable_text\":[],\"text_regions\":[{\"kind\":\"匾额\",\"time_ratio\":0.5,\"bbox\":[0.585,0.505,0.787,0.649]}],\"uncertain_entities\":[]}",
+  "scene_description": "户外，传统中式建筑前，光线明亮，有树木\n石狮子，静立\n浅色石材，卷曲鬃毛，张嘴，闭眼，底座有花纹\n可读文字：北京大学\n【背景辅助证据；不能单独证明主体身份】\n传统中式建筑，红墙，彩绘斗拱，灰色瓦片屋顶，悬挂的灯笼，上方有树木",
+  "scene_evidence_version": "structured_context_v2",
+  "structured_scene": {
+    "scene": "户外，传统中式建筑前，光线明亮，有树木",
+    "subject": "石狮子，静立",
+    "visible_features": [
+      "浅色石材，卷曲鬃毛，张嘴，闭眼，底座有花纹"
+    ],
+    "background": [
+      "传统中式建筑，红墙，彩绘斗拱，灰色瓦片屋顶，悬挂的灯笼，上方有树木"
+    ],
+    "readable_text": [],
+    "text_regions": [
+      {
+        "kind": "匾额",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.585,
+          0.505,
+          0.787,
+          0.649
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "completed",
+    "calls": 1,
+    "items": [
+      {
+        "text": "北京大学",
+        "legibility": "clear"
+      }
+    ],
+    "attempts": [
+      {
+        "kind": "匾额",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.585,
+          0.505,
+          0.787,
+          0.649
+        ],
+        "index": 0,
+        "frame_index": 53,
+        "pixel_bbox": [
+          2169,
+          1047,
+          3098,
+          1445
+        ],
+        "images": [
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/北大1/B/text_evidence/region_0_crop.jpg",
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/北大1/B/text_evidence/region_0_context.jpg"
+        ],
+        "raw_response": "{\"text\":\"北京大学\",\"legibility\":\"clear\"}",
+        "result": {
+          "text": "北京大学",
+          "legibility": "clear"
+        }
+      }
+    ]
+  }
+}

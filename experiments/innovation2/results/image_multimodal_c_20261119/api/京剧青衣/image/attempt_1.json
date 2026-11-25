@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:45:19.603439+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于民族与民俗文化。\n核心符号：京剧\n价值指向：可见人物身着京剧服饰，头戴京剧头饰，手持折扇表演扇子功，这些是京剧表演的典型视觉元素。</think>",
+  "response_model": "glm-4v",
+  "response_id": "20261119164519b91278f44c324b34",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=72158, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=55, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=72213)",
+  "seconds": 78.05298376083374
+}

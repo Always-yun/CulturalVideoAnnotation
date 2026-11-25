@@ -1,0 +1,13 @@
+﻿method,mode,metric,value
+Text,text,recall@1,0.5185
+Text,text,recall@5,0.7778
+Text,text,mrr,0.6481
+Image,image,recall@1,0.1852
+Image,image,recall@5,0.2963
+Image,image,mrr,0.2204
+Multimodal,multimodal,recall@1,0.5926
+Multimodal,multimodal,recall@5,0.7778
+Multimodal,multimodal,mrr,0.679
+Multimodal Controlled,multimodal_controlled,recall@1,0.5926
+Multimodal Controlled,multimodal_controlled,recall@5,0.7778
+Multimodal Controlled,multimodal_controlled,mrr,0.679

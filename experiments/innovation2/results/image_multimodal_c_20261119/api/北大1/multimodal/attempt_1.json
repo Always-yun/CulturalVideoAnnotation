@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:52:52.533973+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化、民族与民俗文化。\n核心符号：石狮子、传统中式建筑（牌楼/门楼）、汉字匾额\n价值指向：可见视觉依据为传统中式建筑，其特征包括飞檐翘角、彩绘梁柱、红色立柱与木质门窗，具有典型的中国古代建筑风格；前景中的石狮子是传统中式建筑中常见的守护神兽，常成对出现于宫殿、庙宇、府邸门前，象征威严与守护；背景中可见一块蓝色底金色字的汉字匾额，虽文字细节因角度和清晰度限制难以完全辨认，但符合传统中式建筑的命名与装饰习惯。这些元素共同指向中国传统文化中的建筑与民俗符号。石狮子和传统建筑作为核心符号，体现了中国古城与历史文化中对于建筑美学、等级制度及民俗信仰的承载。无法确认匾额上的具体文字内容，因此无法进一步确认其具体指向的机构或场所。",
+  "response_model": "glm-4v",
+  "response_id": "20261119165253ca5fff49b2fc4245",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73171, prompt_tokens_details=PromptTokensDetails(cached_tokens=65542), completion_tokens=208, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73379)",
+  "seconds": 72.01189136505127
+}

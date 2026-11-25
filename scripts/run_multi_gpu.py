@@ -12,6 +12,8 @@ from typing import List, Dict, Optional
 from concurrent.futures import ProcessPoolExecutor, as_completed
 import multiprocessing as mp
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 # 直接导入gpu_manager，避免导入整个src包
 from src.models.gpu_manager import GPUManager
 
@@ -20,7 +22,10 @@ def run_single_gpu_task(gpu_id: int, video_path: str,
                        output_dir: str, model_path: Optional[str] = None,
                        fps: Optional[float] = None, max_frames: Optional[int] = None,
                        output_format: str = "both", format_type: str = "standard",
-                       verbose: bool = False) -> Dict[str, any]:
+                       verbose: bool = False, culture_mode: str = "multimodal",
+                       cultural_top_k: int = 5, kb_path: Optional[str] = None,
+                       identity_verifier: str = "v2", scene_mode: str = "structured",
+                       text_recognition: bool = True, retrieval_strategy: str = "legacy") -> Dict[str, any]:
     """
     在单个GPU上运行视频标注任务
     
@@ -58,6 +63,13 @@ def run_single_gpu_task(gpu_id: int, video_path: str,
             "--format-type", format_type
         ]
         
+        cmd.extend(["--culture-mode", culture_mode, "--cultural-top-k", str(cultural_top_k),
+                    "--identity-verifier", identity_verifier])
+        cmd.extend(["--scene-mode", scene_mode, "--retrieval-strategy", retrieval_strategy])
+        if not text_recognition:
+            cmd.append("--no-text-recognition")
+        if kb_path:
+            cmd.extend(["--kb-path", kb_path])
         if model_path:
             cmd.extend(["--model-path", model_path])
         
@@ -307,6 +319,13 @@ def parse_arguments():
         help="仅检查GPU状态，不执行任务"
     )
     
+    parser.add_argument("--culture-mode", choices=["off", "keyword", "multimodal"], default="multimodal")
+    parser.add_argument("--cultural-top-k", type=int, default=5)
+    parser.add_argument("--kb-path", default=None)
+    parser.add_argument("--identity-verifier", choices=["v2", "off"], default="v2")
+    parser.add_argument("--scene-mode", choices=["structured", "legacy"], default="structured")
+    parser.add_argument("--no-text-recognition", action="store_true")
+    parser.add_argument("--retrieval-strategy", choices=["legacy", "evidence_v1"], default="legacy")
     return parser.parse_args()
 
 
@@ -368,7 +387,7 @@ def main():
     
     # 设置输出目录
     if args.output_dir is None:
-        args.output_dir = os.path.join(os.path.dirname(__file__), "outputs")
+        args.output_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "outputs", "annotations")
     
     # 分配视频到GPU
     gpu_video_map = distribute_videos_to_gpus(
@@ -392,7 +411,9 @@ def main():
             tasks.append((
                 gpu_id, video_path, args.output_dir, args.model_path,
                 args.fps, args.max_frames, args.output_format, 
-                args.format_type, args.verbose
+                args.format_type, args.verbose, args.culture_mode,
+                args.cultural_top_k, args.kb_path, args.identity_verifier,
+                args.scene_mode, not args.no_text_recognition, args.retrieval_strategy
             ))
     
     print(f"\n开始并行处理 {len(tasks)} 个任务...")

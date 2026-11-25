@@ -1,0 +1,123 @@
+{
+  "status": "not_admitted",
+  "reason": "旧组别映射未经核实；无人工冻结描述、模型与种子证据；旧评分仅属于原视频",
+  "files": [
+    {
+      "file": "experiments/innovation1/t2v_cultural_taskset/T02_eval_v3_results.json",
+      "sha256": "2889a8acfe52cd3b428e9b2f61e4fc3d53f6d83864020168798d6aa70f9b7344",
+      "reuse": "historical_only_pending_input_and_config_verification"
+    },
+    {
+      "file": "experiments/innovation1/t2v_cultural_taskset/batch1_machine_eval_merged_v1.json",
+      "sha256": "d055f74c90fcbbcdb5c8414ce8bca6036d0433488d0f9e84d2e00938a5735f62",
+      "reuse": "historical_only_pending_input_and_config_verification"
+    },
+    {
+      "file": "experiments/innovation1/t2v_cultural_taskset/eval_batch1_input_v1.json",
+      "sha256": "7ef2b267155010c005a64b006f29be07418f55042ff64196e07e094fd29119d1",
+      "reuse": "historical_only_pending_input_and_config_verification"
+    },
+    {
+      "file": "experiments/innovation1/t2v_cultural_taskset/eval_batch1_input_v2.json",
+      "sha256": "035434019f9bd8402e376dc70e2eec5b01ee30c6e5333c7f21909cde0eaab33f",
+      "reuse": "historical_only_pending_input_and_config_verification"
+    },
+    {
+      "file": "experiments/innovation1/t2v_cultural_taskset/eval_batch1_input_v3.json",
+      "sha256": "cc88262bada4bad592aacb7b6508ba4eac247f40ab7f8ab97a9a0bd05eb14785",
+      "reuse": "historical_only_pending_input_and_config_verification"
+    },
+    {
+      "file": "experiments/innovation1/t2v_cultural_taskset/exp3_cma_twa_eval_v1.json",
+      "sha256": "06029fda8af55f6f280f273e9ae7cc4f02d8129fee49715a4fe5f73bcaa133e0",
+      "reuse": "historical_only_pending_input_and_config_verification"
+    },
+    {
+      "file": "experiments/innovation1/t2v_cultural_taskset/taskset_candidates_v1.json",
+      "sha256": "eaad8601c9d62e001ec4769880a4d38e37f14aa8c6c1a9167e4417da61d61e47",
+      "reuse": "historical_only_pending_input_and_config_verification"
+    }
+  ],
+  "historical_videos": [
+    {
+      "path": "experiments/innovation1/videos/batch1/T2-1.mp4",
+      "sha256": "32f2aa1132b73c441353e70eeb01f12ae69a0b78e2c40f5ef4d888f17064ba85"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T2-2.mp4",
+      "sha256": "75dbc6ac47dc75fa678558f9c4c8596157810e16c259c3cdde7d9a03d458bd53"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T2-3.mp4",
+      "sha256": "979a728bc2b526873b1f5bdf8c5ea8a467691a35d8459592e2b24456d69797c7"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T2-4.mp4",
+      "sha256": "d3c354dc5c36d9dc1f135a1a62d4ba56df6ca3df3252dd9c7e4fc0e4d727f9d6"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T3-1.mp4",
+      "sha256": "4f652f7afef076423d19cbd83565452839390780cfae487d42a68a6e384278cb"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T3-2.mp4",
+      "sha256": "8ffa7371cbe704508a0f2f72352a39aeabd9bf198540f8ec237926e21bffd976"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T3-3.mp4",
+      "sha256": "9e02c2f6b2ed4143026d2624ff007ed3ec47c84cde5e5aed760a686ebee2dd6d"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T3-4.mp4",
+      "sha256": "51db6daef5b6e117eb60fcb300bc6c67868aa4e6ef4eb488b5da8c57c7ef0840"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T5-1.mp4",
+      "sha256": "85907ab6267dca4d2a78128607d38c598fbf2630cb008da5bd5ef3a85464c849"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T5-2.mp4",
+      "sha256": "302ab5ff949eff8ccd59f51d1ab7baca994215eae32e11e6db007364269a47a7"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T5-3.mp4",
+      "sha256": "bdef3a6504e503500078dd822e9c535d26c3472a1d66c15c498ca64a27272c47"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T5-4.mp4",
+      "sha256": "13e7eda5bcc39e177782169484eed7844a880da1500cae5908d0bff6bf5cad54"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T8-1.mp4",
+      "sha256": "6b40f43503fa017e02afbcd82fccc19aaf9e50b59b282e61311bacee74c31c7f"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T8-2.mp4",
+      "sha256": "312b5a95a1d93695317e2f13f7e80b2f076b51268d2b816e0f8d16f63e5ad633"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T8-3.mp4",
+      "sha256": "3abc88c7737a7e143862b213a5e42ed73bccaf2ac50a74212f89184549e9de0f"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T8-4.mp4",
+      "sha256": "f6dbedd6ef70af25c7a9a86dbe9c00abee94142e63bff0d1129d7b80e5b5020a"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T9-1.mp4",
+      "sha256": "4214373d78d894cf9c30be6f753bc781a50c4584868a302ed5a483963a459bfc"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T9-2.mp4",
+      "sha256": "792a48937e6a188669a7e88ab1cd0fb343b77c85726fc3b7556ca60d3970741f"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T9-3.mp4",
+      "sha256": "d38e2915cf999538d36f8139c8068b2b209d850afbf87f868f8a865cfc57d0eb"
+    },
+    {
+      "path": "experiments/innovation1/videos/batch1/T9-4.mp4",
+      "sha256": "76a4eed8898f25fd92dab0b23960acb458d809acba24b920ccb4944085dd5159"
+    }
+  ]
+}

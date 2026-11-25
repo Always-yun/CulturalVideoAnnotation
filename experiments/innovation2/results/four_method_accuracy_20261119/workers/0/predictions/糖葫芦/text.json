@@ -1,0 +1,21 @@
+{
+  "video_id": "糖葫芦",
+  "gt_symbols": [
+    "冰糖葫芦"
+  ],
+  "gt_symbol_ids": [],
+  "gt_dimension_code": "FOLK",
+  "kb_coverage": false,
+  "mode": "text",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为[冰糖葫芦]。",
+  "pred_dimension": "民族与民俗文化",
+  "unknown_symbol": false,
+  "symbol_correct": true,
+  "dimension_correct": true,
+  "topk_candidates": [],
+  "recall_at_5": null,
+  "seconds": 36.74,
+  "error_type": "",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/糖葫芦/text/trace.json"
+}

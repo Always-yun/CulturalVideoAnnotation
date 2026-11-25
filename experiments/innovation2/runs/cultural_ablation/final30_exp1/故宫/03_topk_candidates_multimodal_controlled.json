@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_GUDU_001",
+    "canonical_name": "故宫",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.810028076171875,
+    "reason": "关键词/别名命中：故宫、宫殿",
+    "image_score": 0.6201,
+    "text_score": 1.0,
+    "fusion_score": 0.81
+  },
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6466267903645833,
+    "reason": "关键词/别名命中：太和殿",
+    "image_score": 0.6266,
+    "text_score": 0.6667,
+    "fusion_score": 0.6466
+  },
+  {
+    "symbol_id": "BJ_RED_004",
+    "canonical_name": "卢沟桥",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.46601359049479163,
+    "reason": "关键词/别名命中：石狮",
+    "image_score": 0.5987,
+    "text_score": 0.3333,
+    "fusion_score": 0.466
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_007",
+    "canonical_name": "登封“天地之中”历史古迹",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.31878662109375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6376,
+    "text_score": 0.0,
+    "fusion_score": 0.3188
+  },
+  {
+    "symbol_id": "CN2_TECH_007",
+    "canonical_name": "中关村广场",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.317626953125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6353,
+    "text_score": 0.0,
+    "fusion_score": 0.3176
+  }
+]

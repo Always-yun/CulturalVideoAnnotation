@@ -1,0 +1,77 @@
+{
+  "request": {
+    "id": "T10_source",
+    "task_id": "T10",
+    "video_id": "source",
+    "question_ids": [
+      "T10-F1",
+      "T10-F2",
+      "T10-F3",
+      "T10-F4"
+    ],
+    "question_sha256": "3ce483917b338bd92723bc9265295ff3d69aebed602f4603e2f0e493191e0d34",
+    "reference_sha256": "faa1cdc256f172aaab2eee03ecd60af09c5308d2b4a378fda195bcc4b389802f",
+    "evidence_sha256": "2780857e35acc4440d62b7c1c5dc3f8b70d72e1ba427fd01819ed43e9aae84d6",
+    "source_evidence_sha256": "2780857e35acc4440d62b7c1c5dc3f8b70d72e1ba427fd01819ed43e9aae84d6",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。所给1张图片均为原视频关键帧；每题frames数组必须恰有1项。overall_form固定返回Match。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T10-F1\", \"question\": \"视频中的主要塔楼是否具有多个大小不同的球形结构？\", \"yes_rule\": \"主要塔楼可见至少两个大小不同的球体\", \"no_rule\": \"塔楼清晰但少于两个球体，或球体大小没有可辨认差异\", \"uncertain_rule\": \"球体被遮挡、过小或画面裁切导致数量和大小无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F2\", \"question\": \"这些球形结构是否沿高耸的竖向塔身分布？\", \"yes_rule\": \"多个球体沿同一高耸竖向塔体上下分布，并形成完整组合关系\", \"no_rule\": \"球体清晰但未沿竖向塔身组织，或属于彼此无关的建筑\", \"uncertain_rule\": \"塔身或球体连接关系被遮挡、裁切或无法辨认\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F3\", \"question\": \"主要塔楼下部是否具有明显的倾斜支撑柱结构？\", \"yes_rule\": \"塔体下部可见明显斜向支撑柱，并与主塔形成承托关系\", \"no_rule\": \"塔楼下部清晰但只有垂直柱、普通基座或无斜向支撑\", \"uncertain_rule\": \"塔楼下部未入画、被背景遮挡或细节不足\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F4\", \"question\": \"东方明珠形态的塔楼是否位于画面中央且明显突出于其他背景建筑？\", \"yes_rule\": \"东方明珠形态塔楼位于画面中央或中央主要区域，是明确视觉焦点，其他高楼仅作背景\", \"no_rule\": \"塔楼明显偏离主要构图区域，或被其他建筑遮挡且不是视觉焦点\", \"uncertain_rule\": \"画面裁切、遮挡或构图不清，无法判断主体与背景关系\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.633,
+        "requested_sec": 2.8165,
+        "actual_sec": 2.8,
+        "absolute_pts_sec": 2.8,
+        "frame_index": 70,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T10/source/50.jpg",
+        "sha256": "0f33d3166651c8bfd68b2253d18008cb72185d6688a5dfea651576b18e97cc25",
+        "attempts": [
+          {
+            "index": 70,
+            "pts_sec": 2.8,
+            "black": false
+          }
+        ]
+      }
+    ]
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"facts\":{\"T10-F1\":{\"frames\":[\"Yes\"],\"evidence\":\"可见塔楼有至少两个大小不同的球形结构（上方小圆球与下方大圆球）\"},\"T10-F2\":{\"frames\":[\"Yes\"],\"evidence\":\"多个球形结构沿高耸竖向塔身上下分布，形成完整组合关系\"},\"T10-F3\":{\"frames\":[\"Yes\"],\"evidence\":\"塔楼下部可见明显倾斜支撑柱，与主塔形成承托关系\"},\"T10-F4\":{\"frames\":[\"Yes\"],\"evidence\":\"东方明珠形态塔楼位于画面中央，是明确视觉焦点，其他建筑仅作背景\"},\"overall_form\":\"Match\",\"overall_evidence\":\"关键帧中塔楼形态、布局及部件关系与东方明珠特征匹配\"}",
+  "parse_ok": true,
+  "parsed": {
+    "facts": {
+      "T10-F1": {
+        "answer": "Yes",
+        "frames": [
+          "Yes"
+        ],
+        "evidence": "可见塔楼有至少两个大小不同的球形结构（上方小圆球与下方大圆球）"
+      },
+      "T10-F2": {
+        "answer": "Yes",
+        "frames": [
+          "Yes"
+        ],
+        "evidence": "多个球形结构沿高耸竖向塔身上下分布，形成完整组合关系"
+      },
+      "T10-F3": {
+        "answer": "Yes",
+        "frames": [
+          "Yes"
+        ],
+        "evidence": "塔楼下部可见明显倾斜支撑柱，与主塔形成承托关系"
+      },
+      "T10-F4": {
+        "answer": "Yes",
+        "frames": [
+          "Yes"
+        ],
+        "evidence": "东方明珠形态塔楼位于画面中央，是明确视觉焦点，其他建筑仅作背景"
+      }
+    },
+    "overall_form": "Match",
+    "overall_evidence": "关键帧中塔楼形态、布局及部件关系与东方明珠特征匹配",
+    "unexpected_fact_ids_ignored": []
+  }
+}

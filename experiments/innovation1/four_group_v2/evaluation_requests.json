@@ -1,0 +1,1267 @@
+[
+  {
+    "id": "T01_source",
+    "task_id": "T01",
+    "video_id": "source",
+    "question_ids": [
+      "T01-F1",
+      "T01-F2",
+      "T01-F3",
+      "T01-F4"
+    ],
+    "question_sha256": "8b4d8b36c07b3ad5f0a1407f262969e13eaa18760c3ed93c822ef47009fc185b",
+    "reference_sha256": "cd719121d9af90a512142d3805587fa631d11b8b7a291399964313a8119bcb71",
+    "evidence_sha256": "b3b6028d05282848ff85f3c05072038dae24501f724450f0a0d8da94193a5b3e",
+    "source_evidence_sha256": "b3b6028d05282848ff85f3c05072038dae24501f724450f0a0d8da94193a5b3e",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。所给1张图片均为原视频关键帧；每题frames数组必须恰有1项。overall_form固定返回Match。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T01-F1\", \"question\": \"视频中是否出现多排整齐排列的人物陶俑面向镜头？\", \"yes_rule\": \"同一画面可见至少两排人物陶俑有序排列，且主体整体朝向镜头或可见正面/侧正面\", \"no_rule\": \"人物主体清晰，但未形成至少两排有序陶俑军阵，或整体背向镜头\", \"uncertain_rule\": \"人物过小、严重遮挡，无法判断排列层次或朝向\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F2\", \"question\": \"视频中的陶俑是否具有古代军士的服饰或甲胄特征？\", \"yes_rule\": \"至少一个主要陶俑可辨认古代军士服饰、发髻或甲胄特征\", \"no_rule\": \"陶俑主体清晰，但呈现代人物、普通雕像或缺少古代军士造型\", \"uncertain_rule\": \"服饰和甲胄细节过小、模糊或被遮挡\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F3\", \"question\": \"视频中的人物雕塑是否呈现明显的陶土材质质感？\", \"yes_rule\": \"主要人物雕塑呈土褐、灰褐等陶土色泽，并具有哑光、粗粝或烧制陶塑表面感\", \"no_rule\": \"人物清晰但呈真人皮肤、金属、塑料或其他明显非陶土材质\", \"uncertain_rule\": \"光照、清晰度或画面尺寸不足以判断材质\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F4\", \"question\": \"视频中的陶俑是否排列在由土质隔墙分隔的长方形坑道内？\", \"yes_rule\": \"可见陶俑位于长方形考古坑道中，坑道之间由土质隔墙分隔\", \"no_rule\": \"陶俑主体清晰，但位于普通室内地面、广场或没有土质隔墙分隔的空间\", \"uncertain_rule\": \"坑道边界或隔墙被遮挡，无法判断空间布局\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 9.816,
+        "requested_sec": 4.908,
+        "actual_sec": 4.9,
+        "absolute_pts_sec": 4.9,
+        "frame_index": 147,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T01/source/50.jpg",
+        "sha256": "80d11de85dfc2701565b2d2a451b011aadd8196ba588eb1f45dff0ed301bf2dc",
+        "attempts": [
+          {
+            "index": 147,
+            "pts_sec": 4.9,
+            "black": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T01_T01_G1_r01",
+    "task_id": "T01",
+    "video_id": "T01_G1_r01",
+    "question_ids": [
+      "T01-F1",
+      "T01-F2",
+      "T01-F3",
+      "T01-F4"
+    ],
+    "question_sha256": "8b4d8b36c07b3ad5f0a1407f262969e13eaa18760c3ed93c822ef47009fc185b",
+    "reference_sha256": "cd719121d9af90a512142d3805587fa631d11b8b7a291399964313a8119bcb71",
+    "evidence_sha256": "70cfa92b9a1e24ff93cf43ae36b8084ced4eb596d16ebdb8fcc2a036ffb27469",
+    "source_evidence_sha256": "b3b6028d05282848ff85f3c05072038dae24501f724450f0a0d8da94193a5b3e",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T01-F1\", \"question\": \"视频中是否出现多排整齐排列的人物陶俑面向镜头？\", \"yes_rule\": \"同一画面可见至少两排人物陶俑有序排列，且主体整体朝向镜头或可见正面/侧正面\", \"no_rule\": \"人物主体清晰，但未形成至少两排有序陶俑军阵，或整体背向镜头\", \"uncertain_rule\": \"人物过小、严重遮挡，无法判断排列层次或朝向\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F2\", \"question\": \"视频中的陶俑是否具有古代军士的服饰或甲胄特征？\", \"yes_rule\": \"至少一个主要陶俑可辨认古代军士服饰、发髻或甲胄特征\", \"no_rule\": \"陶俑主体清晰，但呈现代人物、普通雕像或缺少古代军士造型\", \"uncertain_rule\": \"服饰和甲胄细节过小、模糊或被遮挡\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F3\", \"question\": \"视频中的人物雕塑是否呈现明显的陶土材质质感？\", \"yes_rule\": \"主要人物雕塑呈土褐、灰褐等陶土色泽，并具有哑光、粗粝或烧制陶塑表面感\", \"no_rule\": \"人物清晰但呈真人皮肤、金属、塑料或其他明显非陶土材质\", \"uncertain_rule\": \"光照、清晰度或画面尺寸不足以判断材质\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F4\", \"question\": \"视频中的陶俑是否排列在由土质隔墙分隔的长方形坑道内？\", \"yes_rule\": \"可见陶俑位于长方形考古坑道中，坑道之间由土质隔墙分隔\", \"no_rule\": \"陶俑主体清晰，但位于普通室内地面、广场或没有土质隔墙分隔的空间\", \"uncertain_rule\": \"坑道边界或隔墙被遮挡，无法判断空间布局\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 9.816,
+        "requested_sec": 4.908,
+        "actual_sec": 4.9,
+        "absolute_pts_sec": 4.9,
+        "frame_index": 147,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T01/source/50.jpg",
+        "sha256": "80d11de85dfc2701565b2d2a451b011aadd8196ba588eb1f45dff0ed301bf2dc",
+        "attempts": [
+          {
+            "index": 147,
+            "pts_sec": 4.9,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T01/T01_G1_r01/50.jpg",
+        "sha256": "1a312daea2ed251c4723ca34e80faf8fa5cda3613b8ed033d9b42395a49d2777",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T01_T01_G2_r01",
+    "task_id": "T01",
+    "video_id": "T01_G2_r01",
+    "question_ids": [
+      "T01-F1",
+      "T01-F2",
+      "T01-F3",
+      "T01-F4"
+    ],
+    "question_sha256": "8b4d8b36c07b3ad5f0a1407f262969e13eaa18760c3ed93c822ef47009fc185b",
+    "reference_sha256": "cd719121d9af90a512142d3805587fa631d11b8b7a291399964313a8119bcb71",
+    "evidence_sha256": "f4d8fafc773d627b70e3f5359d7bfd660ef9b3249bd11adfc9d546d9611d74e7",
+    "source_evidence_sha256": "b3b6028d05282848ff85f3c05072038dae24501f724450f0a0d8da94193a5b3e",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T01-F1\", \"question\": \"视频中是否出现多排整齐排列的人物陶俑面向镜头？\", \"yes_rule\": \"同一画面可见至少两排人物陶俑有序排列，且主体整体朝向镜头或可见正面/侧正面\", \"no_rule\": \"人物主体清晰，但未形成至少两排有序陶俑军阵，或整体背向镜头\", \"uncertain_rule\": \"人物过小、严重遮挡，无法判断排列层次或朝向\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F2\", \"question\": \"视频中的陶俑是否具有古代军士的服饰或甲胄特征？\", \"yes_rule\": \"至少一个主要陶俑可辨认古代军士服饰、发髻或甲胄特征\", \"no_rule\": \"陶俑主体清晰，但呈现代人物、普通雕像或缺少古代军士造型\", \"uncertain_rule\": \"服饰和甲胄细节过小、模糊或被遮挡\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F3\", \"question\": \"视频中的人物雕塑是否呈现明显的陶土材质质感？\", \"yes_rule\": \"主要人物雕塑呈土褐、灰褐等陶土色泽，并具有哑光、粗粝或烧制陶塑表面感\", \"no_rule\": \"人物清晰但呈真人皮肤、金属、塑料或其他明显非陶土材质\", \"uncertain_rule\": \"光照、清晰度或画面尺寸不足以判断材质\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F4\", \"question\": \"视频中的陶俑是否排列在由土质隔墙分隔的长方形坑道内？\", \"yes_rule\": \"可见陶俑位于长方形考古坑道中，坑道之间由土质隔墙分隔\", \"no_rule\": \"陶俑主体清晰，但位于普通室内地面、广场或没有土质隔墙分隔的空间\", \"uncertain_rule\": \"坑道边界或隔墙被遮挡，无法判断空间布局\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 9.816,
+        "requested_sec": 4.908,
+        "actual_sec": 4.9,
+        "absolute_pts_sec": 4.9,
+        "frame_index": 147,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T01/source/50.jpg",
+        "sha256": "80d11de85dfc2701565b2d2a451b011aadd8196ba588eb1f45dff0ed301bf2dc",
+        "attempts": [
+          {
+            "index": 147,
+            "pts_sec": 4.9,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T01/T01_G2_r01/50.jpg",
+        "sha256": "829f5b8ead1c070a83cdcfd85d1aceb127c9588b1f937f6681c08665b0b431b8",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T01_T01_G3_r01",
+    "task_id": "T01",
+    "video_id": "T01_G3_r01",
+    "question_ids": [
+      "T01-F1",
+      "T01-F2",
+      "T01-F3",
+      "T01-F4"
+    ],
+    "question_sha256": "8b4d8b36c07b3ad5f0a1407f262969e13eaa18760c3ed93c822ef47009fc185b",
+    "reference_sha256": "cd719121d9af90a512142d3805587fa631d11b8b7a291399964313a8119bcb71",
+    "evidence_sha256": "e9fc60a639dcfea36dd3bbacd4e7209234e9d47d516912cc62d3caa33a79650a",
+    "source_evidence_sha256": "b3b6028d05282848ff85f3c05072038dae24501f724450f0a0d8da94193a5b3e",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T01-F1\", \"question\": \"视频中是否出现多排整齐排列的人物陶俑面向镜头？\", \"yes_rule\": \"同一画面可见至少两排人物陶俑有序排列，且主体整体朝向镜头或可见正面/侧正面\", \"no_rule\": \"人物主体清晰，但未形成至少两排有序陶俑军阵，或整体背向镜头\", \"uncertain_rule\": \"人物过小、严重遮挡，无法判断排列层次或朝向\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F2\", \"question\": \"视频中的陶俑是否具有古代军士的服饰或甲胄特征？\", \"yes_rule\": \"至少一个主要陶俑可辨认古代军士服饰、发髻或甲胄特征\", \"no_rule\": \"陶俑主体清晰，但呈现代人物、普通雕像或缺少古代军士造型\", \"uncertain_rule\": \"服饰和甲胄细节过小、模糊或被遮挡\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F3\", \"question\": \"视频中的人物雕塑是否呈现明显的陶土材质质感？\", \"yes_rule\": \"主要人物雕塑呈土褐、灰褐等陶土色泽，并具有哑光、粗粝或烧制陶塑表面感\", \"no_rule\": \"人物清晰但呈真人皮肤、金属、塑料或其他明显非陶土材质\", \"uncertain_rule\": \"光照、清晰度或画面尺寸不足以判断材质\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F4\", \"question\": \"视频中的陶俑是否排列在由土质隔墙分隔的长方形坑道内？\", \"yes_rule\": \"可见陶俑位于长方形考古坑道中，坑道之间由土质隔墙分隔\", \"no_rule\": \"陶俑主体清晰，但位于普通室内地面、广场或没有土质隔墙分隔的空间\", \"uncertain_rule\": \"坑道边界或隔墙被遮挡，无法判断空间布局\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 9.816,
+        "requested_sec": 4.908,
+        "actual_sec": 4.9,
+        "absolute_pts_sec": 4.9,
+        "frame_index": 147,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T01/source/50.jpg",
+        "sha256": "80d11de85dfc2701565b2d2a451b011aadd8196ba588eb1f45dff0ed301bf2dc",
+        "attempts": [
+          {
+            "index": 147,
+            "pts_sec": 4.9,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T01/T01_G3_r01/50.jpg",
+        "sha256": "5884e45fbdc0579ef7121cdef86b98265b44818b81072ba6e17edf5cce016257",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T01_T01_G4_r01",
+    "task_id": "T01",
+    "video_id": "T01_G4_r01",
+    "question_ids": [
+      "T01-F1",
+      "T01-F2",
+      "T01-F3",
+      "T01-F4"
+    ],
+    "question_sha256": "8b4d8b36c07b3ad5f0a1407f262969e13eaa18760c3ed93c822ef47009fc185b",
+    "reference_sha256": "cd719121d9af90a512142d3805587fa631d11b8b7a291399964313a8119bcb71",
+    "evidence_sha256": "738551ca993490cdd4cc66402e8fcc1713ee20303b1b83d3585e742f707513e2",
+    "source_evidence_sha256": "b3b6028d05282848ff85f3c05072038dae24501f724450f0a0d8da94193a5b3e",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T01-F1\", \"question\": \"视频中是否出现多排整齐排列的人物陶俑面向镜头？\", \"yes_rule\": \"同一画面可见至少两排人物陶俑有序排列，且主体整体朝向镜头或可见正面/侧正面\", \"no_rule\": \"人物主体清晰，但未形成至少两排有序陶俑军阵，或整体背向镜头\", \"uncertain_rule\": \"人物过小、严重遮挡，无法判断排列层次或朝向\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F2\", \"question\": \"视频中的陶俑是否具有古代军士的服饰或甲胄特征？\", \"yes_rule\": \"至少一个主要陶俑可辨认古代军士服饰、发髻或甲胄特征\", \"no_rule\": \"陶俑主体清晰，但呈现代人物、普通雕像或缺少古代军士造型\", \"uncertain_rule\": \"服饰和甲胄细节过小、模糊或被遮挡\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F3\", \"question\": \"视频中的人物雕塑是否呈现明显的陶土材质质感？\", \"yes_rule\": \"主要人物雕塑呈土褐、灰褐等陶土色泽，并具有哑光、粗粝或烧制陶塑表面感\", \"no_rule\": \"人物清晰但呈真人皮肤、金属、塑料或其他明显非陶土材质\", \"uncertain_rule\": \"光照、清晰度或画面尺寸不足以判断材质\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T01-F4\", \"question\": \"视频中的陶俑是否排列在由土质隔墙分隔的长方形坑道内？\", \"yes_rule\": \"可见陶俑位于长方形考古坑道中，坑道之间由土质隔墙分隔\", \"no_rule\": \"陶俑主体清晰，但位于普通室内地面、广场或没有土质隔墙分隔的空间\", \"uncertain_rule\": \"坑道边界或隔墙被遮挡，无法判断空间布局\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 9.816,
+        "requested_sec": 4.908,
+        "actual_sec": 4.9,
+        "absolute_pts_sec": 4.9,
+        "frame_index": 147,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T01/source/50.jpg",
+        "sha256": "80d11de85dfc2701565b2d2a451b011aadd8196ba588eb1f45dff0ed301bf2dc",
+        "attempts": [
+          {
+            "index": 147,
+            "pts_sec": 4.9,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T01/T01_G4_r01/50.jpg",
+        "sha256": "3aa8be6aba25f853820444cfbcd67b563dab659d66a74e1dcd67f705e6a542d6",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T04_source",
+    "task_id": "T04",
+    "video_id": "source",
+    "question_ids": [
+      "T04-F1",
+      "T04-F2",
+      "T04-F3",
+      "T04-F4"
+    ],
+    "question_sha256": "f13b9591e96ef6faef3683c8c0f1449600df5d875792195b790a0164131738ba",
+    "reference_sha256": "c5914724891bedece8a6ee4ab5641c7e5e7ce37b5b8acb74f2650da450d37a87",
+    "evidence_sha256": "35b1e2091beb9dccbfb713aa0c11fb0659f23791229af2980e92d2214c065dc4",
+    "source_evidence_sha256": "35b1e2091beb9dccbfb713aa0c11fb0659f23791229af2980e92d2214c065dc4",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。所给1张图片均为原视频关键帧；每题frames数组必须恰有1项。overall_form固定返回Match。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T04-F1\", \"question\": \"视频中的船只是否具有狭长的传统木质船体？\", \"yes_rule\": \"主要船只呈狭长传统中式船形，并可见木质色泽、纹理或木构外观\", \"no_rule\": \"船只清晰但为现代快艇、金属船或不具狭长传统木船形态\", \"uncertain_rule\": \"船体遮挡、过小或材质无法辨认\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F2\", \"question\": \"船体上方是否存在带有传统中式屋顶的船舱？\", \"yes_rule\": \"船体上方可见连续船舱，船舱顶部具有传统中式坡屋顶、瓦顶或飞檐式轮廓\", \"no_rule\": \"船体清晰但无有顶船舱，或船舱仅为现代平顶/封闭舱体\", \"uncertain_rule\": \"船舱顶部未入画、被遮挡或轮廓无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F3\", \"question\": \"视频中的船只是否呈现有顶船舱与前后露出船体部分的分段结构？\", \"yes_rule\": \"可同时辨认中部或主要有顶舱段，以及舱体前后至少一端露出的船体部分，形成明确分段\", \"no_rule\": \"船只清晰但舱体覆盖全部船身，或无法区分舱段与前后船体\", \"uncertain_rule\": \"视角或遮挡导致船体分段关系无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F4\", \"question\": \"视频中是否能够辨认停泊在湖面上的较完整船体轮廓？\", \"yes_rule\": \"船只与湖面接触关系清楚，船体大部分轮廓可见并呈停泊状态\", \"no_rule\": \"船体明显残缺、离开水面，或主体不是停泊在湖面上的船只\", \"uncertain_rule\": \"水面关系、船体轮廓或运动状态无法判断\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 2.819,
+        "requested_sec": 1.4095,
+        "actual_sec": 1.4,
+        "absolute_pts_sec": 1.4,
+        "frame_index": 42,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T04/source/50.jpg",
+        "sha256": "c7d294375942f1ab464983f3d66434e52f0e7a0562f3cc6520601d105f7b7209",
+        "attempts": [
+          {
+            "index": 42,
+            "pts_sec": 1.4,
+            "black": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T04_T04_G1_r01",
+    "task_id": "T04",
+    "video_id": "T04_G1_r01",
+    "question_ids": [
+      "T04-F1",
+      "T04-F2",
+      "T04-F3",
+      "T04-F4"
+    ],
+    "question_sha256": "f13b9591e96ef6faef3683c8c0f1449600df5d875792195b790a0164131738ba",
+    "reference_sha256": "c5914724891bedece8a6ee4ab5641c7e5e7ce37b5b8acb74f2650da450d37a87",
+    "evidence_sha256": "4343616f00c25d40e86009e690705f581042a428279dfdaa8aa10226de1c7ef2",
+    "source_evidence_sha256": "35b1e2091beb9dccbfb713aa0c11fb0659f23791229af2980e92d2214c065dc4",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T04-F1\", \"question\": \"视频中的船只是否具有狭长的传统木质船体？\", \"yes_rule\": \"主要船只呈狭长传统中式船形，并可见木质色泽、纹理或木构外观\", \"no_rule\": \"船只清晰但为现代快艇、金属船或不具狭长传统木船形态\", \"uncertain_rule\": \"船体遮挡、过小或材质无法辨认\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F2\", \"question\": \"船体上方是否存在带有传统中式屋顶的船舱？\", \"yes_rule\": \"船体上方可见连续船舱，船舱顶部具有传统中式坡屋顶、瓦顶或飞檐式轮廓\", \"no_rule\": \"船体清晰但无有顶船舱，或船舱仅为现代平顶/封闭舱体\", \"uncertain_rule\": \"船舱顶部未入画、被遮挡或轮廓无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F3\", \"question\": \"视频中的船只是否呈现有顶船舱与前后露出船体部分的分段结构？\", \"yes_rule\": \"可同时辨认中部或主要有顶舱段，以及舱体前后至少一端露出的船体部分，形成明确分段\", \"no_rule\": \"船只清晰但舱体覆盖全部船身，或无法区分舱段与前后船体\", \"uncertain_rule\": \"视角或遮挡导致船体分段关系无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F4\", \"question\": \"视频中是否能够辨认停泊在湖面上的较完整船体轮廓？\", \"yes_rule\": \"船只与湖面接触关系清楚，船体大部分轮廓可见并呈停泊状态\", \"no_rule\": \"船体明显残缺、离开水面，或主体不是停泊在湖面上的船只\", \"uncertain_rule\": \"水面关系、船体轮廓或运动状态无法判断\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 2.819,
+        "requested_sec": 1.4095,
+        "actual_sec": 1.4,
+        "absolute_pts_sec": 1.4,
+        "frame_index": 42,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T04/source/50.jpg",
+        "sha256": "c7d294375942f1ab464983f3d66434e52f0e7a0562f3cc6520601d105f7b7209",
+        "attempts": [
+          {
+            "index": 42,
+            "pts_sec": 1.4,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T04/T04_G1_r01/50.jpg",
+        "sha256": "85fddd27f44d06dbe37bd99f4219beb650a2cf2551a334f1d97dd093cda1d75c",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T04_T04_G2_r01",
+    "task_id": "T04",
+    "video_id": "T04_G2_r01",
+    "question_ids": [
+      "T04-F1",
+      "T04-F2",
+      "T04-F3",
+      "T04-F4"
+    ],
+    "question_sha256": "f13b9591e96ef6faef3683c8c0f1449600df5d875792195b790a0164131738ba",
+    "reference_sha256": "c5914724891bedece8a6ee4ab5641c7e5e7ce37b5b8acb74f2650da450d37a87",
+    "evidence_sha256": "125fb19bd07d82616476e211078f08eda8d6d43ba48ac72f2095edbc3196f2c9",
+    "source_evidence_sha256": "35b1e2091beb9dccbfb713aa0c11fb0659f23791229af2980e92d2214c065dc4",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T04-F1\", \"question\": \"视频中的船只是否具有狭长的传统木质船体？\", \"yes_rule\": \"主要船只呈狭长传统中式船形，并可见木质色泽、纹理或木构外观\", \"no_rule\": \"船只清晰但为现代快艇、金属船或不具狭长传统木船形态\", \"uncertain_rule\": \"船体遮挡、过小或材质无法辨认\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F2\", \"question\": \"船体上方是否存在带有传统中式屋顶的船舱？\", \"yes_rule\": \"船体上方可见连续船舱，船舱顶部具有传统中式坡屋顶、瓦顶或飞檐式轮廓\", \"no_rule\": \"船体清晰但无有顶船舱，或船舱仅为现代平顶/封闭舱体\", \"uncertain_rule\": \"船舱顶部未入画、被遮挡或轮廓无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F3\", \"question\": \"视频中的船只是否呈现有顶船舱与前后露出船体部分的分段结构？\", \"yes_rule\": \"可同时辨认中部或主要有顶舱段，以及舱体前后至少一端露出的船体部分，形成明确分段\", \"no_rule\": \"船只清晰但舱体覆盖全部船身，或无法区分舱段与前后船体\", \"uncertain_rule\": \"视角或遮挡导致船体分段关系无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F4\", \"question\": \"视频中是否能够辨认停泊在湖面上的较完整船体轮廓？\", \"yes_rule\": \"船只与湖面接触关系清楚，船体大部分轮廓可见并呈停泊状态\", \"no_rule\": \"船体明显残缺、离开水面，或主体不是停泊在湖面上的船只\", \"uncertain_rule\": \"水面关系、船体轮廓或运动状态无法判断\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 2.819,
+        "requested_sec": 1.4095,
+        "actual_sec": 1.4,
+        "absolute_pts_sec": 1.4,
+        "frame_index": 42,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T04/source/50.jpg",
+        "sha256": "c7d294375942f1ab464983f3d66434e52f0e7a0562f3cc6520601d105f7b7209",
+        "attempts": [
+          {
+            "index": 42,
+            "pts_sec": 1.4,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T04/T04_G2_r01/50.jpg",
+        "sha256": "a94d09c2e89c495f4d464c497b0c73dbcab32b8a6f29f3483ff1c6ebbfd69f6e",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T04_T04_G3_r01",
+    "task_id": "T04",
+    "video_id": "T04_G3_r01",
+    "question_ids": [
+      "T04-F1",
+      "T04-F2",
+      "T04-F3",
+      "T04-F4"
+    ],
+    "question_sha256": "f13b9591e96ef6faef3683c8c0f1449600df5d875792195b790a0164131738ba",
+    "reference_sha256": "c5914724891bedece8a6ee4ab5641c7e5e7ce37b5b8acb74f2650da450d37a87",
+    "evidence_sha256": "b48b0e322ff2b8a8dd580bef3dba5969fb23161bc60497c636b20b8fbfadd8ca",
+    "source_evidence_sha256": "35b1e2091beb9dccbfb713aa0c11fb0659f23791229af2980e92d2214c065dc4",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T04-F1\", \"question\": \"视频中的船只是否具有狭长的传统木质船体？\", \"yes_rule\": \"主要船只呈狭长传统中式船形，并可见木质色泽、纹理或木构外观\", \"no_rule\": \"船只清晰但为现代快艇、金属船或不具狭长传统木船形态\", \"uncertain_rule\": \"船体遮挡、过小或材质无法辨认\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F2\", \"question\": \"船体上方是否存在带有传统中式屋顶的船舱？\", \"yes_rule\": \"船体上方可见连续船舱，船舱顶部具有传统中式坡屋顶、瓦顶或飞檐式轮廓\", \"no_rule\": \"船体清晰但无有顶船舱，或船舱仅为现代平顶/封闭舱体\", \"uncertain_rule\": \"船舱顶部未入画、被遮挡或轮廓无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F3\", \"question\": \"视频中的船只是否呈现有顶船舱与前后露出船体部分的分段结构？\", \"yes_rule\": \"可同时辨认中部或主要有顶舱段，以及舱体前后至少一端露出的船体部分，形成明确分段\", \"no_rule\": \"船只清晰但舱体覆盖全部船身，或无法区分舱段与前后船体\", \"uncertain_rule\": \"视角或遮挡导致船体分段关系无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F4\", \"question\": \"视频中是否能够辨认停泊在湖面上的较完整船体轮廓？\", \"yes_rule\": \"船只与湖面接触关系清楚，船体大部分轮廓可见并呈停泊状态\", \"no_rule\": \"船体明显残缺、离开水面，或主体不是停泊在湖面上的船只\", \"uncertain_rule\": \"水面关系、船体轮廓或运动状态无法判断\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 2.819,
+        "requested_sec": 1.4095,
+        "actual_sec": 1.4,
+        "absolute_pts_sec": 1.4,
+        "frame_index": 42,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T04/source/50.jpg",
+        "sha256": "c7d294375942f1ab464983f3d66434e52f0e7a0562f3cc6520601d105f7b7209",
+        "attempts": [
+          {
+            "index": 42,
+            "pts_sec": 1.4,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T04/T04_G3_r01/50.jpg",
+        "sha256": "3a18391c927fb3f0d0e87f23ee314a098a98b9f1488dc7c0eca1739af7414987",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T04_T04_G4_r01",
+    "task_id": "T04",
+    "video_id": "T04_G4_r01",
+    "question_ids": [
+      "T04-F1",
+      "T04-F2",
+      "T04-F3",
+      "T04-F4"
+    ],
+    "question_sha256": "f13b9591e96ef6faef3683c8c0f1449600df5d875792195b790a0164131738ba",
+    "reference_sha256": "c5914724891bedece8a6ee4ab5641c7e5e7ce37b5b8acb74f2650da450d37a87",
+    "evidence_sha256": "8d4f237d1db9c375f09d830c9d7a776a5f8b6fd12d90bc0f94da0b8ff1e9f350",
+    "source_evidence_sha256": "35b1e2091beb9dccbfb713aa0c11fb0659f23791229af2980e92d2214c065dc4",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T04-F1\", \"question\": \"视频中的船只是否具有狭长的传统木质船体？\", \"yes_rule\": \"主要船只呈狭长传统中式船形，并可见木质色泽、纹理或木构外观\", \"no_rule\": \"船只清晰但为现代快艇、金属船或不具狭长传统木船形态\", \"uncertain_rule\": \"船体遮挡、过小或材质无法辨认\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F2\", \"question\": \"船体上方是否存在带有传统中式屋顶的船舱？\", \"yes_rule\": \"船体上方可见连续船舱，船舱顶部具有传统中式坡屋顶、瓦顶或飞檐式轮廓\", \"no_rule\": \"船体清晰但无有顶船舱，或船舱仅为现代平顶/封闭舱体\", \"uncertain_rule\": \"船舱顶部未入画、被遮挡或轮廓无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F3\", \"question\": \"视频中的船只是否呈现有顶船舱与前后露出船体部分的分段结构？\", \"yes_rule\": \"可同时辨认中部或主要有顶舱段，以及舱体前后至少一端露出的船体部分，形成明确分段\", \"no_rule\": \"船只清晰但舱体覆盖全部船身，或无法区分舱段与前后船体\", \"uncertain_rule\": \"视角或遮挡导致船体分段关系无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T04-F4\", \"question\": \"视频中是否能够辨认停泊在湖面上的较完整船体轮廓？\", \"yes_rule\": \"船只与湖面接触关系清楚，船体大部分轮廓可见并呈停泊状态\", \"no_rule\": \"船体明显残缺、离开水面，或主体不是停泊在湖面上的船只\", \"uncertain_rule\": \"水面关系、船体轮廓或运动状态无法判断\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 2.819,
+        "requested_sec": 1.4095,
+        "actual_sec": 1.4,
+        "absolute_pts_sec": 1.4,
+        "frame_index": 42,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T04/source/50.jpg",
+        "sha256": "c7d294375942f1ab464983f3d66434e52f0e7a0562f3cc6520601d105f7b7209",
+        "attempts": [
+          {
+            "index": 42,
+            "pts_sec": 1.4,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T04/T04_G4_r01/50.jpg",
+        "sha256": "b1015a92aebbc97fe55d7342cdf3a4163d212f0ff53f2a37fc5295b45fdcfe11",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T06_source",
+    "task_id": "T06",
+    "video_id": "source",
+    "question_ids": [
+      "T06-F1",
+      "T06-F2",
+      "T06-F4"
+    ],
+    "question_sha256": "ed23cb93a5eace28dfab94d2ecff8c6f5c0e6228e0ca2bc25fbec60714277add",
+    "reference_sha256": "a6a6e344bba42d37b495c8fcd6468d3a9ca5fd2ff3368af370034f2e72cc00b8",
+    "evidence_sha256": "5bd8a147fd75bcf199bac1eb87f1cbe5d3c6e366a1ed5f94be3e6cced120ab52",
+    "source_evidence_sha256": "5bd8a147fd75bcf199bac1eb87f1cbe5d3c6e366a1ed5f94be3e6cced120ab52",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。所给1张图片均为原视频关键帧；每题frames数组必须恰有1项。overall_form固定返回Match。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T06-F1\", \"question\": \"视频中是否出现两个平面剪影式的皮影人物？\", \"yes_rule\": \"同一表演画面可见两个扁平、透光或剪影式皮影人物\", \"no_rule\": \"主体清晰但不是皮影人物，或只出现一个皮影人物\", \"uncertain_rule\": \"人物过小、重叠、遮挡或画面模糊，无法判断数量及平面皮影形态\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T06-F2\", \"question\": \"舞台背景是否出现传统中式建筑图案或亭阁造型？\", \"yes_rule\": \"幕布或舞台装饰中可见传统中式屋顶、门楼、亭阁或相应建筑图案\", \"no_rule\": \"背景清晰但仅为普通空白幕布、现代建筑或无中式建筑装饰\", \"uncertain_rule\": \"背景过暗、过曝、遮挡或细节不足\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T06-F4\", \"question\": \"视频中的两个皮影人物是否分别具有孙悟空和白骨精的可辨认角色特征？\", \"yes_rule\": \"两个角色可分别凭稳定可见的标志性造型辨认为孙悟空与白骨精，例如孙悟空的猴相/金箍棒及白骨精的女性妖怪或白骨主题造型\", \"no_rule\": \"两个主体清晰但角色造型不对应孙悟空和白骨精，或只能辨认其中一个角色\", \"uncertain_rule\": \"缺少足够标志性特征，虽为皮影人物但无法可靠确认两者身份\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 13.032,
+        "requested_sec": 6.516,
+        "actual_sec": 6.5,
+        "absolute_pts_sec": 6.5,
+        "frame_index": 195,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T06/source/50.jpg",
+        "sha256": "80de00ee2d169720df4ce6568d9b1bc743a2b53ea1a07a77d01ebe5d00c82c53",
+        "attempts": [
+          {
+            "index": 195,
+            "pts_sec": 6.5,
+            "black": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T06_T06_G1_r01",
+    "task_id": "T06",
+    "video_id": "T06_G1_r01",
+    "question_ids": [
+      "T06-F1",
+      "T06-F2",
+      "T06-F4"
+    ],
+    "question_sha256": "ed23cb93a5eace28dfab94d2ecff8c6f5c0e6228e0ca2bc25fbec60714277add",
+    "reference_sha256": "a6a6e344bba42d37b495c8fcd6468d3a9ca5fd2ff3368af370034f2e72cc00b8",
+    "evidence_sha256": "8552038fbb9ef0122d246c7fe379882034f1e1fa322119c2d0ffdf57b5de20ce",
+    "source_evidence_sha256": "5bd8a147fd75bcf199bac1eb87f1cbe5d3c6e366a1ed5f94be3e6cced120ab52",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T06-F1\", \"question\": \"视频中是否出现两个平面剪影式的皮影人物？\", \"yes_rule\": \"同一表演画面可见两个扁平、透光或剪影式皮影人物\", \"no_rule\": \"主体清晰但不是皮影人物，或只出现一个皮影人物\", \"uncertain_rule\": \"人物过小、重叠、遮挡或画面模糊，无法判断数量及平面皮影形态\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T06-F2\", \"question\": \"舞台背景是否出现传统中式建筑图案或亭阁造型？\", \"yes_rule\": \"幕布或舞台装饰中可见传统中式屋顶、门楼、亭阁或相应建筑图案\", \"no_rule\": \"背景清晰但仅为普通空白幕布、现代建筑或无中式建筑装饰\", \"uncertain_rule\": \"背景过暗、过曝、遮挡或细节不足\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T06-F4\", \"question\": \"视频中的两个皮影人物是否分别具有孙悟空和白骨精的可辨认角色特征？\", \"yes_rule\": \"两个角色可分别凭稳定可见的标志性造型辨认为孙悟空与白骨精，例如孙悟空的猴相/金箍棒及白骨精的女性妖怪或白骨主题造型\", \"no_rule\": \"两个主体清晰但角色造型不对应孙悟空和白骨精，或只能辨认其中一个角色\", \"uncertain_rule\": \"缺少足够标志性特征，虽为皮影人物但无法可靠确认两者身份\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 13.032,
+        "requested_sec": 6.516,
+        "actual_sec": 6.5,
+        "absolute_pts_sec": 6.5,
+        "frame_index": 195,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T06/source/50.jpg",
+        "sha256": "80de00ee2d169720df4ce6568d9b1bc743a2b53ea1a07a77d01ebe5d00c82c53",
+        "attempts": [
+          {
+            "index": 195,
+            "pts_sec": 6.5,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T06/T06_G1_r01/50.jpg",
+        "sha256": "4c3d2ab2de8107bbea67533c5b9928076c601fc3af7efbc16c5cb260264787c6",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T06_T06_G2_r01",
+    "task_id": "T06",
+    "video_id": "T06_G2_r01",
+    "question_ids": [
+      "T06-F1",
+      "T06-F2",
+      "T06-F4"
+    ],
+    "question_sha256": "ed23cb93a5eace28dfab94d2ecff8c6f5c0e6228e0ca2bc25fbec60714277add",
+    "reference_sha256": "a6a6e344bba42d37b495c8fcd6468d3a9ca5fd2ff3368af370034f2e72cc00b8",
+    "evidence_sha256": "5c818e0cc90051f74317e8d422d908e11d380681de0b8eb37e7080d0a8ddcdba",
+    "source_evidence_sha256": "5bd8a147fd75bcf199bac1eb87f1cbe5d3c6e366a1ed5f94be3e6cced120ab52",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T06-F1\", \"question\": \"视频中是否出现两个平面剪影式的皮影人物？\", \"yes_rule\": \"同一表演画面可见两个扁平、透光或剪影式皮影人物\", \"no_rule\": \"主体清晰但不是皮影人物，或只出现一个皮影人物\", \"uncertain_rule\": \"人物过小、重叠、遮挡或画面模糊，无法判断数量及平面皮影形态\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T06-F2\", \"question\": \"舞台背景是否出现传统中式建筑图案或亭阁造型？\", \"yes_rule\": \"幕布或舞台装饰中可见传统中式屋顶、门楼、亭阁或相应建筑图案\", \"no_rule\": \"背景清晰但仅为普通空白幕布、现代建筑或无中式建筑装饰\", \"uncertain_rule\": \"背景过暗、过曝、遮挡或细节不足\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T06-F4\", \"question\": \"视频中的两个皮影人物是否分别具有孙悟空和白骨精的可辨认角色特征？\", \"yes_rule\": \"两个角色可分别凭稳定可见的标志性造型辨认为孙悟空与白骨精，例如孙悟空的猴相/金箍棒及白骨精的女性妖怪或白骨主题造型\", \"no_rule\": \"两个主体清晰但角色造型不对应孙悟空和白骨精，或只能辨认其中一个角色\", \"uncertain_rule\": \"缺少足够标志性特征，虽为皮影人物但无法可靠确认两者身份\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 13.032,
+        "requested_sec": 6.516,
+        "actual_sec": 6.5,
+        "absolute_pts_sec": 6.5,
+        "frame_index": 195,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T06/source/50.jpg",
+        "sha256": "80de00ee2d169720df4ce6568d9b1bc743a2b53ea1a07a77d01ebe5d00c82c53",
+        "attempts": [
+          {
+            "index": 195,
+            "pts_sec": 6.5,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T06/T06_G2_r01/50.jpg",
+        "sha256": "131c522868a6735c1188d742461310573816e26dc11bf93951645084479c7cf9",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T06_T06_G3_r01",
+    "task_id": "T06",
+    "video_id": "T06_G3_r01",
+    "question_ids": [
+      "T06-F1",
+      "T06-F2",
+      "T06-F4"
+    ],
+    "question_sha256": "ed23cb93a5eace28dfab94d2ecff8c6f5c0e6228e0ca2bc25fbec60714277add",
+    "reference_sha256": "a6a6e344bba42d37b495c8fcd6468d3a9ca5fd2ff3368af370034f2e72cc00b8",
+    "evidence_sha256": "92ddc754091984be62286f68b469884ad93818530ebb202693fad25c6021c244",
+    "source_evidence_sha256": "5bd8a147fd75bcf199bac1eb87f1cbe5d3c6e366a1ed5f94be3e6cced120ab52",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T06-F1\", \"question\": \"视频中是否出现两个平面剪影式的皮影人物？\", \"yes_rule\": \"同一表演画面可见两个扁平、透光或剪影式皮影人物\", \"no_rule\": \"主体清晰但不是皮影人物，或只出现一个皮影人物\", \"uncertain_rule\": \"人物过小、重叠、遮挡或画面模糊，无法判断数量及平面皮影形态\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T06-F2\", \"question\": \"舞台背景是否出现传统中式建筑图案或亭阁造型？\", \"yes_rule\": \"幕布或舞台装饰中可见传统中式屋顶、门楼、亭阁或相应建筑图案\", \"no_rule\": \"背景清晰但仅为普通空白幕布、现代建筑或无中式建筑装饰\", \"uncertain_rule\": \"背景过暗、过曝、遮挡或细节不足\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T06-F4\", \"question\": \"视频中的两个皮影人物是否分别具有孙悟空和白骨精的可辨认角色特征？\", \"yes_rule\": \"两个角色可分别凭稳定可见的标志性造型辨认为孙悟空与白骨精，例如孙悟空的猴相/金箍棒及白骨精的女性妖怪或白骨主题造型\", \"no_rule\": \"两个主体清晰但角色造型不对应孙悟空和白骨精，或只能辨认其中一个角色\", \"uncertain_rule\": \"缺少足够标志性特征，虽为皮影人物但无法可靠确认两者身份\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 13.032,
+        "requested_sec": 6.516,
+        "actual_sec": 6.5,
+        "absolute_pts_sec": 6.5,
+        "frame_index": 195,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T06/source/50.jpg",
+        "sha256": "80de00ee2d169720df4ce6568d9b1bc743a2b53ea1a07a77d01ebe5d00c82c53",
+        "attempts": [
+          {
+            "index": 195,
+            "pts_sec": 6.5,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T06/T06_G3_r01/50.jpg",
+        "sha256": "3522394ac4363139a64c2b9b570eb840245735c81e63774bffc7ff4783554e4d",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T06_T06_G4_r01",
+    "task_id": "T06",
+    "video_id": "T06_G4_r01",
+    "question_ids": [
+      "T06-F1",
+      "T06-F2",
+      "T06-F4"
+    ],
+    "question_sha256": "ed23cb93a5eace28dfab94d2ecff8c6f5c0e6228e0ca2bc25fbec60714277add",
+    "reference_sha256": "a6a6e344bba42d37b495c8fcd6468d3a9ca5fd2ff3368af370034f2e72cc00b8",
+    "evidence_sha256": "ec2e39c62fe851f0e2ac293ea36fbdb41565eb189db994413bd5f80bd338ea4e",
+    "source_evidence_sha256": "5bd8a147fd75bcf199bac1eb87f1cbe5d3c6e366a1ed5f94be3e6cced120ab52",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T06-F1\", \"question\": \"视频中是否出现两个平面剪影式的皮影人物？\", \"yes_rule\": \"同一表演画面可见两个扁平、透光或剪影式皮影人物\", \"no_rule\": \"主体清晰但不是皮影人物，或只出现一个皮影人物\", \"uncertain_rule\": \"人物过小、重叠、遮挡或画面模糊，无法判断数量及平面皮影形态\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T06-F2\", \"question\": \"舞台背景是否出现传统中式建筑图案或亭阁造型？\", \"yes_rule\": \"幕布或舞台装饰中可见传统中式屋顶、门楼、亭阁或相应建筑图案\", \"no_rule\": \"背景清晰但仅为普通空白幕布、现代建筑或无中式建筑装饰\", \"uncertain_rule\": \"背景过暗、过曝、遮挡或细节不足\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T06-F4\", \"question\": \"视频中的两个皮影人物是否分别具有孙悟空和白骨精的可辨认角色特征？\", \"yes_rule\": \"两个角色可分别凭稳定可见的标志性造型辨认为孙悟空与白骨精，例如孙悟空的猴相/金箍棒及白骨精的女性妖怪或白骨主题造型\", \"no_rule\": \"两个主体清晰但角色造型不对应孙悟空和白骨精，或只能辨认其中一个角色\", \"uncertain_rule\": \"缺少足够标志性特征，虽为皮影人物但无法可靠确认两者身份\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 13.032,
+        "requested_sec": 6.516,
+        "actual_sec": 6.5,
+        "absolute_pts_sec": 6.5,
+        "frame_index": 195,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T06/source/50.jpg",
+        "sha256": "80de00ee2d169720df4ce6568d9b1bc743a2b53ea1a07a77d01ebe5d00c82c53",
+        "attempts": [
+          {
+            "index": 195,
+            "pts_sec": 6.5,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T06/T06_G4_r01/50.jpg",
+        "sha256": "640448cc6f7c40cd48ccb98b106f00a9a5e712904827d01f2e2648e47352f5e7",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T07_source",
+    "task_id": "T07",
+    "video_id": "source",
+    "question_ids": [
+      "T07-F1",
+      "T07-F2"
+    ],
+    "question_sha256": "1be1fd7a15aaf428139a1543cf0ab2e2205df8958f2be461bea3e73c929bccef",
+    "reference_sha256": "209943ffdc2fd9ccf6b37c857df66537018f07e27b1b69273c3cecaec4658b7a",
+    "evidence_sha256": "ee03d032a1dba9b70540b96d077a57350d6b00f731938b203328710890590bcb",
+    "source_evidence_sha256": "ee03d032a1dba9b70540b96d077a57350d6b00f731938b203328710890590bcb",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。所给1张图片均为原视频关键帧；每题frames数组必须恰有1项。overall_form固定返回Match。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T07-F1\", \"question\": \"视频中是否出现竖直位于发射工位的大型运载火箭？\", \"yes_rule\": \"可见大型运载火箭竖直立于明确的发射工位或发射平台区域\", \"no_rule\": \"主体清晰但不是大型运载火箭，或火箭不在发射工位\", \"uncertain_rule\": \"火箭主体、姿态或工位关系被遮挡而无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T07-F2\", \"question\": \"火箭旁是否出现高大的金属桁架发射塔架？\", \"yes_rule\": \"火箭旁可见高度与其相当或更高的金属桁架式发射塔架/勤务塔\", \"no_rule\": \"火箭周边清晰但不存在高大金属桁架塔架\", \"uncertain_rule\": \"塔架区域未入画、严重遮挡或结构细节不足\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 8.762,
+        "requested_sec": 4.381,
+        "actual_sec": 4.371,
+        "absolute_pts_sec": 4.371,
+        "frame_index": 131,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T07/source/50.jpg",
+        "sha256": "fd364b221dca1b1113e4346222bf101151cb23162636614d7411b626b641d8ed",
+        "attempts": [
+          {
+            "index": 131,
+            "pts_sec": 4.371,
+            "black": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T07_T07_G1_r01",
+    "task_id": "T07",
+    "video_id": "T07_G1_r01",
+    "question_ids": [
+      "T07-F1",
+      "T07-F2"
+    ],
+    "question_sha256": "1be1fd7a15aaf428139a1543cf0ab2e2205df8958f2be461bea3e73c929bccef",
+    "reference_sha256": "209943ffdc2fd9ccf6b37c857df66537018f07e27b1b69273c3cecaec4658b7a",
+    "evidence_sha256": "6f9f041864e238c3ab714db48a2d694218348b07a59fd37e1f7ef99d4f976045",
+    "source_evidence_sha256": "ee03d032a1dba9b70540b96d077a57350d6b00f731938b203328710890590bcb",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T07-F1\", \"question\": \"视频中是否出现竖直位于发射工位的大型运载火箭？\", \"yes_rule\": \"可见大型运载火箭竖直立于明确的发射工位或发射平台区域\", \"no_rule\": \"主体清晰但不是大型运载火箭，或火箭不在发射工位\", \"uncertain_rule\": \"火箭主体、姿态或工位关系被遮挡而无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T07-F2\", \"question\": \"火箭旁是否出现高大的金属桁架发射塔架？\", \"yes_rule\": \"火箭旁可见高度与其相当或更高的金属桁架式发射塔架/勤务塔\", \"no_rule\": \"火箭周边清晰但不存在高大金属桁架塔架\", \"uncertain_rule\": \"塔架区域未入画、严重遮挡或结构细节不足\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 8.762,
+        "requested_sec": 4.381,
+        "actual_sec": 4.371,
+        "absolute_pts_sec": 4.371,
+        "frame_index": 131,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T07/source/50.jpg",
+        "sha256": "fd364b221dca1b1113e4346222bf101151cb23162636614d7411b626b641d8ed",
+        "attempts": [
+          {
+            "index": 131,
+            "pts_sec": 4.371,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T07/T07_G1_r01/50.jpg",
+        "sha256": "3adf2f449ab27ea4306b70dfa7b4649e9aa9623c1499eb5f92f761f01af6dcfd",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T07_T07_G2_r01",
+    "task_id": "T07",
+    "video_id": "T07_G2_r01",
+    "question_ids": [
+      "T07-F1",
+      "T07-F2"
+    ],
+    "question_sha256": "1be1fd7a15aaf428139a1543cf0ab2e2205df8958f2be461bea3e73c929bccef",
+    "reference_sha256": "209943ffdc2fd9ccf6b37c857df66537018f07e27b1b69273c3cecaec4658b7a",
+    "evidence_sha256": "12678393a9221df28fc678c1ede0b64b2dc0707078bc464279ec834c604f5c84",
+    "source_evidence_sha256": "ee03d032a1dba9b70540b96d077a57350d6b00f731938b203328710890590bcb",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T07-F1\", \"question\": \"视频中是否出现竖直位于发射工位的大型运载火箭？\", \"yes_rule\": \"可见大型运载火箭竖直立于明确的发射工位或发射平台区域\", \"no_rule\": \"主体清晰但不是大型运载火箭，或火箭不在发射工位\", \"uncertain_rule\": \"火箭主体、姿态或工位关系被遮挡而无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T07-F2\", \"question\": \"火箭旁是否出现高大的金属桁架发射塔架？\", \"yes_rule\": \"火箭旁可见高度与其相当或更高的金属桁架式发射塔架/勤务塔\", \"no_rule\": \"火箭周边清晰但不存在高大金属桁架塔架\", \"uncertain_rule\": \"塔架区域未入画、严重遮挡或结构细节不足\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 8.762,
+        "requested_sec": 4.381,
+        "actual_sec": 4.371,
+        "absolute_pts_sec": 4.371,
+        "frame_index": 131,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T07/source/50.jpg",
+        "sha256": "fd364b221dca1b1113e4346222bf101151cb23162636614d7411b626b641d8ed",
+        "attempts": [
+          {
+            "index": 131,
+            "pts_sec": 4.371,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T07/T07_G2_r01/50.jpg",
+        "sha256": "80be6a67543d155f2e9e57eacb8f51899d0f5d22f1ff5cda6aae44f01d435866",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T07_T07_G3_r01",
+    "task_id": "T07",
+    "video_id": "T07_G3_r01",
+    "question_ids": [
+      "T07-F1",
+      "T07-F2"
+    ],
+    "question_sha256": "1be1fd7a15aaf428139a1543cf0ab2e2205df8958f2be461bea3e73c929bccef",
+    "reference_sha256": "209943ffdc2fd9ccf6b37c857df66537018f07e27b1b69273c3cecaec4658b7a",
+    "evidence_sha256": "65c89d11975f0bea3c5f62332ccb2246dcf90f5fba451149ef1b955f0cd3962c",
+    "source_evidence_sha256": "ee03d032a1dba9b70540b96d077a57350d6b00f731938b203328710890590bcb",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T07-F1\", \"question\": \"视频中是否出现竖直位于发射工位的大型运载火箭？\", \"yes_rule\": \"可见大型运载火箭竖直立于明确的发射工位或发射平台区域\", \"no_rule\": \"主体清晰但不是大型运载火箭，或火箭不在发射工位\", \"uncertain_rule\": \"火箭主体、姿态或工位关系被遮挡而无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T07-F2\", \"question\": \"火箭旁是否出现高大的金属桁架发射塔架？\", \"yes_rule\": \"火箭旁可见高度与其相当或更高的金属桁架式发射塔架/勤务塔\", \"no_rule\": \"火箭周边清晰但不存在高大金属桁架塔架\", \"uncertain_rule\": \"塔架区域未入画、严重遮挡或结构细节不足\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 8.762,
+        "requested_sec": 4.381,
+        "actual_sec": 4.371,
+        "absolute_pts_sec": 4.371,
+        "frame_index": 131,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T07/source/50.jpg",
+        "sha256": "fd364b221dca1b1113e4346222bf101151cb23162636614d7411b626b641d8ed",
+        "attempts": [
+          {
+            "index": 131,
+            "pts_sec": 4.371,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T07/T07_G3_r01/50.jpg",
+        "sha256": "cdef42a119c1492c16f3e9cdcebd1d47f1dc4920c508e178059c505164b02991",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T07_T07_G4_r01",
+    "task_id": "T07",
+    "video_id": "T07_G4_r01",
+    "question_ids": [
+      "T07-F1",
+      "T07-F2"
+    ],
+    "question_sha256": "1be1fd7a15aaf428139a1543cf0ab2e2205df8958f2be461bea3e73c929bccef",
+    "reference_sha256": "209943ffdc2fd9ccf6b37c857df66537018f07e27b1b69273c3cecaec4658b7a",
+    "evidence_sha256": "23b8a05f82cc47d949c1c84fc6a312d19daa45799832aa16bb9cec73d2f055fa",
+    "source_evidence_sha256": "ee03d032a1dba9b70540b96d077a57350d6b00f731938b203328710890590bcb",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T07-F1\", \"question\": \"视频中是否出现竖直位于发射工位的大型运载火箭？\", \"yes_rule\": \"可见大型运载火箭竖直立于明确的发射工位或发射平台区域\", \"no_rule\": \"主体清晰但不是大型运载火箭，或火箭不在发射工位\", \"uncertain_rule\": \"火箭主体、姿态或工位关系被遮挡而无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T07-F2\", \"question\": \"火箭旁是否出现高大的金属桁架发射塔架？\", \"yes_rule\": \"火箭旁可见高度与其相当或更高的金属桁架式发射塔架/勤务塔\", \"no_rule\": \"火箭周边清晰但不存在高大金属桁架塔架\", \"uncertain_rule\": \"塔架区域未入画、严重遮挡或结构细节不足\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 8.762,
+        "requested_sec": 4.381,
+        "actual_sec": 4.371,
+        "absolute_pts_sec": 4.371,
+        "frame_index": 131,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T07/source/50.jpg",
+        "sha256": "fd364b221dca1b1113e4346222bf101151cb23162636614d7411b626b641d8ed",
+        "attempts": [
+          {
+            "index": 131,
+            "pts_sec": 4.371,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T07/T07_G4_r01/50.jpg",
+        "sha256": "a14125de4659aace5acb3ae49ff36c3b3b53b34f8a7203b11e70231b6a15b8c6",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T10_source",
+    "task_id": "T10",
+    "video_id": "source",
+    "question_ids": [
+      "T10-F1",
+      "T10-F2",
+      "T10-F3",
+      "T10-F4"
+    ],
+    "question_sha256": "3ce483917b338bd92723bc9265295ff3d69aebed602f4603e2f0e493191e0d34",
+    "reference_sha256": "faa1cdc256f172aaab2eee03ecd60af09c5308d2b4a378fda195bcc4b389802f",
+    "evidence_sha256": "2780857e35acc4440d62b7c1c5dc3f8b70d72e1ba427fd01819ed43e9aae84d6",
+    "source_evidence_sha256": "2780857e35acc4440d62b7c1c5dc3f8b70d72e1ba427fd01819ed43e9aae84d6",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。所给1张图片均为原视频关键帧；每题frames数组必须恰有1项。overall_form固定返回Match。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T10-F1\", \"question\": \"视频中的主要塔楼是否具有多个大小不同的球形结构？\", \"yes_rule\": \"主要塔楼可见至少两个大小不同的球体\", \"no_rule\": \"塔楼清晰但少于两个球体，或球体大小没有可辨认差异\", \"uncertain_rule\": \"球体被遮挡、过小或画面裁切导致数量和大小无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F2\", \"question\": \"这些球形结构是否沿高耸的竖向塔身分布？\", \"yes_rule\": \"多个球体沿同一高耸竖向塔体上下分布，并形成完整组合关系\", \"no_rule\": \"球体清晰但未沿竖向塔身组织，或属于彼此无关的建筑\", \"uncertain_rule\": \"塔身或球体连接关系被遮挡、裁切或无法辨认\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F3\", \"question\": \"主要塔楼下部是否具有明显的倾斜支撑柱结构？\", \"yes_rule\": \"塔体下部可见明显斜向支撑柱，并与主塔形成承托关系\", \"no_rule\": \"塔楼下部清晰但只有垂直柱、普通基座或无斜向支撑\", \"uncertain_rule\": \"塔楼下部未入画、被背景遮挡或细节不足\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F4\", \"question\": \"东方明珠形态的塔楼是否位于画面中央且明显突出于其他背景建筑？\", \"yes_rule\": \"东方明珠形态塔楼位于画面中央或中央主要区域，是明确视觉焦点，其他高楼仅作背景\", \"no_rule\": \"塔楼明显偏离主要构图区域，或被其他建筑遮挡且不是视觉焦点\", \"uncertain_rule\": \"画面裁切、遮挡或构图不清，无法判断主体与背景关系\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.633,
+        "requested_sec": 2.8165,
+        "actual_sec": 2.8,
+        "absolute_pts_sec": 2.8,
+        "frame_index": 70,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T10/source/50.jpg",
+        "sha256": "0f33d3166651c8bfd68b2253d18008cb72185d6688a5dfea651576b18e97cc25",
+        "attempts": [
+          {
+            "index": 70,
+            "pts_sec": 2.8,
+            "black": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T10_T10_G1_r01",
+    "task_id": "T10",
+    "video_id": "T10_G1_r01",
+    "question_ids": [
+      "T10-F1",
+      "T10-F2",
+      "T10-F3",
+      "T10-F4"
+    ],
+    "question_sha256": "3ce483917b338bd92723bc9265295ff3d69aebed602f4603e2f0e493191e0d34",
+    "reference_sha256": "faa1cdc256f172aaab2eee03ecd60af09c5308d2b4a378fda195bcc4b389802f",
+    "evidence_sha256": "9b67808165d45b66ca6efb1c94508b2228b19b3b3ea4dd5ea39b049a57fc8ff3",
+    "source_evidence_sha256": "2780857e35acc4440d62b7c1c5dc3f8b70d72e1ba427fd01819ed43e9aae84d6",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T10-F1\", \"question\": \"视频中的主要塔楼是否具有多个大小不同的球形结构？\", \"yes_rule\": \"主要塔楼可见至少两个大小不同的球体\", \"no_rule\": \"塔楼清晰但少于两个球体，或球体大小没有可辨认差异\", \"uncertain_rule\": \"球体被遮挡、过小或画面裁切导致数量和大小无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F2\", \"question\": \"这些球形结构是否沿高耸的竖向塔身分布？\", \"yes_rule\": \"多个球体沿同一高耸竖向塔体上下分布，并形成完整组合关系\", \"no_rule\": \"球体清晰但未沿竖向塔身组织，或属于彼此无关的建筑\", \"uncertain_rule\": \"塔身或球体连接关系被遮挡、裁切或无法辨认\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F3\", \"question\": \"主要塔楼下部是否具有明显的倾斜支撑柱结构？\", \"yes_rule\": \"塔体下部可见明显斜向支撑柱，并与主塔形成承托关系\", \"no_rule\": \"塔楼下部清晰但只有垂直柱、普通基座或无斜向支撑\", \"uncertain_rule\": \"塔楼下部未入画、被背景遮挡或细节不足\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F4\", \"question\": \"东方明珠形态的塔楼是否位于画面中央且明显突出于其他背景建筑？\", \"yes_rule\": \"东方明珠形态塔楼位于画面中央或中央主要区域，是明确视觉焦点，其他高楼仅作背景\", \"no_rule\": \"塔楼明显偏离主要构图区域，或被其他建筑遮挡且不是视觉焦点\", \"uncertain_rule\": \"画面裁切、遮挡或构图不清，无法判断主体与背景关系\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.633,
+        "requested_sec": 2.8165,
+        "actual_sec": 2.8,
+        "absolute_pts_sec": 2.8,
+        "frame_index": 70,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T10/source/50.jpg",
+        "sha256": "0f33d3166651c8bfd68b2253d18008cb72185d6688a5dfea651576b18e97cc25",
+        "attempts": [
+          {
+            "index": 70,
+            "pts_sec": 2.8,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T10/T10_G1_r01/50.jpg",
+        "sha256": "d0ec0a42217f0052c778327ce631194de634a80a680e91d2482e72c4a100c2d3",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T10_T10_G2_r01",
+    "task_id": "T10",
+    "video_id": "T10_G2_r01",
+    "question_ids": [
+      "T10-F1",
+      "T10-F2",
+      "T10-F3",
+      "T10-F4"
+    ],
+    "question_sha256": "3ce483917b338bd92723bc9265295ff3d69aebed602f4603e2f0e493191e0d34",
+    "reference_sha256": "faa1cdc256f172aaab2eee03ecd60af09c5308d2b4a378fda195bcc4b389802f",
+    "evidence_sha256": "a0d94aa476b183220a4ecf907ec626dd3f037af8eb9f4cdd31c9373bd556db24",
+    "source_evidence_sha256": "2780857e35acc4440d62b7c1c5dc3f8b70d72e1ba427fd01819ed43e9aae84d6",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T10-F1\", \"question\": \"视频中的主要塔楼是否具有多个大小不同的球形结构？\", \"yes_rule\": \"主要塔楼可见至少两个大小不同的球体\", \"no_rule\": \"塔楼清晰但少于两个球体，或球体大小没有可辨认差异\", \"uncertain_rule\": \"球体被遮挡、过小或画面裁切导致数量和大小无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F2\", \"question\": \"这些球形结构是否沿高耸的竖向塔身分布？\", \"yes_rule\": \"多个球体沿同一高耸竖向塔体上下分布，并形成完整组合关系\", \"no_rule\": \"球体清晰但未沿竖向塔身组织，或属于彼此无关的建筑\", \"uncertain_rule\": \"塔身或球体连接关系被遮挡、裁切或无法辨认\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F3\", \"question\": \"主要塔楼下部是否具有明显的倾斜支撑柱结构？\", \"yes_rule\": \"塔体下部可见明显斜向支撑柱，并与主塔形成承托关系\", \"no_rule\": \"塔楼下部清晰但只有垂直柱、普通基座或无斜向支撑\", \"uncertain_rule\": \"塔楼下部未入画、被背景遮挡或细节不足\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F4\", \"question\": \"东方明珠形态的塔楼是否位于画面中央且明显突出于其他背景建筑？\", \"yes_rule\": \"东方明珠形态塔楼位于画面中央或中央主要区域，是明确视觉焦点，其他高楼仅作背景\", \"no_rule\": \"塔楼明显偏离主要构图区域，或被其他建筑遮挡且不是视觉焦点\", \"uncertain_rule\": \"画面裁切、遮挡或构图不清，无法判断主体与背景关系\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.633,
+        "requested_sec": 2.8165,
+        "actual_sec": 2.8,
+        "absolute_pts_sec": 2.8,
+        "frame_index": 70,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T10/source/50.jpg",
+        "sha256": "0f33d3166651c8bfd68b2253d18008cb72185d6688a5dfea651576b18e97cc25",
+        "attempts": [
+          {
+            "index": 70,
+            "pts_sec": 2.8,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T10/T10_G2_r01/50.jpg",
+        "sha256": "e8e1ae1c6cb91e4c09b78e3fa6c7f629c94ae5f0802e092a16df830238f3443d",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T10_T10_G3_r01",
+    "task_id": "T10",
+    "video_id": "T10_G3_r01",
+    "question_ids": [
+      "T10-F1",
+      "T10-F2",
+      "T10-F3",
+      "T10-F4"
+    ],
+    "question_sha256": "3ce483917b338bd92723bc9265295ff3d69aebed602f4603e2f0e493191e0d34",
+    "reference_sha256": "faa1cdc256f172aaab2eee03ecd60af09c5308d2b4a378fda195bcc4b389802f",
+    "evidence_sha256": "9a13867b62b03abeff4da153ea13a3ae5b9b88c9a7ddbe278d02141ce5264755",
+    "source_evidence_sha256": "2780857e35acc4440d62b7c1c5dc3f8b70d72e1ba427fd01819ed43e9aae84d6",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T10-F1\", \"question\": \"视频中的主要塔楼是否具有多个大小不同的球形结构？\", \"yes_rule\": \"主要塔楼可见至少两个大小不同的球体\", \"no_rule\": \"塔楼清晰但少于两个球体，或球体大小没有可辨认差异\", \"uncertain_rule\": \"球体被遮挡、过小或画面裁切导致数量和大小无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F2\", \"question\": \"这些球形结构是否沿高耸的竖向塔身分布？\", \"yes_rule\": \"多个球体沿同一高耸竖向塔体上下分布，并形成完整组合关系\", \"no_rule\": \"球体清晰但未沿竖向塔身组织，或属于彼此无关的建筑\", \"uncertain_rule\": \"塔身或球体连接关系被遮挡、裁切或无法辨认\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F3\", \"question\": \"主要塔楼下部是否具有明显的倾斜支撑柱结构？\", \"yes_rule\": \"塔体下部可见明显斜向支撑柱，并与主塔形成承托关系\", \"no_rule\": \"塔楼下部清晰但只有垂直柱、普通基座或无斜向支撑\", \"uncertain_rule\": \"塔楼下部未入画、被背景遮挡或细节不足\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F4\", \"question\": \"东方明珠形态的塔楼是否位于画面中央且明显突出于其他背景建筑？\", \"yes_rule\": \"东方明珠形态塔楼位于画面中央或中央主要区域，是明确视觉焦点，其他高楼仅作背景\", \"no_rule\": \"塔楼明显偏离主要构图区域，或被其他建筑遮挡且不是视觉焦点\", \"uncertain_rule\": \"画面裁切、遮挡或构图不清，无法判断主体与背景关系\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.633,
+        "requested_sec": 2.8165,
+        "actual_sec": 2.8,
+        "absolute_pts_sec": 2.8,
+        "frame_index": 70,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T10/source/50.jpg",
+        "sha256": "0f33d3166651c8bfd68b2253d18008cb72185d6688a5dfea651576b18e97cc25",
+        "attempts": [
+          {
+            "index": 70,
+            "pts_sec": 2.8,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T10/T10_G3_r01/50.jpg",
+        "sha256": "1d8065e8127c12019000c811d326aae13dfe5e51b5d0eb28a2a1ef34cbfd570e",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  },
+  {
+    "id": "T10_T10_G4_r01",
+    "task_id": "T10",
+    "video_id": "T10_G4_r01",
+    "question_ids": [
+      "T10-F1",
+      "T10-F2",
+      "T10-F3",
+      "T10-F4"
+    ],
+    "question_sha256": "3ce483917b338bd92723bc9265295ff3d69aebed602f4603e2f0e493191e0d34",
+    "reference_sha256": "faa1cdc256f172aaab2eee03ecd60af09c5308d2b4a378fda195bcc4b389802f",
+    "evidence_sha256": "16ea530bbf65686efd31c2726c88c38e87787e46851dd191c6a3438df73d90a3",
+    "source_evidence_sha256": "2780857e35acc4440d62b7c1c5dc3f8b70d72e1ba427fd01819ed43e9aae84d6",
+    "text": "仅依据所给关键帧回答客观问题，禁止使用知识推断不可见事实。每事实只计一次。跨帧Yes与No冲突为Uncertain，Yes+Uncertain为Yes，No+Uncertain为No，全Uncertain为Uncertain。只返回一个完整JSON对象，不要Markdown，不要解释。overall_form和overall_evidence必须位于facts对象之外。格式：{\"facts\":{\"事实ID\":{\"frames\":[\"Yes\"],\"evidence\":\"可见依据\"}},\"overall_form\":\"Match/Partial/Mismatch/Uncertain\",\"overall_evidence\":\"依据\"}。前1张为原视频，后1张为当前生成视频；每题frames数组只填写当前生成视频的逐帧答案，必须恰有1项。整体形态比较轮廓、布局和部件关系；运动不能根据关键帧判断。问题：[{\"fact_id\": \"T10-F1\", \"question\": \"视频中的主要塔楼是否具有多个大小不同的球形结构？\", \"yes_rule\": \"主要塔楼可见至少两个大小不同的球体\", \"no_rule\": \"塔楼清晰但少于两个球体，或球体大小没有可辨认差异\", \"uncertain_rule\": \"球体被遮挡、过小或画面裁切导致数量和大小无法判断\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F2\", \"question\": \"这些球形结构是否沿高耸的竖向塔身分布？\", \"yes_rule\": \"多个球体沿同一高耸竖向塔体上下分布，并形成完整组合关系\", \"no_rule\": \"球体清晰但未沿竖向塔身组织，或属于彼此无关的建筑\", \"uncertain_rule\": \"塔身或球体连接关系被遮挡、裁切或无法辨认\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F3\", \"question\": \"主要塔楼下部是否具有明显的倾斜支撑柱结构？\", \"yes_rule\": \"塔体下部可见明显斜向支撑柱，并与主塔形成承托关系\", \"no_rule\": \"塔楼下部清晰但只有垂直柱、普通基座或无斜向支撑\", \"uncertain_rule\": \"塔楼下部未入画、被背景遮挡或细节不足\", \"evidence_mode\": \"keyframes\"}, {\"fact_id\": \"T10-F4\", \"question\": \"东方明珠形态的塔楼是否位于画面中央且明显突出于其他背景建筑？\", \"yes_rule\": \"东方明珠形态塔楼位于画面中央或中央主要区域，是明确视觉焦点，其他高楼仅作背景\", \"no_rule\": \"塔楼明显偏离主要构图区域，或被其他建筑遮挡且不是视觉焦点\", \"uncertain_rule\": \"画面裁切、遮挡或构图不清，无法判断主体与背景关系\", \"evidence_mode\": \"keyframes\"}]",
+    "source_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.633,
+        "requested_sec": 2.8165,
+        "actual_sec": 2.8,
+        "absolute_pts_sec": 2.8,
+        "frame_index": 70,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T10/source/50.jpg",
+        "sha256": "0f33d3166651c8bfd68b2253d18008cb72185d6688a5dfea651576b18e97cc25",
+        "attempts": [
+          {
+            "index": 70,
+            "pts_sec": 2.8,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "target_frames": [
+      {
+        "fraction": 0.5,
+        "duration_sec": 5.166667,
+        "requested_sec": 2.5833335,
+        "actual_sec": 2.583333,
+        "absolute_pts_sec": 2.583333,
+        "frame_index": 62,
+        "frame_file": "experiments/innovation1/four_group_v2/keyframes/T10/T10_G4_r01/50.jpg",
+        "sha256": "d4f37a48797c6ecc218a67d306c841a7b6b6fbc635bb56dc7444e1e47e2a4be1",
+        "attempts": [
+          {
+            "index": 62,
+            "pts_sec": 2.583333,
+            "black": false
+          }
+        ]
+      }
+    ],
+    "evaluation_status": "provisional_pending_human_reference_and_generation_provenance"
+  }
+]

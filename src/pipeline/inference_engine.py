@@ -8,7 +8,7 @@ import torch
 import base64
 import os
 import tempfile
-from typing import Dict, Any, Optional
+from typing import Dict, Any, List, Optional
 from qwen_vl_utils import process_vision_info
 from src.models.config import Config
 from src.models.model_manager import ModelManager
@@ -57,12 +57,58 @@ class InferenceEngine:
         self.config = config or Config()
         self.model_manager = ModelManager(config)
         self.prompt_manager = PromptManager()
-        
+
+        # 文化符号检索器（创新点2：多模态检索 → Top-K 文化候选 → 动态 Prompt）
+        # 默认 None = 不检索，C 层仅按中华文化五维闭集判定（保持既有行为）；
+        # 注入 src.knowledge.BaseCulturalRetriever 子类后即启用知识库候选。
+        self.cultural_retriever = None
+        self.cultural_top_k = 5
+
         # 稳健性处理 use_ffmpeg 属性
         use_ffmpeg = self.config.video.use_ffmpeg_metadata if hasattr(self.config, 'video') and hasattr(self.config.video, 'use_ffmpeg_metadata') else True
         self.video_processor = VideoProcessor(use_ffmpeg=use_ffmpeg)
-        
+
         self._is_initialized = False
+        self.cultural_pipeline = None
+        self.last_cultural_trace = None
+
+    def enable_cultural_pipeline(self, mode="multimodal", top_k=5,
+                                 kb_path=None, identity_verifier="v2",
+                                 scene_mode="structured", text_recognition=True,
+                                 retrieval_strategy="legacy"):
+        """Attach the innovation2 pipeline; explicit prompts bypass it for internal passes."""
+        if mode not in {"keyword", "multimodal"}:
+            raise ValueError(f"Unsupported cultural mode: {mode}")
+        if mode != "multimodal" and retrieval_strategy != "legacy":
+            raise ValueError("evidence_v1 requires --culture-mode multimodal")
+        if top_k < 1:
+            raise ValueError("top_k must be positive")
+        from .cultural_rag import CulturalRAGPipeline
+        from ..knowledge.symbol_kb import SymbolKnowledgeBase
+        from ..knowledge.retriever import KeywordCulturalRetriever
+        from ..knowledge.rejection_gate import RejectionGate
+        kb = SymbolKnowledgeBase(json_path=kb_path)
+        if mode == "multimodal":
+            from ..knowledge.multimodal_retriever import MultimodalCulturalRetriever
+            retriever = MultimodalCulturalRetriever(kb=kb, ranking_strategy=retrieval_strategy)
+        else:
+            retriever = KeywordCulturalRetriever(kb=kb)
+        verifier = None
+        if identity_verifier == "v2":
+            from ..knowledge.identity_verifier_v2 import IdentityVerifierV2
+            verifier = IdentityVerifierV2(kb=kb, model_manager=self.model_manager)
+        elif identity_verifier != "off":
+            raise ValueError(f"Unsupported identity verifier: {identity_verifier}")
+        self.cultural_pipeline = CulturalRAGPipeline(
+            engine=self, kb=kb, retriever=retriever, top_k=top_k,
+            rejection_gate=RejectionGate(), identity_verifier=verifier,
+            scene_mode=scene_mode, text_recognition=text_recognition,
+            output_root=os.path.join(self.config.paths.output_dir, "cultural_traces"))
+
+    def set_cultural_retriever(self, retriever, top_k: int = 5):
+        """挂载文化符号检索器（如 KeywordCulturalRetriever / 未来的多模态检索器）"""
+        self.cultural_retriever = retriever
+        self.cultural_top_k = top_k
     
     def initialize(self):
         """初始化推理引擎"""
@@ -77,38 +123,61 @@ class InferenceEngine:
         with open(video_path, "rb") as f:
             return base64.b64encode(f.read()).decode("utf-8")
     
-    def annotate_video(self, video_path: str, 
+    def annotate_video(self, video_path: str,
                        prompt: Optional[str] = None,
                        fps: Optional[float] = None,
-                       max_frames: Optional[int] = None) -> str:
+                       max_frames: Optional[int] = None,
+                       cultural_candidates: Optional[List[Dict[str, Any]]] = None) -> str:
         """
         对视频进行标注
-        
+
         Args:
             video_path: 视频文件路径
             prompt: 自定义提示词，如果为None则使用默认EMCAST提示词
             fps: 视频采样帧率，如果为None则使用配置中的默认值
             max_frames: 最大帧数限制
-        
+            cultural_candidates: 显式指定的知识库 Top-K 文化符号候选（dict 列表）；
+                为 None 且已挂载 cultural_retriever 时自动检索（本期 retriever 默认
+                不挂载，保持仅按五维闭集判定的行为）
+
         Returns:
             标注结果字符串
         """
         if not self._is_initialized:
             self.initialize()
-        
+
         # 验证视频文件
         is_valid, error_msg = self.video_processor.validate_video(video_path)
         if not is_valid:
             raise ValueError(error_msg)
-        
+
         # 获取视频元数据
         video_metadata = self.video_processor.get_video_metadata(video_path)
-        
-        # 生成提示词（传递视频路径用于动态场景检测）
+
+        # Only public annotation calls enter RAG. Pass-1/Pass-2 use explicit prompts.
+        if prompt is None and cultural_candidates is None and self.cultural_pipeline is not None:
+            self.last_cultural_trace = self.cultural_pipeline.run(
+                video_path, controlled=True, save=True)
+            self.cultural_pipeline.save_trace(
+                [self.last_cultural_trace], self.last_cultural_trace["output_dir"])
+            return self.last_cultural_trace["final_annotation"]
+
+        # 生成提示词（中华文化五维闭集 + 可选知识库 Top-K 候选注入）
         if prompt is None:
+            # 未显式给候选但挂载了检索器 → 自动检索（scene_text 预留给 VLM 首帧描述）
+            if cultural_candidates is None and self.cultural_retriever is not None:
+                video_context = {
+                    "video_path": video_path,
+                    "scene_text": "",
+                    "keywords": [],
+                }
+                retrieved = self.cultural_retriever.retrieve(
+                    video_context, top_k=self.cultural_top_k)
+                cultural_candidates = [c.to_symbol_dict() for c in retrieved]
             prompt = self.prompt_manager.get_emcast_prompt(
-                video_metadata.to_dict(), 
-                video_path=video_path
+                video_metadata.to_dict(),
+                video_path=video_path,
+                cultural_candidates=cultural_candidates,
             )
         
         # 检查是否使用GLM-4 API模式
@@ -116,7 +185,9 @@ class InferenceEngine:
             return self._annotate_with_glm_api(video_path, prompt)
         
         # Qwen本地模型模式
-        return self._annotate_with_qwen(video_path, prompt, video_metadata, fps, max_frames)
+        return self._annotate_with_qwen(
+            video_path, prompt, video_metadata, fps,
+            max_frames if max_frames is not None else self.config.video.max_frames)
     
     def _annotate_with_qwen(self, video_path: str, prompt: str, 
                            video_metadata, fps: Optional[float], 

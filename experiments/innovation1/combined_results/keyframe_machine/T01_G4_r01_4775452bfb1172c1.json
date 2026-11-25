@@ -1,0 +1,78 @@
+{
+  "request": {
+    "video_id": "T01_G4_r01",
+    "task_id": "T01",
+    "group": "G4",
+    "source": {
+      "video_file": "data/video/兵马俑.mp4",
+      "video_sha256": "2dc807185e443609bc1bad8541ff9f8127c8c1fdbd5db03b5e0cda17e3932658",
+      "frames": [
+        {
+          "fraction": 0.5,
+          "duration_sec": 9.816,
+          "requested_sec": 4.908,
+          "actual_sec": 4.9,
+          "absolute_pts_sec": 4.9,
+          "frame_index": 147,
+          "frame_file": "experiments/innovation1/four_group_v2/keyframes/T01/source/50.jpg",
+          "sha256": "80d11de85dfc2701565b2d2a451b011aadd8196ba588eb1f45dff0ed301bf2dc",
+          "attempts": [
+            {
+              "index": 147,
+              "pts_sec": 4.9,
+              "black": false
+            }
+          ]
+        }
+      ],
+      "T": {
+        "fps": 29.748961622578957,
+        "decoded_frames": 295,
+        "duration_sec": 9.816,
+        "duration_scope_warning": "outside_3_to_5_seconds_review_scope"
+      },
+      "exception_rule": "nearest PTS; black >98% gray<8; previous then next within 0.1s; failure blocks; no aesthetic selection"
+    },
+    "generated": {
+      "video_file": "experiments/innovation1/videos/four_group_v2/T01-G4.mp4",
+      "video_sha256": "fde486f37f8414d8b4e0356844e3cd055690eac1bc1c49cbd06270e290d22035",
+      "frames": [
+        {
+          "fraction": 0.5,
+          "duration_sec": 5.166667,
+          "requested_sec": 2.5833335,
+          "actual_sec": 2.583333,
+          "absolute_pts_sec": 2.583333,
+          "frame_index": 62,
+          "frame_file": "experiments/innovation1/four_group_v2/keyframes/T01/T01_G4_r01/50.jpg",
+          "sha256": "3aa8be6aba25f853820444cfbcd67b563dab659d66a74e1dcd67f705e6a542d6",
+          "attempts": [
+            {
+              "index": 62,
+              "pts_sec": 2.583333,
+              "black": false
+            }
+          ]
+        }
+      ],
+      "T": {
+        "fps": 24.0,
+        "decoded_frames": 124,
+        "duration_sec": 5.166667,
+        "duration_scope_warning": "outside_3_to_5_seconds_review_scope"
+      },
+      "exception_rule": "nearest PTS; black >98% gray<8; previous then next within 0.1s; failure blocks; no aesthetic selection",
+      "formal_eligibility": false,
+      "eligibility_note": "关键帧可先提取；正式评价仍需冻结描述及核验生成配置"
+    },
+    "prompt": "第一张为原视频50%关键帧，第二张为生成视频50%关键帧。独立评价关键帧一致性：比较主要主体轮廓与相对尺度、关键部件及空间关系、场景布局、拍摄视角与构图。不要求像素一致，不因纯画风、光照色差扣分，不根据图片判断镜头运动。Match=上述主要关系基本一致；Partial=部分一致但有明显结构、布局或视角偏差；Mismatch=主要主体或空间组织明显不同；Uncertain=证据不足。禁止以是否知道地标名称替代图像比较。只输出严格JSON：{\"verdict\":\"Match/Partial/Mismatch/Uncertain\",\"evidence\":\"明确指出两张图相同与不同之处\"}。"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "parse_ok": true,
+  "raw_response": "{\"verdict\":\"Partial\",\"evidence\":\"相同之处：两图均为兵马俑坑场景，主体为排列的兵马俑，场景布局呈现坑道结构。不同之处：第一张图中兵马俑排列更整齐，坑道边缘土质呈浅灰色，兵马俑颜色偏浅；第二张图中兵马俑排列相对密集且部分区域兵马俑形态略有差异，坑道边缘土质呈红褐色，兵马俑颜色偏深，且坑道结构细节（如土质纹理、坑道分隔）存在明显视觉差异，空间关系和视角下的细节呈现有偏差。\"}",
+  "parsed": {
+    "verdict": "Partial",
+    "evidence": "相同之处：两图均为兵马俑坑场景，主体为排列的兵马俑，场景布局呈现坑道结构。不同之处：第一张图中兵马俑排列更整齐，坑道边缘土质呈浅灰色，兵马俑颜色偏浅；第二张图中兵马俑排列相对密集且部分区域兵马俑形态略有差异，坑道边缘土质呈红褐色，兵马俑颜色偏深，且坑道结构细节（如土质纹理、坑道分隔）存在明显视觉差异，空间关系和视角下的细节呈现有偏差。"
+  }
+}

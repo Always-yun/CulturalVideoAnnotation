@@ -1,0 +1,93 @@
+{
+  "decision": {
+    "identity_gate_pass": true,
+    "reason": "At least one candidate has strong identity evidence.",
+    "passed_symbol_ids": [
+      "BJ_GUDU_001"
+    ]
+  },
+  "candidates": [
+    {
+      "symbol_id": "BJ_GUDU_001",
+      "canonical_name": "故宫",
+      "identity_name_match": false,
+      "identity_alias_match": true,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 1,
+      "identity_evidence_level": "strong",
+      "identity_gate_pass": true,
+      "identity_gate_reason": "场景主体描述中命中候选完整名称/别名或KB独特属性",
+      "category_evidence": "dimension=ANCIENT; type=皇家宫殿建筑群",
+      "weak_name_mentions": [
+        "故宫"
+      ],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "BJ_JINGWEI_007",
+      "canonical_name": "北京庙会",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=FOLK; type=民俗节庆活动",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "CN2_ANCIENT_007",
+      "canonical_name": "登封“天地之中”历史古迹",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=ANCIENT; type=历史建筑群",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "BJ_FASHION_001",
+      "canonical_name": "三里屯",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=MODERN; type=时尚商业街区",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "CN2_TECH_007",
+      "canonical_name": "中关村广场",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=TECH; type=城市广场",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    }
+  ]
+}

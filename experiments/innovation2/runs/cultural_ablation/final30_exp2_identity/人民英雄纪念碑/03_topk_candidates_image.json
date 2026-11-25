@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_INNOV_003",
+    "canonical_name": "奥林匹克公园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6265869140625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6266,
+    "text_score": 0.0,
+    "fusion_score": 0.6266
+  },
+  {
+    "symbol_id": "CN2_TECH_015",
+    "canonical_name": "东升科技园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.62646484375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6265,
+    "text_score": 0.0,
+    "fusion_score": 0.6265
+  },
+  {
+    "symbol_id": "CN2_TECH_009",
+    "canonical_name": "中关村（亦庄）国际机器人产业园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6260986328125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6261,
+    "text_score": 0.0,
+    "fusion_score": 0.6261
+  },
+  {
+    "symbol_id": "CN2_FOLK_003",
+    "canonical_name": "福建土楼",
+    "cultural_dimension": "民族与民俗文化;古城与历史文化",
+    "dimension_code": "FOLK;ANCIENT",
+    "score": 0.625732421875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6257,
+    "text_score": 0.0,
+    "fusion_score": 0.6257
+  },
+  {
+    "symbol_id": "CN2_TECH_004",
+    "canonical_name": "中关村软件园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6256103515625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6256,
+    "text_score": 0.0,
+    "fusion_score": 0.6256
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "scene_description_raw": "{\"scene\":\"室外开阔广场，天空多云转晴，光线明亮\",\"subject\":\"一座高大的石碑矗立在广场中央，前方有台阶和围栏\",\"visible_features\":[\"石碑呈长方体，表面有金色文字，底部有浮雕，前方有宽阔的台阶和石制围栏，地面为浅色石板铺成\"],\"background\":[\"广场周围有建筑物，左侧有绿色遮阳伞和岗亭，远处可见树木和建筑\"],\"readable_text\":[{\"text\":\"禁止入内\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.485,0.838,0.514,0.875]}],\"uncertain_entities\":[]}",
+  "scene_description": "室外开阔广场，天空多云转晴，光线明亮\n一座高大的石碑矗立在广场中央，前方有台阶和围栏\n石碑呈长方体，表面有金色文字，底部有浮雕，前方有宽阔的台阶和石制围栏，地面为浅色石板铺成\n【背景辅助证据；不能单独证明主体身份】\n广场周围有建筑物，左侧有绿色遮阳伞和岗亭，远处可见树木和建筑",
+  "scene_evidence_version": "hybrid_v3",
+  "structured_scene": {
+    "scene": "室外开阔广场，天空多云转晴，光线明亮",
+    "subject": "一座高大的石碑矗立在广场中央，前方有台阶和围栏",
+    "visible_features": [
+      "石碑呈长方体，表面有金色文字，底部有浮雕，前方有宽阔的台阶和石制围栏，地面为浅色石板铺成"
+    ],
+    "background": [
+      "广场周围有建筑物，左侧有绿色遮阳伞和岗亭，远处可见树木和建筑"
+    ],
+    "readable_text": [
+      {
+        "text": "禁止入内",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.485,
+          0.838,
+          0.514,
+          0.875
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "partial_failure",
+    "calls": 1,
+    "items": [],
+    "attempts": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.485,
+          0.838,
+          0.514,
+          0.875
+        ],
+        "index": 0,
+        "frame_index": 83,
+        "pixel_bbox": [
+          1785,
+          1766,
+          2050,
+          1933
+        ],
+        "images": [
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/人民英雄纪念碑1/B/text_evidence/region_0_crop.jpg",
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/人民英雄纪念碑1/B/text_evidence/region_0_context.jpg"
+        ],
+        "raw_response": "{\"text\":\"禁止入内\nNo Entry\",\"legibility\":\"clear\"}",
+        "error": "Invalid control character at: line 1 column 14 (char 13)"
+      }
+    ]
+  },
+  "retrieval_scene_text": "1.【场景描述】：视频展示的是白天北京天安门广场上的人民英雄纪念碑，天空云层流动，纪念碑矗立中央，广场空旷。\n2.【文化视觉元素】：人民英雄纪念碑、禁止入内（文字标语）。\n室外开阔广场，天空多云转晴，光线明亮\n一座高大的石碑矗立在广场中央，前方有台阶和围栏\n石碑呈长方体，表面有金色文字，底部有浮雕，前方有宽阔的台阶和石制围栏，地面为浅色石板铺成\n【背景辅助证据；不能单独证明主体身份】\n广场周围有建筑物，左侧有绿色遮阳伞和岗亭，远处可见树木和建筑",
+  "hypothesis_provenance": {
+    "source": "cached_legacy_pass1",
+    "text": "1.【场景描述】：视频展示的是白天北京天安门广场上的人民英雄纪念碑，天空云层流动，纪念碑矗立中央，广场空旷。\n2.【文化视觉元素】：人民英雄纪念碑、禁止入内（文字标语）。",
+    "use": "retrieval_only_not_identity_evidence"
+  }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN2_TECH_007",
+    "canonical_name": "中关村广场",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6385498046875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6385,
+    "text_score": 0.0,
+    "fusion_score": 0.6385
+  },
+  {
+    "symbol_id": "BJ_GUDU_003",
+    "canonical_name": "天坛",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.635009765625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.635,
+    "text_score": 0.0,
+    "fusion_score": 0.635
+  },
+  {
+    "symbol_id": "CN_ANCIENT_004",
+    "canonical_name": "良渚古城遗址",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6324462890625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6324,
+    "text_score": 0.0,
+    "fusion_score": 0.6324
+  },
+  {
+    "symbol_id": "BJ_GUDU_007",
+    "canonical_name": "正阳门",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.632080078125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6321,
+    "text_score": 0.0,
+    "fusion_score": 0.6321
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_013",
+    "canonical_name": "周口店北京人遗址",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.631591796875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6316,
+    "text_score": 0.0,
+    "fusion_score": 0.6316
+  }
+]

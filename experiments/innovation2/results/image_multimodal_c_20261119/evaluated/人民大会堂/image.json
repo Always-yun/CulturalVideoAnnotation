@@ -1,0 +1,65 @@
+{
+  "video_id": "人民大会堂",
+  "mode": "image",
+  "status": "completed",
+  "outcome": "wrong_identity",
+  "reference_names": [
+    "人民大会堂"
+  ],
+  "reference_ids": [
+    "OUTSIDE_KB:人民大会堂"
+  ],
+  "predicted_names": [
+    "中国国家博物馆"
+  ],
+  "predicted_ids": [
+    "BJ_RED_006"
+  ],
+  "main_correct": false,
+  "strict_correct": false,
+  "reference_extra_entities": [
+    "BJ_RED_006"
+  ],
+  "tp": 0,
+  "fp": 1,
+  "fn": 1,
+  "predicted_categories": [
+    "RED"
+  ],
+  "reference_categories": [
+    "ANCIENT"
+  ],
+  "category_exact": false,
+  "category_tp": 0,
+  "category_fp": 1,
+  "category_fn": 1,
+  "recall_at_k": null,
+  "candidate_ids": [
+    "BJ_INNOV_007",
+    "BJ_RED_006",
+    "BJ_RED_002"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化。\n核心符号：中国国家博物馆\n价值指向：画面中可见建筑立面有对称的柱廊、黄色花岗岩外墙，以及最醒目的中华人民共和国国徽，这些视觉特征与候选知识中“中国国家博物馆”的典型场景“广场立面”“柱廊仰视”高度吻合。国徽作为国家象征，是红色文化中承载国家记忆与政治权威的核心符号，建筑本身作为国家级博物馆，其文化内涵也指向红色文化范畴。",
+  "c_layer_natural_language": "：该场景隶属于红色文化。\n核心符号：中国国家博物馆\n价值指向：画面中可见建筑立面有对称的柱廊、黄色花岗岩外墙，以及最醒目的中华人民共和国国徽，这些视觉特征与候选知识中“中国国家博物馆”的典型场景“广场立面”“柱廊仰视”高度吻合。国徽作为国家象征，是红色文化中承载国家记忆与政治权威的核心符号，建筑本身作为国家级博物馆，其文化内涵也指向红色文化范畴。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/人民大会堂/image.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:46:38.757851+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化。\n核心符号：中国国家博物馆\n价值指向：画面中可见建筑立面有对称的柱廊、黄色花岗岩外墙，以及最醒目的中华人民共和国国徽，这些视觉特征与候选知识中“中国国家博物馆”的典型场景“广场立面”“柱廊仰视”高度吻合。国徽作为国家象征，是红色文化中承载国家记忆与政治权威的核心符号，建筑本身作为国家级博物馆，其文化内涵也指向红色文化范畴。",
+      "response_model": "glm-4v",
+      "response_id": "20261119164639fb3632cdea464226",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=73742, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=109, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73851)",
+      "seconds": 57.364399433135986
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

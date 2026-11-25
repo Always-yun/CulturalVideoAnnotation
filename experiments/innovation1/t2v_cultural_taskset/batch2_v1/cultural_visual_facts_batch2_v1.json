@@ -1,0 +1,410 @@
+{
+  "meta": {
+    "name": "EMCAST第二批正式对象配置_v1",
+    "created": "2026-11-12",
+    "batch_id": "batch2",
+    "targets": [
+      "T01",
+      "T04",
+      "T06",
+      "T07",
+      "T10"
+    ],
+    "total_tasks": 5,
+    "total_prompts": 20,
+    "total_facts": 20,
+    "object_selection_status": "confirmed_by_user",
+    "fact_freeze_status": "pending_review",
+    "source": "source_user_supplied.txt",
+    "source_sha256": "ba6aa9ae56d498b579c6d975ee57cebe519024d84c3eec7073442c6cb702417d",
+    "first_batch": "unchanged; T02/T03/T05/T08/T09",
+    "technical_layer": {
+      "T": "post_generation_ffmpeg",
+      "include_in_prompt": false
+    },
+    "comparison_note": "G1–G4为描述策略比较；G3/G4匹配四项核心事实但不保证token等量；运行前按实际模型tokenizer记录token数。",
+    "external_verification": "未访问外部网页；用户原文中的来源线索不视为已核实证据。"
+  },
+  "facts": [
+    {
+      "fact_id": "T01-F1",
+      "task_id": "T01",
+      "statement": "多排陶俑军阵",
+      "yes_rule": "至少两排人物陶俑呈有序队列排列",
+      "no_rule": "目标清晰可见但不满足本项Yes条件。",
+      "uncertain_rule": "遮挡、画面过小或细节无法辨认。",
+      "ambiguity_note": "F3不要求所有陶俑完全同色；F4不要求坑道精确尺寸。",
+      "kb_field": "visual_features",
+      "kb_value": "成列陶俑|秦代军阵",
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v2",
+        "symbol_id": "CN_ANCIENT_001",
+        "kb_support": "partial; operational details require review",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T01-F2",
+      "task_id": "T01",
+      "statement": "古代军士造型",
+      "yes_rule": "可辨认古代军士的服饰、发髻或甲胄造型",
+      "no_rule": "目标清晰可见但不满足本项Yes条件。",
+      "uncertain_rule": "遮挡、画面过小或细节无法辨认。",
+      "ambiguity_note": "F3不要求所有陶俑完全同色；F4不要求坑道精确尺寸。",
+      "kb_field": "visual_features",
+      "kb_value": "不同面貌与服饰",
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v2",
+        "symbol_id": "CN_ANCIENT_001",
+        "kb_support": "partial; operational details require review",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T01-F3",
+      "task_id": "T01",
+      "statement": "陶土质感",
+      "yes_rule": "陶俑具有土褐或灰褐色的塑像表面，而非真人皮肤或金属机器人",
+      "no_rule": "目标清晰可见但不满足本项Yes条件。",
+      "uncertain_rule": "遮挡、画面过小或细节无法辨认。",
+      "ambiguity_note": "F3不要求所有陶俑完全同色；F4不要求坑道精确尺寸。",
+      "kb_field": null,
+      "kb_value": null,
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v2",
+        "symbol_id": "CN_ANCIENT_001",
+        "kb_support": "supplementary; not established by local visual_features",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T01-F4",
+      "task_id": "T01",
+      "statement": "坑道式空间布局",
+      "yes_rule": "陶俑位于由土质隔墙或坑道划分的考古遗址空间中",
+      "no_rule": "目标清晰可见但不满足本项Yes条件。",
+      "uncertain_rule": "遮挡、画面过小或细节无法辨认。",
+      "ambiguity_note": "F3不要求所有陶俑完全同色；F4不要求坑道精确尺寸。",
+      "kb_field": "visual_features",
+      "kb_value": "地下俑坑",
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v2",
+        "symbol_id": "CN_ANCIENT_001",
+        "kb_support": "partial; operational details require review",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T04-F1",
+      "task_id": "T04",
+      "statement": "传统木质船体",
+      "yes_rule": "呈现木质、狭长的传统中式船体",
+      "no_rule": "船只或对应结构清晰可见但不满足本项Yes条件，例如现代快艇。",
+      "uncertain_rule": "船体或舱室严重遮挡，轮廓无法辨认。",
+      "ambiguity_note": "红船不要求通体大红色；四项形态不能单独确认南湖红船身份。",
+      "kb_field": "visual_features",
+      "kb_value": "传统乌篷木船|船体狭长",
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v3",
+        "symbol_id": "CN2_RED_002",
+        "kb_support": "partial; operational details require review",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T04-F2",
+      "task_id": "T04",
+      "statement": "带顶船舱",
+      "yes_rule": "船体上方具有清晰、连续的有顶船舱",
+      "no_rule": "船只或对应结构清晰可见但不满足本项Yes条件，例如现代快艇。",
+      "uncertain_rule": "船体或舱室严重遮挡，轮廓无法辨认。",
+      "ambiguity_note": "红船不要求通体大红色；四项形态不能单独确认南湖红船身份。",
+      "kb_field": "visual_features",
+      "kb_value": "船篷与船舱",
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v3",
+        "symbol_id": "CN2_RED_002",
+        "kb_support": "partial; operational details require review",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T04-F3",
+      "task_id": "T04",
+      "statement": "船舱与船体前后布局",
+      "yes_rule": "可见有顶舱段与前后露出船体部分的区别",
+      "no_rule": "船只或对应结构清晰可见但不满足本项Yes条件，例如现代快艇。",
+      "uncertain_rule": "船体或舱室严重遮挡，轮廓无法辨认。",
+      "ambiguity_note": "红船不要求通体大红色；四项形态不能单独确认南湖红船身份。",
+      "kb_field": "visual_features",
+      "kb_value": "船篷与船舱",
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v3",
+        "symbol_id": "CN2_RED_002",
+        "kb_support": "partial; operational details require review",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T04-F4",
+      "task_id": "T04",
+      "statement": "湖面上的完整船形",
+      "yes_rule": "可辨认船只浮于湖面，船身整体轮廓较完整",
+      "no_rule": "船只或对应结构清晰可见但不满足本项Yes条件，例如现代快艇。",
+      "uncertain_rule": "船体或舱室严重遮挡，轮廓无法辨认。",
+      "ambiguity_note": "红船不要求通体大红色；四项形态不能单独确认南湖红船身份。",
+      "kb_field": "visual_features",
+      "kb_value": "停泊于湖岸|与周围水岸环境同框",
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v3",
+        "symbol_id": "CN2_RED_002",
+        "kb_support": "partial; operational details require review",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T06-F1",
+      "task_id": "T06",
+      "statement": "兔首人身",
+      "yes_rule": "兔形头部与拟人化躯体组合",
+      "no_rule": "主体或对应部位清晰可见但不满足本项Yes条件。",
+      "uncertain_rule": "头部、服饰或表面材质不可辨认。",
+      "ambiguity_note": "仅采用武将型；为静态实体泥塑，不是活兔。",
+      "kb_field": "visual_features",
+      "kb_value": "兔首人身",
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v2",
+        "symbol_id": "BJ_JINGWEI_004",
+        "kb_support": "partial; operational details require review",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T06-F2",
+      "task_id": "T06",
+      "statement": "竖立长耳",
+      "yes_rule": "头顶部可见一对明显长兔耳",
+      "no_rule": "主体或对应部位清晰可见但不满足本项Yes条件。",
+      "uncertain_rule": "头部、服饰或表面材质不可辨认。",
+      "ambiguity_note": "仅采用武将型；为静态实体泥塑，不是活兔。",
+      "kb_field": "visual_features",
+      "kb_value": "长耳",
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v2",
+        "symbol_id": "BJ_JINGWEI_004",
+        "kb_support": "partial; operational details require review",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T06-F3",
+      "task_id": "T06",
+      "statement": "武将服饰",
+      "yes_rule": "明确呈现盔甲、武将头盔等装备",
+      "no_rule": "主体或对应部位清晰可见但不满足本项Yes条件。",
+      "uncertain_rule": "头部、服饰或表面材质不可辨认。",
+      "ambiguity_note": "仅采用武将型；为静态实体泥塑，不是活兔。",
+      "kb_field": "visual_features",
+      "kb_value": "身披甲胄或官服",
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v2",
+        "symbol_id": "BJ_JINGWEI_004",
+        "kb_support": "partial; operational details require review",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T06-F4",
+      "task_id": "T06",
+      "statement": "彩绘泥塑质感",
+      "yes_rule": "整体是带明显彩绘表面的实体泥塑摆件，而非活兔或普通二维卡通",
+      "no_rule": "主体或对应部位清晰可见但不满足本项Yes条件。",
+      "uncertain_rule": "头部、服饰或表面材质不可辨认。",
+      "ambiguity_note": "仅采用武将型；为静态实体泥塑，不是活兔。",
+      "kb_field": "visual_features",
+      "kb_value": "粉彩绘",
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v2",
+        "symbol_id": "BJ_JINGWEI_004",
+        "kb_support": "partial; operational details require review",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T07-F1",
+      "task_id": "T07",
+      "statement": "竖立的运载火箭",
+      "yes_rule": "一枚大型火箭垂直立于发射工位",
+      "no_rule": "对应结构清晰可见但不满足本项Yes条件。",
+      "uncertain_rule": "底部或侧向结构被塔架遮挡，或相关结构无法辨认。",
+      "ambiguity_note": "长征五号系列发射前静置，不点火或升空；F4不要求同一视角看见全部四个助推器，但光滑圆柱火箭不足以判Yes。",
+      "kb_field": "visual_features",
+      "kb_value": "运载火箭",
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v2",
+        "symbol_id": "CN_TECH_002",
+        "kb_support": "partial; operational details require review",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T07-F2",
+      "task_id": "T07",
+      "statement": "发射塔架",
+      "yes_rule": "火箭旁有明显高大的发射服务塔架或钢结构设施",
+      "no_rule": "对应结构清晰可见但不满足本项Yes条件。",
+      "uncertain_rule": "底部或侧向结构被塔架遮挡，或相关结构无法辨认。",
+      "ambiguity_note": "长征五号系列发射前静置，不点火或升空；F4不要求同一视角看见全部四个助推器，但光滑圆柱火箭不足以判Yes。",
+      "kb_field": "visual_features",
+      "kb_value": "发射塔架",
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v2",
+        "symbol_id": "CN_TECH_002",
+        "kb_support": "partial; operational details require review",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T07-F3",
+      "task_id": "T07",
+      "statement": "发射平台",
+      "yes_rule": "火箭底部连接可辨认的发射承载平台",
+      "no_rule": "对应结构清晰可见但不满足本项Yes条件。",
+      "uncertain_rule": "底部或侧向结构被塔架遮挡，或相关结构无法辨认。",
+      "ambiguity_note": "长征五号系列发射前静置，不点火或升空；F4不要求同一视角看见全部四个助推器，但光滑圆柱火箭不足以判Yes。",
+      "kb_field": null,
+      "kb_value": null,
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v2",
+        "symbol_id": "CN_TECH_002",
+        "kb_support": "supplementary; not established by local visual_features",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T07-F4",
+      "task_id": "T07",
+      "statement": "芯级与侧向助推器",
+      "yes_rule": "火箭具有中央芯级和附着于侧面的助推器，结构可辨",
+      "no_rule": "对应结构清晰可见但不满足本项Yes条件。",
+      "uncertain_rule": "底部或侧向结构被塔架遮挡，或相关结构无法辨认。",
+      "ambiguity_note": "长征五号系列发射前静置，不点火或升空；F4不要求同一视角看见全部四个助推器，但光滑圆柱火箭不足以判Yes。",
+      "kb_field": null,
+      "kb_value": null,
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v2",
+        "symbol_id": "CN_TECH_002",
+        "kb_support": "supplementary; not established by local visual_features",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T10-F1",
+      "task_id": "T10",
+      "statement": "大小不同的球形结构",
+      "yes_rule": "塔体有多个高度不同、大小有别的球体",
+      "no_rule": "相关塔身部位清晰可见但缺少本项结构。",
+      "uncertain_rule": "相关部分不在画面内或难以分辨。",
+      "ambiguity_note": "F1不要求所有小球体全部可见；上下摇摄过程中须兼顾底部斜撑与顶部天线可见性。",
+      "kb_field": "visual_features",
+      "kb_value": "下球+上球+太空舱大珠小珠组合",
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v3",
+        "symbol_id": "CN2_MODERN_003",
+        "kb_support": "partial; operational details require review",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T10-F2",
+      "task_id": "T10",
+      "statement": "竖向高塔主体",
+      "yes_rule": "多个球体沿高耸的竖向塔身组织",
+      "no_rule": "相关塔身部位清晰可见但缺少本项结构。",
+      "uncertain_rule": "相关部分不在画面内或难以分辨。",
+      "ambiguity_note": "F1不要求所有小球体全部可见；上下摇摄过程中须兼顾底部斜撑与顶部天线可见性。",
+      "kb_field": "visual_features",
+      "kb_value": "竖向塔体",
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v3",
+        "symbol_id": "CN2_MODERN_003",
+        "kb_support": "partial; operational details require review",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T10-F3",
+      "task_id": "T10",
+      "statement": "倾斜支撑柱",
+      "yes_rule": "塔体下部有可辨认的斜向支撑结构",
+      "no_rule": "相关塔身部位清晰可见但缺少本项结构。",
+      "uncertain_rule": "相关部分不在画面内或难以分辨。",
+      "ambiguity_note": "F1不要求所有小球体全部可见；上下摇摄过程中须兼顾底部斜撑与顶部天线可见性。",
+      "kb_field": "visual_features",
+      "kb_value": "三根斜向支撑柱",
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v3",
+        "symbol_id": "CN2_MODERN_003",
+        "kb_support": "partial; operational details require review",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    },
+    {
+      "fact_id": "T10-F4",
+      "task_id": "T10",
+      "statement": "顶部天线桅杆",
+      "yes_rule": "上部球体之上延伸出细长天线桅杆",
+      "no_rule": "相关塔身部位清晰可见但缺少本项结构。",
+      "uncertain_rule": "相关部分不在画面内或难以分辨。",
+      "ambiguity_note": "F1不要求所有小球体全部可见；上下摇摄过程中须兼顾底部斜撑与顶部天线可见性。",
+      "kb_field": null,
+      "kb_value": null,
+      "provenance": {
+        "criteria_source": "source_user_supplied.txt",
+        "kb_version": "v3",
+        "symbol_id": "CN2_MODERN_003",
+        "kb_support": "supplementary; not established by local visual_features",
+        "supplementary_evidence_status": "pending_authoritative_source_and_reference_review"
+      },
+      "freeze_status": "pending_review"
+    }
+  ]
+}

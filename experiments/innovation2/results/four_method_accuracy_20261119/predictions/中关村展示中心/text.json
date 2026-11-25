@@ -1,0 +1,14 @@
+{
+  "video_id": "中关村展示中心",
+  "gt_symbols": [
+    "中关村国家自主创新示范区展示中心"
+  ],
+  "gt_symbol_ids": [
+    "CN2_TECH_005"
+  ],
+  "gt_dimension_code": "TECH",
+  "kb_coverage": true,
+  "mode": "text",
+  "status": "blocked_runtime",
+  "reason": "基础模型调用受阻：APIConnectionError；详情见api_calls.json"
+}

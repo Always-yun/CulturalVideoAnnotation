@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN2_TECH_015",
+    "canonical_name": "东升科技园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6279296875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6279,
+    "text_score": 0.0,
+    "fusion_score": 0.6279
+  },
+  {
+    "symbol_id": "CN2_MODERN_002",
+    "canonical_name": "鼓浪屿：历史国际社区",
+    "cultural_dimension": "现代城市与国际文化;古城与历史文化",
+    "dimension_code": "MODERN;ANCIENT",
+    "score": 0.62646484375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6265,
+    "text_score": 0.0,
+    "fusion_score": 0.6265
+  },
+  {
+    "symbol_id": "CN2_TECH_007",
+    "canonical_name": "中关村广场",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6258544921875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6259,
+    "text_score": 0.0,
+    "fusion_score": 0.6259
+  },
+  {
+    "symbol_id": "BJ_FASHION_005",
+    "canonical_name": "望京",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.625732421875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6257,
+    "text_score": 0.0,
+    "fusion_score": 0.6257
+  },
+  {
+    "symbol_id": "CN2_FOLK_003",
+    "canonical_name": "福建土楼",
+    "cultural_dimension": "民族与民俗文化;古城与历史文化",
+    "dimension_code": "FOLK;ANCIENT",
+    "score": 0.6226806640625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6227,
+    "text_score": 0.0,
+    "fusion_score": 0.6227
+  }
+]

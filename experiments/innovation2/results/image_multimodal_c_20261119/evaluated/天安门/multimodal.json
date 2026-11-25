@@ -1,0 +1,66 @@
+{
+  "video_id": "天安门",
+  "mode": "multimodal",
+  "status": "completed",
+  "outcome": "wrong_identity",
+  "reference_names": [
+    "天安门广场"
+  ],
+  "reference_ids": [
+    "BJ_RED_002"
+  ],
+  "predicted_names": [
+    "天安门城楼"
+  ],
+  "predicted_ids": [
+    "UNRESOLVED:天安门城楼"
+  ],
+  "main_correct": false,
+  "strict_correct": false,
+  "reference_extra_entities": [
+    "UNRESOLVED:天安门城楼"
+  ],
+  "tp": 0,
+  "fp": 1,
+  "fn": 1,
+  "predicted_categories": [
+    "ANCIENT",
+    "RED"
+  ],
+  "reference_categories": [
+    "RED"
+  ],
+  "category_exact": false,
+  "category_tp": 1,
+  "category_fp": 1,
+  "category_fn": 0,
+  "recall_at_k": true,
+  "candidate_ids": [
+    "BJ_RED_002",
+    "BJ_GUDU_010",
+    "BJ_GUDU_001"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化、古城与历史文化。\n核心符号：天安门城楼\n价值指向：画面中可见具有重檐歇山顶、黄琉璃瓦等视觉特征的传统建筑，其下方红墙上悬挂“中华人民共和国万岁”“世界人民大团结万岁”标语，并悬挂人物肖像，结合建筑形制与标语内容，可识别为天安门城楼，是红色文化核心符号；同时其作为传统建筑，也属于古城与历史文化范畴。",
+  "c_layer_natural_language": "：该场景隶属于红色文化、古城与历史文化。\n核心符号：天安门城楼\n价值指向：画面中可见具有重檐歇山顶、黄琉璃瓦等视觉特征的传统建筑，其下方红墙上悬挂“中华人民共和国万岁”“世界人民大团结万岁”标语，并悬挂人物肖像，结合建筑形制与标语内容，可识别为天安门城楼，是红色文化核心符号；同时其作为传统建筑，也属于古城与历史文化范畴。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/天安门/multimodal.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:55:01.547543+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化、古城与历史文化。\n核心符号：天安门城楼\n价值指向：画面中可见具有重檐歇山顶、黄琉璃瓦等视觉特征的传统建筑，其下方红墙上悬挂“中华人民共和国万岁”“世界人民大团结万岁”标语，并悬挂人物肖像，结合建筑形制与标语内容，可识别为天安门城楼，是红色文化核心符号；同时其作为传统建筑，也属于古城与历史文化范畴。",
+      "response_model": "glm-4v",
+      "response_id": "2026111916550110ee96d10f444f11",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=72821, prompt_tokens_details=PromptTokensDetails(cached_tokens=72820), completion_tokens=108, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=72929)",
+      "seconds": 61.42480421066284
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

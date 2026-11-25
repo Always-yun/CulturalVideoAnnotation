@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:55:01.686142+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化、古城与历史文化。\n核心符号：天安门广场\n价值指向：画面中可见天安门城楼、华表、城楼上的“中华人民共和国”标语、“世界人民大团结万岁”标语及毛泽东画像，这些元素共同构成天安门广场的标志性景观。天安门广场是1949年开国大典举行地，作为国家政治活动核心空间，承载着红色文化内涵；同时，城楼建筑及华表等元素也体现了中国古代建筑文化，属于古城与历史文化范畴。",
+  "response_model": "glm-4v",
+  "response_id": "20261119165502e38f7991ce664b2d",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73222, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=120, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73342)",
+  "seconds": 61.60050344467163
+}

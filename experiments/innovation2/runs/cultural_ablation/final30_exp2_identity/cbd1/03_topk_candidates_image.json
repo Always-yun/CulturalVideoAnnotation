@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_RED_006",
+    "canonical_name": "中国国家博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.633056640625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6331,
+    "text_score": 0.0,
+    "fusion_score": 0.6331
+  },
+  {
+    "symbol_id": "CN2_MODERN_002",
+    "canonical_name": "鼓浪屿：历史国际社区",
+    "cultural_dimension": "现代城市与国际文化;古城与历史文化",
+    "dimension_code": "MODERN;ANCIENT",
+    "score": 0.6307373046875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6307,
+    "text_score": 0.0,
+    "fusion_score": 0.6307
+  },
+  {
+    "symbol_id": "CN2_TECH_015",
+    "canonical_name": "东升科技园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6304931640625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6305,
+    "text_score": 0.0,
+    "fusion_score": 0.6305
+  },
+  {
+    "symbol_id": "CN_MODERN_002",
+    "canonical_name": "泉州：宋元中国的世界海洋商贸中心",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.6290283203125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.629,
+    "text_score": 0.0,
+    "fusion_score": 0.629
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_001",
+    "canonical_name": "武当山古建筑群",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6258544921875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6259,
+    "text_score": 0.0,
+    "fusion_score": 0.6259
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "level": "insufficient",
+  "signals": {
+    "mode": "image",
+    "signal": "fusion",
+    "top1_score": 0.6327,
+    "top2_score": 0.6241,
+    "margin_rel": 0.0136,
+    "n_keywords": 0,
+    "scene_negative": false,
+    "score_thr": 0.4,
+    "margin_thr": 0
+  },
+  "reason": "视觉描述无任何知识库词表命中（n_keywords=0）"
+}

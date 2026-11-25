@@ -1,0 +1,161 @@
+{
+  "scoring_sheet_rater1": {
+    "source_sha256": "1cd973bc343e5de847115814b46d5f8978fa0850eb0b0c651482aa68e8796db4",
+    "details": [],
+    "task_aggregates": [],
+    "common_tasks": [],
+    "groups": {
+      "G1": {
+        "tasks": 0,
+        "cultural_visual_fact_rate": null,
+        "mean_repeat_sd": null,
+        "overall_form_distribution": {
+          "Match": null,
+          "Mismatch": null,
+          "Partial": null,
+          "Uncertain": null
+        }
+      },
+      "G2": {
+        "tasks": 0,
+        "cultural_visual_fact_rate": null,
+        "mean_repeat_sd": null,
+        "overall_form_distribution": {
+          "Match": null,
+          "Mismatch": null,
+          "Partial": null,
+          "Uncertain": null
+        }
+      },
+      "G3": {
+        "tasks": 0,
+        "cultural_visual_fact_rate": null,
+        "mean_repeat_sd": null,
+        "overall_form_distribution": {
+          "Match": null,
+          "Mismatch": null,
+          "Partial": null,
+          "Uncertain": null
+        }
+      },
+      "G4": {
+        "tasks": 0,
+        "cultural_visual_fact_rate": null,
+        "mean_repeat_sd": null,
+        "overall_form_distribution": {
+          "Match": null,
+          "Mismatch": null,
+          "Partial": null,
+          "Uncertain": null
+        }
+      }
+    },
+    "status": "incomplete_not_final"
+  },
+  "scoring_sheet_rater2": {
+    "source_sha256": "1cd973bc343e5de847115814b46d5f8978fa0850eb0b0c651482aa68e8796db4",
+    "details": [],
+    "task_aggregates": [],
+    "common_tasks": [],
+    "groups": {
+      "G1": {
+        "tasks": 0,
+        "cultural_visual_fact_rate": null,
+        "mean_repeat_sd": null,
+        "overall_form_distribution": {
+          "Match": null,
+          "Mismatch": null,
+          "Partial": null,
+          "Uncertain": null
+        }
+      },
+      "G2": {
+        "tasks": 0,
+        "cultural_visual_fact_rate": null,
+        "mean_repeat_sd": null,
+        "overall_form_distribution": {
+          "Match": null,
+          "Mismatch": null,
+          "Partial": null,
+          "Uncertain": null
+        }
+      },
+      "G3": {
+        "tasks": 0,
+        "cultural_visual_fact_rate": null,
+        "mean_repeat_sd": null,
+        "overall_form_distribution": {
+          "Match": null,
+          "Mismatch": null,
+          "Partial": null,
+          "Uncertain": null
+        }
+      },
+      "G4": {
+        "tasks": 0,
+        "cultural_visual_fact_rate": null,
+        "mean_repeat_sd": null,
+        "overall_form_distribution": {
+          "Match": null,
+          "Mismatch": null,
+          "Partial": null,
+          "Uncertain": null
+        }
+      }
+    },
+    "status": "incomplete_not_final"
+  },
+  "scoring_sheet_rater3": {
+    "source_sha256": "1cd973bc343e5de847115814b46d5f8978fa0850eb0b0c651482aa68e8796db4",
+    "details": [],
+    "task_aggregates": [],
+    "common_tasks": [],
+    "groups": {
+      "G1": {
+        "tasks": 0,
+        "cultural_visual_fact_rate": null,
+        "mean_repeat_sd": null,
+        "overall_form_distribution": {
+          "Match": null,
+          "Mismatch": null,
+          "Partial": null,
+          "Uncertain": null
+        }
+      },
+      "G2": {
+        "tasks": 0,
+        "cultural_visual_fact_rate": null,
+        "mean_repeat_sd": null,
+        "overall_form_distribution": {
+          "Match": null,
+          "Mismatch": null,
+          "Partial": null,
+          "Uncertain": null
+        }
+      },
+      "G3": {
+        "tasks": 0,
+        "cultural_visual_fact_rate": null,
+        "mean_repeat_sd": null,
+        "overall_form_distribution": {
+          "Match": null,
+          "Mismatch": null,
+          "Partial": null,
+          "Uncertain": null
+        }
+      },
+      "G4": {
+        "tasks": 0,
+        "cultural_visual_fact_rate": null,
+        "mean_repeat_sd": null,
+        "overall_form_distribution": {
+          "Match": null,
+          "Mismatch": null,
+          "Partial": null,
+          "Uncertain": null
+        }
+      }
+    },
+    "status": "incomplete_not_final"
+  }
+}

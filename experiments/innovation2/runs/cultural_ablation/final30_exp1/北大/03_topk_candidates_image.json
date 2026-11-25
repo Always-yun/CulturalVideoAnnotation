@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN2_ANCIENT_007",
+    "canonical_name": "登封“天地之中”历史古迹",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6390380859375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.639,
+    "text_score": 0.0,
+    "fusion_score": 0.639
+  },
+  {
+    "symbol_id": "CN2_MODERN_002",
+    "canonical_name": "鼓浪屿：历史国际社区",
+    "cultural_dimension": "现代城市与国际文化;古城与历史文化",
+    "dimension_code": "MODERN;ANCIENT",
+    "score": 0.638671875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6387,
+    "text_score": 0.0,
+    "fusion_score": 0.6387
+  },
+  {
+    "symbol_id": "BJ_INNOV_006",
+    "canonical_name": "北京大学",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.63720703125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6372,
+    "text_score": 0.0,
+    "fusion_score": 0.6372
+  },
+  {
+    "symbol_id": "CN2_TECH_007",
+    "canonical_name": "中关村广场",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6370849609375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6371,
+    "text_score": 0.0,
+    "fusion_score": 0.6371
+  },
+  {
+    "symbol_id": "CN2_FOLK_003",
+    "canonical_name": "福建土楼",
+    "cultural_dimension": "民族与民俗文化;古城与历史文化",
+    "dimension_code": "FOLK;ANCIENT",
+    "score": 0.6365966796875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6366,
+    "text_score": 0.0,
+    "fusion_score": 0.6366
+  }
+]

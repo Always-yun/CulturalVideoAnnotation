@@ -1,0 +1,48 @@
+{
+  "request": {
+    "id": "T01_T01_G1_r01_video",
+    "task_id": "T01",
+    "video_id": "T01_G1_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T01-G1.mp4",
+    "video_sha256": "86d1f4b5f91fd33f0e1e51334310096be1f8130dcd6949b7f8db58bf2bdc7fe5",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：白天，一处规模宏大的中国古代考古遗址位于室内展厅之中，大量古代人物雕塑排列在开阔的遗址区域内，展现出具有历史年代感的场景。展厅光线柔和，建筑空间宽敞，人物雕塑保持静止。镜头从较高位置斜向俯视，缓慢水平移动，连续展示古代雕塑群及其周围空间，整体采用写实纪实摄影风格。。时序事实及判据：[]",
+    "request_sha256": "cab20964818d4478923f58fbc70ac6795cd3e17e17310f019db1ef373008b64b"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"conditions\": {\"subject\": {\"verdict\": \"Yes\", \"evidence\": \"视频显示大量排列整齐的古代人物雕塑，符合目标中“大量古代人物雕塑”的描述\", \"timestamps\": \"0.00-5.00\"}, \"scene\": {\"verdict\": \"Yes\", \"evidence\": \"场景为室内展厅，包含考古遗址坑、雕塑群及宽敞建筑空间，与目标中“室内展厅”“规模宏大的中国古代考古遗址”一致\", \"timestamps\": \"0.00-5.00\"}, \"time_weather\": {\"verdict\": \"Yes\", \"evidence\": \"展厅内光线明亮，结合建筑结构（如天窗）可判断为白天，光线柔和符合目标描述\", \"timestamps\": \"0.00-5.00\"}, \"camera_motion\": {\"verdict\": \"Yes\", \"evidence\": \"镜头从较高位置斜向俯视，且在水平方向缓慢移动，连续展示雕塑群及周围空间，与目标中“从较高位置斜向俯视，缓慢水平移动”一致\", \"timestamps\": \"0.00-5.00\"}}, \"temporal_facts\": {}}",
+  "parse_ok": true,
+  "parsed": {
+    "conditions": {
+      "subject": {
+        "verdict": "Yes",
+        "evidence": "视频显示大量排列整齐的古代人物雕塑，符合目标中“大量古代人物雕塑”的描述",
+        "timestamps": "0.00-5.00"
+      },
+      "scene": {
+        "verdict": "Yes",
+        "evidence": "场景为室内展厅，包含考古遗址坑、雕塑群及宽敞建筑空间，与目标中“室内展厅”“规模宏大的中国古代考古遗址”一致",
+        "timestamps": "0.00-5.00"
+      },
+      "time_weather": {
+        "verdict": "Yes",
+        "evidence": "展厅内光线明亮，结合建筑结构（如天窗）可判断为白天，光线柔和符合目标描述",
+        "timestamps": "0.00-5.00"
+      },
+      "camera_motion": {
+        "verdict": "Yes",
+        "evidence": "镜头从较高位置斜向俯视，且在水平方向缓慢移动，连续展示雕塑群及周围空间，与目标中“从较高位置斜向俯视，缓慢水平移动”一致",
+        "timestamps": "0.00-5.00"
+      }
+    },
+    "temporal_facts": {}
+  }
+}

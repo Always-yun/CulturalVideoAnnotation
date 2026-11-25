@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:52:10.748843+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于民族与民俗文化。\n核心符号：兔儿爷\n价值指向：画面中可见多尊色彩鲜艳、造型为兔首人身的神像，符合兔儿爷“兔首人身、粉彩绘”的视觉特征，背景墙上亦有相关文字“兔爷供”，结合其作为中秋祭月与儿童玩具的民俗属性，可确认该文化符号。",
+  "response_model": "glm-4v",
+  "response_id": "202611191652118d23464672e04e01",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=22235, prompt_tokens_details=PromptTokensDetails(cached_tokens=16390), completion_tokens=91, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=22326)",
+  "seconds": 40.69076895713806
+}

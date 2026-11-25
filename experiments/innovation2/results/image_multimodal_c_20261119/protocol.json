@@ -1,0 +1,71 @@
+{
+  "frozen_at": "2026-11-19T16:36:11.686018+08:00",
+  "modes": [
+    "free",
+    "text",
+    "image",
+    "multimodal"
+  ],
+  "new_runs": [
+    "image",
+    "multimodal"
+  ],
+  "reuse": [
+    "free",
+    "text"
+  ],
+  "kb_path": "data/knowledge_base/chinese_cultural_symbols.json",
+  "kb_entities": 126,
+  "reference_index_photos": 30,
+  "reference_index_entities": 20,
+  "parameters": {
+    "alpha": 0.5,
+    "top_k": 3,
+    "threshold": 0,
+    "recall_at_k": 1.0,
+    "mrr": 0.8717948717948718,
+    "objective": 1.027179487179487
+  },
+  "normalization": "per-modality average-tie entity rank: 1-(rank-1)/(n-1); singleton=1; scores are not probabilities",
+  "aggregation": "L2-normalized per-photo CLIP embedding -> mean per entity -> L2 normalization; same 4 frozen video frames -> mean -> L2 normalization; cosine; one row per stable entity ID",
+  "missing": "candidate-specific absent modality contributes 0 without entitywise weight renormalization; globally absent modality reweights remaining modality; pure image never returns text candidates",
+  "deduplication": "SHA256 unique reference files; entity ID unique candidates; canonical/registered alias unique predictions",
+  "clip_model": "ViT-B/32",
+  "clip_weights_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+  "base_model": "glm-4v",
+  "model_version_note": "provider alias; actual response model/id retained; no stable provider revision exposed",
+  "generation": {
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "retry": {
+    "max_attempts": 2,
+    "retry_service_and_parse": true,
+    "sdk_retries": 0,
+    "timeout_seconds": 300,
+    "sleep_seconds": 2,
+    "resume": "terminal completed/failure records are not retried automatically"
+  },
+  "prompt_version": "c_only_v1",
+  "identity_gate": false,
+  "controlled": false,
+  "input": "identical original video bytes sent via video_url for new methods; same input mechanism as historical runs",
+  "comparability_limitations": [
+    "Historical Free/Text C extracted from six-layer outputs; Image/Multimodal C-only prompt by explicit user instruction; prompt confound.",
+    "Historical Free/Text used v2 114 entities and old reference state; new Image/Multimodal use consolidated 126 entities and 30 held-in photos; KB confound.",
+    "Historical failed raw replies/retry rules may be incomplete/different; report failures without deletion."
+  ],
+  "evaluation": {
+    "ground_truth_status": "pending human confirmation",
+    "denominator": 30,
+    "main_accuracy": "at least one asserted entity matches preset main target; extras permitted but false extras counted separately",
+    "strict_accuracy": "main match and no false extra identities",
+    "normalization": "exact canonical/registered aliases only; no keyword or substring credit; whitespace/punctuation normalization only",
+    "category": "label-set exact match and micro P/R/F1; never force mutually exclusive categories",
+    "empty_prediction": "no identity is incorrect for preset-entity task, separate from wrong naming",
+    "failure": "all 30 retained; service/parse failures have empty prediction and one FN; completed-only also secondary",
+    "zero_division": "P/R/F1=0 when denominator=0",
+    "auxiliary_fields": "parsed entities are experiment-only extraction records, not production Schema fields",
+    "retrieval_denominator": "only gt IDs present in that method KB; image coverage reported separately"
+  }
+}

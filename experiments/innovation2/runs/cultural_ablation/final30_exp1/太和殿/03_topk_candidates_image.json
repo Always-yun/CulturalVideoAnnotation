@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN2_ANCIENT_007",
+    "canonical_name": "登封“天地之中”历史古迹",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.630615234375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6306,
+    "text_score": 0.0,
+    "fusion_score": 0.6306
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_011",
+    "canonical_name": "五台山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.630615234375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6306,
+    "text_score": 0.0,
+    "fusion_score": 0.6306
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_023",
+    "canonical_name": "峨眉山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6273193359375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6273,
+    "text_score": 0.0,
+    "fusion_score": 0.6273
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_012",
+    "canonical_name": "承德避暑山庄及其周围寺庙",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6270751953125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6271,
+    "text_score": 0.0,
+    "fusion_score": 0.6271
+  },
+  {
+    "symbol_id": "CN2_FOLK_004",
+    "canonical_name": "丽江古城",
+    "cultural_dimension": "民族与民俗文化;古城与历史文化",
+    "dimension_code": "FOLK;ANCIENT",
+    "score": 0.6265869140625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6266,
+    "text_score": 0.0,
+    "fusion_score": 0.6266
+  }
+]

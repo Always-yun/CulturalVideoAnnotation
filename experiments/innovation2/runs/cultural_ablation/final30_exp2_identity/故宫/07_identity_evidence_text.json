@@ -1,0 +1,60 @@
+{
+  "decision": {
+    "identity_gate_pass": true,
+    "reason": "At least one candidate has strong identity evidence.",
+    "passed_symbol_ids": [
+      "BJ_GUDU_001",
+      "BJ_GUDU_002"
+    ]
+  },
+  "candidates": [
+    {
+      "symbol_id": "BJ_GUDU_001",
+      "canonical_name": "故宫",
+      "identity_name_match": true,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 1,
+      "identity_evidence_level": "strong",
+      "identity_gate_pass": true,
+      "identity_gate_reason": "场景主体描述中命中候选完整名称/别名或KB独特属性",
+      "category_evidence": "dimension=ANCIENT; type=皇家宫殿建筑群",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "BJ_GUDU_002",
+      "canonical_name": "太和殿",
+      "identity_name_match": true,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 1,
+      "identity_evidence_level": "strong",
+      "identity_gate_pass": true,
+      "identity_gate_reason": "场景主体描述中命中候选完整名称/别名或KB独特属性",
+      "category_evidence": "dimension=ANCIENT; type=宫殿单体建筑",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    },
+    {
+      "symbol_id": "BJ_RED_004",
+      "canonical_name": "卢沟桥",
+      "identity_name_match": false,
+      "identity_alias_match": false,
+      "identity_ocr_match": "unavailable",
+      "identity_unique_attribute_match": false,
+      "identity_reference_image_match": "unavailable",
+      "identity_evidence_count": 0,
+      "identity_evidence_level": "none",
+      "identity_gate_pass": false,
+      "identity_gate_reason": "未发现候选完整名称、别名或KB独特属性",
+      "category_evidence": "dimension=RED; type=古代石桥与抗战纪念地",
+      "weak_name_mentions": [],
+      "unique_attribute_matches": []
+    }
+  ]
+}

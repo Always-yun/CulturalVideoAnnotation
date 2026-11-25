@@ -1,0 +1,63 @@
+{
+  "video_id": "清华",
+  "mode": "multimodal",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "清华大学"
+  ],
+  "reference_ids": [
+    "BJ_INNOV_007"
+  ],
+  "predicted_names": [
+    "清华大学"
+  ],
+  "predicted_ids": [
+    "BJ_INNOV_007"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "TECH"
+  ],
+  "reference_categories": [
+    "TECH"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": true,
+  "candidate_ids": [
+    "BJ_INNOV_007",
+    "BJ_JINGWEI_001",
+    "BJ_INNOV_006"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于科技与创新文化。\n核心符号：清华大学\n价值指向：画面中可见“清華園”字样的欧式牌坊建筑，结合“欢迎新同学”的横幅，符合清华大学二校门的典型视觉特征，是清华大学作为顶尖高等学府的标志性文化符号。",
+  "c_layer_natural_language": "：该场景隶属于科技与创新文化。\n核心符号：清华大学\n价值指向：画面中可见“清華園”字样的欧式牌坊建筑，结合“欢迎新同学”的横幅，符合清华大学二校门的典型视觉特征，是清华大学作为顶尖高等学府的标志性文化符号。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/清华/multimodal.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:59:24.729594+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于科技与创新文化。\n核心符号：清华大学\n价值指向：画面中可见“清華園”字样的欧式牌坊建筑，结合“欢迎新同学”的横幅，符合清华大学二校门的典型视觉特征，是清华大学作为顶尖高等学府的标志性文化符号。",
+      "response_model": "glm-4v",
+      "response_id": "2026111916592578664c6f71e945f7",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=74260, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=71, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=74331)",
+      "seconds": 85.45906376838684
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

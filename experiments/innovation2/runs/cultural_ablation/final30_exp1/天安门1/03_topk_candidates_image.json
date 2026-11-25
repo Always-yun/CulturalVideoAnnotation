@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN_MODERN_002",
+    "canonical_name": "泉州：宋元中国的世界海洋商贸中心",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.63232421875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6323,
+    "text_score": 0.0,
+    "fusion_score": 0.6323
+  },
+  {
+    "symbol_id": "CN2_TECH_007",
+    "canonical_name": "中关村广场",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.630859375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6309,
+    "text_score": 0.0,
+    "fusion_score": 0.6309
+  },
+  {
+    "symbol_id": "BJ_RED_006",
+    "canonical_name": "中国国家博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.6307373046875,
+    "reason": "关键词/别名命中：天安门广场",
+    "image_score": 0.6307,
+    "text_score": 0.2,
+    "fusion_score": 0.6307
+  },
+  {
+    "symbol_id": "CN_FOLK_002",
+    "canonical_name": "藏族唐卡（勉唐画派）",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.6300048828125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.63,
+    "text_score": 0.0,
+    "fusion_score": 0.63
+  },
+  {
+    "symbol_id": "CN2_TECH_015",
+    "canonical_name": "东升科技园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6298828125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6299,
+    "text_score": 0.0,
+    "fusion_score": 0.6299
+  }
+]

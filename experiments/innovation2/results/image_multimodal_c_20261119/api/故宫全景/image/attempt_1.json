@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:58:13.836530+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：故宫博物院\n价值指向：画面中可见具有典型中国古代皇家建筑风格的建筑群，红墙黄瓦，布局规整，是北京故宫博物院的标志性景观。建筑群规模宏大，体现了中国古代宫殿建筑的规制与美学，是中华历史文化的重要载体。</think>",
+  "response_model": "glm-4v",
+  "response_id": "2026111916581324dc6381651147a1",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73276, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=74, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73350)",
+  "seconds": 69.17514657974243
+}

@@ -1,0 +1,63 @@
+{
+  "video_id": "国博",
+  "mode": "image",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "中国国家博物馆"
+  ],
+  "reference_ids": [
+    "BJ_RED_006"
+  ],
+  "predicted_names": [
+    "中国国家博物馆"
+  ],
+  "predicted_ids": [
+    "BJ_RED_006"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "RED"
+  ],
+  "reference_categories": [
+    "RED"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": true,
+  "candidate_ids": [
+    "BJ_RED_006",
+    "BJ_RED_002",
+    "BJ_RED_003"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化。\n核心符号：中国国家博物馆\n价值指向：画面中可见建筑为大型柱廊式建筑，顶部悬挂多面红旗，中央有红色横幅，横幅上有黄色五角星标志及金色文字，建筑正面可见“中国国家博物馆”字样，这些元素共同指向中国国家博物馆这一红色文化符号，其作为承载国家记忆的重要场所，具有鲜明的政治象征意义。",
+  "c_layer_natural_language": "：该场景隶属于红色文化。\n核心符号：中国国家博物馆\n价值指向：画面中可见建筑为大型柱廊式建筑，顶部悬挂多面红旗，中央有红色横幅，横幅上有黄色五角星标志及金色文字，建筑正面可见“中国国家博物馆”字样，这些元素共同指向中国国家博物馆这一红色文化符号，其作为承载国家记忆的重要场所，具有鲜明的政治象征意义。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/国博/image.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:53:33.266552+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化。\n核心符号：中国国家博物馆\n价值指向：画面中可见建筑为大型柱廊式建筑，顶部悬挂多面红旗，中央有红色横幅，横幅上有黄色五角星标志及金色文字，建筑正面可见“中国国家博物馆”字样，这些元素共同指向中国国家博物馆这一红色文化符号，其作为承载国家记忆的重要场所，具有鲜明的政治象征意义。",
+      "response_model": "glm-4v",
+      "response_id": "2026111916533328a4f1151d2c481c",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=73755, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=95, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73850)",
+      "seconds": 88.09760189056396
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

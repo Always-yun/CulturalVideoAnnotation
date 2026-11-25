@@ -1,0 +1,63 @@
+{
+  "video_id": "京剧青衣",
+  "mode": "multimodal",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "京剧"
+  ],
+  "reference_ids": [
+    "BJ_JINGWEI_003"
+  ],
+  "predicted_names": [
+    "京剧"
+  ],
+  "predicted_ids": [
+    "BJ_JINGWEI_003"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "FOLK"
+  ],
+  "reference_categories": [
+    "FOLK"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": true,
+  "candidate_ids": [
+    "BJ_GUDU_002",
+    "BJ_JINGWEI_003",
+    "BJ_INNOV_006"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于民族与民俗文化。\n核心符号：京剧\n价值指向：可见人物身着京剧服饰，妆容为京剧旦角扮相，头戴珠饰头面，手持折扇表演扇子功，背景为中式园林，这些均为京剧表演的典型视觉元素。</think>",
+  "c_layer_natural_language": "：该场景隶属于民族与民俗文化。\n核心符号：京剧\n价值指向：可见人物身着京剧服饰，妆容为京剧旦角扮相，头戴珠饰头面，手持折扇表演扇子功，背景为中式园林，这些均为京剧表演的典型视觉元素。</think>",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/京剧青衣/multimodal.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:46:37.779162+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于民族与民俗文化。\n核心符号：京剧\n价值指向：可见人物身着京剧服饰，妆容为京剧旦角扮相，头戴珠饰头面，手持折扇表演扇子功，背景为中式园林，这些均为京剧表演的典型视觉元素。</think>",
+      "response_model": "glm-4v",
+      "response_id": "20261119164637ff742388cfc34af4",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=72158, prompt_tokens_details=PromptTokensDetails(cached_tokens=72157), completion_tokens=69, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=72227)",
+      "seconds": 56.82247543334961
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

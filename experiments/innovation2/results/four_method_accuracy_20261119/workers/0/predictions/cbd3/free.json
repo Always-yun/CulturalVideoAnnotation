@@ -1,0 +1,23 @@
+{
+  "video_id": "cbd3",
+  "gt_symbols": [
+    "CBD"
+  ],
+  "gt_symbol_ids": [
+    "BJ_FASHION_003"
+  ],
+  "gt_dimension_code": "MODERN",
+  "kb_coverage": true,
+  "mode": "free",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为中国尊、国贸三期、央视总部大楼、望京SOHO。",
+  "pred_dimension": "现代城市与国际文化",
+  "unknown_symbol": false,
+  "symbol_correct": false,
+  "dimension_correct": true,
+  "topk_candidates": [],
+  "recall_at_5": null,
+  "seconds": 63.54,
+  "error_type": "entity_confusion_or_generation",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/cbd3/free/trace.json"
+}

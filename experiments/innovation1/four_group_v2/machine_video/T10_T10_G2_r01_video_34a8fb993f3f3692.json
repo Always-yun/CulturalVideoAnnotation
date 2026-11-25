@@ -1,0 +1,48 @@
+{
+  "request": {
+    "id": "T10_T10_G2_r01_video",
+    "task_id": "T10",
+    "video_id": "T10_G2_r01",
+    "video_file": "experiments/innovation1/videos/four_group_v2/T10-G2.mp4",
+    "video_sha256": "bba4b74d1cc20e6d3c4eeee9efc6705776fd16d2a185b647db61776e7e3aeba5",
+    "condition_names": [
+      "subject",
+      "scene",
+      "time_weather",
+      "camera_motion"
+    ],
+    "temporal_question_ids": [],
+    "description_basis": "stored_group_description",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[\"subject\", \"scene\", \"time_weather\", \"camera_motion\"]。目标描述：**主体（Main Object）：** 一座高耸的现代城市地标塔楼位于画面中央，整体轮廓独特，与周围不同高度的现代建筑形成对比，主体保持静止。\n\n**背景（Background）：** 塔楼位于上海现代城市商务区，周围密集分布玻璃幕墙高楼，傍晚天空呈深蓝色，楼宇灯光逐渐点亮。\n\n**风格（Style）：** 写实城市建筑摄影风格，色彩以冷色夜空和暖色建筑灯光形成对比，突出城市地标的高度与现代都市氛围。\n\n**镜头（Camera）：** 镜头采用地面仰视中远景，缓慢向上摇摄，逐渐呈现塔楼整体及周围建筑群。。时序事实及判据：[]",
+    "request_sha256": "34a8fb993f3f3692eafd346e3a71db0a421c58d32d3d8193c1c1bcc5a908dd0b"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"conditions\": {\"subject\": {\"verdict\": \"Yes\", \"evidence\": \"画面中央存在一座高耸、轮廓独特的现代塔楼，与周围不同高度的现代建筑形成对比，且主体在视频中保持静止\", \"timestamps\": \"0.00-5.00\"}, \"scene\": {\"verdict\": \"No\", \"evidence\": \"视频背景为白天，天空明亮，周围建筑无灯光点亮，与目标描述的傍晚场景不符\", \"timestamps\": \"0.00-5.00\"}, \"time_weather\": {\"verdict\": \"No\", \"evidence\": \"视频显示为白天，天空明亮，与目标描述的傍晚及深蓝色天空不符\", \"timestamps\": \"0.00-5.00\"}, \"camera_motion\": {\"verdict\": \"No\", \"evidence\": \"镜头保持固定，无缓慢向上摇摄的镜头运动，与目标描述的镜头运动不符\", \"timestamps\": \"0.00-5.00\"}}, \"temporal_facts\": {}}",
+  "parse_ok": true,
+  "parsed": {
+    "conditions": {
+      "subject": {
+        "verdict": "Yes",
+        "evidence": "画面中央存在一座高耸、轮廓独特的现代塔楼，与周围不同高度的现代建筑形成对比，且主体在视频中保持静止",
+        "timestamps": "0.00-5.00"
+      },
+      "scene": {
+        "verdict": "No",
+        "evidence": "视频背景为白天，天空明亮，周围建筑无灯光点亮，与目标描述的傍晚场景不符",
+        "timestamps": "0.00-5.00"
+      },
+      "time_weather": {
+        "verdict": "No",
+        "evidence": "视频显示为白天，天空明亮，与目标描述的傍晚及深蓝色天空不符",
+        "timestamps": "0.00-5.00"
+      },
+      "camera_motion": {
+        "verdict": "No",
+        "evidence": "镜头保持固定，无缓慢向上摇摄的镜头运动，与目标描述的镜头运动不符",
+        "timestamps": "0.00-5.00"
+      }
+    },
+    "temporal_facts": {}
+  }
+}

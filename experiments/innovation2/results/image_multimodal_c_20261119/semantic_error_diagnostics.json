@@ -1,0 +1,1607 @@
+{
+  "note": "Text interpretation aid, not new GT, not a scoring-rule update. Generic descriptions and unmatched naming modifiers are separated from specific misidentification. Unregistered names still require visual adjudication.",
+  "records": [
+    {
+      "video_id": "cbd",
+      "mode": "free",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "中央电视台总部大楼",
+          "kind": "unregistered_specific_name_or_unresolved"
+        },
+        {
+          "name": "中国尊",
+          "kind": "unregistered_specific_name_or_unresolved"
+        },
+        {
+          "name": "国贸三期",
+          "kind": "registered_name_inside_unmatched_phrase"
+        },
+        {
+          "name": "国贸一期",
+          "kind": "registered_name_inside_unmatched_phrase"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "cbd",
+      "mode": "text",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "中国中央电视台总部大楼",
+          "kind": "unregistered_specific_name_or_unresolved"
+        },
+        {
+          "name": "中国尊",
+          "kind": "unregistered_specific_name_or_unresolved"
+        },
+        {
+          "name": "国贸中心",
+          "kind": "registered_name_inside_unmatched_phrase"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "cbd",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "中央商务区",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "cbd",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "中央商务区",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "cbd1",
+      "mode": "free",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "cbd天际线",
+          "kind": "registered_name_inside_unmatched_phrase"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "cbd1",
+      "mode": "text",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "cbd天际线",
+          "kind": "registered_name_inside_unmatched_phrase"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "cbd1",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "cbd",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "cbd1",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "cbd",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "cbd2",
+      "mode": "free",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "北京中央商务区天际线",
+          "kind": "registered_name_inside_unmatched_phrase"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "cbd2",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "cbd",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "cbd2",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "cbd",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "cbd2",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "cbd",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "cbd3",
+      "mode": "free",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "中国尊",
+          "kind": "unregistered_specific_name_or_unresolved"
+        },
+        {
+          "name": "国贸三期",
+          "kind": "registered_name_inside_unmatched_phrase"
+        },
+        {
+          "name": "央视总部大楼",
+          "kind": "unregistered_specific_name_or_unresolved"
+        },
+        {
+          "name": "望京soho",
+          "kind": "registered_name_inside_unmatched_phrase"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "cbd3",
+      "mode": "text",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "中国尊",
+          "kind": "unregistered_specific_name_or_unresolved"
+        },
+        {
+          "name": "国贸三期",
+          "kind": "registered_name_inside_unmatched_phrase"
+        },
+        {
+          "name": "央视总部大楼",
+          "kind": "unregistered_specific_name_or_unresolved"
+        },
+        {
+          "name": "望京soho",
+          "kind": "registered_name_inside_unmatched_phrase"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "cbd3",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "cbd",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "cbd3",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "cbd",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "中关村1号",
+      "mode": "free",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "中关村1号建筑群",
+          "kind": "registered_name_inside_unmatched_phrase"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "中关村1号",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "中关村1号",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "中关村1号",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "中关村壹号",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "中关村1号",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "中关村壹号",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "中关村国际创新中心",
+      "mode": "free",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "中关村国际创新中心",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "中关村国际创新中心",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "中关村国际创新中心",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "中关村国际创新中心",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "中关村国际创新中心",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "中关村国际创新中心",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "中关村国际创新中心",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "中关村展示中心",
+      "mode": "free",
+      "diagnostic": "wrong_identity",
+      "name_details": [
+        {
+          "name": "国家会议中心",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "中关村展示中心",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "中关村国家自主创新示范区展示中心",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "中关村展示中心",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "展示中心",
+          "kind": "registered_identity"
+        },
+        {
+          "name": "国际旗帜阵列",
+          "kind": "generic_visual_or_object_description"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "中关村展示中心",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "中关村国家自主创新示范区展示中心",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "京剧青衣",
+      "mode": "free",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "京剧服饰",
+          "kind": "registered_name_inside_unmatched_phrase"
+        },
+        {
+          "name": "折扇",
+          "kind": "generic_visual_or_object_description"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "京剧青衣",
+      "mode": "text",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "京剧服饰",
+          "kind": "registered_name_inside_unmatched_phrase"
+        },
+        {
+          "name": "折扇",
+          "kind": "generic_visual_or_object_description"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "京剧青衣",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "京剧",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "京剧青衣",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "京剧",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "人民大会堂",
+      "mode": "free",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "人民大会堂",
+          "kind": "unregistered_specific_name_or_unresolved"
+        },
+        {
+          "name": "中华人民共和国国徽",
+          "kind": "unregistered_specific_name_or_unresolved"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "人民大会堂",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "人民大会堂",
+          "kind": "unregistered_specific_name_or_unresolved"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "人民大会堂",
+      "mode": "image",
+      "diagnostic": "wrong_identity",
+      "name_details": [
+        {
+          "name": "中国国家博物馆",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "人民大会堂",
+      "mode": "multimodal",
+      "diagnostic": "wrong_identity",
+      "name_details": [
+        {
+          "name": "中国国家博物馆",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "人民大会堂1",
+      "mode": "free",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "人民大会堂",
+          "kind": "unregistered_specific_name_or_unresolved"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "人民大会堂1",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "人民大会堂",
+          "kind": "unregistered_specific_name_or_unresolved"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "人民大会堂1",
+      "mode": "image",
+      "diagnostic": "wrong_identity",
+      "name_details": [
+        {
+          "name": "中国国家博物馆",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "人民大会堂1",
+      "mode": "multimodal",
+      "diagnostic": "wrong_identity",
+      "name_details": [
+        {
+          "name": "中国国家博物馆",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "人民英雄纪念碑",
+      "mode": "free",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "人民英雄纪念碑",
+          "kind": "registered_identity"
+        },
+        {
+          "name": "天安门广场",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "人民英雄纪念碑",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "人民英雄纪念碑",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "人民英雄纪念碑",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "人民英雄纪念碑",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "人民英雄纪念碑",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "人民英雄纪念碑",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "人民英雄纪念碑1",
+      "mode": "free",
+      "diagnostic": "parse_failure",
+      "name_details": [],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "人民英雄纪念碑1",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "人民英雄纪念碑",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "人民英雄纪念碑1",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "人民英雄纪念碑",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "人民英雄纪念碑1",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "人民英雄纪念碑",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "兔爷",
+      "mode": "free",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "兔儿爷",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "兔爷",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "兔儿爷",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "兔爷",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "兔爷",
+          "kind": "registered_identity"
+        },
+        {
+          "name": "红色对联",
+          "kind": "unregistered_specific_name_or_unresolved"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "兔爷",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "兔儿爷",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "北大",
+      "mode": "free",
+      "diagnostic": "no_specific_identity_generic_only",
+      "name_details": [
+        {
+          "name": "宝塔",
+          "kind": "generic_visual_or_object_description"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "北大",
+      "mode": "text",
+      "diagnostic": "no_specific_identity_generic_only",
+      "name_details": [
+        {
+          "name": "宝塔",
+          "kind": "generic_visual_or_object_description"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "北大",
+      "mode": "image",
+      "diagnostic": "wrong_identity",
+      "name_details": [
+        {
+          "name": "雷峰塔",
+          "kind": "unregistered_specific_name_or_unresolved"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "北大",
+      "mode": "multimodal",
+      "diagnostic": "wrong_identity",
+      "name_details": [
+        {
+          "name": "宝轮寺塔",
+          "kind": "unregistered_specific_name_or_unresolved"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "北大1",
+      "mode": "free",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "北京大学建筑",
+          "kind": "registered_name_inside_unmatched_phrase"
+        },
+        {
+          "name": "石狮子",
+          "kind": "generic_visual_or_object_description"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "北大1",
+      "mode": "text",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "北京大学校门",
+          "kind": "registered_name_inside_unmatched_phrase"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "北大1",
+      "mode": "image",
+      "diagnostic": "wrong_identity",
+      "name_details": [
+        {
+          "name": "石狮子",
+          "kind": "generic_visual_or_object_description"
+        },
+        {
+          "name": "传统中式建筑",
+          "kind": "unregistered_specific_name_or_unresolved"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "北大1",
+      "mode": "multimodal",
+      "diagnostic": "wrong_identity",
+      "name_details": [
+        {
+          "name": "石狮子",
+          "kind": "generic_visual_or_object_description"
+        },
+        {
+          "name": "传统中式建筑",
+          "kind": "unregistered_specific_name_or_unresolved"
+        },
+        {
+          "name": "汉字匾额",
+          "kind": "unregistered_specific_name_or_unresolved"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "国博",
+      "mode": "free",
+      "diagnostic": "wrong_identity",
+      "name_details": [
+        {
+          "name": "国家博物馆建筑",
+          "kind": "unregistered_specific_name_or_unresolved"
+        },
+        {
+          "name": "红色横幅",
+          "kind": "generic_visual_or_object_description"
+        },
+        {
+          "name": "中华人民共和国国徽",
+          "kind": "unregistered_specific_name_or_unresolved"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "国博",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "中国国家博物馆",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "国博",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "中国国家博物馆",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "国博",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "中国国家博物馆",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "天安门",
+      "mode": "free",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "天安门城楼",
+          "kind": "registered_name_inside_unmatched_phrase"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "天安门",
+      "mode": "text",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "天安门城楼",
+          "kind": "registered_name_inside_unmatched_phrase"
+        },
+        {
+          "name": "毛泽东画像",
+          "kind": "unregistered_specific_name_or_unresolved"
+        },
+        {
+          "name": "红旗",
+          "kind": "generic_visual_or_object_description"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "天安门",
+      "mode": "image",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "天安门城楼",
+          "kind": "registered_name_inside_unmatched_phrase"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "天安门",
+      "mode": "multimodal",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "天安门城楼",
+          "kind": "registered_name_inside_unmatched_phrase"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "天安门1",
+      "mode": "free",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "天安门城楼",
+          "kind": "registered_name_inside_unmatched_phrase"
+        },
+        {
+          "name": "华表",
+          "kind": "unregistered_specific_name_or_unresolved"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "天安门1",
+      "mode": "text",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "天安门城楼",
+          "kind": "registered_name_inside_unmatched_phrase"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "天安门1",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "天安门广场",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "天安门1",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "天安门广场",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "太和殿",
+      "mode": "free",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "太和殿",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "太和殿",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "太和殿",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "太和殿",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "太和殿",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "太和殿",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "太和殿",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "庙会",
+      "mode": "free",
+      "diagnostic": "no_specific_identity_generic_only",
+      "name_details": [
+        {
+          "name": "红色灯笼",
+          "kind": "generic_visual_or_object_description"
+        },
+        {
+          "name": "红色横幅",
+          "kind": "generic_visual_or_object_description"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "庙会",
+      "mode": "text",
+      "diagnostic": "no_specific_identity_generic_only",
+      "name_details": [
+        {
+          "name": "红色灯笼",
+          "kind": "generic_visual_or_object_description"
+        },
+        {
+          "name": "红色横幅",
+          "kind": "generic_visual_or_object_description"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "庙会",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "春节庙会",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "庙会",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "北京庙会",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "故宫",
+      "mode": "free",
+      "diagnostic": "wrong_identity",
+      "name_details": [
+        {
+          "name": "太和殿",
+          "kind": "registered_identity"
+        },
+        {
+          "name": "红墙黄瓦",
+          "kind": "generic_visual_or_object_description"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "故宫",
+      "mode": "text",
+      "diagnostic": "wrong_identity",
+      "name_details": [
+        {
+          "name": "太和殿",
+          "kind": "registered_identity"
+        },
+        {
+          "name": "红墙黄琉璃瓦",
+          "kind": "generic_visual_or_object_description"
+        },
+        {
+          "name": "中轴对称布局",
+          "kind": "generic_visual_or_object_description"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "故宫",
+      "mode": "image",
+      "diagnostic": "wrong_identity",
+      "name_details": [
+        {
+          "name": "太和殿",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "故宫",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "故宫",
+          "kind": "registered_identity"
+        },
+        {
+          "name": "太和殿",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "故宫全景",
+      "mode": "free",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "故宫",
+          "kind": "registered_identity"
+        },
+        {
+          "name": "红墙黄瓦",
+          "kind": "generic_visual_or_object_description"
+        },
+        {
+          "name": "飞檐斗拱",
+          "kind": "generic_visual_or_object_description"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "故宫全景",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "故宫",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "故宫全景",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "故宫博物院",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "故宫全景",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "故宫",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "未来科学城",
+      "mode": "free",
+      "diagnostic": "no_specific_identity_generic_only",
+      "name_details": [
+        {
+          "name": "现代桥梁",
+          "kind": "generic_visual_or_object_description"
+        },
+        {
+          "name": "红砖建筑群",
+          "kind": "generic_visual_or_object_description"
+        },
+        {
+          "name": "灰色高层建筑群",
+          "kind": "generic_visual_or_object_description"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "未来科学城",
+      "mode": "text",
+      "diagnostic": "no_specific_identity_generic_only",
+      "name_details": [
+        {
+          "name": "现代桥梁",
+          "kind": "generic_visual_or_object_description"
+        },
+        {
+          "name": "高层建筑群",
+          "kind": "generic_visual_or_object_description"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "未来科学城",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "未来科学城",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "未来科学城",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "未来科学城",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "清华",
+      "mode": "free",
+      "diagnostic": "identity_phrase_not_normalized",
+      "name_details": [
+        {
+          "name": "清华大学二校门",
+          "kind": "registered_name_inside_unmatched_phrase"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "清华",
+      "mode": "text",
+      "diagnostic": "parse_failure",
+      "name_details": [],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "清华",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "清华大学",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "清华",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "清华大学",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "糖葫芦",
+      "mode": "free",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "冰糖葫芦",
+          "kind": "unregistered_specific_name_or_unresolved"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "糖葫芦",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "冰糖葫芦",
+          "kind": "unregistered_specific_name_or_unresolved"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "糖葫芦",
+      "mode": "image",
+      "diagnostic": "wrong_identity",
+      "name_details": [
+        {
+          "name": "冰糖葫芦儿",
+          "kind": "unregistered_specific_name_or_unresolved"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "糖葫芦",
+      "mode": "multimodal",
+      "diagnostic": "wrong_identity",
+      "name_details": [
+        {
+          "name": "冰糖葫芦儿",
+          "kind": "unregistered_specific_name_or_unresolved"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "胡同",
+      "mode": "free",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "胡同",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "胡同",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "胡同",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "胡同",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "胡同",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "胡同",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "胡同",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "胡同1",
+      "mode": "free",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "胡同",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "胡同1",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "胡同",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "胡同1",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "胡同",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "胡同1",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "胡同",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "角楼",
+      "mode": "free",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "角楼",
+          "kind": "registered_identity"
+        },
+        {
+          "name": "护城河",
+          "kind": "generic_visual_or_object_description"
+        },
+        {
+          "name": "城墙",
+          "kind": "generic_visual_or_object_description"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "角楼",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "角楼",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "角楼",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "角楼",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "角楼",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "角楼",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "角楼1",
+      "mode": "free",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "角楼",
+          "kind": "registered_identity"
+        },
+        {
+          "name": "护城河",
+          "kind": "generic_visual_or_object_description"
+        },
+        {
+          "name": "飞檐斗拱",
+          "kind": "generic_visual_or_object_description"
+        },
+        {
+          "name": "红墙灰瓦",
+          "kind": "generic_visual_or_object_description"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "角楼1",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "角楼",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "角楼1",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "角楼",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "角楼1",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "角楼",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "鸟巢",
+      "mode": "free",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "国家体育场",
+          "kind": "registered_identity"
+        },
+        {
+          "name": "国家游泳中心",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "鸟巢",
+      "mode": "text",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "国家体育场",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "鸟巢",
+      "mode": "image",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "鸟巢",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    },
+    {
+      "video_id": "鸟巢",
+      "mode": "multimodal",
+      "diagnostic": "correct_main",
+      "name_details": [
+        {
+          "name": "鸟巢",
+          "kind": "registered_identity"
+        }
+      ],
+      "changes_frozen_metric": false
+    }
+  ]
+}

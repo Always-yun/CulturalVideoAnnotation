@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_JINGWEI_009",
+    "canonical_name": "鸽哨",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.6292724609375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6293,
+    "text_score": 0.0,
+    "fusion_score": 0.6293
+  },
+  {
+    "symbol_id": "BJ_FASHION_008",
+    "canonical_name": "郎园Station",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.6275634765625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6276,
+    "text_score": 0.0,
+    "fusion_score": 0.6276
+  },
+  {
+    "symbol_id": "BJ_INNOV_002",
+    "canonical_name": "中关村科学城",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6275634765625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6276,
+    "text_score": 0.0,
+    "fusion_score": 0.6276
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_007",
+    "canonical_name": "北京庙会",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.6275634765625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6276,
+    "text_score": 0.0,
+    "fusion_score": 0.6276
+  },
+  {
+    "symbol_id": "BJ_INNOV_006",
+    "canonical_name": "北京大学",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6265869140625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6266,
+    "text_score": 0.0,
+    "fusion_score": 0.6266
+  }
+]

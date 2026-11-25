@@ -1,0 +1,15 @@
+{
+  "video_id": "人民英雄纪念碑1",
+  "gt_symbols": [
+    "人民英雄纪念碑"
+  ],
+  "gt_symbol_ids": [
+    "BJ_RED_003"
+  ],
+  "gt_dimension_code": "RED",
+  "kb_coverage": true,
+  "mode": "free",
+  "status": "failed",
+  "error_type": "ValueError",
+  "error": "C层核心符号解析失败，不能作为unknown或正确结果"
+}

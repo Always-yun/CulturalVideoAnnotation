@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_RED_006",
+    "canonical_name": "中国国家博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.8160400390625,
+    "reason": "关键词/别名命中：中国国家博物馆、国家博物馆",
+    "image_score": 0.6321,
+    "text_score": 1.0,
+    "fusion_score": 0.816
+  },
+  {
+    "symbol_id": "BJ_RED_002",
+    "canonical_name": "天安门广场",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.55706787109375,
+    "reason": "关键词/别名命中：广场",
+    "image_score": 0.6141,
+    "text_score": 0.5,
+    "fusion_score": 0.5571
+  },
+  {
+    "symbol_id": "CN2_TECH_015",
+    "canonical_name": "东升科技园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.31805419921875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6361,
+    "text_score": 0.0,
+    "fusion_score": 0.3181
+  },
+  {
+    "symbol_id": "CN2_TECH_002",
+    "canonical_name": "中国工程院",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.31768798828125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6354,
+    "text_score": 0.0,
+    "fusion_score": 0.3177
+  },
+  {
+    "symbol_id": "CN_ANCIENT_004",
+    "canonical_name": "良渚古城遗址",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.317138671875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6343,
+    "text_score": 0.0,
+    "fusion_score": 0.3171
+  }
+]

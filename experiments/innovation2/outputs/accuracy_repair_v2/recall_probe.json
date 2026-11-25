@@ -1,0 +1,1028 @@
+{
+  "scope": "development_retrieval_only_no_acceptance_claim",
+  "api_calls": 0,
+  "metrics": {
+    "A": {
+      "known_n": 18,
+      "recall1": 0.5555555555555556,
+      "recall5": 0.7777777777777778
+    },
+    "B": {
+      "known_n": 18,
+      "recall1": 0.4444444444444444,
+      "recall5": 0.5555555555555556
+    },
+    "B_context": {
+      "known_n": 18,
+      "recall1": 0.4444444444444444,
+      "recall5": 0.5555555555555556
+    },
+    "A_plus_B": {
+      "known_n": 18,
+      "recall1": 0.6666666666666666,
+      "recall5": 0.8888888888888888
+    }
+  },
+  "rows": [
+    {
+      "video_id": "cbd",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_INNOV_009",
+            "BJ_FASHION_004",
+            "BJ_INNOV_005",
+            "BJ_INNOV_001",
+            "BJ_INNOV_002"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "B_context": {
+          "top5": [
+            "BJ_INNOV_009",
+            "BJ_FASHION_004",
+            "BJ_INNOV_005",
+            "BJ_INNOV_001",
+            "BJ_INNOV_002"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "A": {
+          "top5": [
+            "BJ_FASHION_003",
+            "BJ_INNOV_005",
+            "BJ_INNOV_001",
+            "BJ_INNOV_002",
+            "BJ_GUDU_002"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_FASHION_003",
+            "BJ_INNOV_009",
+            "BJ_FASHION_004",
+            "BJ_INNOV_005",
+            "BJ_INNOV_001"
+          ],
+          "hit1": true,
+          "hit5": true
+        }
+      }
+    },
+    {
+      "video_id": "cbd1",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_INNOV_009",
+            "BJ_FASHION_004",
+            "BJ_INNOV_001",
+            "BJ_INNOV_002",
+            "BJ_GUDU_002"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "B_context": {
+          "top5": [
+            "BJ_INNOV_009",
+            "BJ_FASHION_004",
+            "BJ_INNOV_001",
+            "BJ_INNOV_002",
+            "BJ_GUDU_002"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "A": {
+          "top5": [
+            "BJ_FASHION_003",
+            "BJ_FASHION_004",
+            "BJ_INNOV_001",
+            "BJ_INNOV_002",
+            "BJ_GUDU_002"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_FASHION_003",
+            "BJ_FASHION_004",
+            "BJ_INNOV_009",
+            "BJ_INNOV_001",
+            "BJ_INNOV_002"
+          ],
+          "hit1": true,
+          "hit5": true
+        }
+      }
+    },
+    {
+      "video_id": "cbd2",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_FASHION_003",
+            "BJ_INNOV_002",
+            "BJ_INNOV_001",
+            "BJ_INNOV_005",
+            "CN_MODERN_001"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "B_context": {
+          "top5": [
+            "BJ_FASHION_003",
+            "BJ_INNOV_002",
+            "BJ_INNOV_001",
+            "BJ_INNOV_005",
+            "CN_MODERN_001"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A": {
+          "top5": [
+            "BJ_FASHION_003",
+            "BJ_FASHION_004",
+            "BJ_INNOV_002",
+            "BJ_INNOV_001",
+            "BJ_INNOV_005"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_FASHION_003",
+            "BJ_FASHION_004",
+            "BJ_INNOV_002",
+            "BJ_INNOV_001",
+            "BJ_INNOV_005"
+          ],
+          "hit1": true,
+          "hit5": true
+        }
+      }
+    },
+    {
+      "video_id": "cbd3",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_INNOV_002",
+            "CN_MODERN_001",
+            "BJ_INNOV_001",
+            "CN2_ANCIENT_015",
+            "BJ_GUDU_002"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "B_context": {
+          "top5": [
+            "BJ_INNOV_002",
+            "CN_MODERN_001",
+            "BJ_INNOV_001",
+            "CN2_ANCIENT_015",
+            "BJ_GUDU_002"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "A": {
+          "top5": [
+            "BJ_FASHION_003",
+            "BJ_FASHION_004",
+            "BJ_INNOV_002",
+            "CN_MODERN_001",
+            "BJ_INNOV_001"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_FASHION_003",
+            "BJ_FASHION_004",
+            "BJ_INNOV_002",
+            "CN_MODERN_001",
+            "BJ_INNOV_001"
+          ],
+          "hit1": true,
+          "hit5": true
+        }
+      }
+    },
+    {
+      "video_id": "中关村1号",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_INNOV_002",
+            "BJ_INNOV_001",
+            "BJ_INNOV_003",
+            "BJ_FASHION_007",
+            "BJ_FASHION_008"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "B_context": {
+          "top5": [
+            "BJ_INNOV_002",
+            "BJ_INNOV_001",
+            "BJ_INNOV_003",
+            "BJ_FASHION_007",
+            "BJ_FASHION_008"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "A": {
+          "top5": [
+            "BJ_INNOV_001",
+            "BJ_RED_002",
+            "CN2_TECH_008",
+            "BJ_INNOV_002",
+            "BJ_INNOV_003"
+          ],
+          "hit1": false,
+          "hit5": true
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_INNOV_001",
+            "BJ_RED_002",
+            "CN2_TECH_008",
+            "BJ_INNOV_002",
+            "BJ_INNOV_003"
+          ],
+          "hit1": false,
+          "hit5": true
+        }
+      }
+    },
+    {
+      "video_id": "中关村国际创新中心",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_INNOV_009",
+            "BJ_FASHION_004",
+            "BJ_INNOV_008",
+            "BJ_RED_005",
+            "CN2_ANCIENT_024"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "B_context": {
+          "top5": [
+            "BJ_INNOV_009",
+            "BJ_FASHION_004",
+            "BJ_INNOV_008",
+            "BJ_RED_005",
+            "CN2_ANCIENT_024"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "A": {
+          "top5": [
+            "BJ_INNOV_001",
+            "CN2_TECH_006",
+            "BJ_INNOV_009",
+            "BJ_INNOV_008",
+            "BJ_RED_005"
+          ],
+          "hit1": false,
+          "hit5": true
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_INNOV_001",
+            "CN2_TECH_006",
+            "BJ_INNOV_009",
+            "BJ_FASHION_004",
+            "BJ_INNOV_008"
+          ],
+          "hit1": false,
+          "hit5": true
+        }
+      }
+    },
+    {
+      "video_id": "中关村展示中心",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_INNOV_001",
+            "BJ_INNOV_005",
+            "CN_RED_003",
+            "CN_MODERN_001",
+            "BJ_INNOV_004"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "B_context": {
+          "top5": [
+            "BJ_INNOV_001",
+            "BJ_INNOV_005",
+            "CN_RED_003",
+            "CN_MODERN_001",
+            "BJ_INNOV_004"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "A": {
+          "top5": [
+            "CN2_ANCIENT_017",
+            "BJ_INNOV_005",
+            "CN_RED_003",
+            "CN_MODERN_001",
+            "BJ_INNOV_004"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_INNOV_001",
+            "CN2_ANCIENT_017",
+            "BJ_INNOV_005",
+            "CN_RED_003",
+            "CN_MODERN_001"
+          ],
+          "hit1": false,
+          "hit5": false
+        }
+      }
+    },
+    {
+      "video_id": "京剧青衣",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_JINGWEI_003",
+            "CN2_ANCIENT_002",
+            "CN2_ANCIENT_005",
+            "CN_FOLK_001",
+            "CN2_ANCIENT_025"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "B_context": {
+          "top5": [
+            "BJ_JINGWEI_003",
+            "CN2_ANCIENT_002",
+            "CN2_ANCIENT_005",
+            "CN_FOLK_001",
+            "CN2_ANCIENT_025"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A": {
+          "top5": [
+            "BJ_JINGWEI_003",
+            "CN2_ANCIENT_002",
+            "CN2_ANCIENT_005",
+            "CN_FOLK_001",
+            "CN2_ANCIENT_025"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_JINGWEI_003",
+            "CN2_ANCIENT_002",
+            "CN2_ANCIENT_005",
+            "CN_FOLK_001",
+            "CN2_ANCIENT_025"
+          ],
+          "hit1": true,
+          "hit5": true
+        }
+      }
+    },
+    {
+      "video_id": "人民大会堂",
+      "sample_type": "hard_unknown",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_RED_001",
+            "BJ_RED_008",
+            "CN2_MODERN_002",
+            "BJ_GUDU_002",
+            "BJ_INNOV_009"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "B_context": {
+          "top5": [
+            "BJ_RED_001",
+            "BJ_RED_008",
+            "CN2_MODERN_002",
+            "BJ_GUDU_002",
+            "BJ_INNOV_009"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "A": {
+          "top5": [
+            "BJ_RED_001",
+            "BJ_RED_008",
+            "CN2_MODERN_002",
+            "BJ_GUDU_002",
+            "BJ_INNOV_009"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_RED_001",
+            "BJ_RED_008",
+            "CN2_MODERN_002",
+            "BJ_GUDU_002",
+            "BJ_INNOV_009"
+          ],
+          "hit1": false,
+          "hit5": false
+        }
+      }
+    },
+    {
+      "video_id": "人民大会堂1",
+      "sample_type": "hard_unknown",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_RED_001",
+            "CN_RED_002",
+            "CN_RED_003",
+            "BJ_RED_008",
+            "BJ_INNOV_009"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "B_context": {
+          "top5": [
+            "BJ_RED_001",
+            "CN_RED_002",
+            "CN_RED_003",
+            "BJ_RED_008",
+            "BJ_INNOV_009"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "A": {
+          "top5": [
+            "BJ_RED_002",
+            "BJ_RED_006",
+            "BJ_RED_001",
+            "CN_RED_002",
+            "CN_RED_003"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_RED_002",
+            "BJ_RED_006",
+            "BJ_RED_001",
+            "CN_RED_002",
+            "CN_RED_003"
+          ],
+          "hit1": false,
+          "hit5": false
+        }
+      }
+    },
+    {
+      "video_id": "人民英雄纪念碑",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_RED_002",
+            "BJ_RED_003",
+            "BJ_GUDU_002",
+            "CN_RED_002",
+            "CN_RED_003"
+          ],
+          "hit1": false,
+          "hit5": true
+        },
+        "B_context": {
+          "top5": [
+            "BJ_RED_002",
+            "BJ_RED_003",
+            "BJ_GUDU_002",
+            "CN_RED_002",
+            "CN_RED_003"
+          ],
+          "hit1": false,
+          "hit5": true
+        },
+        "A": {
+          "top5": [
+            "BJ_RED_002",
+            "BJ_RED_003",
+            "BJ_RED_006",
+            "CN_RED_002",
+            "BJ_GUDU_002"
+          ],
+          "hit1": false,
+          "hit5": true
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_RED_002",
+            "BJ_RED_003",
+            "BJ_RED_006",
+            "CN_RED_002",
+            "BJ_GUDU_002"
+          ],
+          "hit1": false,
+          "hit5": true
+        }
+      }
+    },
+    {
+      "video_id": "人民英雄纪念碑1",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_RED_003",
+            "BJ_RED_002",
+            "CN_RED_003",
+            "CN2_ANCIENT_027",
+            "CN2_ANCIENT_029"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "B_context": {
+          "top5": [
+            "BJ_RED_003",
+            "BJ_RED_002",
+            "CN_RED_003",
+            "CN2_ANCIENT_027",
+            "CN2_ANCIENT_029"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A": {
+          "top5": [
+            "BJ_RED_002",
+            "BJ_RED_003",
+            "BJ_RED_006",
+            "CN_RED_002",
+            "CN_RED_003"
+          ],
+          "hit1": false,
+          "hit5": true
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_RED_003",
+            "BJ_RED_002",
+            "BJ_RED_006",
+            "CN_RED_002",
+            "CN_RED_003"
+          ],
+          "hit1": true,
+          "hit5": true
+        }
+      }
+    },
+    {
+      "video_id": "兔爷",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_JINGWEI_004",
+            "BJ_JINGWEI_003",
+            "CN2_ANCIENT_002",
+            "CN2_ANCIENT_025",
+            "CN2_ANCIENT_026"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "B_context": {
+          "top5": [
+            "BJ_JINGWEI_004",
+            "BJ_JINGWEI_003",
+            "CN2_ANCIENT_002",
+            "CN2_ANCIENT_025",
+            "CN2_ANCIENT_026"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A": {
+          "top5": [
+            "BJ_JINGWEI_004",
+            "BJ_JINGWEI_003",
+            "CN2_ANCIENT_002",
+            "CN2_ANCIENT_025",
+            "CN2_ANCIENT_026"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_JINGWEI_004",
+            "BJ_JINGWEI_003",
+            "CN2_ANCIENT_002",
+            "CN2_ANCIENT_025",
+            "CN2_ANCIENT_026"
+          ],
+          "hit1": true,
+          "hit5": true
+        }
+      }
+    },
+    {
+      "video_id": "北大",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "CN_MODERN_001",
+            "CN2_ANCIENT_015",
+            "BJ_GUDU_010",
+            "CN2_ANCIENT_004",
+            "CN2_ANCIENT_024"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "B_context": {
+          "top5": [
+            "CN_MODERN_001",
+            "CN2_ANCIENT_015",
+            "BJ_GUDU_010",
+            "CN2_ANCIENT_004",
+            "CN2_ANCIENT_024"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "A": {
+          "top5": [
+            "CN_MODERN_001",
+            "CN2_ANCIENT_015",
+            "BJ_GUDU_010",
+            "CN2_ANCIENT_004",
+            "CN2_ANCIENT_024"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "A_plus_B": {
+          "top5": [
+            "CN_MODERN_001",
+            "CN2_ANCIENT_015",
+            "BJ_GUDU_010",
+            "CN2_ANCIENT_004",
+            "CN2_ANCIENT_024"
+          ],
+          "hit1": false,
+          "hit5": false
+        }
+      }
+    },
+    {
+      "video_id": "北大1",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_INNOV_006",
+            "BJ_RED_004",
+            "CN2_ANCIENT_025",
+            "CN2_ANCIENT_026",
+            "CN2_ANCIENT_002"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "B_context": {
+          "top5": [
+            "BJ_INNOV_006",
+            "BJ_RED_004",
+            "CN2_ANCIENT_025",
+            "CN2_ANCIENT_026",
+            "CN2_ANCIENT_002"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A": {
+          "top5": [
+            "BJ_RED_004",
+            "BJ_JINGWEI_007",
+            "CN2_ANCIENT_025",
+            "CN2_ANCIENT_026",
+            "CN2_ANCIENT_002"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_INNOV_006",
+            "BJ_RED_004",
+            "BJ_JINGWEI_007",
+            "CN2_ANCIENT_025",
+            "CN2_ANCIENT_026"
+          ],
+          "hit1": true,
+          "hit5": true
+        }
+      }
+    },
+    {
+      "video_id": "国博",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_GUDU_002",
+            "BJ_RED_008",
+            "CN_RED_002",
+            "BJ_RED_002",
+            "BJ_GUDU_006"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "B_context": {
+          "top5": [
+            "BJ_GUDU_002",
+            "BJ_RED_008",
+            "CN_RED_002",
+            "BJ_RED_002",
+            "BJ_GUDU_006"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "A": {
+          "top5": [
+            "BJ_RED_006",
+            "BJ_RED_002",
+            "BJ_GUDU_002",
+            "BJ_RED_008",
+            "CN_RED_002"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_RED_006",
+            "BJ_RED_002",
+            "BJ_GUDU_002",
+            "BJ_RED_008",
+            "CN_RED_002"
+          ],
+          "hit1": true,
+          "hit5": true
+        }
+      }
+    },
+    {
+      "video_id": "天安门",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_GUDU_002",
+            "CN_RED_002",
+            "BJ_GUDU_010",
+            "BJ_RED_002",
+            "CN2_ANCIENT_015"
+          ],
+          "hit1": false,
+          "hit5": true
+        },
+        "B_context": {
+          "top5": [
+            "BJ_GUDU_002",
+            "CN_RED_002",
+            "BJ_GUDU_010",
+            "BJ_RED_002",
+            "CN2_ANCIENT_015"
+          ],
+          "hit1": false,
+          "hit5": true
+        },
+        "A": {
+          "top5": [
+            "BJ_RED_002",
+            "BJ_RED_007",
+            "BJ_GUDU_002",
+            "CN_RED_002",
+            "BJ_GUDU_010"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_RED_002",
+            "BJ_RED_007",
+            "BJ_GUDU_002",
+            "CN_RED_002",
+            "BJ_GUDU_010"
+          ],
+          "hit1": true,
+          "hit5": true
+        }
+      }
+    },
+    {
+      "video_id": "天安门1",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_RED_002",
+            "CN2_ANCIENT_008",
+            "BJ_GUDU_002",
+            "CN2_ANCIENT_021",
+            "CN2_ANCIENT_015"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "B_context": {
+          "top5": [
+            "BJ_RED_002",
+            "BJ_RED_007",
+            "CN2_ANCIENT_008",
+            "BJ_GUDU_002",
+            "CN2_ANCIENT_021"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A": {
+          "top5": [
+            "BJ_RED_002",
+            "BJ_RED_006",
+            "BJ_RED_007",
+            "BJ_JINGWEI_007",
+            "CN2_ANCIENT_008"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_RED_002",
+            "BJ_RED_006",
+            "BJ_RED_007",
+            "BJ_JINGWEI_007",
+            "CN2_ANCIENT_008"
+          ],
+          "hit1": true,
+          "hit5": true
+        }
+      }
+    },
+    {
+      "video_id": "太和殿",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_GUDU_002",
+            "CN2_ANCIENT_002",
+            "CN2_ANCIENT_025",
+            "CN2_ANCIENT_026",
+            "CN2_ANCIENT_011"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "B_context": {
+          "top5": [
+            "BJ_GUDU_002",
+            "CN2_ANCIENT_002",
+            "CN2_ANCIENT_025",
+            "CN2_ANCIENT_026",
+            "CN2_ANCIENT_011"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A": {
+          "top5": [
+            "BJ_GUDU_002",
+            "BJ_GUDU_004",
+            "BJ_INNOV_004",
+            "CN2_ANCIENT_002",
+            "CN2_ANCIENT_025"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_GUDU_002",
+            "BJ_GUDU_004",
+            "BJ_INNOV_004",
+            "CN2_ANCIENT_002",
+            "CN2_ANCIENT_025"
+          ],
+          "hit1": true,
+          "hit5": true
+        }
+      }
+    },
+    {
+      "video_id": "庙会",
+      "sample_type": "known",
+      "variants": {
+        "B": {
+          "top5": [
+            "BJ_JINGWEI_007",
+            "CN2_ANCIENT_002",
+            "BJ_GUDU_002",
+            "CN2_ANCIENT_021",
+            "CN2_ANCIENT_015"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "B_context": {
+          "top5": [
+            "BJ_JINGWEI_007",
+            "CN2_ANCIENT_002",
+            "BJ_GUDU_002",
+            "CN2_ANCIENT_021",
+            "CN2_ANCIENT_015"
+          ],
+          "hit1": true,
+          "hit5": true
+        },
+        "A": {
+          "top5": [
+            "BJ_RED_002",
+            "CN2_ANCIENT_002",
+            "BJ_GUDU_002",
+            "CN2_ANCIENT_021",
+            "CN2_ANCIENT_015"
+          ],
+          "hit1": false,
+          "hit5": false
+        },
+        "A_plus_B": {
+          "top5": [
+            "BJ_RED_002",
+            "BJ_JINGWEI_007",
+            "CN2_ANCIENT_002",
+            "BJ_GUDU_002",
+            "CN2_ANCIENT_021"
+          ],
+          "hit1": false,
+          "hit5": true
+        }
+      }
+    }
+  ]
+}

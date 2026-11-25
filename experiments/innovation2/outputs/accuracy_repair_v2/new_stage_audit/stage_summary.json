@@ -1,0 +1,42 @@
+{
+  "B2": {
+    "n": 20,
+    "stages": {
+      "retrieval_miss": 8,
+      "identity_reject": 5,
+      "retrieval_gate_reject": 2,
+      "correct": 5
+    },
+    "raw_annotation_correct": 11,
+    "final_correct": 5,
+    "correct_lost_after_annotation": [
+      "cbd2",
+      "人民英雄纪念碑",
+      "兔爷",
+      "天安门",
+      "天安门1",
+      "庙会"
+    ]
+  },
+  "C2": {
+    "n": 20,
+    "stages": {
+      "retrieval_miss": 7,
+      "identity_reject": 5,
+      "correct": 6,
+      "retrieval_gate_reject": 2
+    },
+    "raw_annotation_correct": 14,
+    "final_correct": 6,
+    "correct_lost_after_annotation": [
+      "cbd2",
+      "京剧青衣",
+      "人民英雄纪念碑",
+      "兔爷",
+      "国博",
+      "天安门",
+      "天安门1",
+      "庙会"
+    ]
+  }
+}

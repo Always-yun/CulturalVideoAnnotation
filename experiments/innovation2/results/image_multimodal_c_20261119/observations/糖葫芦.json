@@ -1,0 +1,53 @@
+{
+  "scene_description_raw": "{\"scene\":\"黄昏时分，城市街道旁，天空呈现暖色调，光线柔和。\",\"subject\":\"一名男子站在街边，身旁有一个插着多串食物的装置。\",\"visible_features\":[\"男子穿着浅色带黑色装饰的羽绒服，戴着深色帽子，双手插在口袋里。装置上插着多串食物，食物有红色和黄色两种。\"],\"background\":[\"背景中有行驶的车辆、交通信号灯、远处的建筑和树木。\"],\"readable_text\":[{\"text\":\"冰糖葫芦儿\",\"legibility\":\"clear\"},{\"text\":\"Bingtanghulu\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"字幕\",\"time_ratio\":0.5,\"bbox\":[0.45,0.7,0.55,0.85]},{\"kind\":\"字幕\",\"time_ratio\":0.5,\"bbox\":[0.45,0.8,0.55,0.9]}],\"uncertain_entities\":[]}",
+  "scene_description": "黄昏时分，城市街道旁，天空呈现暖色调，光线柔和。\n一名男子站在街边，身旁有一个插着多串食物的装置。\n男子穿着浅色带黑色装饰的羽绒服，戴着深色帽子，双手插在口袋里。装置上插着多串食物，食物有红色和黄色两种。\n可读文字：冰糖葫芦儿\n可读文字：Bingtanghulu",
+  "structured_scene": {
+    "scene": "黄昏时分，城市街道旁，天空呈现暖色调，光线柔和。",
+    "subject": "一名男子站在街边，身旁有一个插着多串食物的装置。",
+    "visible_features": [
+      "男子穿着浅色带黑色装饰的羽绒服，戴着深色帽子，双手插在口袋里。装置上插着多串食物，食物有红色和黄色两种。"
+    ],
+    "background": [
+      "背景中有行驶的车辆、交通信号灯、远处的建筑和树木。"
+    ],
+    "readable_text": [
+      {
+        "text": "冰糖葫芦儿",
+        "legibility": "clear"
+      },
+      {
+        "text": "Bingtanghulu",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "字幕",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.45,
+          0.7,
+          0.55,
+          0.85
+        ]
+      },
+      {
+        "kind": "字幕",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.45,
+          0.8,
+          0.55,
+          0.9
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

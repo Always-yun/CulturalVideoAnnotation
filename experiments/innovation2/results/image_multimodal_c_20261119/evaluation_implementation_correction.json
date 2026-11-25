@@ -1,0 +1,7 @@
+{
+  "reason": "Make square-bracket punctuation normalization follow the already-frozen evaluation rule, uniformly across all four methods. The implementation had retained decorative brackets such as [entity]. No alias, threshold, weight, Top-K or model prompt changes.",
+  "before_sha256": "43065a2a1fe921a3d5cc771129b66a0c6e7089cfada1ae9a9350d1091b893e18",
+  "after_sha256": "7bde98fceaee6e310ef6db6b90d8dc30991d8add7d0512510b61a5ddc128c178",
+  "parameter_changes": false,
+  "test_annotations_already_completed": 8
+}

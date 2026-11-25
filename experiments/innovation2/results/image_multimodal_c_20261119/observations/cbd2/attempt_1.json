@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:38:08.516276+08:00",
+  "status": "completed",
+  "raw_reply": "{\"scene\":\"黄昏时分城市天际线，高楼林立，车流光轨，树木植被环绕\",\"subject\":\"城市建筑群及车流\",\"visible_features\":[\"现代化高楼大厦，玻璃幕墙建筑，车流光轨，树木植被，低矮建筑\"],\"background\":[\"天空，城市建筑群，道路，树木，停车场\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "response_model": "glm-4v",
+  "response_id": "2026111916380852c8d68d779c4cb3",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73860, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=86, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73946)",
+  "seconds": 53.508745431900024
+}

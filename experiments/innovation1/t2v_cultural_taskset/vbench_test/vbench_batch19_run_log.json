@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "video_dir": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1",
+    "num_videos": 19,
+    "videos": [
+      "T2-2.mp4",
+      "T2-3.mp4",
+      "T2-4.mp4",
+      "T3-1.mp4",
+      "T3-2.mp4",
+      "T3-3.mp4",
+      "T3-4.mp4",
+      "T5-1.mp4",
+      "T5-2.mp4",
+      "T5-3.mp4",
+      "T5-4.mp4",
+      "T8-1.mp4",
+      "T8-2.mp4",
+      "T8-3.mp4",
+      "T8-4.mp4",
+      "T9-1.mp4",
+      "T9-2.mp4",
+      "T9-3.mp4",
+      "T9-4.mp4"
+    ],
+    "device": "cuda:1",
+    "torch": "2.4.1+cu118",
+    "dimensions": [
+      "imaging_quality",
+      "subject_consistency"
+    ],
+    "started": "2026-11-02 21:34:16"
+  },
+  "status": "success",
+  "elapsed_sec": 106.01,
+  "finished": "2026-11-02 21:36:02",
+  "eval_results": {
+    "imaging_quality": [
+      0.7641984287020711,
+      [
+        {
+          "video_path": "/tmp/vbench_batch19/T8-1.mp4",
+          "video_results": 80.48934635039299
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T3-4.mp4",
+          "video_results": 74.45125481390184
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T5-3.mp4",
+          "video_results": 73.99631918630293
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T9-4.mp4",
+          "video_results": 78.04013141509026
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T9-3.mp4",
+          "video_results": 78.34150314331055
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T2-2.mp4",
+          "video_results": 78.7761600863549
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T8-3.mp4",
+          "video_results": 79.88739887360603
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T5-4.mp4",
+          "video_results": 79.17806828406549
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T3-2.mp4",
+          "video_results": 58.97086179640986
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T2-3.mp4",
+          "video_results": 74.66458775920253
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T2-4.mp4",
+          "video_results": 76.6764480221656
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T8-4.mp4",
+          "video_results": 78.2670070279029
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T9-1.mp4",
+          "video_results": 78.92509165117818
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T3-3.mp4",
+          "video_results": 79.49372113135553
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T5-1.mp4",
+          "video_results": 78.91595120583811
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T9-2.mp4",
+          "video_results": 71.55319496893114
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T5-2.mp4",
+          "video_results": 75.79500536764822
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T3-1.mp4",
+          "video_results": 75.76557633184618
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T8-2.mp4",
+          "video_results": 79.78938711843183
+        }
+      ]
+    ],
+    "subject_consistency": [
+      0.9525648127009101,
+      [
+        {
+          "video_path": "/tmp/vbench_batch19/T8-1.mp4",
+          "video_results": 0.9681892889301952
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T3-4.mp4",
+          "video_results": 0.9996749572153014
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T5-3.mp4",
+          "video_results": 0.9763862871057619
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T9-4.mp4",
+          "video_results": 0.9763070623564526
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T9-3.mp4",
+          "video_results": 0.9774489301006969
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T2-2.mp4",
+          "video_results": 0.9755233489885563
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T8-3.mp4",
+          "video_results": 0.9825195209766792
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T5-4.mp4",
+          "video_results": 0.962759850955591
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T3-2.mp4",
+          "video_results": 0.5539850368187195
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T2-3.mp4",
+          "video_results": 0.9712593402804398
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T2-4.mp4",
+          "video_results": 0.9785862523850387
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T8-4.mp4",
+          "video_results": 0.934457141209424
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T9-1.mp4",
+          "video_results": 0.9650092553801652
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T3-3.mp4",
+          "video_results": 0.9988432710732871
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T5-1.mp4",
+          "video_results": 0.9785267725223448
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T9-2.mp4",
+          "video_results": 0.982247814414947
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T5-2.mp4",
+          "video_results": 0.9822015258354869
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T3-1.mp4",
+          "video_results": 0.9980791841096025
+        },
+        {
+          "video_path": "/tmp/vbench_batch19/T8-2.mp4",
+          "video_results": 0.9367266006586028
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "庙会",
+  "gt_symbols": [
+    "北京庙会"
+  ],
+  "gt_symbol_ids": [
+    "BJ_JINGWEI_007"
+  ],
+  "gt_dimension_code": "FOLK",
+  "kb_coverage": true,
+  "mode": "text",
+  "status": "blocked_runtime",
+  "reason": "基础模型调用受阻：APIConnectionError；详情见api_calls.json"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_GUDU_001",
+    "canonical_name": "故宫",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.9344482421875,
+    "reason": "关键词/别名命中：故宫、故宫博物院、宫殿",
+    "image_score": 0.8689,
+    "text_score": 1.0,
+    "fusion_score": 0.9344
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_002",
+    "canonical_name": "平遥古城",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4483642578125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8967,
+    "text_score": 0.0,
+    "fusion_score": 0.4484
+  },
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.44580078125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8916,
+    "text_score": 0.0,
+    "fusion_score": 0.4458
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_021",
+    "canonical_name": "泰山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.4429931640625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.886,
+    "text_score": 0.0,
+    "fusion_score": 0.443
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_008",
+    "canonical_name": "明清皇家陵寝",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.44091796875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8818,
+    "text_score": 0.0,
+    "fusion_score": 0.4409
+  }
+]

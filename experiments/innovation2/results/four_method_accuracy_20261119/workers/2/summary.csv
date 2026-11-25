@@ -1,0 +1,5 @@
+﻿mode,expected,attempted,completed,correct,accuracy,completed_accuracy,dimension_correct,failed,blocked
+free,30,10,9,3,,0.3333333333333333,6,1,0
+text,30,10,9,6,,0.6666666666666666,7,1,0
+image,30,0,0,0,,,0,0,10
+multimodal,30,0,0,0,,,0,0,10

@@ -1,0 +1,20 @@
+{
+  "imaging_quality": [
+    0.7758298510889853,
+    [
+      {
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-1.mp4",
+        "video_results": 77.58298510889853
+      }
+    ]
+  ],
+  "subject_consistency": [
+    0.9699484567816664,
+    [
+      {
+        "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-1.mp4",
+        "video_results": 0.9699484567816664
+      }
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "video_id": "人民大会堂",
+  "gt_symbols": [
+    "人民大会堂"
+  ],
+  "gt_symbol_ids": [],
+  "gt_dimension_code": "ANCIENT",
+  "kb_coverage": false,
+  "mode": "free",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为人民大会堂、中华人民共和国国徽。",
+  "pred_dimension": "红色文化",
+  "unknown_symbol": false,
+  "symbol_correct": false,
+  "dimension_correct": false,
+  "topk_candidates": [],
+  "recall_at_5": null,
+  "seconds": 78.16,
+  "error_type": "entity_confusion_or_generation",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/traces/人民大会堂/free/trace.json"
+}

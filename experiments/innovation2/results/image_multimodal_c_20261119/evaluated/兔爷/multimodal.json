@@ -1,0 +1,63 @@
+{
+  "video_id": "兔爷",
+  "mode": "multimodal",
+  "status": "completed",
+  "outcome": "correct_main",
+  "reference_names": [
+    "兔儿爷"
+  ],
+  "reference_ids": [
+    "BJ_JINGWEI_004"
+  ],
+  "predicted_names": [
+    "兔儿爷"
+  ],
+  "predicted_ids": [
+    "BJ_JINGWEI_004"
+  ],
+  "main_correct": true,
+  "strict_correct": true,
+  "reference_extra_entities": [],
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "predicted_categories": [
+    "FOLK"
+  ],
+  "reference_categories": [
+    "FOLK"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": true,
+  "candidate_ids": [
+    "BJ_JINGWEI_004",
+    "BJ_GUDU_002",
+    "BJ_JINGWEI_001"
+  ],
+  "raw_reply": "【C｜文化维度层】：该场景隶属于民族与民俗文化。\n核心符号：兔儿爷\n价值指向：画面中可见多尊色彩鲜艳、造型为兔首人身的神像，符合兔儿爷“兔首人身、粉彩绘”的视觉特征，背景墙上亦有相关文字“兔爷供”，结合其作为中秋祭月与儿童玩具的民俗属性，可确认该文化符号。",
+  "c_layer_natural_language": "：该场景隶属于民族与民俗文化。\n核心符号：兔儿爷\n价值指向：画面中可见多尊色彩鲜艳、造型为兔首人身的神像，符合兔儿爷“兔首人身、粉彩绘”的视觉特征，背景墙上亦有相关文字“兔爷供”，结合其作为中秋祭月与儿童玩具的民俗属性，可确认该文化符号。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/image_multimodal_c_20261119/predictions/兔爷/multimodal.json",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-19T16:52:10.748843+08:00",
+      "status": "completed",
+      "raw_reply": "【C｜文化维度层】：该场景隶属于民族与民俗文化。\n核心符号：兔儿爷\n价值指向：画面中可见多尊色彩鲜艳、造型为兔首人身的神像，符合兔儿爷“兔首人身、粉彩绘”的视觉特征，背景墙上亦有相关文字“兔爷供”，结合其作为中秋祭月与儿童玩具的民俗属性，可确认该文化符号。",
+      "response_model": "glm-4v",
+      "response_id": "202611191652118d23464672e04e01",
+      "finish_reason": "stop",
+      "usage": "CompletionUsage(prompt_tokens=22235, prompt_tokens_details=PromptTokensDetails(cached_tokens=16390), completion_tokens=91, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=22326)",
+      "seconds": 40.69076895713806
+    }
+  ],
+  "raw_available": true,
+  "full_c_available": true
+}

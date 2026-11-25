@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN2_TECH_007",
+    "canonical_name": "中关村广场",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6495361328125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6495,
+    "text_score": 0.0,
+    "fusion_score": 0.6495
+  },
+  {
+    "symbol_id": "CN2_FOLK_004",
+    "canonical_name": "丽江古城",
+    "cultural_dimension": "民族与民俗文化;古城与历史文化",
+    "dimension_code": "FOLK;ANCIENT",
+    "score": 0.6453857421875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6454,
+    "text_score": 0.0,
+    "fusion_score": 0.6454
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_005",
+    "canonical_name": "大足石刻",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6448974609375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6449,
+    "text_score": 0.0,
+    "fusion_score": 0.6449
+  },
+  {
+    "symbol_id": "CN_ANCIENT_001",
+    "canonical_name": "秦始皇帝陵兵马俑",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6436767578125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6437,
+    "text_score": 0.0,
+    "fusion_score": 0.6437
+  },
+  {
+    "symbol_id": "CN_ANCIENT_004",
+    "canonical_name": "良渚古城遗址",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6435546875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6436,
+    "text_score": 0.0,
+    "fusion_score": 0.6436
+  }
+]

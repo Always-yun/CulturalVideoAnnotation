@@ -1,0 +1,14 @@
+{
+  "video_id": "角楼1",
+  "gt_symbols": [
+    "角楼"
+  ],
+  "gt_symbol_ids": [
+    "BJ_GUDU_010"
+  ],
+  "gt_dimension_code": "ANCIENT",
+  "kb_coverage": true,
+  "mode": "image",
+  "status": "blocked_material",
+  "reason": "全部参考图未审核且use_for_retrieval=False；需要审核并启用真实图片"
+}

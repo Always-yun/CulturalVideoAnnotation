@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_INNOV_005",
+    "canonical_name": "水立方",
+    "cultural_dimension": "科技与创新文化;现代城市与国际文化",
+    "dimension_code": "TECH;MODERN",
+    "score": 0.9495849609375,
+    "reason": "关键词/别名命中：水立方",
+    "image_score": 0.8992,
+    "text_score": 1.0,
+    "fusion_score": 0.9496
+  },
+  {
+    "symbol_id": "BJ_INNOV_004",
+    "canonical_name": "鸟巢",
+    "cultural_dimension": "科技与创新文化;现代城市与国际文化",
+    "dimension_code": "TECH;MODERN",
+    "score": 0.9434814453125,
+    "reason": "关键词/别名命中：鸟巢",
+    "image_score": 0.887,
+    "text_score": 1.0,
+    "fusion_score": 0.9435
+  },
+  {
+    "symbol_id": "BJ_INNOV_003",
+    "canonical_name": "奥林匹克公园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.928955078125,
+    "reason": "关键词/别名命中：奥林匹克公园",
+    "image_score": 0.8579,
+    "text_score": 1.0,
+    "fusion_score": 0.929
+  },
+  {
+    "symbol_id": "BJ_INNOV_009",
+    "canonical_name": "国家会议中心",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.65771484375,
+    "reason": "关键词/别名命中：奥林匹克公园",
+    "image_score": 0.8154,
+    "text_score": 0.5,
+    "fusion_score": 0.6577
+  },
+  {
+    "symbol_id": "BJ_INNOV_002",
+    "canonical_name": "中关村科学城",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.419921875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8398,
+    "text_score": 0.0,
+    "fusion_score": 0.4199
+  }
+]

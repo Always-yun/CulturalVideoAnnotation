@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_INNOV_006",
+    "canonical_name": "北京大学",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.628173828125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6282,
+    "text_score": 0.0,
+    "fusion_score": 0.6282
+  },
+  {
+    "symbol_id": "BJ_FASHION_008",
+    "canonical_name": "郎园Station",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.6253662109375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6254,
+    "text_score": 0.0,
+    "fusion_score": 0.6254
+  },
+  {
+    "symbol_id": "BJ_INNOV_003",
+    "canonical_name": "奥林匹克公园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.622314453125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6223,
+    "text_score": 0.0,
+    "fusion_score": 0.6223
+  },
+  {
+    "symbol_id": "BJ_RED_006",
+    "canonical_name": "中国国家博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.620849609375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6208,
+    "text_score": 0.0,
+    "fusion_score": 0.6208
+  },
+  {
+    "symbol_id": "BJ_FASHION_002",
+    "canonical_name": "798艺术区",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.620361328125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6204,
+    "text_score": 0.0,
+    "fusion_score": 0.6204
+  }
+]

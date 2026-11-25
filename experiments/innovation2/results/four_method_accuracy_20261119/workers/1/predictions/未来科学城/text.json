@@ -1,0 +1,23 @@
+{
+  "video_id": "未来科学城",
+  "gt_symbols": [
+    "未来科学城"
+  ],
+  "gt_symbol_ids": [
+    "BJ_INNOV_008"
+  ],
+  "gt_dimension_code": "TECH",
+  "kb_coverage": true,
+  "mode": "text",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为现代桥梁、高层建筑群。",
+  "pred_dimension": "科技与创新文化",
+  "unknown_symbol": false,
+  "symbol_correct": false,
+  "dimension_correct": true,
+  "topk_candidates": [],
+  "recall_at_5": false,
+  "seconds": 85.05,
+  "error_type": "retrieval_miss",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/1/traces/未来科学城/text/trace.json"
+}

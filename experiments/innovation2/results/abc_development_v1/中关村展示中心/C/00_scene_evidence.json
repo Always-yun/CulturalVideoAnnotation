@@ -1,0 +1,73 @@
+{
+  "scene_description_raw": "{\"scene\":\"城市景观，白天，晴朗，有现代建筑、道路、车辆和远山\",\"subject\":\"现代建筑及周围环境\",\"visible_features\":[\"大型流线型银色屋顶建筑，屋顶有绿色草坪，建筑旁有展示中心，展示中心前有草坪、旗杆阵列、彩色地面装饰，右侧有多车道公路，车辆行驶，远处有山脉和城市建筑\"],\"background\":[\"远处的山脉，城市建筑群，天空\"],\"readable_text\":[{\"text\":\"展示中心\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.125,0.585,0.165,0.617]}],\"uncertain_entities\":[]}",
+  "scene_description": "城市景观，白天，晴朗，有现代建筑、道路、车辆和远山\n现代建筑及周围环境\n大型流线型银色屋顶建筑，屋顶有绿色草坪，建筑旁有展示中心，展示中心前有草坪、旗杆阵列、彩色地面装饰，右侧有多车道公路，车辆行驶，远处有山脉和城市建筑\n可读文字：展示中心 中关村国家自主创新示范区",
+  "scene_evidence_version": "structured_v1",
+  "structured_scene": {
+    "scene": "城市景观，白天，晴朗，有现代建筑、道路、车辆和远山",
+    "subject": "现代建筑及周围环境",
+    "visible_features": [
+      "大型流线型银色屋顶建筑，屋顶有绿色草坪，建筑旁有展示中心，展示中心前有草坪、旗杆阵列、彩色地面装饰，右侧有多车道公路，车辆行驶，远处有山脉和城市建筑"
+    ],
+    "background": [
+      "远处的山脉，城市建筑群，天空"
+    ],
+    "readable_text": [
+      {
+        "text": "展示中心",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.125,
+          0.585,
+          0.165,
+          0.617
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "completed",
+    "calls": 1,
+    "items": [
+      {
+        "text": "展示中心 中关村国家自主创新示范区",
+        "legibility": "clear"
+      }
+    ],
+    "attempts": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.125,
+          0.585,
+          0.165,
+          0.617
+        ],
+        "index": 0,
+        "frame_index": 84,
+        "pixel_bbox": [
+          430,
+          1220,
+          757,
+          1375
+        ],
+        "images": [
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/中关村展示中心/B/text_evidence/region_0_crop.jpg",
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/中关村展示中心/B/text_evidence/region_0_context.jpg"
+        ],
+        "raw_response": "{\"text\":\"展示中心 中关村国家自主创新示范区\",\"legibility\":\"clear\"}",
+        "result": {
+          "text": "展示中心 中关村国家自主创新示范区",
+          "legibility": "clear"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_FASHION_005",
+    "canonical_name": "望京",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.307220458984375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6144,
+    "text_score": 0.0,
+    "fusion_score": 0.3072
+  },
+  {
+    "symbol_id": "CN2_TECH_012",
+    "canonical_name": "集成电路产业园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.306610107421875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6132,
+    "text_score": 0.0,
+    "fusion_score": 0.3066
+  },
+  {
+    "symbol_id": "CN_ANCIENT_001",
+    "canonical_name": "秦始皇帝陵兵马俑",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.306243896484375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6125,
+    "text_score": 0.0,
+    "fusion_score": 0.3062
+  },
+  {
+    "symbol_id": "CN2_TECH_007",
+    "canonical_name": "中关村广场",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.305908203125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6118,
+    "text_score": 0.0,
+    "fusion_score": 0.3059
+  },
+  {
+    "symbol_id": "CN_ANCIENT_004",
+    "canonical_name": "良渚古城遗址",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.3057861328125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6116,
+    "text_score": 0.0,
+    "fusion_score": 0.3058
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_RED_009",
+    "canonical_name": "李大钊故居",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.62396240234375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.624,
+    "text_score": 0.0,
+    "fusion_score": 0.624
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_009",
+    "canonical_name": "鸽哨",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.6226806640625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6227,
+    "text_score": 0.0,
+    "fusion_score": 0.6227
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_002",
+    "canonical_name": "四合院",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.62225341796875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6223,
+    "text_score": 0.0,
+    "fusion_score": 0.6223
+  },
+  {
+    "symbol_id": "BJ_GUDU_003",
+    "canonical_name": "天坛",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.6212158203125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6212,
+    "text_score": 0.0,
+    "fusion_score": 0.6212
+  },
+  {
+    "symbol_id": "BJ_GUDU_006",
+    "canonical_name": "北京中轴线",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.62109375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6211,
+    "text_score": 0.0,
+    "fusion_score": 0.6211
+  }
+]

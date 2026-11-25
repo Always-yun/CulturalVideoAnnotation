@@ -1,0 +1,78 @@
+{
+  "request": {
+    "video_id": "T06_G2_r01",
+    "task_id": "T06",
+    "group": "G2",
+    "source": {
+      "video_file": "data/video/皮影戏.mp4",
+      "video_sha256": "377fcbe5ddcdf327c696f610de0b747adaa8df97cc129842dd50d68a73f6ae81",
+      "frames": [
+        {
+          "fraction": 0.5,
+          "duration_sec": 13.032,
+          "requested_sec": 6.516,
+          "actual_sec": 6.5,
+          "absolute_pts_sec": 6.5,
+          "frame_index": 195,
+          "frame_file": "experiments/innovation1/four_group_v2/keyframes/T06/source/50.jpg",
+          "sha256": "80de00ee2d169720df4ce6568d9b1bc743a2b53ea1a07a77d01ebe5d00c82c53",
+          "attempts": [
+            {
+              "index": 195,
+              "pts_sec": 6.5,
+              "black": false
+            }
+          ]
+        }
+      ],
+      "T": {
+        "fps": 29.75473783173069,
+        "decoded_frames": 391,
+        "duration_sec": 13.032,
+        "duration_scope_warning": "outside_3_to_5_seconds_review_scope"
+      },
+      "exception_rule": "nearest PTS; black >98% gray<8; previous then next within 0.1s; failure blocks; no aesthetic selection"
+    },
+    "generated": {
+      "video_file": "experiments/innovation1/videos/four_group_v2/T06-G2.mp4",
+      "video_sha256": "feef7bceb30d732984dba83fae96dc406f03b86de3285ca8d51894b20369b2e8",
+      "frames": [
+        {
+          "fraction": 0.5,
+          "duration_sec": 5.166667,
+          "requested_sec": 2.5833335,
+          "actual_sec": 2.583333,
+          "absolute_pts_sec": 2.583333,
+          "frame_index": 62,
+          "frame_file": "experiments/innovation1/four_group_v2/keyframes/T06/T06_G2_r01/50.jpg",
+          "sha256": "131c522868a6735c1188d742461310573816e26dc11bf93951645084479c7cf9",
+          "attempts": [
+            {
+              "index": 62,
+              "pts_sec": 2.583333,
+              "black": false
+            }
+          ]
+        }
+      ],
+      "T": {
+        "fps": 24.0,
+        "decoded_frames": 124,
+        "duration_sec": 5.166667,
+        "duration_scope_warning": "outside_3_to_5_seconds_review_scope"
+      },
+      "exception_rule": "nearest PTS; black >98% gray<8; previous then next within 0.1s; failure blocks; no aesthetic selection",
+      "formal_eligibility": false,
+      "eligibility_note": "关键帧可先提取；正式评价仍需冻结描述及核验生成配置"
+    },
+    "prompt": "第一张为原视频50%关键帧，第二张为生成视频50%关键帧。独立评价关键帧一致性：比较主要主体轮廓与相对尺度、关键部件及空间关系、场景布局、拍摄视角与构图。不要求像素一致，不因纯画风、光照色差扣分，不根据图片判断镜头运动。Match=上述主要关系基本一致；Partial=部分一致但有明显结构、布局或视角偏差；Mismatch=主要主体或空间组织明显不同；Uncertain=证据不足。禁止以是否知道地标名称替代图像比较。只输出严格JSON：{\"verdict\":\"Match/Partial/Mismatch/Uncertain\",\"evidence\":\"明确指出两张图相同与不同之处\"}。"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "parse_ok": true,
+  "raw_response": "{\"verdict\":\"Mismatch\",\"evidence\":\"两张图主要主体轮廓与相对尺度、关键部件及空间关系、场景布局、拍摄视角与构图均存在明显差异。第一张图主体为彩色皮影戏人物（左侧穿黄衣戴冠者、右侧穿绿衣者），背景有传统灯笼、树木、建筑等元素；第二张图主体为剪影风格人物，背景为黄色建筑、树木等，场景元素和主体表现形式完全不同。\"}",
+  "parsed": {
+    "verdict": "Mismatch",
+    "evidence": "两张图主要主体轮廓与相对尺度、关键部件及空间关系、场景布局、拍摄视角与构图均存在明显差异。第一张图主体为彩色皮影戏人物（左侧穿黄衣戴冠者、右侧穿绿衣者），背景有传统灯笼、树木、建筑等元素；第二张图主体为剪影风格人物，背景为黄色建筑、树木等，场景元素和主体表现形式完全不同。"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "scene_description_raw": "{\"scene\":\"室内，光线明亮，有砖墙和木质架子，桌面摆放多种工具和材料\",\"subject\":\"一名穿红色中式上衣的男子，双手在操作一个白色小物件\",\"visible_features\":[\"短发，红色中式上衣，双手持物操作\"],\"background\":[\"左侧木质架子，上面有彩色玩偶、盒子、罐子；中间桌面有颜料瓶、工具；后方有红色竖幅，上面有黑色文字，还有彩色玩偶\"],\"readable_text\":[{\"text\":\"兔爷供\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"竖幅\",\"time_ratio\":0.5,\"bbox\":[0.45,0.0,0.535,0.55]}],\"uncertain_entities\":[]}",
+  "scene_description": "室内，光线明亮，有砖墙和木质架子，桌面摆放多种工具和材料\n一名穿红色中式上衣的男子，双手在操作一个白色小物件\n短发，红色中式上衣，双手持物操作\n可读文字：中兔爷供\n【背景辅助证据；不能单独证明主体身份】\n左侧木质架子，上面有彩色玩偶、盒子、罐子；中间桌面有颜料瓶、工具；后方有红色竖幅，上面有黑色文字，还有彩色玩偶",
+  "scene_evidence_version": "hybrid_v3",
+  "structured_scene": {
+    "scene": "室内，光线明亮，有砖墙和木质架子，桌面摆放多种工具和材料",
+    "subject": "一名穿红色中式上衣的男子，双手在操作一个白色小物件",
+    "visible_features": [
+      "短发，红色中式上衣，双手持物操作"
+    ],
+    "background": [
+      "左侧木质架子，上面有彩色玩偶、盒子、罐子；中间桌面有颜料瓶、工具；后方有红色竖幅，上面有黑色文字，还有彩色玩偶"
+    ],
+    "readable_text": [
+      {
+        "text": "兔爷供",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "竖幅",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.45,
+          0.0,
+          0.535,
+          0.55
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "completed",
+    "calls": 1,
+    "items": [
+      {
+        "text": "中兔爷供",
+        "legibility": "clear"
+      }
+    ],
+    "attempts": [
+      {
+        "kind": "竖幅",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.45,
+          0.0,
+          0.535,
+          0.55
+        ],
+        "index": 0,
+        "frame_index": 77,
+        "pixel_bbox": [
+          825,
+          0,
+          1065,
+          615
+        ],
+        "images": [
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/兔爷/B/text_evidence/region_0_crop.jpg",
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/兔爷/B/text_evidence/region_0_context.jpg"
+        ],
+        "raw_response": "{\"text\":\"中兔爷供\",\"legibility\":\"clear\"}",
+        "result": {
+          "text": "中兔爷供",
+          "legibility": "clear"
+        }
+      }
+    ]
+  },
+  "retrieval_scene_text": "1.【场景描述】：一位手工艺人在室内工作坊中专注制作传统手工艺品，背景有砖墙、货架和各类工具。\n2.【文化视觉元素】：兔爷（传统玩具）、红色对联（“兔爷供”）、传统服饰（中式立领上衣）、传统手工艺品（彩绘陶瓷摆件）。\n室内，光线明亮，有砖墙和木质架子，桌面摆放多种工具和材料\n一名穿红色中式上衣的男子，双手在操作一个白色小物件\n短发，红色中式上衣，双手持物操作\n可读文字：中兔爷供\n【背景辅助证据；不能单独证明主体身份】\n左侧木质架子，上面有彩色玩偶、盒子、罐子；中间桌面有颜料瓶、工具；后方有红色竖幅，上面有黑色文字，还有彩色玩偶",
+  "hypothesis_provenance": {
+    "source": "cached_legacy_pass1",
+    "text": "1.【场景描述】：一位手工艺人在室内工作坊中专注制作传统手工艺品，背景有砖墙、货架和各类工具。\n2.【文化视觉元素】：兔爷（传统玩具）、红色对联（“兔爷供”）、传统服饰（中式立领上衣）、传统手工艺品（彩绘陶瓷摆件）。",
+    "use": "retrieval_only_not_identity_evidence"
+  }
+}

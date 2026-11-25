@@ -1,0 +1,6 @@
+{"video_id": "niaochao", "video_path": "data/test/鸟巢.mp4", "gt_symbol_ids": ["BJ_INNOV_004"], "gt_symbols": ["鸟巢"], "gt_dimension_code": "TECH;MODERN", "notes": "鸟巢地标+奥运元素，KB命中样本"}
+{"video_id": "niaochao_shuilifang", "video_path": "data/test/光厂_30665289_鸟巢水立方.城市地标建筑.旅游景点_0037.mp4", "gt_symbol_ids": ["BJ_INNOV_004", "BJ_INNOV_005"], "gt_symbols": ["鸟巢", "水立方"], "gt_dimension_code": "TECH;MODERN", "notes": "鸟巢与水立方双地标（命中任一即算符号正确）"}
+{"video_id": "niaochao_aerial", "video_path": "data/test/光厂_41894188_绝版鸟巢航拍_00001.mp4", "gt_symbol_ids": ["BJ_INNOV_004"], "gt_symbols": ["鸟巢"], "gt_dimension_code": "TECH;MODERN", "notes": "鸟巢航拍视角，测图像检索鲁棒性"}
+{"video_id": "selfie_222", "video_path": "data/test/222.mp4", "gt_symbol_ids": [], "gt_symbols": ["unknown_symbol"], "gt_dimension_code": "", "notes": "人物自拍，无明确文化符号，测拒识能力"}
+{"video_id": "modern_chinese_475", "video_path": "data/test/475.mp4", "gt_symbol_ids": [], "gt_symbols": ["unknown_symbol"], "gt_dimension_code": "ANCIENT", "notes": "现代中式建筑（KB无对应符号），理想输出unknown_symbol+古城与历史文化维度"}
+{"video_id": "royal_garden_073", "video_path": "data/test/073.mp4", "gt_symbol_ids": [], "gt_symbols": ["unknown_symbol"], "gt_dimension_code": "ANCIENT", "notes": "皇家园林红墙亭与石雕（疑似北海公园，KB未收录），理想输出unknown_symbol+古城与历史文化维度，测KB覆盖缺口"}

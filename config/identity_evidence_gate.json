@@ -1,0 +1,31 @@
+{
+  "version": "v1.0",
+  "purpose": "Candidate-specific identity verification after the existing retrieval-confidence gate.",
+  "calibration_split": "val",
+  "selection_rule": {
+    "minimum_level": "strong",
+    "allow_category_evidence_to_accept": false,
+    "allow_image_score_as_reference_identity_evidence": false,
+    "strong_rule": "A canonical/alias name must occur as a complete entity in the scene description without a conflicting, explicitly named focus entity, or an existing KB visual attribute must match exactly in that focus description.",
+    "weak_rule": "A contextual name mention or a name embedded in a longer entity is retained for audit only and cannot accept a symbol."
+  },
+  "available_evidence": {
+    "canonical_name": true,
+    "alias": true,
+    "scene_description": true,
+    "ocr": false,
+    "reference_images": false,
+    "unique_visual_attributes": true
+  },
+  "focus_suffixes": ["建筑", "建筑群", "城楼", "广场", "园区", "校园", "街区", "景区", "体育场", "遗址", "遗迹", "天际线", "全景", "外观", "主体", "大门", "牌楼", "塔", "桥", "河", "湖", "街景", "夜景", "航拍", "剪影", "倒影", "前", "后", "旁", "内", "中", "上", "下", "周边", "附近"],
+  "unique_attribute": {
+    "minimum_normalized_length": 4,
+    "exclude_if_contains_candidate_name": true,
+    "description": "Only exact matches to an existing visual_features component are considered; generic category words are excluded."
+  },
+  "focus_conflict": {
+    "enabled": true,
+    "description": "A complete candidate name in contextual text is not identity proof when the focus clause explicitly names another entity; this avoids parent-place and name-prefix matches."
+  },
+  "notes": ["No reference_images are populated in the current KB; identity_reference_image_match must remain unavailable.", "The gate does not use test labels or test-specific rules."]
+}

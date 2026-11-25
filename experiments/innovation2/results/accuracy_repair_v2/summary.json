@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "completed": 40,
+  "expected": 40,
+  "scope": "development_only_not_independent_test",
+  "groups": {
+    "B2": {
+      "n": 20,
+      "known_n": 18,
+      "unknown_n": 2,
+      "accuracy": 0.25,
+      "known_accuracy": 0.16666666666666666,
+      "known_false_reject": 0.8333333333333334,
+      "unknown_false_accept": 0.0,
+      "recall5": 0.5555555555555556,
+      "api_calls": 26
+    },
+    "C2": {
+      "n": 20,
+      "known_n": 18,
+      "unknown_n": 2,
+      "accuracy": 0.3,
+      "known_accuracy": 0.2222222222222222,
+      "known_false_reject": 0.7777777777777778,
+      "unknown_false_accept": 0.0,
+      "recall5": 0.6111111111111112,
+      "api_calls": 25
+    }
+  },
+  "paired": {
+    "B2": {
+      "n": 20,
+      "before_correct": 5,
+      "after_correct": 5,
+      "improved": [],
+      "regressed": []
+    },
+    "C2": {
+      "n": 18,
+      "before_correct": 5,
+      "after_correct": 5,
+      "improved": [],
+      "regressed": []
+    }
+  }
+}

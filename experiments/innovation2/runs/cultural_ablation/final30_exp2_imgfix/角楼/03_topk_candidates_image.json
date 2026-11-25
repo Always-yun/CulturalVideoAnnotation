@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_GUDU_010",
+    "canonical_name": "角楼",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.94970703125,
+    "reason": "关键词/别名命中：角楼",
+    "image_score": 0.9497,
+    "text_score": 1.0,
+    "fusion_score": 0.9497
+  },
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.94384765625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9438,
+    "text_score": 0.0,
+    "fusion_score": 0.9438
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_015",
+    "canonical_name": "颐和园",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.929931640625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9299,
+    "text_score": 0.0,
+    "fusion_score": 0.9299
+  },
+  {
+    "symbol_id": "BJ_GUDU_004",
+    "canonical_name": "祈年殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.91796875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.918,
+    "text_score": 0.0,
+    "fusion_score": 0.918
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_008",
+    "canonical_name": "明清皇家陵寝",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.911865234375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9119,
+    "text_score": 0.0,
+    "fusion_score": 0.9119
+  }
+]

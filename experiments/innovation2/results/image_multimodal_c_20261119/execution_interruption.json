@@ -1,0 +1,29 @@
+{
+  "exit_code": 143,
+  "recorded_at": "2026-11-19T16:49:25.090941",
+  "completed_preserved": 18,
+  "unfinished_requests": [
+    {
+      "video_id": "人民大会堂1",
+      "mode": "image",
+      "status": "execution_environment_interrupted_before_reply",
+      "raw_reply_available": false,
+      "saved_request": "experiments/innovation2/results/image_multimodal_c_20261119/interrupted_calls_before_resume/人民大会堂1/image/request.json"
+    },
+    {
+      "video_id": "人民大会堂1",
+      "mode": "multimodal",
+      "status": "execution_environment_interrupted_before_reply",
+      "raw_reply_available": false,
+      "saved_request": "experiments/innovation2/results/image_multimodal_c_20261119/interrupted_calls_before_resume/人民大会堂1/multimodal/request.json"
+    },
+    {
+      "video_id": "人民英雄纪念碑",
+      "mode": "image",
+      "status": "execution_environment_interrupted_before_reply",
+      "raw_reply_available": false,
+      "saved_request": "experiments/innovation2/results/image_multimodal_c_20261119/interrupted_calls_before_resume/人民英雄纪念碑/image/request.json"
+    }
+  ],
+  "policy": "Resume only missing terminal task records; do not rerun completed/failure records. Interrupted calls may have reached provider but no reply was received."
+}

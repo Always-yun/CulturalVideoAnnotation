@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:51:08.778928+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于红色文化。\n核心符号：人民英雄纪念碑\n价值指向：画面中央可见一座高大的石碑建筑，其形制与人民英雄纪念碑相符，碑身有文字雕刻，底部有台基和栏杆，是纪念革命先烈的重要象征。背景中还有多面红旗飘扬，结合广场环境，整体呈现出强烈的红色文化氛围，与天安门广场的典型场景一致。",
+  "response_model": "glm-4v",
+  "response_id": "20261119165108bceb194051f44c05",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73301, prompt_tokens_details=PromptTokensDetails(cached_tokens=72886), completion_tokens=94, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73395)",
+  "seconds": 61.769052505493164
+}

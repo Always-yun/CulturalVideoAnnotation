@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "CN2_ANCIENT_017",
+    "canonical_name": "长城",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.894287109375,
+    "reason": "关键词/别名命中：长城",
+    "image_score": 0.7886,
+    "text_score": 1.0,
+    "fusion_score": 0.8943
+  },
+  {
+    "symbol_id": "BJ_INNOV_005",
+    "canonical_name": "水立方",
+    "cultural_dimension": "科技与创新文化;现代城市与国际文化",
+    "dimension_code": "TECH;MODERN",
+    "score": 0.4239501953125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8479,
+    "text_score": 0.0,
+    "fusion_score": 0.424
+  },
+  {
+    "symbol_id": "CN_RED_003",
+    "canonical_name": "延安革命纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.4190673828125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8381,
+    "text_score": 0.0,
+    "fusion_score": 0.4191
+  },
+  {
+    "symbol_id": "CN_MODERN_001",
+    "canonical_name": "杭州西湖文化景观",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.41748046875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.835,
+    "text_score": 0.0,
+    "fusion_score": 0.4175
+  },
+  {
+    "symbol_id": "BJ_INNOV_004",
+    "canonical_name": "鸟巢",
+    "cultural_dimension": "科技与创新文化;现代城市与国际文化",
+    "dimension_code": "TECH;MODERN",
+    "score": 0.4154052734375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8308,
+    "text_score": 0.0,
+    "fusion_score": 0.4154
+  }
+]

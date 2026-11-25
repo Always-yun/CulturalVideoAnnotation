@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_JINGWEI_007",
+    "canonical_name": "北京庙会",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.640625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6406,
+    "text_score": 0.0,
+    "fusion_score": 0.6406
+  },
+  {
+    "symbol_id": "BJ_FASHION_001",
+    "canonical_name": "三里屯",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.6385498046875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6385,
+    "text_score": 0.0,
+    "fusion_score": 0.6385
+  },
+  {
+    "symbol_id": "BJ_JINGWEI_009",
+    "canonical_name": "鸽哨",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.637451171875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6375,
+    "text_score": 0.0,
+    "fusion_score": 0.6375
+  },
+  {
+    "symbol_id": "BJ_INNOV_003",
+    "canonical_name": "奥林匹克公园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6368408203125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6368,
+    "text_score": 0.0,
+    "fusion_score": 0.6368
+  },
+  {
+    "symbol_id": "BJ_RED_009",
+    "canonical_name": "李大钊故居",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.636474609375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6365,
+    "text_score": 0.0,
+    "fusion_score": 0.6365
+  }
+]

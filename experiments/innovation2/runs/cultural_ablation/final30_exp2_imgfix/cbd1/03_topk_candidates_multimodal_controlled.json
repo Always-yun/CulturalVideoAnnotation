@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_FASHION_003",
+    "canonical_name": "CBD",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.88623046875,
+    "reason": "关键词/别名命中：CBD、中央商务区、北京CBD、中国尊、商务区",
+    "image_score": 0.7725,
+    "text_score": 1.0,
+    "fusion_score": 0.8862
+  },
+  {
+    "symbol_id": "BJ_FASHION_004",
+    "canonical_name": "国贸",
+    "cultural_dimension": "现代城市与国际文化",
+    "dimension_code": "MODERN",
+    "score": 0.4821370442708333,
+    "reason": "关键词/别名命中：CBD",
+    "image_score": 0.7976,
+    "text_score": 0.1667,
+    "fusion_score": 0.4821
+  },
+  {
+    "symbol_id": "BJ_INNOV_001",
+    "canonical_name": "中关村",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.424072265625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8481,
+    "text_score": 0.0,
+    "fusion_score": 0.4241
+  },
+  {
+    "symbol_id": "BJ_INNOV_002",
+    "canonical_name": "中关村科学城",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.4234619140625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8469,
+    "text_score": 0.0,
+    "fusion_score": 0.4235
+  },
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.418701171875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8374,
+    "text_score": 0.0,
+    "fusion_score": 0.4187
+  }
+]

@@ -1,0 +1,15 @@
+﻿video_id,baseline_rejected,proposed_rejected,top1_candidate,passed_candidate_ids,identity_evidence_level,cause,scene_description
+京剧青衣,True,True,天坛,,none,Existing Gate already rejected; Identity Gate does not recover rejected samples.,"1.【场景描述】：一位身着传统服饰的表演者在中式建筑背景前表演扇子舞。
+2.【文化视觉元素】：戏曲服装、折扇、中式建筑（木制格栅窗）。"
+庙会,True,True,天安门广场,,none,Existing Gate already rejected; Identity Gate does not recover rejected samples.,"1.【场景描述】：冬季户外广场上，密集的人群聚集，背景有树木和红色装饰。
+2.【文化视觉元素】：红色灯笼、红色横幅（含“龙年吉祥”等字样）、红色帐篷（含“红都”字样）。"
+未来科学城,True,True,北京大学,,none,Existing Gate already rejected; Identity Gate does not recover rejected samples.,"1.【场景描述】：城市上空航拍视角，现代都市景观中一座白色拱形桥横跨河流，周围绿树成荫，远处有山脉与高楼。
+2.【文化视觉元素】：无明确文化符号。"
+中关村1号,False,True,中关村,,weak,"New Identity Gate rejection: Existing Gate passed, but no candidate has strong identity evidence.","1.【场景描述】：现代都市广场，白天，画面主体为“中关村1号”建筑群与喷泉。
+2.【文化视觉元素】：中关村1号、拉卡拉（中国支付科技公司）。"
+北大,True,True,北京大学,,none,Existing Gate already rejected; Identity Gate does not recover rejected samples.,"1.【场景描述】：一个宁静的公园湖泊，湖面倒映着周围的绿树和一座多层的塔楼，时间似乎是白天。
+2.【文化视觉元素】：塔楼（或宝塔）。"
+北大1,True,True,卢沟桥,,none,Existing Gate already rejected; Identity Gate does not recover rejected samples.,"1.【场景描述】：晴朗白日，中式传统建筑门前，石狮子与古建筑构成画面主体。
+2.【文化视觉元素】：石狮子、中式传统建筑（飞檐、斗拱、彩绘）、匾额（金色边框、蓝色底色、金色汉字）、红灯笼。"
+cbd1,True,True,中国国家博物馆,,none,Existing Gate already rejected; Identity Gate does not recover rejected samples.,"1.【场景描述】：晴朗白日下，以仰视角度拍摄现代都市高楼群，画面主体是中央的流线型摩天大楼。
+2.【文化视觉元素】：无明确文化符号。"

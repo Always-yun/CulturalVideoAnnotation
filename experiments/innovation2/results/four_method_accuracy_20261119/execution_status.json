@@ -1,0 +1,9 @@
+{
+  "supervisor_session_exit_code": 143,
+  "note": "Supervisor session returned143 after all terminal worker records were saved. All3 workers finalized40 records each; finalizer independently reloaded120 terminal records and verified60 model tasks. No cause for the session exit code is inferred.",
+  "worker_records": {
+    "0": 40,
+    "1": 40,
+    "2": 40
+  }
+}

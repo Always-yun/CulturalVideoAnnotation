@@ -1,0 +1,57 @@
+{
+  "status": "incomplete_not_final",
+  "complete_common_tasks": [],
+  "groups": {
+    "G1": {
+      "tasks": 0,
+      "cultural_visual_fact_rate": null,
+      "mean_repeat_sd": null,
+      "overall_form_distribution": {
+        "Match": null,
+        "Mismatch": null,
+        "Partial": null,
+        "Uncertain": null
+      }
+    },
+    "G2": {
+      "tasks": 0,
+      "cultural_visual_fact_rate": null,
+      "mean_repeat_sd": null,
+      "overall_form_distribution": {
+        "Match": null,
+        "Mismatch": null,
+        "Partial": null,
+        "Uncertain": null
+      }
+    },
+    "G3": {
+      "tasks": 0,
+      "cultural_visual_fact_rate": null,
+      "mean_repeat_sd": null,
+      "overall_form_distribution": {
+        "Match": null,
+        "Mismatch": null,
+        "Partial": null,
+        "Uncertain": null
+      }
+    },
+    "G4": {
+      "tasks": 0,
+      "cultural_visual_fact_rate": null,
+      "mean_repeat_sd": null,
+      "overall_form_distribution": {
+        "Match": null,
+        "Mismatch": null,
+        "Partial": null,
+        "Uncertain": null
+      }
+    }
+  },
+  "comparisons": {
+    "G1_vs_G3": null,
+    "G3_vs_G4": null,
+    "G1_vs_G2": null
+  },
+  "excluded": [],
+  "other_metrics": "separate metrics.csv; no composite score"
+}

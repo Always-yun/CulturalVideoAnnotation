@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_RED_002",
+    "canonical_name": "天安门广场",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.8941650390625,
+    "reason": "关键词/别名命中：天安门广场、天安门、广场",
+    "image_score": 0.7883,
+    "text_score": 1.0,
+    "fusion_score": 0.8942
+  },
+  {
+    "symbol_id": "BJ_RED_003",
+    "canonical_name": "人民英雄纪念碑",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.837646484375,
+    "reason": "关键词/别名命中：人民英雄纪念碑、纪念碑",
+    "image_score": 0.9253,
+    "text_score": 0.75,
+    "fusion_score": 0.8376
+  },
+  {
+    "symbol_id": "BJ_RED_006",
+    "canonical_name": "中国国家博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.5030517578125,
+    "reason": "关键词/别名命中：天安门广场",
+    "image_score": 0.7561,
+    "text_score": 0.25,
+    "fusion_score": 0.5031
+  },
+  {
+    "symbol_id": "CN_RED_002",
+    "canonical_name": "西柏坡纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.4624837239583333,
+    "reason": "关键词/别名命中：纪念碑",
+    "image_score": 0.7583,
+    "text_score": 0.1667,
+    "fusion_score": 0.4625
+  },
+  {
+    "symbol_id": "CN_RED_003",
+    "canonical_name": "延安革命纪念馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.435791015625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.8716,
+    "text_score": 0.0,
+    "fusion_score": 0.4358
+  }
+]

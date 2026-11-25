@@ -1,0 +1,6 @@
+﻿Method,Recall@1,Recall@5,MRR,Symbol Accuracy,Dimension Accuracy,Hallucination Rate
+Free,0.0,0.0,0.0,0.8519,0.8148,0.2258
+Text,0.5185,0.7778,0.6481,0.7778,0.9259,0.0968
+Image,0.1852,0.2963,0.2204,0.7407,0.8519,0.129
+Multimodal,0.5926,0.7778,0.679,0.7037,0.9259,0.0645
+Multimodal Controlled,0.5926,0.7778,0.679,0.7037,0.9259,0.0

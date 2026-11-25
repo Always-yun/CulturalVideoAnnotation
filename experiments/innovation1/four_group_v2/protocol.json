@@ -1,0 +1,730 @@
+{
+  "version": "four_group_v2_five_task_single_generation",
+  "groups": [
+    "G1",
+    "G2",
+    "G3",
+    "G4"
+  ],
+  "repeats": 1,
+  "planned_tasks": 5,
+  "planned_videos": 20,
+  "completed_videos": 20,
+  "technical_layer": "post_generation_only",
+  "tasks": [
+    {
+      "task_id": "T01",
+      "name": "秦始皇帝陵兵马俑",
+      "source_video": "data/video/兵马俑.mp4",
+      "source_note": "当前五任务批次；原视频时长不作为排除条件",
+      "sampling": {
+        "fractions": [
+          0.5
+        ],
+        "status": "confirmed_before_generated_review",
+        "reviewer": "protocol_default_registered_2026-11-24",
+        "reason": "用户规则默认取50%；该规则在本批生成视频接入与评价前已登记",
+        "source_sha256": "2dc807185e443609bc1bad8541ff9f8127c8c1fdbd5db03b5e0cda17e3932658"
+      },
+      "conditions": "一号坑室内展厅、白天、高处斜俯视、缓慢横移",
+      "conditions_status": "pending_human_review",
+      "equivalence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "note": "核对各组基础条件一致及G3/G4文化事实等价，保持各组组织形式"
+      },
+      "descriptions": {
+        "G1": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T01/G1.txt",
+          "source": "experiments/innovation1/t2v_cultural_taskset/batch2_v1/taskset_batch2_v1.json",
+          "status": "pending_human_correction",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": []
+        },
+        "G2": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T01/G2.txt",
+          "source": "experiments/innovation1/t2v_cultural_taskset/batch2_v1/taskset_batch2_v1.json",
+          "status": "pending_human_correction",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": []
+        },
+        "G3": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T01/G3.txt",
+          "source": "experiments/innovation1/t2v_cultural_taskset/batch2_v1/taskset_batch2_v1.json",
+          "status": "pending_human_correction",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": [
+            "T01-F1",
+            "T01-F2",
+            "T01-F3",
+            "T01-F4"
+          ]
+        },
+        "G4": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T01/G4.txt",
+          "source": "experiments/innovation1/t2v_cultural_taskset/batch2_v1/taskset_batch2_v1.json",
+          "status": "pending_human_correction",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": [
+            "T01-F1",
+            "T01-F2",
+            "T01-F3",
+            "T01-F4"
+          ]
+        }
+      },
+      "questions": [
+        {
+          "fact_id": "T01-F1",
+          "question": "视频中是否出现多排整齐排列的人物陶俑面向镜头？",
+          "yes_rule": "同一画面可见至少两排人物陶俑有序排列，且主体整体朝向镜头或可见正面/侧正面",
+          "no_rule": "人物主体清晰，但未形成至少两排有序陶俑军阵，或整体背向镜头",
+          "uncertain_rule": "人物过小、严重遮挡，无法判断排列层次或朝向",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        },
+        {
+          "fact_id": "T01-F2",
+          "question": "视频中的陶俑是否具有古代军士的服饰或甲胄特征？",
+          "yes_rule": "至少一个主要陶俑可辨认古代军士服饰、发髻或甲胄特征",
+          "no_rule": "陶俑主体清晰，但呈现代人物、普通雕像或缺少古代军士造型",
+          "uncertain_rule": "服饰和甲胄细节过小、模糊或被遮挡",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        },
+        {
+          "fact_id": "T01-F3",
+          "question": "视频中的人物雕塑是否呈现明显的陶土材质质感？",
+          "yes_rule": "主要人物雕塑呈土褐、灰褐等陶土色泽，并具有哑光、粗粝或烧制陶塑表面感",
+          "no_rule": "人物清晰但呈真人皮肤、金属、塑料或其他明显非陶土材质",
+          "uncertain_rule": "光照、清晰度或画面尺寸不足以判断材质",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        },
+        {
+          "fact_id": "T01-F4",
+          "question": "视频中的陶俑是否排列在由土质隔墙分隔的长方形坑道内？",
+          "yes_rule": "可见陶俑位于长方形考古坑道中，坑道之间由土质隔墙分隔",
+          "no_rule": "陶俑主体清晰，但位于普通室内地面、广场或没有土质隔墙分隔的空间",
+          "uncertain_rule": "坑道边界或隔墙被遮挡，无法判断空间布局",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        }
+      ],
+      "evaluation_focus": "陶俑形态、材质、军阵和考古坑道布局",
+      "question_version": "user_confirmed_wording_2026-11-24_v1"
+    },
+    {
+      "task_id": "T04",
+      "name": "南湖红船",
+      "source_video": "data/video/南湖红船.mp4",
+      "source_note": "当前五任务批次；原视频时长不作为排除条件",
+      "sampling": {
+        "fractions": [
+          0.5
+        ],
+        "status": "confirmed_before_generated_review",
+        "reviewer": "protocol_default_registered_2026-11-24",
+        "reason": "用户规则默认取50%；该规则在本批生成视频接入与评价前已登记",
+        "source_sha256": "b2cb09956a3e2c21930e516d48d225208d03888d0dcd1b767f9af886561b19d8"
+      },
+      "conditions": "嘉兴南湖、晴朗白天、湖面侧前方、缓慢横移",
+      "conditions_status": "pending_human_review",
+      "equivalence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "note": "核对各组基础条件一致及G3/G4文化事实等价，保持各组组织形式"
+      },
+      "descriptions": {
+        "G1": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T04/G1.txt",
+          "source": "experiments/innovation1/t2v_cultural_taskset/batch2_v1/taskset_batch2_v1.json",
+          "status": "pending_human_correction",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": []
+        },
+        "G2": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T04/G2.txt",
+          "source": "experiments/innovation1/t2v_cultural_taskset/batch2_v1/taskset_batch2_v1.json",
+          "status": "pending_human_correction",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": []
+        },
+        "G3": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T04/G3.txt",
+          "source": "experiments/innovation1/t2v_cultural_taskset/batch2_v1/taskset_batch2_v1.json",
+          "status": "pending_human_correction",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": [
+            "T04-F1",
+            "T04-F2",
+            "T04-F3",
+            "T04-F4"
+          ]
+        },
+        "G4": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T04/G4.txt",
+          "source": "experiments/innovation1/t2v_cultural_taskset/batch2_v1/taskset_batch2_v1.json",
+          "status": "pending_human_correction",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": [
+            "T04-F1",
+            "T04-F2",
+            "T04-F3",
+            "T04-F4"
+          ]
+        }
+      },
+      "questions": [
+        {
+          "fact_id": "T04-F1",
+          "question": "视频中的船只是否具有狭长的传统木质船体？",
+          "yes_rule": "主要船只呈狭长传统中式船形，并可见木质色泽、纹理或木构外观",
+          "no_rule": "船只清晰但为现代快艇、金属船或不具狭长传统木船形态",
+          "uncertain_rule": "船体遮挡、过小或材质无法辨认",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        },
+        {
+          "fact_id": "T04-F2",
+          "question": "船体上方是否存在带有传统中式屋顶的船舱？",
+          "yes_rule": "船体上方可见连续船舱，船舱顶部具有传统中式坡屋顶、瓦顶或飞檐式轮廓",
+          "no_rule": "船体清晰但无有顶船舱，或船舱仅为现代平顶/封闭舱体",
+          "uncertain_rule": "船舱顶部未入画、被遮挡或轮廓无法判断",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        },
+        {
+          "fact_id": "T04-F3",
+          "question": "视频中的船只是否呈现有顶船舱与前后露出船体部分的分段结构？",
+          "yes_rule": "可同时辨认中部或主要有顶舱段，以及舱体前后至少一端露出的船体部分，形成明确分段",
+          "no_rule": "船只清晰但舱体覆盖全部船身，或无法区分舱段与前后船体",
+          "uncertain_rule": "视角或遮挡导致船体分段关系无法判断",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        },
+        {
+          "fact_id": "T04-F4",
+          "question": "视频中是否能够辨认停泊在湖面上的较完整船体轮廓？",
+          "yes_rule": "船只与湖面接触关系清楚，船体大部分轮廓可见并呈停泊状态",
+          "no_rule": "船体明显残缺、离开水面，或主体不是停泊在湖面上的船只",
+          "uncertain_rule": "水面关系、船体轮廓或运动状态无法判断",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        }
+      ],
+      "evaluation_focus": "传统木质船形、船舱结构和湖面空间关系",
+      "overall_reference_note": "四项局部事实全为Yes也只说明符合传统船只特征，不能单独证明准确还原南湖红船；必须另做整体参考图匹配评价。",
+      "question_version": "user_confirmed_wording_2026-11-24_v1"
+    },
+    {
+      "task_id": "T06",
+      "name": "皮影戏",
+      "source_video": "data/video/皮影戏.mp4",
+      "source_note": "当前五任务批次；原视频时长不作为排除条件",
+      "sampling": {
+        "fractions": [
+          0.5
+        ],
+        "status": "confirmed_before_generated_review",
+        "reviewer": "protocol_default_registered_2026-11-24",
+        "reason": "用户规则默认取50%；该规则在本批生成视频接入与评价前已登记",
+        "source_sha256": "377fcbe5ddcdf327c696f610de0b747adaa8df97cc129842dd50d68a73f6ae81"
+      },
+      "conditions": "室内白色幕布皮影舞台，两个皮影人物同台表演，固定机位全景，暖色背光",
+      "conditions_status": "pending_human_review",
+      "equivalence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "note": "实际G1—G4生成提示词尚未入库；收到后核对基础条件及G3/G4事实等价"
+      },
+      "descriptions": {
+        "G1": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T06/G1.txt",
+          "source": "missing_actual_generation_input_for_received_T06_video",
+          "status": "missing_actual_generation_input",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": []
+        },
+        "G2": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T06/G2.txt",
+          "source": "missing_actual_generation_input_for_received_T06_video",
+          "status": "missing_actual_generation_input",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": []
+        },
+        "G3": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T06/G3.txt",
+          "source": "missing_actual_generation_input_for_received_T06_video",
+          "status": "missing_actual_generation_input",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": [
+            "T06-F1",
+            "T06-F2",
+            "T06-F3",
+            "T06-F4"
+          ]
+        },
+        "G4": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T06/G4.txt",
+          "source": "missing_actual_generation_input_for_received_T06_video",
+          "status": "missing_actual_generation_input",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": [
+            "T06-F1",
+            "T06-F2",
+            "T06-F3",
+            "T06-F4"
+          ]
+        }
+      },
+      "questions": [
+        {
+          "fact_id": "T06-F1",
+          "question": "视频中是否出现两个平面剪影式的皮影人物？",
+          "yes_rule": "同一表演画面可见两个扁平、透光或剪影式皮影人物",
+          "no_rule": "主体清晰但不是皮影人物，或只出现一个皮影人物",
+          "uncertain_rule": "人物过小、重叠、遮挡或画面模糊，无法判断数量及平面皮影形态",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        },
+        {
+          "fact_id": "T06-F2",
+          "question": "舞台背景是否出现传统中式建筑图案或亭阁造型？",
+          "yes_rule": "幕布或舞台装饰中可见传统中式屋顶、门楼、亭阁或相应建筑图案",
+          "no_rule": "背景清晰但仅为普通空白幕布、现代建筑或无中式建筑装饰",
+          "uncertain_rule": "背景过暗、过曝、遮挡或细节不足",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        },
+        {
+          "fact_id": "T06-F3",
+          "question": "两个皮影人物是否发生连续的打斗或武打动作？",
+          "yes_rule": "连续视频中两个皮影人物存在至少两个连续时刻的攻防、挥击、追逐或武打动作变化",
+          "no_rule": "人物仅静止、摆姿或彼此没有连续武打互动",
+          "uncertain_rule": "片段过短、动作被遮挡、播放异常或无法区分动作连续性",
+          "evidence_mode": "continuous_video",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        },
+        {
+          "fact_id": "T06-F4",
+          "question": "视频中的两个皮影人物是否分别具有孙悟空和白骨精的可辨认角色特征？",
+          "yes_rule": "两个角色可分别凭稳定可见的标志性造型辨认为孙悟空与白骨精，例如孙悟空的猴相/金箍棒及白骨精的女性妖怪或白骨主题造型",
+          "no_rule": "两个主体清晰但角色造型不对应孙悟空和白骨精，或只能辨认其中一个角色",
+          "uncertain_rule": "缺少足够标志性特征，虽为皮影人物但无法可靠确认两者身份",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        }
+      ],
+      "evaluation_focus": "皮影人物、传统舞台装饰、两人打斗及人物身份",
+      "question_version": "user_confirmed_wording_2026-11-24_v1"
+    },
+    {
+      "task_id": "T07",
+      "name": "文昌航天发射场",
+      "source_video": "data/video/海南文昌发射场.mp4",
+      "source_note": "当前五任务批次；原视频时长不作为排除条件",
+      "sampling": {
+        "fractions": [
+          0.5
+        ],
+        "status": "confirmed_before_generated_review",
+        "reviewer": "protocol_default_registered_2026-11-24",
+        "reason": "用户规则默认取50%；该规则在本批生成视频接入与评价前已登记",
+        "source_sha256": "be3d61382377b14049b502517d1bef316f8cf91009b46edb6bb943a449b5a7c2"
+      },
+      "conditions": "长征五号系列火箭静置发射工位、白天、中远景、固定机位",
+      "conditions_status": "pending_human_review",
+      "equivalence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "note": "核对各组基础条件一致及G3/G4文化事实等价，保持各组组织形式"
+      },
+      "descriptions": {
+        "G1": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T07/G1.txt",
+          "source": "experiments/innovation1/t2v_cultural_taskset/batch2_v1/taskset_batch2_v1.json",
+          "status": "pending_human_correction",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": []
+        },
+        "G2": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T07/G2.txt",
+          "source": "experiments/innovation1/t2v_cultural_taskset/batch2_v1/taskset_batch2_v1.json",
+          "status": "pending_human_correction",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": []
+        },
+        "G3": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T07/G3.txt",
+          "source": "experiments/innovation1/t2v_cultural_taskset/batch2_v1/taskset_batch2_v1.json",
+          "status": "pending_human_correction",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": [
+            "T07-F1",
+            "T07-F2",
+            "T07-F3",
+            "T07-F4"
+          ]
+        },
+        "G4": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T07/G4.txt",
+          "source": "experiments/innovation1/t2v_cultural_taskset/batch2_v1/taskset_batch2_v1.json",
+          "status": "pending_human_correction",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": [
+            "T07-F1",
+            "T07-F2",
+            "T07-F3",
+            "T07-F4"
+          ]
+        }
+      },
+      "questions": [
+        {
+          "fact_id": "T07-F1",
+          "question": "视频中是否出现竖直位于发射工位的大型运载火箭？",
+          "yes_rule": "可见大型运载火箭竖直立于明确的发射工位或发射平台区域",
+          "no_rule": "主体清晰但不是大型运载火箭，或火箭不在发射工位",
+          "uncertain_rule": "火箭主体、姿态或工位关系被遮挡而无法判断",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        },
+        {
+          "fact_id": "T07-F2",
+          "question": "火箭旁是否出现高大的金属桁架发射塔架？",
+          "yes_rule": "火箭旁可见高度与其相当或更高的金属桁架式发射塔架/勤务塔",
+          "no_rule": "火箭周边清晰但不存在高大金属桁架塔架",
+          "uncertain_rule": "塔架区域未入画、严重遮挡或结构细节不足",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        },
+        {
+          "fact_id": "T07-F3",
+          "question": "视频中是否出现火箭底部点火并伴随明显火焰或烟雾的过程？",
+          "yes_rule": "连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程",
+          "no_rule": "火箭底部始终无火焰烟雾，或所见烟雾与火箭点火无明确关系",
+          "uncertain_rule": "底部被遮挡、片段缺失、解码异常或无法确认点火过程",
+          "evidence_mode": "continuous_video",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        },
+        {
+          "fact_id": "T07-F4",
+          "question": "视频中是否呈现火箭从发射工位向上升空的连续变化？",
+          "yes_rule": "连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架",
+          "no_rule": "火箭始终静止在工位，或运动方向不是向上升空",
+          "uncertain_rule": "镜头运动、遮挡、片段过短或解码异常导致无法判断相对位移",
+          "evidence_mode": "continuous_video",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        }
+      ],
+      "evaluation_focus": "竖直火箭、发射塔架、点火烟焰和升空过程",
+      "question_version": "user_confirmed_wording_2026-11-24_v1"
+    },
+    {
+      "task_id": "T10",
+      "name": "东方明珠广播电视塔",
+      "source_video": "data/video/东方明珠.mp4",
+      "source_note": "当前五任务批次；原视频时长不作为排除条件",
+      "sampling": {
+        "fractions": [
+          0.5
+        ],
+        "status": "confirmed_before_generated_review",
+        "reviewer": "protocol_default_registered_2026-11-24",
+        "reason": "用户规则默认取50%；该规则在本批生成视频接入与评价前已登记",
+        "source_sha256": "bf3a6fe6001397439250e596aa9227a5d5f4bd0203d5258e32eb95fd0dfa7f30"
+      },
+      "conditions": "上海陆家嘴、傍晚蓝调时刻、地面仰视、缓慢向上摇摄",
+      "conditions_status": "pending_human_review",
+      "equivalence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "note": "核对各组基础条件一致及G3/G4文化事实等价，保持各组组织形式"
+      },
+      "descriptions": {
+        "G1": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T10/G1.txt",
+          "source": "experiments/innovation1/t2v_cultural_taskset/batch2_v1/taskset_batch2_v1.json",
+          "status": "pending_human_correction",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": []
+        },
+        "G2": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T10/G2.txt",
+          "source": "experiments/innovation1/t2v_cultural_taskset/batch2_v1/taskset_batch2_v1.json",
+          "status": "pending_human_correction",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": []
+        },
+        "G3": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T10/G3.txt",
+          "source": "experiments/innovation1/t2v_cultural_taskset/batch2_v1/taskset_batch2_v1.json",
+          "status": "pending_human_correction",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": [
+            "T10-F1",
+            "T10-F2",
+            "T10-F3",
+            "T10-F4"
+          ]
+        },
+        "G4": {
+          "file": "experiments/innovation1/four_group_v2/descriptions/T10/G4.txt",
+          "source": "experiments/innovation1/t2v_cultural_taskset/batch2_v1/taskset_batch2_v1.json",
+          "status": "pending_human_correction",
+          "reviewer": null,
+          "version": null,
+          "sha256": null,
+          "target_fact_ids": [
+            "T10-F1",
+            "T10-F2",
+            "T10-F3",
+            "T10-F4"
+          ]
+        }
+      },
+      "questions": [
+        {
+          "fact_id": "T10-F1",
+          "question": "视频中的主要塔楼是否具有多个大小不同的球形结构？",
+          "yes_rule": "主要塔楼可见至少两个大小不同的球体",
+          "no_rule": "塔楼清晰但少于两个球体，或球体大小没有可辨认差异",
+          "uncertain_rule": "球体被遮挡、过小或画面裁切导致数量和大小无法判断",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        },
+        {
+          "fact_id": "T10-F2",
+          "question": "这些球形结构是否沿高耸的竖向塔身分布？",
+          "yes_rule": "多个球体沿同一高耸竖向塔体上下分布，并形成完整组合关系",
+          "no_rule": "球体清晰但未沿竖向塔身组织，或属于彼此无关的建筑",
+          "uncertain_rule": "塔身或球体连接关系被遮挡、裁切或无法辨认",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        },
+        {
+          "fact_id": "T10-F3",
+          "question": "主要塔楼下部是否具有明显的倾斜支撑柱结构？",
+          "yes_rule": "塔体下部可见明显斜向支撑柱，并与主塔形成承托关系",
+          "no_rule": "塔楼下部清晰但只有垂直柱、普通基座或无斜向支撑",
+          "uncertain_rule": "塔楼下部未入画、被背景遮挡或细节不足",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        },
+        {
+          "fact_id": "T10-F4",
+          "question": "东方明珠形态的塔楼是否位于画面中央且明显突出于其他背景建筑？",
+          "yes_rule": "东方明珠形态塔楼位于画面中央或中央主要区域，是明确视觉焦点，其他高楼仅作背景",
+          "no_rule": "塔楼明显偏离主要构图区域，或被其他建筑遮挡且不是视觉焦点",
+          "uncertain_rule": "画面裁切、遮挡或构图不清，无法判断主体与背景关系",
+          "evidence_mode": "keyframes",
+          "provenance": {
+            "source": "user_message_2026-11-24",
+            "status": "wording_supplied_by_user; operational rules added locally"
+          },
+          "reference_answer": null,
+          "status": "pending_human_verification",
+          "required": false,
+          "reviewer": null,
+          "source_evidence_sha256": null
+        }
+      ],
+      "evaluation_focus": "球形结构、竖向塔身、倾斜支撑和主体空间关系",
+      "question_version": "user_confirmed_wording_2026-11-24_v1"
+    }
+  ],
+  "received_videos": 20,
+  "scope_note": "当前批次五任务×四组×一次生成；20条生成文件已完成并收到，正式准入仍需输入描述与模型配置核验",
+  "formally_verified_videos": 0
+}

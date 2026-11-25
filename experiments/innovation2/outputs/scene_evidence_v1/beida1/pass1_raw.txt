@@ -1,0 +1,1 @@
+{"scene":"户外，晴朗天气，传统中式建筑前，有绿树","subject":"石狮雕像，无行为","visible_features":["浅色石材，卷曲毛发，张嘴，面部有褶皱，底座有花纹"],"background":["传统中式建筑，红墙，灰色瓦片，飞檐，彩绘装饰，悬挂灯笼，上方有绿树"],"readable_text":[],"text_regions":[{"kind":"匾额","time_ratio":0.5,"bbox":[0.587,0.506,0.788,0.648]}],"uncertain_entities":[]}

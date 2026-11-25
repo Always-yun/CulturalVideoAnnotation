@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:58:21.053130+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于古城与历史文化。\n核心符号：故宫\n价值指向：画面中可见红墙黄琉璃瓦、重檐庑殿顶、中轴对称布局的庞大古建筑群，建筑风格与布局符合明清皇家宫殿特征，结合“故宫博物院”标识，可识别为故宫；其作为明清两代皇家宫殿，是世界现存规模最大、保存最完整的木质结构古建筑群之一，承载着深厚的历史文化内涵。",
+  "response_model": "glm-4v",
+  "response_id": "202611191658214c69cacc725945db",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=73328, prompt_tokens_details=PromptTokensDetails(cached_tokens=65542), completion_tokens=103, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=73431)",
+  "seconds": 62.350197315216064
+}

@@ -1,0 +1,36 @@
+{
+  "request": {
+    "id": "T07_source_video",
+    "task_id": "T07",
+    "video_id": "source",
+    "video_file": "data/video/海南文昌发射场.mp4",
+    "video_sha256": "be3d61382377b14049b502517d1bef316f8cf91009b46edb6bb943a449b5a7c2",
+    "condition_names": [],
+    "temporal_question_ids": [
+      "T07-F3",
+      "T07-F4"
+    ],
+    "description_basis": "source_reference",
+    "prompt": "观看完整连续视频后，只依据视频可见内容评价。返回严格JSON：{\"conditions\": {评价项: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}},\"temporal_facts\": {事实ID: {\"verdict\":\"Yes/No/Uncertain\",\"evidence\":\"依据\",\"timestamps\":\"时间段\"}}}。镜头运动必须依据连续变化；无法可靠判断时答Uncertain。条件评价项：[]。目标描述：原视频参考，不做条件遵循评分。时序事实及判据：[{\"fact_id\": \"T07-F3\", \"question\": \"视频中是否出现火箭底部点火并伴随明显火焰或烟雾的过程？\", \"yes_rule\": \"连续视频中可见火箭底部由未点火到出现明显喷射火焰、烟柱或大量烟雾的点火过程\", \"no_rule\": \"火箭底部始终无火焰烟雾，或所见烟雾与火箭点火无明确关系\", \"uncertain_rule\": \"底部被遮挡、片段缺失、解码异常或无法确认点火过程\"}, {\"fact_id\": \"T07-F4\", \"question\": \"视频中是否呈现火箭从发射工位向上升空的连续变化？\", \"yes_rule\": \"连续视频中火箭相对发射工位发生持续向上的位移，并逐步离开平台或塔架\", \"no_rule\": \"火箭始终静止在工位，或运动方向不是向上升空\", \"uncertain_rule\": \"镜头运动、遮挡、片段过短或解码异常导致无法判断相对位移\"}]",
+    "request_sha256": "d64b0ad25e9b3bc2c58e1e2a9d5e865ec0a9c3d3e299a310683f2e0544646b69"
+  },
+  "model": "glm-4v",
+  "temperature": 0,
+  "raw_response": "{\"conditions\": {},\"temporal_facts\": {\"T07-F3\": {\"verdict\": \"Yes\",\"evidence\": \"视频中火箭底部从无火焰到出现明显喷射火焰和大量烟雾，符合点火过程特征\",\"timestamps\": \"0.00s-8.00s\"},\"T07-F4\": {\"verdict\": \"Yes\",\"evidence\": \"火箭相对发射工位持续向上位移并逐步离开平台，呈现向上升空的连续变化\",\"timestamps\": \"0.00s-8.00s\"}}}",
+  "parse_ok": true,
+  "parsed": {
+    "conditions": {},
+    "temporal_facts": {
+      "T07-F3": {
+        "verdict": "Yes",
+        "evidence": "视频中火箭底部从无火焰到出现明显喷射火焰和大量烟雾，符合点火过程特征",
+        "timestamps": "0.00s-8.00s"
+      },
+      "T07-F4": {
+        "verdict": "Yes",
+        "evidence": "火箭相对发射工位持续向上位移并逐步离开平台，呈现向上升空的连续变化",
+        "timestamps": "0.00s-8.00s"
+      }
+    }
+  }
+}

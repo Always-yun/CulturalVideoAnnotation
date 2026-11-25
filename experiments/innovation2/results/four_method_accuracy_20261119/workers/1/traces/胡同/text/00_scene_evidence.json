@@ -1,0 +1,23 @@
+{
+  "scene_description_raw": "{\"scene\":\"阳光明媚的白天，一条绿树成荫的街道上，行人来来往往。\",\"subject\":\"一个戴着发网、穿着深色短袖上衣的男人，正沿着人行道向前走。\",\"visible_features\":[\"深色短袖上衣，发网，上衣背面有金色图案。\"],\"background\":[\"街道两旁的树木，左侧的建筑物，右侧的蓝色三轮车，远处的人群。\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "scene_description": "阳光明媚的白天，一条绿树成荫的街道上，行人来来往往。\n一个戴着发网、穿着深色短袖上衣的男人，正沿着人行道向前走。\n深色短袖上衣，发网，上衣背面有金色图案。",
+  "structured_scene": {
+    "scene": "阳光明媚的白天，一条绿树成荫的街道上，行人来来往往。",
+    "subject": "一个戴着发网、穿着深色短袖上衣的男人，正沿着人行道向前走。",
+    "visible_features": [
+      "深色短袖上衣，发网，上衣背面有金色图案。"
+    ],
+    "background": [
+      "街道两旁的树木，左侧的建筑物，右侧的蓝色三轮车，远处的人群。"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

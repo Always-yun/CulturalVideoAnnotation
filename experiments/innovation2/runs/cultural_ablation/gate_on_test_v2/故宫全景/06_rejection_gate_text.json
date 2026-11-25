@@ -1,0 +1,15 @@
+{
+  "level": "confident",
+  "signals": {
+    "mode": "text",
+    "signal": "text",
+    "top1_score": 15.0,
+    "top2_score": 3.0,
+    "margin_rel": 0.8,
+    "n_keywords": 5,
+    "scene_negative": false,
+    "score_thr": 0.5,
+    "margin_thr": 0
+  },
+  "reason": "检索分数/分差/视觉证据三信号均达标"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_JINGWEI_004",
+    "canonical_name": "兔儿爷",
+    "cultural_dimension": "民族与民俗文化",
+    "dimension_code": "FOLK",
+    "score": 0.81341552734375,
+    "reason": "关键词/别名命中：兔儿爷、兔爷",
+    "image_score": 0.6268,
+    "text_score": 1.0,
+    "fusion_score": 0.8134
+  },
+  {
+    "symbol_id": "CN2_TECH_007",
+    "canonical_name": "中关村广场",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.31927490234375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6385,
+    "text_score": 0.0,
+    "fusion_score": 0.3193
+  },
+  {
+    "symbol_id": "BJ_GUDU_003",
+    "canonical_name": "天坛",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.3175048828125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.635,
+    "text_score": 0.0,
+    "fusion_score": 0.3175
+  },
+  {
+    "symbol_id": "CN_ANCIENT_004",
+    "canonical_name": "良渚古城遗址",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.31622314453125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6324,
+    "text_score": 0.0,
+    "fusion_score": 0.3162
+  },
+  {
+    "symbol_id": "BJ_GUDU_007",
+    "canonical_name": "正阳门",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.3160400390625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6321,
+    "text_score": 0.0,
+    "fusion_score": 0.316
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "video_id": "天安门1",
+  "mode": "free",
+  "status": "completed",
+  "outcome": "wrong_identity",
+  "reference_names": [
+    "天安门广场"
+  ],
+  "reference_ids": [
+    "BJ_RED_002"
+  ],
+  "predicted_names": [
+    "天安门城楼",
+    "华表"
+  ],
+  "predicted_ids": [
+    "UNRESOLVED:华表",
+    "UNRESOLVED:天安门城楼"
+  ],
+  "main_correct": false,
+  "strict_correct": false,
+  "reference_extra_entities": [
+    "UNRESOLVED:华表",
+    "UNRESOLVED:天安门城楼"
+  ],
+  "tp": 0,
+  "fp": 2,
+  "fn": 1,
+  "predicted_categories": [
+    "RED"
+  ],
+  "reference_categories": [
+    "RED"
+  ],
+  "category_exact": true,
+  "category_tp": 1,
+  "category_fp": 0,
+  "category_fn": 0,
+  "recall_at_k": null,
+  "candidate_ids": [],
+  "raw_reply": "【EMCAST 视频标注结果】\n\n【E｜场景环境层】：视频构建了一个天安门广场的物理环境。此时处于晴朗白天状态。整体场景呈现出庄严宏伟的感官基调。\n\n【M｜主体行为层】：视觉焦点包含承载主体：华表、天安门城楼\n    承载主体外观：前景华表呈现出圆柱形立柱形态，外立面材质主要为汉白玉；后方天安门城楼呈现出传统宫殿式建筑形态，外立面材质主要为红墙黄瓦。\n    文字符号：[\"中华人民共和国\", \"世界人民大团结万岁\"]\n\n【C｜文化维度层】：该场景隶属于红色文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为天安门城楼、华表。\n价值指向：天安门城楼是中华人民共和国的象征，承载着国家主权与民族精神；华表作为传统礼制建筑，在天安门广场的设置体现了历史传承与国家象征的融合，共同构建了具有政治与文化双重意义的标志性空间。\n\n【A｜视听语言层】\n    镜头语法：镜头为固定机位。状态稳定，节奏慢，以全景为主，景深深，视觉重心位于画面中央的华表与天安门城楼。\n    播放速度效果：正常速度\n    构图遵循中轴线对称，光影特征呈现为自然漫射光，视觉色彩倾向于高饱和。\n\n【S｜整体叙事层】：视频以固定机位呈现天安门广场的标志性景观，前景的华表与背景的天安门城楼通过中轴线对称构图形成视觉呼应，红墙、黄瓦、汉白玉华表等元素共同构建了庄严宏伟的视觉叙事，传递出国家象征与历史传承的厚重感。\n\n【T｜技术属性层】\n分辨率：3840x2160；实际帧率：29.97 FPS；标称帧率：29.97 FPS；画幅：16:9；动态范围：SDR；色彩空间/像素格式：yuv420p；采样方式：4:2:0；编码格式：h264；码率：11557293；视频时长：5.74s。\n",
+  "c_layer_natural_language": "：该场景隶属于红色文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为天安门城楼、华表。\n价值指向：天安门城楼是中华人民共和国的象征，承载着国家主权与民族精神；华表作为传统礼制建筑，在天安门广场的设置体现了历史传承与国家象征的融合，共同构建了具有政治与文化双重意义的标志性空间。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/four_method_accuracy_20261119/results.json",
+  "attempts": [],
+  "raw_available": true,
+  "full_c_available": true,
+  "original_trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/traces/天安门1/free/trace.json",
+  "historical_model_config_path": "experiments/innovation2/results/four_method_accuracy_20261119/model_config.json"
+}

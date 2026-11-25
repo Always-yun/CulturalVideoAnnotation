@@ -1,0 +1,39 @@
+{
+  "scene_description_raw": "{\"scene\":\"雪天，传统建筑前有石栏杆，背景是带彩绘和牌匾的建筑\",\"subject\":\"被雪覆盖的石栏杆及栏杆上的装饰物\",\"visible_features\":[\"石栏杆，栏杆柱头有雕刻，栏杆上有积雪，栏杆后有黑色器物\"],\"background\":[\"传统建筑，建筑屋顶有积雪，建筑墙面有彩绘，建筑上有蓝色牌匾\"],\"readable_text\":[{\"text\":\"太和殿\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"匾额\",\"time_ratio\":0.5,\"bbox\":[0.226,0.295,0.312,0.462]}],\"uncertain_entities\":[]}",
+  "scene_description": "雪天，传统建筑前有石栏杆，背景是带彩绘和牌匾的建筑\n被雪覆盖的石栏杆及栏杆上的装饰物\n石栏杆，栏杆柱头有雕刻，栏杆上有积雪，栏杆后有黑色器物\n可读文字：太和殿",
+  "structured_scene": {
+    "scene": "雪天，传统建筑前有石栏杆，背景是带彩绘和牌匾的建筑",
+    "subject": "被雪覆盖的石栏杆及栏杆上的装饰物",
+    "visible_features": [
+      "石栏杆，栏杆柱头有雕刻，栏杆上有积雪，栏杆后有黑色器物"
+    ],
+    "background": [
+      "传统建筑，建筑屋顶有积雪，建筑墙面有彩绘，建筑上有蓝色牌匾"
+    ],
+    "readable_text": [
+      {
+        "text": "太和殿",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "匾额",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.226,
+          0.295,
+          0.312,
+          0.462
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

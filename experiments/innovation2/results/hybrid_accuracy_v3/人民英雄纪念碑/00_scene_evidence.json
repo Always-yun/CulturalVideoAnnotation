@@ -1,0 +1,29 @@
+{
+  "scene_description_raw": "{\"scene\":\"晴朗天气下的室外广场，地面为灰色石板，天空湛蓝\",\"subject\":\"多面红旗在旗杆上飘扬，旗杆顶部有金色五角星装饰\",\"visible_features\":[\"红色旗帜、银色旗杆、金色五角星、灰色石碑、灰色建筑、金色护栏底座\"],\"background\":[\"灰色石碑、灰色建筑、蓝天\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "scene_description": "晴朗天气下的室外广场，地面为灰色石板，天空湛蓝\n多面红旗在旗杆上飘扬，旗杆顶部有金色五角星装饰\n红色旗帜、银色旗杆、金色五角星、灰色石碑、灰色建筑、金色护栏底座\n【背景辅助证据；不能单独证明主体身份】\n灰色石碑、灰色建筑、蓝天",
+  "scene_evidence_version": "hybrid_v3",
+  "structured_scene": {
+    "scene": "晴朗天气下的室外广场，地面为灰色石板，天空湛蓝",
+    "subject": "多面红旗在旗杆上飘扬，旗杆顶部有金色五角星装饰",
+    "visible_features": [
+      "红色旗帜、银色旗杆、金色五角星、灰色石碑、灰色建筑、金色护栏底座"
+    ],
+    "background": [
+      "灰色石碑、灰色建筑、蓝天"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "not_needed",
+    "calls": 0,
+    "items": []
+  },
+  "retrieval_scene_text": "1.【场景描述】：晴朗白天的天安门广场，画面主体为飘扬的红旗与人民英雄纪念碑。\n2.【文化视觉元素】：人民英雄纪念碑、天安门广场、五星红旗。\n晴朗天气下的室外广场，地面为灰色石板，天空湛蓝\n多面红旗在旗杆上飘扬，旗杆顶部有金色五角星装饰\n红色旗帜、银色旗杆、金色五角星、灰色石碑、灰色建筑、金色护栏底座\n【背景辅助证据；不能单独证明主体身份】\n灰色石碑、灰色建筑、蓝天",
+  "hypothesis_provenance": {
+    "source": "cached_legacy_pass1",
+    "text": "1.【场景描述】：晴朗白天的天安门广场，画面主体为飘扬的红旗与人民英雄纪念碑。\n2.【文化视觉元素】：人民英雄纪念碑、天安门广场、五星红旗。",
+    "use": "retrieval_only_not_identity_evidence"
+  }
+}

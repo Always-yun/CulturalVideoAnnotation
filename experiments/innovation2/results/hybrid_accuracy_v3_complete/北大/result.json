@@ -1,0 +1,19 @@
+{
+  "video_id": "北大",
+  "sample_type": "known",
+  "gt_ids": [
+    "BJ_INNOV_006"
+  ],
+  "pred_ids": [],
+  "rejected": true,
+  "correct": false,
+  "recall1": false,
+  "recall5": false,
+  "reciprocal_rank": 0,
+  "error_type": "false_reject",
+  "group": "H3",
+  "api_calls": 1,
+  "preparation_api_calls": 0,
+  "pre_verification_correct": false,
+  "seconds": 97.29
+}

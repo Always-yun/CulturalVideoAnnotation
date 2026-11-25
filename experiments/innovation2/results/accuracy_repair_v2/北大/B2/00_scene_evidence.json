@@ -1,0 +1,23 @@
+{
+  "scene_description_raw": "{\"scene\":\"一个宁静的户外场景，有平静的湖面、茂密的绿树和一座多层塔楼，天空晴朗。\",\"subject\":\"一座多层塔楼，其倒影映在湖面上。\",\"visible_features\":[\"塔楼有多个层次，顶部有尖顶，湖面平静，倒映着塔楼和树木，岸边有茂密的绿树，包括柳树。\"],\"background\":[\"平静的湖面，茂密的绿树，远处有塔楼。\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "scene_description": "一个宁静的户外场景，有平静的湖面、茂密的绿树和一座多层塔楼，天空晴朗。\n一座多层塔楼，其倒影映在湖面上。\n塔楼有多个层次，顶部有尖顶，湖面平静，倒映着塔楼和树木，岸边有茂密的绿树，包括柳树。\n【背景辅助证据；不能单独证明主体身份】\n平静的湖面，茂密的绿树，远处有塔楼。",
+  "scene_evidence_version": "structured_context_v2",
+  "structured_scene": {
+    "scene": "一个宁静的户外场景，有平静的湖面、茂密的绿树和一座多层塔楼，天空晴朗。",
+    "subject": "一座多层塔楼，其倒影映在湖面上。",
+    "visible_features": [
+      "塔楼有多个层次，顶部有尖顶，湖面平静，倒映着塔楼和树木，岸边有茂密的绿树，包括柳树。"
+    ],
+    "background": [
+      "平静的湖面，茂密的绿树，远处有塔楼。"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "not_needed",
+    "calls": 0,
+    "items": []
+  }
+}

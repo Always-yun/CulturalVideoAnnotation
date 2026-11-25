@@ -1,0 +1,50 @@
+{
+  "video_id": "角楼",
+  "gt_symbols": [
+    "角楼"
+  ],
+  "gt_symbol_ids": [
+    "BJ_GUDU_010"
+  ],
+  "gt_dimension_code": "ANCIENT",
+  "kb_coverage": true,
+  "mode": "text",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为角楼。",
+  "pred_dimension": "古城与历史文化",
+  "unknown_symbol": false,
+  "symbol_correct": true,
+  "dimension_correct": true,
+  "topk_candidates": [
+    {
+      "symbol_id": "BJ_GUDU_010",
+      "canonical_name": "角楼",
+      "cultural_dimension": "古城与历史文化",
+      "dimension_code": "ANCIENT",
+      "score": 6.0,
+      "reason": "关键词/别名命中：角楼",
+      "image_score": 0.0,
+      "text_score": 6.0,
+      "fusion_score": 6.0,
+      "ranking_score": null,
+      "retrieval_evidence": {}
+    },
+    {
+      "symbol_id": "CN_MODERN_001",
+      "canonical_name": "杭州西湖文化景观",
+      "cultural_dimension": "现代城市与国际文化",
+      "dimension_code": "MODERN",
+      "score": 1.0,
+      "reason": "关键词/别名命中：湖面",
+      "image_score": 0.0,
+      "text_score": 1.0,
+      "fusion_score": 1.0,
+      "ranking_score": null,
+      "retrieval_evidence": {}
+    }
+  ],
+  "recall_at_5": true,
+  "seconds": 47.34,
+  "error_type": "",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/角楼/text/trace.json"
+}

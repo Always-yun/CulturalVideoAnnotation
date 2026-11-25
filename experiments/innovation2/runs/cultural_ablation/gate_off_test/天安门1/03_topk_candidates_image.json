@@ -1,0 +1,57 @@
+[
+  {
+    "symbol_id": "BJ_RED_006",
+    "canonical_name": "中国国家博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.630615234375,
+    "reason": "关键词/别名命中：天安门广场",
+    "image_score": 0.6306,
+    "text_score": 0.2,
+    "fusion_score": 0.6306
+  },
+  {
+    "symbol_id": "BJ_INNOV_003",
+    "canonical_name": "奥林匹克公园",
+    "cultural_dimension": "科技与创新文化",
+    "dimension_code": "TECH",
+    "score": 0.6278076171875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6278,
+    "text_score": 0.0,
+    "fusion_score": 0.6278
+  },
+  {
+    "symbol_id": "BJ_RED_009",
+    "canonical_name": "李大钊故居",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.627685546875,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6277,
+    "text_score": 0.0,
+    "fusion_score": 0.6277
+  },
+  {
+    "symbol_id": "BJ_GUDU_003",
+    "canonical_name": "天坛",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.626708984375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6267,
+    "text_score": 0.0,
+    "fusion_score": 0.6267
+  },
+  {
+    "symbol_id": "BJ_RED_008",
+    "canonical_name": "中国人民革命军事博物馆",
+    "cultural_dimension": "红色文化",
+    "dimension_code": "RED",
+    "score": 0.626220703125,
+    "reason": "图像相似度匹配",
+    "image_score": 0.6262,
+    "text_score": 0.0,
+    "fusion_score": 0.6262
+  }
+]

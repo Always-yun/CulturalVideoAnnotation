@@ -1,0 +1,118 @@
+{
+  "scene_description_raw": "{\"scene\":\"晴朗天空下，一座传统中式建筑，红墙、黄瓦，前方有绿植\",\"subject\":\"一座传统中式建筑\",\"visible_features\":[\"红墙、黄瓦、屋檐、多面红旗、墙上的画像和标语\"],\"background\":[\"蓝天、绿植\"],\"readable_text\":[{\"text\":\"中华人民共和国万岁\",\"legibility\":\"clear\"},{\"text\":\"世界人民大团结万岁\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.35,0.54,0.55,0.61]},{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.64,0.59,0.74,0.63]}],\"uncertain_entities\":[]}",
+  "scene_description": "晴朗天空下，一座传统中式建筑，红墙、黄瓦，前方有绿植\n一座传统中式建筑\n红墙、黄瓦、屋檐、多面红旗、墙上的画像和标语\n可读文字：中华人民共和国万岁\n可读文字：世界人民大团结万岁\n【背景辅助证据；不能单独证明主体身份】\n蓝天、绿植",
+  "scene_evidence_version": "structured_context_v2",
+  "structured_scene": {
+    "scene": "晴朗天空下，一座传统中式建筑，红墙、黄瓦，前方有绿植",
+    "subject": "一座传统中式建筑",
+    "visible_features": [
+      "红墙、黄瓦、屋檐、多面红旗、墙上的画像和标语"
+    ],
+    "background": [
+      "蓝天、绿植"
+    ],
+    "readable_text": [
+      {
+        "text": "中华人民共和国万岁",
+        "legibility": "clear"
+      },
+      {
+        "text": "世界人民大团结万岁",
+        "legibility": "clear"
+      }
+    ],
+    "text_regions": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.35,
+          0.54,
+          0.55,
+          0.61
+        ]
+      },
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.64,
+          0.59,
+          0.74,
+          0.63
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "completed",
+    "calls": 2,
+    "items": [
+      {
+        "text": "中华人民共和国万岁",
+        "legibility": "clear"
+      },
+      {
+        "text": "世界人民大团结万岁",
+        "legibility": "clear"
+      }
+    ],
+    "attempts": [
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.35,
+          0.54,
+          0.55,
+          0.61
+        ],
+        "index": 0,
+        "frame_index": 102,
+        "pixel_bbox": [
+          1267,
+          1123,
+          2188,
+          1360
+        ],
+        "images": [
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/天安门/B/text_evidence/region_0_crop.jpg",
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/天安门/B/text_evidence/region_0_context.jpg"
+        ],
+        "raw_response": "{\"text\":\"中华人民共和国万岁\",\"legibility\":\"clear\"}",
+        "result": {
+          "text": "中华人民共和国万岁",
+          "legibility": "clear"
+        }
+      },
+      {
+        "kind": "标牌",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.64,
+          0.59,
+          0.74,
+          0.63
+        ],
+        "index": 1,
+        "frame_index": 102,
+        "pixel_bbox": [
+          2380,
+          1231,
+          2918,
+          1404
+        ],
+        "images": [
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/天安门/B/text_evidence/region_1_crop.jpg",
+          "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation2/results/abc_development_v1/天安门/B/text_evidence/region_1_context.jpg"
+        ],
+        "raw_response": "{\"text\":\"世界人民大团结万岁\",\"legibility\":\"clear\"}",
+        "result": {
+          "text": "世界人民大团结万岁",
+          "legibility": "clear"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1327 @@
+{
+  "source": "/home/aws/.codex/attachments/39c441d8-7fb2-4d4a-bf45-2614d40fc038/已粘贴的文本.txt",
+  "raw": [
+    {
+      "anon_id": "V005",
+      "file": "T5-2.mp4",
+      "item": "局部事实-F1: 画面中出现多座圆形土楼（土楼群）",
+      "raw_score": "no",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V005",
+      "file": "T5-2.mp4",
+      "item": "局部事实-F2: 土楼平面为闭合圆环形",
+      "raw_score": "no",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V005",
+      "file": "T5-2.mp4",
+      "item": "局部事实-F3: 黑色瓦片大屋顶且出檐深远",
+      "raw_score": "yes",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V005",
+      "file": "T5-2.mp4",
+      "item": "局部事实-F4: 土楼处于山地村落环境",
+      "raw_score": "Yes",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V005",
+      "file": "T5-2.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "PARTIAL",
+      "normalized": "Partial"
+    },
+    {
+      "anon_id": "V005",
+      "file": "T5-2.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "yes",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V005",
+      "file": "T5-2.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "yes",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V009",
+      "file": "T5-1.mp4",
+      "item": "局部事实-F1: 画面中出现多座圆形土楼（土楼群）",
+      "raw_score": "no",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V009",
+      "file": "T5-1.mp4",
+      "item": "局部事实-F2: 土楼平面为闭合圆环形",
+      "raw_score": "NO",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V009",
+      "file": "T5-1.mp4",
+      "item": "局部事实-F3: 黑色瓦片大屋顶且出檐深远",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V009",
+      "file": "T5-1.mp4",
+      "item": "局部事实-F4: 土楼处于山地村落环境",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V009",
+      "file": "T5-1.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "MISMATCH",
+      "normalized": "Mismatch"
+    },
+    {
+      "anon_id": "V009",
+      "file": "T5-1.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V009",
+      "file": "T5-1.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V018",
+      "file": "T8-1.mp4",
+      "item": "局部事实-F1: 画面含现代滑雪大跳台设施",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V018",
+      "file": "T8-1.mp4",
+      "item": "局部事实-F2: 现代设施与工业遗存同画面并置",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V018",
+      "file": "T8-1.mp4",
+      "item": "局部事实-F3: 背景有巨型钢架构/高炉工业遗存",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V018",
+      "file": "T8-1.mp4",
+      "item": "局部事实-F4: 工业遗存为红砖/橙红色炉体",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V018",
+      "file": "T8-1.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "MISMATCH",
+      "normalized": "Mismatch"
+    },
+    {
+      "anon_id": "V018",
+      "file": "T8-1.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V018",
+      "file": "T8-1.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V004",
+      "file": "T5-4.mp4",
+      "item": "局部事实-F1: 画面中出现多座圆形土楼（土楼群）",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V004",
+      "file": "T5-4.mp4",
+      "item": "局部事实-F2: 土楼平面为闭合圆环形",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V004",
+      "file": "T5-4.mp4",
+      "item": "局部事实-F3: 黑色瓦片大屋顶且出檐深远",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V004",
+      "file": "T5-4.mp4",
+      "item": "局部事实-F4: 土楼处于山地村落环境",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V004",
+      "file": "T5-4.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "PAR",
+      "normalized": "Partial"
+    },
+    {
+      "anon_id": "V004",
+      "file": "T5-4.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V004",
+      "file": "T5-4.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V002",
+      "file": "T9-1.mp4",
+      "item": "局部事实-F1: 画面为超高层建筑群（集群）",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V002",
+      "file": "T9-1.mp4",
+      "item": "局部事实-F2: 建筑外观为玻璃幕墙",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V002",
+      "file": "T9-1.mp4",
+      "item": "局部事实-F3: 中央最高塔楼为中国尊造型",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V002",
+      "file": "T9-1.mp4",
+      "item": "局部事实-F4: 呈现城市天际线构图（可含灯火）",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V002",
+      "file": "T9-1.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "MIS",
+      "normalized": "Mismatch"
+    },
+    {
+      "anon_id": "V002",
+      "file": "T9-1.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V002",
+      "file": "T9-1.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V013",
+      "file": "T9-2.mp4",
+      "item": "局部事实-F1: 画面为超高层建筑群（集群）",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V013",
+      "file": "T9-2.mp4",
+      "item": "局部事实-F2: 建筑外观为玻璃幕墙",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V013",
+      "file": "T9-2.mp4",
+      "item": "局部事实-F3: 中央最高塔楼为中国尊造型",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V013",
+      "file": "T9-2.mp4",
+      "item": "局部事实-F4: 呈现城市天际线构图（可含灯火）",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V013",
+      "file": "T9-2.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "MIS",
+      "normalized": "Mismatch"
+    },
+    {
+      "anon_id": "V013",
+      "file": "T9-2.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V013",
+      "file": "T9-2.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V014",
+      "file": "T2-1.mp4",
+      "item": "局部事实-F1: 城墙转角处有多檐角楼",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V014",
+      "file": "T2-1.mp4",
+      "item": "局部事实-F2: 角楼屋顶为黄色琉璃瓦",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V014",
+      "file": "T2-1.mp4",
+      "item": "局部事实-F3: 宫墙墙体为红色",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V014",
+      "file": "T2-1.mp4",
+      "item": "局部事实-F4: 角楼屋檐为多层（重檐）相叠",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V014",
+      "file": "T2-1.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "MIS",
+      "normalized": "Mismatch"
+    },
+    {
+      "anon_id": "V014",
+      "file": "T2-1.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V014",
+      "file": "T2-1.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V008",
+      "file": "T3-4.mp4",
+      "item": "局部事实-F1: 建筑为二层砖木楼房",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V008",
+      "file": "T3-4.mp4",
+      "item": "局部事实-F2: 灰砖与白墙相间",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V008",
+      "file": "T3-4.mp4",
+      "item": "局部事实-F3: 青瓦坡屋顶",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V008",
+      "file": "T3-4.mp4",
+      "item": "局部事实-F4: 檐下有连续拱形柱廊（丹柱/外廊）",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V008",
+      "file": "T3-4.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "PAR",
+      "normalized": "Partial"
+    },
+    {
+      "anon_id": "V008",
+      "file": "T3-4.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V008",
+      "file": "T3-4.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V011",
+      "file": "T8-4.mp4",
+      "item": "局部事实-F1: 画面含现代滑雪大跳台设施",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V011",
+      "file": "T8-4.mp4",
+      "item": "局部事实-F2: 现代设施与工业遗存同画面并置",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V011",
+      "file": "T8-4.mp4",
+      "item": "局部事实-F3: 背景有巨型钢架构/高炉工业遗存",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V011",
+      "file": "T8-4.mp4",
+      "item": "局部事实-F4: 工业遗存为红砖/橙红色炉体",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V011",
+      "file": "T8-4.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "MATCH",
+      "normalized": "Match"
+    },
+    {
+      "anon_id": "V011",
+      "file": "T8-4.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V011",
+      "file": "T8-4.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V012",
+      "file": "T5-3.mp4",
+      "item": "局部事实-F1: 画面中出现多座圆形土楼（土楼群）",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V012",
+      "file": "T5-3.mp4",
+      "item": "局部事实-F2: 土楼平面为闭合圆环形",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V012",
+      "file": "T5-3.mp4",
+      "item": "局部事实-F3: 黑色瓦片大屋顶且出檐深远",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V012",
+      "file": "T5-3.mp4",
+      "item": "局部事实-F4: 土楼处于山地村落环境",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V012",
+      "file": "T5-3.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "PAR",
+      "normalized": "Partial"
+    },
+    {
+      "anon_id": "V012",
+      "file": "T5-3.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V012",
+      "file": "T5-3.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V010",
+      "file": "T8-3.mp4",
+      "item": "局部事实-F1: 画面含现代滑雪大跳台设施",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V010",
+      "file": "T8-3.mp4",
+      "item": "局部事实-F2: 现代设施与工业遗存同画面并置",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V010",
+      "file": "T8-3.mp4",
+      "item": "局部事实-F3: 背景有巨型钢架构/高炉工业遗存",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V010",
+      "file": "T8-3.mp4",
+      "item": "局部事实-F4: 工业遗存为红砖/橙红色炉体",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V010",
+      "file": "T8-3.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "PAR",
+      "normalized": "Partial"
+    },
+    {
+      "anon_id": "V010",
+      "file": "T8-3.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V010",
+      "file": "T8-3.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V019",
+      "file": "T2-3.mp4",
+      "item": "局部事实-F1: 城墙转角处有多檐角楼",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V019",
+      "file": "T2-3.mp4",
+      "item": "局部事实-F2: 角楼屋顶为黄色琉璃瓦",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V019",
+      "file": "T2-3.mp4",
+      "item": "局部事实-F3: 宫墙墙体为红色",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V019",
+      "file": "T2-3.mp4",
+      "item": "局部事实-F4: 角楼屋檐为多层（重檐）相叠",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V019",
+      "file": "T2-3.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "MATCH",
+      "normalized": "Match"
+    },
+    {
+      "anon_id": "V019",
+      "file": "T2-3.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V019",
+      "file": "T2-3.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V007",
+      "file": "T2-2.mp4",
+      "item": "局部事实-F1: 城墙转角处有多檐角楼",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V007",
+      "file": "T2-2.mp4",
+      "item": "局部事实-F2: 角楼屋顶为黄色琉璃瓦",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V007",
+      "file": "T2-2.mp4",
+      "item": "局部事实-F3: 宫墙墙体为红色",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V007",
+      "file": "T2-2.mp4",
+      "item": "局部事实-F4: 角楼屋檐为多层（重檐）相叠",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V007",
+      "file": "T2-2.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "PAR",
+      "normalized": "Partial"
+    },
+    {
+      "anon_id": "V007",
+      "file": "T2-2.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V007",
+      "file": "T2-2.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V006",
+      "file": "T3-1.mp4",
+      "item": "局部事实-F1: 建筑为二层砖木楼房",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V006",
+      "file": "T3-1.mp4",
+      "item": "局部事实-F2: 灰砖与白墙相间",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V006",
+      "file": "T3-1.mp4",
+      "item": "局部事实-F3: 青瓦坡屋顶",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V006",
+      "file": "T3-1.mp4",
+      "item": "局部事实-F4: 檐下有连续拱形柱廊（丹柱/外廊）",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V006",
+      "file": "T3-1.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "MIS",
+      "normalized": "Mismatch"
+    },
+    {
+      "anon_id": "V006",
+      "file": "T3-1.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V006",
+      "file": "T3-1.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V003",
+      "file": "T9-4.mp4",
+      "item": "局部事实-F1: 画面为超高层建筑群（集群）",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V003",
+      "file": "T9-4.mp4",
+      "item": "局部事实-F2: 建筑外观为玻璃幕墙",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V003",
+      "file": "T9-4.mp4",
+      "item": "局部事实-F3: 中央最高塔楼为中国尊造型",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V003",
+      "file": "T9-4.mp4",
+      "item": "局部事实-F4: 呈现城市天际线构图（可含灯火）",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V003",
+      "file": "T9-4.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "Y",
+      "normalized": "Match"
+    },
+    {
+      "anon_id": "V003",
+      "file": "T9-4.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V003",
+      "file": "T9-4.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V017",
+      "file": "T3-2.mp4",
+      "item": "局部事实-F1: 建筑为二层砖木楼房",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V017",
+      "file": "T3-2.mp4",
+      "item": "局部事实-F2: 灰砖与白墙相间",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V017",
+      "file": "T3-2.mp4",
+      "item": "局部事实-F3: 青瓦坡屋顶",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V017",
+      "file": "T3-2.mp4",
+      "item": "局部事实-F4: 檐下有连续拱形柱廊（丹柱/外廊）",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V017",
+      "file": "T3-2.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "MIS",
+      "normalized": "Mismatch"
+    },
+    {
+      "anon_id": "V017",
+      "file": "T3-2.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V017",
+      "file": "T3-2.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V001",
+      "file": "T8-2.mp4",
+      "item": "局部事实-F1: 画面含现代滑雪大跳台设施",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V001",
+      "file": "T8-2.mp4",
+      "item": "局部事实-F2: 现代设施与工业遗存同画面并置",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V001",
+      "file": "T8-2.mp4",
+      "item": "局部事实-F3: 背景有巨型钢架构/高炉工业遗存",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V001",
+      "file": "T8-2.mp4",
+      "item": "局部事实-F4: 工业遗存为红砖/橙红色炉体",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V001",
+      "file": "T8-2.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "MIS",
+      "normalized": "Mismatch"
+    },
+    {
+      "anon_id": "V001",
+      "file": "T8-2.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V001",
+      "file": "T8-2.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V015",
+      "file": "T3-3.mp4",
+      "item": "局部事实-F1: 建筑为二层砖木楼房",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V015",
+      "file": "T3-3.mp4",
+      "item": "局部事实-F2: 灰砖与白墙相间",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V015",
+      "file": "T3-3.mp4",
+      "item": "局部事实-F3: 青瓦坡屋顶",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V015",
+      "file": "T3-3.mp4",
+      "item": "局部事实-F4: 檐下有连续拱形柱廊（丹柱/外廊）",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V015",
+      "file": "T3-3.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "MIS",
+      "normalized": "Mismatch"
+    },
+    {
+      "anon_id": "V015",
+      "file": "T3-3.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V015",
+      "file": "T3-3.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V020",
+      "file": "T9-3.mp4",
+      "item": "局部事实-F1: 画面为超高层建筑群（集群）",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V020",
+      "file": "T9-3.mp4",
+      "item": "局部事实-F2: 建筑外观为玻璃幕墙",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V020",
+      "file": "T9-3.mp4",
+      "item": "局部事实-F3: 中央最高塔楼为中国尊造型",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V020",
+      "file": "T9-3.mp4",
+      "item": "局部事实-F4: 呈现城市天际线构图（可含灯火）",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V020",
+      "file": "T9-3.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "Y",
+      "normalized": "Match"
+    },
+    {
+      "anon_id": "V020",
+      "file": "T9-3.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V020",
+      "file": "T9-3.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V016",
+      "file": "T2-4.mp4",
+      "item": "局部事实-F1: 城墙转角处有多檐角楼",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V016",
+      "file": "T2-4.mp4",
+      "item": "局部事实-F2: 角楼屋顶为黄色琉璃瓦",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V016",
+      "file": "T2-4.mp4",
+      "item": "局部事实-F3: 宫墙墙体为红色",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V016",
+      "file": "T2-4.mp4",
+      "item": "局部事实-F4: 角楼屋檐为多层（重檐）相叠",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    },
+    {
+      "anon_id": "V016",
+      "file": "T2-4.mp4",
+      "item": "整体建筑形态",
+      "raw_score": "MATCH",
+      "normalized": "Match"
+    },
+    {
+      "anon_id": "V016",
+      "file": "T2-4.mp4",
+      "item": "镜头运动是否符合提示词",
+      "raw_score": "N",
+      "normalized": "No"
+    },
+    {
+      "anon_id": "V016",
+      "file": "T2-4.mp4",
+      "item": "时间天气是否符合提示词",
+      "raw_score": "Y",
+      "normalized": "Yes"
+    }
+  ],
+  "details": [
+    {
+      "batch": "batch1",
+      "task_id": "T05",
+      "group_id": "G2",
+      "video_id": "T05_G2_r01",
+      "rater_id": "not_provided",
+      "F1": "No",
+      "F2": "No",
+      "F3": "Yes",
+      "F4": "Yes",
+      "overall_form": "Partial",
+      "camera_CMA": "Yes",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 0.5,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T05",
+      "group_id": "G1",
+      "video_id": "T05_G1_r01",
+      "rater_id": "not_provided",
+      "F1": "No",
+      "F2": "No",
+      "F3": "No",
+      "F4": "Yes",
+      "overall_form": "Mismatch",
+      "camera_CMA": "Yes",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 0.25,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T08",
+      "group_id": "G1",
+      "video_id": "T08_G1_r01",
+      "rater_id": "not_provided",
+      "F1": "No",
+      "F2": "Yes",
+      "F3": "Yes",
+      "F4": "No",
+      "overall_form": "Mismatch",
+      "camera_CMA": "Yes",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 0.5,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T05",
+      "group_id": "G4",
+      "video_id": "T05_G4_r01",
+      "rater_id": "not_provided",
+      "F1": "Yes",
+      "F2": "Yes",
+      "F3": "Yes",
+      "F4": "Yes",
+      "overall_form": "Partial",
+      "camera_CMA": "Yes",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 1.0,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T09",
+      "group_id": "G1",
+      "video_id": "T09_G1_r01",
+      "rater_id": "not_provided",
+      "F1": "Yes",
+      "F2": "Yes",
+      "F3": "No",
+      "F4": "No",
+      "overall_form": "Mismatch",
+      "camera_CMA": "No",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 0.5,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T09",
+      "group_id": "G2",
+      "video_id": "T09_G2_r01",
+      "rater_id": "not_provided",
+      "F1": "No",
+      "F2": "Yes",
+      "F3": "No",
+      "F4": "No",
+      "overall_form": "Mismatch",
+      "camera_CMA": "Yes",
+      "conditions_TWA": "No",
+      "fact_yes_rate": 0.25,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T02",
+      "group_id": "G1",
+      "video_id": "T02_G1_r01",
+      "rater_id": "not_provided",
+      "F1": "No",
+      "F2": "No",
+      "F3": "No",
+      "F4": "No",
+      "overall_form": "Mismatch",
+      "camera_CMA": "No",
+      "conditions_TWA": "No",
+      "fact_yes_rate": 0.0,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T03",
+      "group_id": "G4",
+      "video_id": "T03_G4_r01",
+      "rater_id": "not_provided",
+      "F1": "Yes",
+      "F2": "Yes",
+      "F3": "Yes",
+      "F4": "Yes",
+      "overall_form": "Partial",
+      "camera_CMA": "Yes",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 1.0,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T08",
+      "group_id": "G4",
+      "video_id": "T08_G4_r01",
+      "rater_id": "not_provided",
+      "F1": "Yes",
+      "F2": "Yes",
+      "F3": "Yes",
+      "F4": "Yes",
+      "overall_form": "Match",
+      "camera_CMA": "Yes",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 1.0,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T05",
+      "group_id": "G3",
+      "video_id": "T05_G3_r01",
+      "rater_id": "not_provided",
+      "F1": "Yes",
+      "F2": "Yes",
+      "F3": "Yes",
+      "F4": "Yes",
+      "overall_form": "Partial",
+      "camera_CMA": "Yes",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 1.0,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T08",
+      "group_id": "G3",
+      "video_id": "T08_G3_r01",
+      "rater_id": "not_provided",
+      "F1": "Yes",
+      "F2": "Yes",
+      "F3": "Yes",
+      "F4": "Yes",
+      "overall_form": "Partial",
+      "camera_CMA": "Yes",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 1.0,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T02",
+      "group_id": "G3",
+      "video_id": "T02_G3_r01",
+      "rater_id": "not_provided",
+      "F1": "Yes",
+      "F2": "Yes",
+      "F3": "Yes",
+      "F4": "Yes",
+      "overall_form": "Match",
+      "camera_CMA": "No",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 1.0,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T02",
+      "group_id": "G2",
+      "video_id": "T02_G2_r01",
+      "rater_id": "not_provided",
+      "F1": "Yes",
+      "F2": "Yes",
+      "F3": "Yes",
+      "F4": "Yes",
+      "overall_form": "Partial",
+      "camera_CMA": "Yes",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 1.0,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T03",
+      "group_id": "G1",
+      "video_id": "T03_G1_r01",
+      "rater_id": "not_provided",
+      "F1": "No",
+      "F2": "Yes",
+      "F3": "No",
+      "F4": "No",
+      "overall_form": "Mismatch",
+      "camera_CMA": "Yes",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 0.25,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T09",
+      "group_id": "G4",
+      "video_id": "T09_G4_r01",
+      "rater_id": "not_provided",
+      "F1": "Yes",
+      "F2": "Yes",
+      "F3": "Yes",
+      "F4": "Yes",
+      "overall_form": "Match",
+      "camera_CMA": "Yes",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 1.0,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T03",
+      "group_id": "G2",
+      "video_id": "T03_G2_r01",
+      "rater_id": "not_provided",
+      "F1": "No",
+      "F2": "No",
+      "F3": "No",
+      "F4": "No",
+      "overall_form": "Mismatch",
+      "camera_CMA": "Yes",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 0.0,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T08",
+      "group_id": "G2",
+      "video_id": "T08_G2_r01",
+      "rater_id": "not_provided",
+      "F1": "No",
+      "F2": "Yes",
+      "F3": "Yes",
+      "F4": "No",
+      "overall_form": "Mismatch",
+      "camera_CMA": "Yes",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 0.5,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T03",
+      "group_id": "G3",
+      "video_id": "T03_G3_r01",
+      "rater_id": "not_provided",
+      "F1": "Yes",
+      "F2": "Yes",
+      "F3": "No",
+      "F4": "No",
+      "overall_form": "Mismatch",
+      "camera_CMA": "Yes",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 0.5,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T09",
+      "group_id": "G3",
+      "video_id": "T09_G3_r01",
+      "rater_id": "not_provided",
+      "F1": "Yes",
+      "F2": "Yes",
+      "F3": "Yes",
+      "F4": "Yes",
+      "overall_form": "Match",
+      "camera_CMA": "Yes",
+      "conditions_TWA": "No",
+      "fact_yes_rate": 1.0,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    },
+    {
+      "batch": "batch1",
+      "task_id": "T02",
+      "group_id": "G4",
+      "video_id": "T02_G4_r01",
+      "rater_id": "not_provided",
+      "F1": "Yes",
+      "F2": "Yes",
+      "F3": "Yes",
+      "F4": "Yes",
+      "overall_form": "Match",
+      "camera_CMA": "No",
+      "conditions_TWA": "Yes",
+      "fact_yes_rate": 1.0,
+      "keyframe_consistency": "",
+      "keyframe_consistency_status": "pending_original_video_pair"
+    }
+  ]
+}

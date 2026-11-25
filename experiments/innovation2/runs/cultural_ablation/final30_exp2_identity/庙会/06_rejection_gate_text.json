@@ -1,0 +1,11 @@
+{
+  "level": "insufficient",
+  "signals": {
+    "n_keywords": 0,
+    "scene_negative": false,
+    "top1_score": null,
+    "margin_rel": null
+  },
+  "reason": "检索无任何候选",
+  "constraint_overridden": false
+}

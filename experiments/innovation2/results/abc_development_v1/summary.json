@@ -1,0 +1,50 @@
+{
+  "status": "running",
+  "completed": 58,
+  "expected": 90,
+  "errors": [],
+  "groups": {
+    "A": {
+      "n": 20,
+      "known_n": 18,
+      "unknown_n": 2,
+      "accuracy": 0.7,
+      "known_accuracy": 0.6666666666666666,
+      "known_false_reject": 0.3333333333333333,
+      "unknown_false_accept": 0.0,
+      "recall1": 0.5555555555555556,
+      "recall5": 0.7777777777777778,
+      "mrr_at5": 0.6574074074074074,
+      "actual_api_calls": 44,
+      "mean_runtime_seconds": 150.197
+    },
+    "B": {
+      "n": 20,
+      "known_n": 18,
+      "unknown_n": 2,
+      "accuracy": 0.25,
+      "known_accuracy": 0.16666666666666666,
+      "known_false_reject": 0.8333333333333334,
+      "unknown_false_accept": 0.0,
+      "recall1": 0.4444444444444444,
+      "recall5": 0.5555555555555556,
+      "mrr_at5": 0.4861111111111111,
+      "actual_api_calls": 63,
+      "mean_runtime_seconds": 130.238
+    },
+    "C": {
+      "n": 18,
+      "known_n": 16,
+      "unknown_n": 2,
+      "accuracy": 0.2777777777777778,
+      "known_accuracy": 0.1875,
+      "known_false_reject": 0.8125,
+      "unknown_false_accept": 0.0,
+      "recall1": 0.4375,
+      "recall5": 0.5625,
+      "mrr_at5": 0.484375,
+      "actual_api_calls": 22,
+      "mean_runtime_seconds": 77.40555555555555
+    }
+  }
+}

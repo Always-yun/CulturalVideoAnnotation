@@ -1,0 +1,23 @@
+{
+  "scene_description_raw": "{\"scene\":\"室内考古发掘现场，光线均匀，地面为泥土坑道，排列着大量陶俑\",\"subject\":\"排列在坑道中的陶俑\",\"visible_features\":[\"大量灰白色陶制人形雕像，排列成行，置于长方形坑道中，表面有泥土痕迹\"],\"background\":[\"坑道间的泥土隔墙，远处可见参观人群\"],\"readable_text\":[],\"text_regions\":[],\"uncertain_entities\":[]}",
+  "scene_description": "室内考古发掘现场，光线均匀，地面为泥土坑道，排列着大量陶俑\n排列在坑道中的陶俑\n大量灰白色陶制人形雕像，排列成行，置于长方形坑道中，表面有泥土痕迹",
+  "scene_evidence_version": "structured_v1",
+  "structured_scene": {
+    "scene": "室内考古发掘现场，光线均匀，地面为泥土坑道，排列着大量陶俑",
+    "subject": "排列在坑道中的陶俑",
+    "visible_features": [
+      "大量灰白色陶制人形雕像，排列成行，置于长方形坑道中，表面有泥土痕迹"
+    ],
+    "background": [
+      "坑道间的泥土隔墙，远处可见参观人群"
+    ],
+    "readable_text": [],
+    "text_regions": [],
+    "uncertain_entities": []
+  },
+  "text_recognition": {
+    "status": "not_needed",
+    "calls": 0,
+    "items": []
+  }
+}

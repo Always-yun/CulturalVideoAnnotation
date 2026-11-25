@@ -1,0 +1,34 @@
+{
+  "scene_description_raw": "{\"scene\":\"户外，传统中式建筑前，光线明亮，有树木\",\"subject\":\"石狮子雕像，静立\",\"visible_features\":[\"浅色石材，卷曲鬃毛，张嘴，面部有褶皱，底座有花纹\"],\"background\":[\"传统中式建筑，红色柱子，灰色瓦片，彩绘屋檐，悬挂的灯笼，上方有树木\"],\"readable_text\":[],\"text_regions\":[{\"kind\":\"匾额\",\"time_ratio\":0.5,\"bbox\":[0.585,0.505,0.788,0.65]}],\"uncertain_entities\":[]}",
+  "scene_description": "户外，传统中式建筑前，光线明亮，有树木\n石狮子雕像，静立\n浅色石材，卷曲鬃毛，张嘴，面部有褶皱，底座有花纹",
+  "structured_scene": {
+    "scene": "户外，传统中式建筑前，光线明亮，有树木",
+    "subject": "石狮子雕像，静立",
+    "visible_features": [
+      "浅色石材，卷曲鬃毛，张嘴，面部有褶皱，底座有花纹"
+    ],
+    "background": [
+      "传统中式建筑，红色柱子，灰色瓦片，彩绘屋檐，悬挂的灯笼，上方有树木"
+    ],
+    "readable_text": [],
+    "text_regions": [
+      {
+        "kind": "匾额",
+        "time_ratio": 0.5,
+        "bbox": [
+          0.585,
+          0.505,
+          0.788,
+          0.65
+        ]
+      }
+    ],
+    "uncertain_entities": []
+  },
+  "scene_evidence_version": "structured_v1",
+  "text_recognition": {
+    "status": "disabled",
+    "calls": 0,
+    "items": []
+  }
+}

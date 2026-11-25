@@ -1,0 +1,67 @@
+[
+  {
+    "symbol_id": "BJ_GUDU_002",
+    "canonical_name": "太和殿",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.948974609375,
+    "reason": "关键词/别名命中：太和殿",
+    "image_score": 0.8979,
+    "text_score": 1.0,
+    "fusion_score": 0.949,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_002",
+    "canonical_name": "平遥古城",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.462646484375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9253,
+    "text_score": 0.0,
+    "fusion_score": 0.4626,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_025",
+    "canonical_name": "青城山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.458984375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.918,
+    "text_score": 0.0,
+    "fusion_score": 0.459,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_026",
+    "canonical_name": "都江堰",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.458984375,
+    "reason": "图像相似度匹配",
+    "image_score": 0.918,
+    "text_score": 0.0,
+    "fusion_score": 0.459,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  },
+  {
+    "symbol_id": "CN2_ANCIENT_011",
+    "canonical_name": "五台山",
+    "cultural_dimension": "古城与历史文化",
+    "dimension_code": "ANCIENT",
+    "score": 0.455322265625,
+    "reason": "图像相似度匹配",
+    "image_score": 0.9106,
+    "text_score": 0.0,
+    "fusion_score": 0.4553,
+    "ranking_score": null,
+    "retrieval_evidence": {}
+  }
+]

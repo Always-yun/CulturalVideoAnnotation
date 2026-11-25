@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "created": "2026-11-02",
+    "n": 20,
+    "group_mapping_status": "unverified",
+    "mapping_rule": "文件名 -1/-2/-3/-4 推断为 G1/G2/G3/G4，无独立证据，unverified"
+  },
+  "mapping": [
+    {
+      "anon_id": "V001",
+      "task_id": "T08",
+      "group_id": "G2",
+      "file": "T8-2.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T8-2.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_006_shougang_ski_jump.jpeg"
+    },
+    {
+      "anon_id": "V002",
+      "task_id": "T09",
+      "group_id": "G1",
+      "file": "T9-1.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T9-1.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_003_CBD_skyline.png"
+    },
+    {
+      "anon_id": "V003",
+      "task_id": "T09",
+      "group_id": "G4",
+      "file": "T9-4.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T9-4.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_003_CBD_skyline.png"
+    },
+    {
+      "anon_id": "V004",
+      "task_id": "T05",
+      "group_id": "G4",
+      "file": "T5-4.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T5-4.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/CN2_FOLK_003/03_13c2edf35351.jpg"
+    },
+    {
+      "anon_id": "V005",
+      "task_id": "T05",
+      "group_id": "G2",
+      "file": "T5-2.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T5-2.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/CN2_FOLK_003/03_13c2edf35351.jpg"
+    },
+    {
+      "anon_id": "V006",
+      "task_id": "T03",
+      "group_id": "G1",
+      "file": "T3-1.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T3-1.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/CN_RED_001/01_80af1734eefe.jpg"
+    },
+    {
+      "anon_id": "V007",
+      "task_id": "T02",
+      "group_id": "G2",
+      "file": "T2-2.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-2.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/BJ_GUDU_001/01_b34d3d8edcc7.jpg"
+    },
+    {
+      "anon_id": "V008",
+      "task_id": "T03",
+      "group_id": "G4",
+      "file": "T3-4.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T3-4.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/CN_RED_001/01_80af1734eefe.jpg"
+    },
+    {
+      "anon_id": "V009",
+      "task_id": "T05",
+      "group_id": "G1",
+      "file": "T5-1.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T5-1.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/CN2_FOLK_003/03_13c2edf35351.jpg"
+    },
+    {
+      "anon_id": "V010",
+      "task_id": "T08",
+      "group_id": "G3",
+      "file": "T8-3.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T8-3.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_006_shougang_ski_jump.jpeg"
+    },
+    {
+      "anon_id": "V011",
+      "task_id": "T08",
+      "group_id": "G4",
+      "file": "T8-4.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T8-4.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_006_shougang_ski_jump.jpeg"
+    },
+    {
+      "anon_id": "V012",
+      "task_id": "T05",
+      "group_id": "G3",
+      "file": "T5-3.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T5-3.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/CN2_FOLK_003/03_13c2edf35351.jpg"
+    },
+    {
+      "anon_id": "V013",
+      "task_id": "T09",
+      "group_id": "G2",
+      "file": "T9-2.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T9-2.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_003_CBD_skyline.png"
+    },
+    {
+      "anon_id": "V014",
+      "task_id": "T02",
+      "group_id": "G1",
+      "file": "T2-1.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-1.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/BJ_GUDU_001/01_b34d3d8edcc7.jpg"
+    },
+    {
+      "anon_id": "V015",
+      "task_id": "T03",
+      "group_id": "G3",
+      "file": "T3-3.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T3-3.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/CN_RED_001/01_80af1734eefe.jpg"
+    },
+    {
+      "anon_id": "V016",
+      "task_id": "T02",
+      "group_id": "G4",
+      "file": "T2-4.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-4.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/BJ_GUDU_001/01_b34d3d8edcc7.jpg"
+    },
+    {
+      "anon_id": "V017",
+      "task_id": "T03",
+      "group_id": "G2",
+      "file": "T3-2.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T3-2.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/CN_RED_001/01_80af1734eefe.jpg"
+    },
+    {
+      "anon_id": "V018",
+      "task_id": "T08",
+      "group_id": "G1",
+      "file": "T8-1.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T8-1.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_006_shougang_ski_jump.jpeg"
+    },
+    {
+      "anon_id": "V019",
+      "task_id": "T02",
+      "group_id": "G3",
+      "file": "T2-3.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T2-3.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/data/knowledge_base/reference_images_v2/BJ_GUDU_001/01_b34d3d8edcc7.jpg"
+    },
+    {
+      "anon_id": "V020",
+      "task_id": "T09",
+      "group_id": "G3",
+      "file": "T9-3.mp4",
+      "video_path": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/videos/batch1/T9-3.mp4",
+      "reference_image": "/data/data/xzy/CulturalVideoAnnotation/experiments/innovation1/t2v_cultural_taskset/reference_images/BJ_FASHION_003_CBD_skyline.png"
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "dimensions": [
+      "imaging_quality",
+      "subject_consistency"
+    ],
+    "imaging_quality_model": "MUSIQ (pyiqa 0.1.10, musiq_spaq_ckpt-358bb6af.pth)",
+    "subject_consistency_model": "DINO ViT-B/16 (facebookresearch_dino_main, dino_vitbase16_pretrain.pth)",
+    "device": "cuda (GPU 1)",
+    "torch": "2.4.1+cu118",
+    "torchvision": "0.19.1+cu118",
+    "vbench": "0.1.5",
+    "scale_note": "imaging_quality 原始为MUSIQ 0-100分；vbench官方聚合结果为其除以100（0-1）。本报告统一以0-100呈现原始分。subject_consistency为0-1。",
+    "run_split": "T2-1 单独运行(11.75s)；其余19条批量运行(106.01s)；合计20条",
+    "group_mapping_status": "unverified",
+    "note": "仅成像质量与时序主体一致性两个指标；未运行其余14项；未做文化事实评价/人工评分"
+  },
+  "details": [
+    {
+      "task_id": "T02",
+      "group_id": "G1",
+      "video_file": "T2-1.mp4",
+      "imaging_quality_0_100": 77.583,
+      "imaging_quality_0_1": 0.7758,
+      "subject_consistency": 0.9699
+    },
+    {
+      "task_id": "T02",
+      "group_id": "G2",
+      "video_file": "T2-2.mp4",
+      "imaging_quality_0_100": 78.7762,
+      "imaging_quality_0_1": 0.7878,
+      "subject_consistency": 0.9755
+    },
+    {
+      "task_id": "T02",
+      "group_id": "G3",
+      "video_file": "T2-3.mp4",
+      "imaging_quality_0_100": 74.6646,
+      "imaging_quality_0_1": 0.7466,
+      "subject_consistency": 0.9713
+    },
+    {
+      "task_id": "T02",
+      "group_id": "G4",
+      "video_file": "T2-4.mp4",
+      "imaging_quality_0_100": 76.6764,
+      "imaging_quality_0_1": 0.7668,
+      "subject_consistency": 0.9786
+    },
+    {
+      "task_id": "T03",
+      "group_id": "G1",
+      "video_file": "T3-1.mp4",
+      "imaging_quality_0_100": 75.7656,
+      "imaging_quality_0_1": 0.7577,
+      "subject_consistency": 0.9981
+    },
+    {
+      "task_id": "T03",
+      "group_id": "G2",
+      "video_file": "T3-2.mp4",
+      "imaging_quality_0_100": 58.9709,
+      "imaging_quality_0_1": 0.5897,
+      "subject_consistency": 0.554
+    },
+    {
+      "task_id": "T03",
+      "group_id": "G3",
+      "video_file": "T3-3.mp4",
+      "imaging_quality_0_100": 79.4937,
+      "imaging_quality_0_1": 0.7949,
+      "subject_consistency": 0.9988
+    },
+    {
+      "task_id": "T03",
+      "group_id": "G4",
+      "video_file": "T3-4.mp4",
+      "imaging_quality_0_100": 74.4513,
+      "imaging_quality_0_1": 0.7445,
+      "subject_consistency": 0.9997
+    },
+    {
+      "task_id": "T05",
+      "group_id": "G1",
+      "video_file": "T5-1.mp4",
+      "imaging_quality_0_100": 78.916,
+      "imaging_quality_0_1": 0.7892,
+      "subject_consistency": 0.9785
+    },
+    {
+      "task_id": "T05",
+      "group_id": "G2",
+      "video_file": "T5-2.mp4",
+      "imaging_quality_0_100": 75.795,
+      "imaging_quality_0_1": 0.758,
+      "subject_consistency": 0.9822
+    },
+    {
+      "task_id": "T05",
+      "group_id": "G3",
+      "video_file": "T5-3.mp4",
+      "imaging_quality_0_100": 73.9963,
+      "imaging_quality_0_1": 0.74,
+      "subject_consistency": 0.9764
+    },
+    {
+      "task_id": "T05",
+      "group_id": "G4",
+      "video_file": "T5-4.mp4",
+      "imaging_quality_0_100": 79.1781,
+      "imaging_quality_0_1": 0.7918,
+      "subject_consistency": 0.9628
+    },
+    {
+      "task_id": "T08",
+      "group_id": "G1",
+      "video_file": "T8-1.mp4",
+      "imaging_quality_0_100": 80.4893,
+      "imaging_quality_0_1": 0.8049,
+      "subject_consistency": 0.9682
+    },
+    {
+      "task_id": "T08",
+      "group_id": "G2",
+      "video_file": "T8-2.mp4",
+      "imaging_quality_0_100": 79.7894,
+      "imaging_quality_0_1": 0.7979,
+      "subject_consistency": 0.9367
+    },
+    {
+      "task_id": "T08",
+      "group_id": "G3",
+      "video_file": "T8-3.mp4",
+      "imaging_quality_0_100": 79.8874,
+      "imaging_quality_0_1": 0.7989,
+      "subject_consistency": 0.9825
+    },
+    {
+      "task_id": "T08",
+      "group_id": "G4",
+      "video_file": "T8-4.mp4",
+      "imaging_quality_0_100": 78.267,
+      "imaging_quality_0_1": 0.7827,
+      "subject_consistency": 0.9345
+    },
+    {
+      "task_id": "T09",
+      "group_id": "G1",
+      "video_file": "T9-1.mp4",
+      "imaging_quality_0_100": 78.9251,
+      "imaging_quality_0_1": 0.7893,
+      "subject_consistency": 0.965
+    },
+    {
+      "task_id": "T09",
+      "group_id": "G2",
+      "video_file": "T9-2.mp4",
+      "imaging_quality_0_100": 71.5532,
+      "imaging_quality_0_1": 0.7155,
+      "subject_consistency": 0.9822
+    },
+    {
+      "task_id": "T09",
+      "group_id": "G3",
+      "video_file": "T9-3.mp4",
+      "imaging_quality_0_100": 78.3415,
+      "imaging_quality_0_1": 0.7834,
+      "subject_consistency": 0.9774
+    },
+    {
+      "task_id": "T09",
+      "group_id": "G4",
+      "video_file": "T9-4.mp4",
+      "imaging_quality_0_100": 78.0401,
+      "imaging_quality_0_1": 0.7804,
+      "subject_consistency": 0.9763
+    }
+  ],
+  "group_stats": [
+    {
+      "group_id": "G1",
+      "n": 5,
+      "iq_mean_0_100": 78.3358,
+      "iq_std_0_100": 1.7674,
+      "sc_mean": 0.976,
+      "sc_std": 0.0133
+    },
+    {
+      "group_id": "G2",
+      "n": 5,
+      "iq_mean_0_100": 72.9769,
+      "iq_std_0_100": 8.4584,
+      "sc_mean": 0.8861,
+      "sc_std": 0.1866
+    },
+    {
+      "group_id": "G3",
+      "n": 5,
+      "iq_mean_0_100": 77.2767,
+      "iq_std_0_100": 2.759,
+      "sc_mean": 0.9813,
+      "sc_std": 0.0106
+    },
+    {
+      "group_id": "G4",
+      "n": 5,
+      "iq_mean_0_100": 77.3226,
+      "iq_std_0_100": 1.8379,
+      "sc_mean": 0.9704,
+      "sc_std": 0.024
+    }
+  ],
+  "task_group": [
+    {
+      "task_id": "T02",
+      "G1_IQ": 77.583,
+      "G2_IQ": 78.7762,
+      "G3_IQ": 74.6646,
+      "G4_IQ": 76.6764,
+      "G1_SC": 0.9699,
+      "G2_SC": 0.9755,
+      "G3_SC": 0.9713,
+      "G4_SC": 0.9786
+    },
+    {
+      "task_id": "T03",
+      "G1_IQ": 75.7656,
+      "G2_IQ": 58.9709,
+      "G3_IQ": 79.4937,
+      "G4_IQ": 74.4513,
+      "G1_SC": 0.9981,
+      "G2_SC": 0.554,
+      "G3_SC": 0.9988,
+      "G4_SC": 0.9997
+    },
+    {
+      "task_id": "T05",
+      "G1_IQ": 78.916,
+      "G2_IQ": 75.795,
+      "G3_IQ": 73.9963,
+      "G4_IQ": 79.1781,
+      "G1_SC": 0.9785,
+      "G2_SC": 0.9822,
+      "G3_SC": 0.9764,
+      "G4_SC": 0.9628
+    },
+    {
+      "task_id": "T08",
+      "G1_IQ": 80.4893,
+      "G2_IQ": 79.7894,
+      "G3_IQ": 79.8874,
+      "G4_IQ": 78.267,
+      "G1_SC": 0.9682,
+      "G2_SC": 0.9367,
+      "G3_SC": 0.9825,
+      "G4_SC": 0.9345
+    },
+    {
+      "task_id": "T09",
+      "G1_IQ": 78.9251,
+      "G2_IQ": 71.5532,
+      "G3_IQ": 78.3415,
+      "G4_IQ": 78.0401,
+      "G1_SC": 0.965,
+      "G2_SC": 0.9822,
+      "G3_SC": 0.9774,
+      "G4_SC": 0.9763
+    }
+  ],
+  "anomalies": [
+    {
+      "video_file": "T3-2.mp4",
+      "task_id": "T03",
+      "group_id": "G2",
+      "issue": "IQ=58.97 与 SC=0.554 双双显著偏低，为全批最低",
+      "note": "需人工核查该视频是否存在闪烁/结构崩坏/主体漂移；不因此修改其他结果"
+    }
+  ]
+}

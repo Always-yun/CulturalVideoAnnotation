@@ -1,0 +1,33 @@
+{
+  "version": "v2.0",
+  "calibration": {
+    "source": "experiments/innovation2/data/eval/cultural_ablation_gt.jsonl（6 条 validation 视频，与 31 条 test 零重叠）",
+    "n_positives": 4,
+    "n_negatives": 436,
+    "balanced_accuracy": {
+      "max_ref_sim": 0.9977,
+      "topk_ref_sim": 0.9931,
+      "frame_consistency": 0.6227
+    },
+    "negative_95pct": {
+      "max_ref_sim": 0.738,
+      "frame_consistency": 0.0
+    }
+  },
+  "visual_identity": {
+    "max_ref_sim_strong": 0.77,
+    "topk_ref_sim_strong": 0.74,
+    "frame_consistency_strong": 0.8,
+    "max_ref_sim_supporting": 0.738,
+    "frame_consistency_supporting": 0.5,
+    "frame_consistency_supporting_note": "validation 负样本 95 分位为 0.0（错误候选几乎不会成为单帧最优），若直接取 0 会让 supporting 恒成立；故采用「至少半数关键帧最优命中候选」的多数规则 0.5，属保守结构性取值，非 test 调参。"
+  },
+  "verification": {
+    "max_candidates": 3,
+    "max_images": 3,
+    "num_frames": 4,
+    "temperature": 0.0,
+    "score_margin_threshold": 0.05,
+    "high_fusion_threshold": 0.5
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:41:39.242431+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于现代城市与国际文化。\n核心符号：中央商务区（CBD）\n价值指向：可见视觉依据为画面中具有标志性造型的央视总部大楼（俗称“大裤衩”）以及周边玻璃幕墙超高层建筑集群，这些是北京中央商务区的典型视觉特征。文化内涵上，北京CBD是城市国际化程度最高的商务中心，聚集跨国公司总部与国际机构，其天际线是现代都市发展的象征。不确定之处在于，画面中虽可见“中国尊”（中信大厦）等标志性建筑，但无法完全确认所有建筑均属于CBD，且未明确显示国贸三期等其他典型建筑，但整体建筑风格与布局高度符合CBD特征。",
+  "response_model": "glm-4v",
+  "response_id": "202611191641399a6c4aa3b0444b7b",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=41149, prompt_tokens_details=PromptTokensDetails(cached_tokens=32774), completion_tokens=152, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=41301)",
+  "seconds": 32.99322581291199
+}

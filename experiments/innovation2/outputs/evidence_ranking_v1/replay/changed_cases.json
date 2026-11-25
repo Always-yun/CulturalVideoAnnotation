@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "cbd2",
+    "legacy_hit1": true,
+    "evidence_hit1": false,
+    "legacy_hit5": true,
+    "evidence_hit5": true
+  },
+  {
+    "video_id": "中关村展示中心",
+    "legacy_hit1": false,
+    "evidence_hit1": false,
+    "legacy_hit5": false,
+    "evidence_hit5": true
+  },
+  {
+    "video_id": "人民英雄纪念碑",
+    "legacy_hit1": false,
+    "evidence_hit1": true,
+    "legacy_hit5": true,
+    "evidence_hit5": true
+  },
+  {
+    "video_id": "人民英雄纪念碑1",
+    "legacy_hit1": false,
+    "evidence_hit1": true,
+    "legacy_hit5": true,
+    "evidence_hit5": true
+  },
+  {
+    "video_id": "故宫",
+    "legacy_hit1": true,
+    "evidence_hit1": false,
+    "legacy_hit5": true,
+    "evidence_hit5": true
+  }
+]

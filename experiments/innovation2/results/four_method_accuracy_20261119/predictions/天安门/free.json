@@ -1,0 +1,14 @@
+{
+  "video_id": "天安门",
+  "gt_symbols": [
+    "天安门广场"
+  ],
+  "gt_symbol_ids": [
+    "BJ_RED_002"
+  ],
+  "gt_dimension_code": "RED",
+  "kb_coverage": true,
+  "mode": "free",
+  "status": "blocked_runtime",
+  "reason": "基础模型调用受阻：APIConnectionError；详情见api_calls.json"
+}

@@ -1,0 +1,54 @@
+{
+  "video_id": "北大1",
+  "mode": "free",
+  "status": "completed",
+  "outcome": "wrong_identity",
+  "reference_names": [
+    "北京大学"
+  ],
+  "reference_ids": [
+    "BJ_INNOV_006"
+  ],
+  "predicted_names": [
+    "北京大学建筑",
+    "石狮子"
+  ],
+  "predicted_ids": [
+    "UNRESOLVED:北京大学建筑",
+    "UNRESOLVED:石狮子"
+  ],
+  "main_correct": false,
+  "strict_correct": false,
+  "reference_extra_entities": [
+    "UNRESOLVED:北京大学建筑",
+    "UNRESOLVED:石狮子"
+  ],
+  "tp": 0,
+  "fp": 2,
+  "fn": 1,
+  "predicted_categories": [
+    "ANCIENT"
+  ],
+  "reference_categories": [
+    "TECH"
+  ],
+  "category_exact": false,
+  "category_tp": 0,
+  "category_fp": 1,
+  "category_fn": 1,
+  "recall_at_k": null,
+  "candidate_ids": [],
+  "raw_reply": "【EMCAST 视频标注结果】\n\n【E｜场景环境层】：视频构建了一个传统中式建筑院落的物理环境。此时处于晴朗白天的状态。整体场景呈现出庄重典雅的感官基调。\n\n【M｜主体行为层】：视觉焦点包含承载主体：中式传统建筑\n承载主体外观：左侧建筑呈现出飞檐斗拱的矩形矩阵形态，外立面材质主要为红漆木柱与彩绘斗拱；右侧建筑呈现出飞檐斗拱的矩形矩阵形态，外立面材质主要为红漆木柱与彩绘斗拱。\n文字符号：[\"北京大学\"]\n\n【C｜文化维度层】：该场景隶属于古城与历史文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为北京大学建筑、石狮子。\n价值指向：北京大学作为近代中国高等教育的发源地，其建筑融合了传统中式风格与西方学院制布局，体现了中西文化交融的历史进程。石狮子作为传统守护神兽，象征着威严与吉祥，是中式建筑文化的重要符号。\n\n【A｜视听语言层】\n镜头语法：镜头为固定机位。状态稳定，节奏慢，以近景为主，景深浅，视觉重心位于前景石狮子头部。\n播放速度效果：正常速度\n构图遵循三分法，光影特征呈现为自然漫射光，视觉色彩倾向于暖调。\n\n【S｜整体叙事层】：视频以固定机位聚焦于北京大学传统建筑前的石狮子，通过近景特写展现其威严神态，背景是具有飞檐斗拱和彩绘装饰的中式建筑，上方悬挂着“北京大学”的牌匾。画面通过稳定的构图和缓慢的节奏，营造出庄重典雅的氛围，突出了传统建筑与历史文化的厚重感。\n\n【T｜技术属性层】\n分辨率：3840x2160；实际帧率：11.48 FPS；标称帧率：25.0 FPS；画幅：16:9；动态范围：SDR；色彩空间/像素格式：yuv420p；采样方式：4:2:0；编码格式：h264；码率：8845772；视频时长：9.44s。\n",
+  "c_layer_natural_language": "：该场景隶属于古城与历史文化。\n\n核心符号：识别出承载该文化内涵的关键视觉锚点为北京大学建筑、石狮子。\n价值指向：北京大学作为近代中国高等教育的发源地，其建筑融合了传统中式风格与西方学院制布局，体现了中西文化交融的历史进程。石狮子作为传统守护神兽，象征着威严与吉祥，是中式建筑文化的重要符号。",
+  "auxiliary_extraction": {
+    "production_schema_field": false,
+    "source": "core_symbol line in existing C natural-language block",
+    "ambiguous_aliases": []
+  },
+  "source_path": "experiments/innovation2/results/four_method_accuracy_20261119/results.json",
+  "attempts": [],
+  "raw_available": true,
+  "full_c_available": true,
+  "original_trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/2/traces/北大1/free/trace.json",
+  "historical_model_config_path": "experiments/innovation2/results/four_method_accuracy_20261119/model_config.json"
+}

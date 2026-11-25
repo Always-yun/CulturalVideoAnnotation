@@ -1,0 +1,55 @@
+{
+  "A": {
+    "n": 20,
+    "stages": {
+      "correct": 14,
+      "identity_reject": 1,
+      "retrieval_miss": 4,
+      "retrieval_gate_reject": 1
+    },
+    "raw_annotation_correct": 15,
+    "final_correct": 14,
+    "correct_lost_after_annotation": [
+      "中关村1号",
+      "北大1"
+    ]
+  },
+  "B": {
+    "n": 20,
+    "stages": {
+      "retrieval_miss": 8,
+      "identity_reject": 5,
+      "retrieval_gate_reject": 2,
+      "correct": 5
+    },
+    "raw_annotation_correct": 11,
+    "final_correct": 5,
+    "correct_lost_after_annotation": [
+      "cbd2",
+      "人民英雄纪念碑",
+      "兔爷",
+      "国博",
+      "天安门1",
+      "庙会"
+    ]
+  },
+  "C": {
+    "n": 18,
+    "stages": {
+      "retrieval_miss": 7,
+      "identity_reject": 4,
+      "correct": 5,
+      "retrieval_gate_reject": 2
+    },
+    "raw_annotation_correct": 11,
+    "final_correct": 5,
+    "correct_lost_after_annotation": [
+      "cbd2",
+      "人民英雄纪念碑",
+      "兔爷",
+      "国博",
+      "天安门",
+      "天安门1"
+    ]
+  }
+}

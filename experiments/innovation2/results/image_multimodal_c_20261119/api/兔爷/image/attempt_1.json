@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_at": "2026-11-19T16:52:10.728007+08:00",
+  "status": "completed",
+  "raw_reply": "【C｜文化维度层】：该场景隶属于民族与民俗文化。\n核心符号：兔爷（传统民俗手工艺品）、红色对联（民俗装饰）。\n价值指向：画面中可见一位工匠正在制作或装饰类似“兔爷”的传统手工艺品，背景中摆放着大量色彩鲜艳的兔爷成品，这些是典型的中国民间手工艺品，与中秋节等民俗活动相关。背景墙上悬挂着红色对联，这是中国传统文化中常见的装饰元素，用于祈福或营造节日氛围。这些元素共同指向民族与民俗文化。</think>",
+  "response_model": "glm-4v",
+  "response_id": "202611191652101fc10422145c40e4",
+  "finish_reason": "stop",
+  "usage": "CompletionUsage(prompt_tokens=22233, prompt_tokens_details=PromptTokensDetails(cached_tokens=6), completion_tokens=115, completion_tokens_details=CompletionTokensDetails(reasoning_tokens=0), total_tokens=22348)",
+  "seconds": 41.21343660354614
+}

@@ -1,0 +1,6 @@
+{
+  "scene_description_raw": "{\"scene\":\"晴朗天气下的城市广场，有喷泉、现代建筑和行人\",\"subject\":\"喷泉喷水，行人活动\",\"visible_features\":[\"大型喷泉，玻璃幕墙建筑，广场地面，行人\",\"中关村1号\"文字标牌\"],\"background\":[\"蓝天，绿树，其他高层建筑\"],\"readable_text\":[{\"text\":\"中关村1号\",\"legibility\":\"clear\"}],\"text_regions\":[{\"kind\":\"标牌\",\"time_ratio\":0.5,\"bbox\":[0.165,0.645,0.452,0.75]}],\"uncertain_entities\":[]}",
+  "scene_description": "无明确文化符号",
+  "scene_evidence_version": "structured_parse_failed",
+  "scene_parse_error": "Expecting ',' delimiter: line 1 column 106 (char 105)"
+}

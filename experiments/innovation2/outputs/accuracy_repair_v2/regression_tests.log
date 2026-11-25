@@ -1,0 +1,49 @@
+2026-11-12 16:22:06.726390: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-12 16:22:06.783962: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-12 16:22:08.081207: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Matplotlib created a temporary cache directory at /tmp/matplotlib-2kcsgb95 because the default path (/home/aws/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+test_background_is_available_but_not_subject_identity (test_accuracy_repair.AccuracyRepairTest.test_background_is_available_but_not_subject_identity) ... ok
+test_cached_evidence_rebuilt_and_forwarded_without_new_pass1 (test_accuracy_repair.AccuracyRepairTest.test_cached_evidence_rebuilt_and_forwarded_without_new_pass1) ... ok
+test_unmatched_prediction_never_accepts_top1 (test_accuracy_repair.AccuracyRepairTest.test_unmatched_prediction_never_accepts_top1) ... ok
+test_verifies_selected_fifth_candidate_not_first (test_accuracy_repair.AccuracyRepairTest.test_verifies_selected_fifth_candidate_not_first) ... ok
+test_mixed_candidate_output_does_not_accept_unknown_entity (test_cultural_integration.IntegrationTest.test_mixed_candidate_output_does_not_accept_unknown_entity) ... ok
+test_multi_gpu_forwards_culture_options (test_cultural_integration.IntegrationTest.test_multi_gpu_forwards_culture_options) ... ok
+test_public_engine_dispatch_and_custom_prompt_bypass (test_cultural_integration.IntegrationTest.test_public_engine_dispatch_and_custom_prompt_bypass) ... ok
+test_rejection_updates_saved_text_and_parse_and_preserves_other_layers (test_cultural_integration.IntegrationTest.test_rejection_updates_saved_text_and_parse_and_preserves_other_layers) ... ok
+test_v2_acceptance_preserves_known_symbol (test_cultural_integration.IntegrationTest.test_v2_acceptance_preserves_known_symbol) ... ok
+test_v2_rejection_reaches_final_annotation (test_cultural_integration.IntegrationTest.test_v2_rejection_reaches_final_annotation) ... ok
+test_clear_name_precedes_generic_feature_and_strong_visual_neighbor (test_evidence_ranking.EvidenceRankingTest.test_clear_name_precedes_generic_feature_and_strong_visual_neighbor) ... ok
+test_duplicate_keywords_do_not_inflate_evidence (test_evidence_ranking.EvidenceRankingTest.test_duplicate_keywords_do_not_inflate_evidence) ... ok
+test_filters_apply_to_both_candidate_sources (test_evidence_ranking.EvidenceRankingTest.test_filters_apply_to_both_candidate_sources) ... ok
+test_generic_hit_not_promoted_to_full_strength (test_evidence_ranking.EvidenceRankingTest.test_generic_hit_not_promoted_to_full_strength) ... ok
+test_image_only_mode_does_not_prioritize_text (test_evidence_ranking.EvidenceRankingTest.test_image_only_mode_does_not_prioritize_text) ... ok
+test_legacy_scores_unchanged_when_ranking_changes (test_evidence_ranking.EvidenceRankingTest.test_legacy_scores_unchanged_when_ranking_changes) ... ok
+test_longer_plaque_does_not_prove_parent_identity (test_evidence_ranking.EvidenceRankingTest.test_longer_plaque_does_not_prove_parent_identity) ... ok
+test_merged_pool_preserves_visual_candidates_without_text (test_evidence_ranking.EvidenceRankingTest.test_merged_pool_preserves_visual_candidates_without_text) ... ok
+test_fresh_malformed_response_is_not_retrieved_as_evidence (test_scene_evidence.SceneEvidenceTest.test_fresh_malformed_response_is_not_retrieved_as_evidence) ... ok
+test_invalid_regions_discarded_and_bounded (test_scene_evidence.SceneEvidenceTest.test_invalid_regions_discarded_and_bounded) ... ok
+test_invalid_structured_cache_does_not_leak_guessed_names (test_scene_evidence.SceneEvidenceTest.test_invalid_structured_cache_does_not_leak_guessed_names) ... ok
+test_legacy_cache_and_disabled_recognition_remain_usable (test_scene_evidence.SceneEvidenceTest.test_legacy_cache_and_disabled_recognition_remain_usable) ... ok
+test_no_regions_and_unsupported_backend_do_not_call_api (test_scene_evidence.SceneEvidenceTest.test_no_regions_and_unsupported_backend_do_not_call_api) ... ok
+test_pipeline_uses_ocr_for_query_and_persists_raw (test_scene_evidence.SceneEvidenceTest.test_pipeline_uses_ocr_for_query_and_persists_raw) ... ok
+test_prepared_evidence_bypasses_scene_and_ocr_calls (test_scene_evidence.SceneEvidenceTest.test_prepared_evidence_bypasses_scene_and_ocr_calls) ... ok
+test_real_video_crop_and_image_request (test_scene_evidence.SceneEvidenceTest.test_real_video_crop_and_image_request) ... ok
+test_uncertainties_and_background_not_retrieval_identity (test_scene_evidence.SceneEvidenceTest.test_uncertainties_and_background_not_retrieval_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.157s
+
+OK
+    [拒识门控] confident：test
+    [约束执行] 输出符号不在候选闭集内 → 改写 unknown_symbol
+    [拒识门控] insufficient：test
+    [约束执行] 输出符号不在候选闭集内 → 改写 unknown_symbol
+    [拒识门控] confident：test
+    [拒识门控] confident：test
+    [拒识门控] confident：test
+    [拒识门控] confident：test
+    [拒识门控] confident：test
+    [拒识门控] confident：test
+    [拒识门控] confident：test
+    [拒识门控] confident：test

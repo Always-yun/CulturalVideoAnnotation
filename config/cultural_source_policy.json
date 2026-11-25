@@ -1,0 +1,47 @@
+{
+  "version": "official_whitelist_v1",
+  "authority_levels": {
+    "A": "国家级官方/权威文化机构、国家部委、国家级非遗或文博平台、UNESCO官方资料",
+    "B": "省市政府、地方文物局、文旅部门、官方博物馆/纪念馆/遗址管理机构",
+    "C": "高校、科研机构、正式学术出版物；仅在A/B不足时使用"
+  },
+  "allowed_domains": [
+    "gov.cn",
+    "mct.gov.cn",
+    "ncha.gov.cn",
+    "ihchina.cn",
+    "dpm.org.cn",
+    "chnmuseum.cn",
+    "cmse.gov.cn",
+    "cnsa.gov.cn",
+    "cas.cn",
+    "unesco.org"
+  ],
+  "blocked_domains": [
+    "baike.baidu.com",
+    "baike.sogou.com",
+    "xiaohongshu.com",
+    "weibo.com",
+    "douyin.com",
+    "bilibili.com",
+    "ctrip.com",
+    "mafengwo.cn"
+  ],
+  "image_only_domains": [
+    "baike.baidu.com",
+    "wapbaike.baidu.com",
+    "bkso.baidu.com",
+    "bkimg.cdn.bcebos.com"
+  ],
+  "image_rules": {
+    "require_source_page": true,
+    "require_direct_image_url": true,
+    "max_images_per_symbol": 5,
+    "min_images_per_symbol": 1,
+    "download_user_agent": "CulturalVideoAnnotation/1.0 (research provenance collector)",
+    "allowed_extensions": [".jpg", ".jpeg", ".png", ".webp"],
+    "do_not_use_search_thumbnails_as_evidence": true,
+    "image_only_sources_are_non_authoritative": true,
+    "image_only_requires_human_review": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "video_id": "太和殿",
+  "gt_symbols": [
+    "太和殿"
+  ],
+  "gt_symbol_ids": [
+    "BJ_GUDU_002"
+  ],
+  "gt_dimension_code": "ANCIENT",
+  "kb_coverage": true,
+  "mode": "text",
+  "status": "completed",
+  "pred_symbol": "识别出承载该文化内涵的关键视觉锚点为太和殿。",
+  "pred_dimension": "古城与历史文化",
+  "unknown_symbol": false,
+  "symbol_correct": true,
+  "dimension_correct": true,
+  "topk_candidates": [
+    {
+      "symbol_id": "BJ_GUDU_002",
+      "canonical_name": "太和殿",
+      "cultural_dimension": "古城与历史文化",
+      "dimension_code": "ANCIENT",
+      "score": 6.0,
+      "reason": "关键词/别名命中：太和殿",
+      "image_score": 0.0,
+      "text_score": 6.0,
+      "fusion_score": 6.0,
+      "ranking_score": null,
+      "retrieval_evidence": {}
+    }
+  ],
+  "recall_at_5": true,
+  "seconds": 66.26,
+  "error_type": "",
+  "trace_path": "experiments/innovation2/results/four_method_accuracy_20261119/workers/0/traces/太和殿/text/trace.json"
+}
